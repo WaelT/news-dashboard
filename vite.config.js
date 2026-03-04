@@ -11,14 +11,14 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api\/yahoo/, ''),
       },
       '/rss/ap': {
-        target: 'https://rsshub.app',
+        target: 'https://news.google.com',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/rss\/ap/, '/apnews/topics/apf-topnews'),
+        rewrite: () => '/rss/search?q=iran+conflict+middle+east&hl=en-US&gl=US&ceid=US:en',
       },
       '/rss/reuters': {
-        target: 'https://www.reutersagency.com',
+        target: 'https://news.google.com',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/rss\/reuters/, '/feed/reuterscomservice/'),
+        rewrite: () => '/rss/search?q=iran+war+strikes&hl=en-US&gl=US&ceid=US:en',
       },
       '/rss/bbc-ar': {
         target: 'https://feeds.bbci.co.uk',

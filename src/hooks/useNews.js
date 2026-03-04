@@ -3,7 +3,7 @@ import useInterval from './useInterval';
 import { fetchRssFeeds, fetchArabicRssFeeds } from '../utils/rssParser';
 
 const GNEWS_API_KEY = import.meta.env.VITE_GNEWS_API_KEY;
-const REFRESH_INTERVAL = 5 * 60 * 1000; // 5 minutes
+const REFRESH_INTERVAL = 2 * 60 * 1000; // 2 minutes
 
 async function fetchGNews(lang = 'en') {
   if (!GNEWS_API_KEY) return [];
