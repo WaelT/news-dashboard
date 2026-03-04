@@ -193,28 +193,40 @@ export default function ImpactTracker() {
   const containerRef = useRef(null);
 
   useEffect(() => {
-    fetch('/casualties.json')
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json();
-      })
-      .then((data) => {
-        if (data?.casualties && typeof data.casualties === 'object') {
-          const merged = { ...DEFAULT_CASUALTIES };
-          for (const [key, vals] of Object.entries(data.casualties)) {
-            if (merged[key]) {
-              merged[key] = {
-                killed: vals.killed ?? merged[key].killed,
-                wounded: vals.wounded ?? merged[key].wounded,
-              };
-            }
-          }
-          setCasualties(merged);
-          if (data.updatedAt) setUpdatedAt(data.updatedAt);
-          if (data.source) setSource(data.source);
+    let cancelled = false;
+
+    function applyData(data) {
+      if (cancelled || !data?.casualties || typeof data.casualties !== 'object') return false;
+      const merged = { ...DEFAULT_CASUALTIES };
+      for (const [key, vals] of Object.entries(data.casualties)) {
+        if (merged[key]) {
+          merged[key] = {
+            killed: vals.killed ?? merged[key].killed,
+            wounded: vals.wounded ?? merged[key].wounded,
+          };
         }
-      })
-      .catch(() => {});
+      }
+      setCasualties(merged);
+      if (data.updatedAt) setUpdatedAt(data.updatedAt);
+      if (data.source) setSource(data.source);
+      return true;
+    }
+
+    async function fetchCasualties() {
+      // Try live endpoint first, fall back to static JSON
+      try {
+        const res = await fetch('/api/casualties');
+        if (res.ok) { applyData(await res.json()); return; }
+      } catch {}
+      try {
+        const res = await fetch('/casualties.json');
+        if (res.ok) applyData(await res.json());
+      } catch {}
+    }
+
+    fetchCasualties();
+    const interval = setInterval(fetchCasualties, 5 * 60 * 1000); // refresh every 5 min
+    return () => { cancelled = true; clearInterval(interval); };
   }, []);
 
   useEffect(() => {
