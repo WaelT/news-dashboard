@@ -1,8 +1,12 @@
 export default async function handler(req, res) {
-  const { path } = req.query;
-  const upstream = Array.isArray(path) ? path.join('/') : path;
-  const qs = new URL(req.url, 'http://localhost').search;
-  const url = `https://query1.finance.yahoo.com/${upstream}${qs}`;
+  // req.query.path = ['v8', 'finance', 'chart', 'ES=F']
+  // req.query also contains range, interval, etc.
+  const { path, ...params } = req.query;
+  const upstream = Array.isArray(path) ? path.join('/') : (path || '');
+
+  // Rebuild query string from non-path params
+  const qs = new URLSearchParams(params).toString();
+  const url = `https://query1.finance.yahoo.com/${upstream}${qs ? '?' + qs : ''}`;
 
   try {
     const response = await fetch(url, {
@@ -14,7 +18,7 @@ export default async function handler(req, res) {
     });
 
     if (!response.ok) {
-      res.status(response.status).json({ error: `Yahoo Finance HTTP ${response.status}` });
+      res.status(response.status).json({ error: `Yahoo Finance HTTP ${response.status}`, url });
       return;
     }
 
