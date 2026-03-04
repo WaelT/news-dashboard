@@ -83,24 +83,24 @@ export default function ConflictTimeline({ articles }) {
 
                 {/* Time + type badge */}
                 <div className="flex items-center gap-2 mb-0.5">
-                  <span className="text-ops-muted text-[9px]">{formatTime(event.pubDate)}</span>
+                  <span className="text-ops-muted text-[11px]">{formatTime(event.pubDate)}</span>
                   <span
-                    className="text-[7px] font-bold px-1 py-0.5 rounded tracking-wider"
+                    className="text-[9px] font-bold px-1.5 py-0.5 rounded tracking-wider"
                     style={{ background: `${et.color}22`, color: et.color }}
                   >
                     {et.label}
                   </span>
                   <span
-                    className="text-[7px] font-bold px-1 py-0.5 rounded"
+                    className="text-[9px] font-bold px-1.5 py-0.5 rounded"
                     style={{ background: `${event.sourceColor || '#6e7681'}22`, color: event.sourceColor || '#6e7681' }}
                   >
                     {event.source}
                   </span>
-                  <span className="text-ops-muted text-[8px] ml-auto">{timeAgo(event.pubDate)}</span>
+                  <span className="text-ops-muted text-[10px] ml-auto">{timeAgo(event.pubDate)}</span>
                 </div>
 
                 {/* Headline */}
-                <p className="text-[11px] text-ops-text leading-relaxed group-hover:text-ops-amber transition-colors line-clamp-2">
+                <p className="text-[13px] text-ops-text leading-relaxed group-hover:text-ops-amber transition-colors line-clamp-2">
                   {event.title}
                 </p>
               </a>
