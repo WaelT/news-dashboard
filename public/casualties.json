@@ -1,0 +1,54 @@
+{
+  "updatedAt": "2026-03-04T16:30:53.372Z",
+  "source": "Al Jazeera Death Toll Tracker",
+  "casualties": {
+    "israel": {
+      "killed": 11,
+      "wounded": 500
+    },
+    "bahrain": {
+      "killed": 1,
+      "wounded": 4
+    },
+    "lebanon": {
+      "killed": 50,
+      "wounded": 335
+    },
+    "oman": {
+      "killed": 1,
+      "wounded": 5
+    },
+    "qatar": {
+      "killed": 0,
+      "wounded": 16
+    },
+    "saudi": {
+      "killed": 0,
+      "wounded": 0
+    },
+    "uae": {
+      "killed": 3,
+      "wounded": 68
+    },
+    "iran": {
+      "killed": 1045,
+      "wounded": 500
+    },
+    "usa": {
+      "killed": 6,
+      "wounded": 18
+    },
+    "iraq": {
+      "killed": 2,
+      "wounded": 5
+    },
+    "kuwait": {
+      "killed": 4,
+      "wounded": 35
+    },
+    "jordan": {
+      "killed": 0,
+      "wounded": 5
+    }
+  }
+}
