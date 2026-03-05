@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const FEEDS = [
   { handle: 'AJEnglish', name: 'Al Jazeera EN' },
@@ -8,12 +8,47 @@ const FEEDS = [
   { handle: 'AP', name: 'AP News' },
 ];
 
-function timelineUrl(handle) {
-  return `https://syndication.twitter.com/srv/timeline-profile/screen-name/${handle}?dnt=true&embedId=twitter-widget-0&hideBorder=true&hideFooter=true&hideHeader=true&hideScrollBar=false&lang=en&theme=dark&transparent=true`;
+let scriptLoaded = false;
+
+function ensureScript() {
+  if (scriptLoaded) return;
+  scriptLoaded = true;
+  const script = document.createElement('script');
+  script.src = 'https://platform.twitter.com/widgets.js';
+  script.async = true;
+  document.head.appendChild(script);
 }
 
 export default function TwitterFeed() {
   const [activeHandle, setActiveHandle] = useState('AJEnglish');
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    ensureScript();
+  }, []);
+
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+
+    el.innerHTML = '';
+    const anchor = document.createElement('a');
+    anchor.className = 'twitter-timeline';
+    anchor.setAttribute('data-theme', 'dark');
+    anchor.setAttribute('data-chrome', 'noheader nofooter noborders transparent');
+    anchor.setAttribute('href', `https://x.com/${activeHandle}`);
+    anchor.textContent = `Loading @${activeHandle}...`;
+    el.appendChild(anchor);
+
+    const tryLoad = () => {
+      if (window.twttr?.widgets) {
+        window.twttr.widgets.load(el);
+      } else {
+        setTimeout(tryLoad, 300);
+      }
+    };
+    tryLoad();
+  }, [activeHandle]);
 
   return (
     <div className="flex flex-col h-full">
@@ -37,14 +72,8 @@ export default function TwitterFeed() {
         ))}
       </div>
 
-      <div className="flex-1 min-h-0">
-        <iframe
-          key={activeHandle}
-          src={timelineUrl(activeHandle)}
-          className="w-full h-full border-0"
-          sandbox="allow-same-origin allow-scripts allow-popups"
-          title={`@${activeHandle} timeline`}
-        />
+      <div className="flex-1 min-h-0 overflow-y-auto" ref={containerRef}>
+        <span className="text-ops-muted text-[9px] p-3 block">Loading @{activeHandle}...</span>
       </div>
     </div>
   );

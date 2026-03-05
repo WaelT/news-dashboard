@@ -2,6 +2,11 @@ import { useState } from 'react';
 
 const STREAMS = [
   {
+    name: 'Al Jazeera English',
+    videoId: 'mJdhDuweBHM',
+    color: '#d2a02a',
+  },
+  {
     name: 'Al Jazeera Arabic',
     videoId: 'bNyUyrR0PHo',
     color: '#d2a02a',
@@ -15,11 +20,6 @@ const STREAMS = [
     name: 'France 24',
     videoId: 'Ap-UM1O9RBU',
     color: '#00a1e0',
-  },
-  {
-    name: 'DW News',
-    videoId: 'VoXhNxAL6EY',
-    color: '#0070c0',
   },
 ];
 
