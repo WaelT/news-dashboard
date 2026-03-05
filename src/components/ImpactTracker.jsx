@@ -213,19 +213,14 @@ export default function ImpactTracker() {
     }
 
     async function fetchCasualties() {
-      // Try live endpoint first, fall back to static JSON
       try {
         const res = await fetch('/api/casualties');
-        if (res.ok) { applyData(await res.json()); return; }
-      } catch {}
-      try {
-        const res = await fetch(`/casualties.json?t=${Date.now()}`);
         if (res.ok) applyData(await res.json());
       } catch {}
     }
 
     fetchCasualties();
-    const interval = setInterval(fetchCasualties, 5 * 60 * 1000); // refresh every 5 min
+    const interval = setInterval(fetchCasualties, 5 * 60 * 1000);
     return () => { cancelled = true; clearInterval(interval); };
   }, []);
 
