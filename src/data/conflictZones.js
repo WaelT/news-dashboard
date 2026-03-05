@@ -502,7 +502,7 @@ const conflictZones = [
     icon: 'diplomatic',
     description: 'Coalition coordination — refugee crisis management',
     status: 'monitoring',
-    keywords: ['amman', 'عمان', 'jordanian capital', 'refugee jordan'],
+    keywords: ['amman', 'عمّان', 'jordanian capital', 'refugee jordan'],
   },
   // ═══════════════════════════════════════
   // ADDITIONAL — Strike locations (Feb-Mar 2026)
@@ -593,7 +593,7 @@ const conflictZones = [
     icon: 'missile',
     description: 'Fuel tank at commercial port hit by Iranian drone attack',
     status: 'high-alert',
-    keywords: ['duqm', 'الدقم', 'oman', 'عمان', 'oman port'],
+    keywords: ['duqm', 'الدقم', 'oman port', 'سلطنة عمان', 'oman drone', 'oman strike'],
   },
   // ═══════════════════════════════════════
   // IRAQ — Additional zones
