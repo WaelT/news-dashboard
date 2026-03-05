@@ -45,20 +45,20 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'US Military Ops', value: '$65B', sub: 'direct cost', color: '#3b82f6' },
-  { label: 'US Total Impact', value: '$210B', sub: 'inc. economic losses', color: '#3b82f6' },
-  { label: 'Israel Weekly Cost', value: '$2.9B', sub: '/week (Finance Min.)', color: '#0088cc' },
-  { label: 'Iran Infrastructure', value: '$17.8B', sub: 'damage est.', color: '#ff0040' },
-  { label: 'Oil Tanker Rates', value: '$424K', sub: '/day (all-time high)', color: '#ffcc00' },
+  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
   { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
-  { label: 'KOSPI Crash', value: '-12%', sub: 'worst since 9/11', color: '#ff0040' },
-  { label: 'EU Gas Prices', value: '+38%', sub: 'after Qatar strikes', color: '#ff6600' },
-  { label: 'UAE GDP Impact', value: '-$18B', sub: 'trade disruption', color: '#d4a017' },
-  { label: 'Saudi Aramco Loss', value: '-$42B', sub: 'market cap drop', color: '#d4a017' },
-  { label: 'Qatar LNG Halt', value: '$9.2B', sub: 'export losses', color: '#d4a017' },
-  { label: 'Kuwait Port Closure', value: '$3.1B', sub: 'trade blocked', color: '#d4a017' },
-  { label: 'Bahrain Base Cost', value: '$1.4B', sub: 'defense surge', color: '#d4a017' },
-  { label: 'Oman Shipping', value: '-61%', sub: 'strait traffic drop', color: '#d4a017' },
+  { label: 'Oil Price Forecast', value: '$100', sub: 'if disruptions persist', color: '#ffcc00' },
+  { label: 'Global Inflation', value: '+0.8%', sub: 'projected increase', color: '#ff6600' },
+  { label: 'EU Gas Prices', value: '€48', sub: '€48/MWh', color: '#ff6600' },
+  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
+  { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
+  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
+  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
+  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
+  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
 ];
 
 function EconomicImpact() {
