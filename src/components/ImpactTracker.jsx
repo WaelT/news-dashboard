@@ -219,7 +219,7 @@ export default function ImpactTracker() {
         if (res.ok) { applyData(await res.json()); return; }
       } catch {}
       try {
-        const res = await fetch('/casualties.json');
+        const res = await fetch(`/casualties.json?t=${Date.now()}`);
         if (res.ok) applyData(await res.json());
       } catch {}
     }
