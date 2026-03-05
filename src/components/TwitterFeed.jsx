@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState } from 'react';
 
 const FEEDS = [
   { handle: 'AJEnglish', name: 'Al Jazeera EN' },
@@ -8,52 +8,12 @@ const FEEDS = [
   { handle: 'AP', name: 'AP News' },
 ];
 
-function loadWidgetScript() {
-  return new Promise((resolve) => {
-    if (window.twttr?.widgets) { resolve(window.twttr); return; }
-    const existing = document.getElementById('twitter-wjs');
-    if (existing) { existing.addEventListener('load', () => resolve(window.twttr)); return; }
-    const script = document.createElement('script');
-    script.id = 'twitter-wjs';
-    script.src = 'https://platform.twitter.com/widgets.js';
-    script.async = true;
-    script.onload = () => resolve(window.twttr);
-    document.head.appendChild(script);
-  });
+function timelineUrl(handle) {
+  return `https://syndication.twitter.com/srv/timeline-profile/screen-name/${handle}?dnt=true&embedId=twitter-widget-0&hideBorder=true&hideFooter=true&hideHeader=true&hideScrollBar=false&lang=en&theme=dark&transparent=true`;
 }
 
 export default function TwitterFeed() {
   const [activeHandle, setActiveHandle] = useState('AJEnglish');
-  const containerRef = useRef(null);
-  const [loading, setLoading] = useState(true);
-
-  const renderTimeline = useCallback(async (handle) => {
-    setLoading(true);
-    const el = containerRef.current;
-    if (!el) return;
-    el.innerHTML = '';
-
-    try {
-      const twttr = await loadWidgetScript();
-      await twttr.widgets.createTimeline(
-        { sourceType: 'profile', screenName: handle },
-        el,
-        {
-          theme: 'dark',
-          chrome: 'noheader nofooter noborders transparent',
-          height: el.parentElement?.clientHeight || 400,
-          dnt: true,
-        }
-      );
-    } catch {
-      el.innerHTML = '';
-    }
-    setLoading(false);
-  }, []);
-
-  useEffect(() => {
-    renderTimeline(activeHandle);
-  }, [activeHandle, renderTimeline]);
 
   return (
     <div className="flex flex-col h-full">
@@ -77,18 +37,14 @@ export default function TwitterFeed() {
         ))}
       </div>
 
-      <div className="flex-1 min-h-0 overflow-y-auto">
-        {loading && (
-          <div className="p-4 space-y-3">
-            {[...Array(4)].map((_, i) => (
-              <div key={i} className="animate-pulse">
-                <div className="h-3 bg-ops-border rounded w-3/4 mb-1.5" />
-                <div className="h-2 bg-ops-border rounded w-1/2" />
-              </div>
-            ))}
-          </div>
-        )}
-        <div ref={containerRef} className="h-full" />
+      <div className="flex-1 min-h-0">
+        <iframe
+          key={activeHandle}
+          src={timelineUrl(activeHandle)}
+          className="w-full h-full border-0"
+          sandbox="allow-same-origin allow-scripts allow-popups"
+          title={`@${activeHandle} timeline`}
+        />
       </div>
     </div>
   );
