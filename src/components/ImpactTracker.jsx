@@ -99,10 +99,10 @@ export default function ImpactTracker() {
               {/* Country label */}
               <div className="flex items-center justify-between mb-1">
                 <div className="flex items-center gap-1.5">
-                  <span className="text-[11px] font-bold" style={{ color: p.color }}>{p.label}</span>
+                  <span className="text-xs font-bold" style={{ color: p.color }}>{p.label}</span>
                   <img src={flagUrl(p.cc)} alt={p.label} className="w-4 h-3 object-cover rounded-sm" />
                 </div>
-                <span className="text-[9px] font-mono text-ops-muted">{p.total.toLocaleString()}</span>
+                <span className="text-[11px] font-mono text-ops-muted">{p.total.toLocaleString()}</span>
               </div>
               {/* Killed bar */}
               <div className="flex items-center gap-2 mb-0.5">
@@ -112,7 +112,7 @@ export default function ImpactTracker() {
                     style={{ width: `${killedPct}%`, background: '#cc0033' }}
                   />
                 </div>
-                <span className="text-[9px] font-mono font-bold text-[#ff0040] w-10 text-right">
+                <span className="text-[11px] font-mono font-bold text-[#ff0040] w-12 text-right">
                   {p.killed > 0 ? formatNum(p.killed) : '-'}
                 </span>
               </div>
@@ -124,7 +124,7 @@ export default function ImpactTracker() {
                     style={{ width: `${woundedPct}%`, background: '#cc5200' }}
                   />
                 </div>
-                <span className="text-[9px] font-mono font-bold text-[#ff6600] w-10 text-right">
+                <span className="text-[11px] font-mono font-bold text-[#ff6600] w-12 text-right">
                   {p.wounded > 0 ? formatNum(p.wounded) : '-'}
                 </span>
               </div>
