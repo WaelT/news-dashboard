@@ -1,10 +1,11 @@
 import { useMemo, useRef, useEffect, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, Polyline, Tooltip, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import conflictZones from '../data/conflictZones';
 import MapMarkerPopup from './MapMarkerPopup';
 import MapFilterBar from './MapFilterBar';
+import attackRoutes from '../data/attackRoutes';
 
 // SVG icon paths for each marker type
 const ICONS = {
@@ -312,6 +313,48 @@ function timeAgo(dateStr) {
   return `${Math.floor(s / 86400)}d ago`;
 }
 
+function computeArc(from, to, numPoints = 30) {
+  const midLat = (from[0] + to[0]) / 2;
+  const midLng = (from[1] + to[1]) / 2;
+  const dLat = to[0] - from[0];
+  const dLng = to[1] - from[1];
+  const offset = 0.15;
+  const ctrlLat = midLat + dLng * offset;
+  const ctrlLng = midLng - dLat * offset;
+  const points = [];
+  for (let i = 0; i <= numPoints; i++) {
+    const t = i / numPoints;
+    const lat = (1 - t) * (1 - t) * from[0] + 2 * (1 - t) * t * ctrlLat + t * t * to[0];
+    const lng = (1 - t) * (1 - t) * from[1] + 2 * (1 - t) * t * ctrlLng + t * t * to[1];
+    points.push([lat, lng]);
+  }
+  return points;
+}
+
+function AttackLines() {
+  return (
+    <>
+      {attackRoutes.map((route) => (
+        <Polyline
+          key={route.id}
+          positions={computeArc(route.from, route.to)}
+          pathOptions={{
+            color: route.color,
+            weight: 1.5,
+            opacity: 0.4,
+            dashArray: '8,6',
+            className: 'attack-line',
+          }}
+        >
+          <Tooltip permanent={false} direction="center" className="attack-tooltip">
+            {route.label}
+          </Tooltip>
+        </Polyline>
+      ))}
+    </>
+  );
+}
+
 export default function MapView({ articles = [] }) {
   // Fetch dynamic strike zones from strikes.json
   const [dynamicZones, setDynamicZones] = useState([]);
@@ -340,6 +383,8 @@ export default function MapView({ articles = [] }) {
     for (const z of dynamicZones) map.set(z.id, z); // dynamic overwrites or adds
     return Array.from(map.values());
   }, [dynamicZones]);
+
+  const [showRoutes, setShowRoutes] = useState(false);
 
   // Filter state
   const [filters, setFilters] = useState({
@@ -434,16 +479,10 @@ export default function MapView({ articles = [] }) {
         <span className="text-ops-green text-[10px] font-bold tracking-widest uppercase bg-ops-panel/90 px-2 py-1 border border-ops-border rounded backdrop-blur-sm">
           TACTICAL MAP — MIDDLE EAST THEATER
         </span>
-        {activeCount > 0 && (
-          <span className="text-[9px] font-bold bg-ops-panel/90 px-2 py-1 border border-ops-border rounded backdrop-blur-sm flex items-center gap-1.5">
-            <span className="live-dot w-1.5 h-1.5 rounded-full bg-ops-red" />
-            <span className="text-ops-red">{activeCount} ACTIVE</span>
-          </span>
-        )}
       </div>
 
       {/* Map filters */}
-      <MapFilterBar filters={filters} onFiltersChange={setFilters} countries={countries} />
+      <MapFilterBar filters={filters} onFiltersChange={setFilters} countries={countries} showRoutes={showRoutes} onToggleRoutes={() => setShowRoutes((v) => !v)} />
 
       {/* Legend */}
       <div className="absolute bottom-6 right-3 z-[1000] bg-ops-panel/90 border border-ops-border rounded px-2.5 py-2 backdrop-blur-sm">
@@ -475,6 +514,8 @@ export default function MapView({ articles = [] }) {
         />
 
         <FlyToActive zones={filteredZones} articles={articles} />
+
+        {showRoutes && <AttackLines />}
 
         {filteredZones.map((zone) => (
           <ClickMarker key={zone.id} zone={zone} articles={articles} />

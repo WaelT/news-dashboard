@@ -44,6 +44,44 @@ function formatPrice(price) {
   return price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
+const ECON_DATA = [
+  { label: 'US Military Ops', value: '$65B', sub: 'direct cost', color: '#3b82f6' },
+  { label: 'US Total Impact', value: '$210B', sub: 'inc. economic losses', color: '#3b82f6' },
+  { label: 'Israel Weekly Cost', value: '$2.9B', sub: '/week (Finance Min.)', color: '#0088cc' },
+  { label: 'Iran Infrastructure', value: '$17.8B', sub: 'damage est.', color: '#ff0040' },
+  { label: 'Oil Tanker Rates', value: '$424K', sub: '/day (all-time high)', color: '#ffcc00' },
+  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
+  { label: 'KOSPI Crash', value: '-12%', sub: 'worst since 9/11', color: '#ff0040' },
+  { label: 'EU Gas Prices', value: '+38%', sub: 'after Qatar strikes', color: '#ff6600' },
+  { label: 'UAE GDP Impact', value: '-$18B', sub: 'trade disruption', color: '#d4a017' },
+  { label: 'Saudi Aramco Loss', value: '-$42B', sub: 'market cap drop', color: '#d4a017' },
+  { label: 'Qatar LNG Halt', value: '$9.2B', sub: 'export losses', color: '#d4a017' },
+  { label: 'Kuwait Port Closure', value: '$3.1B', sub: 'trade blocked', color: '#d4a017' },
+  { label: 'Bahrain Base Cost', value: '$1.4B', sub: 'defense surge', color: '#d4a017' },
+  { label: 'Oman Shipping', value: '-61%', sub: 'strait traffic drop', color: '#d4a017' },
+];
+
+function EconomicImpact() {
+  return (
+    <div className="px-3 py-1.5">
+      <div className="grid grid-cols-2 gap-x-3 gap-y-1.5">
+        {ECON_DATA.map((item) => (
+          <div key={item.label} className="py-1 border-b border-ops-border/30">
+            <div className="flex items-baseline gap-1.5">
+              <span className="text-sm font-bold font-mono" style={{ color: item.color }}>{item.value}</span>
+              <span className="text-[10px] text-ops-muted truncate">{item.sub}</span>
+            </div>
+            <span className="text-[11px] text-ops-text">{item.label}</span>
+          </div>
+        ))}
+      </div>
+      <p className="text-ops-muted text-[8px] mt-1.5 pt-1 border-t border-ops-border/30">
+        Sources: Al Jazeera, Oxford Economics, Yahoo Finance, Bloomberg, GCC Central Banks
+      </p>
+    </div>
+  );
+}
+
 export default function MarketImpact() {
   const [markets, setMarkets] = useState(() =>
     SYMBOLS.map((s) => ({ ...s, ...FALLBACK[s.id], live: false }))
@@ -84,8 +122,8 @@ export default function MarketImpact() {
         )}
       </div>
 
-      <div className="flex-1 min-h-0 overflow-y-auto px-3 py-2">
-        <div className="grid grid-cols-2 gap-x-4 gap-y-1">
+      <div className="flex-1 min-h-0 overflow-y-auto">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-1 px-3 py-2">
           {markets.map((m) => {
             const up = m.change >= 0;
             const color = up ? '#22c55e' : '#ff0040';
@@ -101,6 +139,13 @@ export default function MarketImpact() {
             );
           })}
         </div>
+
+        {/* Economic Impact */}
+        <div className="px-3 py-1.5 border-t border-ops-border flex items-center justify-between">
+          <span className="text-[#ff6600] text-[10px] font-bold tracking-widest">ECONOMIC IMPACT</span>
+          <span className="text-ops-muted text-[8px]">EST. COSTS</span>
+        </div>
+        <EconomicImpact />
       </div>
     </div>
   );

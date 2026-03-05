@@ -9,6 +9,10 @@ const AR_FEEDS = [
   { name: 'الجزيرة', url: '/rss/aljazeera-ar', color: '#d4a017' },
   { name: 'BBC عربي', url: '/rss/bbc-ar', color: '#e63946' },
   { name: 'سكاي نيوز', url: '/rss/skynews-ar', color: '#00b4d8' },
+  { name: 'العربية', url: '/rss/alarabiya-ar', color: '#ff6600' },
+  { name: 'RT عربي', url: '/rss/rt-ar', color: '#8ac926' },
+  { name: 'أخبار غوغل', url: '/rss/google-ar', color: '#4285f4' },
+  { name: 'فرانس 24', url: '/rss/france24-ar', color: '#00a1e0' },
 ];
 
 // Keywords to filter Arabic feeds for Iran war-related news

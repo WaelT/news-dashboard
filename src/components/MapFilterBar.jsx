@@ -50,7 +50,7 @@ function Chip({ label, active, color, onClick }) {
   );
 }
 
-export default function MapFilterBar({ filters, onFiltersChange, countries }) {
+export default function MapFilterBar({ filters, onFiltersChange, countries, showRoutes, onToggleRoutes }) {
   const [expanded, setExpanded] = useState(false);
 
   const toggleFilter = (category, value) => {
@@ -138,8 +138,8 @@ export default function MapFilterBar({ filters, onFiltersChange, countries }) {
             </div>
           </div>
 
-          {/* Live only toggle */}
-          <div className="mb-2 flex items-center gap-2">
+          {/* Toggles */}
+          <div className="mb-2 flex items-center gap-2 flex-wrap">
             <button
               onClick={() => onFiltersChange({ ...filters, liveOnly: !filters.liveOnly })}
               className={`text-[9px] font-bold px-2 py-1 rounded border ${
@@ -150,7 +150,16 @@ export default function MapFilterBar({ filters, onFiltersChange, countries }) {
             >
               LIVE ONLY
             </button>
-            <span className="text-[8px] text-ops-muted">Zones with articles &lt; 24h</span>
+            <button
+              onClick={onToggleRoutes}
+              className={`text-[9px] font-bold px-2 py-1 rounded border ${
+                showRoutes
+                  ? 'bg-ops-red/20 border-ops-red text-ops-red'
+                  : 'bg-transparent border-ops-border text-ops-muted'
+              }`}
+            >
+              ATTACK ROUTES
+            </button>
           </div>
 
           {/* Clear */}

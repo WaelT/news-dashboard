@@ -45,6 +45,31 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/rss\/aljazeera/, '/xml/rss/all.xml'),
       },
+      '/api/polymarket': {
+        target: 'https://gamma-api.polymarket.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/polymarket/, ''),
+      },
+      '/rss/alarabiya-ar': {
+        target: 'https://www.alarabiya.net',
+        changeOrigin: true,
+        rewrite: () => '/feed',
+      },
+      '/rss/rt-ar': {
+        target: 'https://arabic.rt.com',
+        changeOrigin: true,
+        rewrite: () => '/rss',
+      },
+      '/rss/google-ar': {
+        target: 'https://news.google.com',
+        changeOrigin: true,
+        rewrite: () => '/rss/search?q=%D8%A5%D9%8A%D8%B1%D8%A7%D9%86+%D8%AD%D8%B1%D8%A8+%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA&hl=ar&gl=SA&ceid=SA:ar',
+      },
+      '/rss/france24-ar': {
+        target: 'https://www.france24.com',
+        changeOrigin: true,
+        rewrite: () => '/ar/rss',
+      },
     },
   },
 });

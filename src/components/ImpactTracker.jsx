@@ -16,14 +16,14 @@ const PARTY_META = [
 ];
 
 const DEFAULT_CASUALTIES = {
-  iran: { killed: 787, wounded: 700 },
-  israel: { killed: 11, wounded: 60 },
-  usa: { killed: 6, wounded: 18 },
-  lebanon: { killed: 40, wounded: 246 },
+  iran: { killed: 1045, wounded: 2100 },
+  israel: { killed: 11, wounded: 62 },
+  usa: { killed: 6, wounded: 23 },
+  lebanon: { killed: 50, wounded: 335 },
   yemen: { killed: 0, wounded: 0 },
-  iraq: { killed: 2, wounded: 5 },
+  iraq: { killed: 3, wounded: 5 },
   uae: { killed: 3, wounded: 68 },
-  kuwait: { killed: 3, wounded: 35 },
+  kuwait: { killed: 4, wounded: 35 },
   bahrain: { killed: 1, wounded: 4 },
   qatar: { killed: 0, wounded: 16 },
   syria: { killed: 0, wounded: 0 },
@@ -256,7 +256,7 @@ export default function ImpactTracker() {
 
   const totalKilled = parties.reduce((s, p) => s + p.killed, 0);
   const totalWounded = parties.reduce((s, p) => s + p.wounded, 0);
-  const dateLabel = updatedAt ? formatDate(updatedAt) : 'MAR 3, 2026';
+  const dateLabel = updatedAt ? formatDate(updatedAt) : 'MAR 5, 2026';
 
   const handleHover = useCallback((key) => setHovered(key), []);
 

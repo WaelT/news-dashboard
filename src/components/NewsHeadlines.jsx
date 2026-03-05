@@ -91,7 +91,7 @@ export function EnglishNews() {
   return (
     <NewsList
       {...data}
-      label="NEWS FEED — EN"
+      label="LATEST ARTICLES"
       emptyMsg="Set VITE_GNEWS_API_KEY in .env for live data. RSS feeds require dev server proxy."
     />
   );
@@ -102,7 +102,7 @@ export function ArabicNews() {
   return (
     <NewsList
       {...data}
-      label="أخبار — AR"
+      label="آخر المقالات"
       emptyMsg="Set VITE_GNEWS_API_KEY in .env for live data. Arabic RSS feeds require dev server proxy."
     />
   );
