@@ -97,6 +97,7 @@ const COUNTRY_FALLBACK = {
 
 function getCountry(zone) {
   if (zone.id >= 1 && zone.id <= 24) return 'Iran';
+  if (zone.id >= 147 && zone.id <= 151) return 'Azerbaijan';
   const comma = zone.name.lastIndexOf(', ');
   if (comma !== -1) return zone.name.slice(comma + 2);
   return COUNTRY_FALLBACK[zone.id] || 'Other';
