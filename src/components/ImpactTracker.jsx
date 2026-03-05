@@ -1,4 +1,5 @@
 import { useMemo, useState, useEffect, useRef, useCallback } from 'react';
+// Note: casualties data is updated via GitHub Action (scripts/update-casualties.mjs)
 
 const PARTY_META = [
   { key: 'iran', flag: '\u{1f1ee}\u{1f1f7}', label: 'Iran', color: '#ff0040' },
@@ -35,15 +36,6 @@ const DEFAULT_CASUALTIES = {
 function formatNum(n) {
   if (n >= 1000) return `${(n / 1000).toFixed(1)}K`;
   return n.toLocaleString();
-}
-
-function formatDate(iso) {
-  try {
-    const d = new Date(iso);
-    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).toUpperCase();
-  } catch {
-    return null;
-  }
 }
 
 // --- Squarified treemap layout ---
@@ -187,44 +179,10 @@ function TreemapCell({ node, hovered, onHover }) {
 }
 
 export default function ImpactTracker() {
-  const [casualties, setCasualties] = useState(DEFAULT_CASUALTIES);
-  const [updatedAt, setUpdatedAt] = useState(null);
-  const [source, setSource] = useState(null);
+  const casualties = DEFAULT_CASUALTIES;
   const [hovered, setHovered] = useState(null);
   const [dims, setDims] = useState({ w: 0, h: 0 });
   const containerRef = useRef(null);
-
-  useEffect(() => {
-    let cancelled = false;
-
-    function applyData(data) {
-      if (cancelled || !data?.casualties || typeof data.casualties !== 'object') return false;
-      const merged = { ...DEFAULT_CASUALTIES };
-      for (const [key, vals] of Object.entries(data.casualties)) {
-        if (merged[key]) {
-          merged[key] = {
-            killed: vals.killed ?? merged[key].killed,
-            wounded: vals.wounded ?? merged[key].wounded,
-          };
-        }
-      }
-      setCasualties(merged);
-      if (data.updatedAt) setUpdatedAt(data.updatedAt);
-      if (data.source) setSource(data.source);
-      return true;
-    }
-
-    async function fetchCasualties() {
-      try {
-        const res = await fetch('/api/casualties');
-        if (res.ok) applyData(await res.json());
-      } catch {}
-    }
-
-    fetchCasualties();
-    const interval = setInterval(fetchCasualties, 5 * 60 * 1000);
-    return () => { cancelled = true; clearInterval(interval); };
-  }, []);
 
   useEffect(() => {
     const el = containerRef.current;
@@ -253,7 +211,7 @@ export default function ImpactTracker() {
 
   const totalKilled = parties.reduce((s, p) => s + p.killed, 0);
   const totalWounded = parties.reduce((s, p) => s + p.wounded, 0);
-  const dateLabel = updatedAt ? formatDate(updatedAt) : 'MAR 5, 2026';
+  const dateLabel = 'MAR 5, 2026';
 
   const handleHover = useCallback((key) => setHovered(key), []);
 
@@ -289,7 +247,7 @@ export default function ImpactTracker() {
       {/* Source */}
       <div className="px-3 py-1 border-t border-ops-border/50">
         <p className="text-ops-muted text-[7px]">
-          Sources: {source || 'Reuters, Al Jazeera, HRANA'}.
+          Sources: Wikipedia, Al Jazeera, HRANA, Reuters.
         </p>
       </div>
     </div>
