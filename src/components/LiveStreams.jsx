@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 const STREAMS = [
   {
-    name: 'Al Jazeera English',
+    name: 'Al Jazeera Mubasher',
     videoId: 'mJdhDuweBHM',
     color: '#d2a02a',
   },
