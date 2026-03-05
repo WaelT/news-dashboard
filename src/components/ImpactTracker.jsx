@@ -1,20 +1,24 @@
-import { useMemo, useState, useEffect, useRef, useCallback } from 'react';
+import { useMemo } from 'react';
 // Note: casualties data is updated via GitHub Action (scripts/update-casualties.mjs)
 
 const PARTY_META = [
-  { key: 'iran', flag: '\u{1f1ee}\u{1f1f7}', label: 'Iran', color: '#ff0040' },
-  { key: 'israel', flag: '\u{1f1ee}\u{1f1f1}', label: 'Israel', color: '#0088cc' },
-  { key: 'usa', flag: '\u{1f1fa}\u{1f1f8}', label: 'USA', color: '#3b82f6' },
-  { key: 'lebanon', flag: '\u{1f1f1}\u{1f1e7}', label: 'Lebanon', color: '#ff6600' },
-  { key: 'yemen', flag: '\u{1f1fe}\u{1f1ea}', label: 'Yemen', color: '#d4a017' },
-  { key: 'iraq', flag: '\u{1f1ee}\u{1f1f6}', label: 'Iraq', color: '#8ac926' },
-  { key: 'uae', flag: '\u{1f1e6}\u{1f1ea}', label: 'UAE', color: '#e5e5e5' },
-  { key: 'kuwait', flag: '\u{1f1f0}\u{1f1fc}', label: 'Kuwait', color: '#00a676' },
-  { key: 'bahrain', flag: '\u{1f1e7}\u{1f1ed}', label: 'Bahrain', color: '#ef4444' },
-  { key: 'qatar', flag: '\u{1f1f6}\u{1f1e6}', label: 'Qatar', color: '#8b1a3a' },
-  { key: 'syria', flag: '\u{1f1f8}\u{1f1fe}', label: 'Syria', color: '#c084fc' },
-  { key: 'palestine', flag: '\u{1f1f5}\u{1f1f8}', label: 'Palestine', color: '#22c55e' },
+  { key: 'iran', cc: 'ir', label: 'Iran', color: '#ff0040' },
+  { key: 'israel', cc: 'il', label: 'Israel', color: '#0088cc' },
+  { key: 'usa', cc: 'us', label: 'USA', color: '#3b82f6' },
+  { key: 'lebanon', cc: 'lb', label: 'Lebanon', color: '#ff6600' },
+  { key: 'yemen', cc: 'ye', label: 'Yemen', color: '#d4a017' },
+  { key: 'iraq', cc: 'iq', label: 'Iraq', color: '#8ac926' },
+  { key: 'uae', cc: 'ae', label: 'UAE', color: '#e5e5e5' },
+  { key: 'kuwait', cc: 'kw', label: 'Kuwait', color: '#00a676' },
+  { key: 'bahrain', cc: 'bh', label: 'Bahrain', color: '#ef4444' },
+  { key: 'qatar', cc: 'qa', label: 'Qatar', color: '#8b1a3a' },
+  { key: 'syria', cc: 'sy', label: 'Syria', color: '#c084fc' },
+  { key: 'palestine', cc: 'ps', label: 'Palestine', color: '#22c55e' },
 ];
+
+function flagUrl(cc) {
+  return `https://flagcdn.com/20x15/${cc}.png`;
+}
 
 const DEFAULT_CASUALTIES = {
   iran: { killed: 1097, wounded: 5402 },
@@ -38,189 +42,37 @@ function formatNum(n) {
   return n.toLocaleString();
 }
 
-// --- Squarified treemap layout ---
-
-function worstRatio(row, rowArea, side) {
-  const rowW = rowArea / side;
-  let worst = 0;
-  for (const item of row) {
-    const h = item.area / rowW;
-    const r = Math.max(rowW / h, h / rowW);
-    if (r > worst) worst = r;
-  }
-  return worst;
-}
-
-function layoutRow(row, rowArea, rect, out) {
-  const vert = rect.w >= rect.h;
-  const rowW = rowArea / (vert ? rect.h : rect.w);
-  let off = 0;
-  for (const item of row) {
-    const size = item.area / rowW;
-    if (vert) {
-      out.push({ ...item, x: rect.x, y: rect.y + off, w: rowW, h: size });
-      off += size;
-    } else {
-      out.push({ ...item, x: rect.x + off, y: rect.y, w: size, h: rowW });
-      off += size;
-    }
-  }
-}
-
-function squarify(items, rect, out) {
-  if (!items.length) return;
-  if (items.length === 1) {
-    out.push({ ...items[0], x: rect.x, y: rect.y, w: rect.w, h: rect.h });
-    return;
-  }
-  const side = Math.min(rect.w, rect.h);
-  let row = [];
-  let rowArea = 0;
-  let i = 0;
-
-  while (i < items.length) {
-    const next = [...row, items[i]];
-    const nextArea = rowArea + items[i].area;
-    if (!row.length || worstRatio(next, nextArea, side) <= worstRatio(row, rowArea, side)) {
-      row = next;
-      rowArea = nextArea;
-      i++;
-    } else {
-      break;
-    }
-  }
-
-  layoutRow(row, rowArea, rect, out);
-  const vert = rect.w >= rect.h;
-  const rowW = rowArea / (vert ? rect.h : rect.w);
-  const newRect = vert
-    ? { x: rect.x + rowW, y: rect.y, w: rect.w - rowW, h: rect.h }
-    : { x: rect.x, y: rect.y + rowW, w: rect.w, h: rect.h - rowW };
-  squarify(items.slice(row.length), newRect, out);
-}
-
-function buildTreemap(data, width, height) {
-  const filtered = data.filter((d) => d.value > 0).sort((a, b) => b.value - a.value);
-  if (!filtered.length) return [];
-  const total = filtered.reduce((s, d) => s + d.value, 0);
-  const items = filtered.map((d) => ({ ...d, area: (d.value / total) * width * height }));
-  const out = [];
-  squarify(items, { x: 0, y: 0, w: width, h: height }, out);
-  return out;
-}
-
-// --- Component ---
-
-function TreemapCell({ node, hovered, onHover }) {
-  const isHovered = hovered === node.key;
-  const isSmall = node.w < 80 || node.h < 50;
-  const isTiny = node.w < 50 || node.h < 35;
-
-  return (
-    <div
-      className="absolute transition-all duration-300 overflow-hidden border border-black/30"
-      style={{
-        left: node.x,
-        top: node.y,
-        width: node.w,
-        height: node.h,
-        background: `${node.color}${isHovered ? '50' : '25'}`,
-        borderColor: isHovered ? node.color : 'rgba(0,0,0,0.3)',
-        zIndex: isHovered ? 10 : 1,
-      }}
-      onMouseEnter={() => onHover(node.key)}
-      onMouseLeave={() => onHover(null)}
-    >
-      {/* Glow edge */}
-      <div
-        className="absolute inset-0 pointer-events-none transition-opacity duration-300"
-        style={{
-          boxShadow: `inset 0 0 ${isHovered ? 20 : 8}px ${node.color}44`,
-          opacity: isHovered ? 1 : 0.6,
-        }}
-      />
-
-      <div className="relative h-full flex flex-col justify-center items-center p-1 text-center">
-        {isTiny ? (
-          /* Tiny cells: name + number only */
-          <div className="flex flex-col items-center gap-0.5">
-            <span className="text-[8px] font-bold" style={{ color: node.color }}>{node.label}</span>
-            <span className="text-[8px] font-mono font-bold text-ops-text">{formatNum(node.killed + node.wounded)}</span>
-          </div>
-        ) : isSmall ? (
-          /* Small cells: name + compact numbers */
-          <>
-            <span className="text-[10px] font-bold" style={{ color: node.color }}>{node.label}</span>
-            <div className="flex items-center gap-1.5 mt-0.5">
-              <span className="text-[9px] font-mono font-bold text-[#ff0040]">{formatNum(node.killed)}</span>
-              <span className="text-[7px] text-ops-muted">/</span>
-              <span className="text-[9px] font-mono font-bold text-[#ff6600]">{formatNum(node.wounded)}</span>
-            </div>
-          </>
-        ) : (
-          /* Normal / large cells: full detail */
-          <>
-            <span className="text-sm font-bold tracking-wider mb-1" style={{ color: node.color }}>{node.label}</span>
-            <div className="flex items-center gap-3 mt-1">
-              <div className="text-center">
-                <div className="text-[7px] text-ops-muted font-bold tracking-wider">KILLED</div>
-                <div className="text-base font-bold font-mono text-[#ff0040] leading-tight">{formatNum(node.killed)}</div>
-              </div>
-              <div className="text-center">
-                <div className="text-[7px] text-ops-muted font-bold tracking-wider">WOUNDED</div>
-                <div className="text-base font-bold font-mono text-[#ff6600] leading-tight">{formatNum(node.wounded)}</div>
-              </div>
-            </div>
-          </>
-        )}
-      </div>
-    </div>
-  );
-}
-
 export default function ImpactTracker() {
   const casualties = DEFAULT_CASUALTIES;
-  const [hovered, setHovered] = useState(null);
-  const [dims, setDims] = useState({ w: 0, h: 0 });
-  const containerRef = useRef(null);
-
-  useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-    const ro = new ResizeObserver(([entry]) => {
-      const { width, height } = entry.contentRect;
-      setDims({ w: Math.floor(width), h: Math.floor(height) });
-    });
-    ro.observe(el);
-    return () => ro.disconnect();
-  }, []);
 
   const parties = useMemo(
-    () => PARTY_META.map((p) => ({
-      ...p,
-      ...(casualties[p.key] || { killed: 0, wounded: 0 }),
-      value: (casualties[p.key]?.killed || 0) + (casualties[p.key]?.wounded || 0),
-    })),
+    () =>
+      PARTY_META
+        .map((p) => ({
+          ...p,
+          killed: casualties[p.key]?.killed || 0,
+          wounded: casualties[p.key]?.wounded || 0,
+          total: (casualties[p.key]?.killed || 0) + (casualties[p.key]?.wounded || 0),
+        }))
+        .filter((p) => p.total > 0)
+        .sort((a, b) => b.total - a.total),
     [casualties],
   );
 
-  const nodes = useMemo(
-    () => (dims.w > 0 && dims.h > 0 ? buildTreemap(parties, dims.w, dims.h) : []),
-    [parties, dims],
+  const maxValue = useMemo(
+    () => Math.max(...parties.map((p) => Math.max(p.killed, p.wounded)), 1),
+    [parties],
   );
 
   const totalKilled = parties.reduce((s, p) => s + p.killed, 0);
   const totalWounded = parties.reduce((s, p) => s + p.wounded, 0);
-  const dateLabel = 'MAR 5, 2026';
-
-  const handleHover = useCallback((key) => setHovered(key), []);
 
   return (
     <div className="flex flex-col h-full">
       {/* Header */}
       <div className="px-3 py-1.5 border-b border-ops-border flex items-center justify-between">
         <span className="text-ops-red text-[10px] font-bold tracking-widest">CASUALTIES</span>
-        <span className="text-ops-muted text-[8px]">{dateLabel}</span>
+        <span className="text-ops-muted text-[8px]">MAR 5, 2026</span>
       </div>
 
       {/* Totals bar */}
@@ -237,11 +89,48 @@ export default function ImpactTracker() {
         </div>
       </div>
 
-      {/* Treemap */}
-      <div ref={containerRef} className="flex-1 min-h-0 relative">
-        {nodes.map((node) => (
-          <TreemapCell key={node.key} node={node} hovered={hovered} onHover={handleHover} />
-        ))}
+      {/* Bar chart */}
+      <div className="flex-1 min-h-0 overflow-y-auto px-3 py-2 space-y-2">
+        {parties.map((p) => {
+          const killedPct = (p.killed / maxValue) * 100;
+          const woundedPct = (p.wounded / maxValue) * 100;
+          return (
+            <div key={p.key}>
+              {/* Country label */}
+              <div className="flex items-center justify-between mb-1">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-[11px] font-bold" style={{ color: p.color }}>{p.label}</span>
+                  <img src={flagUrl(p.cc)} alt={p.label} className="w-4 h-3 object-cover rounded-sm" />
+                </div>
+                <span className="text-[9px] font-mono text-ops-muted">{p.total.toLocaleString()}</span>
+              </div>
+              {/* Killed bar */}
+              <div className="flex items-center gap-2 mb-0.5">
+                <div className="flex-1 h-3 bg-ops-border/20 rounded-sm overflow-hidden">
+                  <div
+                    className="h-full rounded-sm transition-all duration-500"
+                    style={{ width: `${killedPct}%`, background: '#cc0033' }}
+                  />
+                </div>
+                <span className="text-[9px] font-mono font-bold text-[#ff0040] w-10 text-right">
+                  {p.killed > 0 ? formatNum(p.killed) : '-'}
+                </span>
+              </div>
+              {/* Wounded bar */}
+              <div className="flex items-center gap-2">
+                <div className="flex-1 h-3 bg-ops-border/20 rounded-sm overflow-hidden">
+                  <div
+                    className="h-full rounded-sm transition-all duration-500"
+                    style={{ width: `${woundedPct}%`, background: '#cc5200' }}
+                  />
+                </div>
+                <span className="text-[9px] font-mono font-bold text-[#ff6600] w-10 text-right">
+                  {p.wounded > 0 ? formatNum(p.wounded) : '-'}
+                </span>
+              </div>
+            </div>
+          );
+        })}
       </div>
 
       {/* Source */}
