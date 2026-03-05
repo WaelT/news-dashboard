@@ -16,16 +16,18 @@ const PARTY_META = [
 ];
 
 const DEFAULT_CASUALTIES = {
-  iran: { killed: 1045, wounded: 2100 },
-  israel: { killed: 11, wounded: 62 },
-  usa: { killed: 6, wounded: 23 },
-  lebanon: { killed: 50, wounded: 335 },
+  iran: { killed: 1097, wounded: 5402 },
+  israel: { killed: 12, wounded: 1274 },
+  usa: { killed: 6, wounded: 20 },
+  lebanon: { killed: 72, wounded: 437 },
   yemen: { killed: 0, wounded: 0 },
-  iraq: { killed: 3, wounded: 5 },
+  iraq: { killed: 20, wounded: 36 },
   uae: { killed: 3, wounded: 68 },
-  kuwait: { killed: 4, wounded: 35 },
-  bahrain: { killed: 1, wounded: 4 },
+  kuwait: { killed: 4, wounded: 32 },
+  bahrain: { killed: 2, wounded: 6 },
   qatar: { killed: 0, wounded: 16 },
+  jordan: { killed: 0, wounded: 5 },
+  oman: { killed: 1, wounded: 3 },
   syria: { killed: 0, wounded: 0 },
   palestine: { killed: 0, wounded: 0 },
 };
