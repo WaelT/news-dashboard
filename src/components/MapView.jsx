@@ -4,6 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import conflictZones from '../data/conflictZones';
 import MapMarkerPopup from './MapMarkerPopup';
+import MapFilterBar from './MapFilterBar';
 
 // SVG icon paths for each marker type
 const ICONS = {
@@ -76,6 +77,29 @@ const STATUS_RING = {
   active: { color: '#ff6600', opacity: 0.4 },
   monitoring: { color: '#00ff41', opacity: 0.3 },
 };
+
+// --- Country derivation ---
+
+const COUNTRY_FALLBACK = {
+  10: 'Iran',      // Strait of Hormuz
+  101: 'Israel',   // Tel Aviv
+  102: 'Israel',   // Dimona
+  103: 'Israel',   // Nevatim Airbase
+  117: 'Yemen',    // Bab el-Mandeb Strait
+  118: 'Kuwait',   // Kuwait City
+  120: 'Other',    // USS Carrier Group
+  123: 'Israel',   // Jerusalem
+  127: 'Lebanon',  // Southern Lebanon
+  139: 'Jordan',   // Tower 22 / Al-Tanf Border
+  140: 'Jordan',   // Muwaffaq Salti Air Base
+};
+
+function getCountry(zone) {
+  if (zone.id >= 1 && zone.id <= 24) return 'Iran';
+  const comma = zone.name.lastIndexOf(', ');
+  if (comma !== -1) return zone.name.slice(comma + 2);
+  return COUNTRY_FALLBACK[zone.id] || 'Other';
+}
 
 // --- Live activity helpers ---
 
@@ -317,12 +341,53 @@ export default function MapView({ articles = [] }) {
     return Array.from(map.values());
   }, [dynamicZones]);
 
+  // Filter state
+  const [filters, setFilters] = useState({
+    countries: new Set(),
+    types: new Set(),
+    statuses: new Set(),
+    liveOnly: false,
+  });
+
+  // Pre-compute live data for filtering
+  const zoneLiveMap = useMemo(() => {
+    const m = new Map();
+    for (const zone of allZones) {
+      const matched = matchArticles(zone, articles);
+      const live = computeLiveStatus(zone, matched);
+      m.set(zone.id, { matched, live });
+    }
+    return m;
+  }, [allZones, articles]);
+
+  // Derive sorted country list
+  const countries = useMemo(() => {
+    const set = new Set();
+    for (const zone of allZones) set.add(getCountry(zone));
+    return [...set].sort();
+  }, [allZones]);
+
+  // Apply filters
+  const filteredZones = useMemo(() => {
+    const { countries: fc, types, statuses, liveOnly } = filters;
+    if (!fc.size && !types.size && !statuses.size && !liveOnly) return allZones;
+
+    return allZones.filter((zone) => {
+      if (fc.size && !fc.has(getCountry(zone))) return false;
+      if (types.size && !types.has(zone.type)) return false;
+      const ld = zoneLiveMap.get(zone.id);
+      if (statuses.size && ld && !statuses.has(ld.live.status)) return false;
+      if (liveOnly && (!ld || ld.matched.length === 0)) return false;
+      return true;
+    });
+  }, [allZones, filters, zoneLiveMap]);
+
   // Build live events list — recent article-zone matches
   const liveEvents = useMemo(() => {
     const events = [];
     const sixHoursAgo = Date.now() - 6 * 3600 * 1000;
 
-    for (const zone of allZones) {
+    for (const zone of filteredZones) {
       const matched = matchArticles(zone, articles);
       for (const a of matched) {
         const pubTime = a.pubDate ? new Date(a.pubDate).getTime() : 0;
@@ -350,17 +415,17 @@ export default function MapView({ articles = [] }) {
     });
 
     return deduped.sort((a, b) => b.pubTime - a.pubTime).slice(0, 15);
-  }, [articles, allZones]);
+  }, [articles, filteredZones]);
 
   // Count active zones for the header
   const activeCount = useMemo(() => {
     let count = 0;
-    for (const zone of allZones) {
+    for (const zone of filteredZones) {
       const matched = matchArticles(zone, articles);
       if (matched.length > 0) count++;
     }
     return count;
-  }, [articles, allZones]);
+  }, [articles, filteredZones]);
 
   return (
     <div className="w-full h-full relative">
@@ -377,8 +442,8 @@ export default function MapView({ articles = [] }) {
         )}
       </div>
 
-      {/* Live event feed */}
-      <LiveEventFeed events={liveEvents} />
+      {/* Map filters */}
+      <MapFilterBar filters={filters} onFiltersChange={setFilters} countries={countries} />
 
       {/* Legend */}
       <div className="absolute bottom-6 right-3 z-[1000] bg-ops-panel/90 border border-ops-border rounded px-2.5 py-2 backdrop-blur-sm">
@@ -409,9 +474,9 @@ export default function MapView({ articles = [] }) {
           url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
         />
 
-        <FlyToActive zones={allZones} articles={articles} />
+        <FlyToActive zones={filteredZones} articles={articles} />
 
-        {allZones.map((zone) => (
+        {filteredZones.map((zone) => (
           <ClickMarker key={zone.id} zone={zone} articles={articles} />
         ))}
       </MapContainer>

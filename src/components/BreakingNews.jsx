@@ -75,7 +75,7 @@ export default function BreakingNews({ articles }) {
                   >
                     {alert.source}
                   </span>
-                  <span className="text-ops-text text-xs">
+                  <span className="text-ops-text text-xs" dir="auto" style={{ unicodeBidi: 'isolate' }}>
                     {alert.title}
                   </span>
                 </a>

@@ -1,73 +1,66 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 
 const FEEDS = [
-  { handle: 'AJEnglish', name: 'Al Jazeera EN', color: '#d2a02a' },
-  { handle: 'Reuters', name: 'Reuters', color: '#ff6600' },
-  { handle: 'BBCWorld', name: 'BBC World', color: '#bb1919' },
-  { handle: 'AP', name: 'AP News', color: '#00a1e0' },
+  { handle: 'AJEnglish', name: 'Al Jazeera EN' },
+  { handle: 'AJArabic', name: 'Al Jazeera AR' },
+  { handle: 'Reuters', name: 'Reuters' },
+  { handle: 'BBCWorld', name: 'BBC World' },
+  { handle: 'AP', name: 'AP News' },
 ];
 
-function timeAgo(dateStr) {
-  if (!dateStr) return '';
-  const seconds = Math.floor((Date.now() - new Date(dateStr)) / 1000);
-  if (seconds < 60) return 'just now';
-  if (seconds < 3600) return `${Math.floor(seconds / 60)}m`;
-  if (seconds < 86400) return `${Math.floor(seconds / 3600)}h`;
-  return `${Math.floor(seconds / 86400)}d`;
-}
-
-async function fetchTimeline(handle) {
-  const url = `/api/twitter/${handle}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`${res.status}`);
-  return res.json();
+function loadWidgetScript() {
+  return new Promise((resolve) => {
+    if (window.twttr?.widgets) { resolve(window.twttr); return; }
+    const existing = document.getElementById('twitter-wjs');
+    if (existing) { existing.addEventListener('load', () => resolve(window.twttr)); return; }
+    const script = document.createElement('script');
+    script.id = 'twitter-wjs';
+    script.src = 'https://platform.twitter.com/widgets.js';
+    script.async = true;
+    script.onload = () => resolve(window.twttr);
+    document.head.appendChild(script);
+  });
 }
 
 export default function TwitterFeed() {
   const [activeHandle, setActiveHandle] = useState('AJEnglish');
-  const [tweets, setTweets] = useState([]);
+  const containerRef = useRef(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
-  const loadTweets = useCallback(async () => {
+  const renderTimeline = useCallback(async (handle) => {
     setLoading(true);
-    setError(null);
+    const el = containerRef.current;
+    if (!el) return;
+    el.innerHTML = '';
+
     try {
-      const data = await fetchTimeline(activeHandle);
-      setTweets(data);
+      const twttr = await loadWidgetScript();
+      await twttr.widgets.createTimeline(
+        { sourceType: 'profile', screenName: handle },
+        el,
+        {
+          theme: 'dark',
+          chrome: 'noheader nofooter noborders transparent',
+          height: el.parentElement?.clientHeight || 400,
+          dnt: true,
+        }
+      );
     } catch {
-      // API not configured — show placeholder
-      setError('no-api');
-      setTweets([]);
-    } finally {
-      setLoading(false);
+      el.innerHTML = '';
     }
-  }, [activeHandle]);
+    setLoading(false);
+  }, []);
 
-  useEffect(() => { loadTweets(); }, [loadTweets]);
-
-  const activeFeed = FEEDS.find((f) => f.handle === activeHandle);
+  useEffect(() => {
+    renderTimeline(activeHandle);
+  }, [activeHandle, renderTimeline]);
 
   return (
     <div className="flex flex-col h-full">
-      {/* Panel header */}
       <div className="px-3 py-2 border-b border-ops-border flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <span className="text-ops-green text-[10px] font-bold tracking-widest">
-            X / SOCIAL FEED
-          </span>
-        </div>
-        <a
-          href="https://x.com/search?q=iran+war+conflict&f=live"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-ops-muted text-[9px] hover:text-ops-amber transition-colors"
-        >
-          [LIVE SEARCH]
-        </a>
+        <span className="text-ops-green text-[10px] font-bold tracking-widest">X / LIVE FEED</span>
       </div>
 
-      {/* Source tabs */}
       <div className="flex gap-0 border-b border-ops-border overflow-x-auto">
         {FEEDS.map((feed) => (
           <button
@@ -84,11 +77,10 @@ export default function TwitterFeed() {
         ))}
       </div>
 
-      {/* Content */}
       <div className="flex-1 min-h-0 overflow-y-auto">
         {loading && (
           <div className="p-4 space-y-3">
-            {[...Array(6)].map((_, i) => (
+            {[...Array(4)].map((_, i) => (
               <div key={i} className="animate-pulse">
                 <div className="h-3 bg-ops-border rounded w-3/4 mb-1.5" />
                 <div className="h-2 bg-ops-border rounded w-1/2" />
@@ -96,86 +88,7 @@ export default function TwitterFeed() {
             ))}
           </div>
         )}
-
-        {error === 'no-api' && !loading && (
-          <div className="flex flex-col h-full">
-            {/* Quick links to each account */}
-            <div className="p-3 space-y-2 border-b border-ops-border/50">
-              <p className="text-ops-muted text-[9px] mb-2">
-                LIVE X FEEDS — click to open in new tab
-              </p>
-              {FEEDS.map((feed) => (
-                <a
-                  key={feed.handle}
-                  href={`https://x.com/${feed.handle}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-2 py-1.5 rounded hover:bg-ops-border/30 transition-colors group"
-                >
-                  <span
-                    className="w-2 h-2 rounded-full shrink-0"
-                    style={{ background: feed.color }}
-                  />
-                  <span className="text-[11px] text-ops-text group-hover:text-ops-green transition-colors">
-                    @{feed.handle}
-                  </span>
-                  <span className="text-[9px] text-ops-muted ml-auto">
-                    {feed.name}
-                  </span>
-                </a>
-              ))}
-            </div>
-
-            {/* Search links */}
-            <div className="p-3 space-y-2">
-              <p className="text-ops-muted text-[9px] mb-2">TRENDING SEARCHES</p>
-              {['iran war', 'iran conflict', 'middle east crisis', 'strait of hormuz', 'tehran'].map((q) => (
-                <a
-                  key={q}
-                  href={`https://x.com/search?q=${encodeURIComponent(q)}&f=live`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-2 py-1 rounded hover:bg-ops-border/30 transition-colors group"
-                >
-                  <span className="text-ops-amber text-[10px]">#</span>
-                  <span className="text-[11px] text-ops-text group-hover:text-ops-amber transition-colors">
-                    {q}
-                  </span>
-                  <span className="text-ops-muted text-[9px] ml-auto opacity-0 group-hover:opacity-100 transition-opacity">
-                    OPEN →
-                  </span>
-                </a>
-              ))}
-            </div>
-
-            <div className="mt-auto p-3 border-t border-ops-border/50">
-              <p className="text-ops-muted text-[8px] leading-relaxed">
-                X/Twitter blocks embedded timelines on third-party sites.
-                Use the links above to follow live coverage.
-              </p>
-            </div>
-          </div>
-        )}
-
-        {!loading && !error && tweets.length > 0 && tweets.map((tweet, i) => (
-          <a
-            key={i}
-            href={tweet.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block px-3 py-2 border-b border-ops-border/50 hover:bg-ops-border/20 transition-colors group"
-          >
-            <div className="flex items-center gap-2 mb-1">
-              <span className="text-[9px] font-bold" style={{ color: activeFeed?.color }}>
-                @{activeHandle}
-              </span>
-              <span className="text-ops-muted text-[9px]">{timeAgo(tweet.date)}</span>
-            </div>
-            <p className="text-[11px] text-ops-text leading-relaxed group-hover:text-ops-green transition-colors">
-              {tweet.text}
-            </p>
-          </a>
-        ))}
+        <div ref={containerRef} className="h-full" />
       </div>
     </div>
   );

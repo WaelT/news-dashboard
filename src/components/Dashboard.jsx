@@ -3,6 +3,7 @@ import MapView from './MapView';
 import ConflictTimeline from './ConflictTimeline';
 import ImpactTracker from './ImpactTracker';
 import MarketImpact from './MarketImpact';
+import TwitterFeed from './TwitterFeed';
 import LiveStreams from './LiveStreams';
 import BreakingNews from './BreakingNews';
 import { useAllNews } from '../hooks/useNews';
@@ -27,7 +28,7 @@ export default function Dashboard() {
         </div>
 
         {/* Bottom row: Timeline + Casualties + Market Impact */}
-        <div className="flex-1 min-h-0 grid grid-cols-[1fr_1fr_2fr] gap-px">
+        <div className="flex-1 min-h-0 grid grid-cols-4 gap-px">
           <div className="bg-ops-panel min-h-0 overflow-hidden">
             <ConflictTimeline articles={articles} />
           </div>
@@ -36,6 +37,9 @@ export default function Dashboard() {
           </div>
           <div className="bg-ops-panel min-h-0 overflow-hidden">
             <MarketImpact />
+          </div>
+          <div className="bg-ops-panel min-h-0 overflow-hidden">
+            <TwitterFeed />
           </div>
         </div>
       </div>
