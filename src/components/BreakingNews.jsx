@@ -16,7 +16,6 @@ function playAlertTone() {
     const ctx = new (window.AudioContext || window.webkitAudioContext)();
     const now = ctx.currentTime;
 
-    // Soft sine chime — two gentle tones with fade-out
     const playChime = (freq, start, dur) => {
       const osc = ctx.createOscillator();
       const gain = ctx.createGain();
@@ -35,11 +34,9 @@ function playAlertTone() {
 }
 
 export default function BreakingNews({ articles }) {
-  const [alerts, setAlerts] = useState([]);
-  const [dismissed, setDismissed] = useState(new Set());
   const [muted, setMuted] = useState(() => localStorage.getItem('breaking-muted') === 'true');
-  const [flashKeys, setFlashKeys] = useState(new Set());
-  const seenRef = useRef(new Set());
+  const [breakingAlert, setBreakingAlert] = useState(null);
+  const seenBreakingRef = useRef(new Set());
   const mutedRef = useRef(muted);
 
   useEffect(() => {
@@ -47,91 +44,108 @@ export default function BreakingNews({ articles }) {
     localStorage.setItem('breaking-muted', String(muted));
   }, [muted]);
 
+  // Detect new breaking articles
   useEffect(() => {
-    const breaking = articles.filter((a) => {
+    for (const a of articles) {
       const key = a.title?.slice(0, 60);
-      if (!key || seenRef.current.has(key)) return false;
-      return isBreaking(a);
-    });
+      if (!key || seenBreakingRef.current.has(key)) continue;
+      if (!isBreaking(a)) continue;
 
-    if (breaking.length > 0) {
-      const newKeys = new Set(breaking.map((a) => a.title?.slice(0, 60)));
-      breaking.forEach((a) => seenRef.current.add(a.title?.slice(0, 60)));
-      setAlerts((prev) => {
-        const existing = new Set(prev.map((p) => p.title?.slice(0, 60)));
-        const newAlerts = breaking.filter((b) => !existing.has(b.title?.slice(0, 60)));
-        return [...newAlerts, ...prev].slice(0, 10);
-      });
+      seenBreakingRef.current.add(key);
+      setBreakingAlert(a);
       if (!mutedRef.current) playAlertTone();
 
-      // Flash the new items for 5 seconds
-      setFlashKeys(newKeys);
-      setTimeout(() => setFlashKeys(new Set()), 5000);
+      // Clear after 10 seconds
+      const timer = setTimeout(() => {
+        setBreakingAlert((prev) => (prev?.title === a.title ? null : prev));
+      }, 10_000);
+      return () => clearTimeout(timer);
     }
   }, [articles]);
 
-  const visible = alerts.filter((a) => !dismissed.has(a.title?.slice(0, 60)));
-
-  if (visible.length === 0) return null;
-
-  const dismissAll = () => {
-    setDismissed(new Set(alerts.map((a) => a.title?.slice(0, 60))));
-  };
+  if (articles.length === 0) return null;
 
   return (
     <div>
-      {/* Ticker bar with latest alert */}
-      <div className={`border-b-2 border-ops-red transition-colors ${flashKeys.size > 0 ? 'bg-ops-red/25' : 'bg-ops-red/10'}`}>
-        {/* Scrolling ticker */}
+      {/* Breaking alert banner — large flashing red for 10s */}
+      {breakingAlert && (
+        <div className="border-b-2 border-ops-red bg-ops-red/20 animate-pulse">
+          <div className="flex items-center overflow-hidden">
+            <div className="shrink-0 px-3 py-2.5 bg-white flex items-center gap-2">
+              <span className="live-dot w-2.5 h-2.5 rounded-full bg-ops-red" />
+              <span className="text-xs font-bold tracking-widest text-ops-red">BREAKING</span>
+            </div>
+            <a
+              href={breakingAlert.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 px-4 py-2.5 hover:text-white transition-colors"
+            >
+              <span
+                className="text-base font-bold text-white breaking-flash"
+                dir="auto"
+                style={{ unicodeBidi: 'isolate' }}
+              >
+                {breakingAlert.title}
+              </span>
+            </a>
+            <button
+              onClick={() => setBreakingAlert(null)}
+              className="shrink-0 px-3 py-2 text-ops-muted text-sm hover:text-ops-red transition-colors"
+              title="Dismiss"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Normal news ticker — all articles */}
+      <div className="border-b border-ops-border/50 bg-ops-panel/50">
         <div className="flex items-center overflow-hidden">
-          <div className={`shrink-0 px-3 py-2 flex items-center gap-2 transition-colors ${flashKeys.size > 0 ? 'bg-white text-ops-red' : 'bg-ops-red'}`}>
-            <span className={`live-dot w-2 h-2 rounded-full ${flashKeys.size > 0 ? 'bg-ops-red' : 'bg-white'}`} />
-            <span className={`text-[10px] font-bold tracking-widest ${flashKeys.size > 0 ? 'text-ops-red' : 'text-white'}`}>BREAKING</span>
+          <div className="shrink-0 px-3 py-1.5 flex items-center gap-2 bg-ops-amber/10">
+            <span className="live-dot w-1.5 h-1.5 rounded-full bg-ops-amber" />
+            <span className="text-[10px] font-bold tracking-widest text-ops-amber">NEWS</span>
           </div>
 
-          <div className="flex-1 overflow-hidden py-2">
-            <div className="breaking-ticker flex items-center gap-8 whitespace-nowrap">
-              {visible.map((alert, i) => {
-                const key = alert.title?.slice(0, 60);
-                const isNew = flashKeys.has(key);
-                return (
-                  <a
-                    key={i}
-                    href={alert.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`inline-flex items-center gap-3 hover:text-white transition-colors ${isNew ? 'breaking-flash' : ''}`}
-                  >
-                    {isNew && (
-                      <span className="text-[7px] font-bold px-1 py-0.5 rounded bg-white text-ops-red tracking-widest animate-pulse">
-                        NEW
+          <div className="flex-1 overflow-hidden py-1.5">
+            <div className="breaking-ticker flex items-center whitespace-nowrap">
+              {[0, 1].map((copy) =>
+                <div key={copy} className="flex items-center gap-8 shrink-0 pr-8">
+                  {articles.slice(0, 20).map((article, i) => (
+                    <a
+                      key={i}
+                      href={article.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-3 hover:text-ops-amber transition-colors"
+                    >
+                      <span
+                        className="text-[8px] font-bold px-1.5 py-0.5 rounded"
+                        style={{
+                          background: `${article.sourceColor || '#6e7681'}33`,
+                          color: article.sourceColor || '#6e7681',
+                        }}
+                      >
+                        {article.source}
                       </span>
-                    )}
-                    <span
-                      className="text-[8px] font-bold px-1.5 py-0.5 rounded"
-                      style={{
-                        background: `${alert.sourceColor || '#ff0040'}33`,
-                        color: alert.sourceColor || '#ff0040',
-                      }}
-                    >
-                      {alert.source}
-                    </span>
-                    <span
-                      className={`text-xs ${isNew ? 'text-white font-bold' : 'text-ops-text'}`}
-                      dir="auto"
-                      style={{ unicodeBidi: 'isolate' }}
-                    >
-                      {alert.title}
-                    </span>
-                  </a>
-                );
-              })}
+                      <span
+                        className="text-xs text-ops-text"
+                        dir="auto"
+                        style={{ unicodeBidi: 'isolate' }}
+                      >
+                        {article.title}
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
 
           <button
             onClick={() => setMuted((m) => !m)}
-            className="shrink-0 px-2 py-2 text-ops-muted hover:text-ops-text transition-colors"
+            className="shrink-0 px-2 py-1.5 text-ops-muted hover:text-ops-text transition-colors"
             title={muted ? 'Unmute alerts' : 'Mute alerts'}
           >
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -148,14 +162,6 @@ export default function BreakingNews({ articles }) {
                 </>
               )}
             </svg>
-          </button>
-
-          <button
-            onClick={dismissAll}
-            className="shrink-0 px-3 py-2 text-ops-muted text-[9px] hover:text-ops-red transition-colors"
-            title="Dismiss all"
-          >
-            ✕
           </button>
         </div>
       </div>

@@ -88,26 +88,33 @@ export default function MissileDroneTracker() {
             const total = day.missiles + day.drones;
             const missilePct = (day.missiles / maxDaily) * 100;
             const dronePct = (day.drones / maxDaily) * 100;
+            const interceptRate = total > 0 ? Math.round((day.intercepted / total) * 100) : 0;
             return (
-              <div key={day.date} className="flex items-center gap-2">
-                <span className="text-[11px] font-mono text-ops-muted w-12 shrink-0">
-                  {formatDate(day.date).replace(/, /g, ' ')}
-                </span>
-                <div className="flex-1 h-5 flex rounded-sm overflow-hidden bg-ops-border/20">
-                  <div
-                    className="h-full transition-all duration-500"
-                    style={{ width: `${missilePct}%`, background: '#cc0033' }}
-                    title={`${day.missiles} missiles`}
-                  />
-                  <div
-                    className="h-full transition-all duration-500"
-                    style={{ width: `${dronePct}%`, background: '#cc5200' }}
-                    title={`${day.drones} drones`}
-                  />
+              <div key={day.date} className="group">
+                <div className="flex items-center gap-2 cursor-pointer">
+                  <span className="text-[11px] font-mono text-ops-muted w-12 shrink-0">
+                    {formatDate(day.date).replace(/, /g, ' ')}
+                  </span>
+                  <div className="flex-1 h-5 flex rounded-sm overflow-hidden bg-ops-border/20">
+                    <div
+                      className="h-full transition-all duration-500"
+                      style={{ width: `${missilePct}%`, background: '#cc0033' }}
+                    />
+                    <div
+                      className="h-full transition-all duration-500"
+                      style={{ width: `${dronePct}%`, background: '#cc5200' }}
+                    />
+                  </div>
+                  <span className="text-[11px] font-mono font-bold text-ops-text w-8 text-right shrink-0">
+                    {formatNum(total)}
+                  </span>
                 </div>
-                <span className="text-[11px] font-mono font-bold text-ops-text w-8 text-right shrink-0">
-                  {formatNum(total)}
-                </span>
+                {/* Inline breakdown on hover */}
+                <div className="hidden group-hover:flex items-center gap-3 pl-14 py-0.5 text-[10px] font-mono">
+                  <span><span className="text-[#ff0040] font-bold">{day.missiles}</span> <span className="text-ops-muted">missiles</span></span>
+                  <span><span className="text-[#ff6600] font-bold">{day.drones}</span> <span className="text-ops-muted">drones</span></span>
+                  <span><span className="text-[#00ff41] font-bold">{interceptRate}%</span> <span className="text-ops-muted">int.</span></span>
+                </div>
               </div>
             );
           })}
