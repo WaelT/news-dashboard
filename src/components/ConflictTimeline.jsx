@@ -55,11 +55,6 @@ export default function ConflictTimeline({ articles }) {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="px-3 py-2 border-b border-ops-border flex items-center justify-between">
-        <span className="text-ops-amber text-[10px] font-bold tracking-widest">CONFLICT TIMELINE</span>
-        <span className="text-ops-muted text-[9px]">{events.length} events</span>
-      </div>
-
       <div className="flex-1 overflow-y-auto min-h-0 px-3 py-2">
         <div className="relative">
           {/* Vertical line */}

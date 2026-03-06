@@ -4,38 +4,13 @@ import MapView from './MapView';
 import ConflictTimeline from './ConflictTimeline';
 import ImpactTracker from './ImpactTracker';
 import MarketImpact from './MarketImpact';
-import { EnglishNews, ArabicNews } from './NewsHeadlines';
+import MissileDroneTracker from './MissileDroneTracker';
 
 import LiveStreams from './LiveStreams';
 import BreakingNews from './BreakingNews';
 import { useEnglishNews, useArabicNews } from '../hooks/useNews';
 import conflictZones from '../data/conflictZones';
 import { useResizableGrid } from '../hooks/useResizable';
-
-function NewsTabs() {
-  const [tab, setTab] = useState('en');
-  return (
-    <div className="flex flex-col h-full">
-      <div className="flex border-b border-ops-border">
-        <button
-          onClick={() => setTab('en')}
-          className={`flex-1 px-2 py-1.5 text-[10px] font-bold tracking-widest transition-colors ${tab === 'en' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
-        >
-          EN
-        </button>
-        <button
-          onClick={() => setTab('ar')}
-          className={`flex-1 px-2 py-1.5 text-[10px] font-bold tracking-widest transition-colors ${tab === 'ar' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
-        >
-          AR
-        </button>
-      </div>
-      <div className="flex-1 min-h-0 overflow-hidden">
-        {tab === 'en' ? <EnglishNews /> : <ArabicNews />}
-      </div>
-    </div>
-  );
-}
 
 const BREAKING_KEYWORDS = [
   'breaking', 'عاجل', 'urgent', 'just in', 'developing',
@@ -66,19 +41,22 @@ function TimelineTabs({ enArticles, arArticles }) {
   const [tab, setTab] = useState('en');
   return (
     <div className="flex flex-col h-full">
-      <div className="flex border-b border-ops-border">
-        <button
-          onClick={() => setTab('en')}
-          className={`flex-1 px-2 py-1.5 text-[10px] font-bold tracking-widest transition-colors ${tab === 'en' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
-        >
-          EN
-        </button>
-        <button
-          onClick={() => setTab('ar')}
-          className={`flex-1 px-2 py-1.5 text-[10px] font-bold tracking-widest transition-colors ${tab === 'ar' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
-        >
-          AR
-        </button>
+      <div className="flex items-center border-b border-ops-border">
+        <span className="px-3 text-ops-amber text-[10px] font-bold tracking-widest">TIMELINE</span>
+        <div className="flex ml-auto">
+          <button
+            onClick={() => setTab('en')}
+            className={`px-2 py-1.5 text-[10px] font-bold tracking-widest transition-colors ${tab === 'en' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
+          >
+            EN
+          </button>
+          <button
+            onClick={() => setTab('ar')}
+            className={`px-2 py-1.5 text-[10px] font-bold tracking-widest transition-colors ${tab === 'ar' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
+          >
+            AR
+          </button>
+        </div>
       </div>
       <div className="flex-1 min-h-0 overflow-hidden">
         <ConflictTimeline articles={tab === 'en' ? enArticles : arArticles} />
@@ -179,7 +157,7 @@ export default function Dashboard() {
           style={isDesktop ? { display: 'grid', gridTemplateColumns: bottomResize.gridTemplate } : undefined}
         >
           <div className="bg-ops-panel min-h-0 overflow-hidden">
-            <NewsTabs />
+            <TimelineTabs enArticles={en.articles} arArticles={ar.articles} />
           </div>
           {isDesktop && (
             <div
@@ -189,7 +167,7 @@ export default function Dashboard() {
             />
           )}
           <div className="bg-ops-panel min-h-0 overflow-hidden">
-            <TimelineTabs enArticles={en.articles} arArticles={ar.articles} />
+            <MissileDroneTracker />
           </div>
           {isDesktop && (
             <div
