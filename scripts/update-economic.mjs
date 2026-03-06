@@ -141,14 +141,19 @@ function updateFile(items) {
 
   const newBlock = `const ECON_DATA = [\n${entries}\n];`;
 
+  if (!/const ECON_DATA = \[[\s\S]*?\];/.test(code)) {
+    console.error('ERROR: Could not find ECON_DATA block in MarketImpact.jsx');
+    process.exit(1);
+  }
+
   const replaced = code.replace(
     /const ECON_DATA = \[[\s\S]*?\];/,
     newBlock
   );
 
   if (replaced === code) {
-    console.error('ERROR: Could not find ECON_DATA block in MarketImpact.jsx');
-    process.exit(1);
+    console.log('ECON_DATA unchanged — no update needed.');
+    return;
   }
 
   writeFileSync(filePath, replaced);
