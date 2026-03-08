@@ -1,16 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
 
-const BREAKING_KEYWORDS = [
-  'breaking', 'عاجل', 'urgent', 'just in', 'developing',
-  'killed', 'strike', 'attack', 'explosion', 'missile',
-  'قتل', 'ضربة', 'هجوم', 'انفجار', 'صاروخ', 'قصف',
-];
-
-function isBreaking(article) {
-  const title = (article.title || '').toLowerCase();
-  return BREAKING_KEYWORDS.some((kw) => title.includes(kw.toLowerCase()));
-}
-
 function playAlertTone() {
   try {
     const ctx = new (window.AudioContext || window.webkitAudioContext)();
@@ -33,10 +22,10 @@ function playAlertTone() {
   } catch {}
 }
 
-export default function BreakingNews({ articles }) {
+export default function BreakingNews({ articles, breakingArticles }) {
   const [muted, setMuted] = useState(() => localStorage.getItem('breaking-muted') === 'true');
   const [breakingAlert, setBreakingAlert] = useState(null);
-  const seenBreakingRef = useRef(new Set());
+  const prevCountRef = useRef(0);
   const mutedRef = useRef(muted);
 
   useEffect(() => {
@@ -44,24 +33,20 @@ export default function BreakingNews({ articles }) {
     localStorage.setItem('breaking-muted', String(muted));
   }, [muted]);
 
-  // Detect new breaking articles
+  // Trigger alert when new breaking articles arrive from dedicated feeds
   useEffect(() => {
-    for (const a of articles) {
-      const key = a.title?.slice(0, 60);
-      if (!key || seenBreakingRef.current.has(key)) continue;
-      if (!isBreaking(a)) continue;
-
-      seenBreakingRef.current.add(key);
-      setBreakingAlert(a);
+    if (breakingArticles.length > prevCountRef.current && breakingArticles.length > 0) {
+      const newest = breakingArticles[0];
+      setBreakingAlert(newest);
       if (!mutedRef.current) playAlertTone();
 
-      // Clear after 10 seconds
       const timer = setTimeout(() => {
-        setBreakingAlert((prev) => (prev?.title === a.title ? null : prev));
+        setBreakingAlert((prev) => (prev?.title === newest.title ? null : prev));
       }, 10_000);
       return () => clearTimeout(timer);
     }
-  }, [articles]);
+    prevCountRef.current = breakingArticles.length;
+  }, [breakingArticles]);
 
   if (articles.length === 0) return null;
 

@@ -1,6 +1,6 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import useInterval from './useInterval';
-import { fetchRssFeeds, fetchArabicRssFeeds } from '../utils/rssParser';
+import { fetchRssFeeds, fetchArabicRssFeeds, fetchBreakingFeeds } from '../utils/rssParser';
 
 const GNEWS_API_KEY = import.meta.env.VITE_GNEWS_API_KEY;
 const REFRESH_INTERVAL = 2 * 60 * 1000; // 2 minutes
@@ -83,6 +83,43 @@ export function useEnglishNews() {
 
 export function useArabicNews() {
   return useNewsFeed('ar', fetchArabicRssFeeds);
+}
+
+export function useBreakingNews() {
+  const [articles, setArticles] = useState([]);
+  const seenRef = useRef(new Set());
+
+  const fetchBreaking = useCallback(async () => {
+    try {
+      const items = await fetchBreakingFeeds();
+      // Only surface articles less than 30 minutes old
+      const now = Date.now();
+      const fresh = items.filter((a) => {
+        const age = now - new Date(a.pubDate || 0).getTime();
+        return age < 30 * 60 * 1000 && age > 0;
+      });
+
+      // Find genuinely new articles
+      const newItems = fresh.filter((a) => {
+        const key = a.title?.slice(0, 60);
+        if (!key || seenRef.current.has(key)) return false;
+        seenRef.current.add(key);
+        return true;
+      });
+
+      if (newItems.length > 0) {
+        setArticles((prev) => [...newItems, ...prev].slice(0, 10));
+      }
+    } catch {}
+  }, []);
+
+  useEffect(() => {
+    fetchBreaking();
+  }, [fetchBreaking]);
+
+  useInterval(fetchBreaking, 60_000); // Check every minute
+
+  return articles;
 }
 
 // Combined feed for map marker matching

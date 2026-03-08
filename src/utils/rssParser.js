@@ -109,10 +109,58 @@ async function fetchFeeds(feeds, keywords) {
   );
 }
 
+const BREAKING_FEEDS = [
+  { name: 'BBC', url: '/rss/bbc-breaking', color: '#e63946' },
+  { name: 'عاجل', url: '/rss/breaking-ar', color: '#ff0040' },
+];
+
+const BREAKING_KEYWORDS_EN = [
+  'breaking', 'urgent', 'just in',
+  'iran', 'tehran', 'israel', 'hezbollah',
+  'missile', 'strike', 'attack', 'war',
+];
+
 export function fetchRssFeeds() {
   return fetchFeeds(EN_FEEDS);
 }
 
 export function fetchArabicRssFeeds() {
   return fetchFeeds(AR_FEEDS, AR_KEYWORDS);
+}
+
+export async function fetchBreakingFeeds() {
+  const results = [];
+
+  for (const feed of BREAKING_FEEDS) {
+    try {
+      const res = await fetch(feed.url);
+      if (!res.ok) continue;
+      const text = await res.text();
+      let items = parseXmlItems(text);
+
+      // BBC World feed is broad — filter to conflict-related items
+      if (feed.url.includes('bbc-breaking')) {
+        items = items.filter((item) => {
+          const t = `${item.title} ${item.description}`.toLowerCase();
+          return BREAKING_KEYWORDS_EN.some((kw) => t.includes(kw));
+        });
+      }
+
+      const mapped = items.slice(0, 10).map((item) => ({
+        title: item.title,
+        description: item.description,
+        link: item.link,
+        pubDate: item.pubDate,
+        source: feed.name,
+        sourceColor: feed.color,
+      }));
+      results.push(...mapped);
+    } catch (err) {
+      console.warn(`Failed to fetch breaking RSS from ${feed.name}:`, err.message);
+    }
+  }
+
+  return results.sort(
+    (a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0)
+  );
 }

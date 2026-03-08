@@ -8,7 +8,7 @@ import MissileDroneTracker from './MissileDroneTracker';
 
 import LiveStreams from './LiveStreams';
 import BreakingNews from './BreakingNews';
-import { useEnglishNews, useArabicNews } from '../hooks/useNews';
+import { useEnglishNews, useArabicNews, useBreakingNews } from '../hooks/useNews';
 import conflictZones from '../data/conflictZones';
 import { useResizableGrid } from '../hooks/useResizable';
 
@@ -68,6 +68,7 @@ function TimelineTabs({ enArticles, arArticles }) {
 export default function Dashboard() {
   const en = useEnglishNews();
   const ar = useArabicNews();
+  const breakingArticles = useBreakingNews();
   const articles = useMemo(
     () => [...en.articles, ...ar.articles].sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0)),
     [en.articles, ar.articles],
@@ -126,7 +127,7 @@ export default function Dashboard() {
   return (
     <div className="h-screen w-screen flex flex-col bg-ops-bg scanline-overlay lg:overflow-hidden overflow-y-auto">
       <Header threatLevel={threatLevel} oilPrice={oilPrice} activeZoneCount={activeZoneCount} />
-      <BreakingNews articles={articles} />
+      <BreakingNews articles={articles} breakingArticles={breakingArticles} />
 
       <div className="flex-1 flex flex-col gap-px bg-ops-border min-h-0">
         {/* Top row: Map + Live Streams */}

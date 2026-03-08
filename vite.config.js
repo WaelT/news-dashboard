@@ -70,6 +70,16 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: () => '/ar/rss',
       },
+      '/rss/bbc-breaking': {
+        target: 'https://feeds.bbci.co.uk',
+        changeOrigin: true,
+        rewrite: () => '/news/world/rss.xml',
+      },
+      '/rss/breaking-ar': {
+        target: 'https://news.google.com',
+        changeOrigin: true,
+        rewrite: () => '/rss/search?q=%D8%B9%D8%A7%D8%AC%D9%84+%D8%A5%D9%8A%D8%B1%D8%A7%D9%86&hl=ar&gl=SA&ceid=SA:ar',
+      },
     },
   },
 });
