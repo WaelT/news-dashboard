@@ -6,6 +6,7 @@ export const dailyLaunches = [
   { date: '2026-03-04', missiles: 21, drones: 180, intercepted: 190, targets: ['UAE', 'Kuwait', 'Bahrain'] },
   { date: '2026-03-05', missiles: 26, drones: 162, intercepted: 179, targets: ['UAE', 'Qatar', 'Bahrain', 'Saudi Arabia', 'Israel'] },
   { date: '2026-03-06', missiles: 12, drones: 132, intercepted: 137, targets: ['UAE', 'Qatar', 'Bahrain', 'Saudi Arabia', 'Kuwait', 'Jordan', 'Israel'] },
+  { date: '2026-03-07', missiles: 44, drones: 139, intercepted: 167, targets: ['UAE', 'Israel', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Jordan', 'Kuwait', 'Iraq'] },
 ];
 
 export default dailyLaunches;
