@@ -12,14 +12,14 @@ const SYMBOLS = [
 ];
 
 const FALLBACK = {
-  sp500: { price: 5580.00, change: -2.15 },
-  nasdaq: { price: 19450.00, change: -2.80 },
-  dowjones: { price: 41200.00, change: -1.65 },
-  nikkei: { price: 56279.00, change: -3.06 },
-  brent: { price: 81.40, change: 11.2 },
-  btc: { price: 68000.00, change: -4.50 },
-  gold: { price: 5075.00, change: 18.0 },
-  silver: { price: 38.50, change: 24.0 },
+  sp500: { price: 5830.00, change: -0.56 },
+  nasdaq: { price: 22749.00, change: -0.26 },
+  dowjones: { price: 47954.00, change: -1.61 },
+  nikkei: { price: 56279.00, change: -2.10 },
+  brent: { price: 90.00, change: 35.0 },
+  btc: { price: 68500.00, change: -3.20 },
+  gold: { price: 5400.00, change: 6.0 },
+  silver: { price: 96.00, change: 8.0 },
 };
 
 const REFRESH_MS = 60_000;
@@ -45,20 +45,20 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
+  { label: 'Brent Crude Surge', value: '+35%', sub: '~$90/barrel (from $67)', color: '#ff6600' },
   { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
-  { label: 'Oil Price Forecast', value: '$100', sub: 'if disruptions persist', color: '#ffcc00' },
+  { label: 'Oil Price Forecast', value: '$100–120', sub: 'if Hormuz stays closed', color: '#ffcc00' },
   { label: 'Global Inflation', value: '+0.8%', sub: 'projected increase', color: '#ff6600' },
-  { label: 'EU Gas Prices', value: '€48', sub: '€48/MWh', color: '#ff6600' },
-  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
-  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
-  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
-  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
+  { label: 'EU Gas Prices', value: '€52–60', sub: '/MWh (nearly doubled)', color: '#ff6600' },
+  { label: 'US Gas Price Rise', value: '+26¢', sub: '/gallon weekly', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '21,300+', sub: 'total since Feb 28', color: '#0088cc' },
+  { label: 'Tanker Rates', value: '$424K', sub: '/day (all-time high)', color: '#ff6600' },
+  { label: 'Dow Jones Drop', value: '-1,200pts', sub: 'worst day (Mar 3)', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-2.5%', sub: 'worst day (Mar 3)', color: '#ff0040' },
   { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
-  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
-  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
-  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
-  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
+  { label: 'Gold Surge', value: '$5,400', sub: '/oz record high', color: '#d4a017' },
+  { label: 'Insurance Premiums', value: '+1,000%', sub: 'Gulf maritime war risk', color: '#ff0040' },
+  { label: 'Iran GDP Forecast', value: '-2.8%', sub: '2026 contraction', color: '#ff0040' },
 ];
 
 function EconomicImpact() {
