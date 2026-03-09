@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T06:57:35.570Z",
+  "updatedAt": "2026-03-09T12:55:20.626Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "iran": {
@@ -15,8 +15,8 @@
       "wounded": 24
     },
     "israel": {
-      "killed": 13,
-      "wounded": 2073
+      "killed": 18,
+      "wounded": 2142
     },
     "kuwait": {
       "killed": 8,
@@ -27,12 +27,8 @@
       "wounded": 20
     },
     "uae": {
-      "killed": 4,
+      "killed": 8,
       "wounded": 112
-    },
-    "syria": {
-      "killed": 4,
-      "wounded": 0
     },
     "saudi": {
       "killed": 2,
@@ -55,6 +51,10 @@
       "wounded": 5
     },
     "yemen": {
+      "killed": 0,
+      "wounded": 0
+    },
+    "syria": {
       "killed": 0,
       "wounded": 0
     },
