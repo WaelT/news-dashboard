@@ -45,20 +45,20 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+35%', sub: '~$90/barrel (from $67)', color: '#ff6600' },
+  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
   { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
-  { label: 'Oil Price Forecast', value: '$100–120', sub: 'if Hormuz stays closed', color: '#ffcc00' },
+  { label: 'Oil Price Forecast', value: '$100', sub: 'if disruptions persist', color: '#ffcc00' },
   { label: 'Global Inflation', value: '+0.8%', sub: 'projected increase', color: '#ff6600' },
-  { label: 'EU Gas Prices', value: '€52–60', sub: '/MWh (nearly doubled)', color: '#ff6600' },
-  { label: 'US Gas Price Rise', value: '+26¢', sub: '/gallon weekly', color: '#3b82f6' },
-  { label: 'Flights Cancelled', value: '21,300+', sub: 'total since Feb 28', color: '#0088cc' },
-  { label: 'Tanker Rates', value: '$424K', sub: '/day (all-time high)', color: '#ff6600' },
-  { label: 'Dow Jones Drop', value: '-1,200pts', sub: 'worst day (Mar 3)', color: '#ff0040' },
-  { label: 'S&P 500 Drop', value: '-2.5%', sub: 'worst day (Mar 3)', color: '#ff0040' },
+  { label: 'EU Gas Prices', value: '€48', sub: '€48/MWh', color: '#ff6600' },
+  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
   { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
-  { label: 'Gold Surge', value: '$5,400', sub: '/oz record high', color: '#d4a017' },
-  { label: 'Insurance Premiums', value: '+1,000%', sub: 'Gulf maritime war risk', color: '#ff0040' },
-  { label: 'Iran GDP Forecast', value: '-2.8%', sub: '2026 contraction', color: '#ff0040' },
+  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
+  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
+  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
+  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
 ];
 
 function EconomicImpact() {
