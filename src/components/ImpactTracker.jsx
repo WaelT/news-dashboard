@@ -12,6 +12,7 @@ const PARTY_META = [
   { key: 'kuwait', cc: 'kw', label: 'Kuwait', color: '#00a676' },
   { key: 'bahrain', cc: 'bh', label: 'Bahrain', color: '#ef4444' },
   { key: 'qatar', cc: 'qa', label: 'Qatar', color: '#8b1a3a' },
+  { key: 'saudi', cc: 'sa', label: 'Saudi Arabia', color: '#22c55e' },
   { key: 'syria', cc: 'sy', label: 'Syria', color: '#c084fc' },
   { key: 'palestine', cc: 'ps', label: 'Palestine', color: '#22c55e' },
 ];
@@ -21,16 +22,17 @@ function flagUrl(cc) {
 }
 
 const DEFAULT_CASUALTIES = {
-  iran: { killed: 1145, wounded: 10000 },
+  iran: { killed: 1332, wounded: 10000 },
   israel: { killed: 13, wounded: 2073 },
   usa: { killed: 8, wounded: 20 },
-  lebanon: { killed: 394, wounded: 1160 },
+  lebanon: { killed: 397, wounded: 1160 },
   yemen: { killed: 0, wounded: 0 },
   iraq: { killed: 21, wounded: 24 },
   uae: { killed: 4, wounded: 112 },
   kuwait: { killed: 8, wounded: 35 },
   bahrain: { killed: 2, wounded: 6 },
   qatar: { killed: 0, wounded: 16 },
+  saudi: { killed: 2, wounded: 12 },
   jordan: { killed: 0, wounded: 5 },
   oman: { killed: 1, wounded: 5 },
   syria: { killed: 4, wounded: 0 },
@@ -72,7 +74,7 @@ export default function ImpactTracker() {
       {/* Header */}
       <div className="px-3 py-1.5 border-b border-ops-border flex items-center justify-between">
         <span className="text-ops-red text-[10px] font-bold tracking-widest">CASUALTIES</span>
-        <span className="text-ops-muted text-[8px]">MAR 5, 2026</span>
+        <span className="text-ops-muted text-[8px]">MAR 8, 2026</span>
       </div>
 
       {/* Totals bar */}

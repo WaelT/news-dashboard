@@ -25,6 +25,7 @@ const COUNTRY_MAP = {
   'lebanon': 'lebanon',
   'oman': 'oman',
   'qatar': 'qatar',
+  'saudi arabia': 'saudi',
   'united arab emirates': 'uae',
   'yemen': 'yemen',
   'syria': 'syria',
@@ -101,7 +102,7 @@ async function scrapeWikipedia() {
 
 function updateFiles(casualties) {
   // Ensure all keys exist
-  const ALL_KEYS = ['iran', 'israel', 'usa', 'lebanon', 'yemen', 'iraq', 'uae', 'kuwait', 'bahrain', 'qatar', 'jordan', 'oman', 'syria', 'palestine'];
+  const ALL_KEYS = ['iran', 'israel', 'usa', 'lebanon', 'yemen', 'iraq', 'uae', 'kuwait', 'bahrain', 'qatar', 'saudi', 'jordan', 'oman', 'syria', 'palestine'];
   for (const key of ALL_KEYS) {
     if (!casualties[key]) casualties[key] = { killed: 0, wounded: 0 };
   }
