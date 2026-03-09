@@ -21,19 +21,19 @@ function flagUrl(cc) {
 }
 
 const DEFAULT_CASUALTIES = {
-  iran: { killed: 1168, wounded: 5402 },
-  israel: { killed: 12, wounded: 1619 },
-  usa: { killed: 7, wounded: 20 },
+  iran: { killed: 1145, wounded: 10000 },
+  israel: { killed: 13, wounded: 2073 },
+  usa: { killed: 8, wounded: 20 },
   lebanon: { killed: 394, wounded: 1160 },
   yemen: { killed: 0, wounded: 0 },
-  iraq: { killed: 21, wounded: 3 },
-  uae: { killed: 3, wounded: 78 },
-  kuwait: { killed: 8, wounded: 32 },
+  iraq: { killed: 21, wounded: 24 },
+  uae: { killed: 4, wounded: 112 },
+  kuwait: { killed: 8, wounded: 35 },
   bahrain: { killed: 2, wounded: 6 },
   qatar: { killed: 0, wounded: 16 },
   jordan: { killed: 0, wounded: 5 },
-  oman: { killed: 1, wounded: 3 },
-  syria: { killed: 0, wounded: 0 },
+  oman: { killed: 1, wounded: 5 },
+  syria: { killed: 4, wounded: 0 },
   palestine: { killed: 0, wounded: 0 },
 };
 
