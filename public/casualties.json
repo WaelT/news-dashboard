@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-03-09T18:47:16.305Z",
+  "updatedAt": "2026-03-10T01:44:50.425Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "iran": {
       "killed": 180,
-      "wounded": 10000
+      "wounded": 12000
     },
     "lebanon": {
-      "killed": 394,
-      "wounded": 1160
+      "killed": 486,
+      "wounded": 1313
     },
     "iraq": {
       "killed": 21,
@@ -30,13 +30,13 @@
       "killed": 8,
       "wounded": 99
     },
+    "bahrain": {
+      "killed": 3,
+      "wounded": 38
+    },
     "saudi": {
       "killed": 2,
       "wounded": 12
-    },
-    "bahrain": {
-      "killed": 2,
-      "wounded": 38
     },
     "oman": {
       "killed": 1,
