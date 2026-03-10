@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import launchData from '../data/launchData';
+import launchData, { countryBreakdown } from '../data/launchData';
 
 const TARGET_CC = {
   Israel: 'il',
@@ -8,7 +8,74 @@ const TARGET_CC = {
   Kuwait: 'kw',
   Bahrain: 'bh',
   'Saudi Arabia': 'sa',
+  Jordan: 'jo',
+  Iraq: 'iq',
 };
+
+const COUNTRY_COLORS = {
+  UAE: '#a855f7',
+  Israel: '#0088cc',
+  Kuwait: '#00a676',
+  Bahrain: '#ef4444',
+  Qatar: '#8b1a3a',
+  'Saudi Arabia': '#22c55e',
+  Jordan: '#d4a017',
+  Iraq: '#8ac926',
+};
+
+function StackedBar({ data, label, color }) {
+  const total = data.reduce((s, d) => s + d.count, 0);
+  const segments = data.map((item) => ({
+    ...item,
+    pct: (item.count / total) * 100,
+  }));
+
+  return (
+    <div className="group/bar">
+      <div className="flex items-center gap-2 mb-1">
+        <span className="text-[9px] font-bold tracking-widest" style={{ color }}>{label}</span>
+        <span className="text-[10px] font-mono font-bold ml-auto" style={{ color }}>{formatNum(total)}</span>
+      </div>
+      <div className="flex h-5 rounded-sm gap-px cursor-pointer">
+        {segments.map((s) => {
+          const cc = TARGET_CC[s.country];
+          return (
+            <div
+              key={s.country}
+              className="h-full overflow-hidden flex items-center justify-center rounded-sm"
+              style={{
+                width: `${s.pct}%`,
+                background: COUNTRY_COLORS[s.country] || '#666',
+                minWidth: s.pct > 1 ? 3 : 0,
+              }}
+            >
+              {s.pct >= 12 && cc && (
+                <img src={flagUrl(cc)} alt={s.country} className="w-4 h-3 object-cover rounded-sm border border-black/30 mr-1" />
+              )}
+              {s.pct >= 12 && (
+                <span className="text-[9px] font-mono font-bold text-black/80">{s.pct.toFixed(0)}%</span>
+              )}
+            </div>
+          );
+        })}
+      </div>
+      {/* Inline breakdown on hover */}
+      <div className="hidden group-hover/bar:grid grid-cols-2 gap-x-3 gap-y-1 mt-1.5">
+        {segments.map((s) => {
+          const cc = TARGET_CC[s.country];
+          return (
+            <div key={s.country} className="flex items-center gap-1.5">
+              <span className="w-2 h-2 rounded-sm shrink-0" style={{ background: COUNTRY_COLORS[s.country] || '#666' }} />
+              {cc && <img src={flagUrl(cc)} alt={s.country} className="w-4 h-3 object-cover rounded-sm shrink-0" />}
+              <span className="text-[11px] text-ops-text font-bold truncate">{s.country}</span>
+              <span className="text-[11px] font-mono font-bold ml-auto shrink-0" style={{ color }}>{s.pct.toFixed(1)}%</span>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
 
 function flagUrl(cc) {
   return `https://flagcdn.com/20x15/${cc}.png`;
@@ -40,14 +107,6 @@ export default function MissileDroneTracker() {
     () => Math.max(...launchData.map((d) => d.missiles + d.drones), 1),
     [],
   );
-
-  const targetedCountries = useMemo(() => {
-    const set = new Set();
-    for (const day of launchData) {
-      for (const t of day.targets) set.add(t);
-    }
-    return [...set];
-  }, []);
 
   const dateRange = launchData.length > 0
     ? `${formatDate(launchData[0].date)} – ${formatDate(launchData[launchData.length - 1].date)}`
@@ -120,20 +179,10 @@ export default function MissileDroneTracker() {
           })}
         </div>
 
-      </div>
-
-      {/* Targeted countries — pinned to bottom */}
-      <div className="px-3 py-1.5 border-t border-ops-border/50">
-        <div className="text-[9px] text-ops-muted font-bold tracking-widest mb-1">TARGETED COUNTRIES</div>
-        <div className="flex items-center gap-3 flex-wrap">
-          {targetedCountries.map((name) => (
-            <div key={name} className="flex items-center gap-1">
-              {TARGET_CC[name] && (
-                <img src={flagUrl(TARGET_CC[name])} alt={name} className="w-4 h-3 object-cover rounded-sm" />
-              )}
-              <span className="text-[11px] font-mono text-ops-text">{name}</span>
-            </div>
-          ))}
+        {/* Country breakdown pie charts */}
+        <div className="px-3 py-2 border-t border-ops-border/30 space-y-3">
+          <StackedBar data={countryBreakdown.missiles} label="MISSILES BY TARGET" color="#ff0040" />
+          <StackedBar data={countryBreakdown.drones} label="DRONES BY TARGET" color="#ff6600" />
         </div>
       </div>
     </div>
