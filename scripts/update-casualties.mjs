@@ -35,6 +35,9 @@ const COUNTRY_MAP = {
 
 function extractFirstNum(text) {
   if (!text) return 0;
+  // Prefer data-sort-value if present (Wikipedia's canonical numeric value)
+  const sortMatch = text.match(/data-sort-value\s*=\s*"?(\d+)/);
+  if (sortMatch) return parseInt(sortMatch[1], 10);
   // Handle ranges like "1,145-4,145" — take the first number
   const cleaned = text.replace(/,/g, '');
   const m = cleaned.match(/(\d+)/);
@@ -82,12 +85,12 @@ async function scrapeWikipedia() {
     let killedCell = cells[1] || '';
     let injuredCell = cells[2] || '';
 
-    // For Iran, try to get HRANA civilian number (most reliable)
-    if (key === 'iran') {
-      // Look for HRANA civilian killed number: "1,097 civilians killed"
-      const hranaMatch = row.match(/(\d[\d,]*)\s*civilians?\s*killed/i);
-      if (hranaMatch) {
-        killedCell = hranaMatch[1];
+    // For Iran, use data-sort-value from killed cell if available (most reliable)
+    // Do NOT use HRANA sub-detail regex as it can match sub-incidents (e.g. "180 civilians killed in Minab")
+    if (key === 'iran' && killedCell) {
+      const sortMatch = killedCell.match(/data-sort-value\s*=\s*"?(\d+)/);
+      if (sortMatch) {
+        killedCell = sortMatch[1];
       }
     }
 
@@ -118,8 +121,23 @@ function updateFiles(casualties) {
   console.log('Updated public/casualties.json');
 
   // 2. Update DEFAULT_CASUALTIES in ImpactTracker.jsx
+  // First read existing values — casualties only go up, never decrease
   const trackerPath = resolve(ROOT, 'src/components/ImpactTracker.jsx');
   let code = readFileSync(trackerPath, 'utf-8');
+  const existingMatch = code.match(/const DEFAULT_CASUALTIES = \{([\s\S]*?)\};/);
+  if (existingMatch) {
+    const existing = {};
+    for (const m of existingMatch[1].matchAll(/(\w+):\s*\{\s*killed:\s*(\d+),\s*wounded:\s*(\d+)\s*\}/g)) {
+      existing[m[1]] = { killed: parseInt(m[2]), wounded: parseInt(m[3]) };
+    }
+    for (const key of ALL_KEYS) {
+      if (existing[key] && casualties[key]) {
+        casualties[key].killed = Math.max(casualties[key].killed, existing[key].killed);
+        casualties[key].wounded = Math.max(casualties[key].wounded, existing[key].wounded);
+      }
+    }
+    console.log('Merged with existing (took max of each)');
+  }
 
   const entries = ALL_KEYS
     .map((key) => {
@@ -151,9 +169,9 @@ async function main() {
     process.exit(1);
   }
 
-  // Sanity check
-  if (!casualties.iran || casualties.iran.killed === 0) {
-    console.error('ERROR: Iran killed is 0 — parsing likely failed. Aborting.');
+  // Sanity check — Iran killed should be at least 1000+
+  if (!casualties.iran || casualties.iran.killed < 500) {
+    console.error(`ERROR: Iran killed is ${casualties.iran?.killed} — parsing likely failed. Aborting.`);
     process.exit(1);
   }
 
