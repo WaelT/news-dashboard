@@ -30,22 +30,23 @@ Full-screen real-time news dashboard with military ops-center theme. Displays in
 - `src/components/Header.jsx` — Title bar, threat level badge, oil price indicator, multi-timezone clocks
 - `src/components/MapView.jsx` — Leaflet map with conflict zone markers, animated attack route arcs (Polyline + Bezier curves)
 - `src/components/MapFilterBar.jsx` — Map filters: country, type, status, live-only, attack routes toggle
-- `src/components/NewsHeadlines.jsx` — EN/AR tabbed news panel ("LATEST ARTICLES")
-- `src/components/ConflictTimeline.jsx` — EN/AR conflict timeline
-- `src/components/BreakingNews.jsx` — Breaking news ticker with audio alerts (Web Audio API sine-wave chime), mute toggle, visual flash effect
+- `src/components/ConflictTimeline.jsx` — EN/AR conflict timeline (tabbed via Dashboard's TimelineTabs)
+- `src/components/BreakingNews.jsx` — Breaking news ticker (all articles) + flashing alert banner for dedicated breaking feeds (BBC World, Google News Arabic عاجل). Audio alerts via Web Audio API sine-wave chime, mute toggle
+- `src/components/MissileDroneTracker.jsx` — Daily missile/drone launch bar chart (stacked horizontal bars, hover breakdown) + per-country stacked bars for missiles and drones distribution with hover legend
 - `src/components/ImpactTracker.jsx` — Horizontal bar chart of casualties by country (sorted descending), flags via flagcdn.com
 - `src/components/MarketImpact.jsx` — Live market tickers (Yahoo Finance) + economic impact data (US, Israel, Iran, GCC costs)
 - `src/components/LiveStreams.jsx` — YouTube live stream embeds
 - `src/components/TwitterFeed.jsx` — Embedded X timeline widget
 
 ### Hooks
-- `src/hooks/useNews.js` — News data fetching + caching (useEnglishNews, useArabicNews)
+- `src/hooks/useNews.js` — News data fetching + caching (useEnglishNews, useArabicNews, useBreakingNews)
 - `src/hooks/useInterval.js` — Auto-refresh timer
 - `src/hooks/useResizable.js` — Draggable panel resize dividers (useResizableGrid), desktop only
 
 ### Data
 - `src/data/conflictZones.js` — Curated conflict zone coordinates + keyword matching
 - `src/data/attackRoutes.js` — 12 attack route corridors (Iran, Israel, USA, Houthi) with Bezier arc rendering
+- `src/data/launchData.js` — Manually curated daily missile/drone launch data + per-country breakdown (from defense ministry reports). No auto-scraper — Wikipedia lacks structured launch tables
 
 ### Scripts & Automation
 - `scripts/update-casualties.mjs` — Scrapes Wikipedia "2026 Iran war" casualties-by-country table, updates both `public/casualties.json` and `DEFAULT_CASUALTIES` in `ImpactTracker.jsx`
@@ -68,6 +69,8 @@ Vite dev server proxies RSS feeds to avoid CORS:
 - `/rss/ap` → Google News (Iran conflict, English)
 - `/rss/reuters` → Google News (Iran war strikes, English)
 - `/api/yahoo` → Yahoo Finance API (market data)
+- `/rss/bbc-breaking` → BBC World RSS (for breaking news alerts)
+- `/rss/breaking-ar` → Google News Arabic عاجل+إيران (Arabic breaking news)
 
 ## Deployment
 - Hosted on Vercel (auto-deploys from `main` branch)
@@ -83,3 +86,6 @@ YouTube video IDs in `LiveStreams.jsx`. Update if streams go offline.
 - Breaking news audio uses Web Audio API (sine-wave chime, no audio files needed)
 - Attack routes use quadratic Bezier curves for arc effect with CSS dash-flow animation
 - Panel resize disabled on mobile (<1024px), falls back to responsive Tailwind grid
+- Bottom row layout: [Timeline EN|AR] [Missile/Drone Tracker] [Casualties] [Markets]
+- Breaking news uses dedicated RSS feeds (BBC World + Google News Arabic عاجل) instead of keyword matching — only articles < 30 min old trigger alerts
+- Missile/drone launch data is manually curated (Wikipedia has no structured table for this data)
