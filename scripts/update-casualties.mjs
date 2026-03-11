@@ -66,21 +66,37 @@ async function scrapeWikipedia() {
   const casualties = {};
 
   for (const row of rows) {
-    // Extract country from {{Flag|CountryName}}
-    const countryMatch = row.match(/\{\{Flag\|([^}]+)\}\}/i);
-    if (!countryMatch) continue;
-
-    const countryName = countryMatch[1].trim().toLowerCase();
-    const key = COUNTRY_MAP[countryName];
-    if (!key) {
-      console.log(`Unknown country: ${countryName}`);
-      continue;
-    }
-
+    // The table uses plain-text country names (e.g. "|Iran", "|Lebanon"),
+    // NOT {{Flag|CountryName}} templates. Skip header rows that start with "!"
     // Split row into cells by | at start of line
     const cells = row.split(/\n\|/).map(c => c.trim());
 
-    // cells[0] = country (Flag|...), cells[1] = killed, cells[2] = injured, cells[3] = missing
+    // cells[0] might contain leading text or the country name
+    // The first cell after splitting by \n| is the country name
+    // Skip rows where cells start with "!" (header/total rows)
+    if (cells.length < 3) continue;
+
+    // The first cell is the country name (plain text, possibly with links)
+    // e.g. "|Iran", "|United States", "|Saudi Arabia"
+    // Each row starts with |Country, so cells[0] has a leading pipe
+    let rawCountry = cells[0];
+    // If the row starts with ! it's a header row (e.g. "Total") — skip it
+    if (rawCountry.startsWith('!') || row.trimStart().startsWith('!')) continue;
+
+    // Strip leading pipe character from the country name
+    rawCountry = rawCountry.replace(/^\|/, '');
+    // Clean up: remove any residual wiki markup like [[link|display]]
+    rawCountry = rawCountry.replace(/\[\[([^\]|]*\|)?([^\]]*)\]\]/g, '$2').trim();
+    const countryName = rawCountry.toLowerCase();
+    const key = COUNTRY_MAP[countryName];
+    if (!key) {
+      if (countryName && countryName !== '' && !countryName.startsWith('{')) {
+        console.log(`Unknown country: ${countryName}`);
+      }
+      continue;
+    }
+
+    // cells[1] = killed, cells[2] = injured, cells[3] = missing
     // Some cells have data-sort-value or {{Efn}} annotations
     let killedCell = cells[1] || '';
     let injuredCell = cells[2] || '';
