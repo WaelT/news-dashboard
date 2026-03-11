@@ -682,6 +682,98 @@ function timeAgo(dateStr) {
   return `${Math.floor(s / 86400)}d ago`;
 }
 
+// ========== Hormuz Stats ==========
+
+const HORMUZ_DATA = {
+  updated: 'MAR 10, 2026',
+  current: {
+    transitsPerDay: 4,
+    oilFlowMbd: 0.3,
+    disruptionPct: 97,
+  },
+  preWar: {
+    transitsPerDay: 138,
+    oilFlowMbd: 20,
+    globalOilPct: 20,
+    globalLngPct: 20,
+  },
+  crisis: {
+    tankersQueued: 700,
+    tankersStranded: 300,
+    bulkCarriersStranded: 280,
+    vesselsAttacked: 10,
+    seafarersKilled: 7,
+    minesDetected: true,
+    insuranceSurge: '+300%',
+    tankerRates: '$424K/day',
+  },
+  disruptions: [
+    { country: 'Saudi Arabia', detail: 'Gulf exports -39%' },
+    { country: 'Iraq', detail: 'Production -70%' },
+    { country: 'UAE', detail: 'Fujairah bypass active' },
+  ],
+};
+
+function HormuzStatRow({ label, value, color = '#00aaff', sub }) {
+  return (
+    <div className="py-1.5 border-b border-ops-border/30">
+      <div className="flex items-baseline justify-between gap-1">
+        <span className="text-[9px] text-ops-muted">{label}</span>
+        <span className="text-[11px] font-bold font-mono" style={{ color }}>{value}</span>
+      </div>
+      {sub && <div className="text-[8px] text-ops-muted/60 mt-0.5">{sub}</div>}
+    </div>
+  );
+}
+
+function HormuzStats() {
+  const d = HORMUZ_DATA;
+  return (
+    <div className="text-ops-text">
+      <div className="text-[8px] text-ops-muted tracking-widest mb-1.5 flex items-center justify-between">
+        <span>STATUS</span>
+        <span className="text-[7px]">{d.updated}</span>
+      </div>
+
+      {/* Disruption headline */}
+      <div className="bg-ops-red/10 border border-ops-red/30 rounded px-2 py-1.5 mb-2 text-center">
+        <div className="text-[18px] font-bold font-mono text-ops-red">{d.current.disruptionPct}%</div>
+        <div className="text-[8px] text-ops-red tracking-widest">TRAFFIC DISRUPTION</div>
+      </div>
+
+      {/* Current vs Pre-war */}
+      <div className="text-[8px] text-ops-muted tracking-widest mb-1">CURRENT</div>
+      <HormuzStatRow label="Vessel Transits/Day" value={d.current.transitsPerDay} color="#ff0040" sub={`Pre-war: ${d.preWar.transitsPerDay}/day`} />
+      <HormuzStatRow label="Oil Flow" value={`${d.current.oilFlowMbd} mb/d`} color="#ff0040" sub={`Pre-war: ${d.preWar.oilFlowMbd} mb/d`} />
+      <HormuzStatRow label="Global Oil via Hormuz" value={`${d.preWar.globalOilPct}%`} sub="of global petroleum trade" />
+      <HormuzStatRow label="Global LNG via Hormuz" value={`${d.preWar.globalLngPct}%`} sub="of global LNG trade" />
+
+      {/* Crisis metrics */}
+      <div className="text-[8px] text-ops-muted tracking-widest mb-1 mt-2">CRISIS</div>
+      <HormuzStatRow label="Tankers Queued Outside" value={`${d.crisis.tankersQueued}+`} color="#ff6600" />
+      <HormuzStatRow label="Tankers Stranded Inside" value={`${d.crisis.tankersStranded}+`} color="#ff6600" />
+      <HormuzStatRow label="Bulk Carriers Stranded" value={d.crisis.bulkCarriersStranded} color="#ff6600" />
+      <HormuzStatRow label="Vessels Attacked" value={d.crisis.vesselsAttacked} color="#ff0040" />
+      <HormuzStatRow label="Seafarers Killed" value={d.crisis.seafarersKilled} color="#ff0040" />
+      <HormuzStatRow label="Mine Threat" value={d.crisis.minesDetected ? 'ACTIVE' : 'NONE'} color={d.crisis.minesDetected ? '#ff0040' : '#00ff41'} sub="Mine-laying reported Mar 10" />
+      <HormuzStatRow label="War Risk Insurance" value={d.crisis.insuranceSurge} color="#ff6600" />
+      <HormuzStatRow label="Supertanker Rate" value={d.crisis.tankerRates} color="#ffcc00" sub="All-time high" />
+
+      {/* Country disruptions */}
+      <div className="text-[8px] text-ops-muted tracking-widest mb-1 mt-2">EXPORT DISRUPTIONS</div>
+      {d.disruptions.map((c) => (
+        <div key={c.country} className="flex items-center gap-1.5 py-1 border-b border-ops-border/30">
+          <img src={`https://flagcdn.com/16x12/${c.country === 'Saudi Arabia' ? 'sa' : c.country === 'Iraq' ? 'iq' : 'ae'}.png`} alt="" className="w-3 h-2.5" />
+          <span className="text-[9px] font-bold text-ops-text">{c.country}</span>
+          <span className="text-[8px] text-ops-muted ml-auto">{c.detail}</span>
+        </div>
+      ))}
+
+      <p className="text-[7px] text-ops-muted/50 mt-2">Sources: Windward, EIA, Reuters, Anadolu</p>
+    </div>
+  );
+}
+
 // ========== Main MapView ==========
 
 export default function MapView({ articles = [] }) {
@@ -903,16 +995,25 @@ export default function MapView({ articles = [] }) {
     {showHormuz && (
       <div className="flex-[3] min-w-0 h-full border-l border-ops-border flex flex-col bg-ops-panel">
         <div className="flex items-center justify-between px-2 py-1 border-b border-ops-border">
-          <span className="text-[9px] font-bold tracking-widest text-[#00aaff]">STRAIT OF HORMUZ — LIVE TRAFFIC</span>
+          <span className="text-[9px] font-bold tracking-widest text-[#00aaff]">STRAIT OF HORMUZ</span>
           <button onClick={() => setShowHormuz(false)} className="text-ops-muted hover:text-ops-text text-xs px-1">✕</button>
         </div>
-        <iframe
-          src="https://www.marinetraffic.com/en/ais/embed/zoom:8/centery:26.5/centerx:56.2/maptype:0/shownames:true"
-          className="flex-1 w-full"
-          style={{ border: 0, display: 'block' }}
-          title="Strait of Hormuz Live Traffic"
-          loading="lazy"
-        />
+        <div className="flex flex-1 min-h-0">
+          {/* Live traffic embed */}
+          <div className="flex-[6] min-w-0 h-full">
+            <iframe
+              src="https://www.marinetraffic.com/en/ais/embed/zoom:8/centery:26.5/centerx:56.2/maptype:0/shownames:true"
+              className="w-full h-full"
+              style={{ border: 0, display: 'block' }}
+              title="Strait of Hormuz Live Traffic"
+              loading="lazy"
+            />
+          </div>
+          {/* Stats panel */}
+          <div className="flex-[4] min-w-0 h-full border-l border-ops-border overflow-y-auto px-2 py-2">
+            <HormuzStats />
+          </div>
+        </div>
       </div>
     )}
     </div>
