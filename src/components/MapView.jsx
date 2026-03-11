@@ -120,6 +120,8 @@ const GEO_NAME_MAP = {
 const TARGET_CC = {
   UAE: 'ae', Israel: 'il', Qatar: 'qa', Kuwait: 'kw', Bahrain: 'bh',
   'Saudi Arabia': 'sa', Jordan: 'jo', Iraq: 'iq', Iran: 'ir',
+  Syria: 'sy', Lebanon: 'lb', Yemen: 'ye', Oman: 'om', Turkey: 'tr',
+  Azerbaijan: 'az',
 };
 
 function getCountry(zone) {
@@ -563,7 +565,7 @@ function CountryStatCard({ info }) {
   const pct = grandTotal > 0 ? ((total / grandTotal) * 100).toFixed(1) : 0;
   const cc = TARGET_CC[name];
 
-  if (total === 0 && name !== 'Iran') return null;
+  // Always show card for countries with a known country code
 
   return (
     <div
@@ -574,7 +576,30 @@ function CountryStatCard({ info }) {
         {cc && <img src={`https://flagcdn.com/20x15/${cc}.png`} alt={name} className="w-4 h-3 object-cover rounded-sm" />}
         <span className="text-[10px] font-bold text-ops-text">{name.toUpperCase()}</span>
       </div>
-      {name === 'Iran' ? null : (
+      {name === 'Iran' ? (
+        <div className="text-[9px] font-mono">
+          <div className="flex items-center gap-2 mb-0.5">
+            <span className="text-[#ff0040] font-bold">5,000+</span>
+            <span className="text-gray-400">targets struck</span>
+          </div>
+          <div className="flex items-center gap-2 mb-0.5">
+            <span className="text-[#ff0040] font-bold">6,000+</span>
+            <span className="text-gray-400">munitions (IDF)</span>
+          </div>
+          <div className="flex items-center gap-2 mb-0.5">
+            <span className="text-[#ff6600] font-bold">60+</span>
+            <span className="text-gray-400">naval vessels sunk</span>
+          </div>
+          <div className="flex items-center gap-2 mb-0.5">
+            <span className="text-[#00aaff] font-bold">26/31</span>
+            <span className="text-gray-400">provinces hit</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-[#ffcc00] font-bold">$5.6B</span>
+            <span className="text-gray-400">munitions (48h)</span>
+          </div>
+        </div>
+      ) : total > 0 ? (
         <>
           <div className="flex items-center gap-3 text-[9px] font-mono">
             <span><span className="text-[#ff0040] font-bold">{missiles}</span> <span className="text-ops-muted">missiles</span></span>
@@ -587,7 +612,7 @@ function CountryStatCard({ info }) {
             <span className="text-[8px] font-mono text-ops-muted">{pct}%</span>
           </div>
         </>
-      )}
+      ) : null}
     </div>
   );
 }
