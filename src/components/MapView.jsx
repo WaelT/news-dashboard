@@ -139,13 +139,24 @@ const STRIKE_KEYWORDS = [
   'ضربة', 'قصف', 'غارة', 'صاروخ', 'انفجار', 'هجوم', 'قتل',
 ];
 
+// Location keywords = first keyword for each zone (city/place name)
+// Action keywords = global strike/conflict terms
+const ACTION_KEYWORDS = [
+  'strike', 'airstrike', 'bomb', 'explosion', 'missile', 'attack', 'killed',
+  'destroyed', 'intercept', 'launch', 'raid', 'shell', 'target', 'drone',
+  'ضربة', 'قصف', 'غارة', 'صاروخ', 'انفجار', 'هجوم', 'قتل', 'تدمير', 'اعتراض',
+];
+
 function matchArticles(zone, articles) {
   if (!zone.keywords || !articles.length) return [];
-  const kw = zone.keywords.map((k) => k.toLowerCase());
+  const locationKw = zone.keywords.map((k) => k.toLowerCase());
   return articles
     .filter((a) => {
       const text = `${a.title || ''} ${a.description || ''}`.toLowerCase();
-      return kw.some((k) => text.includes(k));
+      const hasLocation = locationKw.some((k) => text.includes(k));
+      if (!hasLocation) return false;
+      const hasAction = ACTION_KEYWORDS.some((k) => text.includes(k));
+      return hasAction;
     })
     .slice(0, 8);
 }
@@ -1000,11 +1011,11 @@ export default function MapView({ articles = [] }) {
         {/* Feature 3: Clustered markers */}
         <MarkerClusterGroup
           chunkedLoading
-          maxClusterRadius={40}
+          maxClusterRadius={(zoom) => zoom <= 5 ? 120 : zoom <= 6 ? 80 : 40}
           spiderfyOnMaxZoom
           showCoverageOnHover={false}
           iconCreateFunction={createClusterIcon}
-          disableClusteringAtZoom={7}
+          disableClusteringAtZoom={8}
         >
           {filteredZones.map((zone) => (
             <ClickMarker key={zone.id} zone={zone} articles={articles} />
