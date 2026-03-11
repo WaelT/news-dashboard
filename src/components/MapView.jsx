@@ -718,10 +718,10 @@ function HormuzStatRow({ label, value, color = '#00aaff', sub }) {
   return (
     <div className="py-1.5 border-b border-ops-border/30">
       <div className="flex items-baseline justify-between gap-1">
-        <span className="text-[9px] text-ops-muted">{label}</span>
-        <span className="text-[11px] font-bold font-mono" style={{ color }}>{value}</span>
+        <span className="text-[11px] text-gray-300">{label}</span>
+        <span className="text-[13px] font-bold font-mono" style={{ color }}>{value}</span>
       </div>
-      {sub && <div className="text-[8px] text-ops-muted/60 mt-0.5">{sub}</div>}
+      {sub && <div className="text-[9px] text-gray-400 mt-0.5">{sub}</div>}
     </div>
   );
 }
@@ -730,26 +730,26 @@ function HormuzStats() {
   const d = HORMUZ_DATA;
   return (
     <div className="text-ops-text">
-      <div className="text-[8px] text-ops-muted tracking-widest mb-1.5 flex items-center justify-between">
+      <div className="text-[9px] text-gray-400 tracking-widest mb-1.5 flex items-center justify-between">
         <span>STATUS</span>
-        <span className="text-[7px]">{d.updated}</span>
+        <span className="text-[8px]">{d.updated}</span>
       </div>
 
       {/* Disruption headline */}
       <div className="bg-ops-red/10 border border-ops-red/30 rounded px-2 py-1.5 mb-2 text-center">
-        <div className="text-[18px] font-bold font-mono text-ops-red">{d.current.disruptionPct}%</div>
-        <div className="text-[8px] text-ops-red tracking-widest">TRAFFIC DISRUPTION</div>
+        <div className="text-[20px] font-bold font-mono text-ops-red">{d.current.disruptionPct}%</div>
+        <div className="text-[9px] text-ops-red tracking-widest">TRAFFIC DISRUPTION</div>
       </div>
 
       {/* Current vs Pre-war */}
-      <div className="text-[8px] text-ops-muted tracking-widest mb-1">CURRENT</div>
+      <div className="text-[9px] text-gray-400 tracking-widest mb-1">CURRENT</div>
       <HormuzStatRow label="Vessel Transits/Day" value={d.current.transitsPerDay} color="#ff0040" sub={`Pre-war: ${d.preWar.transitsPerDay}/day`} />
       <HormuzStatRow label="Oil Flow" value={`${d.current.oilFlowMbd} mb/d`} color="#ff0040" sub={`Pre-war: ${d.preWar.oilFlowMbd} mb/d`} />
       <HormuzStatRow label="Global Oil via Hormuz" value={`${d.preWar.globalOilPct}%`} sub="of global petroleum trade" />
       <HormuzStatRow label="Global LNG via Hormuz" value={`${d.preWar.globalLngPct}%`} sub="of global LNG trade" />
 
       {/* Crisis metrics */}
-      <div className="text-[8px] text-ops-muted tracking-widest mb-1 mt-2">CRISIS</div>
+      <div className="text-[9px] text-gray-400 tracking-widest mb-1 mt-2">CRISIS</div>
       <HormuzStatRow label="Tankers Queued Outside" value={`${d.crisis.tankersQueued}+`} color="#ff6600" />
       <HormuzStatRow label="Tankers Stranded Inside" value={`${d.crisis.tankersStranded}+`} color="#ff6600" />
       <HormuzStatRow label="Bulk Carriers Stranded" value={d.crisis.bulkCarriersStranded} color="#ff6600" />
@@ -760,16 +760,16 @@ function HormuzStats() {
       <HormuzStatRow label="Supertanker Rate" value={d.crisis.tankerRates} color="#ffcc00" sub="All-time high" />
 
       {/* Country disruptions */}
-      <div className="text-[8px] text-ops-muted tracking-widest mb-1 mt-2">EXPORT DISRUPTIONS</div>
+      <div className="text-[9px] text-gray-400 tracking-widest mb-1 mt-2">EXPORT DISRUPTIONS</div>
       {d.disruptions.map((c) => (
-        <div key={c.country} className="flex items-center gap-1.5 py-1 border-b border-ops-border/30">
-          <img src={`https://flagcdn.com/16x12/${c.country === 'Saudi Arabia' ? 'sa' : c.country === 'Iraq' ? 'iq' : 'ae'}.png`} alt="" className="w-3 h-2.5" />
-          <span className="text-[9px] font-bold text-ops-text">{c.country}</span>
-          <span className="text-[8px] text-ops-muted ml-auto">{c.detail}</span>
+        <div key={c.country} className="flex items-center gap-1.5 py-1.5 border-b border-ops-border/30">
+          <img src={`https://flagcdn.com/16x12/${c.country === 'Saudi Arabia' ? 'sa' : c.country === 'Iraq' ? 'iq' : 'ae'}.png`} alt="" className="w-3.5 h-3" />
+          <span className="text-[11px] font-bold text-gray-200">{c.country}</span>
+          <span className="text-[10px] text-gray-400 ml-auto">{c.detail}</span>
         </div>
       ))}
 
-      <p className="text-[7px] text-ops-muted/50 mt-2">Sources: Windward, EIA, Reuters, Anadolu</p>
+      <p className="text-[8px] text-gray-500 mt-2">Sources: Windward, EIA, Reuters, Anadolu</p>
     </div>
   );
 }
