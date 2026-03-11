@@ -574,9 +574,7 @@ function CountryStatCard({ info }) {
         {cc && <img src={`https://flagcdn.com/20x15/${cc}.png`} alt={name} className="w-4 h-3 object-cover rounded-sm" />}
         <span className="text-[10px] font-bold text-ops-text">{name.toUpperCase()}</span>
       </div>
-      {name === 'Iran' ? (
-        <div className="text-[9px] text-ops-red font-bold">ATTACKER</div>
-      ) : (
+      {name === 'Iran' ? null : (
         <>
           <div className="flex items-center gap-3 text-[9px] font-mono">
             <span><span className="text-[#ff0040] font-bold">{missiles}</span> <span className="text-ops-muted">missiles</span></span>
@@ -711,10 +709,11 @@ export default function MapView({ articles = [] }) {
     return Array.from(map.values());
   }, [dynamicZones]);
 
-  const [showRoutes, setShowRoutes] = useState(true);
+  const [showRoutes, setShowRoutes] = useState(false);
   const [showHeat, setShowHeat] = useState(false);
-  const [showBoundaries, setShowBoundaries] = useState(true);
+  const [showBoundaries, setShowBoundaries] = useState(false);
   const [showTimeline, setShowTimeline] = useState(false);
+  const [showHormuz, setShowHormuz] = useState(false);
   const [dayIndex, setDayIndex] = useState(launchData.length - 1);
   const [hoveredCountry, setHoveredCountry] = useState(null);
 
@@ -803,7 +802,9 @@ export default function MapView({ articles = [] }) {
   }, [articles, filteredZones]);
 
   return (
-    <div className="w-full h-full relative">
+    <div className="w-full h-full flex">
+    {/* Map section */}
+    <div className={`relative ${showHormuz ? 'flex-[7]' : 'flex-1'} min-w-0 h-full`}>
       {/* Panel label */}
       <div className="absolute top-2 right-3 z-[1000] flex items-center gap-2">
         <span className="text-ops-green text-[10px] font-bold tracking-widest uppercase bg-ops-panel/90 px-2 py-1 border border-ops-border rounded backdrop-blur-sm">
@@ -824,6 +825,16 @@ export default function MapView({ articles = [] }) {
         onToggleBoundaries={() => setShowBoundaries((v) => !v)}
         showTimeline={showTimeline}
         onToggleTimeline={() => setShowTimeline((v) => !v)}
+        showHormuz={showHormuz}
+        onToggleHormuz={() => setShowHormuz((v) => !v)}
+        onClearAll={() => {
+          setFilters({ countries: new Set(), types: new Set(), statuses: new Set(), liveOnly: false });
+          setShowRoutes(false);
+          setShowHeat(false);
+          setShowBoundaries(false);
+          setShowTimeline(false);
+          setShowHormuz(false);
+        }}
       />
 
       {/* Legend */}
@@ -846,7 +857,6 @@ export default function MapView({ articles = [] }) {
       {/* Timeline slider */}
       {showTimeline && <TimelineSlider dayIndex={dayIndex} setDayIndex={setDayIndex} />}
 
-      {/* Country stat card on hover */}
       <MapContainer
         center={[28, 49]}
         zoom={5}
@@ -887,6 +897,24 @@ export default function MapView({ articles = [] }) {
         {/* Feature 6: Stat card */}
         <CountryStatCard info={hoveredCountry} />
       </MapContainer>
+    </div>
+
+    {/* Strait of Hormuz side panel — ~30% of map width */}
+    {showHormuz && (
+      <div className="flex-[3] min-w-0 h-full border-l border-ops-border flex flex-col bg-ops-panel">
+        <div className="flex items-center justify-between px-2 py-1 border-b border-ops-border">
+          <span className="text-[9px] font-bold tracking-widest text-[#00aaff]">STRAIT OF HORMUZ — LIVE TRAFFIC</span>
+          <button onClick={() => setShowHormuz(false)} className="text-ops-muted hover:text-ops-text text-xs px-1">✕</button>
+        </div>
+        <iframe
+          src="https://www.marinetraffic.com/en/ais/embed/zoom:8/centery:26.5/centerx:56.2/maptype:0/shownames:true"
+          className="flex-1 w-full"
+          style={{ border: 0, display: 'block' }}
+          title="Strait of Hormuz Live Traffic"
+          loading="lazy"
+        />
+      </div>
+    )}
     </div>
   );
 }

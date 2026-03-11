@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const TYPE_LABELS = {
   strike: 'Strike',
@@ -50,8 +50,18 @@ function Chip({ label, active, color, onClick }) {
   );
 }
 
-export default function MapFilterBar({ filters, onFiltersChange, countries, showRoutes, onToggleRoutes, showHeat, onToggleHeat, showBoundaries, onToggleBoundaries, showTimeline, onToggleTimeline }) {
+export default function MapFilterBar({ filters, onFiltersChange, countries, showRoutes, onToggleRoutes, showHeat, onToggleHeat, showBoundaries, onToggleBoundaries, showTimeline, onToggleTimeline, showHormuz, onToggleHormuz, onClearAll }) {
   const [expanded, setExpanded] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    if (!expanded) return;
+    const handleClick = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) setExpanded(false);
+    };
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, [expanded]);
 
   const toggleFilter = (category, value) => {
     const updated = { ...filters };
@@ -62,23 +72,15 @@ export default function MapFilterBar({ filters, onFiltersChange, countries, show
     onFiltersChange(updated);
   };
 
-  const clearAll = () => {
-    onFiltersChange({
-      countries: new Set(),
-      types: new Set(),
-      statuses: new Set(),
-      liveOnly: false,
-    });
-  };
-
   const hasActive =
     filters.countries.size > 0 ||
     filters.types.size > 0 ||
     filters.statuses.size > 0 ||
-    filters.liveOnly;
+    filters.liveOnly ||
+    showRoutes || showHeat || showBoundaries || showTimeline || showHormuz;
 
   return (
-    <div className="absolute top-2 left-12 z-[1000]">
+    <div className="absolute top-2 left-12 z-[1000]" ref={ref}>
       <button
         onClick={() => setExpanded((v) => !v)}
         className="text-[9px] font-bold tracking-wider px-2 py-1 bg-ops-panel/90 border border-ops-border rounded backdrop-blur-sm flex items-center gap-1.5"
@@ -190,17 +192,30 @@ export default function MapFilterBar({ filters, onFiltersChange, countries, show
             >
               TIMELINE
             </button>
+            <button
+              onClick={onToggleHormuz}
+              className={`text-[9px] font-bold px-2 py-1 rounded border ${
+                showHormuz
+                  ? 'bg-[#00aaff]/20 border-[#00aaff] text-[#00aaff]'
+                  : 'bg-transparent border-ops-border text-ops-muted'
+              }`}
+            >
+              HORMUZ
+            </button>
           </div>
 
           {/* Clear */}
-          {hasActive && (
-            <button
-              onClick={clearAll}
-              className="text-[9px] font-bold tracking-wider text-ops-muted hover:text-ops-text px-2 py-1 border border-ops-border rounded w-full"
-            >
-              CLEAR ALL
-            </button>
-          )}
+          <button
+            onClick={() => { onClearAll(); }}
+            className={`text-[9px] font-bold tracking-wider px-2 py-1 border rounded w-full ${
+              hasActive
+                ? 'text-ops-red border-ops-red/50 hover:bg-ops-red/10'
+                : 'text-ops-muted/50 border-ops-border/50 cursor-default'
+            }`}
+            disabled={!hasActive}
+          >
+            CLEAR ALL
+          </button>
         </div>
       )}
     </div>
