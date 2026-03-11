@@ -19,7 +19,7 @@ export default function Header({ threatLevel, oilPrice, activeZoneCount }) {
     <header className="bg-ops-panel border-b border-ops-border px-4 py-2 flex items-center justify-between">
       <div className="flex items-center gap-4">
         <h1 className="text-ops-green font-bold text-lg tracking-widest font-display">
-          IRAN CONFLICT — OPS DASHBOARD
+          OPERATION EPIC FURY — OPS DASHBOARD
         </h1>
         <div className="flex items-center gap-2">
           <span className="live-dot inline-block w-2 h-2 rounded-full bg-ops-red" />
