@@ -50,7 +50,7 @@ function Chip({ label, active, color, onClick }) {
   );
 }
 
-export default function MapFilterBar({ filters, onFiltersChange, countries, showRoutes, onToggleRoutes }) {
+export default function MapFilterBar({ filters, onFiltersChange, countries, showRoutes, onToggleRoutes, showHeat, onToggleHeat, showBoundaries, onToggleBoundaries, showTimeline, onToggleTimeline }) {
   const [expanded, setExpanded] = useState(false);
 
   const toggleFilter = (category, value) => {
@@ -159,6 +159,36 @@ export default function MapFilterBar({ filters, onFiltersChange, countries, show
               }`}
             >
               ATTACK ROUTES
+            </button>
+            <button
+              onClick={onToggleHeat}
+              className={`text-[9px] font-bold px-2 py-1 rounded border ${
+                showHeat
+                  ? 'bg-ops-red/20 border-ops-red text-ops-red'
+                  : 'bg-transparent border-ops-border text-ops-muted'
+              }`}
+            >
+              HEAT MAP
+            </button>
+            <button
+              onClick={onToggleBoundaries}
+              className={`text-[9px] font-bold px-2 py-1 rounded border ${
+                showBoundaries
+                  ? 'bg-[#00ff41]/20 border-[#00ff41] text-[#00ff41]'
+                  : 'bg-transparent border-ops-border text-ops-muted'
+              }`}
+            >
+              BORDERS
+            </button>
+            <button
+              onClick={onToggleTimeline}
+              className={`text-[9px] font-bold px-2 py-1 rounded border ${
+                showTimeline
+                  ? 'bg-ops-amber/20 border-ops-amber text-ops-amber'
+                  : 'bg-transparent border-ops-border text-ops-muted'
+              }`}
+            >
+              TIMELINE
             </button>
           </div>
 

@@ -207,6 +207,69 @@ html, body, #root {
   display: none !important;
 }
 
+/* Marker cluster overrides for ops-center theme */
+.marker-cluster-ops {
+  background: none !important;
+  border: none !important;
+}
+
+.leaflet-marker-icon.marker-cluster-ops div {
+  background: none !important;
+}
+
+/* Animated missile dot on trajectory */
+@keyframes missile-glow {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+.missile-dot-marker {
+  background: none !important;
+  border: none !important;
+}
+
+/* Timeline slider styling */
+.timeline-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: #1b3a2a;
+  border-radius: 2px;
+  outline: none;
+}
+
+.timeline-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #00ff41;
+  cursor: pointer;
+  border: 2px solid #0d1117;
+  box-shadow: 0 0 6px rgba(0, 255, 65, 0.5);
+}
+
+.timeline-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #00ff41;
+  cursor: pointer;
+  border: 2px solid #0d1117;
+  box-shadow: 0 0 6px rgba(0, 255, 65, 0.5);
+}
+
+/* Country stat card fade in */
+@keyframes stat-card-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.stat-card-enter {
+  animation: stat-card-in 0.15s ease-out;
+}
+
 /* Resize handle styles */
 [style*="col-resize"] {
   user-select: none;

@@ -1,11 +1,14 @@
-import { useMemo, useRef, useEffect, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, Polyline, Tooltip, useMap } from 'react-leaflet';
+import React, { useMemo, useRef, useEffect, useState, useCallback, memo } from 'react';
+import { MapContainer, TileLayer, Marker, Popup, Polyline, Tooltip, GeoJSON, useMap } from 'react-leaflet';
+import MarkerClusterGroup from 'react-leaflet-cluster';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import 'leaflet.heat';
 import conflictZones from '../data/conflictZones';
 import MapMarkerPopup from './MapMarkerPopup';
 import MapFilterBar from './MapFilterBar';
 import attackRoutes from '../data/attackRoutes';
+import launchData, { countryBreakdown } from '../data/launchData';
 
 // SVG icon paths for each marker type
 const ICONS = {
@@ -82,17 +85,41 @@ const STATUS_RING = {
 // --- Country derivation ---
 
 const COUNTRY_FALLBACK = {
-  10: 'Iran',      // Strait of Hormuz
-  101: 'Israel',   // Tel Aviv
-  102: 'Israel',   // Dimona
-  103: 'Israel',   // Nevatim Airbase
-  117: 'Yemen',    // Bab el-Mandeb Strait
-  118: 'Kuwait',   // Kuwait City
-  120: 'Other',    // USS Carrier Group
-  123: 'Israel',   // Jerusalem
-  127: 'Lebanon',  // Southern Lebanon
-  139: 'Jordan',   // Tower 22 / Al-Tanf Border
-  140: 'Jordan',   // Muwaffaq Salti Air Base
+  10: 'Iran',
+  101: 'Israel',
+  102: 'Israel',
+  103: 'Israel',
+  117: 'Yemen',
+  118: 'Kuwait',
+  120: 'Other',
+  123: 'Israel',
+  127: 'Lebanon',
+  139: 'Jordan',
+  140: 'Jordan',
+};
+
+// Map GeoJSON country names to our data names
+const GEO_NAME_MAP = {
+  'United Arab Emirates': 'UAE',
+  'Saudi Arabia': 'Saudi Arabia',
+  Iran: 'Iran',
+  Israel: 'Israel',
+  Iraq: 'Iraq',
+  Kuwait: 'Kuwait',
+  Qatar: 'Qatar',
+  Bahrain: 'Bahrain',
+  Jordan: 'Jordan',
+  Yemen: 'Yemen',
+  Lebanon: 'Lebanon',
+  Syria: 'Syria',
+  Oman: 'Oman',
+  Turkey: 'Turkey',
+  Azerbaijan: 'Azerbaijan',
+};
+
+const TARGET_CC = {
+  UAE: 'ae', Israel: 'il', Qatar: 'qa', Kuwait: 'kw', Bahrain: 'bh',
+  'Saudi Arabia': 'sa', Jordan: 'jo', Iraq: 'iq', Iran: 'ir',
 };
 
 function getCountry(zone) {
@@ -140,11 +167,11 @@ function computeLiveStatus(zone, matched) {
   const newestStrike = hasStrike ? Math.min(...strikeMatches.map(articleAge)) : Infinity;
 
   let status = zone.status;
-  if (newest < 3600) status = 'high-alert';          // < 1 hour
-  else if (newest < 21600) status = 'active';         // < 6 hours
+  if (newest < 3600) status = 'high-alert';
+  else if (newest < 21600) status = 'active';
   else if (newest < 86400 && matched.length >= 2) status = 'active';
 
-  const isFlash = newestStrike < 1800;  // strike in last 30 min
+  const isFlash = newestStrike < 1800;
 
   return { status, articleCount: matched.length, isFlash, hasStrike };
 }
@@ -155,7 +182,6 @@ function createMarkerIcon(zone, live) {
   const svgContent = ICONS[zone.icon] || ICONS.military;
   const ring = STATUS_RING[live.status] || STATUS_RING.monitoring;
 
-  // Scale up markers with more activity
   let size = zone.type === 'capital' || zone.type === 'strike' ? 32 : 26;
   if (live.articleCount >= 3) size = Math.max(size, 36);
   else if (live.articleCount >= 1) size = Math.max(size, 30);
@@ -171,7 +197,6 @@ function createMarkerIcon(zone, live) {
     ? `<circle cx="12" cy="12" r="11" fill="${ring.color}" opacity="0.15" class="map-icon-flash"/>`
     : '';
 
-  // Article count badge
   const badge = live.articleCount > 0
     ? `<circle cx="20" cy="4" r="5" fill="${ring.color}"/>
        <text x="20" y="6.5" text-anchor="middle" font-size="7" font-weight="bold" fill="white" font-family="monospace">${live.articleCount > 9 ? '9+' : live.articleCount}</text>`
@@ -194,9 +219,34 @@ function createMarkerIcon(zone, live) {
   });
 }
 
+// Custom cluster icon for ops-center theme
+function createClusterIcon(cluster) {
+  const count = cluster.getChildCount();
+  const children = cluster.getAllChildMarkers();
+  let maxStatus = 'monitoring';
+  for (const m of children) {
+    const cls = m.options.icon?.options?.className || '';
+    if (cls.includes('map-marker-flash')) { maxStatus = 'high-alert'; break; }
+  }
+  const hasHighAlert = count > 5;
+  const color = hasHighAlert || maxStatus === 'high-alert' ? '#ff0040' : count > 3 ? '#ff6600' : '#00ff41';
+  const sz = count > 20 ? 40 : count > 10 ? 34 : 28;
+
+  return L.divIcon({
+    className: 'marker-cluster-ops',
+    html: `<svg width="${sz}" height="${sz}" viewBox="0 0 40 40">
+      <circle cx="20" cy="20" r="18" fill="${color}" opacity="0.2" stroke="${color}" stroke-width="1.5"/>
+      <circle cx="20" cy="20" r="12" fill="${color}" opacity="0.4"/>
+      <text x="20" y="24" text-anchor="middle" fill="white" font-size="12" font-weight="bold" font-family="monospace">${count}</text>
+    </svg>`,
+    iconSize: [sz, sz],
+    iconAnchor: [sz / 2, sz / 2],
+  });
+}
+
 // --- Components ---
 
-function ClickMarker({ zone, articles }) {
+const ClickMarker = memo(function ClickMarker({ zone, articles }) {
   const matched = useMemo(() => matchArticles(zone, articles), [zone, articles]);
   const live = useMemo(() => computeLiveStatus(zone, matched), [zone, matched]);
   const icon = useMemo(() => createMarkerIcon(zone, live), [zone, live]);
@@ -209,9 +259,343 @@ function ClickMarker({ zone, articles }) {
       </Popup>
     </Marker>
   );
+});
+
+// ========== Feature 1: Heat Map Overlay ==========
+
+function HeatLayer({ zones, zoneLiveMap }) {
+  const map = useMap();
+  const layerRef = useRef(null);
+
+  useEffect(() => {
+    const points = zones.map((zone) => {
+      const ld = zoneLiveMap.get(zone.id);
+      let intensity = 0.2;
+      if (ld) {
+        if (ld.live.status === 'high-alert') intensity = 1.0;
+        else if (ld.live.status === 'active') intensity = 0.6;
+        intensity += Math.min(ld.live.articleCount * 0.1, 0.4);
+      }
+      return [zone.lat, zone.lng, Math.min(intensity, 1.0)];
+    });
+
+    if (layerRef.current) map.removeLayer(layerRef.current);
+    layerRef.current = L.heatLayer(points, {
+      radius: 35,
+      blur: 25,
+      maxZoom: 8,
+      gradient: { 0.2: '#00ff41', 0.4: '#ff6600', 0.7: '#ff0040', 1.0: '#ff0040' },
+    }).addTo(map);
+
+    return () => {
+      if (layerRef.current) map.removeLayer(layerRef.current);
+    };
+  }, [map, zones, zoneLiveMap]);
+
+  return null;
 }
 
-// Live event feed overlay — shows recent article-zone matches
+// ========== Feature 2: Animated Attack Trajectories ==========
+
+function computeArc(from, to, numPoints = 30) {
+  const midLat = (from[0] + to[0]) / 2;
+  const midLng = (from[1] + to[1]) / 2;
+  const dLat = to[0] - from[0];
+  const dLng = to[1] - from[1];
+  const offset = 0.15;
+  const ctrlLat = midLat + dLng * offset;
+  const ctrlLng = midLng - dLat * offset;
+  const points = [];
+  for (let i = 0; i <= numPoints; i++) {
+    const t = i / numPoints;
+    const lat = (1 - t) * (1 - t) * from[0] + 2 * (1 - t) * t * ctrlLat + t * t * to[0];
+    const lng = (1 - t) * (1 - t) * from[1] + 2 * (1 - t) * t * ctrlLng + t * t * to[1];
+    points.push([lat, lng]);
+  }
+  return points;
+}
+
+function bezierPoint(from, to, t) {
+  const midLat = (from[0] + to[0]) / 2;
+  const midLng = (from[1] + to[1]) / 2;
+  const dLat = to[0] - from[0];
+  const dLng = to[1] - from[1];
+  const offset = 0.15;
+  const ctrlLat = midLat + dLng * offset;
+  const ctrlLng = midLng - dLat * offset;
+  return [
+    (1 - t) * (1 - t) * from[0] + 2 * (1 - t) * t * ctrlLat + t * t * to[0],
+    (1 - t) * (1 - t) * from[1] + 2 * (1 - t) * t * ctrlLng + t * t * to[1],
+  ];
+}
+
+function AnimatedRoute({ route, offset }) {
+  const map = useMap();
+  const dotRef = useRef(null);
+  const trailRef = useRef(null);
+  const frameRef = useRef(null);
+
+  useEffect(() => {
+    const dot = L.circleMarker([0, 0], {
+      radius: 4,
+      fillColor: route.color,
+      fillOpacity: 1,
+      color: route.color,
+      weight: 1,
+      className: 'missile-dot-marker',
+    }).addTo(map);
+
+    const trail = L.polyline([], {
+      color: route.color,
+      weight: 2,
+      opacity: 0.6,
+    }).addTo(map);
+
+    dotRef.current = dot;
+    trailRef.current = trail;
+
+    const duration = 4000;
+    let start = performance.now() - offset * duration;
+
+    function animate(now) {
+      const elapsed = (now - start) % duration;
+      const t = elapsed / duration;
+      const pos = bezierPoint(route.from, route.to, t);
+      dot.setLatLng(pos);
+      dot.setStyle({ fillOpacity: 0.6 + t * 0.4 });
+
+      // Trail: last 8 positions
+      const trailPts = [];
+      for (let i = 7; i >= 0; i--) {
+        const tt = Math.max(0, t - i * 0.015);
+        trailPts.push(bezierPoint(route.from, route.to, tt));
+      }
+      trail.setLatLngs(trailPts);
+
+      frameRef.current = requestAnimationFrame(animate);
+    }
+
+    frameRef.current = requestAnimationFrame(animate);
+
+    return () => {
+      cancelAnimationFrame(frameRef.current);
+      map.removeLayer(dot);
+      map.removeLayer(trail);
+    };
+  }, [map, route, offset]);
+
+  return null;
+}
+
+function AnimatedAttackLines() {
+  return (
+    <>
+      {attackRoutes.map((route, i) => (
+        <React.Fragment key={route.id}>
+          <Polyline
+            positions={computeArc(route.from, route.to)}
+            pathOptions={{
+              color: route.color,
+              weight: 1,
+              opacity: 0.2,
+              dashArray: '8,6',
+              className: 'attack-line',
+            }}
+          >
+            <Tooltip permanent={false} direction="center" className="attack-tooltip">
+              {route.label}
+            </Tooltip>
+          </Polyline>
+          <AnimatedRoute route={route} offset={i * 0.25} />
+        </React.Fragment>
+      ))}
+    </>
+  );
+}
+
+// ========== Feature 4: Country Boundaries ==========
+
+function CountryBoundaries({ onHover }) {
+  const [geoData, setGeoData] = useState(null);
+
+  useEffect(() => {
+    fetch('/geojson/middle-east.geojson')
+      .then((r) => r.json())
+      .then(setGeoData)
+      .catch(() => {});
+  }, []);
+
+  // Compute attack intensity per country
+  const countryIntensity = useMemo(() => {
+    const totals = {};
+    let max = 1;
+    for (const item of countryBreakdown.missiles) {
+      totals[item.country] = (totals[item.country] || 0) + item.count;
+    }
+    for (const item of countryBreakdown.drones) {
+      totals[item.country] = (totals[item.country] || 0) + item.count;
+    }
+    // Iran is attacker, give it high intensity
+    totals['Iran'] = 999;
+    for (const v of Object.values(totals)) {
+      if (v > max && v < 999) max = v;
+    }
+    const normalized = {};
+    for (const [k, v] of Object.entries(totals)) {
+      normalized[k] = v >= 999 ? 1.0 : v / max;
+    }
+    return normalized;
+  }, []);
+
+  const style = useCallback((feature) => {
+    const name = GEO_NAME_MAP[feature.properties.name] || feature.properties.name;
+    const intensity = countryIntensity[name] || 0;
+    let fillColor = '#00ff41';
+    if (intensity > 0.6) fillColor = '#ff0040';
+    else if (intensity > 0.3) fillColor = '#ff6600';
+    else if (intensity > 0.05) fillColor = '#ffcc00';
+
+    return {
+      fillColor,
+      fillOpacity: 0.05 + intensity * 0.15,
+      color: '#1b3a2a',
+      weight: 1,
+      opacity: 0.6,
+    };
+  }, [countryIntensity]);
+
+  const onEachFeature = useCallback((feature, layer) => {
+    const name = GEO_NAME_MAP[feature.properties.name] || feature.properties.name;
+    layer.on({
+      mouseover: (e) => {
+        e.target.setStyle({ fillOpacity: 0.3, weight: 2, color: '#00ff41' });
+        onHover({ name, latlng: e.latlng });
+      },
+      mousemove: (e) => {
+        onHover({ name, latlng: e.latlng });
+      },
+      mouseout: (e) => {
+        e.target.setStyle(style(feature));
+        onHover(null);
+      },
+    });
+  }, [onHover, style]);
+
+  if (!geoData) return null;
+
+  return <GeoJSON data={geoData} style={style} onEachFeature={onEachFeature} />;
+}
+
+// ========== Feature 5: Timeline Slider ==========
+
+function formatSliderDate(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }).toUpperCase();
+}
+
+function TimelineSlider({ dayIndex, setDayIndex }) {
+  const [playing, setPlaying] = useState(false);
+  const intervalRef = useRef(null);
+
+  useEffect(() => {
+    if (playing) {
+      intervalRef.current = setInterval(() => {
+        setDayIndex((prev) => {
+          if (prev >= launchData.length - 1) {
+            setPlaying(false);
+            return prev;
+          }
+          return prev + 1;
+        });
+      }, 1500);
+    }
+    return () => clearInterval(intervalRef.current);
+  }, [playing, setDayIndex]);
+
+  const day = launchData[dayIndex];
+  const cumMissiles = launchData.slice(0, dayIndex + 1).reduce((s, d) => s + d.missiles, 0);
+  const cumDrones = launchData.slice(0, dayIndex + 1).reduce((s, d) => s + d.drones, 0);
+  const cumIntercepted = launchData.slice(0, dayIndex + 1).reduce((s, d) => s + d.intercepted, 0);
+
+  return (
+    <div className="absolute bottom-6 left-12 z-[1000] bg-ops-panel/90 border border-ops-border rounded px-3 py-2 backdrop-blur-sm max-w-[380px]">
+      <div className="flex items-center gap-2 mb-1.5">
+        <button
+          onClick={() => setPlaying((p) => !p)}
+          className="text-[10px] font-bold text-ops-green hover:text-white w-5"
+        >
+          {playing ? '⏸' : '▶'}
+        </button>
+        <span className="text-[10px] font-mono font-bold text-ops-amber">{formatSliderDate(day.date)}</span>
+        <span className="text-[8px] text-ops-muted">DAY {dayIndex + 1}</span>
+      </div>
+      <input
+        type="range"
+        min={0}
+        max={launchData.length - 1}
+        value={dayIndex}
+        onChange={(e) => { setPlaying(false); setDayIndex(parseInt(e.target.value)); }}
+        className="timeline-slider w-full"
+      />
+      <div className="flex items-center gap-3 mt-1.5 text-[9px] font-mono">
+        <span><span className="text-[#ff0040] font-bold">{cumMissiles}</span> <span className="text-ops-muted">missiles</span></span>
+        <span><span className="text-[#ff6600] font-bold">{cumDrones}</span> <span className="text-ops-muted">drones</span></span>
+        <span><span className="text-[#00ff41] font-bold">{cumIntercepted}</span> <span className="text-ops-muted">int.</span></span>
+      </div>
+    </div>
+  );
+}
+
+// ========== Feature 6: Country Stat Card on Hover ==========
+
+function CountryStatCard({ info }) {
+  const map = useMap();
+  if (!info) return null;
+
+  const { name, latlng } = info;
+  const point = map.latLngToContainerPoint(latlng);
+
+  const missiles = countryBreakdown.missiles.find((c) => c.country === name)?.count || 0;
+  const drones = countryBreakdown.drones.find((c) => c.country === name)?.count || 0;
+  const total = missiles + drones;
+  const grandTotal = countryBreakdown.missiles.reduce((s, c) => s + c.count, 0) +
+                     countryBreakdown.drones.reduce((s, c) => s + c.count, 0);
+  const pct = grandTotal > 0 ? ((total / grandTotal) * 100).toFixed(1) : 0;
+  const cc = TARGET_CC[name];
+
+  if (total === 0 && name !== 'Iran') return null;
+
+  return (
+    <div
+      className="absolute z-[1100] bg-ops-panel/95 border border-ops-border rounded px-2.5 py-2 backdrop-blur-sm stat-card-enter pointer-events-none"
+      style={{ left: point.x + 16, top: point.y - 60 }}
+    >
+      <div className="flex items-center gap-1.5 mb-1">
+        {cc && <img src={`https://flagcdn.com/20x15/${cc}.png`} alt={name} className="w-4 h-3 object-cover rounded-sm" />}
+        <span className="text-[10px] font-bold text-ops-text">{name.toUpperCase()}</span>
+      </div>
+      {name === 'Iran' ? (
+        <div className="text-[9px] text-ops-red font-bold">ATTACKER</div>
+      ) : (
+        <>
+          <div className="flex items-center gap-3 text-[9px] font-mono">
+            <span><span className="text-[#ff0040] font-bold">{missiles}</span> <span className="text-ops-muted">missiles</span></span>
+            <span><span className="text-[#ff6600] font-bold">{drones}</span> <span className="text-ops-muted">drones</span></span>
+          </div>
+          <div className="flex items-center gap-1.5 mt-1">
+            <div className="flex-1 h-1.5 bg-ops-border/30 rounded-full overflow-hidden">
+              <div className="h-full bg-ops-red rounded-full" style={{ width: `${pct}%` }} />
+            </div>
+            <span className="text-[8px] font-mono text-ops-muted">{pct}%</span>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+// ========== Other existing components ==========
+
 function LiveEventFeed({ events }) {
   const [visible, setVisible] = useState(false);
   if (!events.length) return null;
@@ -231,25 +615,14 @@ function LiveEventFeed({ events }) {
       {visible && (
         <div className="bg-ops-panel/90 border border-ops-border rounded backdrop-blur-sm max-h-[200px] overflow-y-auto">
           {events.map((ev, i) => (
-            <div
-              key={i}
-              className="px-2 py-1.5 border-b border-ops-border/30 last:border-b-0"
-            >
+            <div key={i} className="px-2 py-1.5 border-b border-ops-border/30 last:border-b-0">
               <div className="flex items-center gap-1.5 mb-0.5">
-                <span
-                  className="w-1.5 h-1.5 rounded-full shrink-0"
-                  style={{ background: ev.isStrike ? '#ff0040' : '#ff6600' }}
-                />
-                <span className="text-[9px] font-bold truncate" style={{ color: ev.isStrike ? '#ff0040' : '#ff6600' }}>
-                  {ev.zoneName}
-                </span>
+                <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: ev.isStrike ? '#ff0040' : '#ff6600' }} />
+                <span className="text-[9px] font-bold truncate" style={{ color: ev.isStrike ? '#ff0040' : '#ff6600' }}>{ev.zoneName}</span>
                 <span className="text-[8px] text-ops-muted shrink-0">{ev.timeAgo}</span>
               </div>
               <p className="text-[9px] text-ops-text leading-tight line-clamp-2">{ev.title}</p>
-              <span
-                className="text-[7px] font-bold px-1 py-px rounded mt-0.5 inline-block"
-                style={{ background: `${ev.sourceColor || '#6e7681'}22`, color: ev.sourceColor || '#6e7681' }}
-              >
+              <span className="text-[7px] font-bold px-1 py-px rounded mt-0.5 inline-block" style={{ background: `${ev.sourceColor || '#6e7681'}22`, color: ev.sourceColor || '#6e7681' }}>
                 {ev.source}
               </span>
             </div>
@@ -260,7 +633,6 @@ function LiveEventFeed({ events }) {
   );
 }
 
-// Auto-fly to most active zone when articles update
 function FlyToActive({ zones, articles }) {
   const map = useMap();
   const lastFlyRef = useRef(null);
@@ -268,7 +640,6 @@ function FlyToActive({ zones, articles }) {
   useEffect(() => {
     if (!articles.length) return;
 
-    // Find the zone with the most recent strike article
     let bestZone = null;
     let bestAge = Infinity;
 
@@ -283,7 +654,6 @@ function FlyToActive({ zones, articles }) {
       }
     }
 
-    // Only fly if there's a very recent strike (<10min) we haven't flown to yet
     if (bestZone && bestAge < 600) {
       const flyKey = `${bestZone.id}-${Math.floor(bestAge / 60)}`;
       if (lastFlyRef.current !== flyKey) {
@@ -314,50 +684,9 @@ function timeAgo(dateStr) {
   return `${Math.floor(s / 86400)}d ago`;
 }
 
-function computeArc(from, to, numPoints = 30) {
-  const midLat = (from[0] + to[0]) / 2;
-  const midLng = (from[1] + to[1]) / 2;
-  const dLat = to[0] - from[0];
-  const dLng = to[1] - from[1];
-  const offset = 0.15;
-  const ctrlLat = midLat + dLng * offset;
-  const ctrlLng = midLng - dLat * offset;
-  const points = [];
-  for (let i = 0; i <= numPoints; i++) {
-    const t = i / numPoints;
-    const lat = (1 - t) * (1 - t) * from[0] + 2 * (1 - t) * t * ctrlLat + t * t * to[0];
-    const lng = (1 - t) * (1 - t) * from[1] + 2 * (1 - t) * t * ctrlLng + t * t * to[1];
-    points.push([lat, lng]);
-  }
-  return points;
-}
-
-function AttackLines() {
-  return (
-    <>
-      {attackRoutes.map((route) => (
-        <Polyline
-          key={route.id}
-          positions={computeArc(route.from, route.to)}
-          pathOptions={{
-            color: route.color,
-            weight: 1.5,
-            opacity: 0.4,
-            dashArray: '8,6',
-            className: 'attack-line',
-          }}
-        >
-          <Tooltip permanent={false} direction="center" className="attack-tooltip">
-            {route.label}
-          </Tooltip>
-        </Polyline>
-      ))}
-    </>
-  );
-}
+// ========== Main MapView ==========
 
 export default function MapView({ articles = [] }) {
-  // Fetch dynamic strike zones from strikes.json
   const [dynamicZones, setDynamicZones] = useState([]);
 
   useEffect(() => {
@@ -366,28 +695,29 @@ export default function MapView({ articles = [] }) {
       fetch('/strikes.json')
         .then((res) => { if (!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
         .then((data) => {
-          if (!cancelled && Array.isArray(data?.zones)) {
-            setDynamicZones(data.zones);
-          }
+          if (!cancelled && Array.isArray(data?.zones)) setDynamicZones(data.zones);
         })
         .catch(() => {});
     }
     fetchStrikes();
-    const interval = setInterval(fetchStrikes, 5 * 60 * 1000); // refresh every 5 min
+    const interval = setInterval(fetchStrikes, 5 * 60 * 1000);
     return () => { cancelled = true; clearInterval(interval); };
   }, []);
 
-  // Merge static + dynamic zones, dynamic overwrites static by id
   const allZones = useMemo(() => {
     const map = new Map();
     for (const z of conflictZones) map.set(z.id, z);
-    for (const z of dynamicZones) map.set(z.id, z); // dynamic overwrites or adds
+    for (const z of dynamicZones) map.set(z.id, z);
     return Array.from(map.values());
   }, [dynamicZones]);
 
-  const [showRoutes, setShowRoutes] = useState(false);
+  const [showRoutes, setShowRoutes] = useState(true);
+  const [showHeat, setShowHeat] = useState(false);
+  const [showBoundaries, setShowBoundaries] = useState(true);
+  const [showTimeline, setShowTimeline] = useState(false);
+  const [dayIndex, setDayIndex] = useState(launchData.length - 1);
+  const [hoveredCountry, setHoveredCountry] = useState(null);
 
-  // Filter state
   const [filters, setFilters] = useState({
     countries: new Set(),
     types: new Set(),
@@ -395,7 +725,6 @@ export default function MapView({ articles = [] }) {
     liveOnly: false,
   });
 
-  // Pre-compute live data for filtering
   const zoneLiveMap = useMemo(() => {
     const m = new Map();
     for (const zone of allZones) {
@@ -406,19 +735,31 @@ export default function MapView({ articles = [] }) {
     return m;
   }, [allZones, articles]);
 
-  // Derive sorted country list
   const countries = useMemo(() => {
     const set = new Set();
     for (const zone of allZones) set.add(getCountry(zone));
     return [...set].sort();
   }, [allZones]);
 
-  // Apply filters
+  // Timeline-aware filtering: when timeline is active, only show zones in countries targeted up to selected day
+  const timelineTargets = useMemo(() => {
+    if (!showTimeline) return null;
+    const targets = new Set(['Iran']); // Always show Iran (attacker)
+    for (let i = 0; i <= dayIndex; i++) {
+      for (const t of launchData[i].targets) targets.add(t);
+    }
+    return targets;
+  }, [showTimeline, dayIndex]);
+
   const filteredZones = useMemo(() => {
     const { countries: fc, types, statuses, liveOnly } = filters;
-    if (!fc.size && !types.size && !statuses.size && !liveOnly) return allZones;
 
     return allZones.filter((zone) => {
+      // Timeline filter
+      if (timelineTargets) {
+        const country = getCountry(zone);
+        if (!timelineTargets.has(country)) return false;
+      }
       if (fc.size && !fc.has(getCountry(zone))) return false;
       if (types.size && !types.has(zone.type)) return false;
       const ld = zoneLiveMap.get(zone.id);
@@ -426,9 +767,8 @@ export default function MapView({ articles = [] }) {
       if (liveOnly && (!ld || ld.matched.length === 0)) return false;
       return true;
     });
-  }, [allZones, filters, zoneLiveMap]);
+  }, [allZones, filters, zoneLiveMap, timelineTargets]);
 
-  // Build live events list — recent article-zone matches
   const liveEvents = useMemo(() => {
     const events = [];
     const sixHoursAgo = Date.now() - 6 * 3600 * 1000;
@@ -451,7 +791,6 @@ export default function MapView({ articles = [] }) {
       }
     }
 
-    // Deduplicate by title prefix
     const seen = new Set();
     const deduped = events.filter((e) => {
       const key = e.title?.slice(0, 50);
@@ -461,16 +800,6 @@ export default function MapView({ articles = [] }) {
     });
 
     return deduped.sort((a, b) => b.pubTime - a.pubTime).slice(0, 15);
-  }, [articles, filteredZones]);
-
-  // Count active zones for the header
-  const activeCount = useMemo(() => {
-    let count = 0;
-    for (const zone of filteredZones) {
-      const matched = matchArticles(zone, articles);
-      if (matched.length > 0) count++;
-    }
-    return count;
   }, [articles, filteredZones]);
 
   return (
@@ -483,7 +812,19 @@ export default function MapView({ articles = [] }) {
       </div>
 
       {/* Map filters */}
-      <MapFilterBar filters={filters} onFiltersChange={setFilters} countries={countries} showRoutes={showRoutes} onToggleRoutes={() => setShowRoutes((v) => !v)} />
+      <MapFilterBar
+        filters={filters}
+        onFiltersChange={setFilters}
+        countries={countries}
+        showRoutes={showRoutes}
+        onToggleRoutes={() => setShowRoutes((v) => !v)}
+        showHeat={showHeat}
+        onToggleHeat={() => setShowHeat((v) => !v)}
+        showBoundaries={showBoundaries}
+        onToggleBoundaries={() => setShowBoundaries((v) => !v)}
+        showTimeline={showTimeline}
+        onToggleTimeline={() => setShowTimeline((v) => !v)}
+      />
 
       {/* Legend */}
       <div className="absolute bottom-6 right-3 z-[1000] bg-ops-panel/90 border border-ops-border rounded px-2.5 py-2 backdrop-blur-sm">
@@ -502,6 +843,10 @@ export default function MapView({ articles = [] }) {
         </div>
       </div>
 
+      {/* Timeline slider */}
+      {showTimeline && <TimelineSlider dayIndex={dayIndex} setDayIndex={setDayIndex} />}
+
+      {/* Country stat card on hover */}
       <MapContainer
         center={[28, 49]}
         zoom={5}
@@ -516,11 +861,31 @@ export default function MapView({ articles = [] }) {
 
         <FlyToActive zones={filteredZones} articles={articles} />
 
-        {showRoutes && <AttackLines />}
+        {/* Feature 4: Country boundaries */}
+        {showBoundaries && <CountryBoundaries onHover={setHoveredCountry} />}
 
-        {filteredZones.map((zone) => (
-          <ClickMarker key={zone.id} zone={zone} articles={articles} />
-        ))}
+        {/* Feature 1: Heat map */}
+        {showHeat && <HeatLayer zones={filteredZones} zoneLiveMap={zoneLiveMap} />}
+
+        {/* Feature 2: Animated attack routes */}
+        {showRoutes && <AnimatedAttackLines />}
+
+        {/* Feature 3: Clustered markers */}
+        <MarkerClusterGroup
+          chunkedLoading
+          maxClusterRadius={40}
+          spiderfyOnMaxZoom
+          showCoverageOnHover={false}
+          iconCreateFunction={createClusterIcon}
+          disableClusteringAtZoom={7}
+        >
+          {filteredZones.map((zone) => (
+            <ClickMarker key={zone.id} zone={zone} articles={articles} />
+          ))}
+        </MarkerClusterGroup>
+
+        {/* Feature 6: Stat card */}
+        <CountryStatCard info={hoveredCountry} />
       </MapContainer>
     </div>
   );
