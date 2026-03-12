@@ -10,29 +10,31 @@ export const dailyLaunches = [
   { date: '2026-03-08', missiles: 42, drones: 155, intercepted: 180, targets: ['UAE', 'Saudi Arabia', 'Israel', 'Qatar', 'Kuwait', 'Bahrain', 'Iraq'] },
   { date: '2026-03-09', missiles: 50, drones: 128, intercepted: 162, targets: ['UAE', 'Israel', 'Qatar', 'Saudi Arabia', 'Kuwait', 'Bahrain', 'Jordan'] },
   { date: '2026-03-10', missiles: 38, drones: 58, intercepted: 88, targets: ['UAE', 'Saudi Arabia', 'Israel', 'Qatar', 'Kuwait', 'Bahrain', 'Jordan', 'Iraq'] },
+  { date: '2026-03-11', missiles: 35, drones: 75, intercepted: 95, targets: ['Israel', 'UAE', 'Kuwait', 'Saudi Arabia', 'Qatar', 'Bahrain', 'Iraq'] },
+  { date: '2026-03-12', missiles: 30, drones: 55, intercepted: 72, targets: ['Israel', 'UAE', 'Kuwait', 'Saudi Arabia', 'Bahrain', 'Iraq'] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
 export const countryBreakdown = {
   missiles: [
-    { country: 'Israel', count: 300 },
-    { country: 'UAE', count: 270 },
-    { country: 'Saudi Arabia', count: 262 },
-    { country: 'Kuwait', count: 221 },
-    { country: 'Qatar', count: 151 },
-    { country: 'Bahrain', count: 106 },
-    { country: 'Jordan', count: 60 },
-    { country: 'Iraq', count: 15 },
+    { country: 'Israel', count: 313 },
+    { country: 'UAE', count: 282 },
+    { country: 'Saudi Arabia', count: 265 },
+    { country: 'Kuwait', count: 227 },
+    { country: 'Qatar', count: 156 },
+    { country: 'Bahrain', count: 111 },
+    { country: 'Jordan', count: 63 },
+    { country: 'Iraq', count: 20 },
   ],
   drones: [
-    { country: 'UAE', count: 1475 },
-    { country: 'Kuwait', count: 407 },
-    { country: 'Bahrain', count: 176 },
-    { country: 'Saudi Arabia', count: 75 },
-    { country: 'Qatar', count: 69 },
-    { country: 'Jordan', count: 59 },
-    { country: 'Iraq', count: 20 },
-    { country: 'Israel', count: 5 },
+    { country: 'UAE', count: 1544 },
+    { country: 'Kuwait', count: 427 },
+    { country: 'Bahrain', count: 189 },
+    { country: 'Saudi Arabia', count: 86 },
+    { country: 'Qatar', count: 74 },
+    { country: 'Jordan', count: 62 },
+    { country: 'Iraq', count: 25 },
+    { country: 'Israel', count: 9 },
   ],
 };
 

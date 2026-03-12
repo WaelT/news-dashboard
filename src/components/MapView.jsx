@@ -594,20 +594,24 @@ function CountryStatCard({ info }) {
             <span className="text-gray-400">targets struck</span>
           </div>
           <div className="flex items-center gap-2 mb-0.5">
-            <span className="text-[#ff0040] font-bold">6,000+</span>
-            <span className="text-gray-400">munitions (IDF)</span>
+            <span className="text-[#ff0040] font-bold">3,000+</span>
+            <span className="text-gray-400">military killed</span>
           </div>
           <div className="flex items-center gap-2 mb-0.5">
-            <span className="text-[#ff6600] font-bold">60+</span>
+            <span className="text-[#ff6600] font-bold">50+</span>
             <span className="text-gray-400">naval vessels sunk</span>
+          </div>
+          <div className="flex items-center gap-2 mb-0.5">
+            <span className="text-[#ff6600] font-bold">48</span>
+            <span className="text-gray-400">leaders killed</span>
           </div>
           <div className="flex items-center gap-2 mb-0.5">
             <span className="text-[#00aaff] font-bold">26/31</span>
             <span className="text-gray-400">provinces hit</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-[#ffcc00] font-bold">$5.6B</span>
-            <span className="text-gray-400">munitions (48h)</span>
+            <span className="text-[#ffcc00] font-bold">1,100+</span>
+            <span className="text-gray-400">children killed/injured</span>
           </div>
         </div>
       ) : total > 0 ? (
@@ -721,11 +725,11 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'MAR 10, 2026',
+  updated: 'MAR 12, 2026',
   current: {
-    transitsPerDay: 4,
-    oilFlowMbd: 0.3,
-    disruptionPct: 97,
+    transitsPerDay: 3,
+    oilFlowMbd: 0.1,
+    disruptionPct: 98,
   },
   preWar: {
     transitsPerDay: 138,
@@ -737,15 +741,16 @@ const HORMUZ_DATA = {
     tankersQueued: 700,
     tankersStranded: 300,
     bulkCarriersStranded: 280,
-    vesselsAttacked: 10,
-    seafarersKilled: 7,
+    vesselsAttacked: 17,
+    seafarersKilled: 8,
     minesDetected: true,
+    minelayersDestroyed: 16,
     insuranceSurge: '+300%',
     tankerRates: '$424K/day',
   },
   disruptions: [
     { country: 'Saudi Arabia', detail: 'Gulf exports -39%' },
-    { country: 'Iraq', detail: 'Production -70%' },
+    { country: 'Iraq', detail: 'Basra port attacked' },
     { country: 'UAE', detail: 'Fujairah bypass active' },
   ],
 };
@@ -791,7 +796,7 @@ function HormuzStats() {
       <HormuzStatRow label="Bulk Carriers Stranded" value={d.crisis.bulkCarriersStranded} color="#ff6600" />
       <HormuzStatRow label="Vessels Attacked" value={d.crisis.vesselsAttacked} color="#ff0040" />
       <HormuzStatRow label="Seafarers Killed" value={d.crisis.seafarersKilled} color="#ff0040" />
-      <HormuzStatRow label="Mine Threat" value={d.crisis.minesDetected ? 'ACTIVE' : 'NONE'} color={d.crisis.minesDetected ? '#ff0040' : '#00ff41'} sub="Mine-laying reported Mar 10" />
+      <HormuzStatRow label="Mine Threat" value={d.crisis.minesDetected ? 'ACTIVE' : 'NONE'} color={d.crisis.minesDetected ? '#ff0040' : '#00ff41'} sub={`${d.crisis.minelayersDestroyed} minelayers destroyed`} />
       <HormuzStatRow label="War Risk Insurance" value={d.crisis.insuranceSurge} color="#ff6600" />
       <HormuzStatRow label="Supertanker Rate" value={d.crisis.tankerRates} color="#ffcc00" sub="All-time high" />
 
