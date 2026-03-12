@@ -937,7 +937,7 @@ export default function MapView({ articles = [] }) {
   return (
     <div className="w-full h-full flex">
     {/* Map section */}
-    <div className={`relative ${showHormuz ? 'flex-[7]' : 'flex-1'} min-w-0 h-full`}>
+    <div className={`relative ${showHormuz ? 'flex-[5]' : 'flex-1'} min-w-0 h-full`}>
       {/* Panel label */}
       <div className="absolute top-2 right-3 z-[1000] flex items-center gap-2">
         <span className="text-ops-green text-[10px] font-bold tracking-widest uppercase bg-ops-panel/90 px-2 py-1 border border-ops-border rounded backdrop-blur-sm">
@@ -1032,9 +1032,9 @@ export default function MapView({ articles = [] }) {
       </MapContainer>
     </div>
 
-    {/* Strait of Hormuz side panel — ~30% of map width */}
+    {/* Strait of Hormuz side panel — ~45% of map width */}
     {showHormuz && (
-      <div className="flex-[3] min-w-0 h-full border-l border-ops-border flex flex-col bg-ops-panel">
+      <div className="flex-[4] min-w-0 h-full border-l border-ops-border flex flex-col bg-ops-panel">
         <div className="flex items-center justify-between px-2 py-1 border-b border-ops-border">
           <span className="text-[9px] font-bold tracking-widest text-[#00aaff]">STRAIT OF HORMUZ</span>
           <button onClick={() => setShowHormuz(false)} className="text-ops-muted hover:text-ops-text text-xs px-1">✕</button>
