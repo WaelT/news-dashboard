@@ -598,12 +598,16 @@ function CountryStatCard({ info }) {
             <span className="text-gray-400">military killed</span>
           </div>
           <div className="flex items-center gap-2 mb-0.5">
-            <span className="text-[#ff6600] font-bold">50+</span>
+            <span className="text-[#ff6600] font-bold">60+</span>
             <span className="text-gray-400">naval vessels sunk</span>
           </div>
           <div className="flex items-center gap-2 mb-0.5">
-            <span className="text-[#ff6600] font-bold">48</span>
+            <span className="text-[#ff6600] font-bold">40+</span>
             <span className="text-gray-400">leaders killed</span>
+          </div>
+          <div className="flex items-center gap-2 mb-0.5">
+            <span className="text-[#ffcc00] font-bold">300+</span>
+            <span className="text-gray-400">missile launchers hit</span>
           </div>
           <div className="flex items-center gap-2 mb-0.5">
             <span className="text-[#00aaff] font-bold">26/31</span>
@@ -727,7 +731,7 @@ function timeAgo(dateStr) {
 const HORMUZ_DATA = {
   updated: 'MAR 12, 2026',
   current: {
-    transitsPerDay: 3,
+    transitsPerDay: 2.6,
     oilFlowMbd: 0.1,
     disruptionPct: 98,
   },
@@ -738,19 +742,19 @@ const HORMUZ_DATA = {
     globalLngPct: 20,
   },
   crisis: {
-    tankersQueued: 700,
+    tankersQueued: 400,
     tankersStranded: 300,
     bulkCarriersStranded: 280,
-    vesselsAttacked: 17,
-    seafarersKilled: 8,
+    vesselsAttacked: 21,
+    seafarersKilled: 9,
     minesDetected: true,
     minelayersDestroyed: 16,
     insuranceSurge: '+300%',
     tankerRates: '$424K/day',
   },
   disruptions: [
-    { country: 'Saudi Arabia', detail: 'Gulf exports -39%' },
-    { country: 'Iraq', detail: 'Basra port attacked' },
+    { country: 'Saudi Arabia', detail: '27 VLCCs to Yanbu' },
+    { country: 'Iraq', detail: 'Basra tanker attacked' },
     { country: 'UAE', detail: 'Fujairah bypass active' },
   ],
 };
