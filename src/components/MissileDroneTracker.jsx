@@ -1,6 +1,8 @@
 import { useMemo } from 'react';
 import launchData, { countryBreakdown } from '../data/launchData';
 
+const WAR_START = '2026-02-28';
+
 const TARGET_CC = {
   Israel: 'il',
   UAE: 'ae',
@@ -91,8 +93,160 @@ function formatDate(dateStr) {
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }).toUpperCase();
 }
 
+// Days since war started
+function warDay(dateStr) {
+  const start = new Date(WAR_START + 'T00:00:00');
+  const d = new Date(dateStr + 'T00:00:00');
+  return Math.floor((d - start) / 86400000) + 1;
+}
+
+// Group daily data into war weeks (7-day chunks from Feb 28)
+function groupByWarWeek(data) {
+  const weeks = [];
+  let currentWeek = null;
+
+  for (const day of data) {
+    const dayNum = warDay(day.date);
+    const weekNum = Math.ceil(dayNum / 7);
+
+    if (!currentWeek || currentWeek.weekNum !== weekNum) {
+      if (currentWeek) weeks.push(currentWeek);
+      currentWeek = { weekNum, startDate: day.date, endDate: day.date, missiles: 0, drones: 0, intercepted: 0, days: [] };
+    }
+
+    currentWeek.endDate = day.date;
+    currentWeek.missiles += day.missiles;
+    currentWeek.drones += day.drones;
+    currentWeek.intercepted += day.intercepted;
+    currentWeek.days.push(day);
+  }
+
+  if (currentWeek) weeks.push(currentWeek);
+  return weeks;
+}
+
+// Gauge chart for interception rate
+function InterceptionGauge({ data }) {
+  const totalLaunched = data.reduce((s, d) => s + d.missiles + d.drones, 0);
+  const totalIntercepted = data.reduce((s, d) => s + d.intercepted, 0);
+  const currentRate = totalLaunched > 0 ? (totalIntercepted / totalLaunched) * 100 : 0;
+
+  // Last 3 days average
+  const recent = data.slice(-3);
+  const recentLaunched = recent.reduce((s, d) => s + d.missiles + d.drones, 0);
+  const recentIntercepted = recent.reduce((s, d) => s + d.intercepted, 0);
+  const recentRate = recentLaunched > 0 ? (recentIntercepted / recentLaunched) * 100 : 0;
+
+  // Worst day
+  const dayRates = data.map((d) => {
+    const t = d.missiles + d.drones;
+    return { date: d.date, rate: t > 0 ? (d.intercepted / t) * 100 : 0 };
+  });
+  const worst = dayRates.reduce((a, b) => (a.rate < b.rate ? a : b));
+  const best = dayRates.reduce((a, b) => (a.rate > b.rate ? a : b));
+
+  const W = 200;
+  const H = 120;
+  const cx = W / 2;
+  const cy = 90;
+  const r = 70;
+  const startAngle = Math.PI;
+  const endAngle = 0;
+
+  function rateToAngle(rate) {
+    return startAngle - (rate / 100) * Math.PI;
+  }
+
+  function arcPath(startA, endA, radius) {
+    const x1 = cx + radius * Math.cos(startA);
+    const y1 = cy - radius * Math.sin(startA);
+    const x2 = cx + radius * Math.cos(endA);
+    const y2 = cy - radius * Math.sin(endA);
+    const large = Math.abs(endA - startA) > Math.PI ? 1 : 0;
+    return `M ${x1} ${y1} A ${radius} ${radius} 0 ${large} 0 ${x2} ${y2}`;
+  }
+
+  const needleAngle = rateToAngle(currentRate);
+  const needleX = cx + (r - 12) * Math.cos(needleAngle);
+  const needleY = cy - (r - 12) * Math.sin(needleAngle);
+
+  // Color zones: red < 70, yellow 70-90, green > 90
+  const gaugeColor = currentRate >= 90 ? '#00ff41' : currentRate >= 70 ? '#ffcc00' : '#ff0040';
+
+  return (
+    <div className="px-3 py-2 border-t border-ops-border/30">
+      <div className="text-[11px] font-bold tracking-widest text-gray-300 mb-1">INTERCEPTION RATE</div>
+      <div className="flex items-start gap-3">
+        {/* Gauge */}
+        <svg viewBox={`0 0 ${W} ${H}`} className="flex-1" style={{ maxWidth: 200, height: 120 }}>
+          {/* Background arc */}
+          <path d={arcPath(startAngle, endAngle, r)} fill="none" stroke="#1a2a3a" strokeWidth="14" strokeLinecap="round" />
+
+          {/* Red zone (0-70%) */}
+          <path d={arcPath(startAngle, rateToAngle(70), r)} fill="none" stroke="#ff004033" strokeWidth="14" strokeLinecap="round" />
+
+          {/* Yellow zone (70-90%) */}
+          <path d={arcPath(rateToAngle(70), rateToAngle(90), r)} fill="none" stroke="#ffcc0033" strokeWidth="14" strokeLinecap="round" />
+
+          {/* Green zone (90-100%) */}
+          <path d={arcPath(rateToAngle(90), endAngle, r)} fill="none" stroke="#00ff4133" strokeWidth="14" strokeLinecap="round" />
+
+          {/* Active arc */}
+          <path d={arcPath(startAngle, needleAngle, r)} fill="none" stroke={gaugeColor} strokeWidth="14" strokeLinecap="round" />
+
+          {/* Needle */}
+          <line x1={cx} y1={cy} x2={needleX} y2={needleY} stroke={gaugeColor} strokeWidth="2.5" strokeLinecap="round" />
+          <circle cx={cx} cy={cy} r="5" fill={gaugeColor} />
+          <circle cx={cx} cy={cy} r="2.5" fill="#050a0e" />
+
+          {/* Rate text */}
+          <text x={cx} y={cy - 18} textAnchor="middle" fill={gaugeColor} fontSize="22" fontFamily="monospace" fontWeight="bold">
+            {currentRate.toFixed(1)}%
+          </text>
+          <text x={cx} y={cy - 6} textAnchor="middle" fill="#6e7681" fontSize="7" fontFamily="monospace">
+            OVERALL
+          </text>
+
+          {/* Scale labels */}
+          <text x={cx - r - 2} y={cy + 12} textAnchor="middle" fill="#6e7681" fontSize="7" fontFamily="monospace">0%</text>
+          <text x={cx} y={cy - r - 4} textAnchor="middle" fill="#6e7681" fontSize="7" fontFamily="monospace">50%</text>
+          <text x={cx + r + 2} y={cy + 12} textAnchor="middle" fill="#6e7681" fontSize="7" fontFamily="monospace">100%</text>
+        </svg>
+
+        {/* Stats sidebar */}
+        <div className="flex-1 min-w-0 space-y-1.5 pt-1">
+          <div className="py-1 border-b border-ops-border/30">
+            <div className="text-[8px] text-gray-500 tracking-wider">LAST 3 DAYS</div>
+            <div className="text-[14px] font-bold font-mono" style={{ color: recentRate >= 90 ? '#00ff41' : recentRate >= 70 ? '#ffcc00' : '#ff0040' }}>
+              {recentRate.toFixed(1)}%
+            </div>
+          </div>
+          <div className="py-1 border-b border-ops-border/30">
+            <div className="text-[8px] text-gray-500 tracking-wider">BEST DAY</div>
+            <div className="flex items-baseline gap-1">
+              <span className="text-[12px] font-bold font-mono text-[#00ff41]">{best.rate.toFixed(0)}%</span>
+              <span className="text-[8px] text-gray-500">D{warDay(best.date)}</span>
+            </div>
+          </div>
+          <div className="py-1">
+            <div className="text-[8px] text-gray-500 tracking-wider">WORST DAY</div>
+            <div className="flex items-baseline gap-1">
+              <span className="text-[12px] font-bold font-mono text-[#ff0040]">{worst.rate.toFixed(0)}%</span>
+              <span className="text-[8px] text-gray-500">D{warDay(worst.date)}</span>
+            </div>
+          </div>
+          <div className="py-1 border-t border-ops-border/30">
+            <div className="text-[8px] text-gray-500 tracking-wider">INTERCEPTED</div>
+            <div className="text-[12px] font-bold font-mono text-gray-300">{formatNum(totalIntercepted)} <span className="text-[9px] text-gray-500">/ {formatNum(totalLaunched)}</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function MissileDroneTracker() {
-  const days = useMemo(() => [...launchData].reverse(), []);
+  const weeks = useMemo(() => groupByWarWeek(launchData), []);
 
   const totals = useMemo(() => {
     const missiles = launchData.reduce((s, d) => s + d.missiles, 0);
@@ -103,9 +257,9 @@ export default function MissileDroneTracker() {
     return { missiles, drones, intercepted, total, rate };
   }, []);
 
-  const maxDaily = useMemo(
-    () => Math.max(...launchData.map((d) => d.missiles + d.drones), 1),
-    [],
+  const maxWeekly = useMemo(
+    () => Math.max(...weeks.map((w) => w.missiles + w.drones), 1),
+    [weeks],
   );
 
   const dateRange = launchData.length > 0
@@ -141,18 +295,18 @@ export default function MissileDroneTracker() {
 
       {/* Scrollable content */}
       <div className="flex-1 min-h-0 overflow-y-auto">
-        {/* Daily bar chart */}
+        {/* Weekly bar chart */}
         <div className="px-3 py-2 space-y-1.5">
-          {days.map((day) => {
-            const total = day.missiles + day.drones;
-            const missilePct = (day.missiles / maxDaily) * 100;
-            const dronePct = (day.drones / maxDaily) * 100;
-            const interceptRate = total > 0 ? Math.round((day.intercepted / total) * 100) : 0;
+          {[...weeks].reverse().map((week) => {
+            const total = week.missiles + week.drones;
+            const missilePct = (week.missiles / maxWeekly) * 100;
+            const dronePct = (week.drones / maxWeekly) * 100;
+            const interceptRate = total > 0 ? Math.round((week.intercepted / total) * 100) : 0;
             return (
-              <div key={day.date} className="group">
+              <div key={week.weekNum} className="group">
                 <div className="flex items-center gap-2 cursor-pointer">
-                  <span className="text-[11px] font-mono text-ops-muted w-12 shrink-0">
-                    {formatDate(day.date).replace(/, /g, ' ')}
+                  <span className="text-[11px] font-mono text-ops-text w-16 shrink-0 font-bold tracking-wide">
+                    WEEK {week.weekNum}
                   </span>
                   <div className="flex-1 h-5 flex rounded-sm overflow-hidden bg-ops-border/20">
                     <div
@@ -164,22 +318,30 @@ export default function MissileDroneTracker() {
                       style={{ width: `${dronePct}%`, background: '#cc5200' }}
                     />
                   </div>
-                  <span className="text-[11px] font-mono font-bold text-ops-text w-8 text-right shrink-0">
+                  <span className="text-[11px] font-mono font-bold text-ops-text w-10 text-right shrink-0">
                     {formatNum(total)}
                   </span>
                 </div>
                 {/* Inline breakdown on hover */}
-                <div className="hidden group-hover:flex items-center gap-3 pl-14 py-0.5 text-[10px] font-mono">
-                  <span><span className="text-[#ff0040] font-bold">{day.missiles}</span> <span className="text-ops-muted">missiles</span></span>
-                  <span><span className="text-[#ff6600] font-bold">{day.drones}</span> <span className="text-ops-muted">drones</span></span>
-                  <span><span className="text-[#00ff41] font-bold">{interceptRate}%</span> <span className="text-ops-muted">int.</span></span>
+                <div className="hidden group-hover:block pl-12 py-0.5">
+                  <div className="text-[8px] text-ops-muted mb-0.5">
+                    {formatDate(week.startDate)} – {formatDate(week.endDate)} ({week.days.length} days)
+                  </div>
+                  <div className="flex items-center gap-3 text-[10px] font-mono">
+                    <span><span className="text-[#ff0040] font-bold">{week.missiles}</span> <span className="text-ops-muted">missiles</span></span>
+                    <span><span className="text-[#ff6600] font-bold">{week.drones}</span> <span className="text-ops-muted">drones</span></span>
+                    <span><span className="text-[#00ff41] font-bold">{interceptRate}%</span> <span className="text-ops-muted">int.</span></span>
+                  </div>
                 </div>
               </div>
             );
           })}
         </div>
 
-        {/* Country breakdown pie charts */}
+        {/* Interception rate gauge */}
+        <InterceptionGauge data={launchData} />
+
+        {/* Country breakdown stacked bars */}
         <div className="px-3 py-2 border-t border-ops-border/30 space-y-3">
           <StackedBar data={countryBreakdown.missiles} label="MISSILES BY TARGET" color="#ff0040" />
           <StackedBar data={countryBreakdown.drones} label="DRONES BY TARGET" color="#ff6600" />
