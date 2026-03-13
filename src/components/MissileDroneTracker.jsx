@@ -163,7 +163,7 @@ function InterceptionGauge({ data }) {
     const x2 = cx + radius * Math.cos(endA);
     const y2 = cy - radius * Math.sin(endA);
     const large = Math.abs(endA - startA) > Math.PI ? 1 : 0;
-    return `M ${x1} ${y1} A ${radius} ${radius} 0 ${large} 0 ${x2} ${y2}`;
+    return `M ${x1} ${y1} A ${radius} ${radius} 0 ${large} 1 ${x2} ${y2}`;
   }
 
   const needleAngle = rateToAngle(currentRate);
@@ -203,14 +203,14 @@ function InterceptionGauge({ data }) {
           <text x={cx} y={cy - 18} textAnchor="middle" fill={gaugeColor} fontSize="22" fontFamily="monospace" fontWeight="bold">
             {currentRate.toFixed(1)}%
           </text>
-          <text x={cx} y={cy - 6} textAnchor="middle" fill="#6e7681" fontSize="7" fontFamily="monospace">
+          <text x={cx} y={cy - 4} textAnchor="middle" fill="#9ca3af" fontSize="9" fontFamily="monospace" fontWeight="bold">
             OVERALL
           </text>
 
           {/* Scale labels */}
-          <text x={cx - r - 2} y={cy + 12} textAnchor="middle" fill="#6e7681" fontSize="7" fontFamily="monospace">0%</text>
-          <text x={cx} y={cy - r - 4} textAnchor="middle" fill="#6e7681" fontSize="7" fontFamily="monospace">50%</text>
-          <text x={cx + r + 2} y={cy + 12} textAnchor="middle" fill="#6e7681" fontSize="7" fontFamily="monospace">100%</text>
+          <text x={cx - r - 2} y={cy + 14} textAnchor="middle" fill="#9ca3af" fontSize="10" fontFamily="monospace" fontWeight="bold">0%</text>
+          <text x={cx} y={cy - r - 4} textAnchor="middle" fill="#9ca3af" fontSize="10" fontFamily="monospace" fontWeight="bold">50%</text>
+          <text x={cx + r + 2} y={cy + 14} textAnchor="middle" fill="#9ca3af" fontSize="10" fontFamily="monospace" fontWeight="bold">100%</text>
         </svg>
 
         {/* Stats sidebar */}
@@ -305,7 +305,7 @@ export default function MissileDroneTracker() {
             return (
               <div key={week.weekNum} className="group">
                 <div className="flex items-center gap-2 cursor-pointer">
-                  <span className="text-[11px] font-mono text-ops-text w-16 shrink-0 font-bold tracking-wide">
+                  <span className="text-[11px] group-hover:text-[13px] font-mono text-ops-text group-hover:text-white w-16 shrink-0 font-bold group-hover:font-extrabold tracking-wide transition-all duration-200">
                     WEEK {week.weekNum}
                   </span>
                   <div className="flex-1 h-5 flex rounded-sm overflow-hidden bg-ops-border/20">
@@ -324,13 +324,13 @@ export default function MissileDroneTracker() {
                 </div>
                 {/* Inline breakdown on hover */}
                 <div className="hidden group-hover:block pl-12 py-0.5">
-                  <div className="text-[8px] text-ops-muted mb-0.5">
+                  <div className="text-[10px] text-gray-300 font-bold mb-0.5">
                     {formatDate(week.startDate)} – {formatDate(week.endDate)} ({week.days.length} days)
                   </div>
-                  <div className="flex items-center gap-3 text-[10px] font-mono">
-                    <span><span className="text-[#ff0040] font-bold">{week.missiles}</span> <span className="text-ops-muted">missiles</span></span>
-                    <span><span className="text-[#ff6600] font-bold">{week.drones}</span> <span className="text-ops-muted">drones</span></span>
-                    <span><span className="text-[#00ff41] font-bold">{interceptRate}%</span> <span className="text-ops-muted">int.</span></span>
+                  <div className="flex items-center gap-3 text-[12px] font-mono font-bold">
+                    <span><span className="text-[#ff0040]">{week.missiles}</span> <span className="text-gray-300">missiles</span></span>
+                    <span><span className="text-[#ff6600]">{week.drones}</span> <span className="text-gray-300">drones</span></span>
+                    <span><span className="text-[#00ff41]">{interceptRate}%</span> <span className="text-gray-300">int.</span></span>
                   </div>
                 </div>
               </div>
