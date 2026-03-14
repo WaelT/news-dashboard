@@ -12,14 +12,14 @@ const SYMBOLS = [
 ];
 
 const FALLBACK = {
-  sp500: { price: 5680.00, change: -2.60 },
-  nasdaq: { price: 21900.00, change: -3.10 },
-  dowjones: { price: 47400.00, change: -2.50 },
-  nikkei: { price: 52200.00, change: -6.10 },
-  brent: { price: 100.46, change: 43.0 },
-  btc: { price: 62500.00, change: -10.50 },
+  sp500: { price: 6632.19, change: -0.61 },
+  nasdaq: { price: 22105.36, change: -0.93 },
+  dowjones: { price: 46558.47, change: -0.26 },
+  nikkei: { price: 53770.00, change: -1.25 },
+  brent: { price: 103.14, change: 47.3 },
+  btc: { price: 72394.91, change: -5.20 },
   gold: { price: 5250.00, change: 7.0 },
-  silver: { price: 99.00, change: 11.0 },
+  silver: { price: 84.00, change: -2.20 },
 };
 
 const REFRESH_MS = 60_000;
@@ -45,20 +45,22 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
+  { label: 'US Military Cost', value: '$40B+', sub: '~$1B/day (14 days)', color: '#ff0040' },
+  { label: 'Total War Cost Est.', value: '$65B', sub: 'Penn Wharton central', color: '#ff0040' },
+  { label: 'Broader US Impact', value: '$210B', sub: 'incl. economic losses', color: '#ff0040' },
+  { label: 'Pentagon Request', value: '$50B', sub: 'emergency munitions', color: '#ff0040' },
+  { label: 'US Sites Damaged', value: '17', sub: 'by Iranian attacks (NYT)', color: '#ff0040' },
+  { label: 'Brent Crude', value: '$103', sub: '/barrel (+47% pre-war)', color: '#ff6600' },
   { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
-  { label: 'Oil Price Forecast', value: '$100', sub: 'if disruptions persist', color: '#ffcc00' },
-  { label: 'Global Inflation', value: '+0.8%', sub: 'projected increase', color: '#ff6600' },
-  { label: 'EU Gas Prices', value: '€48', sub: '€48/MWh', color: '#ff6600' },
-  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
+  { label: 'Gulf Output Drop', value: '6.7M', sub: 'bbl/day lost (Bloomberg)', color: '#ff6600' },
+  { label: 'Qatar LNG', value: 'HALTED', sub: 'force majeure declared', color: '#ff0040' },
+  { label: 'IEA Reserve Release', value: '400M', sub: 'barrels recommended', color: '#ffcc00' },
   { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
-  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
-  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
-  { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
+  { label: 'KOSPI Crash', value: '-6.2%', sub: 'circuit breaker triggered', color: '#ff0040' },
   { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
   { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
-  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
-  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
+  { label: 'EU Gas Prices', value: '2x', sub: 'nearly doubled', color: '#ff6600' },
+  { label: 'Global Inflation', value: '+0.8%', sub: 'projected increase', color: '#d4a017' },
 ];
 
 function EconomicImpact() {

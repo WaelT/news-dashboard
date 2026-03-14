@@ -22,7 +22,7 @@ function flagUrl(cc) {
 }
 
 const DEFAULT_CASUALTIES = {
-  iran: { killed: 1348, wounded: 18551 },
+  iran: { killed: 1444, wounded: 18551 },
   israel: { killed: 19, wounded: 2975 },
   usa: { killed: 15, wounded: 200 },
   lebanon: { killed: 687, wounded: 1774 },
@@ -74,7 +74,7 @@ export default function ImpactTracker() {
       {/* Header */}
       <div className="px-3 py-1.5 border-b border-ops-border flex items-center justify-between">
         <span className="text-ops-red text-[10px] font-bold tracking-widest">CASUALTIES</span>
-        <span className="text-ops-muted text-[8px]">MAR 12, 2026 (PM)</span>
+        <span className="text-ops-muted text-[8px]">MAR 13, 2026</span>
       </div>
 
       {/* Totals bar */}
