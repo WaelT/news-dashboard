@@ -74,7 +74,7 @@ export default function ImpactTracker() {
       {/* Header */}
       <div className="px-3 py-1.5 border-b border-ops-border flex items-center justify-between">
         <span className="text-ops-red text-[10px] font-bold tracking-widest">CASUALTIES</span>
-        <span className="text-ops-muted text-[8px]">MAR 13, 2026</span>
+        <span className="text-ops-muted text-[8px]">MAR 15, 2026</span>
       </div>
 
       {/* Totals bar */}

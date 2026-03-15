@@ -729,7 +729,7 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'MAR 13, 2026',
+  updated: 'MAR 15, 2026',
   current: {
     transitsPerDay: 13,
     oilFlowMbd: 0.1,
@@ -748,7 +748,7 @@ const HORMUZ_DATA = {
     vesselsAttacked: 18,
     seafarersKilled: 9,
     minesDetected: true,
-    minelayersDestroyed: 16,
+    minelayersDestroyed: 28,
     insuranceSurge: '+300%',
     tankerRates: '$424K/day',
   },
