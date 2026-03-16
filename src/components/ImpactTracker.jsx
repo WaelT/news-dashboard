@@ -33,10 +33,10 @@ const DEFAULT_CASUALTIES = {
   bahrain: { killed: 3, wounded: 38 },
   qatar: { killed: 0, wounded: 16 },
   saudi: { killed: 2, wounded: 12 },
-  jordan: { killed: 0, wounded: 19 },
-  oman: { killed: 3, wounded: 5 },
+  jordan: { killed: 0, wounded: 28 },
+  oman: { killed: 3, wounded: 15 },
   syria: { killed: 4, wounded: 0 },
-  palestine: { killed: 0, wounded: 0 },
+  palestine: { killed: 10, wounded: 0 },
 };
 
 function formatNum(n) {
@@ -74,7 +74,7 @@ export default function ImpactTracker() {
       {/* Header */}
       <div className="px-3 py-1.5 border-b border-ops-border flex items-center justify-between">
         <span className="text-ops-red text-[10px] font-bold tracking-widest">CASUALTIES</span>
-        <span className="text-ops-muted text-[8px]">MAR 15, 2026</span>
+        <span className="text-ops-muted text-[8px]">MAR 16, 2026</span>
       </div>
 
       {/* Totals bar */}
