@@ -7,8 +7,8 @@
       "wounded": 18551
     },
     "lebanon": {
-      "killed": 886,
-      "wounded": 2141
+      "killed": 912,
+      "wounded": 2221
     },
     "iraq": {
       "killed": 73,
@@ -23,7 +23,7 @@
       "wounded": 200
     },
     "uae": {
-      "killed": 8,
+      "killed": 12,
       "wounded": 157
     },
     "kuwait": {
@@ -32,10 +32,10 @@
     },
     "oman": {
       "killed": 3,
-      "wounded": 5
+      "wounded": 15
     },
     "bahrain": {
-      "killed": 2,
+      "killed": 3,
       "wounded": 38
     },
     "saudi": {
@@ -44,7 +44,7 @@
     },
     "jordan": {
       "killed": 0,
-      "wounded": 19
+      "wounded": 28
     },
     "qatar": {
       "killed": 0,
@@ -59,7 +59,7 @@
       "wounded": 0
     },
     "palestine": {
-      "killed": 0,
+      "killed": 10,
       "wounded": 0
     }
   }

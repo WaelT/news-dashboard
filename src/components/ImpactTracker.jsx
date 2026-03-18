@@ -25,7 +25,7 @@ const DEFAULT_CASUALTIES = {
   iran: { killed: 3065, wounded: 18551 },
   israel: { killed: 19, wounded: 3530 },
   usa: { killed: 15, wounded: 200 },
-  lebanon: { killed: 886, wounded: 2141 },
+  lebanon: { killed: 912, wounded: 2221 },
   yemen: { killed: 0, wounded: 0 },
   iraq: { killed: 73, wounded: 100 },
   uae: { killed: 12, wounded: 157 },
@@ -74,7 +74,7 @@ export default function ImpactTracker() {
       {/* Header */}
       <div className="px-3 py-1.5 border-b border-ops-border flex items-center justify-between">
         <span className="text-ops-red text-[10px] font-bold tracking-widest">CASUALTIES</span>
-        <span className="text-ops-muted text-[8px]">MAR 16, 2026</span>
+        <span className="text-ops-muted text-[8px]">MAR 17, 2026</span>
       </div>
 
       {/* Totals bar */}
