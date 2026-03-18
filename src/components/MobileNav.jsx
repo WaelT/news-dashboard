@@ -54,7 +54,7 @@ export const TAB_IDS = TABS.map((t) => t.id);
 
 export default function MobileNav({ activeTab, onTabChange }) {
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-[60] bg-[#0a1929] border-t border-ops-border flex items-center justify-around lg:hidden"
+    <nav className="shrink-0 z-[60] bg-[#0a1929] border-t border-ops-border flex items-center justify-around lg:hidden"
          style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
       {TABS.map((tab) => {
         const isActive = activeTab === tab.id;

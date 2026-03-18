@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
+import { useState, useMemo, useEffect, useCallback } from 'react';
 import Header from './Header';
 import MapView from './MapView';
 import ConflictTimeline from './ConflictTimeline';
@@ -13,7 +13,6 @@ import BreakingNews from './BreakingNews';
 import { useEnglishNews, useArabicNews, useBreakingNews } from '../hooks/useNews';
 import conflictZones from '../data/conflictZones';
 import { useResizableGrid } from '../hooks/useResizable';
-import useSwipe from '../hooks/useSwipe';
 
 const BREAKING_KEYWORDS = [
   'breaking', 'عاجل', 'urgent', 'just in', 'developing',
@@ -141,23 +140,8 @@ export default function Dashboard() {
   const [oilPrice, setOilPrice] = useState(null);
   const [mobileTab, setMobileTab] = useState('map');
   const isMobile = useIsMobile();
-  const swipeRef = useRef(null);
-  const { direction, reset } = useSwipe(swipeRef);
-
   const topResize = useResizableGrid(TOP_INIT);
   const bottomResize = useResizableGrid(BOTTOM_INIT);
-
-  // Handle swipe navigation
-  useEffect(() => {
-    if (!direction || !isMobile) return;
-    const idx = TAB_IDS.indexOf(mobileTab);
-    if (direction === 'left' && idx < TAB_IDS.length - 1) {
-      setMobileTab(TAB_IDS[idx + 1]);
-    } else if (direction === 'right' && idx > 0) {
-      setMobileTab(TAB_IDS[idx - 1]);
-    }
-    reset();
-  }, [direction, isMobile, mobileTab, reset]);
 
   // Compute active zone count
   const activeZoneCount = useMemo(() => {
@@ -208,10 +192,10 @@ export default function Dashboard() {
   // Mobile layout
   if (isMobile) {
     return (
-      <div ref={swipeRef} className="h-screen w-screen flex flex-col bg-ops-bg scanline-overlay overflow-hidden">
+      <div className="h-screen w-screen flex flex-col bg-ops-bg scanline-overlay overflow-hidden">
         <Header threatLevel={threatLevel} oilPrice={oilPrice} activeZoneCount={activeZoneCount} />
         <BreakingNews articles={articles} breakingArticles={breakingArticles} />
-        <div className="flex-1 min-h-0 flex flex-col pb-14">
+        <div className="flex-1 min-h-0 flex flex-col">
           <MobilePanel
             activeTab={mobileTab}
             articles={articles}
