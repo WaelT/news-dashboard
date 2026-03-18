@@ -76,17 +76,22 @@ async function scrapeWikipedia() {
     // Skip rows where cells start with "!" (header/total rows)
     if (cells.length < 3) continue;
 
-    // The first cell is the country name (plain text, possibly with links)
-    // e.g. "|Iran", "|United States", "|Saudi Arabia"
-    // Each row starts with |Country, so cells[0] has a leading pipe
+    // The first cell is the country name, possibly as {{Flag|Name}} or plain text
     let rawCountry = cells[0];
     // If the row starts with ! it's a header row (e.g. "Total") — skip it
     if (rawCountry.startsWith('!') || row.trimStart().startsWith('!')) continue;
 
     // Strip leading pipe character from the country name
     rawCountry = rawCountry.replace(/^\|/, '');
+    // Handle {{Flag|CountryName}} or {{Flag|CountryName|name=...}} templates
+    const flagMatch = rawCountry.match(/\{\{[Ff]lag\|([^|}]+)/);
+    if (flagMatch) {
+      rawCountry = flagMatch[1].trim();
+    }
     // Clean up: remove any residual wiki markup like [[link|display]]
     rawCountry = rawCountry.replace(/\[\[([^\]|]*\|)?([^\]]*)\]\]/g, '$2').trim();
+    // Remove any remaining template syntax
+    rawCountry = rawCountry.replace(/\{\{[^}]*\}\}/g, '').trim();
     const countryName = rawCountry.toLowerCase();
     const key = COUNTRY_MAP[countryName];
     if (!key) {
