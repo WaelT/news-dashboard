@@ -1132,7 +1132,6 @@ export default function MapView({ articles = [] }) {
                     color: '#0088cc',
                     weight: Math.max(1, Math.log10(flow.count) * 1.5),
                     dashArray: '4,8',
-                    dashOffset: '0',
                     opacity: 0.6,
                     className: 'refugee-flow-line',
                   }}
