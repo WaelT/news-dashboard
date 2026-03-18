@@ -211,7 +211,7 @@ export default function Dashboard() {
       <div ref={swipeRef} className="h-screen w-screen flex flex-col bg-ops-bg scanline-overlay overflow-hidden">
         <Header threatLevel={threatLevel} oilPrice={oilPrice} activeZoneCount={activeZoneCount} />
         <BreakingNews articles={articles} breakingArticles={breakingArticles} />
-        <div className="flex-1 min-h-0 flex flex-col mobile-content">
+        <div className="flex-1 min-h-0 flex flex-col pb-14">
           <MobilePanel
             activeTab={mobileTab}
             articles={articles}
