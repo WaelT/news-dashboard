@@ -195,15 +195,17 @@ export default function Dashboard() {
       <div className="h-screen w-screen flex flex-col bg-ops-bg scanline-overlay overflow-hidden">
         <Header threatLevel={threatLevel} oilPrice={oilPrice} activeZoneCount={activeZoneCount} />
         <BreakingNews articles={articles} breakingArticles={breakingArticles} />
-        <div className="flex-1 min-h-0 flex flex-col">
-          <MobilePanel
-            activeTab={mobileTab}
-            articles={articles}
-            enArticles={en.articles}
-            arArticles={ar.articles}
-          />
+        <div className="flex-1 min-h-0 flex flex-row">
+          <MobileNav activeTab={mobileTab} onTabChange={setMobileTab} />
+          <div className="flex-1 min-h-0 min-w-0 flex flex-col">
+            <MobilePanel
+              activeTab={mobileTab}
+              articles={articles}
+              enArticles={en.articles}
+              arArticles={ar.articles}
+            />
+          </div>
         </div>
-        <MobileNav activeTab={mobileTab} onTabChange={setMobileTab} />
       </div>
     );
   }
