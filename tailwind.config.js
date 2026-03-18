@@ -1,18 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
         ops: {
-          bg: '#050a0e',
-          panel: '#0d1117',
-          border: '#1b3a2a',
+          bg: 'var(--ops-bg, #050a0e)',
+          panel: 'var(--ops-panel, #0d1117)',
+          border: 'var(--ops-border, #1b3a2a)',
           green: '#00ff41',
           amber: '#ff6600',
           red: '#ff0040',
-          text: '#c9d1d9',
-          muted: '#6e7681',
+          text: 'var(--ops-text, #c9d1d9)',
+          muted: 'var(--ops-muted, #6e7681)',
         },
       },
       fontFamily: {

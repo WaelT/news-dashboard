@@ -1,16 +1,19 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import Header from './Header';
 import MapView from './MapView';
 import ConflictTimeline from './ConflictTimeline';
+import DiplomaticTimeline from './DiplomaticTimeline';
 import ImpactTracker from './ImpactTracker';
 import MarketImpact from './MarketImpact';
 import MissileDroneTracker from './MissileDroneTracker';
+import MobileNav, { TAB_IDS } from './MobileNav';
 
 import LiveStreams from './LiveStreams';
 import BreakingNews from './BreakingNews';
 import { useEnglishNews, useArabicNews, useBreakingNews } from '../hooks/useNews';
 import conflictZones from '../data/conflictZones';
 import { useResizableGrid } from '../hooks/useResizable';
+import useSwipe from '../hooks/useSwipe';
 
 const BREAKING_KEYWORDS = [
   'breaking', 'عاجل', 'urgent', 'just in', 'developing',
@@ -56,13 +59,75 @@ function TimelineTabs({ enArticles, arArticles }) {
           >
             AR
           </button>
+          <button
+            onClick={() => setTab('diplo')}
+            className={`px-2 py-1.5 text-[10px] font-bold tracking-widest transition-colors ${tab === 'diplo' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
+          >
+            DIPLO
+          </button>
         </div>
       </div>
       <div className="flex-1 min-h-0 overflow-hidden">
-        <ConflictTimeline articles={tab === 'en' ? enArticles : arArticles} />
+        {tab === 'diplo' ? <DiplomaticTimeline /> : <ConflictTimeline articles={tab === 'en' ? enArticles : arArticles} />}
       </div>
     </div>
   );
+}
+
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(
+    typeof window !== 'undefined' ? window.innerWidth < 1024 : false,
+  );
+  useEffect(() => {
+    function handleResize() {
+      setIsMobile(window.innerWidth < 1024);
+    }
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  return isMobile;
+}
+
+function MobilePanel({ activeTab, articles, enArticles, arArticles }) {
+  switch (activeTab) {
+    case 'map':
+      return (
+        <div className="bg-ops-panel flex-1 min-h-0">
+          <MapView articles={articles} />
+        </div>
+      );
+    case 'news':
+      return (
+        <div className="bg-ops-panel flex-1 min-h-0 overflow-hidden">
+          <TimelineTabs enArticles={enArticles} arArticles={arArticles} />
+        </div>
+      );
+    case 'stats':
+      return (
+        <div className="flex-1 min-h-0 flex flex-col gap-px overflow-y-auto">
+          <div className="bg-ops-panel min-h-[50vh]">
+            <MissileDroneTracker />
+          </div>
+          <div className="bg-ops-panel min-h-[50vh]">
+            <ImpactTracker />
+          </div>
+        </div>
+      );
+    case 'markets':
+      return (
+        <div className="bg-ops-panel flex-1 min-h-0 overflow-hidden">
+          <MarketImpact />
+        </div>
+      );
+    case 'live':
+      return (
+        <div className="bg-ops-panel flex-1 min-h-0">
+          <LiveStreams />
+        </div>
+      );
+    default:
+      return null;
+  }
 }
 
 export default function Dashboard() {
@@ -74,9 +139,25 @@ export default function Dashboard() {
     [en.articles, ar.articles],
   );
   const [oilPrice, setOilPrice] = useState(null);
+  const [mobileTab, setMobileTab] = useState('map');
+  const isMobile = useIsMobile();
+  const swipeRef = useRef(null);
+  const { direction, reset } = useSwipe(swipeRef);
 
   const topResize = useResizableGrid(TOP_INIT);
   const bottomResize = useResizableGrid(BOTTOM_INIT);
+
+  // Handle swipe navigation
+  useEffect(() => {
+    if (!direction || !isMobile) return;
+    const idx = TAB_IDS.indexOf(mobileTab);
+    if (direction === 'left' && idx < TAB_IDS.length - 1) {
+      setMobileTab(TAB_IDS[idx + 1]);
+    } else if (direction === 'right' && idx > 0) {
+      setMobileTab(TAB_IDS[idx - 1]);
+    }
+    reset();
+  }, [direction, isMobile, mobileTab, reset]);
 
   // Compute active zone count
   const activeZoneCount = useMemo(() => {
@@ -122,8 +203,28 @@ export default function Dashboard() {
     return () => { cancelled = true; clearInterval(interval); };
   }, []);
 
-  const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 1024;
+  const isDesktop = !isMobile;
 
+  // Mobile layout
+  if (isMobile) {
+    return (
+      <div ref={swipeRef} className="h-screen w-screen flex flex-col bg-ops-bg scanline-overlay overflow-hidden">
+        <Header threatLevel={threatLevel} oilPrice={oilPrice} activeZoneCount={activeZoneCount} />
+        <BreakingNews articles={articles} breakingArticles={breakingArticles} />
+        <div className="flex-1 min-h-0 flex flex-col mobile-content">
+          <MobilePanel
+            activeTab={mobileTab}
+            articles={articles}
+            enArticles={en.articles}
+            arArticles={ar.articles}
+          />
+        </div>
+        <MobileNav activeTab={mobileTab} onTabChange={setMobileTab} />
+      </div>
+    );
+  }
+
+  // Desktop layout
   return (
     <div className="h-screen w-screen flex flex-col bg-ops-bg scanline-overlay lg:overflow-hidden overflow-y-auto">
       <Header threatLevel={threatLevel} oilPrice={oilPrice} activeZoneCount={activeZoneCount} />

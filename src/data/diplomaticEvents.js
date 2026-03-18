@@ -1,0 +1,144 @@
+// Curated diplomatic/ceasefire events timeline
+// Sources: Al Jazeera, CNN, NPR, Reuters
+const diplomaticEvents = [
+  {
+    date: '2026-02-28',
+    event: 'UN Security Council emergency session called',
+    type: 'un',
+    status: 'convened',
+    detail: 'Emergency session following US-Israel strikes on Iran',
+  },
+  {
+    date: '2026-03-01',
+    event: 'Russia & China condemn strikes, call for ceasefire',
+    type: 'diplomacy',
+    status: 'rejected',
+    detail: 'Joint statement demanding immediate halt; US vetoes UNSC resolution',
+  },
+  {
+    date: '2026-03-02',
+    event: 'Iran FM Araghchi: "We never asked for a ceasefire"',
+    type: 'ceasefire',
+    status: 'rejected',
+    detail: 'Iran rejects preconditions; demands US withdrawal and reparations',
+  },
+  {
+    date: '2026-03-03',
+    event: 'Oman offers to mediate',
+    type: 'diplomacy',
+    status: 'rejected',
+    detail: 'White House declines Omani mediation channel',
+  },
+  {
+    date: '2026-03-05',
+    event: 'IRGC declares Strait of Hormuz closed to US/Western ships',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Iran selectively blocks passage; allows India, Turkey, Saudi ships',
+  },
+  {
+    date: '2026-03-06',
+    event: 'EU calls for immediate ceasefire',
+    type: 'diplomacy',
+    status: 'ignored',
+    detail: 'European leaders warn of humanitarian catastrophe; Trump dismisses call',
+  },
+  {
+    date: '2026-03-07',
+    event: 'Trump: Iran "wants to make a deal" but terms not good enough',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Signals openness but no concrete proposal offered',
+  },
+  {
+    date: '2026-03-09',
+    event: 'UNSC ceasefire resolution vetoed by US',
+    type: 'un',
+    status: 'vetoed',
+    detail: '13-1 vote; US sole veto; UK abstains',
+  },
+  {
+    date: '2026-03-10',
+    event: 'Iran begins laying mines in Strait of Hormuz',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'US responds by destroying 16 mine-laying vessels',
+  },
+  {
+    date: '2026-03-12',
+    event: 'IEA releases 400M barrels from strategic reserves',
+    type: 'economic',
+    status: 'implemented',
+    detail: 'Coordinated release to stabilize oil prices above $100',
+  },
+  {
+    date: '2026-03-13',
+    event: 'Trump says war could end "very quickly" if Iran agrees to terms',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'No specifics on terms; Iran demands halt to all strikes first',
+  },
+  {
+    date: '2026-03-14',
+    event: 'Iran demands: halt strikes, reparations, guarantees, recognition',
+    type: 'ceasefire',
+    status: 'rejected',
+    detail: 'Four-point demand; US calls conditions "non-starters"',
+  },
+  {
+    date: '2026-03-16',
+    event: 'Israel launches ground invasion of southern Lebanon',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IDF targets territory south of Litani River; 1M+ displaced',
+  },
+  {
+    date: '2026-03-16',
+    event: 'Bessent: US allowing Iranian oil tankers through Hormuz',
+    type: 'economic',
+    status: 'implemented',
+    detail: 'Treasury Secretary confirms selective passage to ease oil markets',
+  },
+  {
+    date: '2026-03-17',
+    event: 'Israel assassinates Ali Larijani & Basij chief',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Iran\'s de facto leader killed; IRGC vows revenge',
+  },
+  {
+    date: '2026-03-17',
+    event: 'Joe Kent resigns — first Trump official to quit over war',
+    type: 'diplomacy',
+    status: 'resignation',
+    detail: 'NCTC head says Iran "posed no imminent threat"',
+  },
+  {
+    date: '2026-03-17',
+    event: 'Trump scolds allies for refusing Hormuz escort mission',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'UK, France, Germany decline; "opposed this war to begin with"',
+  },
+];
+
+export const STATUS_COLORS = {
+  escalation: '#ff0040',
+  rejected: '#ff4444',
+  vetoed: '#ff0040',
+  stalled: '#ffcc00',
+  ignored: '#ff6600',
+  convened: '#0088cc',
+  implemented: '#00ff41',
+  resignation: '#ff6600',
+};
+
+export const TYPE_ICONS = {
+  un: '🏛',
+  diplomacy: '🤝',
+  ceasefire: '🕊',
+  escalation: '⚠',
+  economic: '📊',
+};
+
+export default diplomaticEvents;

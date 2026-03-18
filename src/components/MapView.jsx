@@ -1,5 +1,5 @@
 import React, { useMemo, useRef, useEffect, useState, useCallback, memo } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, Polyline, Tooltip, GeoJSON, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, Polyline, Tooltip, GeoJSON, useMap, CircleMarker } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -9,6 +9,8 @@ import MapMarkerPopup from './MapMarkerPopup';
 import MapFilterBar from './MapFilterBar';
 import attackRoutes from '../data/attackRoutes';
 import launchData, { countryBreakdown } from '../data/launchData';
+import groundOps from '../data/groundOps';
+import displacementData from '../data/displacementData';
 
 // SVG icon paths for each marker type
 const ICONS = {
@@ -851,6 +853,8 @@ export default function MapView({ articles = [] }) {
   const [showBoundaries, setShowBoundaries] = useState(false);
   const [showTimeline, setShowTimeline] = useState(false);
   const [showHormuz, setShowHormuz] = useState(false);
+  const [showGroundOps, setShowGroundOps] = useState(false);
+  const [showRefugees, setShowRefugees] = useState(false);
   const [dayIndex, setDayIndex] = useState(launchData.length - 1);
   const [hoveredCountry, setHoveredCountry] = useState(null);
 
@@ -964,6 +968,10 @@ export default function MapView({ articles = [] }) {
         onToggleTimeline={() => setShowTimeline((v) => !v)}
         showHormuz={showHormuz}
         onToggleHormuz={() => setShowHormuz((v) => !v)}
+        showGroundOps={showGroundOps}
+        onToggleGroundOps={() => setShowGroundOps((v) => !v)}
+        showRefugees={showRefugees}
+        onToggleRefugees={() => setShowRefugees((v) => !v)}
         onClearAll={() => {
           setFilters({ countries: new Set(), types: new Set(), statuses: new Set(), liveOnly: false });
           setShowRoutes(false);
@@ -971,6 +979,8 @@ export default function MapView({ articles = [] }) {
           setShowBoundaries(false);
           setShowTimeline(false);
           setShowHormuz(false);
+          setShowGroundOps(false);
+          setShowRefugees(false);
         }}
       />
 
@@ -1016,6 +1026,127 @@ export default function MapView({ articles = [] }) {
 
         {/* Feature 2: Animated attack routes */}
         {showRoutes && <AnimatedAttackLines />}
+
+        {/* Ground Operations Layer */}
+        {showGroundOps && (
+          <>
+            <Polyline
+              positions={groundOps.frontline}
+              pathOptions={{ color: '#d4a017', weight: 3, dashArray: '8,6', opacity: 0.9 }}
+            >
+              <Tooltip sticky>FRONTLINE</Tooltip>
+            </Polyline>
+            {/* Invisible wide polyline for easy hover */}
+            <Polyline
+              positions={groundOps.objectiveLine}
+              pathOptions={{ color: 'transparent', weight: 16, opacity: 0 }}
+            >
+              <Tooltip sticky>
+                <span style={{ fontFamily: 'monospace', fontSize: '11px', fontWeight: 'bold', color: '#00ff41' }}>
+                  LITANI RIVER — OBJECTIVE LINE
+                </span>
+              </Tooltip>
+            </Polyline>
+            {/* Visible thin line */}
+            <Polyline
+              positions={groundOps.objectiveLine}
+              pathOptions={{ color: '#00ff41', weight: 2, dashArray: '6,4', opacity: 0.8 }}
+            >
+              <Tooltip permanent direction="top" offset={[0, -8]} className="litani-label">
+                <span style={{ fontFamily: 'monospace', fontSize: '9px', fontWeight: 'bold', color: '#00ff41', background: 'rgba(5,10,14,0.8)', padding: '2px 6px', borderRadius: '3px', border: '1px solid #00ff4144' }}>
+                  LITANI RIVER
+                </span>
+              </Tooltip>
+            </Polyline>
+            {groundOps.divisions.map((div) => (
+              <Marker
+                key={div.name}
+                position={[div.lat, div.lng]}
+                icon={L.divIcon({
+                  className: '',
+                  html: `<svg width="24" height="24" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" fill="#d4a01733" stroke="#d4a017" stroke-width="1.5"/>
+                    <line x1="12" y1="2" x2="12" y2="22" stroke="#d4a017" stroke-width="1.2"/>
+                    <line x1="2" y1="12" x2="22" y2="12" stroke="#d4a017" stroke-width="1.2"/>
+                    <circle cx="12" cy="12" r="3" fill="#d4a017" opacity="0.6"/>
+                  </svg>`,
+                  iconSize: [24, 24],
+                  iconAnchor: [12, 12],
+                })}
+              >
+                <Tooltip>
+                  <div style={{ fontFamily: 'monospace', fontSize: '10px' }}>
+                    <div style={{ color: '#d4a017', fontWeight: 'bold' }}>{div.name}</div>
+                    <div>Strength: {div.strength}</div>
+                    <div>Sector: {div.sector}</div>
+                    <div>Objective: {div.objective}</div>
+                    <div>Status: <span style={{ color: div.status === 'advancing' ? '#00ff41' : '#ff6600' }}>{div.status.toUpperCase()}</span></div>
+                  </div>
+                </Tooltip>
+              </Marker>
+            ))}
+            {groundOps.operations.map((op, i) => (
+              <CircleMarker
+                key={`groundop-${i}`}
+                center={[op.lat, op.lng]}
+                radius={5}
+                pathOptions={{ color: op.type === 'engagement' ? '#ff0040' : '#d4a017', fillColor: op.type === 'engagement' ? '#ff0040' : '#d4a017', fillOpacity: 0.7, weight: 1 }}
+              >
+                <Popup>
+                  <div style={{ fontFamily: 'monospace', fontSize: '10px' }}>
+                    <div style={{ fontWeight: 'bold', color: '#d4a017' }}>{op.date}</div>
+                    <div>{op.event}</div>
+                    <div style={{ color: '#888', fontSize: '9px' }}>Type: {op.type}</div>
+                  </div>
+                </Popup>
+              </CircleMarker>
+            ))}
+          </>
+        )}
+
+        {/* Refugee Displacement Layer */}
+        {showRefugees && (
+          <>
+            {displacementData.countries.map((c) => (
+              <CircleMarker
+                key={`refugee-${c.country}`}
+                center={[c.lat, c.lng]}
+                radius={Math.log10(c.displaced) * 8}
+                pathOptions={{ color: '#0088cc', fillColor: '#0088cc', fillOpacity: 0.3, weight: 1.5 }}
+              >
+                <Tooltip>
+                  <div style={{ fontFamily: 'monospace', fontSize: '10px' }}>
+                    <div style={{ color: '#0088cc', fontWeight: 'bold' }}>{c.country}</div>
+                    <div>Displaced: {c.displaced.toLocaleString()}</div>
+                    <div style={{ fontSize: '9px', color: '#888' }}>{c.detail}</div>
+                  </div>
+                </Tooltip>
+              </CircleMarker>
+            ))}
+            {displacementData.countries.flatMap((c) =>
+              c.flows.map((flow, i) => (
+                <Polyline
+                  key={`flow-${c.country}-${i}`}
+                  positions={[[c.lat, c.lng], [flow.toLat, flow.toLng]]}
+                  pathOptions={{
+                    color: '#0088cc',
+                    weight: Math.max(1, Math.log10(flow.count) * 1.5),
+                    dashArray: '4,8',
+                    dashOffset: '0',
+                    opacity: 0.6,
+                    className: 'refugee-flow-line',
+                  }}
+                >
+                  <Tooltip sticky>
+                    <span style={{ fontFamily: 'monospace', fontSize: '9px' }}>
+                      {c.country} → {flow.to}: {flow.count.toLocaleString()}
+                    </span>
+                  </Tooltip>
+                </Polyline>
+              ))
+            )}
+          </>
+        )}
 
         {/* Feature 3: Clustered markers */}
         <MarkerClusterGroup

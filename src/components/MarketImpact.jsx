@@ -130,7 +130,7 @@ export default function MarketImpact() {
             const up = m.change >= 0;
             const color = up ? '#22c55e' : '#ff0040';
             return (
-              <div key={m.id} className="flex items-baseline gap-2 py-1 border-b border-ops-border/30">
+              <div key={m.id} className="flex items-center gap-2 py-1 border-b border-ops-border/30">
                 <span className="text-[11px] font-mono" style={{ color }}>{up ? '▲' : '▼'}</span>
                 <span className="text-[11px] font-bold text-ops-muted font-mono">{m.label}</span>
                 <span className="text-[12px] font-bold font-mono text-ops-text">{formatPrice(m.price)}</span>

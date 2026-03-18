@@ -1,9 +1,39 @@
 import { useMemo } from 'react';
 
+const ESCALATION_KEYWORDS = [
+  'strike', 'attack', 'bomb', 'missile', 'drone', 'kill', 'destroy',
+  'escalat', 'retaliat', 'invasion', 'launch', 'dead', 'casualt',
+  'wound', 'blast', 'تصعيد', 'هجوم', 'قصف', 'صاروخ',
+];
+
+const DEESCALATION_KEYWORDS = [
+  'ceasefire', 'peace', 'negotiat', 'diplomat', 'withdraw', 'de-escalat',
+  'humanitarian', 'aid', 'truce', 'talks', 'وقف إطلاق', 'سلام', 'مفاوضات',
+];
+
+function scoreSentiment(title) {
+  if (!title) return 0;
+  const text = title.toLowerCase();
+  let score = 0;
+  for (const kw of ESCALATION_KEYWORDS) {
+    if (text.includes(kw)) score += 1;
+  }
+  for (const kw of DEESCALATION_KEYWORDS) {
+    if (text.includes(kw)) score -= 1;
+  }
+  return score;
+}
+
+function sentimentColor(score) {
+  if (score > 0) return '#ff0040';
+  if (score < 0) return 'var(--ops-green, #059669)';
+  return '#ffcc00';
+}
+
 const EVENT_TYPES = {
   strike: { color: '#ff0040', label: 'STRIKE' },
   missile: { color: '#ff0040', label: 'MISSILE' },
-  diplomacy: { color: '#00ff41', label: 'DIPLOMATIC' },
+  diplomacy: { color: 'var(--ops-green, #059669)', label: 'DIPLOMATIC' },
   military: { color: '#ff6600', label: 'MILITARY' },
   humanitarian: { color: '#00b4d8', label: 'HUMANITARIAN' },
   nuclear: { color: '#ff6600', label: 'NUCLEAR' },
@@ -47,14 +77,60 @@ function formatTime(dateStr) {
 
 export default function ConflictTimeline({ articles }) {
   const events = useMemo(() => {
-    return articles.slice(0, 30).map((a) => ({
-      ...a,
-      eventType: classifyArticle(a),
-    }));
+    return articles.slice(0, 30).map((a) => {
+      const sentiment = scoreSentiment(a.title);
+      return {
+        ...a,
+        eventType: classifyArticle(a),
+        sentiment,
+        sentimentColor: sentimentColor(sentiment),
+      };
+    });
   }, [articles]);
+
+  const sentimentSummary = useMemo(() => {
+    let esc = 0, deesc = 0, neutral = 0;
+    for (const e of events) {
+      if (e.sentiment > 0) esc++;
+      else if (e.sentiment < 0) deesc++;
+      else neutral++;
+    }
+    const total = esc + deesc + neutral || 1;
+    // Position marker: 0 = full escalation (left/red), 100 = full de-escalation (right/green)
+    // During active war, most articles are escalatory so bias heavily left
+    const escRatio = esc / total;
+    // Map: if 60%+ articles are escalation, dot should be in red/orange zone (15-35%)
+    const balance = Math.min(85, Math.max(10, (1 - escRatio) * 100 * 0.7));
+    return { esc, deesc, neutral, balance };
+  }, [events]);
 
   return (
     <div className="flex flex-col h-full">
+      {/* Sentiment summary bar */}
+      <div className="px-3 pt-2 pb-1 border-b border-ops-border">
+        <div className="flex items-center justify-between mb-1">
+          <span className="text-[9px] tracking-wider text-[#ff0040] font-bold">ESCALATION</span>
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] text-[#ff0040] font-mono">{sentimentSummary.esc}</span>
+            <span className="text-[10px] text-ops-muted font-mono">·</span>
+            <span className="text-[10px] text-[#ffcc00] font-mono">{sentimentSummary.neutral}</span>
+            <span className="text-[10px] text-ops-muted font-mono">·</span>
+            <span className="text-[10px] text-[#059669] font-mono">{sentimentSummary.deesc}</span>
+          </div>
+          <span className="text-[9px] tracking-wider text-[#059669] font-bold">DE-ESCALATION</span>
+        </div>
+        <div className="relative h-[6px] rounded-full overflow-hidden" style={{ background: 'linear-gradient(to right, #ff0040, #ffcc00 50%, #059669)' }}>
+          <div
+            className="absolute top-[-4px] w-[14px] h-[14px] rounded-full border-2 border-white escalation-dot"
+            style={{
+              left: `calc(${sentimentSummary.balance}% - 7px)`,
+              background: sentimentSummary.balance < 40 ? '#ff0040' : sentimentSummary.balance < 60 ? '#ffcc00' : '#059669',
+              boxShadow: `0 0 8px ${sentimentSummary.balance < 40 ? '#ff0040' : sentimentSummary.balance < 60 ? '#ffcc00' : '#059669'}, 0 0 16px ${sentimentSummary.balance < 40 ? '#ff004088' : sentimentSummary.balance < 60 ? '#ffcc0088' : '#05966988'}`,
+            }}
+          />
+        </div>
+      </div>
+
       <div className="flex-1 overflow-y-auto min-h-0 px-3 py-2">
         <div className="relative">
           {/* Vertical line */}
@@ -70,10 +146,10 @@ export default function ConflictTimeline({ articles }) {
                 rel="noopener noreferrer"
                 className="block relative pl-5 pb-3 group"
               >
-                {/* Dot on timeline */}
+                {/* Dot on timeline — colored by sentiment */}
                 <div
                   className="absolute left-0 top-1 w-[11px] h-[11px] rounded-full border-2"
-                  style={{ borderColor: et.color, background: i === 0 ? et.color : '#050a0e' }}
+                  style={{ borderColor: event.sentimentColor, background: i === 0 ? event.sentimentColor : '#050a0e' }}
                 />
 
                 {/* Time + type badge */}

@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import useNotifications from '../hooks/useNotifications';
 
 function playAlertTone() {
   try {
@@ -27,6 +28,8 @@ export default function BreakingNews({ articles, breakingArticles }) {
   const [breakingAlert, setBreakingAlert] = useState(null);
   const prevCountRef = useRef(0);
   const mutedRef = useRef(muted);
+  const notifiedTitlesRef = useRef(new Set());
+  const { sendNotification } = useNotifications();
 
   useEffect(() => {
     mutedRef.current = muted;
@@ -39,6 +42,12 @@ export default function BreakingNews({ articles, breakingArticles }) {
       const newest = breakingArticles[0];
       setBreakingAlert(newest);
       if (!mutedRef.current) playAlertTone();
+
+      // Send browser notification if not already notified for this headline
+      if (!notifiedTitlesRef.current.has(newest.title)) {
+        notifiedTitlesRef.current.add(newest.title);
+        sendNotification('BREAKING NEWS', newest.title);
+      }
 
       const timer = setTimeout(() => {
         setBreakingAlert((prev) => (prev?.title === newest.title ? null : prev));

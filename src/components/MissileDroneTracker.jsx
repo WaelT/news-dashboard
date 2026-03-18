@@ -68,9 +68,10 @@ function StackedBar({ data, label, color }) {
           return (
             <div key={s.country} className="flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-sm shrink-0" style={{ background: COUNTRY_COLORS[s.country] || '#666' }} />
-              {cc && <img src={flagUrl(cc)} alt={s.country} className="w-4 h-3 object-cover rounded-sm shrink-0" />}
-              <span className="text-[11px] text-ops-text font-bold truncate">{s.country}</span>
-              <span className="text-[11px] font-mono font-bold ml-auto shrink-0" style={{ color }}>{s.pct.toFixed(1)}%</span>
+              {cc && <img src={flagUrl(cc)} alt={s.country} className="w-5 h-3.5 object-cover rounded-sm shrink-0" />}
+              <span className="text-[13px] text-white font-bold truncate">{s.country}</span>
+              <span className="text-[13px] font-mono font-bold ml-auto shrink-0" style={{ color }}>{s.count.toLocaleString()}</span>
+              <span className="text-[11px] font-mono text-gray-400 shrink-0">({s.pct.toFixed(1)}%)</span>
             </div>
           );
         })}
@@ -171,11 +172,13 @@ function InterceptionGauge({ data }) {
   const needleY = cy - (r - 12) * Math.sin(needleAngle);
 
   // Color zones: red < 70, yellow 70-90, green > 90
-  const gaugeColor = currentRate >= 90 ? '#00ff41' : currentRate >= 70 ? '#ffcc00' : '#ff0040';
+  const greenVar = 'var(--ops-green, #00ff41)';
+  const greenDimVar = 'var(--ops-green-dim, #00ff4133)';
+  const gaugeColor = currentRate >= 90 ? greenVar : currentRate >= 70 ? '#ffcc00' : '#ff0040';
 
   return (
-    <div className="px-3 py-2 border-t border-ops-border/30">
-      <div className="text-[11px] font-bold tracking-widest text-gray-300 mb-1">INTERCEPTION RATE</div>
+    <div className="px-3 py-2">
+      <div className="text-[11px] font-bold tracking-widest mb-1" style={{ color: greenVar }}>INTERCEPTION RATE</div>
       <div className="flex items-start gap-3">
         {/* Gauge */}
         <svg viewBox={`0 0 ${W} ${H}`} className="flex-1" style={{ maxWidth: 200, height: 120 }}>
@@ -189,7 +192,7 @@ function InterceptionGauge({ data }) {
           <path d={arcPath(rateToAngle(70), rateToAngle(90), r)} fill="none" stroke="#ffcc0033" strokeWidth="14" strokeLinecap="round" />
 
           {/* Green zone (90-100%) */}
-          <path d={arcPath(rateToAngle(90), endAngle, r)} fill="none" stroke="#00ff4133" strokeWidth="14" strokeLinecap="round" />
+          <path d={arcPath(rateToAngle(90), endAngle, r)} fill="none" style={{ stroke: greenDimVar }} strokeWidth="14" strokeLinecap="round" />
 
           {/* Active arc */}
           <path d={arcPath(startAngle, needleAngle, r)} fill="none" stroke={gaugeColor} strokeWidth="14" strokeLinecap="round" />
@@ -217,14 +220,14 @@ function InterceptionGauge({ data }) {
         <div className="flex-1 min-w-0 space-y-1.5 pt-1">
           <div className="py-1 border-b border-ops-border/30">
             <div className="text-[8px] text-gray-500 tracking-wider">LAST 3 DAYS</div>
-            <div className="text-[14px] font-bold font-mono" style={{ color: recentRate >= 90 ? '#00ff41' : recentRate >= 70 ? '#ffcc00' : '#ff0040' }}>
+            <div className="text-[14px] font-bold font-mono" style={{ color: recentRate >= 90 ? greenVar : recentRate >= 70 ? '#ffcc00' : '#ff0040' }}>
               {recentRate.toFixed(1)}%
             </div>
           </div>
           <div className="py-1 border-b border-ops-border/30">
             <div className="text-[8px] text-gray-500 tracking-wider">BEST DAY</div>
             <div className="flex items-baseline gap-1">
-              <span className="text-[12px] font-bold font-mono text-[#00ff41]">{best.rate.toFixed(0)}%</span>
+              <span className="text-[12px] font-bold font-mono" style={{ color: greenVar }}>{best.rate.toFixed(0)}%</span>
               <span className="text-[8px] text-gray-500">D{warDay(best.date)}</span>
             </div>
           </div>
@@ -239,6 +242,99 @@ function InterceptionGauge({ data }) {
             <div className="text-[8px] text-gray-500 tracking-wider">INTERCEPTED</div>
             <div className="text-[12px] font-bold font-mono text-gray-300">{formatNum(totalIntercepted)} <span className="text-[9px] text-gray-500">/ {formatNum(totalLaunched)}</span></div>
           </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// Capability degradation line chart
+function CapabilityDegradation({ data }) {
+  const dailyTotals = data.map((d) => ({
+    day: warDay(d.date),
+    total: d.missiles + d.drones,
+  }));
+
+  const peak = dailyTotals[0].total;
+  const current = dailyTotals[dailyTotals.length - 1].total;
+  const declinePct = peak > 0 ? Math.round(((current - peak) / peak) * 100) : 0;
+
+  const maxTotal = Math.max(...dailyTotals.map((d) => d.total));
+  const W = 300;
+  const H = 120;
+  const padL = 32;
+  const padR = 4;
+  const padT = 6;
+  const padB = 20;
+  const chartW = W - padL - padR;
+  const chartH = H - padT - padB;
+
+  const points = dailyTotals.map((d, i) => {
+    const x = padL + (i / (dailyTotals.length - 1)) * chartW;
+    const y = padT + chartH - (d.total / maxTotal) * chartH;
+    return { x, y, day: d.day, total: d.total };
+  });
+
+  const linePath = points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x} ${p.y}`).join(' ');
+  const areaPath = linePath + ` L ${points[points.length - 1].x} ${padT + chartH} L ${points[0].x} ${padT + chartH} Z`;
+
+  const peakY = padT + chartH - (peak / maxTotal) * chartH;
+
+  // X-axis labels: show every 3rd day
+  const xLabels = points.filter((_, i) => i % 3 === 0);
+
+  return (
+    <div className="px-3 py-2">
+      <div className="text-[11px] font-bold tracking-widest mb-1.5" style={{ color: '#d4a017' }}>
+        CAPABILITY DEGRADATION
+      </div>
+
+      {/* SVG line chart */}
+      <svg viewBox={`0 0 ${W} ${H}`} className="w-full" style={{ height: 120 }}>
+        {/* Grid lines */}
+        <line x1={padL} y1={padT} x2={padL} y2={padT + chartH} stroke="#1a2a3a" strokeWidth="0.5" />
+        <line x1={padL} y1={padT + chartH} x2={padL + chartW} y2={padT + chartH} stroke="#1a2a3a" strokeWidth="0.5" />
+
+        {/* Fill area */}
+        <path d={areaPath} fill="#ff0040" opacity="0.12" />
+
+        {/* Line */}
+        <path d={linePath} fill="none" stroke="#ff0040" strokeWidth="1.5" strokeLinejoin="round" />
+
+        {/* Data points */}
+        {points.map((p, i) => (
+          <circle key={i} cx={p.x} cy={p.y} r="1.5" fill="#ff0040" />
+        ))}
+
+        {/* X-axis labels */}
+        {xLabels.map((p) => (
+          <text key={p.day} x={p.x} y={padT + chartH + 14} textAnchor="middle" fill="#9ca3af" fontSize="9" fontWeight="bold" fontFamily="monospace">
+            D{p.day}
+          </text>
+        ))}
+
+        {/* Y-axis labels */}
+        <text x={padL - 3} y={padT + 4} textAnchor="end" fill="#9ca3af" fontSize="9" fontWeight="bold" fontFamily="monospace">
+          {formatNum(maxTotal)}
+        </text>
+        <text x={padL - 3} y={padT + chartH + 3} textAnchor="end" fill="#9ca3af" fontSize="9" fontWeight="bold" fontFamily="monospace">
+          0
+        </text>
+      </svg>
+
+      {/* Stat boxes */}
+      <div className="flex gap-2 mt-1.5">
+        <div className="flex-1 bg-ops-border/20 rounded px-2 py-1 text-center">
+          <div className="text-[8px] text-gray-500 tracking-wider font-bold">PEAK</div>
+          <div className="text-[14px] font-bold font-mono" style={{ color: '#ff0040' }}>{formatNum(peak)}</div>
+        </div>
+        <div className="flex-1 bg-ops-border/20 rounded px-2 py-1 text-center">
+          <div className="text-[8px] text-gray-500 tracking-wider font-bold">CURRENT</div>
+          <div className="text-[14px] font-bold font-mono" style={{ color: '#d4a017' }}>{formatNum(current)}</div>
+        </div>
+        <div className="flex-1 bg-ops-border/20 rounded px-2 py-1 text-center">
+          <div className="text-[8px] text-gray-500 tracking-wider font-bold">DECLINE</div>
+          <div className="text-[14px] font-bold font-mono" style={{ color: 'var(--ops-green, #00ff41)' }}>{declinePct}%</div>
         </div>
       </div>
     </div>
@@ -287,9 +383,9 @@ export default function MissileDroneTracker() {
           <span className="text-base font-bold font-mono text-[#ff6600]">{formatNum(totals.drones)}</span>
         </div>
         <div className="flex items-center gap-1.5">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#00ff41]" />
+          <span className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--ops-green, #00ff41)' }} />
           <span className="text-[9px] text-ops-muted font-bold">INTERCEPT</span>
-          <span className="text-base font-bold font-mono text-[#00ff41]">{totals.rate}%</span>
+          <span className="text-base font-bold font-mono" style={{ color: 'var(--ops-green, #00ff41)' }}>{totals.rate}%</span>
         </div>
       </div>
 
@@ -330,7 +426,7 @@ export default function MissileDroneTracker() {
                   <div className="flex items-center gap-3 text-[12px] font-mono font-bold">
                     <span><span className="text-[#ff0040]">{week.missiles}</span> <span className="text-gray-300">missiles</span></span>
                     <span><span className="text-[#ff6600]">{week.drones}</span> <span className="text-gray-300">drones</span></span>
-                    <span><span className="text-[#00ff41]">{interceptRate}%</span> <span className="text-gray-300">int.</span></span>
+                    <span><span style={{ color: 'var(--ops-green, #00ff41)' }}>{interceptRate}%</span> <span className="text-gray-300">int.</span></span>
                   </div>
                 </div>
               </div>
@@ -338,8 +434,15 @@ export default function MissileDroneTracker() {
           })}
         </div>
 
-        {/* Interception rate gauge */}
-        <InterceptionGauge data={launchData} />
+        {/* Interception rate gauge + Capability degradation side by side */}
+        <div className="flex border-t border-ops-border/30">
+          <div className="flex-1 border-r border-ops-border/30">
+            <InterceptionGauge data={launchData} />
+          </div>
+          <div className="flex-1">
+            <CapabilityDegradation data={launchData} />
+          </div>
+        </div>
 
         {/* Country breakdown stacked bars */}
         <div className="px-3 py-2 border-t border-ops-border/30 space-y-3">

@@ -1,4 +1,6 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
+import casualtyTimeline from '../data/casualtyTimeline';
+import CountryDetailModal from './CountryDetailModal';
 // Note: casualties data is updated via GitHub Action (scripts/update-casualties.mjs)
 
 const PARTY_META = [
@@ -44,7 +46,86 @@ function formatNum(n) {
   return n.toLocaleString();
 }
 
+const TREND_LINES = [
+  { key: 'iran', label: 'Iran', color: '#ff0040' },
+  { key: 'lebanon', label: 'Lebanon', color: '#ff6600' },
+  { key: 'israel', label: 'Israel', color: '#0088cc' },
+  { key: 'usa', label: 'USA', color: '#3b82f6' },
+];
+
+function TrendChart() {
+  const W = 600;
+  const H = 350;
+  const PAD = { top: 14, right: 14, bottom: 30, left: 50 };
+  const chartW = W - PAD.left - PAD.right;
+  const chartH = H - PAD.top - PAD.bottom;
+
+  const data = casualtyTimeline;
+  const maxY = Math.max(...data.map((d) => d.iran), 1);
+  const yTicks = [0, Math.round(maxY / 4), Math.round(maxY / 2), Math.round((maxY * 3) / 4), maxY];
+
+  const x = (i) => PAD.left + (i / (data.length - 1)) * chartW;
+  const y = (v) => PAD.top + chartH - (v / maxY) * chartH;
+
+  const makePath = (key) =>
+    data.map((d, i) => `${i === 0 ? 'M' : 'L'}${x(i).toFixed(1)},${y(d[key] || 0).toFixed(1)}`).join(' ');
+
+  const formatDate = (dateStr) => {
+    const d = new Date(dateStr + 'T00:00:00');
+    return `MAR ${d.getDate()}`;
+  };
+
+  return (
+    <div className="flex-1 min-h-0 overflow-hidden px-3 py-2 flex flex-col">
+      <svg viewBox={`0 0 ${W} ${H}`} className="w-full flex-1" preserveAspectRatio="xMidYMid meet">
+        {/* Grid lines & Y labels */}
+        {yTicks.map((tick) => (
+          <g key={tick}>
+            <line x1={PAD.left} y1={y(tick)} x2={W - PAD.right} y2={y(tick)} stroke="#334155" strokeWidth="0.5" strokeDasharray="3,3" />
+            <text x={PAD.left - 6} y={y(tick) + 4} textAnchor="end" fill="#9ca3af" fontSize="11" fontWeight="bold" fontFamily="monospace">
+              {formatNum(tick)}
+            </text>
+          </g>
+        ))}
+        {/* X labels — every 2nd date */}
+        {data.map((d, i) =>
+          i % 2 === 0 ? (
+            <text key={d.date} x={x(i)} y={H - 6} textAnchor="middle" fill="#9ca3af" fontSize="10" fontWeight="bold" fontFamily="monospace">
+              {formatDate(d.date)}
+            </text>
+          ) : null,
+        )}
+        {/* Lines */}
+        {TREND_LINES.map((line) => (
+          <path key={line.key} d={makePath(line.key)} fill="none" stroke={line.color} strokeWidth="2.5" strokeLinejoin="round" />
+        ))}
+        {/* End-of-line value labels */}
+        {TREND_LINES.map((line) => {
+          const lastVal = data[data.length - 1][line.key] || 0;
+          if (lastVal === 0) return null;
+          return (
+            <text key={`label-${line.key}`} x={x(data.length - 1) + 6} y={y(lastVal) + 4} fill={line.color} fontSize="10" fontWeight="bold" fontFamily="monospace">
+              {formatNum(lastVal)}
+            </text>
+          );
+        })}
+      </svg>
+      {/* Legend */}
+      <div className="flex items-center gap-4 mt-2 flex-wrap justify-center">
+        {TREND_LINES.map((line) => (
+          <div key={line.key} className="flex items-center gap-1.5">
+            <span className="w-2 h-2 rounded-full" style={{ background: line.color }} />
+            <span className="text-[10px] font-mono font-bold text-ops-muted">{line.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function ImpactTracker() {
+  const [activeTab, setActiveTab] = useState('country');
+  const [selectedCountry, setSelectedCountry] = useState(null);
   const casualties = DEFAULT_CASUALTIES;
 
   const parties = useMemo(
@@ -73,7 +154,21 @@ export default function ImpactTracker() {
     <div className="flex flex-col h-full">
       {/* Header */}
       <div className="px-3 py-1.5 border-b border-ops-border flex items-center justify-between">
-        <span className="text-ops-red text-[10px] font-bold tracking-widest">CASUALTIES</span>
+        <div className="flex items-center gap-1">
+          <span className="text-ops-red text-[10px] font-bold tracking-widest mr-2">CASUALTIES</span>
+          <button
+            onClick={() => setActiveTab('country')}
+            className={`px-2 py-1 text-[8px] font-bold tracking-widest transition-colors border-b-2 ${activeTab === 'country' ? 'text-ops-red border-ops-red' : 'text-ops-muted border-transparent hover:text-ops-text'}`}
+          >
+            BY COUNTRY
+          </button>
+          <button
+            onClick={() => setActiveTab('trend')}
+            className={`px-2 py-1 text-[8px] font-bold tracking-widest transition-colors border-b-2 ${activeTab === 'trend' ? 'text-ops-red border-ops-red' : 'text-ops-muted border-transparent hover:text-ops-text'}`}
+          >
+            TREND
+          </button>
+        </div>
         <span className="text-ops-muted text-[8px]">MAR 17, 2026</span>
       </div>
 
@@ -91,49 +186,53 @@ export default function ImpactTracker() {
         </div>
       </div>
 
-      {/* Bar chart */}
-      <div className="flex-1 min-h-0 overflow-y-auto px-3 py-2 space-y-2">
-        {parties.map((p) => {
-          const killedPct = (p.killed / maxValue) * 100;
-          const woundedPct = (p.wounded / maxValue) * 100;
-          return (
-            <div key={p.key}>
-              {/* Country label */}
-              <div className="flex items-center justify-between mb-1">
-                <div className="flex items-center gap-1.5">
-                  <span className="text-xs font-bold" style={{ color: p.color }}>{p.label}</span>
-                  <img src={flagUrl(p.cc)} alt={p.label} className="w-4 h-3 object-cover rounded-sm" />
+      {activeTab === 'country' ? (
+        /* Bar chart */
+        <div className="flex-1 min-h-0 overflow-y-auto px-3 py-2 space-y-2">
+          {parties.map((p) => {
+            const killedPct = (p.killed / maxValue) * 100;
+            const woundedPct = (p.wounded / maxValue) * 100;
+            return (
+              <div key={p.key} className="cursor-pointer hover:bg-ops-border/10 rounded px-1 -mx-1 transition-colors" onClick={() => setSelectedCountry(p.key)}>
+                {/* Country label */}
+                <div className="flex items-center justify-between mb-1">
+                  <div className="flex items-center gap-1.5">
+                    <span className="text-xs font-bold" style={{ color: p.color }}>{p.label}</span>
+                    <img src={flagUrl(p.cc)} alt={p.label} className="w-4 h-3 object-cover rounded-sm" />
+                  </div>
+                  <span className="text-[11px] font-mono text-ops-muted">{p.total.toLocaleString()}</span>
                 </div>
-                <span className="text-[11px] font-mono text-ops-muted">{p.total.toLocaleString()}</span>
-              </div>
-              {/* Killed bar */}
-              <div className="flex items-center gap-2 mb-0.5">
-                <div className="flex-1 h-3 bg-ops-border/20 rounded-sm overflow-hidden">
-                  <div
-                    className="h-full rounded-sm transition-all duration-500"
-                    style={{ width: `${killedPct}%`, background: '#cc0033' }}
-                  />
+                {/* Killed bar */}
+                <div className="flex items-center gap-2 mb-0.5">
+                  <div className="flex-1 h-3 bg-ops-border/20 rounded-sm overflow-hidden">
+                    <div
+                      className="h-full rounded-sm transition-all duration-500"
+                      style={{ width: `${killedPct}%`, background: '#cc0033' }}
+                    />
+                  </div>
+                  <span className="text-[11px] font-mono font-bold text-[#ff0040] w-12 text-right">
+                    {p.killed > 0 ? formatNum(p.killed) : '-'}
+                  </span>
                 </div>
-                <span className="text-[11px] font-mono font-bold text-[#ff0040] w-12 text-right">
-                  {p.killed > 0 ? formatNum(p.killed) : '-'}
-                </span>
-              </div>
-              {/* Wounded bar */}
-              <div className="flex items-center gap-2">
-                <div className="flex-1 h-3 bg-ops-border/20 rounded-sm overflow-hidden">
-                  <div
-                    className="h-full rounded-sm transition-all duration-500"
-                    style={{ width: `${woundedPct}%`, background: '#cc5200' }}
-                  />
+                {/* Wounded bar */}
+                <div className="flex items-center gap-2">
+                  <div className="flex-1 h-3 bg-ops-border/20 rounded-sm overflow-hidden">
+                    <div
+                      className="h-full rounded-sm transition-all duration-500"
+                      style={{ width: `${woundedPct}%`, background: '#cc5200' }}
+                    />
+                  </div>
+                  <span className="text-[11px] font-mono font-bold text-[#ff6600] w-12 text-right">
+                    {p.wounded > 0 ? formatNum(p.wounded) : '-'}
+                  </span>
                 </div>
-                <span className="text-[11px] font-mono font-bold text-[#ff6600] w-12 text-right">
-                  {p.wounded > 0 ? formatNum(p.wounded) : '-'}
-                </span>
               </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      ) : (
+        <TrendChart />
+      )}
 
       {/* Source */}
       <div className="px-3 py-1 border-t border-ops-border/50">
@@ -141,6 +240,12 @@ export default function ImpactTracker() {
           Sources: Wikipedia, Al Jazeera, HRANA, Reuters.
         </p>
       </div>
+
+      <CountryDetailModal
+        country={selectedCountry}
+        isOpen={!!selectedCountry}
+        onClose={() => setSelectedCountry(null)}
+      />
     </div>
   );
 }

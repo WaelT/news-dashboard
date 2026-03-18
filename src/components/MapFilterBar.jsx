@@ -50,7 +50,7 @@ function Chip({ label, active, color, onClick }) {
   );
 }
 
-export default function MapFilterBar({ filters, onFiltersChange, countries, showRoutes, onToggleRoutes, showHeat, onToggleHeat, showBoundaries, onToggleBoundaries, showTimeline, onToggleTimeline, showHormuz, onToggleHormuz, onClearAll }) {
+export default function MapFilterBar({ filters, onFiltersChange, countries, showRoutes, onToggleRoutes, showHeat, onToggleHeat, showBoundaries, onToggleBoundaries, showTimeline, onToggleTimeline, showHormuz, onToggleHormuz, showGroundOps, onToggleGroundOps, showRefugees, onToggleRefugees, onClearAll }) {
   const [expanded, setExpanded] = useState(false);
   const ref = useRef(null);
 
@@ -77,7 +77,7 @@ export default function MapFilterBar({ filters, onFiltersChange, countries, show
     filters.types.size > 0 ||
     filters.statuses.size > 0 ||
     filters.liveOnly ||
-    showRoutes || showHeat || showBoundaries || showTimeline || showHormuz;
+    showRoutes || showHeat || showBoundaries || showTimeline || showHormuz || showGroundOps || showRefugees;
 
   return (
     <div className="absolute top-2 left-12 z-[1000]" ref={ref}>
@@ -201,6 +201,26 @@ export default function MapFilterBar({ filters, onFiltersChange, countries, show
               }`}
             >
               HORMUZ
+            </button>
+            <button
+              onClick={onToggleGroundOps}
+              className={`text-[9px] font-bold px-2 py-1 rounded border ${
+                showGroundOps
+                  ? 'bg-[#d4a017]/20 border-[#d4a017] text-[#d4a017]'
+                  : 'bg-transparent border-ops-border text-ops-muted'
+              }`}
+            >
+              GROUND OPS
+            </button>
+            <button
+              onClick={onToggleRefugees}
+              className={`text-[9px] font-bold px-2 py-1 rounded border ${
+                showRefugees
+                  ? 'bg-[#0088cc]/20 border-[#0088cc] text-[#0088cc]'
+                  : 'bg-transparent border-ops-border text-ops-muted'
+              }`}
+            >
+              REFUGEES
             </button>
           </div>
 
