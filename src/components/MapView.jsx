@@ -731,11 +731,11 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'MAR 17, 2026',
+  updated: 'MAR 19, 2026',
   current: {
-    transitsPerDay: 18,
-    oilFlowMbd: 2.1,
-    disruptionPct: 88,
+    transitsPerDay: 9,
+    oilFlowMbd: 1.2,
+    disruptionPct: 94,
   },
   preWar: {
     transitsPerDay: 153,

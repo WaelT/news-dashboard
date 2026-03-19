@@ -120,6 +120,34 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'UK, France, Germany decline; "opposed this war to begin with"',
   },
+  {
+    date: '2026-03-18',
+    event: 'Israel strikes South Pars gas field — world\'s largest',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'First attack on Iran\'s upstream oil/gas; halts gas flows to Iraq',
+  },
+  {
+    date: '2026-03-18',
+    event: 'Iran threatens strikes on Gulf energy infrastructure',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IRGC vows retaliation for South Pars; missile hits Ras Laffan LNG in Qatar',
+  },
+  {
+    date: '2026-03-18',
+    event: 'Trump threatens to "massively blow up" South Pars if Qatar hit again',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Escalatory rhetoric as oil prices surge past $108/barrel',
+  },
+  {
+    date: '2026-03-18',
+    event: 'Iran intelligence minister Khatib confirmed killed',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'President Pezeshkian confirms; third senior official killed in 48 hours',
+  },
 ];
 
 export const STATUS_COLORS = {

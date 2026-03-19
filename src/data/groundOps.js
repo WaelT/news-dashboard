@@ -1,16 +1,16 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 17, 2026',
+  updated: 'MAR 19, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
   summary: {
-    troopsDeployed: 30000,
+    troopsDeployed: 35000,
     divisions: 3,
-    territoryCapturedKm2: 85,
+    territoryCapturedKm2: 120,
     objectiveLine: 'Litani River',
-    civilianDisplaced: 1000000,
+    civilianDisplaced: 1100000,
   },
 
   // IDF division positions (approximate)
@@ -95,6 +95,20 @@ const groundOps = {
       lat: 33.22,
       lng: 35.65,
       event: 'IDF secures bridge on Litani approach',
+      type: 'ground',
+    },
+    {
+      date: '2026-03-18',
+      lat: 33.20,
+      lng: 35.45,
+      event: '36th Division engages 1,000 Radwan Force operatives',
+      type: 'engagement',
+    },
+    {
+      date: '2026-03-18',
+      lat: 33.30,
+      lng: 35.50,
+      event: 'IDF strikes Litani River crossings to cut supply lines',
       type: 'ground',
     },
   ],
