@@ -23,7 +23,7 @@ export const dailyLaunches = [
 export const countryBreakdown = {
   missiles: [
     { country: 'Israel', count: 345 },
-    { country: 'UAE', count: 306 },
+    { country: 'UAE', count: 314 },
     { country: 'Saudi Arabia', count: 292 },
     { country: 'Kuwait', count: 240 },
     { country: 'Qatar', count: 178 },
@@ -32,14 +32,15 @@ export const countryBreakdown = {
     { country: 'Iraq', count: 22 },
   ],
   drones: [
-    { country: 'UAE', count: 1635 },
+    { country: 'UAE', count: 1672 },
     { country: 'Kuwait', count: 460 },
     { country: 'Bahrain', count: 221 },
     { country: 'Saudi Arabia', count: 165 },
+    { country: 'Israel', count: 110 },
     { country: 'Qatar', count: 88 },
     { country: 'Jordan', count: 68 },
-    { country: 'Iraq', count: 27 },
-    { country: 'Israel', count: 15 },
+    { country: 'Iraq', count: 40 },
+    { country: 'Oman', count: 14 },
   ],
 };
 
