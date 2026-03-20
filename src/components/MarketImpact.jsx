@@ -45,22 +45,20 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'US Military Cost', value: '$24B+', sub: '~$1.2B/day (19 days)', color: '#ff0040' },
-  { label: 'Total War Cost Est.', value: '$70B', sub: 'Penn Wharton central', color: '#ff0040' },
-  { label: 'Broader US Impact', value: '$220B', sub: 'incl. economic losses', color: '#ff0040' },
-  { label: 'Pentagon Request', value: '$50B', sub: 'emergency munitions', color: '#ff0040' },
-  { label: 'US Sites Damaged', value: '17', sub: 'by Iranian attacks (NYT)', color: '#ff0040' },
-  { label: 'Brent Crude', value: '$110', sub: '/barrel (+57% pre-war)', color: '#ff6600' },
+  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
   { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
-  { label: 'Gulf Output Drop', value: '6.7M', sub: 'bbl/day lost (Bloomberg)', color: '#ff6600' },
-  { label: 'Qatar LNG', value: 'HALTED', sub: 'Ras Laffan hit by missile', color: '#ff0040' },
-  { label: 'South Pars Strike', value: 'HIT', sub: 'world\'s largest gas field', color: '#ff0040' },
-  { label: 'Flights Cancelled', value: '55K+', sub: '6M+ passengers affected', color: '#0088cc' },
+  { label: 'Oil Price Forecast', value: '$100', sub: 'if disruptions persist', color: '#ffcc00' },
+  { label: 'Global Inflation', value: '+0.8%', sub: 'projected increase', color: '#ff6600' },
+  { label: 'EU Gas Prices', value: '€48', sub: '€48/MWh', color: '#ff6600' },
+  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
   { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
   { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
-  { label: 'US Gas Price', value: '$3.72', sub: '/gal (+$0.80 in 3 weeks)', color: '#ff6600' },
-  { label: 'EU Gas Prices', value: '2x', sub: 'nearly doubled', color: '#ff6600' },
-  { label: 'Global Inflation', value: '+0.8%', sub: 'projected increase', color: '#d4a017' },
+  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
+  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
+  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
 ];
 
 function EconomicImpact() {
