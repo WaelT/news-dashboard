@@ -18,6 +18,8 @@ export const dailyLaunches = [
   { date: '2026-03-16', missiles: 14, drones: 62, intercepted: 68, targets: ['Israel', 'UAE', 'Saudi Arabia', 'Bahrain'] },
   { date: '2026-03-17', missiles: 18, drones: 30, intercepted: 40, targets: ['Israel', 'Qatar', 'Saudi Arabia', 'UAE', 'Bahrain'] },
   { date: '2026-03-18', missiles: 22, drones: 50, intercepted: 62, targets: ['Israel', 'Qatar', 'Saudi Arabia', 'UAE', 'Kuwait', 'Bahrain'] },
+  { date: '2026-03-19', missiles: 24, drones: 45, intercepted: 58, targets: ['Israel', 'Qatar', 'UAE', 'Saudi Arabia', 'Kuwait'] },
+  { date: '2026-03-20', missiles: 15, drones: 32, intercepted: 40, targets: ['Israel', 'Iraq'] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)

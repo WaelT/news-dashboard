@@ -148,6 +148,48 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'President Pezeshkian confirms; third senior official killed in 48 hours',
   },
+  {
+    date: '2026-03-19',
+    event: 'Qatar expels Iranian military attachés',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Response to Ras Laffan LNG strike; 17% of capacity destroyed',
+  },
+  {
+    date: '2026-03-19',
+    event: 'EU calls for moratorium on energy infrastructure strikes',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'European Council de-escalation effort; no binding resolution',
+  },
+  {
+    date: '2026-03-19',
+    event: 'Pentagon requests extra $200B for war effort',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Emergency supplemental funding request to Congress',
+  },
+  {
+    date: '2026-03-20',
+    event: 'Trump considers "winding down" but rules out ceasefire',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: '"Getting very close to meeting objectives" — no formal ceasefire',
+  },
+  {
+    date: '2026-03-20',
+    event: 'CBS: US has detailed plans for ground invasion of Iran',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Military planning includes troop deployment and detention operations',
+  },
+  {
+    date: '2026-03-20',
+    event: 'Iran FM: "We never asked for a ceasefire"',
+    type: 'diplomacy',
+    status: 'rejected',
+    detail: 'Araghchi demands war "end completely and permanently"',
+  },
 ];
 
 export const STATUS_COLORS = {

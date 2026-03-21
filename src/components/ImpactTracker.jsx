@@ -24,7 +24,7 @@ function flagUrl(cc) {
 }
 
 const DEFAULT_CASUALTIES = {
-  iran: { killed: 3200, wounded: 19500 },
+  iran: { killed: 5900, wounded: 19500 },
   israel: { killed: 22, wounded: 4099 },
   usa: { killed: 15, wounded: 200 },
   lebanon: { killed: 1001, wounded: 2584 },
@@ -169,7 +169,7 @@ export default function ImpactTracker() {
             TREND
           </button>
         </div>
-        <span className="text-ops-muted text-[8px]">MAR 19, 2026</span>
+        <span className="text-ops-muted text-[8px]">MAR 21, 2026</span>
       </div>
 
       {/* Totals bar */}

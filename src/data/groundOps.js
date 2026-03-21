@@ -1,16 +1,16 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 19, 2026',
+  updated: 'MAR 21, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
   summary: {
-    troopsDeployed: 35000,
-    divisions: 3,
-    territoryCapturedKm2: 120,
+    troopsDeployed: 50000,
+    divisions: 5,
+    territoryCapturedKm2: 180,
     objectiveLine: 'Litani River',
-    civilianDisplaced: 1100000,
+    civilianDisplaced: 1200000,
   },
 
   // IDF division positions (approximate)
@@ -22,11 +22,11 @@ const groundOps = {
       strength: '~10,000',
       sector: 'Western',
       objective: 'Tyre corridor',
-      status: 'advancing',
+      status: 'engaged',
     },
     {
       name: '36th Division',
-      lat: 33.20,
+      lat: 33.18,
       lng: 35.50,
       sector: 'Central',
       strength: '~12,000',
@@ -35,11 +35,29 @@ const groundOps = {
     },
     {
       name: '98th Division',
-      lat: 33.25,
+      lat: 33.23,
       lng: 35.75,
       sector: 'Eastern',
       strength: '~8,000',
       objective: 'Bekaa Valley approach',
+      status: 'advancing',
+    },
+    {
+      name: '146th Division',
+      lat: 33.12,
+      lng: 35.35,
+      strength: '~10,000',
+      sector: 'South-Central',
+      objective: 'Marjayoun pocket',
+      status: 'advancing',
+    },
+    {
+      name: '210th Division',
+      lat: 33.10,
+      lng: 35.15,
+      strength: '~10,000',
+      sector: 'Coastal',
+      objective: 'Tyre outskirts',
       status: 'advancing',
     },
   ],
@@ -110,6 +128,41 @@ const groundOps = {
       lng: 35.50,
       event: 'IDF strikes Litani River crossings to cut supply lines',
       type: 'ground',
+    },
+    {
+      date: '2026-03-19',
+      lat: 33.14,
+      lng: 35.42,
+      event: 'Fierce fighting at al-Aadaissah — Hezbollah counterattack repelled',
+      type: 'engagement',
+    },
+    {
+      date: '2026-03-19',
+      lat: 33.16,
+      lng: 35.55,
+      event: 'IDF secures Maroun al-Ras hilltop stronghold',
+      type: 'ground',
+    },
+    {
+      date: '2026-03-19',
+      lat: 33.85,
+      lng: 35.52,
+      event: 'Massive IDF strikes on Dahiyeh, south Beirut',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-03-20',
+      lat: 33.12,
+      lng: 35.48,
+      event: '146th Division pushes toward Marjayoun',
+      type: 'ground',
+    },
+    {
+      date: '2026-03-20',
+      lat: 33.18,
+      lng: 35.60,
+      event: 'Hezbollah ATGM ambush — 5 IDF soldiers wounded',
+      type: 'engagement',
     },
   ],
 };
