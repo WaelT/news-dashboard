@@ -37,9 +37,21 @@ function extractNum(text) {
   return m ? parseInt(m[1], 10) : 0;
 }
 
+async function findSectionIndex() {
+  const url = 'https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&prop=sections&format=json';
+  const res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
+  if (!res.ok) throw new Error(`Wikipedia sections API ${res.status}`);
+  const data = await res.json();
+  const sections = data?.parse?.sections || [];
+  const match = sections.find(s => s.line && s.line.toLowerCase().includes('ballistic missiles'));
+  if (!match) throw new Error('Could not find missile/drone section in article');
+  console.log(`Found section "${match.line}" at index ${match.index}`);
+  return match.index;
+}
+
 async function scrapeLaunches() {
-  // Fetch section 25: "Attacks by ballistic missiles and drones/UAVs"
-  const url = 'https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&section=25&prop=wikitext&format=json';
+  const sectionIndex = await findSectionIndex();
+  const url = `https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&section=${sectionIndex}&prop=wikitext&format=json`;
   const res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
   if (!res.ok) throw new Error(`Wikipedia API ${res.status}`);
   const data = await res.json();
