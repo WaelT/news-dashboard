@@ -190,6 +190,62 @@ const diplomaticEvents = [
     status: 'rejected',
     detail: 'Araghchi demands war "end completely and permanently"',
   },
+  {
+    date: '2026-03-21',
+    event: 'US strikes Natanz nuclear enrichment facility',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Bunker-buster bombs hit entrance buildings; IAEA confirms no radiological release',
+  },
+  {
+    date: '2026-03-21',
+    event: 'Iran retaliates — missiles hit Dimona/Arad near Israeli nuclear site',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '2 missiles penetrate Israeli defenses; 100+ wounded (88 in Arad, 30+ in Dimona)',
+  },
+  {
+    date: '2026-03-21',
+    event: 'Iran fires IRBMs at Diego Garcia — first long-range strike',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '2 intermediate-range ballistic missiles fired 3,000+ km; both miss US-UK base',
+  },
+  {
+    date: '2026-03-21',
+    event: 'Trump: 48-hour ultimatum to open Hormuz or "obliterate" power plants',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Truth Social post; deadline Monday 7:44 PM ET; threatens "biggest one first"',
+  },
+  {
+    date: '2026-03-21',
+    event: 'Saudi Arabia expels Iranian military attaché + 4 diplomats',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: '24-hour ultimatum; Saudi intercepts 47 Iranian drones including 38 in 3 hours',
+  },
+  {
+    date: '2026-03-21',
+    event: 'Kuwait refinery hit — Mina al-Ahmadi struck by drone waves',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'One of Middle East\'s largest refineries (730K bbl/day capacity) damaged',
+  },
+  {
+    date: '2026-03-21',
+    event: 'IAEA chief calls for "maximum military restraint" after Natanz',
+    type: 'un',
+    status: 'stalled',
+    detail: 'Grossi warns of radiological risks; no binding action taken',
+  },
+  {
+    date: '2026-03-21',
+    event: 'IDF Chief Zamir: Iran campaign at "halfway" stage',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '2,200-2,500 additional Marines deploying; Axios: US considering Kharg Island blockade',
+  },
 ];
 
 export const STATUS_COLORS = {

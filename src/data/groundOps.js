@@ -164,6 +164,20 @@ const groundOps = {
       event: 'Hezbollah ATGM ambush — 5 IDF soldiers wounded',
       type: 'engagement',
     },
+    {
+      date: '2026-03-21',
+      lat: 33.20,
+      lng: 35.35,
+      event: 'IDF expands buffer zone operations near Tyre',
+      type: 'ground',
+    },
+    {
+      date: '2026-03-21',
+      lat: 33.15,
+      lng: 35.50,
+      event: 'Hezbollah fires ~100 rockets at northern Israel; schools closed nationwide',
+      type: 'engagement',
+    },
   ],
 };
 

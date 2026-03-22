@@ -31,30 +31,33 @@ const BREAKDOWN_LABEL_MAP = {
 // Extra key stats per country (only show applicable ones)
 const COUNTRY_EXTRA_STATS = {
   iran: [
-    { label: 'NUCLEAR SITES HIT', value: '4' },
+    { label: 'NUCLEAR SITES HIT', value: '5' },
     { label: 'MILITARY BASES HIT', value: '12+' },
     { label: 'MISSILES LAUNCHED', value: '1,200+' },
     { label: 'DRONES LAUNCHED', value: '4,500+' },
+    { label: 'NATANZ STRUCK', value: 'MAR 21' },
   ],
   lebanon: [
     { label: 'HEZBOLLAH ROCKETS FIRED', value: '2,500+' },
-    { label: 'IDF GROUND TROOPS', value: '30,000' },
-    { label: 'TERRITORY CAPTURED', value: '85 km²' },
-    { label: 'CIVILIANS DISPLACED', value: '1M+' },
-    { label: 'HEZBOLLAH FIGHTERS KIA', value: '400+' },
+    { label: 'IDF GROUND TROOPS', value: '50,000' },
+    { label: 'TERRITORY CAPTURED', value: '180 km²' },
+    { label: 'CIVILIANS DISPLACED', value: '1.2M+' },
+    { label: 'HEZBOLLAH FIGHTERS KIA', value: '500+' },
     { label: 'IDF OBJECTIVE', value: 'Litani River' },
   ],
   israel: [
     { label: 'IRON DOME INTERCEPTS', value: '95%+' },
     { label: 'ARROW INTERCEPTS', value: '90%+' },
-    { label: 'US BASES IN REGION', value: '12' },
+    { label: 'DIMONA/ARAD HIT', value: '100+ wounded' },
+    { label: 'SCHOOLS CLOSED', value: 'Nationwide' },
     { label: 'RESERVISTS CALLED', value: '300K+' },
   ],
   usa: [
-    { label: 'TROOPS DEPLOYED', value: '45,000+' },
+    { label: 'TROOPS DEPLOYED', value: '47,000+' },
     { label: 'CARRIER GROUPS', value: '2' },
     { label: 'BASES DAMAGED', value: '17' },
     { label: 'DAILY COST', value: '$1.2B' },
+    { label: 'NATANZ STRIKE', value: 'Bunker busters' },
   ],
 };
 

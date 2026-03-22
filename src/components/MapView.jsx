@@ -747,7 +747,7 @@ const HORMUZ_DATA = {
     tankersQueued: 150,
     tankersStranded: 300,
     bulkCarriersStranded: 280,
-    vesselsAttacked: 21,
+    vesselsAttacked: 23,
     seafarersKilled: 9,
     minesDetected: true,
     minelayersDestroyed: 30,
