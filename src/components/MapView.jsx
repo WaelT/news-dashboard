@@ -731,11 +731,11 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'MAR 21, 2026',
+  updated: 'MAR 23, 2026',
   current: {
-    transitsPerDay: 3,
-    oilFlowMbd: 0.5,
-    disruptionPct: 98,
+    transitsPerDay: 2,
+    oilFlowMbd: 0.3,
+    disruptionPct: 99,
   },
   preWar: {
     transitsPerDay: 153,
@@ -744,20 +744,23 @@ const HORMUZ_DATA = {
     globalLngPct: 20,
   },
   crisis: {
-    tankersQueued: 150,
-    tankersStranded: 300,
-    bulkCarriersStranded: 280,
-    vesselsAttacked: 23,
-    seafarersKilled: 9,
+    tankersQueued: 180,
+    tankersStranded: 350,
+    bulkCarriersStranded: 310,
+    vesselsAttacked: 25,
+    seafarersKilled: 12,
     minesDetected: true,
     minelayersDestroyed: 30,
-    insuranceSurge: '+300%',
-    tankerRates: '$424K/day',
+    insuranceSurge: '+400%',
+    tankerRates: '$500K/day',
+    trumpUltimatum: '48hr deadline ~Mar 24',
+    iranThreat: 'Full closure if power plants struck',
   },
   disruptions: [
     { country: 'Saudi Arabia', detail: '27 VLCCs to Yanbu' },
-    { country: 'Iraq', detail: 'Basra tanker attacked' },
-    { country: 'UAE', detail: 'Fujairah bypass active' },
+    { country: 'Iraq', detail: 'Basra force majeure; exports halted' },
+    { country: 'UAE', detail: 'Fujairah bypass at capacity' },
+    { country: 'Asia', detail: '~2 weeks before energy shortages' },
   ],
 };
 
@@ -806,11 +809,20 @@ function HormuzStats() {
       <HormuzStatRow label="War Risk Insurance" value={d.crisis.insuranceSurge} color="#ff6600" />
       <HormuzStatRow label="Supertanker Rate" value={d.crisis.tankerRates} color="#ffcc00" sub="All-time high" />
 
+      {/* Ultimatum */}
+      {d.crisis.trumpUltimatum && (
+        <div className="bg-[#ff6600]/10 border border-[#ff6600]/30 rounded px-2 py-1.5 mt-2 mb-1">
+          <div className="text-[10px] font-bold text-[#ff6600] tracking-wider">⚠ TRUMP ULTIMATUM</div>
+          <div className="text-[9px] text-gray-300 mt-0.5">{d.crisis.trumpUltimatum}</div>
+          {d.crisis.iranThreat && <div className="text-[9px] text-ops-red mt-0.5">{d.crisis.iranThreat}</div>}
+        </div>
+      )}
+
       {/* Country disruptions */}
       <div className="text-[9px] text-gray-400 tracking-widest mb-1 mt-2">EXPORT DISRUPTIONS</div>
       {d.disruptions.map((c) => (
         <div key={c.country} className="flex items-center gap-1.5 py-1.5 border-b border-ops-border/30">
-          <img src={`https://flagcdn.com/16x12/${c.country === 'Saudi Arabia' ? 'sa' : c.country === 'Iraq' ? 'iq' : 'ae'}.png`} alt="" className="w-3.5 h-3" />
+          <img src={`https://flagcdn.com/16x12/${{ 'Saudi Arabia': 'sa', 'Iraq': 'iq', 'UAE': 'ae', 'Asia': 'un' }[c.country] || 'un'}.png`} alt="" className="w-3.5 h-3" />
           <span className="text-[11px] font-bold text-gray-200">{c.country}</span>
           <span className="text-[10px] text-gray-400 ml-auto">{c.detail}</span>
         </div>
