@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 21, 2026',
+  updated: 'MAR 22, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -176,6 +176,27 @@ const groundOps = {
       lat: 33.15,
       lng: 35.50,
       event: 'Hezbollah fires ~100 rockets at northern Israel; schools closed nationwide',
+      type: 'engagement',
+    },
+    {
+      date: '2026-03-22',
+      lat: 33.17,
+      lng: 35.42,
+      event: 'Radwan Force commander Abu Khalil Barji killed in Majdal Selm airstrike',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-03-22',
+      lat: 33.28,
+      lng: 35.50,
+      event: 'IDF strikes key bridges over Litani River to cut supply lines',
+      type: 'ground',
+    },
+    {
+      date: '2026-03-22',
+      lat: 33.22,
+      lng: 35.55,
+      event: 'Givati Brigade firefight — 1 Hezbollah fighter killed, 3 by tank fire',
       type: 'engagement',
     },
   ],

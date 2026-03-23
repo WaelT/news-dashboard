@@ -246,6 +246,55 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: '2,200-2,500 additional Marines deploying; Axios: US considering Kharg Island blockade',
   },
+  {
+    date: '2026-03-22',
+    event: 'Trump posts 48-hour Hormuz ultimatum on Truth Social',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Threatens to "obliterate" power plants starting with biggest; deadline ~Mar 24 23:44 GMT',
+  },
+  {
+    date: '2026-03-22',
+    event: 'Iran threatens full Hormuz closure if power plants struck',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IRGC vows retaliatory attacks on US/Israeli energy infrastructure',
+  },
+  {
+    date: '2026-03-22',
+    event: 'US strikes Malek Ashtar University in Tehran',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Nuclear weapons R&D facility; 200+ targets hit across Iran in 24 hours',
+  },
+  {
+    date: '2026-03-22',
+    event: 'Iran missiles hit Dimona/Arad — 175+ wounded',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Cluster munition hits central Israel; 10 in serious condition including a child',
+  },
+  {
+    date: '2026-03-22',
+    event: 'Hezbollah Radwan Force commander Abu Khalil Barji killed',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IDF airstrike in Majdal Selm, southern Lebanon; 2 other operatives also killed',
+  },
+  {
+    date: '2026-03-22',
+    event: 'Spain PM warns of "long-term energy crisis for all humanity"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Sanchez demands Hormuz remain open; NATO withdrawing ~600 Spanish troops from Iraq',
+  },
+  {
+    date: '2026-03-22',
+    event: 'Qatar military helicopter crash kills 7',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '4 Qatari + 3 Turkish personnel killed; attributed to "technical malfunction"',
+  },
 ];
 
 export const STATUS_COLORS = {
