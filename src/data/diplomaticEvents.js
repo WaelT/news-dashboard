@@ -295,6 +295,55 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: '4 Qatari + 3 Turkish personnel killed; attributed to "technical malfunction"',
   },
+  {
+    date: '2026-03-23',
+    event: 'Trump extends Hormuz ultimatum by 5 days, claims "very good talks"',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Postpones power plant strikes; proposes shared US-Iran control of Hormuz',
+  },
+  {
+    date: '2026-03-23',
+    event: 'Iran denies talks — Parliament Speaker calls it "fake news"',
+    type: 'diplomacy',
+    status: 'rejected',
+    detail: 'Ghalibaf says claims designed to manipulate markets; Tehran calls behavior contradictory',
+  },
+  {
+    date: '2026-03-23',
+    event: 'Turkey mediating potential US-Iran talks in Islamabad',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Pakistan-hosted negotiations within the week; seeking off-ramp to war',
+  },
+  {
+    date: '2026-03-23',
+    event: 'Bahrain proposes UNSC resolution to protect Hormuz shipping',
+    type: 'un',
+    status: 'stalled',
+    detail: 'Seeks authorization for use of force; no vote scheduled yet',
+  },
+  {
+    date: '2026-03-23',
+    event: 'Switzerland halts arms exports to US over Iran conflict',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Citing neutrality; first NATO-adjacent nation to restrict US arms supply',
+  },
+  {
+    date: '2026-03-23',
+    event: 'Netanyahu: Trump briefed him on "agreement opportunities"',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Israel will "continue to strike Iran while talks ongoing"; concerns over 60% enriched uranium',
+  },
+  {
+    date: '2026-03-23',
+    event: 'US detects 12 advanced Iranian mines in Strait of Hormuz',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Two types including updated moored design; Pentagon planning weeks-long reopening operation',
+  },
 ];
 
 export const STATUS_COLORS = {

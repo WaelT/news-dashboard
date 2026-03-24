@@ -731,10 +731,10 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'MAR 23, 2026',
+  updated: 'MAR 24, 2026',
   current: {
-    transitsPerDay: 2,
-    oilFlowMbd: 0.3,
+    transitsPerDay: 1,
+    oilFlowMbd: 0.2,
     disruptionPct: 99,
   },
   preWar: {
@@ -744,23 +744,24 @@ const HORMUZ_DATA = {
     globalLngPct: 20,
   },
   crisis: {
-    tankersQueued: 180,
-    tankersStranded: 350,
-    bulkCarriersStranded: 310,
-    vesselsAttacked: 25,
-    seafarersKilled: 12,
+    tankersQueued: 200,
+    tankersStranded: 370,
+    bulkCarriersStranded: 320,
+    vesselsAttacked: 27,
+    seafarersKilled: 14,
     minesDetected: true,
+    minesFound: 12,
     minelayersDestroyed: 30,
     insuranceSurge: '+400%',
     tankerRates: '$500K/day',
-    trumpUltimatum: '48hr deadline ~Mar 24',
-    iranThreat: 'Full closure if power plants struck',
+    trumpUltimatum: '5-day extension — deadline ~Mar 27',
+    iranThreat: 'Threatens full closure; claims "approved lanes" only',
   },
   disruptions: [
     { country: 'Saudi Arabia', detail: '27 VLCCs to Yanbu' },
     { country: 'Iraq', detail: 'Basra force majeure; exports halted' },
     { country: 'UAE', detail: 'Fujairah bypass at capacity' },
-    { country: 'Asia', detail: '~2 weeks before energy shortages' },
+    { country: 'Asia', detail: 'IEA: worse than 1970s oil shocks' },
   ],
 };
 
@@ -805,7 +806,7 @@ function HormuzStats() {
       <HormuzStatRow label="Bulk Carriers Stranded" value={d.crisis.bulkCarriersStranded} color="#ff6600" />
       <HormuzStatRow label="Vessels Attacked" value={d.crisis.vesselsAttacked} color="#ff0040" />
       <HormuzStatRow label="Seafarers Killed" value={d.crisis.seafarersKilled} color="#ff0040" />
-      <HormuzStatRow label="Mine Threat" value={d.crisis.minesDetected ? 'ACTIVE' : 'NONE'} color={d.crisis.minesDetected ? '#ff0040' : '#00ff41'} sub={`${d.crisis.minelayersDestroyed} minelayers destroyed`} />
+      <HormuzStatRow label="Mine Threat" value={d.crisis.minesDetected ? 'ACTIVE' : 'NONE'} color={d.crisis.minesDetected ? '#ff0040' : '#00ff41'} sub={`${d.crisis.minesFound || 0} advanced mines detected; ${d.crisis.minelayersDestroyed} minelayers destroyed`} />
       <HormuzStatRow label="War Risk Insurance" value={d.crisis.insuranceSurge} color="#ff6600" />
       <HormuzStatRow label="Supertanker Rate" value={d.crisis.tankerRates} color="#ffcc00" sub="All-time high" />
 

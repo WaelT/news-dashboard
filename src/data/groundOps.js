@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 22, 2026',
+  updated: 'MAR 23, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -198,6 +198,20 @@ const groundOps = {
       lng: 35.55,
       event: 'Givati Brigade firefight — 1 Hezbollah fighter killed, 3 by tank fire',
       type: 'engagement',
+    },
+    {
+      date: '2026-03-23',
+      lat: 33.85,
+      lng: 35.50,
+      event: 'Waves of IDF airstrikes on Dahiyeh suburbs, southern Beirut',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-03-23',
+      lat: 33.32,
+      lng: 35.30,
+      event: 'IDF strikes Qasmiyeh Bridge — Hezbollah logistics route cut',
+      type: 'ground',
     },
   ],
 };
