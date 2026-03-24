@@ -28,8 +28,8 @@ export const dailyLaunches = [
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
 export const countryBreakdown = {
   missiles: [
+    { country: 'UAE', count: 357 },
     { country: 'Israel', count: 345 },
-    { country: 'UAE', count: 314 },
     { country: 'Saudi Arabia', count: 292 },
     { country: 'Kuwait', count: 240 },
     { country: 'Qatar', count: 178 },
@@ -38,7 +38,7 @@ export const countryBreakdown = {
     { country: 'Iraq', count: 22 },
   ],
   drones: [
-    { country: 'UAE', count: 1672 },
+    { country: 'UAE', count: 1806 },
     { country: 'Kuwait', count: 460 },
     { country: 'Bahrain', count: 221 },
     { country: 'Saudi Arabia', count: 165 },
