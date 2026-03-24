@@ -1,93 +1,64 @@
 import { useState } from 'react';
 
 const STREAMS = [
-  {
-    name: 'Al Jazeera Mubasher',
-    videoId: 'mJdhDuweBHM',
-    color: '#d2a02a',
-  },
-  {
-    name: 'Al Jazeera Arabic',
-    videoId: 'bNyUyrR0PHo',
-    color: '#d2a02a',
-  },
-  {
-    name: 'Sky News',
-    videoId: 'YDvsBbKfLPA',
-    color: '#c8102e',
-  },
-  {
-    name: 'France 24',
-    videoId: 'Ap-UM1O9RBU',
-    color: '#00a1e0',
-  },
+  { name: 'Al Jazeera Arabic', videoId: 'bNyUyrR0PHo', color: '#d2a02a' },
+  { name: 'Al Jazeera Mubasher', videoId: 'mJdhDuweBHM', color: '#d2a02a' },
+  { name: 'Al Jazeera English', videoId: 'F-POY4Q0QSI', color: '#d2a02a' },
+  { name: 'Sky News Arabia', videoId: 'YDvsBbKfLPA', color: '#c8102e' },
+  { name: 'Al Arabiya', videoId: 'YDpY2AfEzSk', color: '#e44d26' },
+  { name: 'France 24 Arabic', videoId: 'Ap-UM1O9RBU', color: '#00a1e0' },
+  { name: 'France 24 English', videoId: 'ULaOuiRptRE', color: '#00a1e0' },
+  { name: 'RT Arabic', videoId: 'udPmkF_FXWE', color: '#6aa84f' },
+  { name: 'CNN', videoId: 'oJUvTVdTMyY', color: '#cc0000' },
+  { name: 'BBC World', videoId: '7OUoMKqcFk8', color: '#bb1919' },
+  { name: 'DW News', videoId: 'pqabxBKzZ6U', color: '#0078d4' },
+  { name: 'TRT World', videoId: 'CV5Fooi8YJA', color: '#1a9e49' },
 ];
 
 export default function LiveStreams() {
-  const [focused, setFocused] = useState(null);
+  const [selected, setSelected] = useState(0);
 
-  const gridClass = 'grid-cols-2 grid-rows-2';
+  const stream = STREAMS[selected];
 
   return (
     <div className="h-full flex flex-col">
       {/* Panel header */}
       <div className="px-3 py-1.5 border-b border-ops-border flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <span className="text-ops-red text-[10px] font-bold tracking-widest">
-            LIVE STREAMS
-          </span>
+          <span className="text-ops-red text-[10px] font-bold tracking-widest">LIVE TV</span>
           <span className="live-dot inline-block w-1.5 h-1.5 rounded-full bg-ops-red" />
-          <span className="text-ops-muted text-[9px]">{STREAMS.length} CHANNELS</span>
         </div>
-        {focused !== null && (
-          <button
-            onClick={() => setFocused(null)}
-            className="text-ops-muted text-[9px] hover:text-ops-green transition-colors"
-          >
-            [SHOW ALL]
-          </button>
-        )}
+        <span className="text-ops-muted text-[9px]">{STREAMS.length} CHANNELS</span>
       </div>
 
-      {/* Streams grid */}
-      <div className={`flex-1 grid ${focused !== null ? 'grid-cols-1 grid-rows-1' : gridClass} gap-px bg-ops-border min-h-0`}>
-        {STREAMS.map((stream, i) => {
-          if (focused !== null && focused !== i) return null;
+      {/* Channel selector */}
+      <div className="px-2 py-1.5 border-b border-ops-border/50 flex flex-wrap gap-1 overflow-y-auto max-h-[72px]">
+        {STREAMS.map((s, i) => (
+          <button
+            key={s.name}
+            onClick={() => setSelected(i)}
+            className={`px-2 py-0.5 text-[9px] font-bold tracking-wider rounded transition-colors ${
+              selected === i
+                ? 'bg-ops-border/40 text-white'
+                : 'text-ops-muted hover:text-ops-text hover:bg-ops-border/20'
+            }`}
+            style={selected === i ? { color: s.color } : undefined}
+          >
+            {s.name.toUpperCase()}
+          </button>
+        ))}
+      </div>
 
-          return (
-            <div
-              key={stream.name}
-              className="relative bg-ops-bg group cursor-pointer"
-              onClick={() => setFocused(focused === i ? null : i)}
-            >
-              {/* Label overlay */}
-              <div className="absolute top-1 left-1.5 z-10 flex items-center gap-1.5">
-                <span
-                  className="text-[8px] font-bold px-1.5 py-0.5 rounded tracking-wider bg-black/70"
-                  style={{ color: stream.color }}
-                >
-                  {stream.name.toUpperCase()}
-                </span>
-                <span className="live-dot w-1.5 h-1.5 rounded-full bg-ops-red" />
-              </div>
-
-              {/* Expand hint */}
-              <div className="absolute bottom-1 right-1.5 z-10 opacity-0 group-hover:opacity-100 transition-opacity">
-                <span className="text-ops-muted text-[8px] bg-black/70 px-1.5 py-0.5 rounded">
-                  {focused === i ? 'MINIMIZE' : 'EXPAND'}
-                </span>
-              </div>
-
-              <iframe
-                src={`https://www.youtube.com/embed/${stream.videoId}?autoplay=0&mute=1&controls=1&modestbranding=1&rel=0`}
-                title={stream.name}
-                className="w-full h-full border-0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          );
-        })}
+      {/* Video player */}
+      <div className="flex-1 relative min-h-0 bg-black">
+        <iframe
+          key={stream.videoId}
+          src={`https://www.youtube.com/embed/${stream.videoId}?autoplay=1&mute=1&controls=1&modestbranding=1&rel=0`}
+          title={stream.name}
+          className="w-full h-full border-0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
       </div>
     </div>
   );
