@@ -1,18 +1,17 @@
 import { useState } from 'react';
 
+// Use channel /live URLs where possible — they auto-redirect to current stream
 const STREAMS = [
-  { name: 'Al Jazeera Arabic', videoId: 'bNyUyrR0PHo', color: '#d2a02a' },
-  { name: 'Al Jazeera Mubasher', videoId: 'mJdhDuweBHM', color: '#d2a02a' },
-  { name: 'Al Jazeera English', videoId: 'F-POY4Q0QSI', color: '#d2a02a' },
-  { name: 'Sky News Arabia', videoId: 'YDvsBbKfLPA', color: '#c8102e' },
-  { name: 'Al Arabiya', videoId: 'YDpY2AfEzSk', color: '#e44d26' },
-  { name: 'France 24 Arabic', videoId: 'Ap-UM1O9RBU', color: '#00a1e0' },
-  { name: 'France 24 English', videoId: 'ULaOuiRptRE', color: '#00a1e0' },
-  { name: 'RT Arabic', videoId: 'udPmkF_FXWE', color: '#6aa84f' },
-  { name: 'CNN', videoId: 'oJUvTVdTMyY', color: '#cc0000' },
-  { name: 'BBC World', videoId: '7OUoMKqcFk8', color: '#bb1919' },
-  { name: 'DW News', videoId: 'pqabxBKzZ6U', color: '#0078d4' },
-  { name: 'TRT World', videoId: 'CV5Fooi8YJA', color: '#1a9e49' },
+  { name: 'Al Jazeera Arabic', channelId: 'UCaDBoTJJOq_LRpPf-E1EUQQ', videoId: 'bNyUyrR0PHo', color: '#d2a02a' },
+  { name: 'Al Jazeera Mubasher', channelId: 'UCbqHEMPkSasFazMk7p5dqSQ', videoId: 'eksOMqVMINo', color: '#d2a02a' },
+  { name: 'Al Jazeera English', channelId: 'UCNye-wNBqNL5ZzHSJj3l8Bg', videoId: 'F-POY4Q0QSI', color: '#d2a02a' },
+  { name: 'Sky News Arabia', channelId: 'UCxqSGx3GGQe3gauIZB2gFjA', color: '#c8102e' },
+  { name: 'Al Arabiya', channelId: 'UCbyT7JxSMOCqOP4OaL5fDkg', color: '#e44d26' },
+  { name: 'France 24 Arabic', channelId: 'UCfMoR2LPMYTn98vbcFk3fSA', color: '#00a1e0' },
+  { name: 'France 24 English', videoId: 'Ap-UM1O9RBU', color: '#00a1e0' },
+  { name: 'RT Arabic', channelId: 'UCpwvZwUam-URkxB7g4USKpg', color: '#6aa84f' },
+  { name: 'DW News', videoId: 'gNosnzCaS4I', color: '#0078d4' },
+  { name: 'TRT World', videoId: 'Fxu04q4Rv38', color: '#1a9e49' },
 ];
 
 export default function LiveStreams() {
@@ -52,8 +51,12 @@ export default function LiveStreams() {
       {/* Video player */}
       <div className="flex-1 relative min-h-0 bg-black">
         <iframe
-          key={stream.videoId}
-          src={`https://www.youtube.com/embed/${stream.videoId}?autoplay=1&mute=1&controls=1&modestbranding=1&rel=0`}
+          key={stream.videoId || stream.channelId}
+          src={
+            stream.videoId
+              ? `https://www.youtube.com/embed/${stream.videoId}?autoplay=1&mute=1&controls=1&modestbranding=1&rel=0`
+              : `https://www.youtube.com/embed/live_stream?channel=${stream.channelId}&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0`
+          }
           title={stream.name}
           className="w-full h-full border-0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
