@@ -861,11 +861,11 @@ export default function MapView({ articles = [] }) {
     return Array.from(map.values());
   }, [dynamicZones]);
 
-  const [showRoutes, setShowRoutes] = useState(false);
-  const [showHeat, setShowHeat] = useState(false);
-  const [showBoundaries, setShowBoundaries] = useState(false);
+  const [showRoutes, setShowRoutes] = useState(true);
+  const [showHeat, setShowHeat] = useState(true);
+  const [showBoundaries, setShowBoundaries] = useState(true);
   const [showTimeline, setShowTimeline] = useState(false);
-  const [showHormuz, setShowHormuz] = useState(false);
+  const [showHormuz, setShowHormuz] = useState(true);
   const [showGroundOps, setShowGroundOps] = useState(false);
   const [showRefugees, setShowRefugees] = useState(false);
   const [dayIndex, setDayIndex] = useState(launchData.length - 1);
@@ -875,7 +875,7 @@ export default function MapView({ articles = [] }) {
     countries: new Set(),
     types: new Set(),
     statuses: new Set(),
-    liveOnly: false,
+    liveOnly: true,
   });
 
   const zoneLiveMap = useMemo(() => {
