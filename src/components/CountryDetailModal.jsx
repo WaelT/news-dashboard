@@ -31,25 +31,26 @@ const BREAKDOWN_LABEL_MAP = {
 // Extra key stats per country (only show applicable ones)
 const COUNTRY_EXTRA_STATS = {
   iran: [
-    { label: 'NUCLEAR SITES HIT', value: '5' },
-    { label: 'MILITARY BASES HIT', value: '12+' },
-    { label: 'MISSILES LAUNCHED', value: '1,200+' },
-    { label: 'DRONES LAUNCHED', value: '4,500+' },
-    { label: 'NATANZ STRUCK', value: 'MAR 21' },
+    { label: 'TARGETS STRUCK', value: '9,000+' },
+    { label: 'COMBAT SORTIES', value: '8,000+' },
+    { label: 'NAVAL VESSELS DESTROYED', value: '140+' },
+    { label: 'MISSILES LAUNCHED', value: '1,041' },
+    { label: 'DRONES LAUNCHED', value: '2,500+' },
+    { label: 'CIVILIAN STRUCTURES HIT', value: '82,000+' },
   ],
   lebanon: [
-    { label: 'HEZBOLLAH ROCKETS FIRED', value: '2,500+' },
+    { label: 'HEZBOLLAH ATTACK WAVES', value: '779' },
     { label: 'IDF GROUND TROOPS', value: '50,000' },
     { label: 'TERRITORY CAPTURED', value: '180 km²' },
     { label: 'CIVILIANS DISPLACED', value: '1.2M+' },
-    { label: 'HEZBOLLAH FIGHTERS KIA', value: '500+' },
-    { label: 'IDF OBJECTIVE', value: 'Litani River' },
+    { label: 'LITANI BRIDGES', value: 'All destroyed' },
+    { label: 'IDF CASUALTIES (GROUND)', value: '48' },
   ],
   israel: [
     { label: 'IRON DOME INTERCEPTS', value: '95%+' },
-    { label: 'ARROW INTERCEPTS', value: '90%+' },
-    { label: 'DIMONA/ARAD HIT', value: '100+ wounded' },
-    { label: 'SCHOOLS CLOSED', value: 'Nationwide' },
+    { label: 'DAVID\'S SLING FAILURE', value: 'Under investigation' },
+    { label: 'TEL AVIV MISSILE HIT', value: 'Mar 24' },
+    { label: 'DIMONA/ARAD HIT', value: '175+ wounded' },
     { label: 'RESERVISTS CALLED', value: '300K+' },
   ],
   usa: [
@@ -57,7 +58,7 @@ const COUNTRY_EXTRA_STATS = {
     { label: 'CARRIER GROUPS', value: '2' },
     { label: 'BASES DAMAGED', value: '17' },
     { label: 'DAILY COST', value: '$1.2B' },
-    { label: 'NATANZ STRIKE', value: 'Bunker busters' },
+    { label: '5-DAY STRIKE PAUSE', value: 'Energy targets' },
   ],
 };
 
@@ -143,12 +144,12 @@ export default function CountryDetailModal({ country, onClose, isOpen }) {
   // Casualties
   const casualties = {
     iran: { killed: 3230, wounded: 19324 },
-    israel: { killed: 22, wounded: 4292 },
-    usa: { killed: 15, wounded: 232 },
-    lebanon: { killed: 1021, wounded: 2641 },
+    israel: { killed: 24, wounded: 4829 },
+    usa: { killed: 15, wounded: 290 },
+    lebanon: { killed: 1039, wounded: 2872 },
     yemen: { killed: 0, wounded: 0 },
-    iraq: { killed: 73, wounded: 139 },
-    uae: { killed: 8, wounded: 157 },
+    iraq: { killed: 94, wounded: 199 },
+    uae: { killed: 9, wounded: 157 },
     kuwait: { killed: 8, wounded: 99 },
     bahrain: { killed: 3, wounded: 38 },
     qatar: { killed: 4, wounded: 16 },

@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 23, 2026',
+  updated: 'MAR 24, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -212,6 +212,27 @@ const groundOps = {
       lng: 35.30,
       event: 'IDF strikes Qasmiyeh Bridge — Hezbollah logistics route cut',
       type: 'ground',
+    },
+    {
+      date: '2026-03-24',
+      lat: 33.42,
+      lng: 35.84,
+      event: '810th Brigade discovers & destroys Hezbollah terror tunnel near Mount Dov',
+      type: 'ground',
+    },
+    {
+      date: '2026-03-24',
+      lat: 33.16,
+      lng: 35.45,
+      event: 'Two elite Hezbollah Radwan operatives captured in southern Lebanon',
+      type: 'engagement',
+    },
+    {
+      date: '2026-03-24',
+      lat: 33.85,
+      lng: 35.50,
+      event: 'IDF airstrike on southern Beirut suburbs after evacuation warning',
+      type: 'airstrike',
     },
   ],
 };

@@ -344,6 +344,62 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Two types including updated moored design; Pentagon planning weeks-long reopening operation',
   },
+  {
+    date: '2026-03-24',
+    event: 'Trump orders 5-day pause on strikes against Iranian energy infrastructure',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Claims "productive conversations"; negotiating team: Vance, Rubio, Witkoff, Kushner',
+  },
+  {
+    date: '2026-03-24',
+    event: 'Iran FM official admits receiving US points "through mediators"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Told CBS "points being reviewed"; contradicts public denial of any talks',
+  },
+  {
+    date: '2026-03-24',
+    event: 'Iran threatens to mine "entire Persian Gulf" if power plants attacked',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Also developing IRGC-managed vetting system for Hormuz transit; talks with India, China, Pakistan',
+  },
+  {
+    date: '2026-03-24',
+    event: 'Lebanon declares Iranian ambassador persona non grata',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Given until Sunday to depart; Lebanon recalls envoy from Tehran',
+  },
+  {
+    date: '2026-03-24',
+    event: 'Pakistan confirms readiness to host US-Iran talks in Islamabad',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Army chief and PM spoke with Iran President Pezeshkian; China urges "talking is better"',
+  },
+  {
+    date: '2026-03-24',
+    event: 'Philippines declares national energy emergency',
+    type: 'economic',
+    status: 'implemented',
+    detail: 'South Korea PM cancels China trip; Japan 95% oil dependent on Hormuz',
+  },
+  {
+    date: '2026-03-24',
+    event: 'Iran ballistic missile hits Tel Aviv — 6 lightly injured',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Large crater, buildings damaged; David\'s Sling failure under investigation',
+  },
+  {
+    date: '2026-03-24',
+    event: 'Iran strikes near Bushehr nuclear facility',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Projectile hit 350m from reactor; Russia halts construction; IAEA: no radiation release',
+  },
 ];
 
 export const STATUS_COLORS = {

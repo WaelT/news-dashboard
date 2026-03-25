@@ -731,10 +731,10 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'MAR 24, 2026',
+  updated: 'MAR 25, 2026',
   current: {
     transitsPerDay: 1,
-    oilFlowMbd: 0.2,
+    oilFlowMbd: 0.1,
     disruptionPct: 99,
   },
   preWar: {
@@ -744,24 +744,24 @@ const HORMUZ_DATA = {
     globalLngPct: 20,
   },
   crisis: {
-    tankersQueued: 200,
-    tankersStranded: 370,
-    bulkCarriersStranded: 320,
-    vesselsAttacked: 27,
-    seafarersKilled: 14,
+    tankersQueued: 220,
+    tankersStranded: 390,
+    bulkCarriersStranded: 340,
+    vesselsAttacked: 29,
+    seafarersKilled: 16,
     minesDetected: true,
     minesFound: 12,
-    minelayersDestroyed: 30,
+    minelayersDestroyed: 44,
     insuranceSurge: '+400%',
     tankerRates: '$500K/day',
-    trumpUltimatum: '5-day extension — deadline ~Mar 27',
-    iranThreat: 'Threatens full closure; claims "approved lanes" only',
+    trumpUltimatum: '5-day strike pause on energy targets — deadline ~Mar 27',
+    iranThreat: 'Threatens to mine "entire Persian Gulf"; IRGC vetting system for transit',
   },
   disruptions: [
     { country: 'Saudi Arabia', detail: '27 VLCCs to Yanbu' },
     { country: 'Iraq', detail: 'Basra force majeure; exports halted' },
-    { country: 'UAE', detail: 'Fujairah bypass at capacity' },
-    { country: 'Asia', detail: 'IEA: worse than 1970s oil shocks' },
+    { country: 'UAE', detail: 'Fujairah bypass at capacity; 372 BMs + 1,806 drones intercepted' },
+    { country: 'Asia', detail: 'Philippines energy emergency; Japan/Korea 90%+ Hormuz dependent' },
   ],
 };
 
