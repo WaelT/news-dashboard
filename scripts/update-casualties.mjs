@@ -31,6 +31,11 @@ const COUNTRY_MAP = {
   'syria': 'syria',
   'palestine': 'palestine',
   'state of palestine': 'palestine',
+  'palestine (west bank)': 'palestine',
+  'turkey': 'turkey',
+  'france': 'france',
+  'philippines': 'philippines',
+  'azerbaijan': 'azerbaijan',
 };
 
 function extractFirstNum(text) {
@@ -44,15 +49,32 @@ function extractFirstNum(text) {
   return m ? parseInt(m[1], 10) : 0;
 }
 
+async function findCasualtiesSectionIndex() {
+  const url = 'https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&prop=sections&format=json';
+  const res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
+  if (!res.ok) throw new Error(`Wikipedia sections API ${res.status}`);
+  const data = await res.json();
+  const sections = data?.parse?.sections || [];
+  // Try multiple possible names: "Casualties by country", "Casualties by citizenship"
+  const match = sections.find(s => s.line && (
+    s.line.toLowerCase().includes('casualties by country') ||
+    s.line.toLowerCase().includes('casualties by citizenship')
+  ));
+  if (!match) throw new Error('Could not find casualties section in article');
+  console.log(`Found section "${match.line}" at index ${match.index}`);
+  return match.index;
+}
+
 async function scrapeWikipedia() {
-  const url = 'https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&prop=wikitext&format=json';
+  const sectionIndex = await findCasualtiesSectionIndex();
+  const url = `https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&section=${sectionIndex}&prop=wikitext&format=json`;
   const res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
   if (!res.ok) throw new Error(`Wikipedia API ${res.status}`);
   const data = await res.json();
   const text = data?.parse?.wikitext?.['*'] || '';
 
-  // Find the "Casualties by country" table
-  const tableStart = text.indexOf('Casualties by country');
+  // Find the casualties table
+  const tableStart = text.indexOf('{|');
   if (tableStart === -1) throw new Error('Casualties table not found');
 
   const tableEnd = text.indexOf('|}', tableStart);
@@ -126,7 +148,7 @@ async function scrapeWikipedia() {
 
 function updateFiles(casualties) {
   // Ensure all keys exist
-  const ALL_KEYS = ['iran', 'israel', 'usa', 'lebanon', 'yemen', 'iraq', 'uae', 'kuwait', 'bahrain', 'qatar', 'saudi', 'jordan', 'oman', 'syria', 'palestine'];
+  const ALL_KEYS = ['iran', 'israel', 'usa', 'lebanon', 'yemen', 'iraq', 'uae', 'kuwait', 'bahrain', 'qatar', 'saudi', 'jordan', 'oman', 'syria', 'palestine', 'turkey', 'france', 'philippines', 'azerbaijan'];
   for (const key of ALL_KEYS) {
     if (!casualties[key]) casualties[key] = { killed: 0, wounded: 0 };
   }
