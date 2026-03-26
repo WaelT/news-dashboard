@@ -39,6 +39,10 @@ const DEFAULT_CASUALTIES = {
   oman: { killed: 3, wounded: 5 },
   syria: { killed: 4, wounded: 0 },
   palestine: { killed: 10, wounded: 0 },
+  turkey: { killed: 3, wounded: 0 },
+  france: { killed: 1, wounded: 0 },
+  philippines: { killed: 1, wounded: 0 },
+  azerbaijan: { killed: 0, wounded: 4 },
 };
 
 function formatNum(n) {
