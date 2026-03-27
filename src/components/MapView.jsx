@@ -731,37 +731,37 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'MAR 25, 2026',
+  updated: 'MAR 26, 2026',
   current: {
-    transitsPerDay: 1,
-    oilFlowMbd: 0.1,
-    disruptionPct: 99,
+    transitsPerDay: 7,
+    oilFlowMbd: 0.5,
+    disruptionPct: 94,
   },
   preWar: {
-    transitsPerDay: 153,
+    transitsPerDay: 120,
     oilFlowMbd: 20,
     globalOilPct: 20,
     globalLngPct: 20,
   },
   crisis: {
-    tankersQueued: 220,
-    tankersStranded: 390,
-    bulkCarriersStranded: 340,
-    vesselsAttacked: 29,
-    seafarersKilled: 16,
+    tankersQueued: 200,
+    vesselsStranded: 2000,
+    seafarersStranded: 20000,
+    vesselsAttacked: 30,
+    seafarersKilled: 18,
     minesDetected: true,
     minesFound: 12,
     minelayersDestroyed: 44,
-    insuranceSurge: '+400%',
+    insuranceSurge: '5-10% of vessel value',
     tankerRates: '$500K/day',
-    trumpUltimatum: '5-day strike pause on energy targets — deadline ~Mar 27',
-    iranThreat: 'Threatens to mine "entire Persian Gulf"; IRGC vetting system for transit',
+    trumpUltimatum: 'Energy strike pause extended to April 6',
+    iranThreat: 'IRGC vetting system active; transit via Larak Island; fees charged',
   },
   disruptions: [
-    { country: 'Saudi Arabia', detail: '27 VLCCs to Yanbu' },
-    { country: 'Iraq', detail: 'Basra force majeure; exports halted' },
-    { country: 'UAE', detail: 'Fujairah bypass at capacity; 372 BMs + 1,806 drones intercepted' },
-    { country: 'Asia', detail: 'Philippines energy emergency; Japan/Korea 90%+ Hormuz dependent' },
+    { country: 'Saudi Arabia', detail: '32+ drones intercepted in Eastern Province; VLCCs rerouted' },
+    { country: 'Iraq', detail: 'Force majeure; 7 soldiers killed by US strike; PMF authorized to respond' },
+    { country: 'UAE', detail: '357 BMs + 1,806 drones intercepted total; 26 ships used Iran-approved routes' },
+    { country: 'Asia', detail: 'Sri Lanka: lights-off order; Indian Navy escorting 20+ ships' },
   ],
 };
 
@@ -802,8 +802,8 @@ function HormuzStats() {
       {/* Crisis metrics */}
       <div className="text-[9px] text-gray-400 tracking-widest mb-1 mt-2">CRISIS</div>
       <HormuzStatRow label="Tankers Queued Outside" value={`${d.crisis.tankersQueued}+`} color="#ff6600" />
-      <HormuzStatRow label="Tankers Stranded Inside" value={`${d.crisis.tankersStranded}+`} color="#ff6600" />
-      <HormuzStatRow label="Bulk Carriers Stranded" value={d.crisis.bulkCarriersStranded} color="#ff6600" />
+      <HormuzStatRow label="Vessels Stranded" value={`${d.crisis.vesselsStranded || d.crisis.tankersStranded || 0}+`} color="#ff6600" />
+      <HormuzStatRow label="Seafarers Stranded" value={`${(d.crisis.seafarersStranded || 0).toLocaleString()}+`} color="#ff6600" />
       <HormuzStatRow label="Vessels Attacked" value={d.crisis.vesselsAttacked} color="#ff0040" />
       <HormuzStatRow label="Seafarers Killed" value={d.crisis.seafarersKilled} color="#ff0040" />
       <HormuzStatRow label="Mine Threat" value={d.crisis.minesDetected ? 'ACTIVE' : 'NONE'} color={d.crisis.minesDetected ? '#ff0040' : '#00ff41'} sub={`${d.crisis.minesFound || 0} advanced mines detected; ${d.crisis.minelayersDestroyed} minelayers destroyed`} />

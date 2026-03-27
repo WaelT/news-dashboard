@@ -31,15 +31,15 @@ const BREAKDOWN_LABEL_MAP = {
 // Extra key stats per country (only show applicable ones)
 const COUNTRY_EXTRA_STATS = {
   iran: [
-    { label: 'TARGETS STRUCK', value: '9,000+' },
+    { label: 'TARGETS STRUCK', value: '10,000+' },
     { label: 'COMBAT SORTIES', value: '8,000+' },
-    { label: 'NAVAL VESSELS DESTROYED', value: '140+' },
+    { label: 'NAVY DESTROYED', value: '92%' },
     { label: 'MISSILES LAUNCHED', value: '1,041' },
-    { label: 'DRONES LAUNCHED', value: '2,500+' },
+    { label: 'LAUNCH RATE DECLINE', value: '-90%' },
     { label: 'CIVILIAN STRUCTURES HIT', value: '82,000+' },
   ],
   lebanon: [
-    { label: 'HEZBOLLAH ATTACK WAVES', value: '779' },
+    { label: 'HEZBOLLAH ATTACK WAVES', value: '346+' },
     { label: 'IDF GROUND TROOPS', value: '50,000' },
     { label: 'TERRITORY CAPTURED', value: '180 km²' },
     { label: 'CIVILIANS DISPLACED', value: '1.2M+' },
@@ -143,13 +143,13 @@ export default function CountryDetailModal({ country, onClose, isOpen }) {
 
   // Casualties
   const casualties = {
-    iran: { killed: 3230, wounded: 19324 },
-    israel: { killed: 24, wounded: 4829 },
+    iran: { killed: 3300, wounded: 19324 },
+    israel: { killed: 27, wounded: 5229 },
     usa: { killed: 15, wounded: 290 },
-    lebanon: { killed: 1039, wounded: 2872 },
+    lebanon: { killed: 1094, wounded: 3119 },
     yemen: { killed: 0, wounded: 0 },
-    iraq: { killed: 94, wounded: 199 },
-    uae: { killed: 9, wounded: 157 },
+    iraq: { killed: 101, wounded: 212 },
+    uae: { killed: 11, wounded: 160 },
     kuwait: { killed: 8, wounded: 99 },
     bahrain: { killed: 3, wounded: 38 },
     qatar: { killed: 4, wounded: 16 },

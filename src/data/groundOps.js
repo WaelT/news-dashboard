@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 24, 2026',
+  updated: 'MAR 25, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -233,6 +233,34 @@ const groundOps = {
       lng: 35.50,
       event: 'IDF airstrike on southern Beirut suburbs after evacuation warning',
       type: 'airstrike',
+    },
+    {
+      date: '2026-03-25',
+      lat: 33.20,
+      lng: 35.40,
+      event: '7th Armored Brigade destroys Hezbollah weapons depot',
+      type: 'ground',
+    },
+    {
+      date: '2026-03-25',
+      lat: 33.42,
+      lng: 35.84,
+      event: 'Egoz Unit captures Hezbollah cell leader at Mount Dov',
+      type: 'engagement',
+    },
+    {
+      date: '2026-03-25',
+      lat: 33.85,
+      lng: 35.50,
+      event: 'IDF strikes Hezbollah command center + Amana fuel stations in Dahiyeh',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-03-25',
+      lat: 33.30,
+      lng: 35.40,
+      event: 'Hezbollah record 105 attack waves — most intense day since war start',
+      type: 'engagement',
     },
   ],
 };
