@@ -463,6 +463,62 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Baghdad grants PMF right to respond; Iraq Islamic Resistance claims 23 ops in 24 hours',
   },
+  {
+    date: '2026-03-26',
+    event: 'IRGC launches 82nd wave — 230 coordinated ops (largest single day)',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '110 Iranian strikes + 87 Hezbollah ops + 23 Iraqi militia offensives in 24 hours',
+  },
+  {
+    date: '2026-03-26',
+    event: 'Trump extends energy strike pause to April 6 on Truth Social',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: '"As per Iranian Government request" — 10-day extension; claims "talks going very well"',
+  },
+  {
+    date: '2026-03-26',
+    event: 'Witkoff confirms 15-point plan delivered; Iran responds via Pakistan',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Iran submitted 5 counter-conditions through Pakistani intermediaries; "awaits Washington reply"',
+  },
+  {
+    date: '2026-03-26',
+    event: 'Bushehr nuclear plant hit for 3rd time — projectile 350m from reactor',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'No damage or radiation; Russia "deeply outraged"; 163 Rosatom technicians evacuated',
+  },
+  {
+    date: '2026-03-26',
+    event: 'Trump claims Iran let 10 tankers through Hormuz as "present"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: '8 as goodwill + 2 as "apology"; many Pakistani-flagged; IRGC toll system operational',
+  },
+  {
+    date: '2026-03-26',
+    event: '2 IDF soldiers killed in Lebanon — Hezbollah fires 100+ rockets',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Sgt. Volansky (anti-tank missile) + Sgt. Greenberg killed; 750+ Hezbollah operatives KIA total',
+  },
+  {
+    date: '2026-03-26',
+    event: 'Gulf states jointly condemn Iranian-backed Iraqi militia attacks',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Saudi, UAE, Kuwait, Bahrain, Qatar, Jordan issue joint statement; Kuwait arrests 6 Hezbollah-linked',
+  },
+  {
+    date: '2026-03-26',
+    event: 'IDF reports 20,000 soldiers short for multi-front operations',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IDF hit 1,000+ Iranian weapons targets; Hezbollah cumulative: 1,084 attack waves since Mar 2',
+  },
 ];
 
 export const STATUS_COLORS = {

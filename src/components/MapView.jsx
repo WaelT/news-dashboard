@@ -731,14 +731,14 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'MAR 26, 2026',
+  updated: 'MAR 27, 2026',
   current: {
-    transitsPerDay: 7,
-    oilFlowMbd: 0.5,
-    disruptionPct: 94,
+    transitsPerDay: 6,
+    oilFlowMbd: 0.4,
+    disruptionPct: 95,
   },
   preWar: {
-    transitsPerDay: 120,
+    transitsPerDay: 130,
     oilFlowMbd: 20,
     globalOilPct: 20,
     globalLngPct: 20,
@@ -747,21 +747,21 @@ const HORMUZ_DATA = {
     tankersQueued: 200,
     vesselsStranded: 2000,
     seafarersStranded: 20000,
-    vesselsAttacked: 30,
-    seafarersKilled: 18,
+    vesselsAttacked: 32,
+    seafarersKilled: 20,
     minesDetected: true,
     minesFound: 12,
     minelayersDestroyed: 44,
     insuranceSurge: '5-10% of vessel value',
     tankerRates: '$500K/day',
-    trumpUltimatum: 'Energy strike pause extended to April 6',
-    iranThreat: 'IRGC vetting system active; transit via Larak Island; fees charged',
+    trumpUltimatum: 'Energy strike pause to April 6; Trump claims "talks going very well"',
+    iranThreat: 'IRGC toll booth operational; China/Russia/India/Pakistan ships allowed',
   },
   disruptions: [
-    { country: 'Saudi Arabia', detail: '32+ drones intercepted in Eastern Province; VLCCs rerouted' },
-    { country: 'Iraq', detail: 'Force majeure; 7 soldiers killed by US strike; PMF authorized to respond' },
-    { country: 'UAE', detail: '357 BMs + 1,806 drones intercepted total; 26 ships used Iran-approved routes' },
-    { country: 'Asia', detail: 'Sri Lanka: lights-off order; Indian Navy escorting 20+ ships' },
+    { country: 'Saudi Arabia', detail: '32+ drones + 1 BM intercepted; Ras Tanura/Ghawar/Abqaiq targeted' },
+    { country: 'Iraq', detail: 'Force majeure; 23 militia offensives in 82nd wave; PMF authorized' },
+    { country: 'UAE', detail: '357 BMs + 1,806 drones intercepted; 26 ships via IRGC-approved routes' },
+    { country: 'Asia', detail: 'Indian Navy Op Urja Suraksha escorting 20+ ships; IEA: largest supply disruption ever' },
   ],
 };
 

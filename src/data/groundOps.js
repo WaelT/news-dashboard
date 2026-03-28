@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 25, 2026',
+  updated: 'MAR 26, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -261,6 +261,27 @@ const groundOps = {
       lng: 35.40,
       event: 'Hezbollah record 105 attack waves — most intense day since war start',
       type: 'engagement',
+    },
+    {
+      date: '2026-03-26',
+      lat: 33.18,
+      lng: 35.45,
+      event: 'Sgt. Volansky killed by anti-tank missile; Sgt. Greenberg killed in ops',
+      type: 'engagement',
+    },
+    {
+      date: '2026-03-26',
+      lat: 33.10,
+      lng: 35.20,
+      event: 'Hezbollah fires 100+ rockets; 1 civilian killed in Nahariya',
+      type: 'engagement',
+    },
+    {
+      date: '2026-03-26',
+      lat: 33.85,
+      lng: 35.50,
+      event: 'IDF extensive strikes on Isfahan industrial targets + Dahiyeh command center',
+      type: 'airstrike',
     },
   ],
 };
