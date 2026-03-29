@@ -45,23 +45,19 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'US Military Cost', value: '$34B+', sub: '~$1.2B/day (28 days)', color: '#ff0040' },
-  { label: 'Total War Cost Est.', value: '$70B', sub: 'Penn Wharton central', color: '#ff0040' },
-  { label: 'Broader US Impact', value: '$220B', sub: 'incl. economic losses', color: '#ff0040' },
-  { label: 'Pentagon Request', value: '$200B', sub: 'emergency supplemental to Congress', color: '#ff0040' },
-  { label: 'Trump Approval', value: '36%', sub: 'lowest since second term', color: '#ff0040' },
-  { label: 'Brent Crude', value: '$108', sub: '/barrel (+54%); Houthi entry + Hormuz fears', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '95%', sub: '~6 ships/day; IRGC toll booth; 10 tankers "present"', color: '#ff0040' },
-  { label: 'Gulf Output Drop', value: '10M+', sub: 'bbl/day lost; Sri Lanka orders lights-off', color: '#ff6600' },
-  { label: 'Qatar LNG', value: 'HALTED', sub: '17% capacity destroyed (Ras Laffan)', color: '#ff0040' },
-  { label: 'South Pars Strike', value: 'HIT', sub: 'world\'s largest gas field; Iraq gas halted', color: '#ff0040' },
-  { label: 'Kuwait Airport', value: 'HIT', sub: 'fuel depot fire from drone attack', color: '#ff0040' },
-  { label: 'Iraq Oil', value: 'HALTED', sub: 'force majeure; 7 soldiers killed by US strike', color: '#ff0040' },
-  { label: 'IEA Reserve Release', value: '400M', sub: 'barrels from strategic reserves', color: '#0088cc' },
-  { label: 'Iran Navy', value: '92% destroyed', sub: '10,000+ targets struck; launch rates down 90%', color: '#0088cc' },
-  { label: 'Goldman Sachs', value: '$147+', sub: 'Brent may exceed 2008 all-time high', color: '#ff6600' },
-  { label: 'US Gas Price', value: '$3.72', sub: '/gal (+$0.80 in 3 weeks)', color: '#ff6600' },
-  { label: 'Global Inflation', value: '+0.8%', sub: 'IEA: largest supply disruption in oil market history', color: '#d4a017' },
+  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
+  { label: 'Oil Price Forecast', value: '$100', sub: 'if disruptions persist', color: '#ffcc00' },
+  { label: 'Global Inflation', value: '+0.8%', sub: 'projected increase', color: '#ff6600' },
+  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
+  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
+  { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
+  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
+  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
+  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
+  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
 ];
 
 function EconomicImpact() {
