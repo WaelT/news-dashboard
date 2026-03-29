@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 26, 2026',
+  updated: 'MAR 27, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -282,6 +282,27 @@ const groundOps = {
       lng: 35.50,
       event: 'IDF extensive strikes on Isfahan industrial targets + Dahiyeh command center',
       type: 'airstrike',
+    },
+    {
+      date: '2026-03-27',
+      lat: 33.25,
+      lng: 35.60,
+      event: 'Hezbollah fires 600 rockets/drones in 24 hours — 6x daily average',
+      type: 'engagement',
+    },
+    {
+      date: '2026-03-27',
+      lat: 33.19,
+      lng: 35.55,
+      event: 'IDF kills 30+ Hezbollah fighters; terror tunnels found under Al-Khiyam church',
+      type: 'ground',
+    },
+    {
+      date: '2026-03-27',
+      lat: 33.16,
+      lng: 35.48,
+      event: '2 IDF soldiers seriously wounded by anti-tank missile fire',
+      type: 'engagement',
     },
   ],
 };

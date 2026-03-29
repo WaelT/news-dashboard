@@ -16,7 +16,7 @@ const FALLBACK = {
   nasdaq: { price: 22374.00, change: -0.02 },
   dowjones: { price: 46993.26, change: 0.10 },
   nikkei: { price: 53700.39, change: 0.00 },
-  brent: { price: 105.85, change: 47.0 },
+  brent: { price: 107.81, change: 54.0 },
   btc: { price: 75991.00, change: 0.25 },
   gold: { price: 5004.00, change: -0.40 },
   silver: { price: 80.90, change: 2.49 },
@@ -45,12 +45,12 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'US Military Cost', value: '$32B+', sub: '~$1.2B/day (27 days)', color: '#ff0040' },
+  { label: 'US Military Cost', value: '$34B+', sub: '~$1.2B/day (28 days)', color: '#ff0040' },
   { label: 'Total War Cost Est.', value: '$70B', sub: 'Penn Wharton central', color: '#ff0040' },
   { label: 'Broader US Impact', value: '$220B', sub: 'incl. economic losses', color: '#ff0040' },
   { label: 'Pentagon Request', value: '$200B', sub: 'emergency supplemental to Congress', color: '#ff0040' },
   { label: 'Trump Approval', value: '36%', sub: 'lowest since second term', color: '#ff0040' },
-  { label: 'Brent Crude', value: '$106', sub: '/barrel (+47%); rallied on Iran talks rejection', color: '#ff6600' },
+  { label: 'Brent Crude', value: '$108', sub: '/barrel (+54%); Houthi entry + Hormuz fears', color: '#ff6600' },
   { label: 'Hormuz Disruption', value: '95%', sub: '~6 ships/day; IRGC toll booth; 10 tankers "present"', color: '#ff0040' },
   { label: 'Gulf Output Drop', value: '10M+', sub: 'bbl/day lost; Sri Lanka orders lights-off', color: '#ff6600' },
   { label: 'Qatar LNG', value: 'HALTED', sub: '17% capacity destroyed (Ras Laffan)', color: '#ff0040' },

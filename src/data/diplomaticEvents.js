@@ -519,6 +519,55 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'IDF hit 1,000+ Iranian weapons targets; Hezbollah cumulative: 1,084 attack waves since Mar 2',
   },
+  {
+    date: '2026-03-27',
+    event: 'Houthis enter the war — fire ballistic missiles at Israel from Yemen',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'First Houthi intervention in the Iran war; opens new front; Israel intercepts missile',
+  },
+  {
+    date: '2026-03-27',
+    event: '15 US soldiers wounded in Iranian strike on Prince Sultan Air Base',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '6 ballistic missiles + 29 drones hit Saudi base near Riyadh; 5 soldiers in serious condition',
+  },
+  {
+    date: '2026-03-27',
+    event: 'Hezbollah fires 600 rockets/missiles/drones in 24 hours (6x daily average)',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Claims 20 IDF tanks destroyed/disabled; video of suicide drones hitting Merkavas',
+  },
+  {
+    date: '2026-03-27',
+    event: 'IDF kills 30+ Hezbollah fighters including 10 Radwan Force',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Terror tunnels found under church in Al-Khiyam; 2 IDF soldiers seriously wounded',
+  },
+  {
+    date: '2026-03-27',
+    event: 'Israeli strikes damage Arak heavy water complex + Ardakan yellowcake plant',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Two more nuclear facilities hit; 120+ historical sites damaged in Iran total',
+  },
+  {
+    date: '2026-03-27',
+    event: 'Iran allows UN humanitarian/fertilizer shipments through Hormuz',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Spring planting crisis; IRGC also extends access to Malaysia and Thailand',
+  },
+  {
+    date: '2026-03-27',
+    event: 'IRGC turns away 3 container ships; blocks 2 Chinese vessels',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Hormuz closed to vessels going "to and from" US/Israel/allies; ship runs aground on Qeshm',
+  },
 ];
 
 export const STATUS_COLORS = {
