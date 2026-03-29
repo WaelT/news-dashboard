@@ -1,30 +1,30 @@
 {
-  "updatedAt": "2026-03-29T12:47:34.730Z",
+  "updatedAt": "2026-03-29T18:37:05.591Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "iran": {
       "killed": 3329,
-      "wounded": 24800
+      "wounded": 26500
     },
     "lebanon": {
       "killed": 1142,
       "wounded": 3315
     },
     "iraq": {
-      "killed": 101,
+      "killed": 103,
       "wounded": 212
     },
     "israel": {
       "killed": 29,
-      "wounded": 5492
+      "wounded": 5768
     },
     "usa": {
       "killed": 15,
-      "wounded": 313
+      "wounded": 332
     },
     "uae": {
       "killed": 11,
-      "wounded": 160
+      "wounded": 165
     },
     "palestine": {
       "killed": 10,
@@ -32,7 +32,7 @@
     },
     "kuwait": {
       "killed": 8,
-      "wounded": 99
+      "wounded": 109
     },
     "qatar": {
       "killed": 4,
