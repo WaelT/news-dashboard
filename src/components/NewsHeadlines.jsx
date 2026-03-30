@@ -22,7 +22,7 @@ function LoadingSkeleton() {
   );
 }
 
-function NewsList({ articles, loading, error, lastUpdated, label, emptyMsg }) {
+function NewsList({ articles, loading, error, lastUpdated, label, emptyMsg, rtl }) {
   return (
     <div className="flex flex-col h-full">
       {/* Panel header */}
@@ -76,7 +76,10 @@ function NewsList({ articles, loading, error, lastUpdated, label, emptyMsg }) {
                 {timeAgo(article.pubDate)}
               </span>
             </div>
-            <p className="text-[11px] text-ops-text mt-1 leading-relaxed group-hover:text-ops-amber transition-colors line-clamp-2">
+            <p
+              className="text-[11px] text-ops-text mt-1 leading-relaxed group-hover:text-ops-amber transition-colors line-clamp-2"
+              dir={rtl ? 'rtl' : undefined}
+            >
               {article.title}
             </p>
           </a>
@@ -104,6 +107,7 @@ export function ArabicNews() {
       {...data}
       label="آخر المقالات"
       emptyMsg="Set VITE_GNEWS_API_KEY in .env for live data. Arabic RSS feeds require dev server proxy."
+      rtl
     />
   );
 }
