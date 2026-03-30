@@ -171,7 +171,10 @@ export default function ConflictTimeline({ articles }) {
                 </div>
 
                 {/* Headline */}
-                <p className="text-[13px] text-ops-text leading-relaxed group-hover:text-ops-amber transition-colors line-clamp-2">
+                <p
+                  className="text-[13px] text-ops-text leading-relaxed group-hover:text-ops-amber transition-colors line-clamp-2"
+                  dir="auto"
+                >
                   {event.title}
                 </p>
               </a>
