@@ -44,7 +44,7 @@ const COUNTRY_EXTRA_STATS = {
     { label: 'TERRITORY CAPTURED', value: '180 km²' },
     { label: 'CIVILIANS DISPLACED', value: '1.2M+' },
     { label: 'LITANI BRIDGES', value: 'All destroyed' },
-    { label: 'HEZBOLLAH FIGHTERS KIA', value: '750+' },
+    { label: 'HEZBOLLAH FIGHTERS KIA', value: '800+' },
   ],
   israel: [
     { label: 'IRON DOME INTERCEPTS', value: '95%+' },
@@ -143,10 +143,10 @@ export default function CountryDetailModal({ country, onClose, isOpen }) {
 
   // Casualties
   const casualties = {
-    iran: { killed: 3329, wounded: 24800 },
-    israel: { killed: 29, wounded: 5492 },
-    usa: { killed: 15, wounded: 313 },
-    lebanon: { killed: 1142, wounded: 3315 },
+    iran: { killed: 3329, wounded: 26500 },
+    israel: { killed: 29, wounded: 5768 },
+    usa: { killed: 15, wounded: 332 },
+    lebanon: { killed: 1189, wounded: 3315 },
     yemen: { killed: 0, wounded: 0 },
     iraq: { killed: 101, wounded: 212 },
     uae: { killed: 11, wounded: 160 },

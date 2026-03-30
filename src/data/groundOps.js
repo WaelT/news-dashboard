@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 27, 2026',
+  updated: 'MAR 28, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -303,6 +303,27 @@ const groundOps = {
       lng: 35.48,
       event: '2 IDF soldiers seriously wounded by anti-tank missile fire',
       type: 'engagement',
+    },
+    {
+      date: '2026-03-28',
+      lat: 33.22,
+      lng: 35.50,
+      event: 'IDF strikes 170 Hezbollah sites; 800+ operatives killed total',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-03-28',
+      lat: 33.15,
+      lng: 35.45,
+      event: 'Hezbollah fires 250 rockets; 2 IDF soldiers seriously wounded in clashes',
+      type: 'engagement',
+    },
+    {
+      date: '2026-03-28',
+      lat: 33.20,
+      lng: 35.55,
+      event: 'IDF seizes weapons cache in Lebanese school; kills Hezbollah "journalist"',
+      type: 'ground',
     },
   ],
 };

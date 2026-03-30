@@ -568,6 +568,55 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Hormuz closed to vessels going "to and from" US/Israel/allies; ship runs aground on Qeshm',
   },
+  {
+    date: '2026-03-28',
+    event: 'Houthis fire barrage of ballistic missiles at "sensitive Israeli military sites"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Second Houthi attack; threatens to close Bab al-Mandab (15% of global maritime trade)',
+  },
+  {
+    date: '2026-03-28',
+    event: 'Iranian missile hits Tel Aviv commercial street — 1 killed, several wounded',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '8 impact sites in Tel Aviv incl. university; Ne\'ot Hovav chemical plant also hit',
+  },
+  {
+    date: '2026-03-28',
+    event: 'Rubio tells G7: war could last "another 2-4 weeks"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Expects to "finish" with Iran; meeting to bridge chasm with skeptical Western allies',
+  },
+  {
+    date: '2026-03-28',
+    event: 'Trump: "very disappointed" with NATO; says US "no longer needs" alliance',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Criticizes NATO inaction on Hormuz; suggests US won\'t aid allies who don\'t help',
+  },
+  {
+    date: '2026-03-28',
+    event: 'Pentagon readies for "weeks of US ground operations" in Iran',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Plans for ground ops reported; additional US troops deploying to Middle East',
+  },
+  {
+    date: '2026-03-28',
+    event: '6 Iranian diplomats killed in Israeli strikes on Lebanon',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Iran confirms deaths; Hezbollah fires 250 rockets in 24 hours; 2 IDF soldiers seriously wounded',
+  },
+  {
+    date: '2026-03-28',
+    event: 'IDF strikes 170 Hezbollah sites; 800+ operatives killed since war start',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Weapons seized in Lebanese school; "Hezbollah journalist" killed; Radwan Force decimated',
+  },
 ];
 
 export const STATUS_COLORS = {
