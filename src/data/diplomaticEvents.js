@@ -617,6 +617,48 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Weapons seized in Lebanese school; "Hezbollah journalist" killed; Radwan Force decimated',
   },
+  {
+    date: '2026-03-29',
+    event: 'Pakistan hosts Islamabad talks — FM of Pakistan, Turkey, Egypt, Saudi Arabia',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Aimed at ending war and reopening Hormuz; Day 30 of conflict',
+  },
+  {
+    date: '2026-03-29',
+    event: 'Iraqi PMF convoy enters Khorramshahr — Iran receives ground reinforcements',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Popular Mobilization Forces cross into southwestern Iran; first foreign ground support',
+  },
+  {
+    date: '2026-03-29',
+    event: 'US-Israeli strikes hit Bandar Khamir port city — 5 killed',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Southern Iran port targeted; Iranian drones hit Kuwait military installation (10 soldiers wounded)',
+  },
+  {
+    date: '2026-03-29',
+    event: 'Houthis warn Bab al-Mandab closure is "viable option"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Deputy Info Minister to CNN: "consequences borne by American and Israeli aggressors"',
+  },
+  {
+    date: '2026-03-29',
+    event: '146th Division reaches Ras al-Bayada headland south of Tyre',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '8km north of Israeli border; 769th Hiram Brigade operating in southern Lebanon',
+  },
+  {
+    date: '2026-03-29',
+    event: 'Iran warns against US ground invasion',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Pentagon plans for "weeks of ground operations" reported; Brent crude record monthly gain (+55%)',
+  },
 ];
 
 export const STATUS_COLORS = {

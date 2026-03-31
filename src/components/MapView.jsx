@@ -731,7 +731,7 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'MAR 29, 2026',
+  updated: 'MAR 30, 2026',
   current: {
     transitsPerDay: 5,
     oilFlowMbd: 0.3,
@@ -744,24 +744,24 @@ const HORMUZ_DATA = {
     globalLngPct: 20,
   },
   crisis: {
-    tankersQueued: 220,
+    tankersQueued: 230,
     vesselsStranded: 2000,
     seafarersStranded: 20000,
-    vesselsAttacked: 36,
-    seafarersKilled: 24,
+    vesselsAttacked: 38,
+    seafarersKilled: 26,
     minesDetected: true,
     minesFound: 12,
     minelayersDestroyed: 44,
     insuranceSurge: '5-10% of vessel value',
     tankerRates: '$500K/day',
-    trumpUltimatum: 'Energy strike pause to Apr 6; Rubio: war "2-4 more weeks"',
-    iranThreat: 'Houthis threaten Bab al-Mandab closure (15% global trade); dual chokepoint risk',
+    trumpUltimatum: 'Strike pause to Apr 6; threatens Kharg Island + power plants if no deal',
+    iranThreat: 'Houthis: Bab al-Mandab closure "viable option"; dual chokepoint risk active',
   },
   disruptions: [
-    { country: 'Saudi Arabia', detail: '29 US troops wounded at Prince Sultan AB; 2nd attack this week' },
-    { country: 'Iraq', detail: 'Force majeure; PMF authorized; militia offensives continue' },
-    { country: 'UAE', detail: '357 BMs + 1,806 drones intercepted; 26 ships via IRGC toll booth' },
-    { country: 'Asia', detail: 'Bab al-Mandab threat: 30% of Israel imports at risk; dual chokepoint crisis' },
+    { country: 'Saudi Arabia', detail: 'Islamabad talks hosted; 4 FMs discuss Hormuz reopening' },
+    { country: 'Iraq', detail: 'PMF convoy enters Khorramshahr — ground reinforcements to Iran' },
+    { country: 'UAE', detail: '357 BMs + 1,806 drones intercepted; 33 transits via Larak in 2 weeks' },
+    { country: 'Asia', detail: 'Bab al-Mandab + Hormuz dual chokepoint; Brent +55% record month' },
   ],
 };
 

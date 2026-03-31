@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 28, 2026',
+  updated: 'MAR 29, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -323,6 +323,20 @@ const groundOps = {
       lat: 33.20,
       lng: 35.55,
       event: 'IDF seizes weapons cache in Lebanese school; kills Hezbollah "journalist"',
+      type: 'ground',
+    },
+    {
+      date: '2026-03-29',
+      lat: 33.22,
+      lng: 35.22,
+      event: '146th Division reaches Ras al-Bayada headland, 8km north of border',
+      type: 'ground',
+    },
+    {
+      date: '2026-03-29',
+      lat: 33.25,
+      lng: 35.55,
+      event: '769th Hiram Brigade operations in southern Lebanon',
       type: 'ground',
     },
   ],
