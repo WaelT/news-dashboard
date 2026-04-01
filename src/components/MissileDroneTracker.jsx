@@ -404,14 +404,14 @@ export default function MissileDroneTracker() {
                   <span className="text-[11px] group-hover:text-[13px] font-mono text-ops-text group-hover:text-white w-16 shrink-0 font-bold group-hover:font-extrabold tracking-wide transition-all duration-200">
                     WEEK {week.weekNum}
                   </span>
-                  <div className="flex-1 h-5 flex rounded-sm overflow-hidden bg-ops-border/20">
+                  <div className="flex-1 h-5 flex rounded overflow-hidden bg-ops-border/20">
                     <div
-                      className="h-full transition-all duration-500"
-                      style={{ width: `${missilePct}%`, background: '#cc0033' }}
+                      className="h-full transition-all duration-700"
+                      style={{ width: `${missilePct}%`, background: 'linear-gradient(90deg, #ef4060, #cc0033)', borderRadius: '4px 0 0 4px' }}
                     />
                     <div
-                      className="h-full transition-all duration-500"
-                      style={{ width: `${dronePct}%`, background: '#cc5200' }}
+                      className="h-full transition-all duration-700"
+                      style={{ width: `${dronePct}%`, background: 'linear-gradient(90deg, #ff6600, #cc5200)', borderRadius: '0 4px 4px 0' }}
                     />
                   </div>
                   <span className="text-[11px] font-mono font-bold text-ops-text w-10 text-right shrink-0">

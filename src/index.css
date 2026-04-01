@@ -214,14 +214,23 @@ html, body, #root {
   animation-play-state: paused;
 }
 
-/* Breaking news flash highlight for new items */
-@keyframes breaking-flash-glow {
-  0%, 100% { text-shadow: 0 0 4px rgba(255, 0, 64, 0.3); }
-  50% { text-shadow: 0 0 12px rgba(255, 0, 64, 0.8), 0 0 20px rgba(255, 0, 64, 0.4); }
+/* Breaking news slide-in + subtle pulse */
+@keyframes breaking-slide-in {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes breaking-border-pulse {
+  0%, 100% { border-color: rgba(239, 64, 96, 0.4); }
+  50% { border-color: rgba(239, 64, 96, 1); }
+}
+
+.breaking-banner-enter {
+  animation: breaking-slide-in 0.3s ease-out, breaking-border-pulse 3s ease-in-out infinite 0.3s;
 }
 
 .breaking-flash {
-  animation: breaking-flash-glow 0.8s ease-in-out infinite;
+  text-shadow: 0 0 8px rgba(239, 64, 96, 0.4);
 }
 
 /* Attack line dash flow animation */
@@ -249,6 +258,14 @@ html, body, #root {
 
 .escalation-dot {
   animation: escalation-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes timeline-dot-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 currentColor; }
+  50% { box-shadow: 0 0 8px 3px currentColor; }
+}
+.timeline-dot-pulse {
+  animation: timeline-dot-pulse 2s ease-in-out infinite;
 }
 
 .litani-label {

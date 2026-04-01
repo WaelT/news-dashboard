@@ -192,8 +192,10 @@ export default function CountryDetailModal({ country, onClose, isOpen }) {
       onClick={handleBackdropClick}
       className="fixed inset-0 z-[9999] flex items-center justify-center"
       style={{
-        background: 'rgba(0,0,0,0.75)',
-        animation: 'modalFadeIn 200ms ease-out',
+        background: 'rgba(0,0,0,0.7)',
+        backdropFilter: 'blur(4px)',
+        WebkitBackdropFilter: 'blur(4px)',
+        animation: 'modalFadeIn 250ms ease-out',
       }}
     >
       <style>{`
@@ -202,7 +204,7 @@ export default function CountryDetailModal({ country, onClose, isOpen }) {
           to { opacity: 1; }
         }
         @keyframes modalSlideIn {
-          from { opacity: 0; transform: translateY(12px) scale(0.97); }
+          from { opacity: 0; transform: translateY(20px) scale(0.92); }
           to { opacity: 1; transform: translateY(0) scale(1); }
         }
       `}</style>
@@ -211,7 +213,8 @@ export default function CountryDetailModal({ country, onClose, isOpen }) {
         className="relative w-full max-w-[500px] mx-4 rounded-lg border border-ops-border overflow-hidden"
         style={{
           background: 'linear-gradient(180deg, #1a1a2e 0%, #0f0f1a 100%)',
-          animation: 'modalSlideIn 250ms ease-out',
+          animation: 'modalSlideIn 300ms ease-out',
+          boxShadow: '0 20px 60px rgba(0,0,0,0.5)',
           maxHeight: '90vh',
           overflowY: 'auto',
         }}

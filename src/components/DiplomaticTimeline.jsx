@@ -17,10 +17,19 @@ const sorted = [...diplomaticEvents].sort((a, b) => {
 export default function DiplomaticTimeline() {
   return (
     <div className="flex flex-col h-full">
+      {/* Status legend */}
+      <div className="flex flex-wrap gap-x-3 gap-y-1 px-3 py-1.5 border-b border-ops-border/50">
+        {Object.entries(STATUS_COLORS).map(([status, color]) => (
+          <div key={status} className="flex items-center gap-1">
+            <span className="w-2 h-2 rounded-full" style={{ background: color }} />
+            <span className="text-[9px] font-bold tracking-wider text-ops-muted uppercase">{status}</span>
+          </div>
+        ))}
+      </div>
       <div className="flex-1 overflow-y-auto min-h-0 px-3 py-2">
         <div className="relative">
-          {/* Vertical timeline line */}
-          <div className="absolute left-[5px] top-0 bottom-0 w-px bg-ops-border" />
+          {/* Vertical timeline line — gradient fade */}
+          <div className="absolute left-[5px] top-0 bottom-0 w-px" style={{ background: 'linear-gradient(to bottom, var(--ops-green, #2dd4a8), var(--ops-border) 40%)' }} />
 
           {sorted.map((ev, i) => {
             const statusColor = STATUS_COLORS[ev.status] || '#6e7681';
@@ -28,11 +37,22 @@ export default function DiplomaticTimeline() {
             return (
               <div key={i} className="relative pl-5 pb-3">
                 {/* Dot */}
+                {/* Color-coded connector to next event */}
+                {i < sorted.length - 1 && (
+                  <div className="absolute left-[4px] w-[3px] rounded-full"
+                    style={{
+                      top: '14px', height: 'calc(100% - 6px)',
+                      background: `linear-gradient(to bottom, ${statusColor}, ${STATUS_COLORS[sorted[i + 1]?.status] || '#6e7681'})`,
+                      opacity: 0.4,
+                    }}
+                  />
+                )}
                 <div
-                  className="absolute left-0 top-1 w-[11px] h-[11px] rounded-full border-2"
+                  className={`absolute left-0 top-1 w-[11px] h-[11px] rounded-full border-2 ${i === 0 ? 'timeline-dot-pulse' : ''}`}
                   style={{
                     borderColor: statusColor,
-                    background: i === 0 ? statusColor : '#050a0e',
+                    background: i === 0 ? statusColor : '#0c1320',
+                    color: statusColor,
                   }}
                 />
 

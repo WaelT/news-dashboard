@@ -208,22 +208,24 @@ export default function ImpactTracker() {
                 </div>
                 {/* Killed bar */}
                 <div className="flex items-center gap-2 mb-0.5">
-                  <div className="flex-1 h-3 bg-ops-border/20 rounded-sm overflow-hidden">
+                  <div className="flex-1 h-3.5 bg-ops-border/20 rounded overflow-hidden">
                     <div
-                      className="h-full rounded-sm transition-all duration-500"
-                      style={{ width: `${killedPct}%`, background: '#cc0033' }}
-                    />
+                      className="h-full rounded transition-all duration-700 flex items-center"
+                      style={{ width: `${killedPct}%`, background: 'linear-gradient(90deg, #ef4060, #cc0033)' }}
+                    >
+                      {killedPct > 18 && <img src={flagUrl(p.cc)} alt="" className="w-3 h-2 ml-1 rounded-sm opacity-50" />}
+                    </div>
                   </div>
-                  <span className="text-[11px] font-mono font-bold text-[#ff0040] w-12 text-right">
+                  <span className="text-[11px] font-mono font-bold text-[#ef4060] w-12 text-right">
                     {p.killed > 0 ? formatNum(p.killed) : '-'}
                   </span>
                 </div>
                 {/* Wounded bar */}
                 <div className="flex items-center gap-2">
-                  <div className="flex-1 h-3 bg-ops-border/20 rounded-sm overflow-hidden">
+                  <div className="flex-1 h-3.5 bg-ops-border/20 rounded overflow-hidden">
                     <div
-                      className="h-full rounded-sm transition-all duration-500"
-                      style={{ width: `${woundedPct}%`, background: '#cc5200' }}
+                      className="h-full rounded transition-all duration-700"
+                      style={{ width: `${woundedPct}%`, background: 'linear-gradient(90deg, #ff6600, #cc5200)' }}
                     />
                   </div>
                   <span className="text-[11px] font-mono font-bold text-[#ff6600] w-12 text-right">

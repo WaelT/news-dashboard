@@ -170,15 +170,17 @@ export default function Dashboard() {
     let cancelled = false;
     async function fetchOil() {
       try {
-        const res = await fetch('/api/yahoo/v8/finance/chart/BZ%3DF?range=1d&interval=5m');
+        const res = await fetch('/api/yahoo/v8/finance/chart/BZ%3DF?range=5d&interval=1h');
         if (!res.ok) return;
         const json = await res.json();
-        const meta = json?.chart?.result?.[0]?.meta;
+        const result = json?.chart?.result?.[0];
+        const meta = result?.meta;
         if (!cancelled && meta) {
           const price = meta.regularMarketPrice;
           const prev = meta.chartPreviousClose || meta.previousClose;
           const change = prev ? ((price - prev) / prev) * 100 : 0;
-          setOilPrice({ price, change });
+          const closes = result?.indicators?.quote?.[0]?.close?.filter(Boolean) || [];
+          setOilPrice({ price, change, sparkline: closes.slice(-30) });
         }
       } catch {}
     }
@@ -228,10 +230,16 @@ export default function Dashboard() {
           </div>
           {isDesktop && (
             <div
-              className="hidden lg:block bg-ops-border hover:bg-ops-green/30 transition-colors"
+              className="hidden lg:flex items-center justify-center bg-ops-border hover:bg-ops-green/20 transition-colors group/grip"
               style={{ cursor: 'col-resize' }}
               onMouseDown={(e) => topResize.onMouseDown(0, e)}
-            />
+            >
+              <div className="flex flex-col gap-[3px] opacity-0 group-hover/grip:opacity-50 transition-opacity">
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+              </div>
+            </div>
           )}
           <div className="bg-ops-panel min-h-[50vh] lg:min-h-0">
             <LiveStreams />
@@ -249,30 +257,48 @@ export default function Dashboard() {
           </div>
           {isDesktop && (
             <div
-              className="hidden lg:block bg-ops-border hover:bg-ops-green/30 transition-colors"
+              className="hidden lg:flex items-center justify-center bg-ops-border hover:bg-ops-green/20 transition-colors group/grip"
               style={{ cursor: 'col-resize' }}
               onMouseDown={(e) => bottomResize.onMouseDown(0, e)}
-            />
+            >
+              <div className="flex flex-col gap-[3px] opacity-0 group-hover/grip:opacity-50 transition-opacity">
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+              </div>
+            </div>
           )}
           <div className="bg-ops-panel min-h-0 overflow-hidden">
             <MissileDroneTracker />
           </div>
           {isDesktop && (
             <div
-              className="hidden lg:block bg-ops-border hover:bg-ops-green/30 transition-colors"
+              className="hidden lg:flex items-center justify-center bg-ops-border hover:bg-ops-green/20 transition-colors group/grip"
               style={{ cursor: 'col-resize' }}
               onMouseDown={(e) => bottomResize.onMouseDown(1, e)}
-            />
+            >
+              <div className="flex flex-col gap-[3px] opacity-0 group-hover/grip:opacity-50 transition-opacity">
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+              </div>
+            </div>
           )}
           <div className="bg-ops-panel min-h-0 overflow-hidden">
             <ImpactTracker />
           </div>
           {isDesktop && (
             <div
-              className="hidden lg:block bg-ops-border hover:bg-ops-green/30 transition-colors"
+              className="hidden lg:flex items-center justify-center bg-ops-border hover:bg-ops-green/20 transition-colors group/grip"
               style={{ cursor: 'col-resize' }}
               onMouseDown={(e) => bottomResize.onMouseDown(2, e)}
-            />
+            >
+              <div className="flex flex-col gap-[3px] opacity-0 group-hover/grip:opacity-50 transition-opacity">
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+                <span className="w-1 h-1 rounded-full bg-ops-muted" />
+              </div>
+            </div>
           )}
           <div className="bg-ops-panel min-h-0 overflow-hidden">
             <MarketImpact />

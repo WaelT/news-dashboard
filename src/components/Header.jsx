@@ -49,6 +49,23 @@ export default function Header({ threatLevel, oilPrice, activeZoneCount }) {
               <span className={`font-mono ${oilPrice.change >= 0 ? 'text-ops-green' : 'text-ops-red'}`}>
                 {oilPrice.change >= 0 ? '+' : ''}{oilPrice.change.toFixed(1)}%
               </span>
+              {oilPrice.sparkline?.length > 2 && (
+                <svg width="40" height="14" viewBox="0 0 40 14" className="ml-0.5">
+                  <polyline
+                    fill="none"
+                    stroke={oilPrice.change >= 0 ? 'var(--ops-green)' : '#ef4060'}
+                    strokeWidth="1.5"
+                    strokeLinejoin="round"
+                    points={oilPrice.sparkline.map((v, idx, arr) => {
+                      const min = Math.min(...arr);
+                      const max = Math.max(...arr);
+                      const x = (idx / (arr.length - 1)) * 40;
+                      const y = 13 - ((v - min) / (max - min || 1)) * 12;
+                      return `${x},${y}`;
+                    }).join(' ')}
+                  />
+                </svg>
+              )}
             </div>
           )}
         </div>

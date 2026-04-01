@@ -133,8 +133,8 @@ export default function ConflictTimeline({ articles }) {
 
       <div className="flex-1 overflow-y-auto min-h-0 px-3 py-2">
         <div className="relative">
-          {/* Vertical line */}
-          <div className="absolute left-[5px] top-0 bottom-0 w-px bg-ops-border" />
+          {/* Vertical line — gradient fade */}
+          <div className="absolute left-[5px] top-0 bottom-0 w-px" style={{ background: 'linear-gradient(to bottom, var(--ops-green, #2dd4a8), var(--ops-border) 40%)' }} />
 
           {events.map((event, i) => {
             const et = EVENT_TYPES[event.eventType] || EVENT_TYPES.general;
@@ -148,8 +148,8 @@ export default function ConflictTimeline({ articles }) {
               >
                 {/* Dot on timeline — colored by sentiment */}
                 <div
-                  className="absolute left-0 top-1 w-[11px] h-[11px] rounded-full border-2"
-                  style={{ borderColor: event.sentimentColor, background: i === 0 ? event.sentimentColor : '#050a0e' }}
+                  className={`absolute left-0 top-1 w-[11px] h-[11px] rounded-full border-2 ${i === 0 ? 'timeline-dot-pulse' : ''}`}
+                  style={{ borderColor: event.sentimentColor, background: i === 0 ? event.sentimentColor : '#0c1320', color: event.sentimentColor }}
                 />
 
                 {/* Time + type badge */}

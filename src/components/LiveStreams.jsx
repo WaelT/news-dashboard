@@ -35,6 +35,8 @@ export default function LiveStreams() {
             }`}
             style={selected === i ? { color: s.color } : undefined}
           >
+            <span className="inline-block w-1.5 h-1.5 rounded-full mr-1 shrink-0"
+              style={{ background: s.color, boxShadow: selected === i ? `0 0 6px ${s.color}` : 'none' }} />
             {s.name.toUpperCase()}
           </button>
         ))}

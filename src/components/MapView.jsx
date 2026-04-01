@@ -777,6 +777,48 @@ function HormuzStatRow({ label, value, color = '#00aaff', sub }) {
   );
 }
 
+function HormuzDonut({ pct }) {
+  const r = 22, circ = 2 * Math.PI * r;
+  const dash = (pct / 100) * circ;
+  return (
+    <svg width="56" height="56" viewBox="0 0 56 56" className="shrink-0">
+      <circle cx="28" cy="28" r={r} fill="none" stroke="#1a2d3d" strokeWidth="5" />
+      <circle cx="28" cy="28" r={r} fill="none" stroke="#ef4060" strokeWidth="5"
+        strokeDasharray={`${dash} ${circ - dash}`} strokeDashoffset={circ / 4}
+        strokeLinecap="round" style={{ transition: 'stroke-dasharray 0.5s ease' }} />
+      <text x="28" y="31" textAnchor="middle" fill="#ef4060" fontSize="13" fontWeight="bold" fontFamily="'JetBrains Mono', monospace">
+        {pct}%
+      </text>
+    </svg>
+  );
+}
+
+function HormuzSparkBar({ label, current, preWar, color = '#ef4060' }) {
+  const pct = Math.max(1, (current / preWar) * 100);
+  return (
+    <div className="flex items-center gap-2 py-1">
+      <span className="text-[10px] text-gray-400 w-14 shrink-0">{label}</span>
+      <div className="flex-1 h-2 bg-ops-border/30 rounded-full overflow-hidden">
+        <div className="h-full rounded-full transition-all duration-500" style={{ width: `${pct}%`, background: color }} />
+      </div>
+      <span className="text-[10px] font-mono font-bold shrink-0" style={{ color }}>{current}<span className="text-gray-500">/{preWar}</span></span>
+    </div>
+  );
+}
+
+function CollapsibleSection({ title, defaultOpen = false, children }) {
+  const [open, setOpen] = React.useState(defaultOpen);
+  return (
+    <div className="mt-1.5">
+      <button onClick={() => setOpen(!open)} className="flex items-center gap-1 w-full text-left group">
+        <span className="text-[9px] text-gray-400 tracking-widest font-bold group-hover:text-gray-300 transition-colors">{title}</span>
+        <span className="text-gray-500 text-[10px] transition-transform" style={{ transform: open ? 'rotate(90deg)' : 'rotate(0deg)' }}>▸</span>
+      </button>
+      {open && <div className="mt-1">{children}</div>}
+    </div>
+  );
+}
+
 function HormuzStats() {
   const d = HORMUZ_DATA;
   return (
@@ -786,48 +828,46 @@ function HormuzStats() {
         <span className="text-[8px]">{d.updated}</span>
       </div>
 
-      {/* Disruption headline */}
-      <div className="bg-ops-red/10 border border-ops-red/30 rounded px-2 py-1.5 mb-2 text-center">
-        <div className="text-[20px] font-bold font-mono text-ops-red">{d.current.disruptionPct}%</div>
-        <div className="text-[9px] text-ops-red tracking-widest">TRAFFIC DISRUPTION</div>
+      {/* Disruption donut + key stats */}
+      <div className="flex items-center gap-3 mb-2">
+        <HormuzDonut pct={d.current.disruptionPct} />
+        <div className="flex-1 space-y-0.5">
+          <div className="text-[9px] text-ops-red tracking-widest font-bold">TRAFFIC DISRUPTION</div>
+          <HormuzSparkBar label="Transits" current={d.current.transitsPerDay} preWar={d.preWar.transitsPerDay} />
+          <HormuzSparkBar label="Oil Flow" current={d.current.oilFlowMbd} preWar={d.preWar.oilFlowMbd} color="#ff6600" />
+        </div>
       </div>
 
-      {/* Current vs Pre-war */}
-      <div className="text-[9px] text-gray-400 tracking-widest mb-1">CURRENT</div>
-      <HormuzStatRow label="Vessel Transits/Day" value={d.current.transitsPerDay} color="#ff0040" sub={`Pre-war: ${d.preWar.transitsPerDay}/day`} />
-      <HormuzStatRow label="Oil Flow" value={`${d.current.oilFlowMbd} mb/d`} color="#ff0040" sub={`Pre-war: ${d.preWar.oilFlowMbd} mb/d`} />
-      <HormuzStatRow label="Global Oil via Hormuz" value={`${d.preWar.globalOilPct}%`} sub="of global petroleum trade" />
-      <HormuzStatRow label="Global LNG via Hormuz" value={`${d.preWar.globalLngPct}%`} sub="of global LNG trade" />
-
-      {/* Crisis metrics */}
-      <div className="text-[9px] text-gray-400 tracking-widest mb-1 mt-2">CRISIS</div>
-      <HormuzStatRow label="Tankers Queued Outside" value={`${d.crisis.tankersQueued}+`} color="#ff6600" />
-      <HormuzStatRow label="Vessels Stranded" value={`${d.crisis.vesselsStranded || d.crisis.tankersStranded || 0}+`} color="#ff6600" />
-      <HormuzStatRow label="Seafarers Stranded" value={`${(d.crisis.seafarersStranded || 0).toLocaleString()}+`} color="#ff6600" />
-      <HormuzStatRow label="Vessels Attacked" value={d.crisis.vesselsAttacked} color="#ff0040" />
-      <HormuzStatRow label="Seafarers Killed" value={d.crisis.seafarersKilled} color="#ff0040" />
-      <HormuzStatRow label="Mine Threat" value={d.crisis.minesDetected ? 'ACTIVE' : 'NONE'} color={d.crisis.minesDetected ? '#ff0040' : '#00ff41'} sub={`${d.crisis.minesFound || 0} advanced mines detected; ${d.crisis.minelayersDestroyed} minelayers destroyed`} />
-      <HormuzStatRow label="War Risk Insurance" value={d.crisis.insuranceSurge} color="#ff6600" />
-      <HormuzStatRow label="Supertanker Rate" value={d.crisis.tankerRates} color="#ffcc00" sub="All-time high" />
-
-      {/* Ultimatum */}
+      {/* Ultimatum alert */}
       {d.crisis.trumpUltimatum && (
-        <div className="bg-[#ff6600]/10 border border-[#ff6600]/30 rounded px-2 py-1.5 mt-2 mb-1">
-          <div className="text-[10px] font-bold text-[#ff6600] tracking-wider">⚠ TRUMP ULTIMATUM</div>
-          <div className="text-[9px] text-gray-300 mt-0.5">{d.crisis.trumpUltimatum}</div>
+        <div className="bg-[#ff6600]/10 border border-[#ff6600]/30 rounded px-2 py-1.5 mb-1.5">
+          <div className="text-[9px] font-bold text-[#ff6600] tracking-wider">⚠ {d.crisis.trumpUltimatum}</div>
           {d.crisis.iranThreat && <div className="text-[9px] text-ops-red mt-0.5">{d.crisis.iranThreat}</div>}
         </div>
       )}
 
-      {/* Country disruptions */}
-      <div className="text-[9px] text-gray-400 tracking-widest mb-1 mt-2">EXPORT DISRUPTIONS</div>
-      {d.disruptions.map((c) => (
-        <div key={c.country} className="flex items-center gap-1.5 py-1.5 border-b border-ops-border/30">
-          <img src={`https://flagcdn.com/16x12/${{ 'Saudi Arabia': 'sa', 'Iraq': 'iq', 'UAE': 'ae', 'Asia': 'un' }[c.country] || 'un'}.png`} alt="" className="w-3.5 h-3" />
-          <span className="text-[11px] font-bold text-gray-200">{c.country}</span>
-          <span className="text-[10px] text-gray-400 ml-auto">{c.detail}</span>
+      {/* Collapsible: Crisis */}
+      <CollapsibleSection title="CRISIS METRICS" defaultOpen>
+        <div className="space-y-0">
+          <HormuzStatRow label="Tankers Queued" value={`${d.crisis.tankersQueued}+`} color="#ff6600" />
+          <HormuzStatRow label="Vessels Stranded" value={`${d.crisis.vesselsStranded || 0}+`} color="#ff6600" />
+          <HormuzStatRow label="Attacked / Killed" value={`${d.crisis.vesselsAttacked} / ${d.crisis.seafarersKilled}`} color="#ef4060" />
+          <HormuzStatRow label="Mines" value={d.crisis.minesDetected ? `${d.crisis.minesFound || 0} ACTIVE` : 'NONE'} color={d.crisis.minesDetected ? '#ef4060' : '#2dd4a8'} sub={`${d.crisis.minelayersDestroyed} minelayers destroyed`} />
+          <HormuzStatRow label="Insurance" value={d.crisis.insuranceSurge} color="#ff6600" />
+          <HormuzStatRow label="Tanker Rate" value={d.crisis.tankerRates} color="#ffcc00" />
         </div>
-      ))}
+      </CollapsibleSection>
+
+      {/* Collapsible: Disruptions */}
+      <CollapsibleSection title="EXPORT DISRUPTIONS">
+        {d.disruptions.map((c) => (
+          <div key={c.country} className="flex items-center gap-1.5 py-1.5 border-b border-ops-border/30">
+            <img src={`https://flagcdn.com/16x12/${{ 'Saudi Arabia': 'sa', 'Iraq': 'iq', 'UAE': 'ae', 'Asia': 'un' }[c.country] || 'un'}.png`} alt="" className="w-3.5 h-3" />
+            <span className="text-[11px] font-bold text-gray-200">{c.country}</span>
+            <span className="text-[10px] text-gray-400 ml-auto">{c.detail}</span>
+          </div>
+        ))}
+      </CollapsibleSection>
 
       <p className="text-[8px] text-gray-500 mt-2">Sources: Windward, EIA, Reuters, Anadolu</p>
     </div>

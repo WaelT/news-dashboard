@@ -63,7 +63,7 @@ export default function BreakingNews({ articles, breakingArticles }) {
     <div>
       {/* Breaking alert banner — large flashing red for 10s */}
       {breakingAlert && (
-        <div className="border-b-2 border-ops-red bg-ops-red/20 animate-pulse">
+        <div className="border-b-2 border-ops-red breaking-banner-enter" style={{ background: 'linear-gradient(90deg, rgba(239,64,96,0.2) 0%, rgba(239,64,96,0.05) 100%)' }}>
           <div className="flex items-center overflow-hidden">
             <div className="shrink-0 px-3 py-2.5 bg-white flex items-center gap-2">
               <span className="live-dot w-2.5 h-2.5 rounded-full bg-ops-red" />
