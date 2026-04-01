@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import launchData, { countryBreakdown } from '../data/launchData';
 
 const WAR_START = '2026-02-28';
@@ -182,20 +182,32 @@ function InterceptionGauge({ data }) {
       <div className="flex items-start gap-3">
         {/* Gauge */}
         <svg viewBox={`0 0 ${W} ${H}`} className="flex-1" style={{ maxWidth: 200, height: 120 }}>
+          <defs>
+            <linearGradient id="gauge-gradient" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stopColor="#ef4060" />
+              <stop offset="50%" stopColor="#ffcc00" />
+              <stop offset="100%" stopColor="#2dd4a8" />
+            </linearGradient>
+          </defs>
+
           {/* Background arc */}
           <path d={arcPath(startAngle, endAngle, r)} fill="none" stroke="#1a2a3a" strokeWidth="14" strokeLinecap="round" />
 
-          {/* Red zone (0-70%) */}
-          <path d={arcPath(startAngle, rateToAngle(70), r)} fill="none" stroke="#ff004033" strokeWidth="14" strokeLinecap="round" />
+          {/* Gradient zone overlay */}
+          <path d={arcPath(startAngle, endAngle, r)} fill="none" stroke="url(#gauge-gradient)" strokeWidth="14" strokeLinecap="round" opacity="0.2" />
 
-          {/* Yellow zone (70-90%) */}
-          <path d={arcPath(rateToAngle(70), rateToAngle(90), r)} fill="none" stroke="#ffcc0033" strokeWidth="14" strokeLinecap="round" />
-
-          {/* Green zone (90-100%) */}
-          <path d={arcPath(rateToAngle(90), endAngle, r)} fill="none" style={{ stroke: greenDimVar }} strokeWidth="14" strokeLinecap="round" />
+          {/* Tick marks */}
+          {[25, 50, 75].map(pct => {
+            const a = rateToAngle(pct);
+            const x1 = cx + (r - 9) * Math.cos(a);
+            const y1 = cy - (r - 9) * Math.sin(a);
+            const x2 = cx + (r + 9) * Math.cos(a);
+            const y2 = cy - (r + 9) * Math.sin(a);
+            return <line key={pct} x1={x1} y1={y1} x2={x2} y2={y2} stroke="#334155" strokeWidth="1" />;
+          })}
 
           {/* Active arc */}
-          <path d={arcPath(startAngle, needleAngle, r)} fill="none" stroke={gaugeColor} strokeWidth="14" strokeLinecap="round" />
+          <path d={arcPath(startAngle, needleAngle, r)} fill="none" stroke="url(#gauge-gradient)" strokeWidth="14" strokeLinecap="round" />
 
           {/* Needle */}
           <line x1={cx} y1={cy} x2={needleX} y2={needleY} stroke={gaugeColor} strokeWidth="2.5" strokeLinecap="round" />
@@ -250,6 +262,7 @@ function InterceptionGauge({ data }) {
 
 // Capability degradation line chart
 function CapabilityDegradation({ data }) {
+  const [hoveredIdx, setHoveredIdx] = useState(null);
   const dailyTotals = data.map((d) => ({
     day: warDay(d.date),
     total: d.missiles + d.drones,
@@ -278,33 +291,66 @@ function CapabilityDegradation({ data }) {
   const linePath = points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x} ${p.y}`).join(' ');
   const areaPath = linePath + ` L ${points[points.length - 1].x} ${padT + chartH} L ${points[0].x} ${padT + chartH} Z`;
 
-  const peakY = padT + chartH - (peak / maxTotal) * chartH;
-
   // X-axis labels: show every 3rd day
   const xLabels = points.filter((_, i) => i % 3 === 0);
 
   return (
     <div className="px-3 py-2">
-      <div className="text-[11px] font-bold tracking-widest mb-1.5" style={{ color: '#d4a017' }}>
+      <div className="text-xs font-bold tracking-widest mb-1.5" style={{ color: '#d4a017' }}>
         CAPABILITY DEGRADATION
       </div>
 
       {/* SVG line chart */}
       <svg viewBox={`0 0 ${W} ${H}`} className="w-full" style={{ height: 120 }}>
-        {/* Grid lines */}
-        <line x1={padL} y1={padT} x2={padL} y2={padT + chartH} stroke="#1a2a3a" strokeWidth="0.5" />
-        <line x1={padL} y1={padT + chartH} x2={padL + chartW} y2={padT + chartH} stroke="#1a2a3a" strokeWidth="0.5" />
+        {/* Axis lines */}
+        <line x1={padL} y1={padT} x2={padL} y2={padT + chartH} stroke="#1a2d3d" strokeWidth="0.5" />
+        <line x1={padL} y1={padT + chartH} x2={padL + chartW} y2={padT + chartH} stroke="#1a2d3d" strokeWidth="0.5" />
+
+        {/* Horizontal gridlines */}
+        {[0.25, 0.5, 0.75].map(frac => {
+          const yPos = padT + chartH - frac * chartH;
+          return (
+            <g key={frac}>
+              <line x1={padL} y1={yPos} x2={padL + chartW} y2={yPos} stroke="#1a2d3d" strokeWidth="0.5" strokeDasharray="3,2" />
+              <text x={padL - 3} y={yPos + 3} textAnchor="end" fill="#6e7681" fontSize="8" fontFamily="monospace">
+                {formatNum(Math.round(maxTotal * frac))}
+              </text>
+            </g>
+          );
+        })}
 
         {/* Fill area */}
-        <path d={areaPath} fill="#ff0040" opacity="0.12" />
+        <path d={areaPath} fill="#ef4060" opacity="0.1" />
 
         {/* Line */}
-        <path d={linePath} fill="none" stroke="#ff0040" strokeWidth="1.5" strokeLinejoin="round" />
+        <path d={linePath} fill="none" stroke="#ef4060" strokeWidth="1.5" strokeLinejoin="round" />
 
-        {/* Data points */}
+        {/* Data points — interactive */}
         {points.map((p, i) => (
-          <circle key={i} cx={p.x} cy={p.y} r="1.5" fill="#ff0040" />
+          <g key={i} onMouseEnter={() => setHoveredIdx(i)} onMouseLeave={() => setHoveredIdx(null)} style={{ cursor: 'pointer' }}>
+            <circle cx={p.x} cy={p.y} r="8" fill="transparent" />
+            <circle cx={p.x} cy={p.y} r={hoveredIdx === i ? 3.5 : 1.5} fill="#ef4060" style={{ transition: 'r 0.15s ease' }} />
+          </g>
         ))}
+
+        {/* Hover tooltip */}
+        {hoveredIdx !== null && (() => {
+          const p = points[hoveredIdx];
+          const tw = 52, th = 26;
+          const tx = Math.min(Math.max(p.x - tw / 2, padL), padL + chartW - tw);
+          const ty = p.y - th - 6;
+          return (
+            <g>
+              <rect x={tx} y={ty} width={tw} height={th} rx="3" fill="#0c1320" stroke="#1a2d3d" strokeWidth="0.5" />
+              <text x={tx + tw / 2} y={ty + 11} textAnchor="middle" fill="#ef4060" fontSize="10" fontWeight="bold" fontFamily="monospace">
+                {p.total}
+              </text>
+              <text x={tx + tw / 2} y={ty + 21} textAnchor="middle" fill="#9ca3af" fontSize="8" fontFamily="monospace">
+                Day {p.day}
+              </text>
+            </g>
+          );
+        })()}
 
         {/* X-axis labels */}
         {xLabels.map((p) => (

@@ -201,8 +201,8 @@ export default function ImpactTracker() {
                 {/* Country label */}
                 <div className="flex items-center justify-between mb-1">
                   <div className="flex items-center gap-1.5">
+                    <img src={flagUrl(p.cc)} alt={p.label} className="w-5 h-3.5 object-cover rounded-sm border border-white/10" />
                     <span className="text-xs font-bold" style={{ color: p.color }}>{p.label}</span>
-                    <img src={flagUrl(p.cc)} alt={p.label} className="w-4 h-3 object-cover rounded-sm" />
                   </div>
                   <span className="text-[11px] font-mono text-ops-muted">{p.total.toLocaleString()}</span>
                 </div>

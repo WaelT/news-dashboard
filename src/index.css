@@ -123,6 +123,15 @@ html, body, #root {
   animation: svg-pulse-ring 2s ease-in-out infinite;
 }
 
+/* Concentric ripple rings for recent strike markers */
+@keyframes ripple-ring {
+  0% { r: 12; opacity: 0.5; stroke-width: 1.5; }
+  100% { r: 24; opacity: 0; stroke-width: 0.3; }
+}
+.map-icon-ripple-1 { animation: ripple-ring 2.5s ease-out infinite; }
+.map-icon-ripple-2 { animation: ripple-ring 2.5s ease-out infinite 0.8s; }
+.map-icon-ripple-3 { animation: ripple-ring 2.5s ease-out infinite 1.6s; }
+
 /* Flash animation for zones with very recent strikes */
 @keyframes map-flash {
   0%, 100% { opacity: 0.15; }

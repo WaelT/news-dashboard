@@ -205,7 +205,9 @@ function createMarkerIcon(zone, live) {
   const isFlash = live.isFlash;
 
   const pulseRing = isPulsing
-    ? `<circle cx="12" cy="12" r="11" fill="none" stroke="${ring.color}" stroke-width="1" opacity="${ring.opacity}" class="map-icon-pulse"/>`
+    ? `<circle cx="12" cy="12" r="12" fill="none" stroke="${ring.color}" stroke-width="1" opacity="0.5" class="map-icon-ripple-1"/>
+       <circle cx="12" cy="12" r="12" fill="none" stroke="${ring.color}" stroke-width="1" opacity="0.5" class="map-icon-ripple-2"/>
+       <circle cx="12" cy="12" r="12" fill="none" stroke="${ring.color}" stroke-width="1" opacity="0.5" class="map-icon-ripple-3"/>`
     : '';
 
   const flashRing = isFlash
