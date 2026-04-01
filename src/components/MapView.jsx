@@ -731,7 +731,7 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'MAR 31, 2026',
+  updated: 'APR 1, 2026',
   current: {
     transitsPerDay: 5,
     oilFlowMbd: 0.3,
@@ -744,24 +744,24 @@ const HORMUZ_DATA = {
     globalLngPct: 20,
   },
   crisis: {
-    tankersQueued: 240,
+    tankersQueued: 250,
     vesselsStranded: 2000,
     seafarersStranded: 20000,
-    vesselsAttacked: 40,
-    seafarersKilled: 28,
+    vesselsAttacked: 42,
+    seafarersKilled: 30,
     minesDetected: true,
     minesFound: 12,
     minelayersDestroyed: 44,
     insuranceSurge: '5-10% of vessel value',
     tankerRates: '$500K/day',
-    trumpUltimatum: 'Strike pause to Apr 6; Trump: "take the oil"; eyes Kharg Island seizure',
-    iranThreat: 'Yuan-based toll system; Houthis threaten Bab al-Mandab; dual chokepoint active',
+    trumpUltimatum: 'Strike pause to Apr 6; Trump: war could end "2-3 weeks"',
+    iranThreat: 'Kuwaiti tanker attacked at Dubai port; 4th NATO interception over Turkey',
   },
   disruptions: [
-    { country: 'Saudi Arabia', detail: 'Islamabad talks continue; aluminum plants hit in Bahrain + UAE' },
-    { country: 'Iraq', detail: 'PMF in Iran; 105 killed; militia offensives continue' },
-    { country: 'UAE', detail: '357 BMs + 1,806 drones intercepted; aluminum facility struck' },
-    { country: 'Asia', detail: 'Brent +60% ($116); dual chokepoint; USS Tripoli + 3,500 troops arrive' },
+    { country: 'Saudi Arabia', detail: 'Intercepts 8 BMs targeting Riyadh + Eastern Province' },
+    { country: 'Iraq', detail: 'PMF in Iran; 108 killed; militia offensives continue' },
+    { country: 'UAE', detail: 'Kuwaiti tanker Al-Salmi struck by drone at Dubai port; fire for hours' },
+    { country: 'Asia', detail: 'Brent retreats to $105 from $116 on diplomacy signals; $14-18 premium' },
   ],
 };
 

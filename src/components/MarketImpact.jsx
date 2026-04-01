@@ -16,7 +16,7 @@ const FALLBACK = {
   nasdaq: { price: 22374.00, change: -0.02 },
   dowjones: { price: 46993.26, change: 0.10 },
   nikkei: { price: 53700.39, change: 0.00 },
-  brent: { price: 115.35, change: 60.0 },
+  brent: { price: 105.13, change: 50.0 },
   btc: { price: 75991.00, change: 0.25 },
   gold: { price: 5004.00, change: -0.40 },
   silver: { price: 80.90, change: 2.49 },
@@ -45,12 +45,12 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'US Military Cost', value: '$37B+', sub: '~$1.2B/day (31 days)', color: '#ff0040' },
+  { label: 'US Military Cost', value: '$38B+', sub: '~$1.2B/day (32 days)', color: '#ff0040' },
   { label: 'Total War Cost Est.', value: '$70B', sub: 'Penn Wharton central', color: '#ff0040' },
   { label: 'Broader US Impact', value: '$220B', sub: 'incl. economic losses', color: '#ff0040' },
   { label: 'Pentagon Request', value: '$200B', sub: 'emergency supplemental to Congress', color: '#ff0040' },
   { label: 'Trump', value: '"TAKE THE OIL"', sub: 'eyes Kharg Island seizure; USS Tripoli + 3,500 troops arrive', color: '#ff0040' },
-  { label: 'Brent Crude', value: '$116', sub: '/barrel (+60%); Trump "take the oil" spooks markets', color: '#ff6600' },
+  { label: 'Brent Crude', value: '$105', sub: '/barrel (+50%); retreated from $116 on diplomacy hopes', color: '#ff6600' },
   { label: 'Hormuz Disruption', value: '96%', sub: '~5 ships/day; IRGC yuan-based toll; 33 Larak transits', color: '#ff0040' },
   { label: 'Bab al-Mandab', value: 'THREATENED', sub: 'Houthis: closure "viable option"; 15% global trade', color: '#ff0040' },
   { label: 'Tehran Blackout', value: 'STRUCK', sub: 'power infrastructure hit; restored; Karaj/Shiraz/Qom too', color: '#ff0040' },

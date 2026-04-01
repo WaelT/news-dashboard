@@ -701,6 +701,48 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Desalination/power infrastructure attacked; Brent surges past $116',
   },
+  {
+    date: '2026-03-31',
+    event: 'IRGC 87th wave — Navy launches attacks proving naval force "not obliterated"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Strong message to US; Iran International: 4,700+ security forces killed total',
+  },
+  {
+    date: '2026-03-31',
+    event: 'Iran drone strikes Kuwaiti oil tanker at Dubai port — fire erupts',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Al-Salmi tanker fully loaded; 24 crew safe; fire burned for hours',
+  },
+  {
+    date: '2026-03-31',
+    event: 'NATO intercepts 4th Iranian missile in Turkish airspace',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Iran denies targeting Turkey; missile heading toward Mediterranean intercepted',
+  },
+  {
+    date: '2026-03-31',
+    event: 'Iran fires cluster munitions at Israel; explosions in Tehran + Isfahan',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Saudi intercepts 8 BMs targeting Riyadh + Eastern Province; IDF strikes Hezbollah launchers',
+  },
+  {
+    date: '2026-03-31',
+    event: 'Rubio: US war objectives achieved in "weeks"; Trump: war could end in 2-3 weeks',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Iran deeply distrusts US; believes Washington not genuinely ready for negotiations',
+  },
+  {
+    date: '2026-03-31',
+    event: 'Hezbollah barrage injures 3 incl. 6-year-old child; IDF strikes launchers',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '10 IDF soldiers killed in Lebanon total; 2 civilians killed by rockets',
+  },
 ];
 
 export const STATUS_COLORS = {
