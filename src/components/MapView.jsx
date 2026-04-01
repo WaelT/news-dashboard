@@ -823,9 +823,9 @@ function HormuzStats() {
   const d = HORMUZ_DATA;
   return (
     <div className="text-ops-text">
-      <div className="text-[9px] text-gray-400 tracking-widest mb-1.5 flex items-center justify-between">
-        <span>STATUS</span>
-        <span className="text-[8px]">{d.updated}</span>
+      <div className="text-[11px] text-gray-400 tracking-widest mb-1.5 flex items-center justify-between">
+        <span className="font-bold">STATUS</span>
+        <span className="text-[9px]">{d.updated}</span>
       </div>
 
       {/* Disruption donut + key stats */}
