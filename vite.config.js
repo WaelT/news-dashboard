@@ -80,6 +80,11 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: () => '/rss/search?q=%D8%B9%D8%A7%D8%AC%D9%84+%D8%A5%D9%8A%D8%B1%D8%A7%D9%86&hl=ar&gl=SA&ceid=SA:ar',
       },
+      '/tg-proxy': {
+        target: 'https://t.me',
+        changeOrigin: true,
+        rewrite: (path) => '/s' + path.replace(/^\/tg-proxy/, ''),
+      },
     },
   },
 });
