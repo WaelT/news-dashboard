@@ -3,6 +3,7 @@ import Header from './Header';
 import MapView from './MapView';
 import ConflictTimeline from './ConflictTimeline';
 import DiplomaticTimeline from './DiplomaticTimeline';
+import TelegramFeed from './TelegramFeed';
 import ImpactTracker from './ImpactTracker';
 import MarketImpact from './MarketImpact';
 import MissileDroneTracker from './MissileDroneTracker';
@@ -64,10 +65,16 @@ function TimelineTabs({ enArticles, arArticles }) {
           >
             DIPLO
           </button>
+          <button
+            onClick={() => setTab('tg')}
+            className={`px-2.5 py-2 text-[11px] font-bold tracking-widest transition-all duration-150 ${tab === 'tg' ? 'text-[#0088cc] border-b-2 border-[#0088cc]' : 'text-ops-muted hover:text-ops-text'}`}
+          >
+            TG
+          </button>
         </div>
       </div>
       <div className="flex-1 min-h-0 overflow-hidden">
-        {tab === 'diplo' ? <DiplomaticTimeline /> : <ConflictTimeline articles={tab === 'en' ? enArticles : arArticles} />}
+        {tab === 'tg' ? <TelegramFeed /> : tab === 'diplo' ? <DiplomaticTimeline /> : <ConflictTimeline articles={tab === 'en' ? enArticles : arArticles} />}
       </div>
     </div>
   );
