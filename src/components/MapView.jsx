@@ -731,7 +731,7 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'MAR 30, 2026',
+  updated: 'MAR 31, 2026',
   current: {
     transitsPerDay: 5,
     oilFlowMbd: 0.3,
@@ -744,24 +744,24 @@ const HORMUZ_DATA = {
     globalLngPct: 20,
   },
   crisis: {
-    tankersQueued: 230,
+    tankersQueued: 240,
     vesselsStranded: 2000,
     seafarersStranded: 20000,
-    vesselsAttacked: 38,
-    seafarersKilled: 26,
+    vesselsAttacked: 40,
+    seafarersKilled: 28,
     minesDetected: true,
     minesFound: 12,
     minelayersDestroyed: 44,
     insuranceSurge: '5-10% of vessel value',
     tankerRates: '$500K/day',
-    trumpUltimatum: 'Strike pause to Apr 6; threatens Kharg Island + power plants if no deal',
-    iranThreat: 'Houthis: Bab al-Mandab closure "viable option"; dual chokepoint risk active',
+    trumpUltimatum: 'Strike pause to Apr 6; Trump: "take the oil"; eyes Kharg Island seizure',
+    iranThreat: 'Yuan-based toll system; Houthis threaten Bab al-Mandab; dual chokepoint active',
   },
   disruptions: [
-    { country: 'Saudi Arabia', detail: 'Islamabad talks hosted; 4 FMs discuss Hormuz reopening' },
-    { country: 'Iraq', detail: 'PMF convoy enters Khorramshahr — ground reinforcements to Iran' },
-    { country: 'UAE', detail: '357 BMs + 1,806 drones intercepted; 33 transits via Larak in 2 weeks' },
-    { country: 'Asia', detail: 'Bab al-Mandab + Hormuz dual chokepoint; Brent +55% record month' },
+    { country: 'Saudi Arabia', detail: 'Islamabad talks continue; aluminum plants hit in Bahrain + UAE' },
+    { country: 'Iraq', detail: 'PMF in Iran; 105 killed; militia offensives continue' },
+    { country: 'UAE', detail: '357 BMs + 1,806 drones intercepted; aluminum facility struck' },
+    { country: 'Asia', detail: 'Brent +60% ($116); dual chokepoint; USS Tripoli + 3,500 troops arrive' },
   ],
 };
 

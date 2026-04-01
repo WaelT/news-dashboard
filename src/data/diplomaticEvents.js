@@ -659,6 +659,48 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Pentagon plans for "weeks of ground operations" reported; Brent crude record monthly gain (+55%)',
   },
+  {
+    date: '2026-03-30',
+    event: 'Trump: wants to "take the oil in Iran" — eyes Kharg Island seizure',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Compares to Venezuela operation; threatens to destroy all energy sources if no deal "shortly"',
+  },
+  {
+    date: '2026-03-30',
+    event: 'Iran rejects 15-point plan as "excessive, unrealistic and unreasonable"',
+    type: 'diplomacy',
+    status: 'rejected',
+    detail: 'Trump claims Iran agreed to "most of" demands; Tehran contradicts publicly',
+  },
+  {
+    date: '2026-03-30',
+    event: 'USS Tripoli arrives with 3,500 troops; Pentagon considers 10,000 more',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Marine Expeditionary Unit deployed; ground invasion planning continues',
+  },
+  {
+    date: '2026-03-30',
+    event: 'US-Israeli strikes cause Tehran blackout — power infrastructure targeted',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Also hit Karaj, Shiraz, Qom, Abadan, Tabriz; aluminum plants struck in Bahrain + UAE',
+  },
+  {
+    date: '2026-03-30',
+    event: '4 IDF soldiers killed in Hezbollah clash — deadliest single incident',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Nahal Recon Unit ambushed in western Lebanon; top Hezbollah-Palestinian coordinators killed in Beirut',
+  },
+  {
+    date: '2026-03-30',
+    event: 'Iran targets Kuwait water + power facilities',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Desalination/power infrastructure attacked; Brent surges past $116',
+  },
 ];
 
 export const STATUS_COLORS = {

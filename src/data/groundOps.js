@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 29, 2026',
+  updated: 'MAR 30, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -338,6 +338,20 @@ const groundOps = {
       lng: 35.55,
       event: '769th Hiram Brigade operations in southern Lebanon',
       type: 'ground',
+    },
+    {
+      date: '2026-03-30',
+      lat: 33.15,
+      lng: 35.25,
+      event: '4 Nahal Recon soldiers killed in Hezbollah ambush — deadliest single incident',
+      type: 'engagement',
+    },
+    {
+      date: '2026-03-30',
+      lat: 33.85,
+      lng: 35.50,
+      event: 'IDF kills top Hezbollah-Palestinian coordination commanders in Beirut strike',
+      type: 'airstrike',
     },
   ],
 };
