@@ -7,13 +7,15 @@ export default {
       colors: {
         ops: {
           bg: 'var(--ops-bg, #050a0e)',
-          panel: 'var(--ops-panel, #0d1117)',
-          border: 'var(--ops-border, #1b3a2a)',
-          green: '#00ff41',
+          panel: 'var(--ops-panel, #0c1320)',
+          'panel-header': 'var(--ops-panel-header, #111b27)',
+          border: 'var(--ops-border, #1a2d3d)',
+          green: 'var(--ops-green, #2dd4a8)',
           amber: '#ff6600',
-          red: '#ff0040',
+          red: '#ef4060',
           text: 'var(--ops-text, #c9d1d9)',
           muted: 'var(--ops-muted, #6e7681)',
+          glow: 'var(--ops-glow, rgba(45, 212, 168, 0.08))',
         },
       },
       fontFamily: {
@@ -31,8 +33,8 @@ export default {
           '50%': { opacity: '0.5', transform: 'scale(1.5)' },
         },
         glow: {
-          from: { boxShadow: '0 0 5px #00ff41, 0 0 10px #00ff4133' },
-          to: { boxShadow: '0 0 10px #00ff41, 0 0 20px #00ff4144' },
+          from: { boxShadow: '0 0 5px var(--ops-green, #2dd4a8), 0 0 10px rgba(45, 212, 168, 0.2)' },
+          to: { boxShadow: '0 0 10px var(--ops-green, #2dd4a8), 0 0 20px rgba(45, 212, 168, 0.25)' },
         },
         scanline: {
           '0%': { transform: 'translateY(-100%)' },

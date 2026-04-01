@@ -33,7 +33,7 @@ function getThreatLevel(activeZoneCount, breakingCount) {
   if (score >= 20) return { label: 'CRITICAL', color: '#ff0040' };
   if (score >= 10) return { label: 'SEVERE', color: '#ff6600' };
   if (score >= 4) return { label: 'ELEVATED', color: '#d4a017' };
-  return { label: 'GUARDED', color: '#00ff41' };
+  return { label: 'GUARDED', color: '#2dd4a8' };
 }
 
 const TOP_INIT = [0.5, 0.5];
@@ -43,24 +43,24 @@ function TimelineTabs({ enArticles, arArticles }) {
   const [tab, setTab] = useState('en');
   return (
     <div className="flex flex-col h-full">
-      <div className="flex items-center border-b border-ops-border">
-        <span className="px-3 text-ops-amber text-[10px] font-bold tracking-widest">TIMELINE</span>
+      <div className="flex items-center panel-header">
+        <span className="px-3 text-ops-amber text-[11px] font-bold tracking-widest">TIMELINE</span>
         <div className="flex ml-auto">
           <button
             onClick={() => setTab('en')}
-            className={`px-2 py-1.5 text-[10px] font-bold tracking-widest transition-colors ${tab === 'en' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
+            className={`px-2.5 py-2 text-[11px] font-bold tracking-widest transition-all duration-150 ${tab === 'en' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
           >
             EN
           </button>
           <button
             onClick={() => setTab('ar')}
-            className={`px-2 py-1.5 text-[10px] font-bold tracking-widest transition-colors ${tab === 'ar' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
+            className={`px-2.5 py-2 text-[11px] font-bold tracking-widest transition-all duration-150 ${tab === 'ar' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
           >
             AR
           </button>
           <button
             onClick={() => setTab('diplo')}
-            className={`px-2 py-1.5 text-[10px] font-bold tracking-widest transition-colors ${tab === 'diplo' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
+            className={`px-2.5 py-2 text-[11px] font-bold tracking-widest transition-all duration-150 ${tab === 'diplo' ? 'text-ops-amber border-b-2 border-ops-amber' : 'text-ops-muted hover:text-ops-text'}`}
           >
             DIPLO
           </button>

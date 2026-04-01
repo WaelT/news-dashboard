@@ -66,19 +66,19 @@ const ECON_DATA = [
 
 function EconomicImpact() {
   return (
-    <div className="px-3 py-1.5">
-      <div className="grid grid-cols-2 gap-x-3 gap-y-1.5">
+    <div className="px-3 py-2">
+      <div className="grid grid-cols-2 gap-x-3 gap-y-2">
         {ECON_DATA.map((item) => (
-          <div key={item.label} className="py-1 border-b border-ops-border/30">
+          <div key={item.label} className="py-1.5 border-b border-ops-border/30">
             <div className="flex items-baseline gap-1.5">
               <span className="text-sm font-bold font-mono" style={{ color: item.color }}>{item.value}</span>
-              <span className="text-[10px] text-ops-muted truncate">{item.sub}</span>
+              <span className="text-[11px] text-ops-muted truncate">{item.sub}</span>
             </div>
-            <span className="text-[11px] text-ops-text">{item.label}</span>
+            <span className="text-xs text-ops-text">{item.label}</span>
           </div>
         ))}
       </div>
-      <p className="text-ops-muted text-[8px] mt-1.5 pt-1 border-t border-ops-border/30">
+      <p className="text-ops-muted text-[9px] mt-2 pt-1.5 border-t border-ops-border/30">
         Sources: Al Jazeera, Oxford Economics, Yahoo Finance, Bloomberg, GCC Central Banks
       </p>
     </div>
@@ -115,12 +115,12 @@ export default function MarketImpact() {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="px-4 py-2 border-b border-ops-border flex items-center justify-between">
-        <span className="text-[#00b4d8] text-xs font-bold tracking-widest">MARKETS</span>
+      <div className="panel-header px-4 py-2.5 flex items-center justify-between">
+        <span className="text-[#00b4d8] text-sm font-bold tracking-widest">MARKETS</span>
         {markets.some((m) => m.live) && (
           <span className="flex items-center gap-1">
             <span className="live-dot w-1.5 h-1.5 rounded-full bg-green-500" />
-            <span className="text-green-500 text-[9px] font-bold">LIVE</span>
+            <span className="text-green-500 text-[10px] font-bold">LIVE</span>
           </span>
         )}
       </div>
@@ -131,11 +131,11 @@ export default function MarketImpact() {
             const up = m.change >= 0;
             const color = up ? '#22c55e' : '#ff0040';
             return (
-              <div key={m.id} className="flex items-center gap-2 py-1 border-b border-ops-border/30">
-                <span className="text-[11px] font-mono" style={{ color }}>{up ? '▲' : '▼'}</span>
-                <span className="text-[11px] font-bold text-ops-muted font-mono">{m.label}</span>
-                <span className="text-[12px] font-bold font-mono text-ops-text">{formatPrice(m.price)}</span>
-                <span className="text-[11px] font-bold font-mono ml-auto" style={{ color }}>
+              <div key={m.id} className="flex items-center gap-2 py-1.5 border-b border-ops-border/30 hover:bg-ops-border/10 rounded transition-colors duration-150">
+                <span className="text-xs font-mono" style={{ color }}>{up ? '▲' : '▼'}</span>
+                <span className="text-xs font-bold text-ops-muted font-mono">{m.label}</span>
+                <span className="text-[13px] font-bold font-mono text-ops-text">{formatPrice(m.price)}</span>
+                <span className="text-xs font-bold font-mono ml-auto" style={{ color }}>
                   {up ? '+' : ''}{m.change.toFixed(1)}%
                 </span>
               </div>
@@ -144,9 +144,9 @@ export default function MarketImpact() {
         </div>
 
         {/* Economic Impact */}
-        <div className="px-3 py-1.5 border-t border-ops-border flex items-center justify-between">
-          <span className="text-[#ff6600] text-[10px] font-bold tracking-widest">ECONOMIC IMPACT</span>
-          <span className="text-ops-muted text-[8px]">EST. COSTS</span>
+        <div className="panel-header px-3 py-2 flex items-center justify-between">
+          <span className="text-[#ff6600] text-[11px] font-bold tracking-widest">ECONOMIC IMPACT</span>
+          <span className="text-ops-muted text-[9px]">EST. COSTS</span>
         </div>
         <EconomicImpact />
       </div>

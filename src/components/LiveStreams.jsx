@@ -14,21 +14,21 @@ export default function LiveStreams() {
   return (
     <div className="h-full flex flex-col">
       {/* Panel header */}
-      <div className="px-3 py-1.5 border-b border-ops-border flex items-center justify-between">
+      <div className="panel-header px-3 py-2 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <span className="text-ops-red text-[10px] font-bold tracking-widest">LIVE TV</span>
+          <span className="text-ops-red text-[11px] font-bold tracking-widest">LIVE TV</span>
           <span className="live-dot inline-block w-1.5 h-1.5 rounded-full bg-ops-red" />
         </div>
-        <span className="text-ops-muted text-[9px]">{STREAMS.length} CHANNELS</span>
+        <span className="text-ops-muted text-[10px]">{STREAMS.length} CHANNELS</span>
       </div>
 
       {/* Channel selector */}
-      <div className="px-2 py-1.5 border-b border-ops-border/50 flex flex-wrap gap-1 overflow-y-auto max-h-[72px]">
+      <div className="px-2 py-2 border-b border-ops-border/50 flex flex-wrap gap-1.5 overflow-y-auto max-h-[72px]">
         {STREAMS.map((s, i) => (
           <button
             key={s.name}
             onClick={() => setSelected(i)}
-            className={`px-2 py-0.5 text-[9px] font-bold tracking-wider rounded transition-colors ${
+            className={`px-2.5 py-1 text-[10px] font-bold tracking-wider rounded transition-all duration-150 ${
               selected === i
                 ? 'bg-ops-border/40 text-white'
                 : 'text-ops-muted hover:text-ops-text hover:bg-ops-border/20'

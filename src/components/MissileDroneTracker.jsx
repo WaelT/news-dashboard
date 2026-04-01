@@ -365,16 +365,16 @@ export default function MissileDroneTracker() {
   return (
     <div className="flex flex-col h-full">
       {/* Header */}
-      <div className="px-3 py-1.5 border-b border-ops-border flex items-center justify-between">
-        <span className="text-ops-red text-[11px] font-bold tracking-widest">IRAN MISSILES & DRONES</span>
-        <span className="text-ops-muted text-[9px]">{dateRange}</span>
+      <div className="panel-header px-3 py-2 flex items-center justify-between">
+        <span className="text-ops-red text-xs font-bold tracking-widest">IRAN MISSILES & DRONES</span>
+        <span className="text-ops-muted text-[10px]">{dateRange}</span>
       </div>
 
       {/* Totals bar */}
-      <div className="px-3 py-1.5 border-b border-ops-border/50 flex items-center gap-4 flex-wrap">
+      <div className="px-3 py-2 border-b border-ops-border/50 flex items-center gap-4 flex-wrap">
         <div className="flex items-center gap-1.5">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#cc0033]" />
-          <span className="text-[9px] text-ops-muted font-bold">MISSILES</span>
+          <span className="w-1.5 h-1.5 rounded-full bg-[#d4304d]" />
+          <span className="text-[10px] text-ops-muted font-bold">MISSILES</span>
           <span className="text-base font-bold font-mono text-[#ff0040]">{formatNum(totals.missiles)}</span>
         </div>
         <div className="flex items-center gap-1.5">

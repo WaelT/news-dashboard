@@ -26,17 +26,17 @@ function NewsList({ articles, loading, error, lastUpdated, label, emptyMsg, rtl 
   return (
     <div className="flex flex-col h-full">
       {/* Panel header */}
-      <div className="flex items-center justify-between px-3 py-2 border-b border-ops-border">
+      <div className="flex items-center justify-between panel-header px-3 py-2">
         <div className="flex items-center gap-2">
-          <span className="text-ops-amber text-[10px] font-bold tracking-widest">
+          <span className="text-ops-amber text-[11px] font-bold tracking-widest">
             {label}
           </span>
-          <span className="text-ops-muted text-[9px]">
+          <span className="text-ops-muted text-[10px]">
             {articles.length > 0 ? `${articles.length} items` : ''}
           </span>
         </div>
         {lastUpdated && (
-          <span className="text-ops-muted text-[9px]">
+          <span className="text-ops-muted text-[10px]">
             UPD {lastUpdated.toLocaleTimeString('en-US', { hour12: false })}
           </span>
         )}
@@ -60,11 +60,11 @@ function NewsList({ articles, loading, error, lastUpdated, label, emptyMsg, rtl 
             href={article.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="block px-3 py-2 border-b border-ops-border/50 hover:bg-ops-border/20 transition-colors group"
+            className="block px-3 py-2.5 border-b border-ops-border/50 hover:bg-ops-border/20 transition-all duration-150 group"
           >
             <div className="flex items-start gap-2">
               <span
-                className="text-[8px] font-bold px-1 py-0.5 rounded shrink-0 mt-0.5 tracking-wide"
+                className="text-[9px] font-bold px-1.5 py-0.5 rounded shrink-0 mt-0.5 tracking-wide"
                 style={{
                   background: `${article.sourceColor || '#6e7681'}22`,
                   color: article.sourceColor || '#6e7681',
@@ -72,12 +72,12 @@ function NewsList({ articles, loading, error, lastUpdated, label, emptyMsg, rtl 
               >
                 {article.source}
               </span>
-              <span className="text-ops-muted text-[9px] shrink-0 mt-0.5">
+              <span className="text-ops-muted text-[10px] shrink-0 mt-0.5">
                 {timeAgo(article.pubDate)}
               </span>
             </div>
             <p
-              className="text-[11px] text-ops-text mt-1 leading-relaxed group-hover:text-ops-amber transition-colors line-clamp-2"
+              className="text-xs text-ops-text mt-1 leading-relaxed group-hover:text-ops-amber transition-colors duration-150 line-clamp-2"
               dir={rtl ? 'rtl' : undefined}
             >
               {article.title}

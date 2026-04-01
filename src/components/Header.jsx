@@ -6,7 +6,7 @@ const ZONES = [
   { timeZone: 'UTC', label: 'UTC', color: '#ff6600' },
   { timeZone: 'Asia/Tehran', label: 'TEHRAN', color: '#ff0040' },
   { timeZone: 'Asia/Riyadh', label: 'RIYADH', color: '#d4a017' },
-  { timeZone: undefined, label: 'LOCAL', color: '#00ff41' },
+  { timeZone: undefined, label: 'LOCAL', color: '#2dd4a8' },
 ];
 
 export default function Header({ threatLevel, oilPrice, activeZoneCount }) {
@@ -20,11 +20,11 @@ export default function Header({ threatLevel, oilPrice, activeZoneCount }) {
   }, []);
 
   return (
-    <header className="bg-ops-panel border-b border-ops-border px-3 lg:px-4 py-1.5 lg:py-2">
+    <header className="panel-header px-3 lg:px-4 py-2 lg:py-2.5">
       {/* Row 1: Title + Status + Controls */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2 lg:gap-4 min-w-0">
-          <h1 className="text-ops-green font-bold text-xs lg:text-lg tracking-widest font-display truncate">
+          <h1 className="text-ops-green font-bold text-sm lg:text-xl tracking-widest font-display truncate">
             OPS DASHBOARD
           </h1>
           <div className="flex items-center gap-1 lg:gap-2 shrink-0">
@@ -34,7 +34,7 @@ export default function Header({ threatLevel, oilPrice, activeZoneCount }) {
         </div>
 
         {/* Status indicators — desktop only */}
-        <div className="hidden lg:flex items-center gap-4 text-[10px]">
+        <div className="hidden lg:flex items-center gap-4 text-[11px]">
           {threatLevel && (
             <div className="flex items-center gap-1.5 px-2 py-1 border rounded" style={{ borderColor: `${threatLevel.color}66` }}>
               <span className="live-dot w-1.5 h-1.5 rounded-full" style={{ background: threatLevel.color }} />
@@ -46,7 +46,7 @@ export default function Header({ threatLevel, oilPrice, activeZoneCount }) {
             <div className="flex items-center gap-1.5 px-2 py-1 border border-ops-border rounded">
               <span className="text-ops-muted font-bold tracking-wider">OIL</span>
               <span className="font-mono text-ops-text">${oilPrice.price.toFixed(2)}</span>
-              <span className={`font-mono ${oilPrice.change >= 0 ? 'text-[#00ff41]' : 'text-[#ff0040]'}`}>
+              <span className={`font-mono ${oilPrice.change >= 0 ? 'text-ops-green' : 'text-ops-red'}`}>
                 {oilPrice.change >= 0 ? '+' : ''}{oilPrice.change.toFixed(1)}%
               </span>
             </div>
@@ -149,7 +149,7 @@ export default function Header({ threatLevel, oilPrice, activeZoneCount }) {
           <div className="flex items-center gap-1 text-[9px]">
             <span className="text-ops-muted font-bold">OIL</span>
             <span className="font-mono text-ops-text">${oilPrice.price.toFixed(0)}</span>
-            <span className={`font-mono ${oilPrice.change >= 0 ? 'text-[#00ff41]' : 'text-[#ff0040]'}`}>
+            <span className={`font-mono ${oilPrice.change >= 0 ? 'text-ops-green' : 'text-ops-red'}`}>
               {oilPrice.change >= 0 ? '+' : ''}{oilPrice.change.toFixed(1)}%
             </span>
           </div>

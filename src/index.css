@@ -13,23 +13,27 @@
 /* Dark mode (default) */
 html.dark, .dark body, .dark #root {
   --ops-bg: #050a0e;
-  --ops-panel: #0d1117;
-  --ops-border: #1b3a2a;
+  --ops-panel: #0c1320;
+  --ops-panel-header: #111b27;
+  --ops-border: #1a2d3d;
   --ops-text: #c9d1d9;
   --ops-muted: #6e7681;
-  --ops-green: #00ff41;
-  --ops-green-dim: #00ff4133;
+  --ops-green: #2dd4a8;
+  --ops-green-dim: #2dd4a833;
+  --ops-glow: rgba(45, 212, 168, 0.08);
 }
 
 /* Light mode */
 html.light, .light body, .light #root {
   --ops-bg: #f0f2f5;
   --ops-panel: #ffffff;
+  --ops-panel-header: #f6f8fa;
   --ops-border: #d0d7de;
   --ops-text: #1f2328;
   --ops-muted: #656d76;
-  --ops-green: #059669;
-  --ops-green-dim: #05966933;
+  --ops-green: #0d9488;
+  --ops-green-dim: #0d948833;
+  --ops-glow: rgba(13, 148, 136, 0.06);
 }
 
 html, body, #root {
@@ -56,7 +60,7 @@ html, body, #root {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #00ff41;
+  background: var(--ops-green, #2dd4a8);
 }
 
 /* Leaflet overrides for theme */
@@ -88,8 +92,8 @@ html, body, #root {
 
 .leaflet-control-zoom a {
   background: var(--ops-panel, #0d1117) !important;
-  color: #00ff41 !important;
-  border-color: var(--ops-border, #1b3a2a) !important;
+  color: var(--ops-green, #2dd4a8) !important;
+  border-color: var(--ops-border, #1a2d3d) !important;
 }
 
 .leaflet-control-attribution {
@@ -158,21 +162,27 @@ html, body, #root {
     0deg,
     transparent,
     transparent 2px,
-    rgba(0, 255, 65, 0.015) 2px,
-    rgba(0, 255, 65, 0.015) 4px
+    rgba(45, 212, 168, 0.008) 2px,
+    rgba(45, 212, 168, 0.008) 4px
   );
   pointer-events: none;
   z-index: 50;
 }
 
+/* Glass-morphism panel header */
+.panel-header {
+  background: var(--ops-panel-header, #111b27);
+  border-bottom: 1px solid var(--ops-border, #1a2d3d);
+}
+
 /* Panel glow border */
 .panel-glow {
-  border: 1px solid var(--ops-border, #1b3a2a);
-  box-shadow: inset 0 0 30px rgba(0, 255, 65, 0.03);
+  border: 1px solid var(--ops-border, #1a2d3d);
+  box-shadow: inset 0 0 30px var(--ops-glow, rgba(45, 212, 168, 0.08)), 0 0 1px var(--ops-border, #1a2d3d);
 }
 
 .light .panel-glow {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(0, 0, 0, 0.03);
 }
 
 /* Hide scanline overlay in light mode */
@@ -303,20 +313,20 @@ html, body, #root {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: #00ff41;
+  background: var(--ops-green, #2dd4a8);
   cursor: pointer;
-  border: 2px solid #0d1117;
-  box-shadow: 0 0 6px rgba(0, 255, 65, 0.5);
+  border: 2px solid #0c1320;
+  box-shadow: 0 0 6px rgba(45, 212, 168, 0.5);
 }
 
 .timeline-slider::-moz-range-thumb {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: #00ff41;
+  background: var(--ops-green, #2dd4a8);
   cursor: pointer;
-  border: 2px solid #0d1117;
-  box-shadow: 0 0 6px rgba(0, 255, 65, 0.5);
+  border: 2px solid #0c1320;
+  box-shadow: 0 0 6px rgba(45, 212, 168, 0.5);
 }
 
 /* Country stat card fade in */

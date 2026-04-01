@@ -157,30 +157,30 @@ export default function ImpactTracker() {
   return (
     <div className="flex flex-col h-full">
       {/* Header */}
-      <div className="px-3 py-1.5 border-b border-ops-border flex items-center justify-between">
+      <div className="panel-header px-3 py-2 flex items-center justify-between">
         <div className="flex items-center gap-1">
-          <span className="text-ops-red text-[10px] font-bold tracking-widest mr-2">CASUALTIES</span>
+          <span className="text-ops-red text-[11px] font-bold tracking-widest mr-2">CASUALTIES</span>
           <button
             onClick={() => setActiveTab('country')}
-            className={`px-2 py-1 text-[8px] font-bold tracking-widest transition-colors border-b-2 ${activeTab === 'country' ? 'text-ops-red border-ops-red' : 'text-ops-muted border-transparent hover:text-ops-text'}`}
+            className={`px-2.5 py-1 text-[9px] font-bold tracking-widest transition-all duration-150 border-b-2 ${activeTab === 'country' ? 'text-ops-red border-ops-red' : 'text-ops-muted border-transparent hover:text-ops-text'}`}
           >
             BY COUNTRY
           </button>
           <button
             onClick={() => setActiveTab('trend')}
-            className={`px-2 py-1 text-[8px] font-bold tracking-widest transition-colors border-b-2 ${activeTab === 'trend' ? 'text-ops-red border-ops-red' : 'text-ops-muted border-transparent hover:text-ops-text'}`}
+            className={`px-2.5 py-1 text-[9px] font-bold tracking-widest transition-all duration-150 border-b-2 ${activeTab === 'trend' ? 'text-ops-red border-ops-red' : 'text-ops-muted border-transparent hover:text-ops-text'}`}
           >
             TREND
           </button>
         </div>
-        <span className="text-ops-muted text-[8px]">APR 1, 2026</span>
+        <span className="text-ops-muted text-[9px]">APR 1, 2026</span>
       </div>
 
       {/* Totals bar */}
-      <div className="px-3 py-1.5 border-b border-ops-border/50 flex items-center gap-4">
+      <div className="px-3 py-2 border-b border-ops-border/50 flex items-center gap-4">
         <div className="flex items-center gap-1.5">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#ff0040]" />
-          <span className="text-[8px] text-ops-muted font-bold">KILLED</span>
+          <span className="w-1.5 h-1.5 rounded-full bg-[#ef4060]" />
+          <span className="text-[9px] text-ops-muted font-bold">KILLED</span>
           <span className="text-sm font-bold font-mono text-[#ff0040]">{formatNum(totalKilled)}</span>
         </div>
         <div className="flex items-center gap-1.5">
