@@ -354,6 +354,13 @@ const groundOps = {
       type: 'airstrike',
     },
     {
+      date: '2026-03-30',
+      lat: 33.33,
+      lng: 35.50,
+      event: 'IDF forces reach the Litani River — key ground operation objective',
+      type: 'ground',
+    },
+    {
       date: '2026-03-31',
       lat: 33.25,
       lng: 35.45,

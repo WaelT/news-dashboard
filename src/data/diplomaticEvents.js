@@ -702,6 +702,27 @@ const diplomaticEvents = [
     detail: 'Desalination/power infrastructure attacked; Brent surges past $116',
   },
   {
+    date: '2026-03-30',
+    event: 'Iranian strike destroys US E-3 Sentry AWACS at Prince Sultan AB',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Key early warning aircraft destroyed; over a dozen US personnel hurt; major asset loss',
+  },
+  {
+    date: '2026-03-30',
+    event: 'Iran parliament speaker: US "secretly planning ground invasion"',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Says Tehran\'s forces "waiting" for US troops; Trump claims Iran gave "20 boatloads of oil"',
+  },
+  {
+    date: '2026-03-30',
+    event: 'IDF forces reach the Litani River — key objective',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Major milestone in ground operation; Israel aims to seize entire area south of Litani',
+  },
+  {
     date: '2026-03-31',
     event: 'IRGC 87th wave — Navy launches attacks proving naval force "not obliterated"',
     type: 'escalation',
