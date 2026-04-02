@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-02T13:04:53.730Z",
+  "updatedAt": "2026-04-02T18:52:27.849Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "iran": {
@@ -38,13 +38,13 @@
       "killed": 4,
       "wounded": 16
     },
-    "oman": {
-      "killed": 3,
-      "wounded": 5
-    },
     "bahrain": {
       "killed": 3,
       "wounded": 38
+    },
+    "oman": {
+      "killed": 3,
+      "wounded": 5
     },
     "turkey": {
       "killed": 3,
