@@ -45,23 +45,17 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'US Military Cost', value: '$38B+', sub: '~$1.2B/day (32 days)', color: '#ff0040' },
-  { label: 'Total War Cost Est.', value: '$70B', sub: 'Penn Wharton central', color: '#ff0040' },
-  { label: 'Broader US Impact', value: '$220B', sub: 'incl. economic losses', color: '#ff0040' },
-  { label: 'Pentagon Request', value: '$200B', sub: 'emergency supplemental to Congress', color: '#ff0040' },
-  { label: 'Trump', value: '"TAKE THE OIL"', sub: 'eyes Kharg Island seizure; USS Tripoli + 3,500 troops arrive', color: '#ff0040' },
-  { label: 'Brent Crude', value: '$105', sub: '/barrel (+50%); retreated from $116 on diplomacy hopes', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '96%', sub: '~5 ships/day; IRGC yuan-based toll; 33 Larak transits', color: '#ff0040' },
-  { label: 'Bab al-Mandab', value: 'THREATENED', sub: 'Houthis: closure "viable option"; 15% global trade', color: '#ff0040' },
-  { label: 'Tehran Blackout', value: 'STRUCK', sub: 'power infrastructure hit; restored; Karaj/Shiraz/Qom too', color: '#ff0040' },
-  { label: 'Kuwait', value: 'WATER/POWER HIT', sub: 'desalination + power targeted; aluminum plants in Bahrain/UAE', color: '#ff0040' },
-  { label: 'Iraq PMF', value: 'IN IRAN', sub: 'convoy enters Khorramshahr; first foreign ground support', color: '#ff0040' },
-  { label: 'Iran Navy', value: '92% destroyed', sub: '10,000+ targets struck; launch rates down 90%', color: '#0088cc' },
-  { label: 'Pentagon Plans', value: 'GROUND OPS', sub: 'considering 10,000 more ground troops; invasion planning', color: '#ff0040' },
-  { label: 'IDF Lebanon', value: '4 KIA', sub: 'deadliest single incident; Nahal Recon Unit ambushed', color: '#ff0040' },
-  { label: 'Goldman Sachs', value: '$147+', sub: 'Brent may exceed 2008 all-time high', color: '#ff6600' },
-  { label: 'US Gas Price', value: '$3.72', sub: '/gal (+$0.80 in 4 weeks)', color: '#ff6600' },
-  { label: 'Global Inflation', value: '+0.8%', sub: 'IEA: largest supply disruption in oil market history', color: '#d4a017' },
+  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
+  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
+  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
+  { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
+  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
+  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
+  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
+  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
 ];
 
 function EconomicImpact() {
