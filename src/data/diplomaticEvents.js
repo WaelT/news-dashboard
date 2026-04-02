@@ -764,6 +764,55 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: '10 IDF soldiers killed in Lebanon total; 2 civilians killed by rockets',
   },
+  {
+    date: '2026-04-01',
+    event: 'Trump: "no deal needed" to end war; could end in 2-3 weeks',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Iran FM Araghchi: "no faith in talks with Washington"; Pezeshkian writes letter to Americans',
+  },
+  {
+    date: '2026-04-01',
+    event: 'Former FM Kharazi seriously injured, wife killed in airstrike',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Was overseeing engagement for possible Vance meeting; Iran calls it "attempt to derail diplomacy"',
+  },
+  {
+    date: '2026-04-01',
+    event: 'Katz: all border village homes to be demolished "like Rafah"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '600K+ displaced barred south of Litani; IDF to hold 20-mile security zone permanently',
+  },
+  {
+    date: '2026-04-01',
+    event: 'Isfahan steel plants + Tehran pharma facility bombed',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Tofigh Daru R&D destroyed; Bandar Abbas passenger pier struck; Qeshm desalination knocked out',
+  },
+  {
+    date: '2026-04-01',
+    event: '3 UN peacekeepers killed in southern Lebanon',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'UN Security Council holds urgent meeting; Israeli strikes near Beirut airport road',
+  },
+  {
+    date: '2026-04-01',
+    event: 'IEA warns oil supply crunch will worsen in April; $200/bbl scenario',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'Axios: $200 if Hormuz stays closed; Brent at $105; Trump tells allies "get your own oil"',
+  },
+  {
+    date: '2026-04-01',
+    event: 'Pentagon accused of covering up US casualties',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'The Intercept reports 520+ US personnel wounded vs official 348; "casualty cover-up"',
+  },
 ];
 
 export const STATUS_COLORS = {

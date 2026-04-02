@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAR 31, 2026',
+  updated: 'APR 1, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -373,6 +373,20 @@ const groundOps = {
       lng: 35.50,
       event: 'IDF reveals Hezbollah seized Christian village for launch operations',
       type: 'ground',
+    },
+    {
+      date: '2026-04-01',
+      lat: 33.10,
+      lng: 35.30,
+      event: 'Katz: all border village homes to be demolished; 600K barred south of Litani',
+      type: 'ground',
+    },
+    {
+      date: '2026-04-01',
+      lat: 33.50,
+      lng: 35.50,
+      event: '3 UN peacekeepers killed; UNSC holds urgent meeting',
+      type: 'engagement',
     },
   ],
 };

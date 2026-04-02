@@ -17,7 +17,7 @@ const FALLBACK = {
   nasdaq: { price: 22374.00, change: -0.02 },
   dowjones: { price: 46993.26, change: 0.10 },
   nikkei: { price: 53700.39, change: 0.00 },
-  brent: { price: 105.13, change: 50.0 },
+  brent: { price: 105.27, change: 50.0 },
   btc: { price: 75991.00, change: 0.25 },
   gold: { price: 5004.00, change: -0.40 },
   silver: { price: 80.90, change: 2.49 },
@@ -46,12 +46,12 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'US Military Cost', value: '$38B+', sub: '~$1.2B/day (32 days)', color: '#ff0040' },
+  { label: 'US Military Cost', value: '$40B+', sub: '~$1.2B/day (33 days)', color: '#ff0040' },
   { label: 'Total War Cost Est.', value: '$70B', sub: 'Penn Wharton central', color: '#ff0040' },
   { label: 'Broader US Impact', value: '$220B', sub: 'incl. economic losses', color: '#ff0040' },
   { label: 'Pentagon Request', value: '$200B', sub: 'emergency supplemental to Congress', color: '#ff0040' },
-  { label: 'Trump', value: '"TAKE THE OIL"', sub: 'eyes Kharg Island; claims Iran gave "20 boatloads of oil"', color: '#ff0040' },
-  { label: 'Brent Crude', value: '$108', sub: '/barrel (+54%); volatile $107-$116 range', color: '#ff6600' },
+  { label: 'Trump', value: '"NO DEAL NEEDED"', sub: 'war could end 2-3 weeks; tells allies "get your own oil"', color: '#ff0040' },
+  { label: 'Brent Crude', value: '$105', sub: '/barrel (+50%); IEA warns of April crunch; $200 scenario', color: '#ff6600' },
   { label: 'Hormuz Disruption', value: '96%', sub: '~5 ships/day; IRGC yuan-based toll; 33 Larak transits', color: '#ff0040' },
   { label: 'Bab al-Mandab', value: 'THREATENED', sub: 'Houthis: closure "viable option"; 15% global trade', color: '#ff0040' },
   { label: 'Tehran Blackout', value: 'STRUCK', sub: 'power infrastructure hit; restored; Karaj/Shiraz/Qom too', color: '#ff0040' },
@@ -59,7 +59,7 @@ const ECON_DATA = [
   { label: 'E-3 Sentry', value: 'DESTROYED', sub: 'AWACS aircraft hit at Prince Sultan AB; major asset loss', color: '#ff0040' },
   { label: 'Iraq PMF', value: 'IN IRAN', sub: 'convoy enters Khorramshahr; first foreign ground support', color: '#ff0040' },
   { label: 'Iran Navy', value: '92% destroyed', sub: '10,000+ targets struck; launch rates down 90%', color: '#0088cc' },
-  { label: 'IDF Litani', value: 'REACHED', sub: 'ground forces reach key objective; 10 soldiers KIA total', color: '#0088cc' },
+  { label: 'IDF Lebanon', value: 'DEMOLITION', sub: 'Katz: all border homes razed; 600K barred; 3 UN peacekeepers killed', color: '#0088cc' },
   { label: 'Goldman Sachs', value: '$147+', sub: 'Brent may exceed 2008 all-time high', color: '#ff6600' },
   { label: 'US Gas Price', value: '$3.72', sub: '/gal (+$0.80 in 4 weeks)', color: '#ff6600' },
   { label: 'Global Inflation', value: '+0.8%', sub: 'IEA: largest supply disruption in oil market history', color: '#d4a017' },

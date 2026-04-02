@@ -733,7 +733,7 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'APR 1, 2026',
+  updated: 'APR 2, 2026',
   current: {
     transitsPerDay: 5,
     oilFlowMbd: 0.3,
@@ -756,14 +756,14 @@ const HORMUZ_DATA = {
     minelayersDestroyed: 44,
     insuranceSurge: '5-10% of vessel value',
     tankerRates: '$500K/day',
-    trumpUltimatum: 'Strike pause to Apr 6; Trump: war could end "2-3 weeks"',
-    iranThreat: 'Kuwaiti tanker attacked at Dubai port; 4th NATO interception over Turkey',
+    trumpUltimatum: 'Strike pause to Apr 6; Trump: "no deal needed"; war ends "2-3 weeks"',
+    iranThreat: 'Qeshm desalination knocked out; pharma/steel plants bombed; Kharazi targeted',
   },
   disruptions: [
-    { country: 'Saudi Arabia', detail: 'Intercepts 8 BMs targeting Riyadh + Eastern Province' },
+    { country: 'Saudi Arabia', detail: 'Intercepts 8 BMs; E-3 Sentry destroyed at Prince Sultan AB' },
     { country: 'Iraq', detail: 'PMF in Iran; 108 killed; militia offensives continue' },
-    { country: 'UAE', detail: 'Kuwaiti tanker Al-Salmi struck by drone at Dubai port; fire for hours' },
-    { country: 'Asia', detail: 'Brent retreats to $105 from $116 on diplomacy signals; $14-18 premium' },
+    { country: 'UAE', detail: 'Kuwaiti tanker struck at Dubai; Qeshm desalination destroyed' },
+    { country: 'Asia', detail: 'IEA: April crunch worsens; Axios: $200/bbl if Hormuz stays closed' },
   ],
 };
 
