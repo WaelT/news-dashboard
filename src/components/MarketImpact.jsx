@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { globalImpact } from '../data/globalImpact';
 
 const SYMBOLS = [
   { id: 'sp500', symbol: 'ES=F', label: 'SPY' },
@@ -85,7 +86,70 @@ function EconomicImpact() {
   );
 }
 
+function GlobalImpactPanel() {
+  const { gdpImpact, disruptions, oil } = globalImpact;
+  const maxPct = Math.max(...gdpImpact.map((g) => Math.abs(g.pct)));
+
+  return (
+    <div className="flex-1 overflow-y-auto px-3 py-3 space-y-3">
+      {/* Oil price range */}
+      <div className="bg-ops-border/20 rounded px-3 py-2.5 flex items-center justify-between">
+        <div>
+          <div className="text-[10px] text-ops-muted font-bold tracking-wider">BRENT CRUDE</div>
+          <div className="flex items-baseline gap-1.5">
+            <span className="text-[11px] text-ops-muted">${oil.preWar}</span>
+            <span className="text-xs text-ops-muted">→</span>
+            <span className="text-base font-bold font-mono text-[#ff6600]">${oil.current}</span>
+            <span className="text-xs text-ops-muted">→</span>
+            <span className="text-[13px] font-bold font-mono text-ops-red">${oil.forecast}?</span>
+          </div>
+        </div>
+        <div className="text-right">
+          <div className="text-[10px] text-ops-muted">PEAK</div>
+          <div className="text-base font-bold font-mono text-[#ff6600]">${oil.peak}</div>
+        </div>
+      </div>
+
+      {/* Disruptions */}
+      <div className="grid grid-cols-2 gap-2">
+        <div className="bg-ops-border/20 rounded px-3 py-2">
+          <div className="text-[10px] text-ops-muted font-bold">FLIGHTS CANCELLED</div>
+          <div className="text-sm font-bold font-mono text-ops-red">{disruptions.flightsCancelled}</div>
+        </div>
+        <div className="bg-ops-border/20 rounded px-3 py-2">
+          <div className="text-[10px] text-ops-muted font-bold">SHIPPING DELAY</div>
+          <div className="text-sm font-bold font-mono text-[#ff6600]">{disruptions.shippingDelay}</div>
+        </div>
+      </div>
+
+      {/* GDP impact by region */}
+      <div className="text-[11px] text-ops-muted font-bold tracking-wider">GDP IMPACT BY REGION</div>
+      {gdpImpact.map((g) => {
+        const barPct = (Math.abs(g.pct) / maxPct) * 100;
+        return (
+          <div key={g.region} className="py-1.5 border-b border-ops-border/30">
+            <div className="flex items-center gap-2 mb-1">
+              <img src={`https://flagcdn.com/20x15/${g.flag}.png`} alt="" className="w-5 h-3.5 rounded-sm" />
+              <span className="text-[13px] font-bold text-ops-text w-12">{g.region}</span>
+              <div className="flex-1 h-3 bg-ops-border/20 rounded overflow-hidden">
+                <div className="h-full rounded transition-all duration-500" style={{ width: `${barPct}%`, background: 'linear-gradient(90deg, #ef4060, #cc0033)' }} />
+              </div>
+              <span className="text-xs font-bold font-mono text-ops-red w-14 text-right">{g.pct}%</span>
+            </div>
+            <div className="flex items-center justify-between pl-7">
+              <span className="text-[10px] text-ops-muted">{g.note}</span>
+              {g.costBn > 0 && <span className="text-[10px] text-ops-muted">${g.costBn}B</span>}
+            </div>
+          </div>
+        );
+      })}
+      <p className="text-[10px] text-ops-muted pt-2 border-t border-ops-border/30">Sources: IEA, Goldman Sachs, IMF, Oxford Economics</p>
+    </div>
+  );
+}
+
 export default function MarketImpact() {
+  const [activeTab, setActiveTab] = useState('markets');
   const [markets, setMarkets] = useState(() =>
     SYMBOLS.map((s) => ({ ...s, ...FALLBACK[s.id], live: false }))
   );
@@ -115,17 +179,25 @@ export default function MarketImpact() {
 
   return (
     <div className="flex flex-col h-full">
-      <div className="panel-header px-4 py-2.5 flex items-center justify-between">
-        <span className="text-[#00b4d8] text-sm font-bold tracking-widest">MARKETS</span>
-        {markets.some((m) => m.live) && (
-          <span className="flex items-center gap-1">
-            <span className="live-dot w-1.5 h-1.5 rounded-full bg-green-500" />
-            <span className="text-green-500 text-[10px] font-bold">LIVE</span>
-          </span>
-        )}
+      <div className="panel-header px-3 py-2 flex items-center justify-between">
+        <span className="text-[#00b4d8] text-[11px] font-bold tracking-widest mr-2">MARKETS</span>
+        <div className="flex ml-auto items-center gap-2">
+          {[['markets', 'LIVE'], ['global', 'GLOBAL']].map(([key, label]) => (
+            <button key={key} onClick={() => setActiveTab(key)}
+              className={`px-2 py-1 text-[9px] font-bold tracking-widest transition-all duration-150 border-b-2 ${
+                activeTab === key ? 'text-[#00b4d8] border-[#00b4d8]' : 'text-ops-muted border-transparent hover:text-ops-text'
+              }`}>{label}</button>
+          ))}
+          {activeTab === 'markets' && markets.some((m) => m.live) && (
+            <span className="flex items-center gap-1">
+              <span className="live-dot w-1.5 h-1.5 rounded-full bg-green-500" />
+              <span className="text-green-500 text-[9px] font-bold">LIVE</span>
+            </span>
+          )}
+        </div>
       </div>
 
-      <div className="flex-1 min-h-0 overflow-y-auto">
+      {activeTab === 'global' ? <GlobalImpactPanel /> : <div className="flex-1 min-h-0 overflow-y-auto">
         <div className="grid grid-cols-2 gap-x-4 gap-y-1 px-3 py-2">
           {markets.map((m) => {
             const up = m.change >= 0;
@@ -149,7 +221,7 @@ export default function MarketImpact() {
           <span className="text-ops-muted text-[9px]">EST. COSTS</span>
         </div>
         <EconomicImpact />
-      </div>
+      </div>}
     </div>
   );
 }

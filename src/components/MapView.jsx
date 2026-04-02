@@ -871,7 +871,19 @@ function HormuzStats() {
         ))}
       </CollapsibleSection>
 
-      <p className="text-[8px] text-gray-500 mt-2">Sources: Windward, EIA, Reuters, Anadolu</p>
+      {/* Houthi / Bab al-Mandab */}
+      <CollapsibleSection title="BAB AL-MANDAB / HOUTHI">
+        <div className="bg-ops-red/10 border border-ops-red/30 rounded px-2 py-1 mb-1">
+          <span className="text-[9px] font-bold text-ops-red tracking-wider">STATUS: THREATENED</span>
+          <span className="text-[8px] text-gray-400 ml-1">15% of global maritime trade</span>
+        </div>
+        <HormuzStatRow label="Houthi Attacks" value="4" color="#ef4060" sub="3 missiles + 1 drone at Israel" />
+        <HormuzStatRow label="Israel Red Sea Imports" value="30%" color="#ff6600" sub="at risk; Eilat port reduced" />
+        <HormuzStatRow label="Ships Diverted" value="320+" color="#ff6600" sub="+12 days via Cape of Good Hope" />
+        <HormuzStatRow label="Container Rates" value="+280%" color="#d4a017" sub="Drewry container index" />
+      </CollapsibleSection>
+
+      <p className="text-[8px] text-gray-500 mt-2">Sources: Windward, EIA, Reuters, CENTCOM, Anadolu</p>
     </div>
   );
 }

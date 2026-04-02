@@ -1,5 +1,7 @@
 import { useMemo, useState } from 'react';
 import launchData, { countryBreakdown } from '../data/launchData';
+import { infrastructureDamage } from '../data/infrastructureDamage';
+import { warCostComparison } from '../data/warCostComparison';
 
 const WAR_START = '2026-02-28';
 
@@ -387,7 +389,89 @@ function CapabilityDegradation({ data }) {
   );
 }
 
+function InfrastructureDamage() {
+  const { categories } = infrastructureDamage;
+  const overall = Math.round(categories.reduce((s, c) => s + c.destructionPct, 0) / categories.length);
+
+  function barColor(pct) {
+    if (pct >= 80) return '#ef4060';
+    if (pct >= 60) return '#ff6600';
+    if (pct >= 30) return '#d4a017';
+    return '#2dd4a8';
+  }
+
+  return (
+    <div className="flex-1 overflow-y-auto px-3 py-3 space-y-3">
+      <div className="flex items-center justify-between mb-1">
+        <span className="text-xs text-ops-muted font-bold tracking-wider">OVERALL DEGRADATION</span>
+        <span className="text-xl font-bold font-mono" style={{ color: barColor(overall) }}>{overall}%</span>
+      </div>
+      {categories.map((cat) => (
+        <div key={cat.id}>
+          <div className="flex items-center justify-between mb-1">
+            <span className="text-[13px] font-bold text-ops-text">{cat.label}</span>
+            <span className="text-[13px] font-bold font-mono" style={{ color: barColor(cat.destructionPct) }}>{cat.destructionPct}%</span>
+          </div>
+          <div className="h-4 bg-ops-border/20 rounded overflow-hidden">
+            <div className="h-full rounded transition-all duration-700"
+              style={{ width: `${cat.destructionPct}%`, background: `linear-gradient(90deg, ${barColor(cat.destructionPct)}, ${barColor(cat.destructionPct)}88)` }} />
+          </div>
+          <p className="text-[11px] text-ops-muted mt-0.5">{cat.detail}</p>
+        </div>
+      ))}
+      <p className="text-[10px] text-ops-muted pt-2 border-t border-ops-border/30">Sources: Pentagon, Alma Center, Critical Threats, IISS</p>
+    </div>
+  );
+}
+
+function WarCostComparison() {
+  const { current, historical } = warCostComparison;
+  const maxCost = Math.max(current.costBn, ...historical.map((h) => h.costBn));
+
+  return (
+    <div className="flex-1 overflow-y-auto px-3 py-3 space-y-3">
+      {/* Current conflict hero */}
+      <div className="bg-ops-red/10 border border-ops-red/30 rounded px-3 py-3">
+        <div className="flex items-center gap-2 mb-2">
+          <img src={`https://flagcdn.com/20x15/${current.flag}.png`} alt="" className="w-5 h-3.5 rounded-sm border border-white/10" />
+          <span className="text-sm font-bold text-ops-red">{current.name}</span>
+          <span className="text-[11px] text-ops-muted ml-auto">Day {current.days}</span>
+        </div>
+        <div className="grid grid-cols-3 gap-3">
+          <div><div className="text-[10px] text-ops-muted font-bold">COST</div><div className="text-base font-bold font-mono text-ops-red">${current.costBn}B</div></div>
+          <div><div className="text-[10px] text-ops-muted font-bold">TROOPS</div><div className="text-base font-bold font-mono text-ops-text">{(current.troops / 1000).toFixed(0)}K</div></div>
+          <div><div className="text-[10px] text-ops-muted font-bold">SORTIES</div><div className="text-base font-bold font-mono text-ops-text">{(current.sorties / 1000).toFixed(0)}K</div></div>
+        </div>
+      </div>
+
+      {/* Historical comparison */}
+      <div className="text-[11px] text-ops-muted font-bold tracking-wider">AT DAY {current.days} COMPARISON</div>
+      {historical.map((h) => {
+        const pct = (h.costBn / maxCost) * 100;
+        return (
+          <div key={h.name} className="py-2 border-b border-ops-border/30">
+            <div className="flex items-center gap-2 mb-1">
+              <img src={`https://flagcdn.com/20x15/${h.flag}.png`} alt="" className="w-5 h-3.5 rounded-sm" />
+              <span className="text-[13px] font-bold text-ops-text">{h.name}</span>
+              <span className="text-xs font-bold font-mono text-ops-muted ml-auto">${h.costBn}B</span>
+            </div>
+            <div className="h-3 bg-ops-border/20 rounded overflow-hidden mb-1">
+              <div className="h-full rounded transition-all duration-500" style={{ width: `${pct}%`, background: 'linear-gradient(90deg, #3b82f6, #1d4ed8)' }} />
+            </div>
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] text-ops-muted">{h.note}</span>
+              <span className="text-[10px] text-ops-muted">Total: ${h.totalBn}B / {h.duration}</span>
+            </div>
+          </div>
+        );
+      })}
+      <p className="text-[10px] text-ops-muted pt-2 border-t border-ops-border/30">Sources: CRS, Penn Wharton, DoD</p>
+    </div>
+  );
+}
+
 export default function MissileDroneTracker() {
+  const [activeTab, setActiveTab] = useState('launches');
   const weeks = useMemo(() => groupByWarWeek(launchData), []);
 
   const totals = useMemo(() => {
@@ -410,12 +494,20 @@ export default function MissileDroneTracker() {
 
   return (
     <div className="flex flex-col h-full">
-      {/* Header */}
+      {/* Header with tabs */}
       <div className="panel-header px-3 py-2 flex items-center justify-between">
-        <span className="text-ops-red text-xs font-bold tracking-widest">IRAN MISSILES & DRONES</span>
-        <span className="text-ops-muted text-[10px]">{dateRange}</span>
+        <span className="text-ops-red text-[11px] font-bold tracking-widest mr-2">MILITARY</span>
+        <div className="flex ml-auto">
+          {[['launches', 'LAUNCHES'], ['damage', 'DAMAGE'], ['cost', 'COST']].map(([key, label]) => (
+            <button key={key} onClick={() => setActiveTab(key)}
+              className={`px-2 py-1 text-[9px] font-bold tracking-widest transition-all duration-150 border-b-2 ${
+                activeTab === key ? 'text-ops-red border-ops-red' : 'text-ops-muted border-transparent hover:text-ops-text'
+              }`}>{label}</button>
+          ))}
+        </div>
       </div>
 
+      {activeTab === 'damage' ? <InfrastructureDamage /> : activeTab === 'cost' ? <WarCostComparison /> : <>
       {/* Totals bar */}
       <div className="px-3 py-2 border-b border-ops-border/50 flex items-center gap-4 flex-wrap">
         <div className="flex items-center gap-1.5">
@@ -496,6 +588,7 @@ export default function MissileDroneTracker() {
           <StackedBar data={countryBreakdown.drones} label="DRONES BY TARGET" color="#ff6600" />
         </div>
       </div>
+      </>}
     </div>
   );
 }
