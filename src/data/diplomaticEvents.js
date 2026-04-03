@@ -813,6 +813,48 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'The Intercept reports 520+ US personnel wounded vs official 348; "casualty cover-up"',
   },
+  {
+    date: '2026-04-02',
+    event: 'Trump: will hit Iran "extremely hard" for 2-3 weeks — "back to Stone Ages"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Signals major escalation; no plan to reopen Hormuz; April 6 deadline approaches',
+  },
+  {
+    date: '2026-04-02',
+    event: 'Tehran-Karaj B1 bridge collapsed — 8 killed, 95 wounded',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Two US strikes caused collapse; century-old Tehran medical research centre also hit',
+  },
+  {
+    date: '2026-04-02',
+    event: 'IDF strike kills Iranian ballistic missile chief Makram Atimi',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Killed in Kermanshah area along with several battalion commanders',
+  },
+  {
+    date: '2026-04-02',
+    event: 'UAE intercepts 19 ballistic missiles + 26 drones from Iran',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Largest single-day Iranian barrage against UAE; missiles fired over Jerusalem',
+  },
+  {
+    date: '2026-04-02',
+    event: 'Iran warns against US ground invasion after Trump escalation threat',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Tehran calls US demands "maximalist and irrational"; denies any ceasefire negotiations',
+  },
+  {
+    date: '2026-04-02',
+    event: 'Brent surges to $112 (+$7 in one day) on Trump "Stone Ages" threat',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'BofA raises forecast; WTI near $108; no reopening plan for Hormuz',
+  },
 ];
 
 export const STATUS_COLORS = {
