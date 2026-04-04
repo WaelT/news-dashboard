@@ -46,23 +46,18 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'US Military Cost', value: '$41B+', sub: '~$1.2B/day (34 days)', color: '#ff0040' },
-  { label: 'Total War Cost Est.', value: '$70B', sub: 'Penn Wharton central', color: '#ff0040' },
-  { label: 'Broader US Impact', value: '$220B', sub: 'incl. economic losses', color: '#ff0040' },
-  { label: 'Pentagon Request', value: '$200B', sub: 'emergency supplemental to Congress', color: '#ff0040' },
-  { label: 'Trump', value: '"STONE AGES"', sub: 'hit Iran "extremely hard" 2-3 weeks; Tehran bridge collapsed', color: '#ff0040' },
-  { label: 'Brent Crude', value: '$112', sub: '/barrel (+60%); surged $7 on Trump "Stone Ages" threat', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '96%', sub: '~5 ships/day; IRGC yuan-based toll; 33 Larak transits', color: '#ff0040' },
-  { label: 'Bab al-Mandab', value: 'THREATENED', sub: 'Houthis: closure "viable option"; 15% global trade', color: '#ff0040' },
-  { label: 'Tehran Bridge', value: 'COLLAPSED', sub: 'B1 bridge: 8 killed, 95 wounded; medical centre bombed', color: '#ff0040' },
-  { label: 'UAE Barrage', value: '19 BMs + 26 DRONES', sub: 'largest single-day Iranian attack on UAE', color: '#ff0040' },
-  { label: 'E-3 Sentry', value: 'DESTROYED', sub: 'AWACS aircraft hit at Prince Sultan AB; major asset loss', color: '#ff0040' },
-  { label: 'Missile Chief', value: 'KILLED', sub: 'Makram Atimi + battalion commanders in Kermanshah', color: '#ff0040' },
-  { label: 'Iran Navy', value: '92% destroyed', sub: '10,000+ targets struck; launch rates down 90%', color: '#0088cc' },
-  { label: 'IDF Lebanon', value: 'DEMOLITION', sub: 'Katz: all border homes razed; 600K barred; 3 UN KIA', color: '#0088cc' },
-  { label: 'Goldman Sachs', value: '$147+', sub: 'BofA raises forecast; $200 if Hormuz stays closed', color: '#ff6600' },
-  { label: 'US Wounded', value: '520+', sub: 'Pentagon cover-up exposed; real count vs official 348', color: '#ff6600' },
-  { label: 'Global Inflation', value: '+0.8%', sub: 'IEA: largest supply disruption in oil market history', color: '#d4a017' },
+  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
+  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
+  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
+  { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
+  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
+  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
+  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
+  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
 ];
 
 function EconomicImpact() {
