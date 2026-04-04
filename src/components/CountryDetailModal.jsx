@@ -144,13 +144,13 @@ export default function CountryDetailModal({ country, onClose, isOpen }) {
   // Casualties
   const casualties = {
     iran: { killed: 3486, wounded: 26500 },
-    israel: { killed: 34, wounded: 6597 },
+    israel: { killed: 34, wounded: 6905 },
     usa: { killed: 15, wounded: 520 },
     lebanon: { killed: 1345, wounded: 4040 },
     yemen: { killed: 0, wounded: 0 },
     iraq: { killed: 109, wounded: 223 },
     uae: { killed: 12, wounded: 169 },
-    kuwait: { killed: 8, wounded: 99 },
+    kuwait: { killed: 10, wounded: 109 },
     bahrain: { killed: 3, wounded: 38 },
     qatar: { killed: 4, wounded: 16 },
     saudi: { killed: 2, wounded: 16 },

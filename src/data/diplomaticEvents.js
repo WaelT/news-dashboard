@@ -855,6 +855,41 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'BofA raises forecast; WTI near $108; no reopening plan for Hormuz',
   },
+  {
+    date: '2026-04-03',
+    event: 'Iran shoots down US F-15E Strike Eagle over Iran',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Pilot rescued; WSO missing; A-10 also downed during SAR; 2 Black Hawks hit by small arms',
+  },
+  {
+    date: '2026-04-03',
+    event: 'UAE intercepts 18 BMs + 4 cruise missiles + 47 drones from Iran',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Massive barrage; Abu Dhabi debris: 1 dead, 16 injured; Kuwait power/desalination plant hit',
+  },
+  {
+    date: '2026-04-03',
+    event: 'Hegseth fires US Army top general + 2 senior officers',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Wartime leadership shake-up; speculation over chain of command disagreements',
+  },
+  {
+    date: '2026-04-03',
+    event: 'Trump: "assault on infrastructure hasn\'t even started"; seeks $1.5T defense budget',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Iran Red Crescent warehouse in Bushehr hit; Pasteur Institute in Tehran bombed',
+  },
+  {
+    date: '2026-04-03',
+    event: 'Iran vows "crushing attacks" as April 6 deadline approaches',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Energy strike pause expires in 3 days; no ceasefire progress',
+  },
 ];
 
 export const STATUS_COLORS = {
