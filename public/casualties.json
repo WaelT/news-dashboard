@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-05T12:50:55.941Z",
+  "updatedAt": "2026-04-05T18:38:30.046Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "iran": {
@@ -7,8 +7,8 @@
       "wounded": 26500
     },
     "lebanon": {
-      "killed": 1422,
-      "wounded": 4294
+      "killed": 1461,
+      "wounded": 4430
     },
     "iraq": {
       "killed": 110,
