@@ -890,6 +890,41 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Energy strike pause expires in 3 days; no ceasefire progress',
   },
+  {
+    date: '2026-04-04',
+    event: 'Trump: 48 hours to make a deal or "all Hell will reign down"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'New ultimatum; April 6 energy strike pause deadline 2 days away',
+  },
+  {
+    date: '2026-04-04',
+    event: 'Iran rejects US 48-hour ceasefire proposal',
+    type: 'diplomacy',
+    status: 'rejected',
+    detail: 'Fars news: Tehran rejected proposal; search continues for missing F-15E WSO',
+  },
+  {
+    date: '2026-04-04',
+    event: 'Iranian missile hits near IDF Kirya HQ in Tel Aviv',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Strike in vicinity of military command center; Bushehr nuclear plant auxiliary building hit',
+  },
+  {
+    date: '2026-04-04',
+    event: 'Mahshahr petrochemical hub struck — 5 killed, 170 wounded',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Special Petrochemical Zone airstrikes; Iranians celebrate downed US jets in Tehran streets',
+  },
+  {
+    date: '2026-04-04',
+    event: 'UN FAO: global Food Price Index rose 2.4% in March',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'War disrupting food supply chains; Hormuz fertilizer shipments limited',
+  },
 ];
 
 export const STATUS_COLORS = {

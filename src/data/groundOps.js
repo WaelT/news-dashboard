@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'APR 3, 2026',
+  updated: 'APR 4, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 

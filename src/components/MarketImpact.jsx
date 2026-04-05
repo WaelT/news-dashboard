@@ -46,18 +46,23 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
-  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
-  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
-  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
-  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
-  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
-  { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
-  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
-  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
-  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
-  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
+  { label: 'US Military Cost', value: '$43B+', sub: '~$1.2B/day (36 days)', color: '#ff0040' },
+  { label: 'Total War Cost Est.', value: '$70B', sub: 'Penn Wharton central', color: '#ff0040' },
+  { label: 'Broader US Impact', value: '$220B', sub: 'incl. economic losses', color: '#ff0040' },
+  { label: 'Trump', value: '48HR ULTIMATUM', sub: '"all Hell will reign down"; Iran rejects ceasefire proposal', color: '#ff0040' },
+  { label: 'F-15E + A-10', value: 'SHOT DOWN', sub: 'F-15E over Iran; WSO missing; A-10 in SAR; 2 Black Hawks hit', color: '#ff0040' },
+  { label: 'Brent Crude', value: '$112', sub: '/barrel (+60%); Apr 6 deadline approaching with no deal', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '96%', sub: '~5 ships/day; Qeshm desalination destroyed', color: '#ff0040' },
+  { label: 'Bab al-Mandab', value: 'THREATENED', sub: 'Houthis: closure "viable option"; 15% global trade', color: '#ff0040' },
+  { label: 'Mahshahr', value: 'PETROCHEM HIT', sub: '5 killed, 170 wounded; Bushehr nuclear aux building struck', color: '#ff0040' },
+  { label: 'IDF Kirya HQ', value: 'MISSILE NEAR', sub: 'Iranian missile hits vicinity of Tel Aviv command center', color: '#ff0040' },
+  { label: 'E-3 Sentry', value: 'DESTROYED', sub: 'AWACS aircraft hit at Prince Sultan AB', color: '#ff0040' },
+  { label: 'Hegseth', value: 'FIRES GENERALS', sub: 'Army top general + 2 officers; wartime command shake-up', color: '#ff0040' },
+  { label: 'Iran Navy', value: '92% destroyed', sub: '10,000+ targets; "crushing attacks" vowed', color: '#0088cc' },
+  { label: 'IDF Lebanon', value: 'DEMOLITION', sub: 'All border homes razed; 600K barred; 3 UN KIA', color: '#0088cc' },
+  { label: 'Goldman Sachs', value: '$147+', sub: 'BofA raises forecast; $200 if Hormuz stays closed', color: '#ff6600' },
+  { label: 'Food Crisis', value: '+2.4%', sub: 'UN FAO price index; fertilizer/food supply disrupted', color: '#ff6600' },
+  { label: 'Global Inflation', value: '+0.8%', sub: 'IEA: largest supply disruption in oil market history', color: '#d4a017' },
 ];
 
 function EconomicImpact() {
