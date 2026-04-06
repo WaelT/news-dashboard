@@ -925,6 +925,41 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'War disrupting food supply chains; Hormuz fertilizer shipments limited',
   },
+  {
+    date: '2026-04-05',
+    event: 'Missing F-15E WSO rescued in dramatic firefight inside Iran',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Complex rescue operation; both crew members now safe; 7 US manned aircraft lost total',
+  },
+  {
+    date: '2026-04-05',
+    event: 'Trump: Iran will be "living in Hell" if Hormuz not opened by Tuesday',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Expletive-filled Truth Social post; April 6 deadline tomorrow; Iran calls it "stupid action"',
+  },
+  {
+    date: '2026-04-05',
+    event: 'Abu Dhabi Borouge petrochemical factory + Khor Fakkan port hit by debris',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Fires at petrochemical plant; Bahrain GPIC operations suspended after drone attack',
+  },
+  {
+    date: '2026-04-05',
+    event: 'US gas price hits $4.11/gal; Italy rations jet fuel at airports',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'Up from $2.98 pre-war; Asia already rationing energy; fuel shortages spreading globally',
+  },
+  {
+    date: '2026-04-05',
+    event: '10 injured, 4 missing after Iranian missile strikes Haifa',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IDF unsure how many ballistic missiles Iran still has accessible',
+  },
 ];
 
 export const STATUS_COLORS = {

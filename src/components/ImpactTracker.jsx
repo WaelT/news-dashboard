@@ -173,7 +173,7 @@ export default function ImpactTracker() {
             TREND
           </button>
         </div>
-        <span className="text-ops-muted text-[9px]">APR 4, 2026</span>
+        <span className="text-ops-muted text-[9px]">APR 5, 2026</span>
       </div>
 
       {/* Totals bar */}
