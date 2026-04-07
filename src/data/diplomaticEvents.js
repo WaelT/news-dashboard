@@ -960,6 +960,41 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'IDF unsure how many ballistic missiles Iran still has accessible',
   },
+  {
+    date: '2026-04-06',
+    event: 'DEADLINE DAY: Trump sets 8pm ET Tuesday for "Power Plant Day + Bridge Day"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'If Hormuz not opened by Apr 7 8pm ET: will "blow everything up"',
+  },
+  {
+    date: '2026-04-06',
+    event: 'Iran rejects 45-day ceasefire proposal — demands permanent end to war',
+    type: 'diplomacy',
+    status: 'rejected',
+    detail: 'Rejected Egyptian/Pakistani/Turkish mediator proposal; wants war to end permanently',
+  },
+  {
+    date: '2026-04-06',
+    event: 'Sharif University + Tehran residential area struck — 6 children killed',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Fuel station near Sharif Univ damaged; mosque hit; Baharestan residential area bombed',
+  },
+  {
+    date: '2026-04-06',
+    event: '4 bodies recovered in Haifa after Iranian missile hits residential building',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '10+ sites hit in Haifa; woman seriously injured by interceptor debris in Petah Tikvah',
+  },
+  {
+    date: '2026-04-06',
+    event: 'Trump: doesn\'t know if "winding down or escalating" war',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Iran ceasefire response "not good enough"; WTI surpasses Brent at $114; markets in chaos',
+  },
 ];
 
 export const STATUS_COLORS = {

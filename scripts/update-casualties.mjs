@@ -66,12 +66,25 @@ async function findCasualtiesSectionIndex() {
 }
 
 async function scrapeWikipedia() {
+  // First try the main article section
   const sectionIndex = await findCasualtiesSectionIndex();
-  const url = `https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&section=${sectionIndex}&prop=wikitext&format=json`;
-  const res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
+  let url = `https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&section=${sectionIndex}&prop=wikitext&format=json`;
+  let res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
   if (!res.ok) throw new Error(`Wikipedia API ${res.status}`);
-  const data = await res.json();
-  const text = data?.parse?.wikitext?.['*'] || '';
+  let data = await res.json();
+  let text = data?.parse?.wikitext?.['*'] || '';
+
+  // If section uses {{Excerpt}} template, fetch from the dedicated casualties article instead
+  if (text.includes('{{Excerpt|') && text.indexOf('{|') === -1) {
+    const excerptMatch = text.match(/\{\{Excerpt\|([^|}]+)/);
+    const targetPage = excerptMatch ? excerptMatch[1].trim() : 'Casualties of the 2026 Iran war';
+    console.log(`Section uses Excerpt template, fetching from: ${targetPage}`);
+    url = `https://en.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(targetPage)}&prop=wikitext&format=json`;
+    res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
+    if (!res.ok) throw new Error(`Wikipedia API ${res.status} for ${targetPage}`);
+    data = await res.json();
+    text = data?.parse?.wikitext?.['*'] || '';
+  }
 
   // Find the casualties table
   const tableStart = text.indexOf('{|');
