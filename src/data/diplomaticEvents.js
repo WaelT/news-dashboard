@@ -995,6 +995,41 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Iran ceasefire response "not good enough"; WTI surpasses Brent at $114; markets in chaos',
   },
+  {
+    date: '2026-04-07',
+    event: 'Trump: "A whole civilization will die tonight" — then POSTPONES strikes',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Announces 2-week ceasefire contingent on Iran reopening Hormuz; delays "Power Plant Day"',
+  },
+  {
+    date: '2026-04-07',
+    event: 'Iran forms human chains around power plants ahead of deadline',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Youth mobilized to protect infrastructure; Kazerun power plant surrounded by civilians',
+  },
+  {
+    date: '2026-04-07',
+    event: 'Oil plunges 6% to $103 as Trump postpones strikes',
+    type: 'economic',
+    status: 'implemented',
+    detail: 'US stock futures jump; Brent drops from $115 to $103 on ceasefire hopes',
+  },
+  {
+    date: '2026-04-07',
+    event: 'US begins strikes on Kharg Island oil terminal',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Iran\'s main oil export hub targeted; 34 killed incl. 6 children in Sharif Univ area strikes',
+  },
+  {
+    date: '2026-04-07',
+    event: 'Saudi Arabia closes King Fahd Causeway bridge to Bahrain',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Security concerns amid Iranian attacks; regional infrastructure under threat',
+  },
 ];
 
 export const STATUS_COLORS = {

@@ -74,9 +74,9 @@ async function scrapeWikipedia() {
   let data = await res.json();
   let text = data?.parse?.wikitext?.['*'] || '';
 
-  // If section uses {{Excerpt}} template, fetch from the dedicated casualties article instead
-  if (text.includes('{{Excerpt|') && text.indexOf('{|') === -1) {
-    const excerptMatch = text.match(/\{\{Excerpt\|([^|}]+)/);
+  // If section uses {{Excerpt}} or {{#invoke:Excerpt}} template, fetch from the dedicated casualties article
+  if ((text.includes('Excerpt|') || text.includes('Excerpt|main|')) && text.indexOf('{|') === -1) {
+    const excerptMatch = text.match(/(?:\{\{Excerpt\||Excerpt\|main\|)([^|}]+)/);
     const targetPage = excerptMatch ? excerptMatch[1].trim() : 'Casualties of the 2026 Iran war';
     console.log(`Section uses Excerpt template, fetching from: ${targetPage}`);
     url = `https://en.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(targetPage)}&prop=wikitext&format=json`;
