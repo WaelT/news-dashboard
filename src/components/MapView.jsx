@@ -733,11 +733,11 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'APR 7, 2026',
+  updated: 'APR 8, 2026',
   current: {
-    transitsPerDay: 5,
-    oilFlowMbd: 0.3,
-    disruptionPct: 96,
+    transitsPerDay: 0,
+    oilFlowMbd: 0,
+    disruptionPct: 100,
   },
   preWar: {
     transitsPerDay: 130,
@@ -756,14 +756,14 @@ const HORMUZ_DATA = {
     minelayersDestroyed: 44,
     insuranceSurge: '5-10% of vessel value',
     tankerRates: '$500K/day',
-    trumpUltimatum: 'Strike pause to Apr 6; Trump: "no deal needed"; war ends "2-3 weeks"',
-    iranThreat: 'Qeshm desalination knocked out; pharma/steel plants bombed; Kharazi targeted',
+    trumpUltimatum: '2-WEEK CEASEFIRE agreed; then Iran RE-CLOSES Hormuz over Israeli Lebanon strikes',
+    iranThreat: 'IRGC halts all shipping citing Israeli ceasefire violation; White House denies closure',
   },
   disruptions: [
-    { country: 'Saudi Arabia', detail: 'Intercepts 8 BMs; E-3 Sentry destroyed at Prince Sultan AB' },
-    { country: 'Iraq', detail: 'PMF in Iran; 108 killed; militia offensives continue' },
-    { country: 'UAE', detail: 'Kuwaiti tanker struck at Dubai; Qeshm desalination destroyed' },
-    { country: 'Asia', detail: 'IEA: April crunch worsens; Axios: $200/bbl if Hormuz stays closed' },
+    { country: 'Saudi Arabia', detail: 'King Fahd Causeway closed; supports truce if Iran opens strait' },
+    { country: 'Iraq', detail: 'PMF in Iran; 112 killed; ceasefire does not cover Iraq militias' },
+    { country: 'UAE', detail: 'Oil plunged 16% to $95 on ceasefire; biggest drop since 2020' },
+    { country: 'Asia', detail: 'Ceasefire fragile; Islamabad peace talks this week; world cautiously hopeful' },
   ],
 };
 

@@ -1030,6 +1030,41 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Security concerns amid Iranian attacks; regional infrastructure under threat',
   },
+  {
+    date: '2026-04-08',
+    event: 'US-IRAN 2-WEEK CEASEFIRE TAKES EFFECT — then immediately cracks',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Iran to reopen Hormuz; peace talks scheduled in Islamabad; world greets with relief',
+  },
+  {
+    date: '2026-04-08',
+    event: 'Israel launches Operation Eternal Darkness — 254 killed in Lebanon',
+    type: 'escalation',
+    status: 'escalation',
+    detail: '100 strikes in 10 minutes; 1,165 wounded; Israel says it won\'t stop Lebanon assault',
+  },
+  {
+    date: '2026-04-08',
+    event: 'Iran re-closes Hormuz after Israeli Lebanon strikes — ceasefire in doubt',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IRGC halts shipping citing Israeli violation; White House denies Hormuz is closed',
+  },
+  {
+    date: '2026-04-08',
+    event: 'Oil plunges 16% — biggest one-day drop since April 2020',
+    type: 'economic',
+    status: 'implemented',
+    detail: 'WTI to $94.41; Brent to $94.75; Dow sees best day in a year',
+  },
+  {
+    date: '2026-04-08',
+    event: 'Hegseth touts "capital-V Victory" as strikes continue',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Netanyahu supports temporary truce "if Iran opens straits"; Iran accuses US of violation',
+  },
 ];
 
 export const STATUS_COLORS = {
