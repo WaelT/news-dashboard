@@ -733,11 +733,11 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'APR 8, 2026',
+  updated: 'APR 9, 2026',
   current: {
-    transitsPerDay: 0,
-    oilFlowMbd: 0,
-    disruptionPct: 100,
+    transitsPerDay: 11,
+    oilFlowMbd: 1.5,
+    disruptionPct: 92,
   },
   preWar: {
     transitsPerDay: 130,
@@ -746,7 +746,7 @@ const HORMUZ_DATA = {
     globalLngPct: 20,
   },
   crisis: {
-    tankersQueued: 250,
+    tankersQueued: 426,
     vesselsStranded: 2000,
     seafarersStranded: 20000,
     vesselsAttacked: 42,
@@ -756,14 +756,14 @@ const HORMUZ_DATA = {
     minelayersDestroyed: 44,
     insuranceSurge: '5-10% of vessel value',
     tankerRates: '$500K/day',
-    trumpUltimatum: '2-WEEK CEASEFIRE agreed; then Iran RE-CLOSES Hormuz over Israeli Lebanon strikes',
-    iranThreat: 'IRGC halts all shipping citing Israeli ceasefire violation; White House denies closure',
+    trumpUltimatum: '2-WEEK CEASEFIRE: ~11 ships/day trickling through; 8% of normal traffic',
+    iranThreat: '"Permission-based" system; crypto tolls demanded; weapons inspections on each ship',
   },
   disruptions: [
-    { country: 'Saudi Arabia', detail: 'King Fahd Causeway closed; supports truce if Iran opens strait' },
-    { country: 'Iraq', detail: 'PMF in Iran; 112 killed; ceasefire does not cover Iraq militias' },
-    { country: 'UAE', detail: 'Oil plunged 16% to $95 on ceasefire; biggest drop since 2020' },
-    { country: 'Asia', detail: 'Ceasefire fragile; Islamabad peace talks this week; world cautiously hopeful' },
+    { country: 'Saudi Arabia', detail: '426 tankers + 34 LPG + 19 LNG carriers still waiting' },
+    { country: 'Iraq', detail: 'PMF in Iran; ceasefire does not cover Iraq militias' },
+    { country: 'UAE', detail: 'Maersk: "opportunities but no full maritime certainty"' },
+    { country: 'Asia', detail: 'Islamabad peace talks this week; IMO: 2,000 ships + 20K seafarers stranded' },
   ],
 };
 
