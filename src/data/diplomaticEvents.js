@@ -1065,6 +1065,41 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Netanyahu supports temporary truce "if Iran opens straits"; Iran accuses US of violation',
   },
+  {
+    date: '2026-04-09',
+    event: 'Islamabad talks confirmed — Vance leads US delegation Saturday',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Vance + Witkoff + Kushner vs Ghalibaf + Araghchi; Pakistan mediating; "critical stage"',
+  },
+  {
+    date: '2026-04-09',
+    event: 'Iran delivers 10-point counter-proposal via Pakistan',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Demands: all regional conflicts resolved, sanctions lifted, reconstruction, Hormuz protocol',
+  },
+  {
+    date: '2026-04-09',
+    event: 'Ceasefire cracking — Gulf states report continued missile intercepts',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Abu Dhabi Habshan gas complex fire; Saudi pipeline hit by drone; Hezbollah attacks continue',
+  },
+  {
+    date: '2026-04-09',
+    event: 'Israel begins direct negotiations with Lebanon',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Trump/Netanyahu say Lebanon NOT included in Iran ceasefire; separate track',
+  },
+  {
+    date: '2026-04-09',
+    event: 'Oil rebounds to $98 as Hormuz stays effectively blocked',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'Goldman: $100+ Brent all 2026 if Hormuz closed another month; recovery takes months',
+  },
 ];
 
 export const STATUS_COLORS = {
