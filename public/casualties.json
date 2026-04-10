@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-09T18:59:40.143Z",
+  "updatedAt": "2026-04-10T02:09:11.122Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "iran": {
@@ -24,7 +24,7 @@
     },
     "palestine": {
       "killed": 14,
-      "wounded": 3
+      "wounded": 15
     },
     "uae": {
       "killed": 13,
@@ -32,7 +32,7 @@
     },
     "kuwait": {
       "killed": 10,
-      "wounded": 109
+      "wounded": 115
     },
     "bahrain": {
       "killed": 3,
