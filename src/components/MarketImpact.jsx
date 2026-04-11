@@ -46,23 +46,18 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'US Military Cost', value: '$50B+', sub: '~$1.2B/day (42 days)', color: '#ff0040' },
-  { label: 'Total War Cost Est.', value: '$70B', sub: 'Penn Wharton central', color: '#ff0040' },
-  { label: 'Broader US Impact', value: '$220B', sub: 'incl. economic losses', color: '#ff0040' },
-  { label: 'Ceasefire', value: 'FRAGILE', sub: 'Iran 10-point counter-proposal; Islamabad talks Saturday', color: '#d4a017' },
-  { label: 'Kharg Island', value: 'STRUCK', sub: 'US began strikes on Iran main oil export terminal', color: '#ff0040' },
-  { label: 'Brent Crude', value: '$98', sub: '/barrel; rebounded from $95; Goldman: $100+ all 2026 if Hormuz shut', color: '#ff6600' },
-  { label: 'Hormuz', value: '11 SHIPS/DAY', sub: '8% of normal; 426 tankers waiting; crypto tolls + inspections', color: '#d4a017' },
-  { label: 'Bab al-Mandab', value: 'THREATENED', sub: 'Houthis: closure "viable option"; 15% global trade', color: '#ff0040' },
-  { label: 'Op Eternal Dark', value: '254 KILLED', sub: 'Israel: 100 strikes in 10 min on Lebanon; 1,165 wounded', color: '#ff0040' },
-  { label: 'Islamabad Talks', value: 'SATURDAY', sub: 'Vance + Witkoff + Kushner vs Ghalibaf + Araghchi; "critical stage"', color: '#0088cc' },
-  { label: 'Abu Dhabi', value: 'HABSHAN FIRE', sub: 'gas complex hit; Saudi pipeline struck by drone despite ceasefire', color: '#ff0040' },
-  { label: 'Lebanon Total', value: '1,784 KILLED', sub: 'Israel-Lebanon talks start; Lebanon NOT in Iran ceasefire', color: '#ff0040' },
-  { label: 'Iran Navy', value: '92% destroyed', sub: '10,000+ targets; HRANA: 3,636 killed incl. 1,701 civilians', color: '#0088cc' },
-  { label: 'Saudi Arabia', value: '3 KILLED', sub: 'wounded up to 29; pipeline hit during ceasefire', color: '#ff0040' },
-  { label: 'Goldman Sachs', value: '$100+', sub: 'Brent all 2026 if Hormuz closed another month', color: '#ff6600' },
-  { label: 'US Gas Price', value: '$4.11/gal', sub: 'up from $2.98 pre-war; recovery takes months even with deal', color: '#ff6600' },
-  { label: 'Global Inflation', value: '+0.8%', sub: 'IEA: largest supply disruption in oil market history', color: '#d4a017' },
+  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
+  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
+  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
+  { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
+  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
+  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
+  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
+  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
 ];
 
 function EconomicImpact() {
