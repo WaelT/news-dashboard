@@ -27,7 +27,7 @@ const DEFAULT_CASUALTIES = {
   iran: { killed: 3486, wounded: 26500 },
   israel: { killed: 40, wounded: 7453 },
   usa: { killed: 15, wounded: 538 },
-  lebanon: { killed: 1953, wounded: 6303 },
+  lebanon: { killed: 2020, wounded: 6436 },
   yemen: { killed: 0, wounded: 0 },
   iraq: { killed: 112, wounded: 224 },
   uae: { killed: 13, wounded: 224 },
@@ -40,7 +40,7 @@ const DEFAULT_CASUALTIES = {
   syria: { killed: 4, wounded: 0 },
   palestine: { killed: 14, wounded: 15 },
   turkey: { killed: 3, wounded: 0 },
-  france: { killed: 1, wounded: 0 },
+  france: { killed: 1, wounded: 7 },
   philippines: { killed: 2, wounded: 0 },
   azerbaijan: { killed: 0, wounded: 4 },
 };
