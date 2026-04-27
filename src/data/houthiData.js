@@ -1,24 +1,24 @@
 // Houthi/Bab al-Mandab tracker data
 // Sources: CENTCOM, Al Jazeera, USNI News, Alma Center
 export const houthiData = {
-  updated: '2026-04-01',
-  status: 'THREATENED',
+  updated: '2026-04-26',
+  status: 'OBSERVING TRUCE',
   babAlMandab: {
     globalTradePct: 15,
-    closureThreat: 'Houthis: "viable option"',
+    closureThreat: 'Houthi truce holding since Apr 14; transit normalizing',
   },
   attacks: {
-    totalLaunched: 4,
-    missilesAtIsrael: 3,
-    dronesAtIsrael: 1,
+    totalLaunched: 6,
+    missilesAtIsrael: 4,
+    dronesAtIsrael: 2,
   },
   israelImpact: {
-    redSeaImportPct: 30,
-    eilatStatus: 'REDUCED',
+    redSeaImportPct: 55,
+    eilatStatus: 'PARTIAL',
   },
   shipping: {
-    shipsDiverted: 320,
-    additionalDays: 12,
-    containerRateSurge: '+280%',
+    shipsDiverted: 410,
+    additionalDays: 6,
+    containerRateSurge: '+95%',
   },
 };

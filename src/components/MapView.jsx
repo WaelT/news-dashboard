@@ -733,11 +733,11 @@ function timeAgo(dateStr) {
 // ========== Hormuz Stats ==========
 
 const HORMUZ_DATA = {
-  updated: 'APR 10, 2026',
+  updated: 'APR 26, 2026',
   current: {
-    transitsPerDay: 11,
-    oilFlowMbd: 1.5,
-    disruptionPct: 92,
+    transitsPerDay: 68,
+    oilFlowMbd: 11.5,
+    disruptionPct: 42,
   },
   preWar: {
     transitsPerDay: 130,
@@ -746,24 +746,24 @@ const HORMUZ_DATA = {
     globalLngPct: 20,
   },
   crisis: {
-    tankersQueued: 426,
-    vesselsStranded: 2000,
-    seafarersStranded: 20000,
-    vesselsAttacked: 42,
-    seafarersKilled: 30,
-    minesDetected: true,
-    minesFound: 12,
-    minelayersDestroyed: 44,
-    insuranceSurge: '5-10% of vessel value',
-    tankerRates: '$500K/day',
-    trumpUltimatum: '2-WEEK CEASEFIRE: ~11 ships/day trickling through; 8% of normal traffic',
-    iranThreat: '"Permission-based" system; crypto tolls demanded; weapons inspections on each ship',
+    tankersQueued: 95,
+    vesselsStranded: 380,
+    seafarersStranded: 4200,
+    vesselsAttacked: 44,
+    seafarersKilled: 31,
+    minesDetected: false,
+    minesFound: 0,
+    minelayersDestroyed: 47,
+    insuranceSurge: '1.5-2% of vessel value',
+    tankerRates: '$180K/day',
+    trumpUltimatum: 'CEASEFIRE EXTENDED 30 DAYS (Apr 22): ~68 ships/day, 76% of pre-war volume',
+    iranThreat: 'Tehran Framework signed Apr 18; tolls dropped; IRGC inspections reduced to spot-checks',
   },
   disruptions: [
-    { country: 'Saudi Arabia', detail: '426 tankers + 34 LPG + 19 LNG carriers still waiting' },
-    { country: 'Iraq', detail: 'PMF in Iran; ceasefire does not cover Iraq militias' },
-    { country: 'UAE', detail: 'Maersk: "opportunities but no full maritime certainty"' },
-    { country: 'Asia', detail: 'Islamabad peace talks this week; IMO: 2,000 ships + 20K seafarers stranded' },
+    { country: 'Saudi Arabia', detail: 'Yanbu pipeline restored Apr 20; Aramco at full Red Sea schedule' },
+    { country: 'Iraq', detail: 'PMF withdrawn; gas flow from Iran resuming after South Pars repairs' },
+    { country: 'UAE', detail: 'Jebel Ali clearing 95 backlogged tankers; insurance halved' },
+    { country: 'Asia', detail: 'Vance-Araghchi formal Tehran talks May 5; supply normalizing' },
   ],
 };
 
@@ -873,14 +873,14 @@ function HormuzStats() {
 
       {/* Houthi / Bab al-Mandab */}
       <CollapsibleSection title="BAB AL-MANDAB / HOUTHI">
-        <div className="bg-ops-red/10 border border-ops-red/30 rounded px-2 py-1 mb-1">
-          <span className="text-[9px] font-bold text-ops-red tracking-wider">STATUS: THREATENED</span>
+        <div className="bg-[#22c55e]/10 border border-[#22c55e]/30 rounded px-2 py-1 mb-1">
+          <span className="text-[9px] font-bold text-[#22c55e] tracking-wider">STATUS: TRUCE HOLDING</span>
           <span className="text-[8px] text-gray-400 ml-1">15% of global maritime trade</span>
         </div>
-        <HormuzStatRow label="Houthi Attacks" value="4" color="#ef4060" sub="3 missiles + 1 drone at Israel" />
-        <HormuzStatRow label="Israel Red Sea Imports" value="30%" color="#ff6600" sub="at risk; Eilat port reduced" />
-        <HormuzStatRow label="Ships Diverted" value="320+" color="#ff6600" sub="+12 days via Cape of Good Hope" />
-        <HormuzStatRow label="Container Rates" value="+280%" color="#d4a017" sub="Drewry container index" />
+        <HormuzStatRow label="Houthi Attacks" value="6" color="#ef4060" sub="4 missiles + 2 drones at Israel; truce since Apr 14" />
+        <HormuzStatRow label="Israel Red Sea Imports" value="55%" color="#ff6600" sub="recovering; Eilat partial reopen" />
+        <HormuzStatRow label="Ships Diverted" value="410+" color="#ff6600" sub="+6 days via Cape; rerouting easing" />
+        <HormuzStatRow label="Container Rates" value="+95%" color="#d4a017" sub="Drewry container index — down from +280%" />
       </CollapsibleSection>
 
       <p className="text-[8px] text-gray-500 mt-2">Sources: Windward, EIA, Reuters, CENTCOM, Anadolu</p>

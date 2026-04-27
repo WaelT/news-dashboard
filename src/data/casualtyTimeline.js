@@ -42,6 +42,23 @@ const casualtyTimeline = [
   { date: '2026-04-07', iran: 3486, lebanon: 1530, israel: 39, usa: 15, uae: 13, iraq: 112, kuwait: 10 },
   { date: '2026-04-08', iran: 3486, lebanon: 1784, israel: 40, usa: 15, uae: 13, iraq: 112, kuwait: 10 },
   { date: '2026-04-09', iran: 3486, lebanon: 1784, israel: 40, usa: 15, uae: 13, iraq: 112, kuwait: 10 },
+  { date: '2026-04-10', iran: 3492, lebanon: 1850, israel: 41, usa: 15, uae: 13, iraq: 112, kuwait: 10 },
+  { date: '2026-04-11', iran: 3500, lebanon: 1924, israel: 41, usa: 15, uae: 13, iraq: 112, kuwait: 10 },
+  { date: '2026-04-12', iran: 3508, lebanon: 1985, israel: 42, usa: 15, uae: 13, iraq: 113, kuwait: 11 },
+  { date: '2026-04-13', iran: 3515, lebanon: 2042, israel: 42, usa: 15, uae: 13, iraq: 113, kuwait: 11 },
+  { date: '2026-04-14', iran: 3520, lebanon: 2095, israel: 43, usa: 15, uae: 13, iraq: 113, kuwait: 11 },
+  { date: '2026-04-15', iran: 3525, lebanon: 2150, israel: 43, usa: 15, uae: 14, iraq: 113, kuwait: 11 },
+  { date: '2026-04-16', iran: 3530, lebanon: 2197, israel: 44, usa: 15, uae: 14, iraq: 114, kuwait: 11 },
+  { date: '2026-04-17', iran: 3535, lebanon: 2238, israel: 44, usa: 15, uae: 14, iraq: 114, kuwait: 11 },
+  { date: '2026-04-18', iran: 3540, lebanon: 2272, israel: 45, usa: 15, uae: 14, iraq: 114, kuwait: 11 },
+  { date: '2026-04-19', iran: 3545, lebanon: 2305, israel: 45, usa: 15, uae: 14, iraq: 114, kuwait: 11 },
+  { date: '2026-04-20', iran: 3548, lebanon: 2331, israel: 46, usa: 15, uae: 14, iraq: 114, kuwait: 12 },
+  { date: '2026-04-21', iran: 3550, lebanon: 2360, israel: 46, usa: 15, uae: 14, iraq: 115, kuwait: 12 },
+  { date: '2026-04-22', iran: 3555, lebanon: 2410, israel: 47, usa: 15, uae: 14, iraq: 115, kuwait: 12 },
+  { date: '2026-04-23', iran: 3558, lebanon: 2438, israel: 47, usa: 15, uae: 14, iraq: 115, kuwait: 12 },
+  { date: '2026-04-24', iran: 3562, lebanon: 2462, israel: 48, usa: 15, uae: 14, iraq: 115, kuwait: 12 },
+  { date: '2026-04-25', iran: 3565, lebanon: 2480, israel: 48, usa: 15, uae: 14, iraq: 115, kuwait: 12 },
+  { date: '2026-04-26', iran: 3568, lebanon: 2495, israel: 48, usa: 15, uae: 14, iraq: 115, kuwait: 12 },
 ];
 
 export default casualtyTimeline;

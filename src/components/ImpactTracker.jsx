@@ -24,18 +24,18 @@ function flagUrl(cc) {
 }
 
 const DEFAULT_CASUALTIES = {
-  iran: { killed: 3486, wounded: 26500 },
-  israel: { killed: 40, wounded: 7451 },
-  usa: { killed: 15, wounded: 538 },
-  lebanon: { killed: 1784, wounded: 5977 },
+  iran: { killed: 3568, wounded: 27200 },
+  israel: { killed: 48, wounded: 7612 },
+  usa: { killed: 15, wounded: 547 },
+  lebanon: { killed: 2495, wounded: 8340 },
   yemen: { killed: 0, wounded: 0 },
-  iraq: { killed: 112, wounded: 224 },
-  uae: { killed: 13, wounded: 224 },
-  kuwait: { killed: 10, wounded: 115 },
-  bahrain: { killed: 3, wounded: 42 },
+  iraq: { killed: 115, wounded: 232 },
+  uae: { killed: 14, wounded: 238 },
+  kuwait: { killed: 12, wounded: 124 },
+  bahrain: { killed: 4, wounded: 46 },
   qatar: { killed: 4, wounded: 20 },
-  saudi: { killed: 3, wounded: 29 },
-  jordan: { killed: 0, wounded: 29 },
+  saudi: { killed: 5, wounded: 33 },
+  jordan: { killed: 0, wounded: 31 },
   oman: { killed: 3, wounded: 15 },
   syria: { killed: 4, wounded: 0 },
   palestine: { killed: 14, wounded: 15 },
@@ -76,7 +76,8 @@ function TrendChart() {
 
   const formatDate = (dateStr) => {
     const d = new Date(dateStr + 'T00:00:00');
-    return `MAR ${d.getDate()}`;
+    const months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+    return `${months[d.getMonth()]} ${d.getDate()}`;
   };
 
   return (
@@ -173,7 +174,7 @@ export default function ImpactTracker() {
             TREND
           </button>
         </div>
-        <span className="text-ops-muted text-[9px]">APR 10, 2026</span>
+        <span className="text-ops-muted text-[9px]">APR 26, 2026</span>
       </div>
 
       {/* Totals bar */}

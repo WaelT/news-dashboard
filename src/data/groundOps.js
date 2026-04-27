@@ -1,16 +1,16 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'APR 9, 2026',
+  updated: 'APR 26, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
   summary: {
-    troopsDeployed: 50000,
+    troopsDeployed: 62000,
     divisions: 5,
-    territoryCapturedKm2: 180,
-    objectiveLine: 'Litani River',
-    civilianDisplaced: 1200000,
+    territoryCapturedKm2: 245,
+    objectiveLine: 'Litani River + Tyre encirclement',
+    civilianDisplaced: 1400000,
   },
 
   // IDF division positions (approximate)
@@ -387,6 +387,48 @@ const groundOps = {
       lng: 35.50,
       event: '3 UN peacekeepers killed; UNSC holds urgent meeting',
       type: 'engagement',
+    },
+    {
+      date: '2026-04-08',
+      lat: 33.85,
+      lng: 35.50,
+      event: 'Operation Eternal Darkness — 100 strikes in 10 minutes; 254 killed',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-04-11',
+      lat: 33.86,
+      lng: 35.49,
+      event: 'IDF strikes Dahieh — Hezbollah ops chief al-Mousawi reportedly killed',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-04-14',
+      lat: 33.27,
+      lng: 35.20,
+      event: '"Phase 4" — IDF begins encirclement of Tyre and Nabatieh',
+      type: 'ground',
+    },
+    {
+      date: '2026-04-17',
+      lat: 32.82,
+      lng: 35.00,
+      event: 'Hezbollah fires 180 rockets at Haifa + Krayot — 4 killed, 32 wounded',
+      type: 'engagement',
+    },
+    {
+      date: '2026-04-21',
+      lat: 33.85,
+      lng: 35.50,
+      event: 'IDF strikes Burj al-Barajneh + Ghobeiry — 200 killed, deadliest single day',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-04-25',
+      lat: 33.10,
+      lng: 35.13,
+      event: 'Naqoura indirect ceasefire talks under UNIFIL; Hezbollah rejects framework',
+      type: 'ground',
     },
   ],
 };

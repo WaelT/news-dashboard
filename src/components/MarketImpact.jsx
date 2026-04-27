@@ -13,14 +13,14 @@ const SYMBOLS = [
 ];
 
 const FALLBACK = {
-  sp500: { price: 6716.09, change: 0.25 },
-  nasdaq: { price: 22374.00, change: -0.02 },
-  dowjones: { price: 46993.26, change: 0.10 },
-  nikkei: { price: 53700.39, change: 0.00 },
-  brent: { price: 98.44, change: 40.0 },
-  btc: { price: 75991.00, change: 0.25 },
-  gold: { price: 5004.00, change: -0.40 },
-  silver: { price: 80.90, change: 2.49 },
+  sp500: { price: 6802.40, change: 0.35 },
+  nasdaq: { price: 22618.00, change: 0.42 },
+  dowjones: { price: 47210.18, change: 0.18 },
+  nikkei: { price: 54115.20, change: 0.21 },
+  brent: { price: 86.20, change: -1.35 },
+  btc: { price: 78420.00, change: 0.85 },
+  gold: { price: 4862.00, change: -0.55 },
+  silver: { price: 78.40, change: -0.90 },
 };
 
 const REFRESH_MS = 60_000;
@@ -46,23 +46,23 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'US Military Cost', value: '$50B+', sub: '~$1.2B/day (42 days)', color: '#ff0040' },
-  { label: 'Total War Cost Est.', value: '$70B', sub: 'Penn Wharton central', color: '#ff0040' },
-  { label: 'Broader US Impact', value: '$220B', sub: 'incl. economic losses', color: '#ff0040' },
-  { label: 'Ceasefire', value: 'FRAGILE', sub: 'Iran 10-point counter-proposal; Islamabad talks Saturday', color: '#d4a017' },
-  { label: 'Kharg Island', value: 'STRUCK', sub: 'US began strikes on Iran main oil export terminal', color: '#ff0040' },
-  { label: 'Brent Crude', value: '$98', sub: '/barrel; rebounded from $95; Goldman: $100+ all 2026 if Hormuz shut', color: '#ff6600' },
-  { label: 'Hormuz', value: '11 SHIPS/DAY', sub: '8% of normal; 426 tankers waiting; crypto tolls + inspections', color: '#d4a017' },
-  { label: 'Bab al-Mandab', value: 'THREATENED', sub: 'Houthis: closure "viable option"; 15% global trade', color: '#ff0040' },
-  { label: 'Op Eternal Dark', value: '254 KILLED', sub: 'Israel: 100 strikes in 10 min on Lebanon; 1,165 wounded', color: '#ff0040' },
-  { label: 'Islamabad Talks', value: 'SATURDAY', sub: 'Vance + Witkoff + Kushner vs Ghalibaf + Araghchi; "critical stage"', color: '#0088cc' },
-  { label: 'Abu Dhabi', value: 'HABSHAN FIRE', sub: 'gas complex hit; Saudi pipeline struck by drone despite ceasefire', color: '#ff0040' },
-  { label: 'Lebanon Total', value: '1,784 KILLED', sub: 'Israel-Lebanon talks start; Lebanon NOT in Iran ceasefire', color: '#ff0040' },
-  { label: 'Iran Navy', value: '92% destroyed', sub: '10,000+ targets; HRANA: 3,636 killed incl. 1,701 civilians', color: '#0088cc' },
-  { label: 'Saudi Arabia', value: '3 KILLED', sub: 'wounded up to 29; pipeline hit during ceasefire', color: '#ff0040' },
-  { label: 'Goldman Sachs', value: '$100+', sub: 'Brent all 2026 if Hormuz closed another month', color: '#ff6600' },
-  { label: 'US Gas Price', value: '$4.11/gal', sub: 'up from $2.98 pre-war; recovery takes months even with deal', color: '#ff6600' },
-  { label: 'Global Inflation', value: '+0.8%', sub: 'IEA: largest supply disruption in oil market history', color: '#d4a017' },
+  { label: 'US Military Cost', value: '$68B+', sub: '~$1.1B/day (58 days)', color: '#ff0040' },
+  { label: 'Total War Cost Est.', value: '$95B', sub: 'Penn Wharton central; revised up', color: '#ff0040' },
+  { label: 'Broader US Impact', value: '$285B', sub: 'incl. economic losses', color: '#ff0040' },
+  { label: 'Ceasefire', value: 'EXTENDED', sub: 'US-Iran 30-day extension Apr 22; Tehran framework signed', color: '#00ff41' },
+  { label: 'Hormuz', value: '68 SHIPS/DAY', sub: '76% of pre-war 90/day; tolls dropped; queue cleared to 95', color: '#22c55e' },
+  { label: 'Brent Crude', value: '$86', sub: '/barrel; down from $116 peak as Hormuz reopens', color: '#ff6600' },
+  { label: 'Kharg Island', value: 'OFFLINE', sub: 'Iran main oil terminal repairs underway; 6-month timeline', color: '#ff0040' },
+  { label: 'Bab al-Mandab', value: 'OPEN', sub: 'Houthi truce holding; transit normalizing', color: '#22c55e' },
+  { label: 'Op Eternal Dark', value: '711 KILLED', sub: 'Israel-Lebanon war Day 19; Beirut southern suburbs leveled', color: '#ff0040' },
+  { label: 'Tehran Framework', value: 'SIGNED', sub: 'Apr 18 — sanctions relief tranches, IAEA monitors, no enrichment', color: '#00ff41' },
+  { label: 'Lebanon Ceasefire', value: 'TALKS', sub: 'Beirut–Jerusalem indirect talks Apr 25; Hezbollah rejects', color: '#d4a017' },
+  { label: 'Lebanon Total', value: '2,495 KILLED', sub: 'wounded ~8,340; 1.4M displaced; UNIFIL pulling back', color: '#ff0040' },
+  { label: 'Iran Navy', value: '92% destroyed', sub: '10,400+ targets struck; HRANA: 3,568 killed incl. 1,742 civilians', color: '#0088cc' },
+  { label: 'Saudi Arabia', value: '5 KILLED', sub: 'wounded ~33; Yanbu pipeline section restored Apr 20', color: '#ff0040' },
+  { label: 'Goldman Sachs', value: '$80–90', sub: 'Brent 2026 range if Hormuz holds; downside revised', color: '#22c55e' },
+  { label: 'US Gas Price', value: '$3.62/gal', sub: 'down from $4.11 peak; SPR refill begins Q3', color: '#ff6600' },
+  { label: 'Global Inflation', value: '+0.5%', sub: 'IEA: easing as supply normalizes; 2.4% food index hit lingers', color: '#d4a017' },
 ];
 
 function EconomicImpact() {
