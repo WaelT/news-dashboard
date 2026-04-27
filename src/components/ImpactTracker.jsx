@@ -40,7 +40,7 @@ const DEFAULT_CASUALTIES = {
   syria: { killed: 4, wounded: 0 },
   palestine: { killed: 14, wounded: 15 },
   turkey: { killed: 3, wounded: 0 },
-  france: { killed: 1, wounded: 0 },
+  france: { killed: 1, wounded: 7 },
   philippines: { killed: 2, wounded: 0 },
   azerbaijan: { killed: 0, wounded: 4 },
 };
