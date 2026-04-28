@@ -46,23 +46,18 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'US Military Cost', value: '$68B+', sub: '~$1.1B/day (58 days)', color: '#ff0040' },
-  { label: 'Total War Cost Est.', value: '$95B', sub: 'Penn Wharton central; revised up', color: '#ff0040' },
-  { label: 'Broader US Impact', value: '$285B', sub: 'incl. economic losses', color: '#ff0040' },
-  { label: 'Ceasefire', value: 'EXTENDED', sub: 'US-Iran 30-day extension Apr 22; Tehran framework signed', color: '#00ff41' },
-  { label: 'Hormuz', value: '68 SHIPS/DAY', sub: '76% of pre-war 90/day; tolls dropped; queue cleared to 95', color: '#22c55e' },
-  { label: 'Brent Crude', value: '$86', sub: '/barrel; down from $116 peak as Hormuz reopens', color: '#ff6600' },
-  { label: 'Kharg Island', value: 'OFFLINE', sub: 'Iran main oil terminal repairs underway; 6-month timeline', color: '#ff0040' },
-  { label: 'Bab al-Mandab', value: 'OPEN', sub: 'Houthi truce holding; transit normalizing', color: '#22c55e' },
-  { label: 'Op Eternal Dark', value: '711 KILLED', sub: 'Israel-Lebanon war Day 19; Beirut southern suburbs leveled', color: '#ff0040' },
-  { label: 'Tehran Framework', value: 'SIGNED', sub: 'Apr 18 — sanctions relief tranches, IAEA monitors, no enrichment', color: '#00ff41' },
-  { label: 'Lebanon Ceasefire', value: 'TALKS', sub: 'Beirut–Jerusalem indirect talks Apr 25; Hezbollah rejects', color: '#d4a017' },
-  { label: 'Lebanon Total', value: '2,495 KILLED', sub: 'wounded ~8,340; 1.4M displaced; UNIFIL pulling back', color: '#ff0040' },
-  { label: 'Iran Navy', value: '92% destroyed', sub: '10,400+ targets struck; HRANA: 3,568 killed incl. 1,742 civilians', color: '#0088cc' },
-  { label: 'Saudi Arabia', value: '5 KILLED', sub: 'wounded ~33; Yanbu pipeline section restored Apr 20', color: '#ff0040' },
-  { label: 'Goldman Sachs', value: '$80–90', sub: 'Brent 2026 range if Hormuz holds; downside revised', color: '#22c55e' },
-  { label: 'US Gas Price', value: '$3.62/gal', sub: 'down from $4.11 peak; SPR refill begins Q3', color: '#ff6600' },
-  { label: 'Global Inflation', value: '+0.5%', sub: 'IEA: easing as supply normalizes; 2.4% food index hit lingers', color: '#d4a017' },
+  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
+  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
+  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
+  { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
+  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
+  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
+  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
+  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
 ];
 
 function EconomicImpact() {
