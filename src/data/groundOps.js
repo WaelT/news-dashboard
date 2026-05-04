@@ -1,16 +1,16 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'APR 26, 2026',
+  updated: 'MAY 04, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
   summary: {
     troopsDeployed: 62000,
     divisions: 5,
-    territoryCapturedKm2: 245,
+    territoryCapturedKm2: 285,
     objectiveLine: 'Litani River + Tyre encirclement',
-    civilianDisplaced: 1400000,
+    civilianDisplaced: 1550000,
   },
 
   // IDF division positions (approximate)
@@ -429,6 +429,48 @@ const groundOps = {
       lng: 35.13,
       event: 'Naqoura indirect ceasefire talks under UNIFIL; Hezbollah rejects framework',
       type: 'ground',
+    },
+    {
+      date: '2026-04-27',
+      lat: 33.18,
+      lng: 35.48,
+      event: 'IDF carries out 20+ strikes on Hezbollah sites in southern Lebanon — 14 killed, 37 wounded',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-04-27',
+      lat: 33.25,
+      lng: 35.60,
+      event: 'Hezbollah systematic offensive operations continuing — Alma Center analysis confirms escalation since Apr 17',
+      type: 'engagement',
+    },
+    {
+      date: '2026-05-01',
+      lat: 33.20,
+      lng: 35.40,
+      event: 'IDF kills Hezbollah terrorists in Bint Jbeil and Khiam — 7 reported killed per Lebanese media',
+      type: 'engagement',
+    },
+    {
+      date: '2026-05-01',
+      lat: 33.28,
+      lng: 35.20,
+      event: 'Israeli airstrike on Tyre kills 13 family members + injures 35; strike near Jabal Amel Hospital kills 1',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-03',
+      lat: 33.16,
+      lng: 35.50,
+      event: 'IDF strikes 50+ Hezbollah infrastructure sites — command centers, military structures',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-04',
+      lat: 33.19,
+      lng: 35.45,
+      event: 'Heavy fighting continues in Bint Jbeil and Khiam sectors; IDF kills Hezbollah operatives near IDF soldiers',
+      type: 'engagement',
     },
   ],
 };
