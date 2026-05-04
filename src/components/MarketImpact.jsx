@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { globalImpact } from '../data/globalImpact';
+import { straitOfHormuz } from '../data/straitOfHormuz';
 
 const SYMBOLS = [
   { id: 'sp500', symbol: 'ES=F', label: 'SPY' },
@@ -76,6 +77,80 @@ function EconomicImpact() {
       </div>
       <p className="text-ops-muted text-[9px] mt-2 pt-1.5 border-t border-ops-border/30">
         Sources: Al Jazeera, Oxford Economics, Yahoo Finance, Bloomberg, GCC Central Banks
+      </p>
+    </div>
+  );
+}
+
+function HormuzPanel() {
+  const h = straitOfHormuz;
+  const statusColor = h.status.startsWith('CONTESTED') ? '#ff0040' : '#22c55e';
+  return (
+    <div className="flex-1 overflow-y-auto px-3 py-3 space-y-3">
+      {/* Status banner */}
+      <div className="bg-ops-border/20 rounded px-3 py-2.5 flex items-center justify-between">
+        <div>
+          <div className="text-[10px] text-ops-muted font-bold tracking-wider">STRAIT OF HORMUZ</div>
+          <div className="text-sm font-bold font-mono" style={{ color: statusColor }}>{h.status}</div>
+        </div>
+        <div className="text-right">
+          <div className="text-[10px] text-ops-muted">TRANSIT</div>
+          <div className="text-base font-bold font-mono text-ops-red">{h.currentTraffic.pctOfPreWar}% of pre-war</div>
+        </div>
+      </div>
+
+      {/* Key metrics */}
+      <div className="grid grid-cols-2 gap-2">
+        <div className="bg-ops-border/20 rounded px-3 py-2">
+          <div className="text-[10px] text-ops-muted font-bold">SHIPS/DAY</div>
+          <div className="text-sm font-bold font-mono text-ops-red">{h.currentTraffic.shipsPerDay} <span className="text-[9px] text-ops-muted">vs {h.preWarDaily.shipsPerDay} pre-war</span></div>
+        </div>
+        <div className="bg-ops-border/20 rounded px-3 py-2">
+          <div className="text-[10px] text-ops-muted font-bold">STRANDED</div>
+          <div className="text-sm font-bold font-mono text-[#ff6600]">~{(h.currentTraffic.stranded / 1000).toFixed(0)}K ships</div>
+        </div>
+        <div className="bg-ops-border/20 rounded px-3 py-2">
+          <div className="text-[10px] text-ops-muted font-bold">PRE-WAR OIL</div>
+          <div className="text-sm font-bold font-mono text-ops-text">{h.preWarDaily.oilMbpd}M bpd ({h.preWarDaily.oilPctWorld}%)</div>
+        </div>
+        <div className="bg-ops-border/20 rounded px-3 py-2">
+          <div className="text-[10px] text-ops-muted font-bold">SEAFARERS</div>
+          <div className="text-sm font-bold font-mono text-[#ff6600]">{(h.currentTraffic.seafarersAffected / 1000).toFixed(0)}K+ affected</div>
+        </div>
+      </div>
+
+      {/* Naval presence */}
+      <div className="text-[11px] text-ops-muted font-bold tracking-wider">NAVAL PRESENCE</div>
+      {h.navalPresence.map((n) => (
+        <div key={n.force} className="py-1.5 border-b border-ops-border/30">
+          <div className="flex items-center justify-between mb-0.5">
+            <span className="text-xs font-bold text-ops-text">{n.force}</span>
+            <span className="text-[9px] font-bold font-mono px-1.5 py-0.5 rounded"
+              style={{ background: n.status === 'ACTIVE' ? '#ff004020' : '#22c55e20', color: n.status === 'ACTIVE' ? '#ff0040' : n.status === 'PAUSED' ? '#ff6600' : '#22c55e' }}>
+              {n.status}
+            </span>
+          </div>
+          <span className="text-[10px] text-ops-muted">{n.assets}</span>
+        </div>
+      ))}
+
+      {/* Recent incidents */}
+      <div className="text-[11px] text-ops-muted font-bold tracking-wider">RECENT INCIDENTS</div>
+      {h.recentIncidents.slice(0, 4).map((inc, i) => (
+        <div key={i} className="py-1.5 border-b border-ops-border/30">
+          <div className="flex items-center gap-2 mb-0.5">
+            <span className="text-[9px] font-mono text-ops-muted">{inc.date}</span>
+            <span className="text-[9px] font-bold uppercase px-1 rounded"
+              style={{ background: inc.type === 'attack' ? '#ff004030' : inc.type === 'escalation' ? '#ff660030' : '#0088cc20', color: inc.type === 'attack' ? '#ff0040' : inc.type === 'escalation' ? '#ff6600' : '#0088cc' }}>
+              {inc.type}
+            </span>
+          </div>
+          <p className="text-[10px] text-ops-text leading-tight">{inc.description}</p>
+        </div>
+      ))}
+
+      <p className="text-[10px] text-ops-muted pt-2 border-t border-ops-border/30">
+        Sources: CENTCOM, Wikipedia, CNN, PBS, Al Jazeera, Lloyd's List, UNCTAD
       </p>
     </div>
   );
@@ -177,7 +252,7 @@ export default function MarketImpact() {
       <div className="panel-header px-3 py-2 flex items-center justify-between">
         <span className="text-[#00b4d8] text-[11px] font-bold tracking-widest mr-2">MARKETS</span>
         <div className="flex ml-auto items-center gap-2">
-          {[['markets', 'LIVE'], ['global', 'GLOBAL']].map(([key, label]) => (
+          {[['markets', 'LIVE'], ['global', 'GLOBAL'], ['hormuz', 'HORMUZ']].map(([key, label]) => (
             <button key={key} onClick={() => setActiveTab(key)}
               className={`px-2 py-1 text-[9px] font-bold tracking-widest transition-all duration-150 border-b-2 ${
                 activeTab === key ? 'text-[#00b4d8] border-[#00b4d8]' : 'text-ops-muted border-transparent hover:text-ops-text'
@@ -192,7 +267,7 @@ export default function MarketImpact() {
         </div>
       </div>
 
-      {activeTab === 'global' ? <GlobalImpactPanel /> : <div className="flex-1 min-h-0 overflow-y-auto">
+      {activeTab === 'hormuz' ? <HormuzPanel /> : activeTab === 'global' ? <GlobalImpactPanel /> : <div className="flex-1 min-h-0 overflow-y-auto">
         <div className="grid grid-cols-2 gap-x-4 gap-y-1 px-3 py-2">
           {markets.map((m) => {
             const up = m.change >= 0;
