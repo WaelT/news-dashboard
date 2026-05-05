@@ -1,7 +1,7 @@
 // Global economic impact data
 // Sources: IEA, World Bank (Apr 28), IMF (Apr 2026 REO), Goldman Sachs, Oxford Economics, Bloomberg
 export const globalImpact = {
-  updated: '2026-05-04',
+  updated: '2026-05-05',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; oil exports halted' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Mobilization + Lebanon ops + reconstruction' },
@@ -15,10 +15,10 @@ export const globalImpact = {
   disruptions: {
     flightsCancelled: '78,000+',
     airspaceClosed: 'Iran (partial), S. Lebanon, Gulf corridors',
-    shippingDelay: '4–8 days avg (improving)',
+    shippingDelay: '5–9 days avg (worsening — Project Freedom)',
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 82, peak: 116, forecast: 86,
+    preWar: 68, current: 87, peak: 116, forecast: 90,
   },
 };
