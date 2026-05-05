@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 04, 2026',
+  updated: 'MAY 05, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -470,6 +470,20 @@ const groundOps = {
       lat: 33.19,
       lng: 35.45,
       event: 'Heavy fighting continues in Bint Jbeil and Khiam sectors; IDF kills Hezbollah operatives near IDF soldiers',
+      type: 'engagement',
+    },
+    {
+      date: '2026-05-05',
+      lat: 33.17,
+      lng: 35.20,
+      event: 'Phase 4 — 210th Division tightens encirclement of Tyre; IDF advances to city outskirts; evacuation corridor opened north toward Sidon',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-05',
+      lat: 33.22,
+      lng: 35.58,
+      event: 'Hezbollah fires 95 rockets and drones at northern Israel; IDF retaliates with strikes on 35 launch sites in Khiam and Bint Jbeil sectors',
       type: 'engagement',
     },
   ],
