@@ -1345,6 +1345,34 @@ const diplomaticEvents = [
     status: 'rejected',
     detail: 'IRGC denies 2 US-flagged vessels transited strait; Al Jazeera: Tehran calls Project Freedom "violation of international law"; ceasefire under severe strain',
   },
+  {
+    date: '2026-05-05',
+    event: 'Project Freedom Day 2 — US Navy escorts three commercial ships through Hormuz',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'CENTCOM confirms second convoy transit; IRGC shadows convoy with fast-attack boats but does not engage; Iran foreign ministry protests "illegal armed escort operation in our sovereign waters"',
+  },
+  {
+    date: '2026-05-05',
+    event: 'China, Russia demand UN Security Council session over Project Freedom',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Joint statement condemns US convoy ops as "flagrant violation of freedom of navigation"; demand US warships withdraw from Hormuz; threaten veto on any UNSC resolution legitimising Project Freedom',
+  },
+  {
+    date: '2026-05-05',
+    event: 'Iran FM Araghchi: ceasefire impossible without Lebanon — permanent war end required',
+    type: 'ceasefire',
+    status: 'rejected',
+    detail: 'Tells Al Jazeera 90-day nuclear compliance window under Tehran Framework is "unacceptable"; insists full US military withdrawal from Gulf is a precondition; Tehran Framework implementation talks suspended',
+  },
+  {
+    date: '2026-05-05',
+    event: 'Brent rebounds to $87 on Hormuz Project Freedom standoff',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'Goldman Sachs raises near-term forecast to $90–95 if direct US-Iran engagement continues; Asian spot cargo premiums surge; tanker war-risk insurance premiums double from previous week',
+  },
 ];
 
 export const STATUS_COLORS = {
