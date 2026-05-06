@@ -6,11 +6,11 @@ const groundOps = {
   startDate: '2026-03-16',
 
   summary: {
-    troopsDeployed: 62000,
-    divisions: 5,
-    territoryCapturedKm2: 285,
-    objectiveLine: 'Litani River + Tyre encirclement',
-    civilianDisplaced: 1550000,
+    troopsDeployed: 70000,
+    divisions: 6,
+    territoryCapturedKm2: 310,
+    objectiveLine: 'Litani River + Tyre encirclement + Bekaa approach',
+    civilianDisplaced: 1620000,
   },
 
   // IDF division positions (approximate)
@@ -498,6 +498,13 @@ const groundOps = {
       lat: 33.87,
       lng: 35.50,
       event: 'Israel-Lebanon ceasefire extended amid Hormuz uncertainty; IDF retains positions north of Litani pending Lebanon agreement',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-06',
+      lat: 33.23,
+      lng: 35.60,
+      event: 'IDF sends 162nd Division to southern Lebanon — buffer zone expanded toward Bekaa Valley approach; total IDF forces in Lebanon rise to ~70,000',
       type: 'ground',
     },
   ],
