@@ -3,7 +3,7 @@
 //          EIA (March 2026 STEO), IEA, UKMTO Advisory 2026-014, EMASoH, MarineTraffic AIS,
 //          AP, Reuters, Al Jazeera, Operation Prosperity Guardian statements
 export const hormuzData = {
-  updated: '2026-05-05',
+  updated: '2026-05-06',
 
   current: {
     transitsPerDay: 55,
@@ -21,7 +21,7 @@ export const hormuzData = {
   crisis: {
     tankersQueued: 295,
     vesselsStranded: 1900,
-    seafarersStranded: 19000,
+    seafarersStranded: 20000,
     vesselsAttacked: 14,
     seafarersKilled: 6,
     minesDetected: 12,
@@ -29,7 +29,7 @@ export const hormuzData = {
     minelayersDestroyed: 16,
     insuranceSurge: '+380%',
     tankerRates: '$95,000/day',
-    trumpUltimatum: 'Project Freedom launched May 4 — CENTCOM convoy escorts active; Iran fired on US-escorted vessels; 6 IRGC fast-attack boats destroyed by USS Gravely',
+    trumpUltimatum: 'Project Freedom launched May 4 (5 ships total escaped under escort); PAUSED May 5 by Trump citing "great progress" on Iran deal; 6 IRGC fast-attack boats destroyed; Iran fired at US forces 10+ times since ceasefire — below restart threshold per Gen. Caine',
     iranThreat: 'IRGC declares Hormuz "sovereign Iranian maritime zone"; warns all US warships will be engaged on sight; allies told not to provide staging for US Navy',
   },
 
@@ -44,7 +44,7 @@ export const hormuzData = {
     },
     {
       country: 'UAE',
-      detail: 'Jebel Ali container port at 72% throughput; ADNOC rerouting Murban crude loadings via Fujairah anchorage; bunkering at Khor Fakkan limited by security screening protocols',
+      detail: 'Jebel Ali container port at 72% throughput; Fujairah Petroleum Industries Zone struck by Iranian drone May 4 — fire extinguished, 3 Indian nationals injured; ADNOC rerouting Murban crude loadings; UAE intercepted 15 missiles + 4 drones in single-day barrage',
     },
     {
       country: 'Asia',
