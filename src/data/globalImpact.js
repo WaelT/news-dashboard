@@ -1,5 +1,6 @@
 // Global economic impact data
-// Sources: IEA, World Bank (Apr 28), IMF (Apr 2026 REO), Goldman Sachs, Oxford Economics, Bloomberg
+// Sources: IEA, World Bank (Apr 28), IMF (Apr 2026 REO), Goldman Sachs, Oxford Economics, Bloomberg,
+//          TradingEconomics (May 5 2026), CNN Business (Apr 30 2026), CNBC (May 4 2026)
 export const globalImpact = {
   updated: '2026-05-06',
   gdpImpact: [
@@ -15,10 +16,10 @@ export const globalImpact = {
   disruptions: {
     flightsCancelled: '78,000+',
     airspaceClosed: 'Iran (partial), S. Lebanon, Gulf corridors',
-    shippingDelay: '5–9 days avg (worsening — Project Freedom)',
+    shippingDelay: '6–14 days avg via Cape of Good Hope reroute',
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 87, peak: 116, forecast: 90,
+    preWar: 68, current: 108, peak: 126, forecast: 95,
   },
 };
