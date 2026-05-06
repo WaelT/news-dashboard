@@ -1394,6 +1394,20 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Tells conservative radio host Hugh Hewitt ceasefire status uncertain after both sides fired shots in Hormuz; Gen. Caine: Iran aggression "has not risen to levels requiring resumption of full hostilities"; Project Freedom pause continues pending Iran deal talks',
   },
+  {
+    date: '2026-05-06',
+    event: 'Iran FM Araghchi flies to Beijing — first China visit since war began',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Meets Chinese FM Wang Yi; first visit since February 28 strikes; China has unique leverage as top Iranian oil buyer and UN Security Council veto holder; joint communiqué expected to call for permanent ceasefire and full US withdrawal from Gulf',
+  },
+  {
+    date: '2026-05-06',
+    event: 'Trump threatens "much higher level" bombing if Iran fails to make a deal',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Al Jazeera: Trump says attacks will resume "at a much higher level and intensity than before" if Iran does not agree to deal; says it is "too soon" for new direct talks; Iran calls threat "nuclear blackmail"; both sides dig in on Hormuz control and nuclear demands',
+  },
 ];
 
 export const STATUS_COLORS = {
