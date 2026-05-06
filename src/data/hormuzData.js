@@ -27,10 +27,10 @@ export const hormuzData = {
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 16,
-    insuranceSurge: '+380%',
-    tankerRates: '$95,000/day',
-    trumpUltimatum: 'Project Freedom launched May 4 (5 ships total escaped under escort); PAUSED May 5 by Trump citing "great progress" on Iran deal; 6 IRGC fast-attack boats destroyed; Iran fired at US forces 10+ times since ceasefire — below restart threshold per Gen. Caine',
-    iranThreat: 'IRGC declares Hormuz "sovereign Iranian maritime zone"; warns all US warships will be engaged on sight; allies told not to provide staging for US Navy',
+    insuranceSurge: '+420%',
+    tankerRates: '$385,000+/day (VLCC to Asia; doubled from pre-crisis levels)',
+    trumpUltimatum: 'Project Freedom launched May 4 (5 ships total escaped under escort); PAUSED May 5 by Trump citing "great progress" on Iran deal; 6 IRGC fast-attack boats destroyed; Iran fired at US forces 10+ times since ceasefire — below restart threshold per Gen. Caine; May 6: Trump threatens "much higher level" bombing if Iran does not make a deal; Rubio declares "Operation Epic Fury over"',
+    iranThreat: 'IRGC declares Hormuz "sovereign Iranian maritime zone"; warns all US warships will be engaged on sight; allies told not to provide staging for US Navy; FM Araghchi meets Wang Yi in Beijing — first China visit since war start; Iran demands full US withdrawal + end blockade before reopening Hormuz',
   },
 
   disruptions: [
