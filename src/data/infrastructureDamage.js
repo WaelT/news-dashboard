@@ -1,7 +1,7 @@
 // Iranian military infrastructure damage assessment
 // Sources: Pentagon briefings, Alma Center, Critical Threats, IISS
 export const infrastructureDamage = {
-  updated: '2026-05-05',
+  updated: '2026-05-06',
   categories: [
     { id: 'nuclear', label: 'Nuclear Facilities', destructionPct: 96, detail: 'Natanz, Fordow, Isfahan, Arak struck; IAEA seals reapplied Apr 25', color: '#ff6600' },
     { id: 'naval', label: 'Naval Forces', destructionPct: 92, detail: '140+ vessels destroyed; Bandar Abbas port partially repaired', color: '#00aaff' },
