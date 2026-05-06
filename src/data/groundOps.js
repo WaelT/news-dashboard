@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 05, 2026',
+  updated: 'MAY 06, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -485,6 +485,20 @@ const groundOps = {
       lng: 35.58,
       event: 'Hezbollah fires 95 rockets and drones at northern Israel; IDF retaliates with strikes on 35 launch sites in Khiam and Bint Jbeil sectors',
       type: 'engagement',
+    },
+    {
+      date: '2026-05-06',
+      lat: 33.17,
+      lng: 35.22,
+      event: 'IDF continues Tyre encirclement; both sides claim ceasefire violations — Hezbollah fires rockets at IDF positions, IDF strikes Hezbollah launch infrastructure south of Litani',
+      type: 'engagement',
+    },
+    {
+      date: '2026-05-06',
+      lat: 33.87,
+      lng: 35.50,
+      event: 'Israel-Lebanon ceasefire extended amid Hormuz uncertainty; IDF retains positions north of Litani pending Lebanon agreement',
+      type: 'ground',
     },
   ],
 };

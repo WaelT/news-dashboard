@@ -1373,6 +1373,27 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Goldman Sachs raises near-term forecast to $90–95 if direct US-Iran engagement continues; Asian spot cargo premiums surge; tanker war-risk insurance premiums double from previous week',
   },
+  {
+    date: '2026-05-05',
+    event: 'Trump pauses Project Freedom — cites "great progress" toward Iran deal',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Announces pause "for a short period"; Pakistan and others requested pause; 5 commercial ships total transited under US escort in 2 days; Hormuz blockade remains; Hegseth + Gen. Caine confirm ceasefire still formally in effect',
+  },
+  {
+    date: '2026-05-06',
+    event: 'Rubio declares "Operation Epic Fury over" — US offensive phase ended',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Secretary of State says combat operation launched February 28 has concluded; US priority now securing permanent agreement and reopening Hormuz; Iran has violated ceasefire at commercial-vessel level 9 times + US forces 10+ times per CENTCOM',
+  },
+  {
+    date: '2026-05-06',
+    event: 'Trump uncertain if ceasefire still in place — "I can\'t tell you"',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Tells conservative radio host Hugh Hewitt ceasefire status uncertain after both sides fired shots in Hormuz; Gen. Caine: Iran aggression "has not risen to levels requiring resumption of full hostilities"; Project Freedom pause continues pending Iran deal talks',
+  },
 ];
 
 export const STATUS_COLORS = {
