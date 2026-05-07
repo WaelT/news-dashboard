@@ -2,8 +2,8 @@
 // Sources: CENTCOM, Al Jazeera, USNI News, Alma Center, MARAD Advisory 2026-006,
 //          Gulf News, The Middle East Insider, NBC News
 export const houthiData = {
-  updated: '2026-05-06',
-  status: 'THREAT ELEVATED — PROJECT FREEDOM PAUSED; HORMUZ STANDOFF CONTINUES',
+  updated: '2026-05-07',
+  status: 'THREAT ELEVATED — US-IRAN DEAL TALKS INTENSIFYING; IRGC SIGNALS NEW HORMUZ PROCEDURES',
   babAlMandab: {
     globalTradePct: 15,
     closureThreat: 'Houthis threaten Bab al-Mandab closure tied to Hormuz/Lebanon escalation',

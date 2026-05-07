@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 06, 2026',
+  updated: 'MAY 07, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -506,6 +506,20 @@ const groundOps = {
       lng: 35.60,
       event: 'IDF sends 162nd Division to southern Lebanon — buffer zone expanded toward Bekaa Valley approach; total IDF forces in Lebanon rise to ~70,000',
       type: 'ground',
+    },
+    {
+      date: '2026-05-07',
+      lat: 33.87,
+      lng: 35.50,
+      event: 'Netanyahu confirms IDF strike on top Hezbollah commander in Beirut — first Beirut airstrike since April 16 Lebanon ceasefire; target identified as senior Hezbollah military figure',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-07',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'IDF continues Bint Jbeil and Khiam sector operations; Hezbollah fires rockets at IDF positions; southern Lebanon fighting continues despite Iran ceasefire and ongoing deal talks',
+      type: 'engagement',
     },
   ],
 };

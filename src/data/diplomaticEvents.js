@@ -1408,6 +1408,41 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Al Jazeera: Trump says attacks will resume "at a much higher level and intensity than before" if Iran does not agree to deal; says it is "too soon" for new direct talks; Iran calls threat "nuclear blackmail"; both sides dig in on Hormuz control and nuclear demands',
   },
+  {
+    date: '2026-05-06',
+    event: 'China FM Wang Yi presses Araghchi: "comprehensive ceasefire brooks no delay"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Araghchi tells Wang Yi Iran "will only accept a fair and comprehensive agreement"; meeting in Beijing — first Iran FM visit to China since war began; China pressing Iran ahead of Trump-Xi summit scheduled May 14-15; joint call for permanent war end and Hormuz reopening',
+  },
+  {
+    date: '2026-05-06',
+    event: 'US-Iran near one-page MoU — 30-day war-end window, enrichment moratorium, Hormuz protocol',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'White House believes nearing one-page memo to end war; key terms: 10+ yr enrichment moratorium, Tehran ships uranium stockpile to US, US lifts sanctions + releases frozen assets, both sides lift Hormuz restrictions; Iran to convey response to Pakistan by Thursday; Axios, CNN, CNBC confirm framework near completion',
+  },
+  {
+    date: '2026-05-06',
+    event: 'Brent crude drops 8% on US-Iran deal progress — below $101 for first time since Apr 22',
+    type: 'economic',
+    status: 'implemented',
+    detail: 'Oil falls to $99.79/barrel on deal hopes (CNBC: "Oil prices fall more than 7%"); WTI drops to ~$88; markets surge — Dow, S&P rise sharply; ~170M barrels crude stranded on 166 tankers in Gulf per Kpler; gas prices above $4.50/gal in US',
+  },
+  {
+    date: '2026-05-07',
+    event: 'IRGC signals safe Hormuz transit "possible under new procedures"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'IRGC Navy thanks vessel captains for cooperation; states with end of "threats from aggressors" and new procedures, "safe and stable transit will be possible"; no formal corridor reopening yet — contingent on deal; Iran reviewing US one-page MoU; response expected via Pakistani mediators',
+  },
+  {
+    date: '2026-05-07',
+    event: 'Iran sends response to US one-page MoU via Pakistan — deal framework advancing',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Iran FM spokesperson Baqaei confirms response conveyed to Pakistani intermediaries; Iran signals openness to moratorium-first approach; nuclear talks deferred to post-Hormuz phase; Trump says US has had "very good talks" in past 24 hours; deal could unlock $100B+ in frozen Iranian assets',
+  },
 ];
 
 export const STATUS_COLORS = {
