@@ -24,12 +24,12 @@ function flagUrl(cc) {
 }
 
 const DEFAULT_CASUALTIES = {
-  iran: { killed: 3636, wounded: 27900 },
-  israel: { killed: 52, wounded: 7694 },
+  iran: { killed: 3643, wounded: 27940 },
+  israel: { killed: 52, wounded: 8600 },
   usa: { killed: 15, wounded: 551 },
-  lebanon: { killed: 2710, wounded: 8350 },
+  lebanon: { killed: 2725, wounded: 8480 },
   yemen: { killed: 0, wounded: 0 },
-  iraq: { killed: 116, wounded: 236 },
+  iraq: { killed: 117, wounded: 361 },
   uae: { killed: 15, wounded: 262 },
   kuwait: { killed: 12, wounded: 124 },
   bahrain: { killed: 4, wounded: 46 },
