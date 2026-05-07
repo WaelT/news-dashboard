@@ -22,7 +22,7 @@ export const hormuzData = {
   crisis: {
     tankersQueued: 295,
     vesselsStranded: 1900,
-    seafarersStranded: 20000,
+    seafarersStranded: 22500,
     vesselsAttacked: 14,
     seafarersKilled: 6,
     minesDetected: 12,
