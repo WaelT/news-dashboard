@@ -535,6 +535,13 @@ const groundOps = {
       event: 'IDF Phase 4 operations continue — Tyre encirclement tightens; evacuation corridor north toward Sidon remains open; 210th and 91st Divisions hold perimeter positions',
       type: 'ground',
     },
+    {
+      date: '2026-05-08',
+      lat: 33.26,
+      lng: 35.19,
+      event: 'IDF airstrike hits house in Ain Baal (Tyre District) — 1 killed, several injured; strikes on Dibbin (Marjayoun District) and Nabatieh; new evacuation orders for Deir al-Zahrani, Bafroa and Habush',
+      type: 'airstrike',
+    },
   ],
 };
 
