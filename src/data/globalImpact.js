@@ -1,8 +1,9 @@
 // Global economic impact data
 // Sources: IEA, World Bank (Apr 28), IMF (Apr 2026 REO), Goldman Sachs, Oxford Economics, Bloomberg,
-//          TradingEconomics (May 7 2026), CNBC (May 6 2026), NBC News (May 6 2026), CBC News (May 6 2026)
+//          TradingEconomics (May 7 2026), CNBC (May 6 2026), NBC News (May 6 2026), CBC News (May 6 2026),
+//          CENTCOM (May 7-8 2026), Al Jazeera (May 8 2026)
 export const globalImpact = {
-  updated: '2026-05-07',
+  updated: '2026-05-08',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; oil exports halted' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Mobilization + Lebanon ops + reconstruction' },
