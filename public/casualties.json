@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-05-07T00:00:00.000Z",
-  "source": "Wikipedia, Al Jazeera, Lebanese Health Ministry, HRANA, Reuters, Statista, Military Times",
+  "updatedAt": "2026-05-08T00:00:00.000Z",
+  "source": "Wikipedia, Al Jazeera, Lebanese Health Ministry, HRANA, Reuters, Statista, Military Times, CENTCOM",
   "casualties": {
     "iran": {
-      "killed": 3643,
-      "wounded": 27940
+      "killed": 3650,
+      "wounded": 28100
     },
     "lebanon": {
-      "killed": 2725,
-      "wounded": 8480
+      "killed": 2738,
+      "wounded": 8510
     },
     "iraq": {
       "killed": 117,
