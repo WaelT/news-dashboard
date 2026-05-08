@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 07, 2026',
+  updated: 'MAY 08, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -520,6 +520,20 @@ const groundOps = {
       lng: 35.48,
       event: 'IDF continues Bint Jbeil and Khiam sector operations; Hezbollah fires rockets at IDF positions; southern Lebanon fighting continues despite Iran ceasefire and ongoing deal talks',
       type: 'engagement',
+    },
+    {
+      date: '2026-05-08',
+      lat: 33.87,
+      lng: 35.50,
+      event: 'Lebanon ceasefire talks in limbo as Iran-US deal negotiations dominate; IDF maintains positions north of Litani — no withdrawal until Lebanon agreement reached; Hezbollah continues systematic fire at IDF positions in Khiam and Bint Jbeil sectors',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-08',
+      lat: 33.17,
+      lng: 35.20,
+      event: 'IDF Phase 4 operations continue — Tyre encirclement tightens; evacuation corridor north toward Sidon remains open; 210th and 91st Divisions hold perimeter positions',
+      type: 'ground',
     },
   ],
 };

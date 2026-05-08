@@ -1443,6 +1443,34 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Iran FM spokesperson Baqaei confirms response conveyed to Pakistani intermediaries; Iran signals openness to moratorium-first approach; nuclear talks deferred to post-Hormuz phase; Trump says US has had "very good talks" in past 24 hours; deal could unlock $100B+ in frozen Iranian assets',
   },
+  {
+    date: '2026-05-07',
+    event: 'Iran attacks USS Truxtun, Rafael Peralta, Mason in Strait of Hormuz',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'CENTCOM confirms IRGC launched missiles, drones, and small boats against three US Navy guided-missile destroyers transiting Hormuz; US responds with self-defense strikes on Iranian missile/drone launch sites, C2 nodes, ISR positions; no US vessels struck; IRGC claims anti-ship ballistic + cruise missiles + kamikaze drones were fired; Trump calls it "just a love tap"; ceasefire technically still in effect per Gen. Caine',
+  },
+  {
+    date: '2026-05-07',
+    event: 'US strikes Iranian oil tanker M/T Hasna in Strait of Hormuz',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'CENTCOM: M/T Hasna failed to comply with multiple warnings while transiting international waters toward Iranian port on Gulf of Oman; US forces struck vessel as part of naval blockade enforcement; Iran condemns action as "piracy on the high seas"; incident adds to Hormuz tensions during deal negotiations',
+  },
+  {
+    date: '2026-05-08',
+    event: 'Trump: war will be "over quickly" as Iran reviews one-page MoU',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Iran expected to deliver formal response to US MoU within 48 hours per US officials; Trump says deal "might not happen but could happen any day" and believes "they want the deal more than I do"; White House says US is closest it has been to reaching agreement; Iranian officials more pessimistic publicly; mixed messages on deal timeline',
+  },
+  {
+    date: '2026-05-08',
+    event: 'Iran officially reviewing 14-point MoU — response expected imminently',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Senior Iranian officials examining one-page memorandum that would declare end to two-month-old war; key terms: 10+ yr enrichment moratorium, Iran ships uranium stockpile abroad, US lifts sanctions and releases frozen assets (~$100B+), both sides lift Hormuz restrictions, 30-day war-end window; China pressing Tehran ahead of Trump-Xi summit May 14–15; Hormuz remains near-closed with only ~6 vessels/day transiting',
+  },
 ];
 
 export const STATUS_COLORS = {
