@@ -1471,6 +1471,20 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Senior Iranian officials examining one-page memorandum that would declare end to two-month-old war; key terms: 10+ yr enrichment moratorium, Iran ships uranium stockpile abroad, US lifts sanctions and releases frozen assets (~$100B+), both sides lift Hormuz restrictions, 30-day war-end window; China pressing Tehran ahead of Trump-Xi summit May 14–15; Hormuz remains near-closed with only ~6 vessels/day transiting',
   },
+  {
+    date: '2026-05-08',
+    event: 'Rubio: US expects Iran\'s formal MoU response "today" — 12-year enrichment compromise emerging',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Secretary of State Rubio tells reporters in Rome: "We should know something today... We\'re expecting a response from them"; 12-year enrichment moratorium emerging as compromise between Tehran\'s 5-yr and Washington\'s 20-yr positions; Iranian state media confirms reviewing US messages via Pakistani mediators but "no conclusion yet"; Iran to never seek nuclear weapon or conduct weaponization activities under proposed MoU; deal would unlock ~$100B+ in frozen Iranian assets',
+  },
+  {
+    date: '2026-05-08',
+    event: 'IDF strikes Ain Baal, Dibbin, Nabatieh — evacuation orders for three southern towns',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Israeli airstrike hits house in Ain Baal (Tyre District) — 1 killed, several injured per Lebanese NNA; three strikes on Dibbin (Marjayoun District); fighter jets strike Nabatieh; IDF issues new evacuation orders for Deir al-Zahrani, Bafroa and Habush, accusing Hezbollah of ceasefire violations; first Beirut suburbs strike since Apr 16 Lebanon ceasefire occurred May 7 (Radwan Force commander killed); Lebanon fighting intensifies despite Iran-US MoU talks',
+  },
 ];
 
 export const STATUS_COLORS = {
