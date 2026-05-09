@@ -36,11 +36,11 @@ const DEFAULT_CASUALTIES = {
   qatar: { killed: 4, wounded: 20 },
   saudi: { killed: 5, wounded: 33 },
   jordan: { killed: 0, wounded: 31 },
-  oman: { killed: 3, wounded: 15 },
+  oman: { killed: 3, wounded: 17 },
   syria: { killed: 4, wounded: 0 },
   palestine: { killed: 14, wounded: 15 },
   turkey: { killed: 3, wounded: 0 },
-  france: { killed: 1, wounded: 7 },
+  france: { killed: 3, wounded: 9 },
   philippines: { killed: 2, wounded: 0 },
   azerbaijan: { killed: 0, wounded: 4 },
 };

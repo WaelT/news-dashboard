@@ -1,69 +1,65 @@
 {
-  "updatedAt": "2026-05-09T00:00:00.000Z",
-  "source": "Wikipedia, Al Jazeera, Lebanese Health Ministry, HRANA, Reuters, Statista, Military Times, CENTCOM",
+  "updatedAt": "2026-05-09T03:33:32.483Z",
+  "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "iran": {
-      "killed": 3655,
-      "wounded": 28120
+      "killed": 3636,
+      "wounded": 15000
     },
     "lebanon": {
-      "killed": 2752,
-      "wounded": 8530
+      "killed": 2702,
+      "wounded": 8264
     },
     "iraq": {
       "killed": 117,
       "wounded": 361
     },
     "israel": {
-      "killed": 52,
-      "wounded": 8600
+      "killed": 47,
+      "wounded": 8598
     },
     "usa": {
       "killed": 15,
-      "wounded": 551
-    },
-    "palestine": {
-      "killed": 14,
-      "wounded": 15
+      "wounded": 538
     },
     "uae": {
-      "killed": 15,
-      "wounded": 262
+      "killed": 13,
+      "wounded": 227
     },
     "kuwait": {
-      "killed": 12,
-      "wounded": 124
+      "killed": 10,
+      "wounded": 115
     },
     "bahrain": {
-      "killed": 4,
-      "wounded": 46
+      "killed": 3,
+      "wounded": 42
     },
     "saudi": {
-      "killed": 5,
-      "wounded": 33
+      "killed": 3,
+      "wounded": 29
     },
     "oman": {
       "killed": 3,
-      "wounded": 15
+      "wounded": 17
+    },
+    "france": {
+      "killed": 3,
+      "wounded": 9
     },
     "philippines": {
       "killed": 2,
       "wounded": 0
     },
-    "france": {
-      "killed": 1,
-      "wounded": 7
-    },
     "syria": {
-      "killed": 4,
+      "killed": 1,
       "wounded": 0
     },
     "jordan": {
       "killed": 0,
-      "wounded": 31
+      "wounded": 29
     },
     "qatar": {
-      "killed": 4,
+      "killed": 0,
       "wounded": 20
     },
     "azerbaijan": {
@@ -74,8 +70,12 @@
       "killed": 0,
       "wounded": 0
     },
+    "palestine": {
+      "killed": 0,
+      "wounded": 0
+    },
     "turkey": {
-      "killed": 3,
+      "killed": 0,
       "wounded": 0
     }
   }
