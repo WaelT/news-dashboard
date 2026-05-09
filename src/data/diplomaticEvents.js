@@ -1485,6 +1485,27 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Israeli airstrike hits house in Ain Baal (Tyre District) — 1 killed, several injured per Lebanese NNA; three strikes on Dibbin (Marjayoun District); fighter jets strike Nabatieh; IDF issues new evacuation orders for Deir al-Zahrani, Bafroa and Habush, accusing Hezbollah of ceasefire violations; first Beirut suburbs strike since Apr 16 Lebanon ceasefire occurred May 7 (Radwan Force commander killed); Lebanon fighting intensifies despite Iran-US MoU talks',
   },
+  {
+    date: '2026-05-09',
+    event: 'Iran MoU response still pending — FM Baqaei: "US proposal still under review"',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Iranian FM spokesperson Esmaeil Baqaei confirms: "The US plan and proposal is still under review by Iran, and after finalizing its viewpoints, Iran will convey them to the Pakistani side"; Iran shows "surprising openness" on transferring HEU stockpile abroad per US officials; nuclear enrichment remains "non-negotiable red line"; US-Iran ceasefire deadline formally May 17; Hormuz near-closed with only ~6 vessels/day; 12-year enrichment moratorium now primary compromise under discussion',
+  },
+  {
+    date: '2026-05-09',
+    event: 'Netanyahu confirms IDF killed senior Hezbollah Radwan Force commander Ahmed Ghaleb Balout in Beirut',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Israeli PM confirms strike; Balout identified as commander of Hezbollah\'s Radwan Force; IDF says it struck "Hezbollah terror infrastructure" in southern Lebanon; evacuation orders issued for 15 villages in Nabatieh area; Hezbollah fires rockets at IDF positions; Lebanon fighting intensifies as Iran-US deal talks stall',
+  },
+  {
+    date: '2026-05-09',
+    event: 'State Dept announces second round of Israel-Lebanon peace talks May 14-15',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'US facilitating talks between Israel and Lebanon scheduled same day as Trump-Xi summit; separate track from Iran-US MoU; Hezbollah refuses to participate directly; Amal movement and Lebanese Armed Forces at table; IDF maintains it will not withdraw from south Lebanon until formal agreement reached',
+  },
 ];
 
 export const STATUS_COLORS = {
@@ -1499,7 +1520,7 @@ export const STATUS_COLORS = {
 };
 
 export const TYPE_ICONS = {
-  un: '🏛',
+  un: '🏙',
   diplomacy: '🤝',
   ceasefire: '🕊',
   escalation: '⚠',
