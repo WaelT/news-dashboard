@@ -43,7 +43,7 @@ async function findSectionIndex() {
   if (!res.ok) throw new Error(`Wikipedia sections API ${res.status}`);
   const data = await res.json();
   const sections = data?.parse?.sections || [];
-  const match = sections.find(s => s.line && s.line.toLowerCase().includes('ballistic missiles'));
+  const match = sections.find(s => s.line && /missiles? and drones/i.test(s.line));
   if (!match) throw new Error('Could not find missile/drone section in article');
   console.log(`Found section "${match.line}" at index ${match.index}`);
   return match.index;
@@ -57,7 +57,7 @@ async function scrapeLaunches() {
   const data = await res.json();
   const text = data?.parse?.wikitext?.['*'] || '';
 
-  if (!text.includes('Ballistic missiles') && !text.includes('ballistic missiles')) {
+  if (!/missiles?/i.test(text) || !/drones?/i.test(text)) {
     throw new Error('Missile/drone table not found in section');
   }
 
