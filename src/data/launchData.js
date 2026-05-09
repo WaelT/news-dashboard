@@ -69,30 +69,33 @@ export const dailyLaunches = [
   { date: '2026-05-06', missiles: 2, drones: 4, intercepted: 5, targets: ['UAE'] },
   { date: '2026-05-07', missiles: 8, drones: 10, intercepted: 12, targets: ['USA'] },
   { date: '2026-05-08', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  { date: '2026-05-09', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
 export const countryBreakdown = {
   missiles: [
-    { country: 'UAE', count: 381 },
-    { country: 'Israel', count: 354 },
-    { country: 'Saudi Arabia', count: 295 },
+    { country: 'UAE', count: 395 },
+    { country: 'Israel', count: 363 },
+    { country: 'Saudi Arabia', count: 296 },
     { country: 'Kuwait', count: 241 },
     { country: 'Qatar', count: 178 },
     { country: 'Bahrain', count: 130 },
     { country: 'Jordan', count: 68 },
     { country: 'Iraq', count: 22 },
+    { country: 'USA', count: 8 },
   ],
   drones: [
-    { country: 'UAE', count: 1835 },
+    { country: 'UAE', count: 1852 },
     { country: 'Kuwait', count: 462 },
     { country: 'Bahrain', count: 223 },
-    { country: 'Saudi Arabia', count: 171 },
-    { country: 'Israel', count: 127 },
+    { country: 'Saudi Arabia', count: 173 },
+    { country: 'Israel', count: 135 },
     { country: 'Qatar', count: 88 },
     { country: 'Jordan', count: 68 },
     { country: 'Iraq', count: 40 },
     { country: 'Oman', count: 14 },
+    { country: 'USA', count: 10 },
   ],
 };
 

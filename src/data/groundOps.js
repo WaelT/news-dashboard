@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 08, 2026',
+  updated: 'MAY 09, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -541,6 +541,20 @@ const groundOps = {
       lng: 35.19,
       event: 'IDF airstrike hits house in Ain Baal (Tyre District) — 1 killed, several injured; strikes on Dibbin (Marjayoun District) and Nabatieh; new evacuation orders for Deir al-Zahrani, Bafroa and Habush',
       type: 'airstrike',
+    },
+    {
+      date: '2026-05-09',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'IDF issues evacuation orders for 15 villages in Nabatieh area citing Hezbollah ceasefire violations; confirms strikes on Hezbollah weapon manufacturing infrastructure in Nabatieh',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-09',
+      lat: 33.22,
+      lng: 35.58,
+      event: 'Hezbollah fires rockets at IDF positions in Khiam and Bint Jbeil sectors; IDF retaliates with airstrikes on launch sites; Netanyahu confirms killing of senior Radwan Force commander Ahmed Ghaleb Balout in Beirut',
+      type: 'engagement',
     },
   ],
 };
