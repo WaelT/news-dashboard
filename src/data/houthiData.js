@@ -2,7 +2,7 @@
 // Sources: CENTCOM, Al Jazeera, USNI News, Alma Center, MARAD Advisory 2026-006,
 //          Gulf News, The Middle East Insider, NBC News
 export const houthiData = {
-  updated: '2026-05-08',
+  updated: '2026-05-09',
   status: 'THREAT ELEVATED — US-IRAN DEAL EXPECTED WITHIN 48 HRS; HORMUZ NEAR-CLOSED SINCE MAY 4',
   babAlMandab: {
     globalTradePct: 15,
