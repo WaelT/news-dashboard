@@ -1,42 +1,46 @@
 {
   "updatedAt": "2026-05-09T13:08:22.833Z",
-  "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
+  "source": "Wikipedia (403 fallback — synced from ImpactTracker defaults), Al Jazeera, HRANA, Reuters, IDF/CENTCOM statements",
   "casualties": {
     "iran": {
-      "killed": 3636,
-      "wounded": 15000
+      "killed": 3655,
+      "wounded": 28120
     },
     "lebanon": {
-      "killed": 2702,
-      "wounded": 8264
+      "killed": 2752,
+      "wounded": 8530
     },
     "iraq": {
       "killed": 117,
       "wounded": 361
     },
     "israel": {
-      "killed": 47,
-      "wounded": 8598
+      "killed": 52,
+      "wounded": 8600
     },
     "usa": {
       "killed": 15,
-      "wounded": 538
+      "wounded": 551
     },
     "uae": {
-      "killed": 13,
-      "wounded": 227
+      "killed": 15,
+      "wounded": 262
     },
     "kuwait": {
-      "killed": 10,
-      "wounded": 115
+      "killed": 12,
+      "wounded": 124
     },
     "bahrain": {
-      "killed": 3,
-      "wounded": 42
+      "killed": 4,
+      "wounded": 46
+    },
+    "qatar": {
+      "killed": 4,
+      "wounded": 20
     },
     "saudi": {
-      "killed": 3,
-      "wounded": 29
+      "killed": 5,
+      "wounded": 33
     },
     "oman": {
       "killed": 3,
@@ -46,35 +50,31 @@
       "killed": 3,
       "wounded": 9
     },
+    "syria": {
+      "killed": 4,
+      "wounded": 0
+    },
+    "palestine": {
+      "killed": 14,
+      "wounded": 15
+    },
+    "turkey": {
+      "killed": 3,
+      "wounded": 0
+    },
     "philippines": {
       "killed": 2,
       "wounded": 0
     },
-    "syria": {
-      "killed": 1,
-      "wounded": 0
-    },
     "jordan": {
       "killed": 0,
-      "wounded": 29
-    },
-    "qatar": {
-      "killed": 0,
-      "wounded": 20
+      "wounded": 31
     },
     "azerbaijan": {
       "killed": 0,
       "wounded": 4
     },
     "yemen": {
-      "killed": 0,
-      "wounded": 0
-    },
-    "palestine": {
-      "killed": 0,
-      "wounded": 0
-    },
-    "turkey": {
       "killed": 0,
       "wounded": 0
     }
