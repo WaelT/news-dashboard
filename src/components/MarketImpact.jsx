@@ -46,11 +46,11 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
+  { label: 'Brent Crude Surge', value: '+49%', sub: 'peak $126; now ~$101/bbl', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '94%', sub: 'strait near-closed (~6/day)', color: '#ff6600' },
   { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
-  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
-  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
+  { label: 'US Gas Price', value: '$4.46', sub: '/gal (up $1.48 vs pre-war)', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '78,000+', sub: 'total war cancellations', color: '#0088cc' },
   { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
   { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
   { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
