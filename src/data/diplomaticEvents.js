@@ -1506,6 +1506,34 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'US facilitating talks between Israel and Lebanon scheduled same day as Trump-Xi summit; separate track from Iran-US MoU; Hezbollah refuses to participate directly; Amal movement and Lebanese Armed Forces at table; IDF maintains it will not withdraw from south Lebanon until formal agreement reached',
   },
+  {
+    date: '2026-05-09',
+    event: 'UK deploys HMS Dragon to Middle East — pre-positioning for post-ceasefire Hormuz escort',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Royal Navy Type 45 air-defence destroyer HMS Dragon ordered to pre-position in the region ahead of a potential UK-France-led multinational convoy operation through Hormuz; HMS Dragon will not engage until hostilities formally end; France has already deployed its carrier strike group to southern Red Sea as part of the same coalition plan; "strictly defensive" mission — mine clearance and vessel escort',
+  },
+  {
+    date: '2026-05-09',
+    event: 'Hezbollah claims first cross-border strikes into Israel since Lebanon ceasefire',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Hezbollah claims 26 attacks during the day including two on Israeli military targets across the border — the first such publicly claimed cross-border strikes since the Lebanon ceasefire of April 16; targeted IDF base south of Nahariya and Meron military base (projectiles intercepted, fell in open areas); IDF retaliates with strikes across southern Lebanon; ceasefire increasingly fragile as Hezbollah says Israeli attacks on villages warrant a response',
+  },
+  {
+    date: '2026-05-09',
+    event: 'Iran vows "heavy assault" on US assets if more Iranian vessels attacked',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Following US disabling of M/T Sea Star III and M/T Sevda (May 8) and seizure of Ocean Koi by Iran, Tehran warns of a "heavy assault" against US military assets in the Middle East if attacks on Iranian-flagged ships continue during the ceasefire period; IRGC statement comes as more than 70 vessels remain blocked by US forces from Iranian ports, holding 166M+ barrels of crude worth $13B+; Iran MoU response still pending via Pakistan',
+  },
+  {
+    date: '2026-05-10',
+    event: 'Pakistan "hopeful" US-Iran deal can happen soon; MoU response still pending',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Pakistani PM Sharif\'s office says Islamabad "remains hopeful" that a US-Iran agreement can be reached before the May 17 ceasefire deadline; Iran MoU response still being conveyed via Pakistani intermediaries; Trump tells reporters deal could happen "any day" while again calling Iranian leadership "lunatics" and warning of severe military consequences if no agreement is reached; ceasefire deadline now 7 days away; Trump-Xi summit scheduled May 14–15 adds pressure to both sides',
+  },
 ];
 
 export const STATUS_COLORS = {
