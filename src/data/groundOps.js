@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 09, 2026',
+  updated: 'MAY 10, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -554,6 +554,20 @@ const groundOps = {
       lat: 33.22,
       lng: 35.58,
       event: 'Hezbollah fires rockets at IDF positions in Khiam and Bint Jbeil sectors; IDF retaliates with airstrikes on launch sites; Netanyahu confirms killing of senior Radwan Force commander Ahmed Ghaleb Balout in Beirut',
+      type: 'engagement',
+    },
+    {
+      date: '2026-05-10',
+      lat: 33.57,
+      lng: 35.37,
+      event: 'IDF strikes Saksakiyeh (Sidon district) — 7 killed including a child, 15 wounded; deadliest single strike on May 10',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-10',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'IDF strikes Nabatieh and Marjeyoun district villages (Aedsheet, Blida) — total 39 killed across southern Lebanon; Hezbollah retaliates with drone attacks on northern Israeli military positions',
       type: 'engagement',
     },
   ],

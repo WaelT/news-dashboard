@@ -1534,6 +1534,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Pakistani PM Sharif\'s office says Islamabad "remains hopeful" that a US-Iran agreement can be reached before the May 17 ceasefire deadline; Iran MoU response still being conveyed via Pakistani intermediaries; Trump tells reporters deal could happen "any day" while again calling Iranian leadership "lunatics" and warning of severe military consequences if no agreement is reached; ceasefire deadline now 7 days away; Trump-Xi summit scheduled May 14–15 adds pressure to both sides',
   },
+  {
+    date: '2026-05-10',
+    event: 'Israeli airstrikes kill 39 in Lebanon — Hezbollah drone retaliation',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IDF strikes across southern Lebanon (Saksakiyeh in Sidon district: 7 killed incl. a child, 15 wounded; Nabatieh; Marjeyoun district villages Aedsheet, Blida) kill at least 39 people — worst single-day toll since late April; Hezbollah retaliates with drone attacks on northern Israeli military positions in at least two waves; Lebanese Health Ministry updates cumulative death toll to ~2,791 since March 2; Israel-Lebanon ceasefire of April 17 increasingly nominal',
+  },
 ];
 
 export const STATUS_COLORS = {
