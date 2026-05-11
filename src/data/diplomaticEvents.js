@@ -1541,6 +1541,41 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'IDF strikes across southern Lebanon (Saksakiyeh in Sidon district: 7 killed incl. a child, 15 wounded; Nabatieh; Marjeyoun district villages Aedsheet, Blida) kill at least 39 people — worst single-day toll since late April; Hezbollah retaliates with drone attacks on northern Israeli military positions in at least two waves; Lebanese Health Ministry updates cumulative death toll to ~2,791 since March 2; Israel-Lebanon ceasefire of April 17 increasingly nominal',
   },
+  {
+    date: '2026-05-10',
+    event: 'Iran formally responds to US MoU via Pakistan — Trump rejects it as "TOTALLY UNACCEPTABLE"',
+    type: 'ceasefire',
+    status: 'rejected',
+    detail: 'Iran delivers formal written response to the US one-page ceasefire MoU via Pakistani mediators on May 10. Iran demands: Strait of Hormuz remain under Iranian control; binding UNSC guarantee that war will not resume; full sanctions lifted; nuclear enrichment is a "non-negotiable red line"; 12-year moratorium rejected. Trump posts on Truth Social: "I have just read the response from Iran\'s so-called \'Representatives.\' I don\'t like it — TOTALLY UNACCEPTABLE!" Ceasefire formally remains in effect; May 17 deadline now 6 days away. Talks at impasse — both sides awaiting next move. Pakistan continues to mediate; next round of talks may move to Islamabad or Geneva.',
+  },
+  {
+    date: '2026-05-10',
+    event: 'Iran drones strike cargo vessel near Mesaieed port, Qatar — UAE and Kuwait also targeted',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Separate from the MoU rejection, Iran launches drone barrage at three Gulf states: a cargo vessel is struck near Mesaieed port in Qatari waters (limited fire, contained, no casualties reported); UAE air defenses intercept 2 drones; Kuwait\'s military "deals with" multiple hostile drones. Attacks described as Iranian retaliation for US naval blockade of Iranian tankers. Fortune / Times of Israel report all three Gulf states activated emergency protocols. UKMTO issues advisory 2026-041 raising threat level in Arabian Gulf.',
+  },
+  {
+    date: '2026-05-10',
+    event: 'Hezbollah drone hits Moshav Shomera — 12 IDF soldiers wounded in first border strike since April ceasefire',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Hezbollah claims 26 operations throughout May 10; a drone strike on Moshav Shomera in northern Israel injures 12 IDF soldiers — the first confirmed casualty-causing cross-border attack inside Israel since the Lebanon ceasefire of April 17. IDF retaliates with strikes on Hezbollah launch sites in southern Lebanon. Lebanon ceasefire increasingly nominal; State Dept Israel-Lebanon round 3 talks still planned for May 14-15.',
+  },
+  {
+    date: '2026-05-11',
+    event: 'US-Iran deal at impasse — ceasefire deadline May 17 now 6 days away; talks may shift to Islamabad or Geneva',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Following Trump\'s rejection of Iran\'s MoU response as "TOTALLY UNACCEPTABLE," no US counter-proposal has been confirmed as of May 11. Pakistan continues to mediate and keeps diplomatic channel open. Trump tells reporters a deal is still possible but maintains Iran must accept zero enrichment for 12–20 years and surrender 440 kg of 60%-enriched HEU. Iran signals the enrichment question is a "firm red line." CENTCOM reports no new exchanges in the Strait overnight. Both parties publicly maintain the ceasefire while talks are effectively frozen.',
+  },
+  {
+    date: '2026-05-11',
+    event: 'Israel-Lebanon peace talks round 3 confirmed for May 14-15 in Washington',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'US State Department confirms third round of Israel-Lebanon peace talks in Washington on May 14-15, the same days as the Trump-Xi summit. Israeli delegation led by strategic affairs minister Ron Dermer; Lebanese delegation led by Foreign Affairs Minister Simon Karam. Hezbollah not directly participating; Amal movement and Lebanese Armed Forces at the table. Talks focus on IDF withdrawal timeline from south Lebanon and the demarcation of the maritime border. IDF has conditioned withdrawal on a formal written agreement.',
+  },
 ];
 
 export const STATUS_COLORS = {
