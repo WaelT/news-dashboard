@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 10, 2026',
+  updated: 'MAY 11, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -569,6 +569,27 @@ const groundOps = {
       lng: 35.48,
       event: 'IDF strikes Nabatieh and Marjeyoun district villages (Aedsheet, Blida) — total 39 killed across southern Lebanon; Hezbollah retaliates with drone attacks on northern Israeli military positions',
       type: 'engagement',
+    },
+    {
+      date: '2026-05-10',
+      lat: 33.01,
+      lng: 35.39,
+      event: 'Hezbollah drone strikes Moshav Shomera in northern Israel — 12 IDF soldiers wounded; first confirmed casualty-causing strike inside Israel since Lebanon ceasefire of April 17',
+      type: 'engagement',
+    },
+    {
+      date: '2026-05-11',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'IDF continues operations in Khiam and Bint Jbeil sectors; Hezbollah fires rockets at IDF positions; Lebanese cumulative death toll rises to ~2,819 (Lebanese Health Ministry); deal impasse adds pressure as May 17 ceasefire deadline approaches',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-11',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'IDF issues new fire-free movement corridors for civilian evacuation in Nabatieh area; reinforces 162nd Division positions in Bekaa Valley approach ahead of potential post-deal drawdown',
+      type: 'ground',
     },
   ],
 };
