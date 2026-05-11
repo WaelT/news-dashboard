@@ -3,7 +3,7 @@
 //          TradingEconomics (May 7 2026), CNBC (May 6-10 2026), NBC News (May 6-10 2026), CBC News (May 6 2026),
 //          CENTCOM (May 7-10 2026), Al Jazeera (May 9-10 2026), PBS NewsHour (May 9 2026)
 export const globalImpact = {
-  updated: '2026-05-10',
+  updated: '2026-05-11',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; oil exports halted' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Mobilization + Lebanon ops + reconstruction' },
@@ -11,7 +11,7 @@ export const globalImpact = {
     { region: 'Japan', flag: 'jp', pct: -1.1, costBn: 10, note: '80% oil via Hormuz; LNG rerouting' },
     { region: 'EU', flag: 'eu', pct: -0.8, costBn: 18, note: 'Energy import surge; IMF cut to 1.1% growth' },
     { region: 'India', flag: 'in', pct: -0.7, costBn: 9, note: '60% oil via Gulf; alternative routes costly' },
-    { region: 'US', flag: 'us', pct: -0.5, costBn: 68, note: '~$1.1B/day military; Project Freedom ops' },
+    { region: 'US', flag: 'us', pct: -0.5, costBn: 70, note: '~$1.1B/day military; deal impasse after Trump rejects Iran MoU' },
     { region: 'China', flag: 'cn', pct: -0.5, costBn: 13, note: '45% oil via Hormuz; spot purchases surge' },
   ],
   disruptions: {

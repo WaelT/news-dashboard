@@ -2,8 +2,8 @@
 // Sources: CENTCOM, Al Jazeera, USNI News, Alma Center, MARAD Advisory 2026-006,
 //          Gulf News, The Middle East Insider, NBC News
 export const houthiData = {
-  updated: '2026-05-10',
-  status: 'THREAT ELEVATED — US-IRAN MoU PENDING (MAY 17 DEADLINE); HEZBOLLAH RESUMES CROSS-BORDER ATTACKS; HORMUZ NEAR-CLOSED',
+  updated: '2026-05-11',
+  status: 'THREAT ELEVATED — US-IRAN DEAL IMPASSE (TRUMP REJECTS MoU; MAY 17 DEADLINE IN 6 DAYS); HEZBOLLAH CROSS-BORDER ATTACKS ONGOING; HORMUZ NEAR-CLOSED',
   babAlMandab: {
     globalTradePct: 15,
     closureThreat: 'Houthis threaten Bab al-Mandab closure tied to Hormuz/Lebanon escalation',
