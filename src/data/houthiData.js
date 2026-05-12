@@ -2,8 +2,8 @@
 // Sources: CENTCOM, Al Jazeera, USNI News, Alma Center, MARAD Advisory 2026-006,
 //          Gulf News, The Middle East Insider, NBC News
 export const houthiData = {
-  updated: '2026-05-11',
-  status: 'THREAT ELEVATED — US-IRAN DEAL IMPASSE (TRUMP REJECTS MoU; MAY 17 DEADLINE IN 6 DAYS); HEZBOLLAH CROSS-BORDER ATTACKS ONGOING; HORMUZ NEAR-CLOSED',
+  updated: '2026-05-12',
+  status: 'THREAT ELEVATED — CEASEFIRE "ON MASSIVE LIFE SUPPORT" (TRUMP REJECTS IRAN MoU AS "GARBAGE"; MAY 17 DEADLINE IN 5 DAYS); US SANCTIONS 12 IRAN OIL ENTITIES AHEAD OF TRUMP-XI SUMMIT (MAY 14-15); HEZBOLLAH CROSS-BORDER ATTACKS ONGOING; HORMUZ ~8 VESSELS/DAY',
   babAlMandab: {
     globalTradePct: 15,
     closureThreat: 'Houthis threaten Bab al-Mandab closure tied to Hormuz/Lebanon escalation',

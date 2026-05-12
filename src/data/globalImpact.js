@@ -1,18 +1,19 @@
 // Global economic impact data
 // Sources: IEA, World Bank (Apr 28), IMF (Apr 2026 REO), Goldman Sachs, Oxford Economics, Bloomberg,
-//          TradingEconomics (May 7 2026), CNBC (May 6-10 2026), NBC News (May 6-10 2026), CBC News (May 6 2026),
-//          CENTCOM (May 7-10 2026), Al Jazeera (May 9-10 2026), PBS NewsHour (May 9 2026)
+//          TradingEconomics (May 7 2026), CNBC (May 6-12 2026), NBC News (May 6-12 2026), CBC News (May 6 2026),
+//          CENTCOM (May 7-12 2026), Al Jazeera (May 9-12 2026), PBS NewsHour (May 9 2026),
+//          Bloomberg (May 11 2026 — US sanctions 12 Iran oil entities), Al-Monitor (May 11 2026)
 export const globalImpact = {
-  updated: '2026-05-11',
+  updated: '2026-05-12',
   gdpImpact: [
-    { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; oil exports halted' },
+    { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; oil exports halted; 12 new US sanctions on oil-to-China network' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Mobilization + Lebanon ops + reconstruction' },
     { region: 'GCC', flag: 'sa', pct: -3.8, costBn: 64, note: 'Infrastructure + oil revenue + Hormuz loss' },
     { region: 'Japan', flag: 'jp', pct: -1.1, costBn: 10, note: '80% oil via Hormuz; LNG rerouting' },
     { region: 'EU', flag: 'eu', pct: -0.8, costBn: 18, note: 'Energy import surge; IMF cut to 1.1% growth' },
     { region: 'India', flag: 'in', pct: -0.7, costBn: 9, note: '60% oil via Gulf; alternative routes costly' },
-    { region: 'US', flag: 'us', pct: -0.5, costBn: 70, note: '~$1.1B/day military; deal impasse after Trump rejects Iran MoU' },
-    { region: 'China', flag: 'cn', pct: -0.5, costBn: 13, note: '45% oil via Hormuz; spot purchases surge' },
+    { region: 'US', flag: 'us', pct: -0.5, costBn: 70, note: '~$1.1B/day military; ceasefire "on massive life support"; May 17 deadline in 5 days' },
+    { region: 'China', flag: 'cn', pct: -0.5, costBn: 13, note: '45% oil via Hormuz; 12 entities sanctioned for Iran oil purchases; Trump-Xi summit May 14–15' },
   ],
   disruptions: {
     flightsCancelled: '78,000+',
@@ -21,6 +22,6 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 101, peak: 126, forecast: 88,
+    preWar: 68, current: 104, peak: 126, forecast: 88,
   },
 };
