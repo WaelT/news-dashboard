@@ -1576,6 +1576,34 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'US State Department confirms third round of Israel-Lebanon peace talks in Washington on May 14-15, the same days as the Trump-Xi summit. Israeli delegation led by strategic affairs minister Ron Dermer; Lebanese delegation led by Foreign Affairs Minister Simon Karam. Hezbollah not directly participating; Amal movement and Lebanese Armed Forces at the table. Talks focus on IDF withdrawal timeline from south Lebanon and the demarcation of the maritime border. IDF has conditioned withdrawal on a formal written agreement.',
   },
+  {
+    date: '2026-05-12',
+    event: 'Trump calls ceasefire "on massive life support" — rejects Iran counter-proposal as "garbage"',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Trump: "I would call it the weakest, right now, after reading that piece of garbage they sent us… the ceasefire is on massive life support, where the doctor walks in and says your loved one has approximately a 1% chance of living." Iran demands: Hormuz sovereignty, UNSC war-end guarantee, full sanctions relief, war reparations, deferral of nuclear talks. Ceasefire formally still in effect; May 17 deadline now 5 days away. Pakistan continues mediating; US counter-proposal not yet delivered.',
+  },
+  {
+    date: '2026-05-12',
+    event: 'US Treasury sanctions 12 Iran oil entities ahead of Trump-Xi summit',
+    type: 'economic',
+    status: 'implemented',
+    detail: 'Treasury Dept targets 12 individuals and entities in Iran, Hong Kong, UAE and Oman for facilitating IRGC front-company oil sales to China — announced ahead of Trump\'s May 14–15 Beijing summit with Xi Jinping. Sanctions signal Washington\'s intent to tighten enforcement regardless of deal status. China-Iran oil trade worth ~$16B/yr; US aims to pressure Beijing into ceasing purchases ahead of summit (Bloomberg, Al-Monitor, JNS).',
+  },
+  {
+    date: '2026-05-12',
+    event: 'Brent crude rises to $104 on ceasefire "life support" remarks',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'International benchmark Brent crude July delivery rises nearly 3% to ~$104 after Trump\'s "massive life support" ceasefire comments. First Qatari LNG tanker transited Hormuz on May 11 (MarineTraffic AIS); May 10 saw 17 vessels transit (13 in, 4 out) — up from 6/day average since May 4. Oil markets price in risk of May 17 deadline collapse. US gas price remains $4.46/gal (CNBC).',
+  },
+  {
+    date: '2026-05-12',
+    event: 'IDF strikes kill 22+ in Lebanon — ceasefire increasingly nominal',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Israeli airstrikes continue across southern Lebanon killing at least 22 people including a 12-year-old girl, per Lebanese NNA. Hezbollah retaliates with rocket and drone attacks on northern Israel. Lebanon cumulative death toll rises to ~2,844. IDF-Hezbollah fighting intensifies despite the April 17 Lebanon ceasefire; Israel-Lebanon peace talks round 3 scheduled May 14–15 in Washington alongside Trump-Xi summit.',
+  },
 ];
 
 export const STATUS_COLORS = {
