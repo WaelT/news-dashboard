@@ -5,7 +5,8 @@
 //          Kpler (May 7 2026), CNBC (May 6-12 2026), NBC News (May 6-12 2026),
 //          CENTCOM (May 7-12 2026), CBS News (May 8-12 2026), PBS NewsHour (May 9-12 2026),
 //          Al Jazeera (May 8-12 2026), UPI/GlobalSecurity (May 8 2026), Al-Monitor/ITV (May 9 2026),
-//          Misbar/MarineTraffic AIS (May 11 2026 — first Qatari LNG tanker transit), Bloomberg (May 11 2026)
+//          Misbar/MarineTraffic AIS (May 11 2026 — first Qatari LNG tanker transit), Bloomberg (May 11 2026),
+//          CNBC (May 11 2026 — Saudi Aramco CEO Nasser: market won't normalize until 2027 if Hormuz closed past mid-June; 880M bbls lost)
 export const hormuzData = {
   updated: '2026-05-12',
 
@@ -52,7 +53,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Japan, South Korea, India activating IEA strategic reserves; LNG spot price $43/MMBtu; South Korea 70% Hormuz-dependent; India diverting purchases to West Africa and Americas; ~170M barrels stranded on 166 tankers (Kpler May 7); Brent ~$104 (May 12) after Trump calls ceasefire "on massive life support" and rejects Iran counter-proposal as "garbage"; global inventories at 8-year low (Goldman Sachs); US gas price $4.46/gal; first Qatari LNG tanker transited Hormuz May 11 (MarineTraffic AIS); May 10 saw 17 vessels transit (13 in, 4 out) — uptick from 6/day average since May 4; UK HMS Dragon + French carrier strike group pre-positioning for post-ceasefire escort mission; US sanctions 12 China-linked entities for buying Iranian oil (May 11); Trump-Xi summit May 14–15 in Beijing',
+      detail: 'Japan, South Korea, India activating IEA strategic reserves; LNG spot price $43/MMBtu; South Korea 70% Hormuz-dependent; India diverting purchases to West Africa and Americas; ~170M barrels stranded on 166 tankers (Kpler May 7); Brent ~$105 (May 12) after Trump calls ceasefire "on massive life support"; Saudi Aramco CEO Amin Nasser warns oil market will not normalize until 2027 if Hormuz remains closed past mid-June — conflict has destroyed ~880M barrels of supply (100M/week); global inventories at 8-year low (Goldman Sachs); US gas price $4.46/gal; first Qatari LNG tanker transited Hormuz May 11 (MarineTraffic AIS); May 10 saw 17 vessels transit (13 in, 4 out) — uptick from 6/day average since May 4; UK HMS Dragon + French carrier strike group pre-positioning for post-ceasefire escort; Trump departs for Beijing (Trump-Xi summit May 13–15) — Iran/Hormuz top agenda; Houthi drone intercepted near Eilat May 12',
     },
   ],
 };
