@@ -1592,17 +1592,31 @@ const diplomaticEvents = [
   },
   {
     date: '2026-05-12',
-    event: 'Brent crude rises to $104 on ceasefire "life support" remarks',
+    event: 'Brent crude rises to $105 on ceasefire "life support" remarks and deal impasse',
     type: 'economic',
     status: 'escalation',
-    detail: 'International benchmark Brent crude July delivery rises nearly 3% to ~$104 after Trump\'s "massive life support" ceasefire comments. First Qatari LNG tanker transited Hormuz on May 11 (MarineTraffic AIS); May 10 saw 17 vessels transit (13 in, 4 out) — up from 6/day average since May 4. Oil markets price in risk of May 17 deadline collapse. US gas price remains $4.46/gal (CNBC).',
+    detail: 'International benchmark Brent crude July delivery rises to ~$105 after Trump\'s "massive life support" ceasefire comments and continued deal impasse. Saudi Aramco CEO Amin Nasser warns oil market will not normalize until 2027 if Hormuz disruption persists past mid-June; conflict has cost ~880 million barrels of supply so far (100M/week). First Qatari LNG tanker transited Hormuz on May 11; May 10 saw 17 vessels transit (13 in, 4 out). US gas price $4.46/gal (CNBC).',
   },
   {
     date: '2026-05-12',
     event: 'IDF strikes kill 22+ in Lebanon — ceasefire increasingly nominal',
     type: 'escalation',
     status: 'escalation',
-    detail: 'Israeli airstrikes continue across southern Lebanon killing at least 22 people including a 12-year-old girl, per Lebanese NNA. Hezbollah retaliates with rocket and drone attacks on northern Israel. Lebanon cumulative death toll rises to ~2,844. IDF-Hezbollah fighting intensifies despite the April 17 Lebanon ceasefire; Israel-Lebanon peace talks round 3 scheduled May 14–15 in Washington alongside Trump-Xi summit.',
+    detail: 'Israeli airstrikes continue across southern Lebanon killing at least 22 people including a 12-year-old girl, per Lebanese NNA. Hezbollah retaliates with rocket and drone attacks on IDF positions. Lebanon cumulative death toll rises to ~2,844; IDF has killed 220+ Hezbollah operatives since April 17 Lebanon ceasefire. Israel-Lebanon peace talks round 3 scheduled May 14–15 in Washington alongside Trump-Xi summit.',
+  },
+  {
+    date: '2026-05-12',
+    event: 'Houthi drone intercepted near Eilat — first attack on city since Iran ceasefire',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IDF intercepts a Houthi drone launched from Yemen near Eilat — the first Houthi attack on the Red Sea resort city since the April 8 Iran-US ceasefire. Sirens sounded in Eilat. Houthis have fired 100+ projectiles at Israel and Red Sea shipping since the Iran war began; Houthi leader Abdul-Malik al-Houthi had declared the Iran ceasefire a "great victory" while warning further operations tied to the Hormuz blockade and Lebanon. Attack signals Houthi willingness to escalate as May 17 ceasefire deadline approaches (Times of Israel, JNS).',
+  },
+  {
+    date: '2026-05-12',
+    event: 'Trump departs for Beijing — Xi summit starts May 13; Iran war and Hormuz reopening top agenda',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'President Trump departs for a state visit to China (May 13–15) with President Xi Jinping. The Iran war dominates the agenda alongside trade and Taiwan. Trump aims to press Xi to use China\'s leverage to push Iran toward accepting US nuclear terms and reopening the Strait of Hormuz. Beijing has so far balked at joining US pressure on Iran and instructed Chinese refineries to ignore US sanctions on Iranian crude. Xi credited with helping broker the initial April ceasefire; both sides are keeping Iran from overshadowing bilateral issues. Trump-Xi summit is the highest-stakes diplomatic event since the war began (NPR, CNBC, AP).',
   },
 ];
 
