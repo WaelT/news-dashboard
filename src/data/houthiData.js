@@ -3,15 +3,15 @@
 //          Gulf News, The Middle East Insider, NBC News
 export const houthiData = {
   updated: '2026-05-12',
-  status: 'THREAT ELEVATED — CEASEFIRE "ON MASSIVE LIFE SUPPORT" (TRUMP REJECTS IRAN MoU AS "GARBAGE"; MAY 17 DEADLINE IN 5 DAYS); US SANCTIONS 12 IRAN OIL ENTITIES AHEAD OF TRUMP-XI SUMMIT (MAY 14-15); HEZBOLLAH CROSS-BORDER ATTACKS ONGOING; HORMUZ ~8 VESSELS/DAY',
+  status: 'ACTIVE — HOUTHI DRONE INTERCEPTED NEAR EILAT MAY 12 (FIRST ATTACK ON CITY SINCE IRAN CEASEFIRE); CEASEFIRE "ON MASSIVE LIFE SUPPORT" (TRUMP-XI SUMMIT BEIJING MAY 13-15); MAY 17 DEADLINE 5 DAYS AWAY; HORMUZ ~8 VESSELS/DAY',
   babAlMandab: {
     globalTradePct: 15,
     closureThreat: 'Houthis threaten Bab al-Mandab closure tied to Hormuz/Lebanon escalation',
   },
   attacks: {
-    totalLaunched: 9,
+    totalLaunched: 10,
     missilesAtIsrael: 4,
-    dronesAtIsrael: 2,
+    dronesAtIsrael: 3,
     attacksOnShipping: 3,
   },
   israelImpact: {
