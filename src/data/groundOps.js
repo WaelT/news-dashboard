@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 12, 2026',
+  updated: 'MAY 13, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -322,7 +322,7 @@ const groundOps = {
       date: '2026-03-28',
       lat: 33.20,
       lng: 35.55,
-      event: 'IDF seizes weapons cache in Lebanese school; kills Hezbollah “journalist”',
+      event: 'IDF seizes weapons cache in Lebanese school; kills Hezbollah "journalist"',
       type: 'ground',
     },
     {
@@ -610,6 +610,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: 'IDF has killed 220+ Hezbollah operatives since Lebanon ceasefire of April 17 (IDF spokesperson); Hezbollah has fired 100+ rockets at Israeli positions since Iran ceasefire; Lebanon April 17 ceasefire increasingly nominal as May 17 Iran deadline approaches',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-13',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'Trump-Xi Beijing summit Day 1 — IDF maintains offensive posture in southern Lebanon; no tactical pause ordered; operations continue in Khiam and Bint Jbeil sectors; Lebanon cumulative death toll rises to ~2,876 per Lebanese Health Ministry',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-13',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'Israel-Lebanon peace talks round 3 imminent (scheduled May 14–15 in Washington); IDF conditions withdrawal on formal written agreement; 162nd Division holds Bekaa Valley approach; evacuation corridors north toward Sidon remain open',
       type: 'ground',
     },
   ],
