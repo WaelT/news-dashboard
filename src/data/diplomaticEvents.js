@@ -1618,6 +1618,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'President Trump departs for a state visit to China (May 13–15) with President Xi Jinping. The Iran war dominates the agenda alongside trade and Taiwan. Trump aims to press Xi to use China\'s leverage to push Iran toward accepting US nuclear terms and reopening the Strait of Hormuz. Beijing has so far balked at joining US pressure on Iran and instructed Chinese refineries to ignore US sanctions on Iranian crude. Xi credited with helping broker the initial April ceasefire; both sides are keeping Iran from overshadowing bilateral issues. Trump-Xi summit is the highest-stakes diplomatic event since the war began (NPR, CNBC, AP).',
   },
+  {
+    date: '2026-05-13',
+    event: 'Trump-Xi summit opens in Beijing — Hormuz and Iran nuclear deal dominate Day 1',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Trump arrives in Beijing for Day 1 of the May 13–15 summit with President Xi Jinping. Iran war, Hormuz reopening, and the US-Iran MoU are top agenda items. Trump presses Xi to leverage Beijing\'s $16B/yr Iran oil-trade relationship to push Tehran toward accepting the 10–12 yr enrichment moratorium. China has publicly called for a "comprehensive ceasefire" while resisting joining US sanctions pressure; US Treasury sanctioned 12 China-linked entities May 12 for facilitating Iranian oil sales, adding tension. Separately, Israel-Lebanon peace talks round 3 are scheduled May 14–15 in Washington alongside the summit. May 17 US-Iran ceasefire deadline is 4 days away; no US counter-proposal has yet been delivered to Iran. Pakistan continues to mediate.',
+  },
+  {
+    date: '2026-05-13',
+    event: 'No new missile or drone launches — ceasefire nominally holds on summit Day 1',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'CENTCOM reports no new Iranian ballistic missile or drone launches against Gulf states or US forces during the first 24 hours of the Trump-Xi summit. Hormuz transit remains near pre-summit levels (~8 vessels/day average). Iran MoU counter-proposal still awaits US response; May 17 deadline now 4 days away. IDF operations in southern Lebanon continue; Lebanon cumulative death toll reaches ~2,876 per Lebanese Health Ministry. Iran and US officially describe ceasefire as still "formally in effect."',
+  },
 ];
 
 export const STATUS_COLORS = {
