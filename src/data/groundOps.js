@@ -626,6 +626,13 @@ const groundOps = {
       event: 'Israel-Lebanon peace talks round 3 imminent (scheduled May 14–15 in Washington); IDF conditions withdrawal on formal written agreement; 162nd Division holds Bekaa Valley approach; evacuation corridors north toward Sidon remain open',
       type: 'ground',
     },
+    {
+      date: '2026-05-13',
+      lat: 33.62,
+      lng: 35.50,
+      event: 'Israeli drone strikes hit vehicles on Jiyeh-Saadiyat highway south of Beirut — 8 killed incl. 2 children (Lebanon Health Ministry); two strikes on separate cars within 30 min; IDF issues evacuation orders for 6 southern Lebanon villages; Hezbollah retaliates with explosive drone fire at IDF positions; Lebanon cumulative death toll rises to ~2,884',
+      type: 'airstrike',
+    },
   ],
 };
 
