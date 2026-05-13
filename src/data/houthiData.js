@@ -2,8 +2,8 @@
 // Sources: CENTCOM, Al Jazeera, USNI News, Alma Center, MARAD Advisory 2026-006,
 //          Gulf News, The Middle East Insider, NBC News
 export const houthiData = {
-  updated: '2026-05-12',
-  status: 'ACTIVE — HOUTHI DRONE INTERCEPTED NEAR EILAT MAY 12 (FIRST ATTACK ON CITY SINCE IRAN CEASEFIRE); CEASEFIRE "ON MASSIVE LIFE SUPPORT" (TRUMP-XI SUMMIT BEIJING MAY 13-15); MAY 17 DEADLINE 5 DAYS AWAY; HORMUZ ~8 VESSELS/DAY',
+  updated: '2026-05-13',
+  status: 'ACTIVE — TRUMP-XI SUMMIT DAY 1 IN BEIJING (MAY 13-15); HORMUZ DEAL AT IMPASSE — MAY 17 DEADLINE 4 DAYS AWAY; CEASEFIRE NOMINALLY IN EFFECT; HOUTHI DRONE HIT EILAT MAY 12; HORMUZ ~8 VESSELS/DAY',
   babAlMandab: {
     globalTradePct: 15,
     closureThreat: 'Houthis threaten Bab al-Mandab closure tied to Hormuz/Lebanon escalation',
