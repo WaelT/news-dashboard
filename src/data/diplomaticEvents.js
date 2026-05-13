@@ -1632,6 +1632,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'CENTCOM reports no new Iranian ballistic missile or drone launches against Gulf states or US forces during the first 24 hours of the Trump-Xi summit. Hormuz transit remains near pre-summit levels (~8 vessels/day average). Iran MoU counter-proposal still awaits US response; May 17 deadline now 4 days away. IDF operations in southern Lebanon continue; Lebanon cumulative death toll reaches ~2,876 per Lebanese Health Ministry. Iran and US officially describe ceasefire as still "formally in effect."',
   },
+  {
+    date: '2026-05-13',
+    event: 'Israeli drone strikes kill 8 on highway south of Beirut — day before Lebanon talks',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Two IDF drone strikes on vehicles on the Jiyeh-Saadiyat coastal highway south of Beirut kill 8 people including 2 children (Lebanon Health Ministry). Strikes occur one day before Israel-Lebanon round 3 peace talks scheduled in Washington May 14-15. IDF also issues evacuation orders for 6 southern Lebanon villages citing Hezbollah ceasefire violations. Hezbollah retaliates with explosive drone fire at IDF positions in southern Lebanon. Lebanon cumulative death toll rises to ~2,884. Brent crude steady at ~$107.57 as Trump meets Xi on Day 1 of Beijing summit (AP, Al Jazeera, Haaretz, CNBC).',
+  },
 ];
 
 export const STATUS_COLORS = {
