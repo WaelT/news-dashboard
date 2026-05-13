@@ -24,6 +24,6 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 105, peak: 126, forecast: 88,
+    preWar: 68, current: 107, peak: 126, forecast: 88,
   },
 };
