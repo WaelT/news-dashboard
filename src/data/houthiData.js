@@ -2,8 +2,8 @@
 // Sources: CENTCOM, Al Jazeera, USNI News, Alma Center, MARAD Advisory 2026-006,
 //          Gulf News, The Middle East Insider, NBC News
 export const houthiData = {
-  updated: '2026-05-13',
-  status: 'ACTIVE — TRUMP-XI SUMMIT DAY 1 IN BEIJING (MAY 13-15); HORMUZ DEAL AT IMPASSE — MAY 17 DEADLINE 4 DAYS AWAY; CEASEFIRE NOMINALLY IN EFFECT; HOUTHI DRONE HIT EILAT MAY 12; HORMUZ ~8 VESSELS/DAY',
+  updated: '2026-05-14',
+  status: 'ACTIVE — TRUMP-XI SUMMIT DAY 2 IN BEIJING (MAY 13-15); US REVISED COUNTER-PROPOSAL DELIVERED TO IRAN VIA PAKISTAN; ISRAEL-LEBANON ROUND 3 TALKS OPEN WASHINGTON; MAY 17 DEADLINE 3 DAYS AWAY; CEASEFIRE NOMINALLY IN EFFECT; HORMUZ ~8 VESSELS/DAY',
   babAlMandab: {
     globalTradePct: 15,
     closureThreat: 'Houthis threaten Bab al-Mandab closure tied to Hormuz/Lebanon escalation',
