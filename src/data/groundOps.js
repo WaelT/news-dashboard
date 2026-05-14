@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 13, 2026',
+  updated: 'MAY 14, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -632,6 +632,27 @@ const groundOps = {
       lng: 35.50,
       event: 'Israeli drone strikes hit vehicles on Jiyeh-Saadiyat highway south of Beirut — 8 killed incl. 2 children (Lebanon Health Ministry); two strikes on separate cars within 30 min; IDF issues evacuation orders for 6 southern Lebanon villages; Hezbollah retaliates with explosive drone fire at IDF positions; Lebanon cumulative death toll rises to ~2,884',
       type: 'airstrike',
+    },
+    {
+      date: '2026-05-14',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'IDF airstrikes kill 15 in Khiam, Bint Jbeil, and Nabatieh district — Lebanon cumulative death toll rises to ~2,899; Hezbollah retaliates with rocket and drone fire at IDF positions; no Israeli casualties reported; operations continue despite Israel-Lebanon Round 3 talks opening in Washington',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-14',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'Israel-Lebanon peace talks Round 3 opens in Washington (Dermer + Karam under US facilitation); IDF maintains positions north of Litani — conditions withdrawal on formal written agreement; 162nd Division holds Bekaa Valley approach; 210th and 91st Divisions hold Tyre encirclement perimeter; no tactical pause ordered',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-14',
+      lat: 33.22,
+      lng: 35.58,
+      event: 'Hezbollah fires rockets and explosive drones at IDF positions in northern Israel and southern Lebanon sectors; IDF retaliates with artillery and airstrikes on launch sites in Khiam and Bint Jbeil; Lebanon April 17 ceasefire remains nominal as May 17 Iran deadline approaches',
+      type: 'engagement',
     },
   ],
 };
