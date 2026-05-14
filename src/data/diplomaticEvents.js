@@ -1639,6 +1639,41 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Two IDF drone strikes on vehicles on the Jiyeh-Saadiyat coastal highway south of Beirut kill 8 people including 2 children (Lebanon Health Ministry). Strikes occur one day before Israel-Lebanon round 3 peace talks scheduled in Washington May 14-15. IDF also issues evacuation orders for 6 southern Lebanon villages citing Hezbollah ceasefire violations. Hezbollah retaliates with explosive drone fire at IDF positions in southern Lebanon. Lebanon cumulative death toll rises to ~2,884. Brent crude steady at ~$107.57 as Trump meets Xi on Day 1 of Beijing summit (AP, Al Jazeera, Haaretz, CNBC).',
   },
+  {
+    date: '2026-05-14',
+    event: 'Trump-Xi summit Day 2 — Xi signals readiness to relay Hormuz message to Tehran',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 2 of Trump-Xi summit in Beijing. Xi Jinping signals China\'s readiness to relay a Hormuz-reopening message to Tehran as part of a coordinated diplomatic push; stops short of joining US sanctions on Iranian oil. Trump presses Xi to leverage Beijing\'s $16B/yr Iran oil-trade relationship; Xi frames China as a "peace facilitator" not a party. Joint statement language under negotiation — US seeks mention of Iranian enrichment moratorium, China resists. US counter-proposal simultaneously delivered to Iran via Pakistani intermediaries. Brent crude steady at ~$106. May 17 ceasefire deadline now 3 days away (AP, Reuters, CNBC).',
+  },
+  {
+    date: '2026-05-14',
+    event: 'Israel-Lebanon peace talks Round 3 opens in Washington',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Third round of Israel-Lebanon indirect peace talks opens in Washington under US facilitation. Israeli delegation led by Strategic Affairs Minister Ron Dermer; Lebanese delegation led by Foreign Affairs Minister Simon Karam. Hezbollah not directly participating; Amal movement and Lebanese Armed Forces at the table. Talks focus on IDF withdrawal timeline from south Lebanon, deployment of Lebanese Armed Forces to Litani line, and demarcation of maritime border. IDF conditions withdrawal on formal written agreement; Lebanon demands full Israeli pullback before any security arrangements. Talks opening coincides with Trump-Xi summit Day 2 in Beijing (State Dept, Al Jazeera, Haaretz).',
+  },
+  {
+    date: '2026-05-14',
+    event: 'US delivers revised counter-proposal to Iran via Pakistan — enrichment review mechanism added',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'US delivers a revised one-page counter-proposal to Iran through Pakistani mediators. Key revision: a 10-year enrichment moratorium with a review mechanism at Year 5 — a compromise between Iran\'s demand for a shorter window and Washington\'s original 20-year position. Proposal retains: freeze on uranium enrichment above 5%, transfer of 440 kg HEU stockpile to a third country, phased sanctions relief, Hormuz protocol reopening. Iran\'s Supreme National Security Council convenes to review terms. No public Iranian statement yet; FM Araghchi in Tehran after returning from China. Pakistan FM describes channel as "actively engaged." May 17 deadline 3 days away (NPR, Axios, Al Jazeera).',
+  },
+  {
+    date: '2026-05-14',
+    event: 'IDF strikes kill 15 in southern Lebanon — Hezbollah fires rockets at northern Israel',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IDF airstrikes across southern Lebanon kill at least 15 people per Lebanese Health Ministry. Strikes target Hezbollah positions in Khiam, Bint Jbeil, and the Nabatieh district. Hezbollah retaliates with rocket and drone attacks on IDF positions in northern Israel; no Israeli casualties reported. Lebanon cumulative death toll rises to ~2,899. Israel-Lebanon Round 3 peace talks open in Washington on same day; IDF maintains it will not pause operations until formal agreement is signed (Lebanese NNA, IDF spokesperson, Al Jazeera).',
+  },
+  {
+    date: '2026-05-14',
+    event: 'Brent crude steady at ~$106 on summit Day 2 cautious optimism',
+    type: 'economic',
+    status: 'stalled',
+    detail: 'International benchmark Brent crude holds at ~$106/barrel on Day 2 of the Trump-Xi summit as markets weigh cautious optimism about a potential US-Iran deal against the unresolved May 17 ceasefire deadline. US gas price remains at $4.46/gal. Goldman Sachs: Brent could fall to $88–92 if Hormuz reopens within 30 days; could surge past $120 if deadline passes without agreement and hostilities resume. Asian LNG spot price at $43/MMBtu; South Korea, Japan, India extending emergency reserve drawdowns (CNBC, Bloomberg, Reuters).',
+  },
 ];
 
 export const STATUS_COLORS = {
