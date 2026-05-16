@@ -668,6 +668,20 @@ const groundOps = {
       event: 'IDF 36th, 91st, 146th, 162nd Divisions maintain positions in southern Lebanon; 98th Division reinforces Bekaa Valley approach; Israel-Lebanon Round 3 talks Day 2 in Washington — no ceasefire deal announced; IDF conditions full withdrawal on formal written agreement; Hezbollah continues rocket fire at IDF positions, no Israeli casualties reported; Trump-Xi summit concludes with Xi-Trump joint agreement that Hormuz "must remain open"',
       type: 'ground',
     },
+    {
+      date: '2026-05-16',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'IDF continues "prolonged" operations in Lebanon — Lebanese Health Ministry reports ~2,935 cumulative killed (55 killed in 48-hour period ending May 15 per Haaretz); Hezbollah fires rockets at IDF positions in Khiam and Bint Jbeil sectors; IDF retaliates with airstrikes; May 17 Iran ceasefire deadline now 1 day away; Iran\'s 48-hr deadline to respond to revised US MoU counter-proposal (delivered May 14 via Pakistan) expires today (Haaretz, Lebanese Health Ministry, IDF spokesperson)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-16',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'IDF maintains full southern Lebanon force posture ahead of May 17 Iran ceasefire deadline — 36th, 91st, 146th, 162nd Divisions hold positions; IDF Chief Zamir: no withdrawal until formal written agreement; US diplomacy at critical juncture — Iran\'s response to revised MoU due today; Pakistan FM working "new formula" to break impasse; no new deal announced as of end of day (IDF spokesperson, Times of Israel)',
+      type: 'ground',
+    },
   ],
 };
 

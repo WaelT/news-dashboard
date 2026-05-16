@@ -1709,6 +1709,20 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Brent crude trades flat at $106.89/barrel on May 15 as partial Hormuz transit uptick (~30 vessels since Wednesday evening, ~15/day vs. 90 pre-war) and Trump-Xi Hormuz language offset continued IRGC attacks. US national average gas price rises to $4.53/gal (California $6.15; Oklahoma $3.94 lowest). Goldman Sachs: Brent could fall to $88–92 if Hormuz reopens within 30 days; could surge past $120 if May 17 deadline passes with no deal and hostilities resume. Asian LNG spot price remains at $43/MMBtu; South Korea, Japan, India extending reserve drawdowns (The Star/Reuters, EIA, CNBC, Bloomberg).',
   },
+  {
+    date: '2026-05-16',
+    event: 'Iran\'s 48-hr MoU response deadline expires — no deal announced; May 17 ceasefire deadline tomorrow',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'The 48-hour window given to Iran to respond to the US revised MoU counter-proposal (delivered via Pakistan May 14) expires with no public Iranian response announced. Pakistan FM confirms the mediation channel remains "open and active" and is working a "new formula" to break the impasse. Iran\'s Supreme National Security Council has been debating the revised 10-year enrichment moratorium with Year-5 review mechanism. Supreme Leader Khamenei has not yet issued a public fatwa on the terms. Trump has not yet reimposed pre-ceasefire bombing targets. Key terms on the table: freeze of enrichment above 3.67%, transfer of 440 kg HEU stockpile to a third country, phased sanctions relief, Hormuz protocol reopening. May 17 Iran ceasefire deadline is now less than 24 hours away — no formal extension announced. IRGC maintains full operational posture (Axios, NPR, Express Tribune, Al Jazeera).',
+  },
+  {
+    date: '2026-05-16',
+    event: 'IDF operations in Lebanon continue — ~2,935 cumulative killed; Hezbollah fires rockets at IDF positions',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Lebanese Health Ministry reports approximately 2,935 cumulative killed in Lebanon conflict — up from 2,911 on May 15, with Haaretz reporting 55 killed in Lebanon in the 48 hours ending May 15. IDF continues "prolonged" ground operations in southern Lebanon; Golani Brigade holding Zawtar al-Sharqiyah; Hezbollah fires rockets and drones at IDF positions in Khiam and Bint Jbeil. IDF retaliates with airstrikes. No IDF withdrawal ordered. A Hezbollah mortar strike earlier this week killed IDF Staff Sgt. Negev Dagan, 20 (Golani Brigade) — the sixth IDF soldier killed in Lebanon since the April 16 ceasefire. US Ambassador urges both sides to maintain restraint with May 17 Iran deadline 24 hours away (Haaretz, Lebanese NNA, IDF spokesperson, Times of Israel).',
+  },
 ];
 
 export const STATUS_COLORS = {
