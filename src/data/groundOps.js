@@ -682,6 +682,13 @@ const groundOps = {
       event: 'IDF maintains full southern Lebanon force posture ahead of May 17 Iran ceasefire deadline — 36th, 91st, 146th, 162nd Divisions hold positions; IDF Chief Zamir: no withdrawal until formal written agreement; US diplomacy at critical juncture — Iran\'s response to revised MoU due today; Pakistan FM working "new formula" to break impasse; no new deal announced as of end of day (IDF spokesperson, Times of Israel)',
       type: 'ground',
     },
+    {
+      date: '2026-05-16',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'Israel-Lebanon ceasefire extended 45 days (to ~July 1) after Round 3 Washington talks — but IDF continues strikes "ceasefire in name only"; >670 killed since April 16 ceasefire; next military talks Pentagon May 29, political talks June 2–3; Lebanon cumulative ~2,935 killed; Trump simultaneously extends Iran ceasefire indefinitely (no new deadline) (State Dept, Bloomberg, PBS, Times of Israel, NRC, Al Jazeera)',
+      type: 'ceasefire',
+    },
   ],
 };
 

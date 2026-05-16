@@ -1723,6 +1723,27 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Lebanese Health Ministry reports approximately 2,935 cumulative killed in Lebanon conflict — up from 2,911 on May 15, with Haaretz reporting 55 killed in Lebanon in the 48 hours ending May 15. IDF continues "prolonged" ground operations in southern Lebanon; Golani Brigade holding Zawtar al-Sharqiyah; Hezbollah fires rockets and drones at IDF positions in Khiam and Bint Jbeil. IDF retaliates with airstrikes. No IDF withdrawal ordered. A Hezbollah mortar strike earlier this week killed IDF Staff Sgt. Negev Dagan, 20 (Golani Brigade) — the sixth IDF soldier killed in Lebanon since the April 16 ceasefire. US Ambassador urges both sides to maintain restraint with May 17 Iran deadline 24 hours away (Haaretz, Lebanese NNA, IDF spokesperson, Times of Israel).',
   },
+  {
+    date: '2026-05-16',
+    event: 'Israel-Lebanon ceasefire extended 45 days — next talks June 2–3; IDF strikes continue "ceasefire in name only"',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'US State Department spokesperson Tommy Pigott announces Israel and Lebanon agreed to extend the April 16 ceasefire by 45 days (to approximately July 1, 2026) after two "highly productive" days of talks in Washington (Round 3). This is the second extension of the ceasefire — previously extended by 3 weeks in early May. Next political talks June 2–3 in Washington; military-to-military talks at the Pentagon scheduled for May 29. Despite the extension, IDF continues air and ground strikes deep into southern Lebanon — Al Jazeera describes it as "one month into a ceasefire in name only, Israel\'s strikes hitting even deeper into south Lebanon." NRC: more than 670 killed since April 16 ceasefire. Lebanese Health Ministry: ~2,935 cumulative killed since start of conflict. Hezbollah disarmament remains unresolved key sticking point (Bloomberg, State Dept, PBS News, Times of Israel, CNBC, Al Jazeera, The National, NRC).',
+  },
+  {
+    date: '2026-05-16',
+    event: 'Trump extends Iran ceasefire indefinitely — "in no rush" on new deadline; blockade remains',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'President Trump extends Iran war ceasefire without setting a new specific deadline, saying it will continue "until such time as" Iran\'s leaders submit a "unified proposal" to end the war. Trump tells reporters he is "in no rush to set a deadline." The previous May 17 ceasefire deadline is effectively nullified. US naval blockade of Iranian oil exports remains in place. Iran FM Araghchi: "cannot trust the Americans at all" but is maintaining ceasefire "to give diplomacy a chance." Iran rallying BRICS support. Pakistan FM continues working "new formula" to break US–Iran impasse following Trump\'s rejection of Iran\'s May 10 counter-proposal. Iran\'s Supreme National Security Council still deliberating on revised US MoU terms. No new Iranian public response delivered (PBS News, CNN, NBC News, Al Jazeera, Express Tribune).',
+  },
+  {
+    date: '2026-05-16',
+    event: 'Iran announces Hormuz traffic-management plan with toll fees — Persian Gulf Strait Authority in force',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Iran\'s parliament national security commission chair announces plan to "manage traffic" along a designated route in the Strait of Hormuz with "necessary fees" collected. The Persian Gulf Strait Authority (PGSA), established May 5, now requires ships to submit answers to 40+ questions to the IRGC before receiving permission to transit. Some ships have reportedly paid up to $2 million in Chinese yuan. Only commercial vessels cooperating with Iran may pass; route remains closed to "Project Freedom" operators. Iran also eyes fees on Hormuz undersea internet cables as additional leverage (Euronews, May 15). Trump rejects Iran\'s claim, stating "We wiped out their armed forces, essentially" and that the US — not Iran — controls the strait. Plan violates UNCLOS freedom of navigation; international legal challenges expected. UK, France, US reject PGSA authority (NPR, Arab News, Maritime Executive, Haaretz, Euronews, CNN).',
+  },
 ];
 
 export const STATUS_COLORS = {
