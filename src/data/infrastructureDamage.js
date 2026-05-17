@@ -1,7 +1,7 @@
 // Iranian military infrastructure damage assessment
 // Sources: Pentagon briefings, Alma Center, Critical Threats, IISS
 export const infrastructureDamage = {
-  updated: '2026-05-16',
+  updated: '2026-05-17',
   categories: [
     { id: 'nuclear', label: 'Nuclear Facilities', destructionPct: 96, detail: 'Natanz, Fordow, Isfahan, Arak struck; IAEA seals reapplied Apr 25; 440.9 kg of 60%-enriched HEU remains in Iranian custody per IAEA (key US deal demand)', color: '#ff6600' },
     { id: 'naval', label: 'Naval Forces', destructionPct: 92, detail: '140+ vessels destroyed; Bandar Abbas port partially repaired; IRGC fast-attack boats still conducting shadow ops in Hormuz', color: '#00aaff' },

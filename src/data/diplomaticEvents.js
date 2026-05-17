@@ -1739,10 +1739,38 @@ const diplomaticEvents = [
   },
   {
     date: '2026-05-16',
+    event: 'Pakistan Interior Minister Naqvi meets Iran Interior Minister Momeni in Tehran',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Pakistani Interior Minister Mohsin Naqvi holds "detailed discussions" in Tehran with Iranian Interior Minister Eskandar Momeni on Iran-Pakistan relations and prospects for resuming US-Iran peace talks. Pakistan continues to serve as primary intermediary between Washington and Tehran. No breakthrough announced; Pakistan FM working "new formula" to break US-Iran deadlock following Trump\'s rejection of Iran\'s May 10 MoU counter-proposal (Al Jazeera, Express Tribune).',
+  },
+  {
+    date: '2026-05-16',
     event: 'Iran announces Hormuz traffic-management plan with toll fees — Persian Gulf Strait Authority in force',
     type: 'escalation',
     status: 'escalation',
     detail: 'Iran\'s parliament national security commission chair announces plan to "manage traffic" along a designated route in the Strait of Hormuz with "necessary fees" collected. The Persian Gulf Strait Authority (PGSA), established May 5, now requires ships to submit answers to 40+ questions to the IRGC before receiving permission to transit. Some ships have reportedly paid up to $2 million in Chinese yuan. Only commercial vessels cooperating with Iran may pass; route remains closed to "Project Freedom" operators. Iran also eyes fees on Hormuz undersea internet cables as additional leverage (Euronews, May 15). Trump rejects Iran\'s claim, stating "We wiped out their armed forces, essentially" and that the US — not Iran — controls the strait. Plan violates UNCLOS freedom of navigation; international legal challenges expected. UK, France, US reject PGSA authority (NPR, Arab News, Maritime Executive, Haaretz, Euronews, CNN).',
+  },
+  {
+    date: '2026-05-17',
+    event: 'May 17 ceasefire deadline passes — ceasefire continues indefinitely under Trump\'s extension',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'The original US-Iran ceasefire deadline of May 17 passes without new kinetic exchanges. Trump\'s May 16 indefinite extension holds; he states the ceasefire will continue "until such time as" Iran submits a unified proposal. No new Iranian public response to the revised US MoU (delivered via Pakistan May 14) has been announced. Pakistan continues mediating; Interior Minister Naqvi-Momeni meeting in Tehran (May 16) signals continued engagement. Iran FM Araghchi maintains "cannot trust the Americans" but keeps ceasefire to "give diplomacy a chance." IRGC maintains full posture; PGSA toll collection ongoing. Brent crude ~$113/bbl (Goodreturns, CNBC May 17).',
+  },
+  {
+    date: '2026-05-17',
+    event: 'IDF launches first Lebanon strikes since 45-day ceasefire extension — civil defence centre hit',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IDF launches airstrikes targeting Hezbollah positions in southern Lebanon described as the "first since ceasefire extended" (Times of Israel). On May 16, a civil defence centre in Hanouiyeh near Tyre was struck, killing 6 including 3 paramedics (Lebanese Health Ministry). Hezbollah maintains it fires only in response to Israeli attacks on Lebanese territory. Lebanon cumulative killed rises to ~2,953 (Lebanese Health Ministry); wounded ~8,992. IDF Chief Zamir describes southern Lebanon mission as a "prolonged operation." Next military-to-military talks at Pentagon May 29; next political talks June 2–3 (Times of Israel, Lebanese NNA, IDF spokesperson, Al Jazeera).',
+  },
+  {
+    date: '2026-05-17',
+    event: 'Iran rallies BRICS at New Delhi meeting — demands condemnation of US-Israel war',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Iranian FM Araghchi attends BRICS foreign ministers meeting in New Delhi and urges member states to condemn the US-Israel strikes on Iran as a violation of international law. BRICS bloc does not issue a joint condemnation. China and Russia have separately called for a permanent ceasefire. Iran seeks BRICS diplomatic leverage ahead of resumed US-Iran MoU talks. Saudi Arabia and UAE, as dialogue partners, do not join Iran\'s condemnation effort (Al Jazeera, Express Tribune, Al-Monitor).',
   },
 ];
 

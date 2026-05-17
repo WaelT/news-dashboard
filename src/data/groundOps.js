@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 15, 2026',
+  updated: 'MAY 17, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -688,6 +688,27 @@ const groundOps = {
       lng: 35.48,
       event: 'Israel-Lebanon ceasefire extended 45 days (to ~July 1) after Round 3 Washington talks — but IDF continues strikes "ceasefire in name only"; >670 killed since April 16 ceasefire; next military talks Pentagon May 29, political talks June 2–3; Lebanon cumulative ~2,935 killed; Trump simultaneously extends Iran ceasefire indefinitely (no new deadline) (State Dept, Bloomberg, PBS, Times of Israel, NRC, Al Jazeera)',
       type: 'ceasefire',
+    },
+    {
+      date: '2026-05-16',
+      lat: 33.26,
+      lng: 35.20,
+      event: 'IDF strikes civil defence centre in Hanouiyeh (Tyre district) — 6 killed including 3 paramedics; 37 wounded including women and children (Lebanese Health Ministry)',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-17',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'IDF launches strikes targeting Hezbollah "for first time since ceasefire extended" (Times of Israel); Golani Brigade holding Zawtar al-Sharqiyah; operations continue as "prolonged" — Lebanon cumulative ~2,953 killed, ~8,992 wounded (Lebanese Health Ministry); May 17 Iran ceasefire deadline passes without incident',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-17',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'IDF 36th, 91st, 146th, 162nd Divisions maintain positions in southern Lebanon; Hezbollah fires at IDF positions; IDF retaliates with airstrikes; ceasefire extension holds nominally — next military talks Pentagon May 29, political talks June 2–3 (IDF spokesperson, Lebanese NNA, Al Jazeera)',
+      type: 'engagement',
     },
   ],
 };
