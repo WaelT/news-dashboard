@@ -1767,10 +1767,31 @@ const diplomaticEvents = [
   },
   {
     date: '2026-05-17',
-    event: 'Iran rallies BRICS at New Delhi meeting — demands condemnation of US-Israel war',
+    event: 'Iran rallies BRICS at New Delhi meeting — UAE blocks joint condemnation statement',
     type: 'diplomacy',
     status: 'stalled',
-    detail: 'Iranian FM Araghchi attends BRICS foreign ministers meeting in New Delhi and urges member states to condemn the US-Israel strikes on Iran as a violation of international law. BRICS bloc does not issue a joint condemnation. China and Russia have separately called for a permanent ceasefire. Iran seeks BRICS diplomatic leverage ahead of resumed US-Iran MoU talks. Saudi Arabia and UAE, as dialogue partners, do not join Iran\'s condemnation effort (Al Jazeera, Express Tribune, Al-Monitor).',
+    detail: 'Iranian FM Araghchi attends BRICS foreign ministers meeting in New Delhi (concluded May 15) and urges member states to "unequivocally condemn" the US-Israel "illegal aggression" and take "concrete action to halt warmongering." BRICS fails to issue a joint statement — India issues only a chair\'s summary citing "differing views among some members on the situation in the Middle East." Araghchi says a BRICS member blocked parts of the statement without naming the UAE. Iran-UAE deadlock is the decisive blocking point. China and Russia have separately called for a permanent ceasefire. Saudi Arabia and UAE, as BRICS dialogue partners, do not join Iran\'s condemnation effort. Iran expects BRICS leaders summit later in 2026 to shift positions (U.S. News, Bloomberg, The Wire, Express Tribune, Al Jazeera, Washington Post, Modern Diplomacy, May 15–17).',
+  },
+  {
+    date: '2026-05-17',
+    event: 'Drone strikes Barakah Nuclear Plant generator, Abu Dhabi — IAEA "grave concern"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'A drone strikes an electrical generator outside the inner perimeter of the Barakah Nuclear Power Plant in the Al Dhafra Region, Abu Dhabi, UAE — the Arab world\'s only nuclear power plant ($20B, 4 reactors, online 2020, built with South Korean assistance). No injuries reported; radiological safety levels unaffected; plant\'s essential systems operating normally. Abu Dhabi authorities contain a fire that broke out at the perimeter. No group immediately claims responsibility; UAE does not officially blame Iran, though suspicion falls on the IRGC given the ongoing Hormuz campaign. IAEA Director-General Rafael Grossi expresses "grave concern," calling military activity that threatens nuclear safety "unacceptable." Netanyahu and Trump expected to speak today on Iran deal and possible renewed strikes. Brent crude jumps further on news to ~$113/bbl (Times of Israel, The National, Gulf News, CBS42, Tribune India, IAEA, Zee News, May 17).',
+  },
+  {
+    date: '2026-05-17',
+    event: 'NYT: US-Israel in "intense preparations" for renewed Iran strikes as early as next week',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'The New York Times reports (May 16–17) that two unnamed Middle East officials say US-Israel preparations for renewed strikes on Iran have "greatly accelerated" over the past few days, with conflict possibly resuming as early as next week. Options prepared for Trump\'s decision include: (1) more aggressive bombing runs against Iranian military and infrastructure targets; (2) a commando raid to seize Tehran\'s enriched uranium stockpile (believed buried underground). Trump advisers have prepared plans but no final decision has yet been made. Netanyahu spoke with Trump on May 11 and reportedly agreed it was necessary to remove Iran\'s HEU stockpile. Trump and Netanyahu expected to speak again May 17. The reports represent the most intense publicly confirmed preparations since the ceasefire took effect in early April. Trump\'s May 16 indefinite ceasefire extension remains in force; US naval blockade continues (NYT, Times of Israel, Haaretz, Algemeiner, RT/TASS, YNETNEWS, May 16–17).',
+  },
+  {
+    date: '2026-05-17',
+    event: 'IRGC stops two ships in Hormuz — Iran FM spokesperson rejects "accusations"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Iran\'s Islamic Revolutionary Guard Corps Navy announces it identified and stopped two ships in the Strait of Hormuz "to uphold the rights of the noble Iranian nation." Iran FM spokesperson (Esmaili) issues statement insisting new accusations against Iran "are aimed at justifying the continuation or intensification of interventionist presence in the region," asserting that "the presence and destabilising actions of American forces double Iran\'s responsibility in ensuring the security of the region and the Strait of Hormuz and in dealing with lawbreakers." The IRGC has now stopped, seized, or fired upon at least 18 vessels since the start of the conflict. PGSA toll collection (up to $2M in yuan) continues. US naval blockade remains in force. UKMTO Advisory 2026-041 remains in effect (Iran war ceasefire Wikipedia, Hormuz crisis Wikipedia, May 17).',
   },
 ];
 

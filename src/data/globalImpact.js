@@ -27,5 +27,6 @@ export const globalImpact = {
   },
   oil: {
     preWar: 68, current: 113, peak: 126, forecast: 88,
+    note: 'Brent ~$113/bbl (May 17) — driven by Barakah nuclear plant drone strike; IEA: Hormuz disruption is "largest supply disruption in history of global oil market"; Aramco CEO: market won\'t normalize until 2027 if Hormuz closed past mid-June',
   },
 };
