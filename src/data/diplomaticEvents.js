@@ -1809,10 +1809,24 @@ const diplomaticEvents = [
   },
   {
     date: '2026-05-18',
-    event: 'IDF chief: "no ceasefire" in Lebanon — 350+ Hezbollah killed since April 16; Lebanon ~2,970 killed',
+    event: 'IDF chief: "no ceasefire" in Lebanon — 350+ Hezbollah killed since April 16; Lebanon ~2,977 killed',
     type: 'escalation',
     status: 'escalation',
-    detail: 'IDF Chief of Staff Zamir publicly confirms there is "no ceasefire" in southern Lebanon, describing the mission as a "prolonged operation." IDF has killed 350+ Hezbollah operatives since the April 16 Lebanon ceasefire. Six IDF soldiers have been killed since the ceasefire began. IDF struck 1,100+ Hezbollah targets in southern Lebanon in recent weeks. Lebanon cumulative killed estimated at ~2,970 (Lebanese Health Ministry, May 18). Next military-to-military talks Pentagon May 29; next political talks June 2-3 (Times of Israel, NBC News, Al Jazeera, IDF spokesperson, May 18).',
+    detail: 'IDF Chief of Staff Zamir publicly confirms there is "no ceasefire" in southern Lebanon, describing the mission as a "prolonged operation." IDF has killed 350+ Hezbollah operatives since the April 16 Lebanon ceasefire. Six IDF soldiers have been killed since the ceasefire began. IDF struck 1,100+ Hezbollah targets in southern Lebanon in recent weeks. Lebanon cumulative killed rises to ~2,977 after at least 7 more killed in strikes on Tayr Felsay (3 incl. a child) and Tayr Debba (2 incl. a child); IDF officer mortally wounded by Hezbollah drone; IDF airstrike near Baalbek kills Islamic Jihad commander. Next military-to-military talks Pentagon May 29; next political talks June 2-3 (Times of Israel, NBC News, New Arab, JNS, Al Jazeera, IDF spokesperson, May 18).',
+  },
+  {
+    date: '2026-05-18',
+    event: 'Trump "THE CLOCK IS TICKING, IRAN!" — warns "nothing left" if no deal; also claims Iran "dying to sign"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Trump posts "THE CLOCK IS TICKING, IRAN!" on Truth Social, warning "there won\'t be anything left of them" if they do not "get moving, FAST." US officials separately outline Trump\'s 5 conditions: (1) Iran transfers 400 kg enriched uranium to the US; (2) only one Iranian nuclear facility may remain operational; (3) no release of frozen assets; (4) no ceasefire guarantee until full deal reached; (5) no war reparations to Iran. In a contradictory statement hours later, Trump claims Iran is "dying to sign a peace deal" — signalling continued mixed messaging. Pakistan continues to mediate; Iran has not yet publicly responded to the revised US MoU (delivered via Pakistan May 14). Brent futures spike to ~$111.19 on renewed escalation fears (CNN, CBS, Bloomberg, India TV News, Al Jazeera, May 18).',
+  },
+  {
+    date: '2026-05-18',
+    event: 'IRGC seizes vessel off UAE coast; cargo ship sunk near Oman; Saudi Arabia intercepts 3 drones from Iraq',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Three new kinetic incidents on May 18: (1) IRGC personnel board a vessel anchored off the UAE coast and steer it toward Iran — second ship seizure in 3 days; (2) a separate cargo ship near Oman is sunk in an IRGC attack; (3) Saudi Arabia\'s air defenses intercept 3 drones that entered from Iraqi airspace — Iranian-backed militia suspected. UKMTO Advisory 2026-041 remains in effect. US naval blockade of Iranian ports maintained. Iran PGSA toll collection ongoing. Brent crude futures rise to ~$111.19/bbl on the escalation (PBS, NBC News, FXStreet/Reuters, Al Jazeera, May 18).',
   },
 ];
 

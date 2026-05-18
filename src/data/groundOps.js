@@ -714,7 +714,7 @@ const groundOps = {
       date: '2026-05-18',
       lat: 33.20,
       lng: 35.48,
-      event: 'IDF chief confirms "no ceasefire" in southern Lebanon — 350+ Hezbollah operatives killed since April 16 ceasefire; 6 IDF soldiers killed since ceasefire began; operations continue in Khiam and Bint Jbeil sectors; Lebanon cumulative ~2,970 killed, ~9,010 wounded (Lebanese Health Ministry estimated)',
+      event: 'IDF chief confirms "no ceasefire" in southern Lebanon — 350+ Hezbollah operatives killed since April 16 ceasefire; 6 IDF soldiers killed since ceasefire began; operations continue in Khiam and Bint Jbeil sectors; Lebanon cumulative ~2,977 killed, ~9,021 wounded (Lebanese Health Ministry estimated)',
       type: 'ground',
     },
     {
@@ -723,6 +723,20 @@ const groundOps = {
       lng: 35.48,
       event: 'No new Iran-US kinetic exchange — ceasefire extended indefinitely holds; US-Israel renewed strike preparations ongoing per NYT (options: escalated bombing, Kharg Island seizure, HEU commando raid); Trump advisors convened; Pakistan mediating "new formula"; next military talks Pentagon May 29, political talks June 2–3',
       type: 'ground',
+    },
+    {
+      date: '2026-05-18',
+      lat: 33.22,
+      lng: 35.32,
+      event: 'IDF strikes 30+ Hezbollah sites in south Lebanon — at least 7 killed: 3 in Tayr Felsay (incl. a child), 2 in Tayr Debba (incl. a child), 11 wounded; IDF officer mortally wounded by Hezbollah drone in south Lebanon sector',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-18',
+      lat: 33.97,
+      lng: 36.21,
+      event: 'IDF airstrike near Baalbek kills Islamic Jihad commander — first confirmed strike in eastern Bekaa Valley in several days; IDF cites ongoing Hezbollah ceasefire violations',
+      type: 'airstrike',
     },
   ],
 };
