@@ -1793,6 +1793,27 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Iran\'s Islamic Revolutionary Guard Corps Navy announces it identified and stopped two ships in the Strait of Hormuz "to uphold the rights of the noble Iranian nation." Iran FM spokesperson (Esmaili) issues statement insisting new accusations against Iran "are aimed at justifying the continuation or intensification of interventionist presence in the region," asserting that "the presence and destabilising actions of American forces double Iran\'s responsibility in ensuring the security of the region and the Strait of Hormuz and in dealing with lawbreakers." The IRGC has now stopped, seized, or fired upon at least 18 vessels since the start of the conflict. PGSA toll collection (up to $2M in yuan) continues. US naval blockade remains in force. UKMTO Advisory 2026-041 remains in effect (Iran war ceasefire Wikipedia, Hormuz crisis Wikipedia, May 17).',
   },
+  {
+    date: '2026-05-18',
+    event: 'Ceasefire extended indefinitely holds — no new kinetic exchange; Pakistan mediating; no Iranian MoU response',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Trump\'s May 16 indefinite ceasefire extension holds with no new kinetic exchange for a second consecutive day. Iran\'s Supreme National Security Council still deliberating on revised US MoU terms (delivered via Pakistan May 14). Pakistan FM continuing "new formula" mediation. PGSA toll collection ongoing (up to $2M in yuan per ship); US naval blockade maintained. IDF chief confirms continued Lebanon strikes — "no ceasefire" in south Lebanon. Brent ~$110.74/bbl (OilPriceAPI May 18). UKMTO 2026-041 in effect (Times of Israel, Al Jazeera, OilPriceAPI, May 18).',
+  },
+  {
+    date: '2026-05-18',
+    event: 'US-Israel strike preparations most intense yet — Kharg Island seizure, HEU commando raid on table',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'NYT (May 16-17): US and Israel preparations to renew strikes on Iran are at their "most intense yet," with possible resumption as early as the week of May 18-24. Military options under consideration: (1) intensified bombing of military and infrastructure targets; (2) seizure of Kharg Island — Iran\'s main oil export hub in the Persian Gulf; (3) special operations commando raid to extract enriched uranium stockpile from destroyed/buried facilities. Trump convened top advisors May 16-17; no final decision announced. Ceasefire extended indefinitely May 16. No new kinetic exchange as of May 18 (Times of Israel, Haaretz, NYT, Algemeiner, Jerusalem Post, May 16-18).',
+  },
+  {
+    date: '2026-05-18',
+    event: 'IDF chief: "no ceasefire" in Lebanon — 350+ Hezbollah killed since April 16; Lebanon ~2,970 killed',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IDF Chief of Staff Zamir publicly confirms there is "no ceasefire" in southern Lebanon, describing the mission as a "prolonged operation." IDF has killed 350+ Hezbollah operatives since the April 16 Lebanon ceasefire. Six IDF soldiers have been killed since the ceasefire began. IDF struck 1,100+ Hezbollah targets in southern Lebanon in recent weeks. Lebanon cumulative killed estimated at ~2,970 (Lebanese Health Ministry, May 18). Next military-to-military talks Pentagon May 29; next political talks June 2-3 (Times of Israel, NBC News, Al Jazeera, IDF spokesperson, May 18).',
+  },
 ];
 
 export const STATUS_COLORS = {
