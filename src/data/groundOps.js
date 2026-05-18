@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 17, 2026',
+  updated: 'MAY 18, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -709,6 +709,20 @@ const groundOps = {
       lng: 35.48,
       event: 'IDF 36th, 91st, 146th, 162nd Divisions maintain positions in southern Lebanon; Hezbollah fires at IDF positions; IDF retaliates with airstrikes; ceasefire extension holds nominally — next military talks Pentagon May 29, political talks June 2–3 (IDF spokesperson, Lebanese NNA, Al Jazeera)',
       type: 'engagement',
+    },
+    {
+      date: '2026-05-18',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'IDF chief confirms "no ceasefire" in southern Lebanon — 350+ Hezbollah operatives killed since April 16 ceasefire; 6 IDF soldiers killed since ceasefire began; operations continue in Khiam and Bint Jbeil sectors; Lebanon cumulative ~2,970 killed, ~9,010 wounded (Lebanese Health Ministry estimated)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-18',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'No new Iran-US kinetic exchange — ceasefire extended indefinitely holds; US-Israel renewed strike preparations ongoing per NYT (options: escalated bombing, Kharg Island seizure, HEU commando raid); Trump advisors convened; Pakistan mediating "new formula"; next military talks Pentagon May 29, political talks June 2–3',
+      type: 'ground',
     },
   ],
 };
