@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 15, 2026',
+  updated: 'MAY 19, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -667,6 +667,76 @@ const groundOps = {
       lng: 35.48,
       event: 'IDF 36th, 91st, 146th, 162nd Divisions maintain positions in southern Lebanon; 98th Division reinforces Bekaa Valley approach; Israel-Lebanon Round 3 talks Day 2 in Washington — no ceasefire deal announced; IDF conditions full withdrawal on formal written agreement; Hezbollah continues rocket fire at IDF positions, no Israeli casualties reported; Trump-Xi summit concludes with Xi-Trump joint agreement that Hormuz "must remain open"',
       type: 'ground',
+    },
+    {
+      date: '2026-05-16',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'IDF continues "prolonged" operations in Lebanon — Lebanese Health Ministry reports ~2,935 cumulative killed; Hezbollah fires rockets at IDF positions in Khiam and Bint Jbeil sectors; IDF retaliates with airstrikes; Iran\'s 48-hr deadline to respond to revised US MoU counter-proposal (delivered May 14 via Pakistan) expires today (Haaretz, Lebanese Health Ministry, IDF spokesperson)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-16',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'Israel-Lebanon ceasefire extended 45 days (to ~July 1) after Round 3 Washington talks — but IDF continues strikes "ceasefire in name only"; >670 killed since April 16 ceasefire; next military talks Pentagon May 29, political talks June 2–3; Trump simultaneously extends Iran ceasefire indefinitely (no new deadline) (State Dept, Bloomberg, PBS, Times of Israel, Al Jazeera)',
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-05-16',
+      lat: 33.26,
+      lng: 35.20,
+      event: 'IDF strikes civil defence centre in Hanouiyeh (Tyre district) — 6 killed including 3 paramedics; 37 wounded including women and children (Lebanese Health Ministry)',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-17',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'IDF launches strikes targeting Hezbollah positions; Golani Brigade holding Zawtar al-Sharqiyah; operations continue as "prolonged" — Lebanon cumulative ~2,953 killed, ~8,992 wounded (Lebanese Health Ministry); May 17 Iran ceasefire deadline passes without incident — Trump indefinite extension holds',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-17',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'IDF 36th, 91st, 146th, 162nd Divisions maintain positions in southern Lebanon; Hezbollah fires at IDF positions; IDF retaliates with airstrikes; ceasefire extension holds nominally — next military talks Pentagon May 29, political talks June 2–3 (IDF spokesperson, Lebanese NNA, Al Jazeera)',
+      type: 'engagement',
+    },
+    {
+      date: '2026-05-18',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'IDF chief confirms "no ceasefire" in southern Lebanon — 350+ Hezbollah operatives killed since April 16 ceasefire; 6 IDF soldiers killed since ceasefire began; operations continue in Khiam and Bint Jbeil sectors; Lebanon cumulative ~2,977 killed, ~9,021 wounded (Lebanese Health Ministry)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-18',
+      lat: 33.22,
+      lng: 35.32,
+      event: 'IDF strikes 30+ Hezbollah sites in south Lebanon — at least 7 killed: 3 in Tayr Felsay (incl. a child), 2 in Tayr Debba (incl. a child), 11 wounded; IDF officer mortally wounded by Hezbollah drone in south Lebanon sector',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-18',
+      lat: 33.97,
+      lng: 36.21,
+      event: 'IDF airstrike near Baalbek kills Islamic Jihad commander — first confirmed strike in eastern Bekaa Valley in several days; IDF cites ongoing Hezbollah ceasefire violations',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-19',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'Lebanon death toll crosses 3,000 — 3,020 killed, 9,273 wounded since March 2; IDF continues strikes in south Lebanon and Bekaa; ceasefire extended 45 days (to ~July 1) continues to be violated; no new Iran-US kinetic exchange for third consecutive day (Lebanese Health Ministry, Haaretz, May 19)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-19',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'No new Iranian missile or drone launches confirmed — ceasefire holds; Trump signals 20-year enrichment suspension offer; Pakistan mediating; UKMTO 2026-041 in effect; Brent ~$107.71/bbl; next Lebanon military talks Pentagon May 29',
+      type: 'ceasefire',
     },
   ],
 };
