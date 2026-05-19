@@ -852,6 +852,17 @@ const conflictZones = [
     status: 'monitoring',
     keywords: ['sangachal', 'سنگاچال', 'btc terminal', 'caspian pipeline', 'azerbaijan oil', 'bp azerbaijan'],
   },
+  {
+    id: 152,
+    name: 'Barakah Nuclear Plant, UAE',
+    lat: 23.9697,
+    lng: 52.2161,
+    type: 'nuclear',
+    icon: 'nuclear',
+    description: 'Arab world\'s only nuclear power plant (4 reactors, $20B, online 2020) — drone struck electrical generator on outer perimeter May 17; fire contained; no injuries, no radiation release; IAEA Director-General Grossi expresses "grave concern"; Brent crude jumps on news',
+    status: 'high-alert',
+    keywords: ['barakah', 'براكة', 'uae nuclear', 'abu dhabi nuclear', 'nuclear plant uae', 'arab nuclear', 'al dhafra', 'منصة براكة', 'barakah nuclear'],
+  },
 ];
 
 export default conflictZones;

@@ -29,7 +29,7 @@ const DEFAULT_CASUALTIES = {
   usa: { killed: 15, wounded: 538 },
   lebanon: { killed: 3020, wounded: 9273 },
   yemen: { killed: 0, wounded: 0 },
-  iraq: { killed: 117, wounded: 361 },
+  iraq: { killed: 119, wounded: 361 },
   uae: { killed: 15, wounded: 227 },
   kuwait: { killed: 12, wounded: 115 },
   bahrain: { killed: 3, wounded: 42 },
@@ -174,7 +174,7 @@ export default function ImpactTracker() {
             TREND
           </button>
         </div>
-        <span className="text-ops-muted text-[9px]">MAY 13, 2026</span>
+        <span className="text-ops-muted text-[9px]">MAY 17, 2026</span>
       </div>
 
       {/* Totals bar */}
