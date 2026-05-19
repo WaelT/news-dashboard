@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 18, 2026',
+  updated: 'MAY 19, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -737,6 +737,20 @@ const groundOps = {
       lng: 36.21,
       event: 'IDF airstrike near Baalbek kills Islamic Jihad commander — first confirmed strike in eastern Bekaa Valley in several days; IDF cites ongoing Hezbollah ceasefire violations',
       type: 'airstrike',
+    },
+    {
+      date: '2026-05-19',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'Lebanon death toll crosses 3,000 — 3,020 killed, 9,273 wounded since March 2; IDF continues strikes in south Lebanon and Bekaa; ceasefire extended 45 days (to ~July 1) continues to be violated; no new Iran-US kinetic exchange for third consecutive day (Lebanese Health Ministry, Haaretz, May 19)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-19',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'No new Iranian missile or drone launches confirmed — ceasefire holds; Trump signals 20-year enrichment suspension offer; Pakistan mediating; UKMTO 2026-041 in effect; Brent ~$107.71/bbl; next Lebanon military talks Pentagon May 29',
+      type: 'ceasefire',
     },
   ],
 };

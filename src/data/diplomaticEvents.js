@@ -1828,6 +1828,20 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Three new kinetic incidents on May 18: (1) IRGC personnel board a vessel anchored off the UAE coast and steer it toward Iran — second ship seizure in 3 days; (2) a separate cargo ship near Oman is sunk in an IRGC attack; (3) Saudi Arabia\'s air defenses intercept 3 drones that entered from Iraqi airspace — Iranian-backed militia suspected. UKMTO Advisory 2026-041 remains in effect. US naval blockade of Iranian ports maintained. Iran PGSA toll collection ongoing. Brent crude futures rise to ~$111.19/bbl on the escalation (PBS, NBC News, FXStreet/Reuters, Al Jazeera, May 18).',
   },
+  {
+    date: '2026-05-19',
+    event: 'Trump signals flexibility: offers to accept 20-year Iranian enrichment suspension if Iran gives "real commitment"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'In a significant softening of his prior demand for permanent denuclearization, Trump tells reporters he would accept a 20-year suspension of Iranian uranium enrichment if Iran provides a "real commitment" — a shift away from the previous demand for zero enrichment indefinitely. The offer was not formally delivered to Tehran. Pakistan continues to mediate. Iran\'s Supreme National Security Council has not yet publicly responded to the US revised MoU (delivered via Pakistan May 14). No new kinetic exchange in Hormuz for third consecutive day. PGSA toll collection continues. Ceasefire indefinitely extended (Trump, May 16). Brent ~$107.71/bbl (Times of Israel, Al Jazeera, May 19).',
+  },
+  {
+    date: '2026-05-19',
+    event: 'Lebanon death toll crosses 3,000 — IDF strikes continue in south Lebanon and Bekaa',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Lebanon\'s Health Ministry confirms at least 3,020 killed and 9,273 wounded since the Lebanon war began March 2, 2026 — the first time the toll has crossed 3,000. IDF airstrikes continue in southern Lebanon and the eastern Bekaa Valley. The Israel-Lebanon ceasefire agreed April 16 and extended 45 days (to ~July 1) on May 16 continues to be violated by both sides. IDF Chief of Staff confirmed "no ceasefire" in south Lebanon. Next military talks at Pentagon May 29; political talks June 2–3 (Lebanese Health Ministry, Haaretz, Al Jazeera, May 19).',
+  },
 ];
 
 export const STATUS_COLORS = {
