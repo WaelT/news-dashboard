@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-19T12:00:00.000Z",
-  "source": "Lebanese Health Ministry, HRANA, Al Jazeera, Reuters, CENTCOM, IDF spokesperson",
+  "updatedAt": "2026-05-19T14:52:28.088Z",
+  "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "iran": {
-      "killed": 3664,
-      "wounded": 26520
+      "killed": 3636,
+      "wounded": 15000
     },
     "lebanon": {
       "killed": 3020,
@@ -15,7 +15,7 @@
       "wounded": 361
     },
     "israel": {
-      "killed": 52,
+      "killed": 50,
       "wounded": 8616
     },
     "usa": {
@@ -23,11 +23,11 @@
       "wounded": 538
     },
     "uae": {
-      "killed": 15,
+      "killed": 13,
       "wounded": 227
     },
     "kuwait": {
-      "killed": 12,
+      "killed": 10,
       "wounded": 115
     },
     "bahrain": {
@@ -46,18 +46,6 @@
       "killed": 3,
       "wounded": 9
     },
-    "qatar": {
-      "killed": 4,
-      "wounded": 20
-    },
-    "turkey": {
-      "killed": 3,
-      "wounded": 0
-    },
-    "palestine": {
-      "killed": 14,
-      "wounded": 15
-    },
     "syria": {
       "killed": 2,
       "wounded": 1
@@ -70,11 +58,23 @@
       "killed": 0,
       "wounded": 29
     },
+    "qatar": {
+      "killed": 0,
+      "wounded": 20
+    },
     "azerbaijan": {
       "killed": 0,
       "wounded": 4
     },
     "yemen": {
+      "killed": 0,
+      "wounded": 0
+    },
+    "palestine": {
+      "killed": 0,
+      "wounded": 0
+    },
+    "turkey": {
       "killed": 0,
       "wounded": 0
     }
