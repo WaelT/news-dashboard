@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 19, 2026',
+  updated: 'MAY 20, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -736,6 +736,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: 'No new Iranian missile or drone launches confirmed — ceasefire holds; Trump signals 20-year enrichment suspension offer; Pakistan mediating; UKMTO 2026-041 in effect; Brent ~$107.71/bbl; next Lebanon military talks Pentagon May 29',
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-05-20',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'IDF continues operations in southern Lebanon and Bekaa — Lebanon toll holds at 3,020 killed, 9,273 wounded; no new major confirmed strikes reported; ceasefire extended 45 days (~July 1) nominally in effect; next military talks Pentagon May 29',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-20',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'No new Iran-US kinetic exchange — 4th consecutive ceasefire day; Trump called off scheduled May 19 Iran strike after GCC leaders (MBS, MBZ, Emir Tamim) intervened; US military on standby "on a moment\'s notice"; Israel readying nuclear site strike if talks fail (Times of Israel); Brent ~$108–110/bbl',
       type: 'ceasefire',
     },
   ],
