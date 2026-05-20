@@ -1795,6 +1795,13 @@ const diplomaticEvents = [
   },
   {
     date: '2026-05-20',
+    event: 'Trump warns "two or three days" for deal or "full, large-scale assault" on Iran — Al Jazeera liveblog',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Speaking to reporters on May 20, Trump warned Iran that if no acceptable deal was reached within "two or three days," the United States would proceed with a "full, large-scale assault." This followed Trump\'s May 18 cancellation of a scheduled May 19 strike at the request of Gulf leaders. Trump\'s envoys Steve Witkoff and Jared Kushner continue backchannel talks via Pakistan. Iran\'s Supreme National Security Council is deliberating but has not publicly responded to the revised US MoU. Pakistan Interior Minister Naqvi-Tehran visit (May 16-17) and Pakistan FM channels remain active. Ceasefire nominally in effect — 4th consecutive day no kinetic exchange in Hormuz. Brent $111.22 (May 19 close; Fortune). US military on standby "on a moment\'s notice" per Trump\'s May 18 instruction (Al Jazeera liveblog, NPR, CNBC, Time, Euronews, May 19-20).',
+  },
+  {
+    date: '2026-05-20',
     event: 'No new kinetic exchange — 4th consecutive ceasefire day; Iran conveying position to Pakistan',
     type: 'ceasefire',
     status: 'stalled',
