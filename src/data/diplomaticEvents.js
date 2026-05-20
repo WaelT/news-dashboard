@@ -1786,6 +1786,27 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Lebanon\'s Health Ministry confirms at least 3,020 killed and 9,273 wounded since the Lebanon war began March 2, 2026 — the first time the toll has crossed 3,000. IDF airstrikes continue in southern Lebanon and the eastern Bekaa Valley. The Israel-Lebanon ceasefire agreed April 16 and extended 45 days (to ~July 1) on May 16 continues to be violated by both sides. IDF Chief of Staff confirmed "no ceasefire" in south Lebanon. Next military talks at Pentagon May 29; political talks June 2–3 (Lebanese Health Ministry, Haaretz, Al Jazeera, May 19).',
   },
+  {
+    date: '2026-05-19',
+    event: 'Trump calls off scheduled May 19 Iran strike after GCC leaders\' personal intervention',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Trump announced on May 18 that he was calling off a "scheduled attack of Iran tomorrow" (May 19) after receiving personal phone calls from Saudi Crown Prince Mohammed bin Salman, UAE President Mohammed bin Zayed Al Nahyan, and Qatari Emir Tamim bin Hamad Al Thani. The three GCC leaders delivered a "unified message from Doha, Abu Dhabi, and Riyadh": give negotiations a chance because "if you hit Iran, we will all pay the price." Trump told Defense Secretary Pete Hegseth and Joint Chiefs Chairman Gen. Dan Caine to "be prepared to go forward with a full, large scale assault of Iran, on a moment\'s notice, in the event that an acceptable Deal is not reached." The attack had apparently been scheduled for May 19 as part of the NYT-reported "most intense" US-Israel strike preparations. No new kinetic exchange — fourth consecutive ceasefire day (CNBC, Axios, CBS News, Al Jazeera, Al Arabiya, Euronews, BusinessToday, May 18–19).',
+  },
+  {
+    date: '2026-05-20',
+    event: 'No new kinetic exchange — 4th consecutive ceasefire day; Iran conveying position to Pakistan',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'No new Iranian missile or drone launches confirmed for the fourth consecutive day. Iran\'s Supreme National Security Council is deliberating on the US revised MoU and conveying its updated position to Pakistani intermediaries. Pakistan continues to mediate with the US and Iran. The PGSA toll collection continues. UKMTO 2026-041 remains in effect. US naval blockade maintained. Ceasefire indefinitely extended by Trump (May 16). Brent crude ~$108–110/bbl (easing from $111 spike on deal hopes). No new IDF-Iran kinetic exchange. Military preparations remain on standby per Trump\'s May 18 instruction (Reuters, Al Jazeera, CBS News, May 20).',
+  },
+  {
+    date: '2026-05-20',
+    event: 'Israel readying to quickly strike Iranian nuclear sites if US-Iran talks fail — Times of Israel / CNN',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'New intelligence assessed by US officials suggests Israel is preparing a potential rapid strike on Iranian nuclear facilities in the event that ongoing US-Iran nuclear negotiations collapse. The Times of Israel reports that Israel is "readying to quickly strike Iranian nuclear sites if US-Iran talks fail." CNN separately cited US intelligence indicating Israel is preparing a "possible strike on Iranian nuclear facilities." The preparations mark a significant escalation threat that would represent a clear break with Trump\'s diplomatic efforts. The US has urged Israel to hold off while negotiations proceed. Israel has not publicly commented. No strike has occurred as of May 20 (Times of Israel, CNN, May 20).',
+  },
 ];
 
 export const STATUS_COLORS = {
