@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 20, 2026',
+  updated: 'MAY 21, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -750,6 +750,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: 'No new Iran-US kinetic exchange — 4th consecutive ceasefire day; Trump called off scheduled May 19 Iran strike after GCC leaders (MBS, MBZ, Emir Tamim) intervened; US military on standby "on a moment\'s notice"; Israel readying nuclear site strike if talks fail (Times of Israel); Brent ~$108–110/bbl',
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-05-21',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'IDF airstrikes kill 19 in southern Lebanon (May 19-20) — Nabatieh (4 killed, 10 wounded incl. 2 women), Kfar Sir (5 killed incl. 1 woman); IDF Maj. Itamar Sapir (551st Brigade) killed in Hezbollah engagement in south Lebanon; IDF kills Hezbollah Radwan Force commander in Beirut airstrike; Lebanon toll now 3,039+ killed, 9,316+ wounded (Lebanese Health Ministry, Washington Times, JPost, May 19-21)',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-21',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'No new Iran-US kinetic exchange — 5th consecutive ceasefire day; Trump says talks in "final stages"; IRGC warns war will extend "beyond the region" with "new fronts"; Brent stabilized ~$105/bbl after 5% drop on May 20; ceasefire nominally in effect; Pentagon military talks May 29 (Al Jazeera, CNBC, NBC News, May 21)',
       type: 'ceasefire',
     },
   ],

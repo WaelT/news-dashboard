@@ -1814,6 +1814,27 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'New intelligence assessed by US officials suggests Israel is preparing a potential rapid strike on Iranian nuclear facilities in the event that ongoing US-Iran nuclear negotiations collapse. The Times of Israel reports that Israel is "readying to quickly strike Iranian nuclear sites if US-Iran talks fail." CNN separately cited US intelligence indicating Israel is preparing a "possible strike on Iranian nuclear facilities." The preparations mark a significant escalation threat that would represent a clear break with Trump\'s diplomatic efforts. The US has urged Israel to hold off while negotiations proceed. Israel has not publicly commented. No strike has occurred as of May 20 (Times of Israel, CNN, May 20).',
   },
+  {
+    date: '2026-05-20',
+    event: 'Trump says Iran talks in "final stages" — Brent plunges 5%+ to ~$105/bbl; WTI falls below $100',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'President Trump told reporters on May 20 that US-Iran negotiations were in their "final stages," triggering a sharp oil price decline — Brent crude fell 5.16% to ~$105.02/bbl (from $111.22) and WTI dropped below $100 to ~$98.26/bbl for the first time since the conflict began. JD Vance added there had been "a lot of progress." However, Iranian FM Abbas Araghchi said Tehran had "no trust in Americans," calling it the "main obstacle" to diplomacy. Iran accused the US of "overt and covert" preparations for renewed attack. IRGC issued a strong warning that if the US and Israel resume attacks, the conflict will be extended "beyond the region" with "crushing blows." Pakistan continues to mediate. Deal still at impasse on 20-year enrichment moratorium vs Iran\'s counter-offer of 5 years (CNBC, Al Jazeera, Fortune, May 20).',
+  },
+  {
+    date: '2026-05-21',
+    event: '5th consecutive ceasefire day — Iran conveying revised position; IRGC threatens "beyond the region"',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'No new Iranian missile or drone launches confirmed for the fifth consecutive day. Iran\'s Supreme National Security Council is continuing deliberations on the US revised MoU. IRGC publicly warned that if war resumes it will open "new fronts" with "new equipment and new methods" — Iranian Army spokesman Mohammad Akraminia said Iran would fight "beyond the region." Iran FM Araghchi described lack of US trust as the "main obstacle." Trump said talks are in "final stages" and that Iran "wants to make a deal." Brent crude stabilized ~$105/bbl on May 21 after prior session\'s 5% drop. Ceasefire indefinitely extended (Trump May 16). Negotiations continue via Pakistan. Next military talks at Pentagon May 29; political talks June 2–3 (Al Jazeera, CNBC, NBC News, May 21).',
+  },
+  {
+    date: '2026-05-21',
+    event: 'Barakah Nuclear Plant Unit 3 power restored — IAEA confirms safety restored after May 17 drone strike',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'The UAE restored off-site power to Unit 3 at the Barakah Nuclear Power Plant (Al Dhafra, Abu Dhabi) following the May 17 drone strike that hit an electrical generator on the outer perimeter. IAEA Director General Rafael Grossi confirmed the restoration and welcomed it as "an important step for nuclear safety," noting that the reactor is no longer dependent on emergency diesel generators. Grossi had expressed "grave concern" about the original drone strike. UAE investigation into the drone origin is ongoing — no formal attribution concluded. No radiation was released during or after the May 17 strike (IAEA, Eastern Herald, The National, May 19–21).',
+  },
 ];
 
 export const STATUS_COLORS = {
