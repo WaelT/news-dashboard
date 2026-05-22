@@ -1842,6 +1842,27 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'No new Iranian missile or drone launches confirmed for the sixth consecutive day. US-Iran talks continue via Pakistani intermediaries — no breakthrough announced. Iran\'s Supreme National Security Council has not issued a new public response to the revised US MoU. PGSA toll collection continues in the Strait of Hormuz. Brent crude at ~$104.52/bbl on May 22 (+1.89%; TradingEconomics), WTI ~$99.50/bbl. Lebanon death toll rises to 3,073 killed, 9,340+ wounded per Lebanese Health Ministry (WAFA, May 22). UKMTO 2026-041 remains in effect. Ceasefire indefinitely extended (Trump May 16). Pentagon military talks May 29; political talks June 2–3.',
   },
+  {
+    date: '2026-05-21',
+    event: 'Pakistan Field Marshal Asim Munir in Tehran — highest-level mediation visit since April 8 ceasefire',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Pakistani Field Marshal Asim Munir traveled to Tehran on May 21 for the highest-level Pakistani mediation visit since the April 8 ceasefire entered into force. Munir met with Iranian Supreme National Security Council officials to advance the stalled US–Iran MoU framework. No formal outcome was announced. Pakistan continues to serve as the primary backchannel between Washington and Tehran, despite earlier reports (ZoomNews) that Iran had rejected Pakistan as a formal mediator. The visit follows Pakistan Interior Minister Naqvi\'s earlier trip to Tehran (May 16–17). Negotiations remain at impasse over enrichment moratorium duration and Hormuz control (GlobalSecurity Day 83 report, Al Jazeera, May 21).',
+  },
+  {
+    date: '2026-05-22',
+    event: 'US House Republicans pull Iran War Powers Resolution vote; Senate advances resolution after Cassidy flip',
+    type: 'escalation',
+    status: 'stalled',
+    detail: 'House Republican leadership called off a scheduled floor vote on a bipartisan War Powers Resolution that would have compelled President Trump to withdraw US forces from the Iran war within 30 days — because they lacked sufficient Republican votes to defeat it. Separately, the US Senate advanced a similar War Powers Resolution after Republican Senator Bill Cassidy (R-LA) crossed over to support the measure, creating a significant fracture in GOP support for the conflict. Trump launched the war without formal congressional authorization under the AUMF. With Hormuz-driven gasoline prices exceeding $4.50/gal, members from swing districts have grown unwilling to back the war politically. A House vote is expected to be scheduled for June. The Senate resolution is not yet binding but signals the first major congressional check on the conflict (NPR, CBS News, NBC News, May 22).',
+  },
+  {
+    date: '2026-05-22',
+    event: 'US intelligence: Iran rebuilding military faster than expected — drone production already resumed',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'CNN reported on May 21, citing two US intelligence sources, that Iran is rebuilding its military-industrial base significantly faster than expected during the six-week ceasefire. Key findings: ~50% of Iran\'s pre-war drone capability remains intact; a large percentage of coastal defense cruise missiles survived US-Israeli strikes; the number of surviving ballistic missile launchers was revised upward to approximately two-thirds (many were buried or concealed, not destroyed); drone production has already resumed at dispersed facilities with Russian and Chinese reconstitution support; US intelligence estimates Iran could fully restore drone strike capability within 6 months. CENTCOM publicly dismissed earlier media reports that Iran retained most of its arsenal, but classified assessments appear more cautious. The CIA briefing was described as the most significant intelligence reassessment since Operation Epic Fury ended May 5 (CNN, Business Standard, May 21–22).',
+  },
 ];
 
 export const STATUS_COLORS = {
