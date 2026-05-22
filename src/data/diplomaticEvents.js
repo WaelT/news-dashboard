@@ -1835,6 +1835,13 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'The UAE restored off-site power to Unit 3 at the Barakah Nuclear Power Plant (Al Dhafra, Abu Dhabi) following the May 17 drone strike that hit an electrical generator on the outer perimeter. IAEA Director General Rafael Grossi confirmed the restoration and welcomed it as "an important step for nuclear safety," noting that the reactor is no longer dependent on emergency diesel generators. Grossi had expressed "grave concern" about the original drone strike. UAE investigation into the drone origin is ongoing — no formal attribution concluded. No radiation was released during or after the May 17 strike (IAEA, Eastern Herald, The National, May 19–21).',
   },
+  {
+    date: '2026-05-22',
+    event: '6th consecutive ceasefire day — US-Iran talks continue via Pakistan; Brent eases to $104.52/bbl',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'No new Iranian missile or drone launches confirmed for the sixth consecutive day. US-Iran talks continue via Pakistani intermediaries — no breakthrough announced. Iran\'s Supreme National Security Council has not issued a new public response to the revised US MoU. PGSA toll collection continues in the Strait of Hormuz. Brent crude at ~$104.52/bbl on May 22 (+1.89%; TradingEconomics), WTI ~$99.50/bbl. Lebanon death toll rises to 3,073 killed, 9,340+ wounded per Lebanese Health Ministry (WAFA, May 22). UKMTO 2026-041 remains in effect. Ceasefire indefinitely extended (Trump May 16). Pentagon military talks May 29; political talks June 2–3.',
+  },
 ];
 
 export const STATUS_COLORS = {

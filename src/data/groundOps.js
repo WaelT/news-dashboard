@@ -766,6 +766,20 @@ const groundOps = {
       event: 'No new Iran-US kinetic exchange — 5th consecutive ceasefire day; Trump says talks in "final stages"; IRGC warns war will extend "beyond the region" with "new fronts"; Brent stabilized ~$105/bbl after 5% drop on May 20; ceasefire nominally in effect; Pentagon military talks May 29 (Al Jazeera, CNBC, NBC News, May 21)',
       type: 'ceasefire',
     },
+    {
+      date: '2026-05-22',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'Lebanon toll rises to 3,073 killed, 9,340+ wounded — IDF continues strikes in south Lebanon and Bekaa; no new major confirmed events; ceasefire extended 45 days (~July 1) nominally in effect (Lebanese Health Ministry via WAFA, May 22)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-22',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'No new Iran-US kinetic exchange — 6th consecutive ceasefire day; US-Iran talks continue via Pakistan; Brent ~$104.52/bbl (+1.89%; TradingEconomics); PGSA operational; UKMTO 2026-041 in effect; Pentagon talks May 29',
+      type: 'ceasefire',
+    },
   ],
 };
 
