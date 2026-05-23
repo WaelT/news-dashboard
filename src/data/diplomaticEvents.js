@@ -1863,6 +1863,20 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'CNN reported on May 21, citing two US intelligence sources, that Iran is rebuilding its military-industrial base significantly faster than expected during the six-week ceasefire. Key findings: ~50% of Iran\'s pre-war drone capability remains intact; a large percentage of coastal defense cruise missiles survived US-Israeli strikes; the number of surviving ballistic missile launchers was revised upward to approximately two-thirds (many were buried or concealed, not destroyed); drone production has already resumed at dispersed facilities with Russian and Chinese reconstitution support; US intelligence estimates Iran could fully restore drone strike capability within 6 months. CENTCOM publicly dismissed earlier media reports that Iran retained most of its arsenal, but classified assessments appear more cautious. The CIA briefing was described as the most significant intelligence reassessment since Operation Epic Fury ended May 5 (CNN, Business Standard, May 21–22).',
   },
+  {
+    date: '2026-05-23',
+    event: 'Rubio says "slight progress" in Iran talks at NATO meeting; Qatar joins Pakistan in Tehran mediation — 7th ceasefire day',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'US Secretary of State Marco Rubio said Friday at a NATO foreign ministers meeting in Antalya, Sweden that there had been "slight progress" in US–Iran peace talks mediated by Pakistan: "I don\'t want to exaggerate it, but there\'s been a little bit of movement, and that\'s good." Rubio also explicitly rejected Iran\'s Persian Gulf Strait Authority (PGSA) "tolling system" for the Strait of Hormuz, saying the US does not recognise Iran\'s right to collect fees on international shipping. Pakistan\'s army chief (Field Marshal Asim Munir) arrived in Tehran on May 23 for another round of mediation — his second visit in three days. Qatar separately sent a negotiating team to Tehran in coordination with the United States, expanding the mediation coalition beyond Pakistan. Iranian FM Abbas Araghchi met both Pakistan\'s Interior Minister Naqvi and Qatar\'s team. Iran\'s FM spokesperson cautioned that differences remain "deep and significant" and that the sides had not yet reached a point where an agreement was close. Key sticking points remain: the duration of Iran\'s enrichment moratorium and control over the Strait of Hormuz. No new kinetic exchange in the strait — 7th consecutive ceasefire day. Brent crude ~$103.94/bbl (Washington Post, Al Jazeera, Bloomberg, CBS News, Detroit News, May 22–23).',
+  },
+  {
+    date: '2026-05-23',
+    event: 'IRGC claims 35 vessels transited Hormuz in 24 hours — largest single-day PGSA-coordinated transit since crisis began',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'The IRGC Navy\'s public relations office announced on May 22 that 35 ships — including oil tankers, container ships, and other commercial vessels — crossed the Strait of Hormuz in a 24-hour period after obtaining permits through IRGC\'s Persian Gulf Strait Authority (PGSA). The previous 24-hour period saw 31 vessels transit. The IRGC claimed credit for "creating a safe waterway" despite what it termed US-caused "insecurity" in the strait. The announcement represents a significant increase from the 13–15 vessels/day average recorded earlier in May. However, independent AIS verification from MarineTraffic/LSEG was not immediately available; the figures are IRGC self-reporting and include small non-oil vessels that pay PGSA fees in Chinese yuan. US Secretary of State Rubio simultaneously rejected the PGSA toll system, saying the US does not recognise Iranian sovereignty over transit fees. UKMTO Advisory 2026-041 remains in effect. War-risk insurance remains at 8× pre-crisis levels; 6 P&I clubs still suspended (Iran International, PressTV, WION, Tribune India, May 22).',
+  },
 ];
 
 export const STATUS_COLORS = {

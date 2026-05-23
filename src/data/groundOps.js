@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 21, 2026',
+  updated: 'MAY 23, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -778,6 +778,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: 'No new Iran-US kinetic exchange — 6th consecutive ceasefire day; US-Iran talks continue via Pakistan; Brent ~$104.52/bbl (+1.89%; TradingEconomics); PGSA operational; UKMTO 2026-041 in effect; Pentagon talks May 29',
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-05-23',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'Lebanon toll holds at 3,073 killed, 9,340+ wounded — IDF continues operations in south Lebanon and Bekaa; no new major casualty report confirmed; ceasefire extended 45 days (~July 1) nominally in effect; next Lebanon military talks Pentagon May 29',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-23',
+      lat: 33.37,
+      lng: 35.48,
+      event: 'No new Iran-US kinetic exchange — 7th consecutive ceasefire day; Rubio says "slight progress" in Iran talks at NATO foreign ministers meeting in Sweden; Pakistan army chief Munir in Tehran; Qatar sends team to Tehran in coordination with US; Brent ~$103.94/bbl (TradingEconomics); IRGC claims 35 vessels transited Hormuz in past 24h via PGSA; PGSA operational; UKMTO 2026-041 in effect',
       type: 'ceasefire',
     },
   ],
