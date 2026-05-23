@@ -12,7 +12,7 @@
 //          NPR/CBS News/NBC News (May 22 2026 — House GOP pulls War Powers Resolution vote; Senate advances after Cassidy flip),
 //          CNN/Business Standard (May 21-22 2026 — Iran rebuilding drone/missile capability faster than expected; ~50% drone capability intact)
 export const globalImpact = {
-  updated: '2026-05-22',
+  updated: '2026-05-23',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; oil exports halted; PGSA collecting Hormuz transit fees (up to $2M/ship in CNY); Kharg Island ~71 sq km oil slick detected by satellite May 21 (~80,000 bbls); drone production already resuming (CIA, May 21); ~50% drone capability intact; ~2/3 missile launchers survived; Russia + China providing reconstitution support; FM Araghchi: "no trust in Americans" main obstacle' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Mobilization + Lebanon ops + reconstruction; Lebanon ceasefire extended 45 days (to ~July 1) after Round 3 Washington talks — IDF continues strikes; Lebanon toll 3,073+ killed, 9,340+ wounded (May 22, Lebanese Health Ministry via WAFA); IDF Maj. Sapir killed by Hezbollah; IDF kills Hezbollah Radwan commander in Beirut' },
@@ -20,7 +20,7 @@ export const globalImpact = {
     { region: 'Japan', flag: 'jp', pct: -1.1, costBn: 10, note: '80% oil via Hormuz; LNG rerouting; Eneos-managed tanker transits Hormuz May 15 (LSEG); Trump extends ceasefire indefinitely May 16 — next Japan-linked transit cautiously monitored' },
     { region: 'EU', flag: 'eu', pct: -0.8, costBn: 18, note: 'Energy import surge; IMF cut to 1.1% growth; Israel-Lebanon 45-day extension eases some fears; Iran PGSA imposes Hormuz fees — UNCLOS violation; Brent $111.22 (May 19 close)' },
     { region: 'India', flag: 'in', pct: -0.7, costBn: 9, note: '60% oil via Gulf; Indian cargo vessel sunk off Oman by IRGC May 15; India-UAE defence pacts signed May 15; diverting purchases to West Africa and Americas; watching PGSA fee regime' },
-    { region: 'US', flag: 'us', pct: -0.5, costBn: 70, note: '~$1.1B/day military; May 22: House GOP pulls War Powers Resolution vote (lacked votes to block it); Senate advances resolution after Sen. Cassidy (R-LA) flips — first major congressional check on the war; Brent ~$104.52/bbl (+1.89%; TradingEconomics); WTI ~$99.50/bbl; gas ~$4.50/gal (AAA); Pentagon military talks May 29 (NPR, CBS, NBC, May 22)' },
+    { region: 'US', flag: 'us', pct: -0.5, costBn: 70, note: '~$1.1B/day military; May 22: House GOP pulls War Powers Resolution vote; Senate advances resolution after Sen. Cassidy (R-LA) flips; May 23: Rubio "slight progress" at NATO meeting; Qatar joins Pakistan in Tehran mediation; Brent ~$103.94/bbl (TradingEconomics May 23); WTI ~$99.00/bbl; gas ~$4.50/gal (AAA); Pentagon military talks May 29' },
     { region: 'China', flag: 'cn', pct: -0.5, costBn: 13, note: '45% oil via Hormuz; paying Iranian PGSA fees in yuan; 12 entities sanctioned May 12; summit concluded May 15 — Xi to relay Hormuz message to Tehran, pledges no military equipment to Iran; Bessent: China "working behind scenes"' },
   ],
   disruptions: {
@@ -30,7 +30,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 104, peak: 126, forecast: 88,
-    note: 'Brent $104.52/bbl (May 22, +1.89%; TradingEconomics); WTI ~$99.50/bbl; 6th consecutive ceasefire day; 13 vessels transit May 20 (GlobalSecurity Day 83); Universal Winner + Yuan Gui Yang exit May 20 with 6M bbls (Insurance Journal); first Kharg T-pier crude lift since May 7 assessed May 21; Kharg Island ~71 sq km oil slick detected May 21 (~80,000 bbls); war-risk insurance 8× pre-crisis; House GOP pulls War Powers vote; Senate advances (Cassidy); IEA: "largest supply disruption in history"',
+    preWar: 68, current: 104, peak: 126, forecast: 87,
+    note: 'Brent $103.94/bbl (May 23, TradingEconomics); WTI ~$99.00/bbl; 7th consecutive ceasefire day; IRGC claims 35 vessels transited Hormuz in 24h via PGSA (May 22–23 uptick); Rubio "slight progress" in Iran talks at NATO meeting; Qatar joins Pakistan in Tehran mediation; war-risk insurance 8× pre-crisis; House GOP pulls War Powers vote; Senate advances (Cassidy); IEA: "largest supply disruption in history"',
   },
 };
