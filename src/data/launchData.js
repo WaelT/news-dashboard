@@ -83,6 +83,7 @@ export const dailyLaunches = [
   { date: '2026-05-20', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   { date: '2026-05-21', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   { date: '2026-05-22', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  { date: '2026-05-23', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
