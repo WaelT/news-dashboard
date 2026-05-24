@@ -13,14 +13,14 @@ const SYMBOLS = [
 ];
 
 const FALLBACK = {
-  sp500: { price: 7408.50, change: -1.24 },
-  nasdaq: { price: 26225.14, change: -1.54 },
-  dowjones: { price: 49526.17, change: -1.07 },
-  nikkei: { price: 61409.29, change: -1.99 },
-  brent: { price: 113.21, change: 3.77 },
-  btc: { price: 78420.00, change: -1.11 },
-  gold: { price: 4553.99, change: -2.24 },
-  silver: { price: 76.70, change: -8.55 },
+  sp500: { price: 7597.35, change: 1.52 },
+  nasdaq: { price: 26920.47, change: 2.03 },
+  dowjones: { price: 50344.82, change: 1.48 },
+  nikkei: { price: 62180.55, change: 1.24 },
+  brent: { price: 97.14, change: -6.54 },
+  btc: { price: 104820.00, change: 0.87 },
+  gold: { price: 3285.40, change: -0.43 },
+  silver: { price: 33.15, change: -0.62 },
 };
 
 const REFRESH_MS = 60_000;
@@ -46,13 +46,13 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
+  { label: 'Brent Crude (Now)', value: '~$97', sub: 'vs $68 pre-war; $126 peak', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '88%', sub: 'oil flow vs pre-war 18.1mbd', color: '#ff6600' },
   { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
-  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
-  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
-  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
-  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
+  { label: 'US Gas Price', value: '$4.50', sub: '/gallon (AAA, May 2026)', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '78,000+', sub: 'total since Feb 28', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day (peak impact)', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day (peak impact)', color: '#ff0040' },
   { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
   { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
   { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
