@@ -46,13 +46,13 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude (Now)', value: '~$97', sub: 'vs $68 pre-war; $126 peak', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '88%', sub: 'oil flow vs pre-war 18.1mbd', color: '#ff6600' },
+  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
   { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
-  { label: 'US Gas Price', value: '$4.50', sub: '/gallon (AAA, May 2026)', color: '#3b82f6' },
-  { label: 'Flights Cancelled', value: '78,000+', sub: 'total since Feb 28', color: '#0088cc' },
-  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day (peak impact)', color: '#ff0040' },
-  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day (peak impact)', color: '#ff0040' },
+  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
   { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
   { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
   { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
