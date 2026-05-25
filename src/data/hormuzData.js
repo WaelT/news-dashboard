@@ -23,7 +23,7 @@
 //          Washington Post/Al Jazeera/Bloomberg/CBS News (May 22-23 2026 — IRGC claims 35 vessels in 24h; Rubio NATO "slight progress"),
 //          Washington Times/NBC News/CNBC/CNN/Fortune/NPR/PBS (May 23-24 2026 — Trump Truth Social: deal "largely negotiated"; 14-point MOU; Hormuz reopening; war end framework; Brent ~$97)
 export const hormuzData = {
-  updated: '2026-05-24',
+  updated: '2026-05-25',
 
   current: {
     transitsPerDay: 35,

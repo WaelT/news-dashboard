@@ -13,7 +13,7 @@
 //          CNN/Business Standard (May 21-22 2026 — Iran rebuilding drone/missile capability faster than expected; ~50% drone capability intact),
 //          Washington Times/NBC News/CNBC/CNN/Fortune/NPR/PBS (May 23-24 2026 — Trump: deal "largely negotiated"; 14-point MOU; Hormuz reopening; Brent ~$97)
 export const globalImpact = {
-  updated: '2026-05-24',
+  updated: '2026-05-25',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; oil exports halted; PGSA collecting Hormuz transit fees (up to $2M/ship in CNY); Kharg Island ~71 sq km oil slick (~80,000 bbls); drone production already resuming (CIA, May 21); ~50% drone capability intact; ~2/3 missile launchers survived; Russia + China reconstitution support; FM Araghchi: "no trust in Americans"; Iran Parliament Speaker Qalifbaf approved 14-point MOU framework (May 24 per Washington Times)' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Mobilization + Lebanon ops + reconstruction; Lebanon ceasefire extended 45 days (to ~July 1) after Round 3 Washington talks — IDF continues strikes; Lebanon toll 3,073+ killed, 9,340+ wounded (May 22); IDF Maj. Sapir killed by Hezbollah; IDF kills Hezbollah Radwan commander in Beirut' },
@@ -32,6 +32,6 @@ export const globalImpact = {
   },
   oil: {
     preWar: 68, current: 97, peak: 126, forecast: 82,
-    note: 'Brent ~$97/bbl (May 24 — deal-hope drop from $103.94); WTI ~$90/bbl; 8th consecutive ceasefire day; Trump Truth Social: Iran deal "largely negotiated", Hormuz "will be opened"; 14-point MOU framework — Washington Times says announcement within 24h; S&P 500 +1.5%, Nasdaq +2% at record highs on deal news; war-risk insurance still 8× pre-crisis; UKMTO 2026-041 in effect; IEA: "largest supply disruption in history"',
+    note: 'Brent ~$98–100/bbl (May 25 — stabilizing after $97 deal-hope low May 24); WTI ~$91–93/bbl; 9th consecutive ceasefire day; formal US-Iran deal announcement still pending — Iran FM Baghaei: deal is "framework requiring 30–60 days follow-on talks"; war-risk insurance still 8× pre-crisis; PGSA operating; UKMTO 2026-041 in effect; IEA: "largest supply disruption in history"; Pentagon talks May 29',
   },
 };
