@@ -1885,6 +1885,20 @@ const diplomaticEvents = [
     detail: 'The formal joint US-Iran announcement expected "within 24 hours" per the Washington Times (May 24) has not materialized as of May 25. Iran\'s FM spokesperson Nasser Kanaani reiterates that the 14-point MOU is a "framework agreement" requiring 30–60 days of detailed follow-on negotiations on the Hormuz protocol, nuclear moratorium specifics, and sanctions relief sequencing. Iran\'s Fars news agency continues to characterize Trump\'s Truth Social announcement as "incomplete and inconsistent with reality." Pakistan and Qatar are mediating the gap between Trump\'s announcement of a "largely negotiated" deal and Iran\'s insistence on follow-on talks. No new kinetic exchange in the Strait — 9th consecutive ceasefire day. Brent crude stabilizes ~$98–100/bbl after previous session\'s $97 low. PGSA toll collection continues in the Strait. UKMTO 2026-041 remains in effect. US military remains on standby per Trump\'s May 18 instruction (Iran International, CNBC, Al Jazeera, PBS, May 25).',
   },
   {
+    date: '2026-05-25',
+    event: 'Iran fires 2 ballistic missiles + 3 drones at UAE — ceasefire violation; 3 wounded; US-Iran exchange in Strait of Hormuz',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'In a significant ceasefire violation, Iran fires 2 ballistic missiles and 3 drones toward the UAE. The UAE Defense Ministry confirms air defenses intercepted the launches; 3 people are wounded. The attack occurs hours after the US reports trading fire with Iranian forces in the Strait of Hormuz — the first confirmed US-IRGC kinetic exchange in the strait since early May. The incident breaks the 9-day streak of no kinetic activity and raises serious doubts about the Trump-announced "largely negotiated" 14-point MOU. UKMTO 2026-041 remains in effect. US naval blockade maintained. Brent crude spikes on the news (2026 Iran war Wikipedia; UAE Defense Ministry statement; CENTCOM, May 25).',
+  },
+  {
+    date: '2026-05-25',
+    event: 'Araghchi + Ghalibaf fly to Doha — highest-level Iranian diplomacy delegation since April 8 ceasefire',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Iranian FM Abbas Araghchi and Parliament Speaker Mohammad Bagher Ghalibaf (who approved the 14-point MOU framework per the Washington Times) fly to Doha, Qatar for direct talks on the potential US-Iran framework deal. The visit is the highest-level Iranian diplomatic delegation outside Iran since the April 8 ceasefire began. Qatar — which joined Pakistan as mediator on May 23 — is hosting the discussions. The trip signals Iran is actively engaging on the deal framework despite public statements downplaying its finality. No formal outcome announced as of May 25. Pakistan FM also confirms "grounds for optimism" (2026 Iran war Wikipedia, Al Jazeera, Iran International, May 25).',
+  },
+  {
     date: '2026-05-24',
     event: 'Trump announces Iran deal "largely negotiated" — Strait of Hormuz to be opened; 14-point MOU framework approved',
     type: 'ceasefire',
