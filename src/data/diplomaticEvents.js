@@ -1878,6 +1878,13 @@ const diplomaticEvents = [
     detail: 'The IRGC Navy\'s public relations office announced on May 22 that 35 ships — including oil tankers, container ships, and other commercial vessels — crossed the Strait of Hormuz in a 24-hour period after obtaining permits through IRGC\'s Persian Gulf Strait Authority (PGSA). The previous 24-hour period saw 31 vessels transit. The IRGC claimed credit for "creating a safe waterway" despite what it termed US-caused "insecurity" in the strait. The announcement represents a significant increase from the 13–15 vessels/day average recorded earlier in May. However, independent AIS verification from MarineTraffic/LSEG was not immediately available; the figures are IRGC self-reporting and include small non-oil vessels that pay PGSA fees in Chinese yuan. US Secretary of State Rubio simultaneously rejected the PGSA toll system, saying the US does not recognise Iranian sovereignty over transit fees. UKMTO Advisory 2026-041 remains in effect. War-risk insurance remains at 8× pre-crisis levels; 6 P&I clubs still suspended (Iran International, PressTV, WION, Tribune India, May 22).',
   },
   {
+    date: '2026-05-25',
+    event: 'Formal US-Iran deal announcement delayed — Iran insists framework requires 30–60 days follow-on talks; 9th consecutive ceasefire day',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'The formal joint US-Iran announcement expected "within 24 hours" per the Washington Times (May 24) has not materialized as of May 25. Iran\'s FM spokesperson Nasser Kanaani reiterates that the 14-point MOU is a "framework agreement" requiring 30–60 days of detailed follow-on negotiations on the Hormuz protocol, nuclear moratorium specifics, and sanctions relief sequencing. Iran\'s Fars news agency continues to characterize Trump\'s Truth Social announcement as "incomplete and inconsistent with reality." Pakistan and Qatar are mediating the gap between Trump\'s announcement of a "largely negotiated" deal and Iran\'s insistence on follow-on talks. No new kinetic exchange in the Strait — 9th consecutive ceasefire day. Brent crude stabilizes ~$98–100/bbl after previous session\'s $97 low. PGSA toll collection continues in the Strait. UKMTO 2026-041 remains in effect. US military remains on standby per Trump\'s May 18 instruction (Iran International, CNBC, Al Jazeera, PBS, May 25).',
+  },
+  {
     date: '2026-05-24',
     event: 'Trump announces Iran deal "largely negotiated" — Strait of Hormuz to be opened; 14-point MOU framework approved',
     type: 'ceasefire',

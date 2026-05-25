@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 24, 2026',
+  updated: 'MAY 25, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -806,6 +806,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: 'No new Iran-US kinetic exchange — 8th consecutive ceasefire day; Trump Truth Social: Iran deal "largely negotiated", Hormuz "will be opened" — 14-point MOU approved by Witkoff/Kushner/Vance + Iran\'s Parliament Speaker Qalifbaf; Washington Times: joint announcement expected within 24h; Brent ~$97/bbl; S&P 500 +1.5%, Nasdaq +2% at record highs; PGSA operational; UKMTO 2026-041 in effect',
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-05-25',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'Lebanon toll rises to 3,091 killed, 9,356+ wounded — IDF continues operations in south Lebanon and Bekaa; formal US-Iran deal announcement still pending following Trump\'s May 24 Truth Social post; Iran FM spokesperson insists deal requires 30–60 days of follow-on talks; no formal joint statement yet; next Lebanon military talks Pentagon May 29',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-25',
+      lat: 33.37,
+      lng: 35.48,
+      event: '9th consecutive ceasefire day — no new Iran-US kinetic exchange; Brent stabilizes ~$98–100/bbl as markets await formal deal announcement; Iran FM Baghaei reiterates deal is a "framework" not a final agreement; PGSA toll collection continues; UKMTO 2026-041 in effect; ceasefire indefinitely extended; Pentagon military talks May 29; political talks June 2–3',
       type: 'ceasefire',
     },
   ],
