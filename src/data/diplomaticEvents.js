@@ -1905,6 +1905,34 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'President Trump posted on Truth Social on May 23: "An Agreement has been largely negotiated, subject to finalization between the United States of America, the Islamic Republic of Iran, and the various other Countries… The Strait of Hormuz will be opened." Trump confirmed he held calls from the Oval Office with leaders of Saudi Arabia, UAE, Qatar, Pakistan, Turkey, Egypt, Jordan, Bahrain, and Israeli PM Netanyahu focused on finalizing deal terms with Iran. The Washington Times reported exclusively that US and Iran had agreed on a draft 14-point memorandum of understanding and were expected to announce it within 24 hours (by Sunday afternoon, May 24). The MOU was approved by US envoys Steve Witkoff and Jared Kushner, VP JD Vance, and on the Iranian side by Parliament Speaker Mohammad Bagher Qalifbaf. The framework declares an end to the war and opens a 30-day negotiation period on a detailed agreement to open the strait, limit Iran\'s nuclear program, and lift US sanctions. Key terms include: Iran commits to enrichment moratorium with enhanced IAEA snap inspections and no underground nuclear facilities; US ends its naval blockade and releases frozen Iranian assets; Hormuz reopened under a protocol to be negotiated. Iran\'s Foreign Ministry spokesperson Baghaei described it as a "framework agreement" requiring 30–60 days of follow-on talks. Iran\'s Fars news agency pushed back — saying Hormuz will remain under Iranian management and characterizing Trump\'s announcement as "incomplete and inconsistent with reality." Brent crude plunged ~$7 to ~$97/bbl on deal optimism; WTI ~$90/bbl; S&P 500 +1.5%, Nasdaq +2% at record highs. No formal joint announcement had been made as of Sunday evening. PGSA operational; UKMTO 2026-041 in effect. 8th consecutive ceasefire day with no new kinetic exchange (Washington Times, NBC News, CNBC, CNN, Fortune, NPR, PBS, Times of Israel, Iran International, AP, May 23–24).',
   },
+  {
+    date: '2026-05-25',
+    event: 'Iran fires 2 BMs + 3 drones at UAE — ceasefire violated; 3 UAE civilians wounded; US-IRGC exchange in Hormuz',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'In a significant ceasefire violation, Iran fires 2 ballistic missiles and 3 drones at the UAE — the first major attack since the April 8 ceasefire. UAE air defenses intercept all 5 launches; 3 civilians wounded. CENTCOM confirms a US-IRGC kinetic exchange in the Strait of Hormuz on the same day. Formal 14-point MOU announcement remains pending as Iran insists on 30–60 day follow-on talks. Brent crude spikes. PGSA operational; UKMTO 2026-041 in effect (Wikipedia 2026 Iran war, UAE Defense Ministry, CENTCOM, Al Jazeera, May 25).',
+  },
+  {
+    date: '2026-05-25',
+    event: 'Araghchi + Ghalibaf fly to Doha — highest-level Iranian diplomatic mission since April 8 ceasefire',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Following the May 25 ceasefire violation, Iranian FM Abbas Araghchi and Parliament Speaker Mohammad Bagher Ghalibaf — who approved the 14-point MOU framework — fly to Doha, Qatar, for direct talks with Qatar FM Sheikh Mohammed bin Abdulrahman Al Thani. Qatar, which joined Pakistan as a mediator on May 23, is hosting the discussions. The trip is the highest-level Iranian diplomatic delegation outside Iran since the April 8 ceasefire. No formal outcome announced as of May 25 (Al Jazeera, Iran International, May 25).',
+  },
+  {
+    date: '2026-05-26',
+    event: 'Araghchi + Ghalibaf continue Doha talks — Qatar FM mediating final gap on 14-point MOU; no new kinetic exchange',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'No new Iranian missile or drone launches confirmed on May 26 — ceasefire technically holds following the previous day\'s violation. Araghchi and Ghalibaf continue talks with Qatar FM Al Thani in Doha, with Qatar mediating the gap between Trump\'s "largely negotiated" announcement and Iran\'s insistence that the MOU requires 30–60 days of follow-on negotiations. CENTCOM confirms no new launches in the Strait of Hormuz. PGSA toll collection continues; UKMTO 2026-041 in effect. US naval blockade maintained. Pakistan continues parallel mediation. Pentagon military talks May 29; political talks June 2–3. Brent crude stabilizes ~$100–102/bbl (recovering from $97 deal-hope low after May 25 violation spike) (CENTCOM, Al Jazeera, Iran International, May 26).',
+  },
+  {
+    date: '2026-05-26',
+    event: 'Lebanon toll rises to 3,115 killed — IDF continues operations in south Lebanon',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Lebanon\'s Health Ministry confirms at least 3,115 killed and 9,440+ wounded since Lebanon operations began March 2, 2026. IDF airstrikes continue in southern Lebanon and Bekaa Valley. The Israel-Lebanon ceasefire agreed April 16 and extended 45 days (to ~July 1) on May 16 continues to be violated by both sides. IDF Chief of Staff confirmed "no ceasefire" in south Lebanon. Next military talks at Pentagon May 29; political talks June 2–3 (Lebanese Health Ministry, IDF, Al Jazeera, May 26).',
+  },
 ];
 
 export const STATUS_COLORS = {
