@@ -1933,6 +1933,20 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Lebanon\'s Health Ministry confirms at least 3,115 killed and 9,440+ wounded since Lebanon operations began March 2, 2026. IDF airstrikes continue in southern Lebanon and Bekaa Valley. The Israel-Lebanon ceasefire agreed April 16 and extended 45 days (to ~July 1) on May 16 continues to be violated by both sides. IDF Chief of Staff confirmed "no ceasefire" in south Lebanon. Next military talks at Pentagon May 29; political talks June 2–3 (Lebanese Health Ministry, IDF, Al Jazeera, May 26).',
   },
+  {
+    date: '2026-05-26',
+    event: 'CENTCOM strikes 2 IRGC mine-laying boats in Hormuz — missile launch sites hit; IRGC claims MQ-9 Reaper shot down over Persian Gulf',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'US CENTCOM confirms self-defense strikes on Iranian forces in the Strait of Hormuz: missile launch sites hit and two IRGC fast-attack boats destroyed while emplacing mines. CENTCOM spokesperson Captain Tim Hawkins: US forces acted to "protect troops from threats posed by Iranian forces." A senior US official confirmed the IRGC boats were detected actively laying mines, triggering the military response. The IRGC separately claimed its air defenses shot down a US MQ-9 Reaper drone over the Persian Gulf and fired on an F-35 and a second drone that entered Iranian airspace. The IRGC warned that "any ceasefire violation by the aggressive US military" will be met with a "reciprocal response" that is "legitimate and certain." Brent crude climbs ~3% to ~$99/bbl. Araghchi and Ghalibaf remain in Doha for MOU talks. PGSA operational; UKMTO 2026-041 in effect (CENTCOM, PressTV, Al Jazeera, CNBC, Reuters, BusinessToday, May 26).',
+  },
+  {
+    date: '2026-05-26',
+    event: 'Lebanon toll confirmed at 3,185 killed, 9,633 wounded — updated Lebanese Health Ministry figure',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Lebanon\'s Ministry of Public Health confirms 3,185 killed and 9,633 wounded since Israel restarted its war on Lebanon on March 2, 2026 — up from the 3,115 figure reported earlier in the day. Toll includes 292 women and 211 children. IDF airstrikes continue in southern Lebanon and Bekaa Valley. Next Lebanon military talks at Pentagon May 29; political talks June 2–3 (Lebanese Health Ministry via Middle East Eye, news.am, May 26).',
+  },
 ];
 
 export const STATUS_COLORS = {

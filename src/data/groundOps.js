@@ -836,6 +836,20 @@ const groundOps = {
       event: 'No new kinetic exchange — ceasefire holds; Araghchi + Ghalibaf continue Doha talks with Qatar FM Al Thani on 14-point MOU framework; Qatar mediating gap between US "largely negotiated" claim and Iran insistence on 30–60 day follow-on; CENTCOM: no new launches in 24h; Brent ~$100–102/bbl; PGSA operational; UKMTO 2026-041 in effect',
       type: 'ceasefire',
     },
+    {
+      date: '2026-05-26',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'Lebanon toll rises to 3,185 killed, 9,633 wounded — IDF continues operations in south Lebanon and Bekaa Valley; ceasefire extended 45 days (~July 1) nominally in effect; next Lebanon military talks Pentagon May 29; political talks June 2–3 (Lebanese Health Ministry via Middle East Eye, news.am, May 26)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-26',
+      lat: 26.57,
+      lng: 56.24,
+      event: 'CENTCOM self-defense strikes — 2 IRGC fast-attack boats destroyed while emplacing mines in Strait of Hormuz; IRGC missile launch sites struck; IRGC claims it shot down US MQ-9 Reaper drone over Persian Gulf and fired on F-35 and a second drone; IRGC warns "reciprocal response to ceasefire violations is legitimate and certain"; Brent ~$99/bbl (+3%); Araghchi + Ghalibaf Doha talks ongoing (CENTCOM, PressTV, Al Jazeera, CNBC, May 26)',
+      type: 'airstrike',
+    },
   ],
 };
 
