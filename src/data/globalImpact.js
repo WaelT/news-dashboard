@@ -11,13 +11,14 @@
 //          Times of Israel/countryeconomy.com (May 19 2026 — Trump signals 20-year enrichment offer; Brent ~$107.71 May 18 close; Lebanon toll 3,020+),
 //          NPR/CBS News/NBC News (May 22 2026 — House GOP pulls War Powers Resolution vote; Senate advances after Cassidy flip),
 //          CNN/Business Standard (May 21-22 2026 — Iran rebuilding drone/missile capability faster than expected; ~50% drone capability intact),
-//          Washington Times/NBC News/CNBC/CNN/Fortune/NPR/PBS (May 23-24 2026 — Trump: deal "largely negotiated"; 14-point MOU; Hormuz reopening; Brent ~$97)
+//          Washington Times/NBC News/CNBC/CNN/Fortune/NPR/PBS (May 23-24 2026 — Trump: deal "largely negotiated"; 14-point MOU; Hormuz reopening; Brent ~$97),
+//          Wikipedia/UAE Defense Ministry/CENTCOM/Al Jazeera (May 25-26 2026 — Iran fires 2 BMs + 3 drones at UAE; US-IRGC Hormuz exchange; Araghchi + Ghalibaf Doha talks; Brent ~$102)
 export const globalImpact = {
-  updated: '2026-05-25',
+  updated: '2026-05-26',
   gdpImpact: [
-    { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; oil exports halted; PGSA collecting Hormuz transit fees (up to $2M/ship in CNY); Kharg Island ~71 sq km oil slick (~80,000 bbls); drone production already resuming (CIA, May 21); ~50% drone capability intact; ~2/3 missile launchers survived; Russia + China reconstitution support; FM Araghchi: "no trust in Americans"; Iran Parliament Speaker Qalifbaf approved 14-point MOU framework (May 24 per Washington Times)' },
-    { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Mobilization + Lebanon ops + reconstruction; Lebanon ceasefire extended 45 days (to ~July 1) after Round 3 Washington talks — IDF continues strikes; Lebanon toll 3,073+ killed, 9,340+ wounded (May 22); IDF Maj. Sapir killed by Hezbollah; IDF kills Hezbollah Radwan commander in Beirut' },
-    { region: 'GCC', flag: 'sa', pct: -3.8, costBn: 64, note: 'Infrastructure + oil revenue + Hormuz loss; Aramco CEO: market won\'t normalize until 2027 if Hormuz closed past mid-June; Bloomberg: ~2.1 mbd crude flow; PGSA fees apply to GCC-linked tankers; GCC leaders (MBS, MBZ, Emir Tamim) jointly urged Trump not to strike Iran on May 20' },
+    { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; oil exports halted; PGSA collecting Hormuz transit fees (up to $2M/ship in CNY); Kharg Island ~71 sq km oil slick (~80,000 bbls); drone production already resuming (CIA, May 21); ~50% drone capability intact; ~2/3 missile launchers survived; Russia + China reconstitution support; FM Araghchi + Parliament Speaker Ghalibaf in Doha May 25–26 for 14-point MOU framework talks with Qatar team' },
+    { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Mobilization + Lebanon ops + reconstruction; Lebanon ceasefire extended 45 days (to ~July 1) after Round 3 Washington talks — IDF continues strikes; Lebanon toll 3,115+ killed, 9,440+ wounded (May 26); IDF Maj. Sapir killed by Hezbollah (May 21); IDF kills Hezbollah Radwan commander in Beirut' },
+    { region: 'GCC', flag: 'sa', pct: -3.8, costBn: 64, note: 'Infrastructure + oil revenue + Hormuz loss; Aramco CEO: market won\'t normalize until 2027 if Hormuz closed past mid-June; Bloomberg: ~2.1 mbd crude flow; PGSA fees apply to GCC-linked tankers; May 25: Iran fires 2 BMs + 3 drones at UAE (all intercepted; 3 UAE civilians wounded); Araghchi + Ghalibaf fly to Doha May 25–26 for framework talks' },
     { region: 'Japan', flag: 'jp', pct: -1.1, costBn: 10, note: '80% oil via Hormuz; LNG rerouting; Eneos-managed tanker transits Hormuz May 15 (LSEG); deal framework agreed May 24 — Japan closely monitoring formal Hormuz reopening announcement' },
     { region: 'EU', flag: 'eu', pct: -0.8, costBn: 18, note: 'Energy import surge; IMF cut to 1.1% growth; Israel-Lebanon 45-day extension eases some fears; Brent ~$97/bbl (deal hope dip from $113 peak); deal framework agreed May 24 may signal gradual Hormuz reopening' },
     { region: 'India', flag: 'in', pct: -0.7, costBn: 9, note: '60% oil via Gulf; Indian cargo vessel sunk off Oman by IRGC May 15; India-UAE defence pacts signed May 15; diverting purchases to West Africa and Americas; watching deal announcement for PGSA fee status' },
@@ -31,7 +32,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 97, peak: 126, forecast: 82,
-    note: 'Brent ~$98–100/bbl (May 25 — stabilizing after $97 deal-hope low May 24); WTI ~$91–93/bbl; 9th consecutive ceasefire day; formal US-Iran deal announcement still pending — Iran FM Baghaei: deal is "framework requiring 30–60 days follow-on talks"; war-risk insurance still 8× pre-crisis; PGSA operating; UKMTO 2026-041 in effect; IEA: "largest supply disruption in history"; Pentagon talks May 29',
+    preWar: 68, current: 102, peak: 126, forecast: 82,
+    note: 'Brent ~$100–102/bbl (May 26 — rebounding from $97 deal-hope low after May 25 ceasefire violation); WTI ~$93–95/bbl; Iran fired 2 BMs + 3 drones at UAE May 25 (all intercepted; 3 wounded); Araghchi + Ghalibaf in Doha May 25–26 for 14-point MOU framework talks; ceasefire technically holds May 26 (no new kinetic exchange); war-risk insurance still 8× pre-crisis; PGSA operating; UKMTO 2026-041 in effect; IEA: "largest supply disruption in history"; Pentagon talks May 29',
   },
 };
