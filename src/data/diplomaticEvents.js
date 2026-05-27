@@ -1982,6 +1982,20 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Supreme Leader Mojtaba Khamenei — who has yet to appear in public since his father Ali Khamenei was killed at the start of the war — issues a Hajj season message escalating rhetoric against the United States and Israel. Khamenei warns that regional countries will "no longer be a shield for American bases," signaling Iranian threats against GCC states hosting US military installations. The statement is seen as a response to Gulf states urging Trump to hold off on strikes (May 18-20) and to their perceived role in facilitating US-Iran negotiations. The Hajj message comes as Iran\'s internet is partially restored and the Iranian delegation returns from Doha (CNN Iran live updates, RFERL, May 27).',
   },
+  {
+    date: '2026-05-27',
+    event: 'IDF strikes kill 31 in Lebanon — Nabatieh evacuated; civil defense destroyed; strike near hospital',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'IDF airstrikes kill at least 31 people (4 children, 3 women among the dead) and wound 40 across southern Lebanon: 14 killed in Burj al-Shamali (Tyre outskirts), 6 in Maarakeh, 5 in Kawthariyat al-Riz, 4 in Habbush, 2 in Salaa. IDF issues evacuation warnings for Nabatieh city and 5 nearby towns. Lebanon\'s civil defense confirms Nabatieh facility destroyed in IDF strike (all personnel had evacuated). Separate IDF strike hits vicinity of public hospital in Nabatieh — "significant damage." Hezbollah fires explosive drones at IDF positions; sirens sound in northern Israeli communities — drones impact in open areas, no Israeli injuries. Lebanon cumulative toll rises to 3,244 killed / 9,777 wounded (CBS News live, Times of Israel liveblog, AFP, Lebanese NNA, May 27).',
+  },
+  {
+    date: '2026-05-27',
+    event: 'India confirms 10 sailors released from Iran; Rubio: deal needs "several more days"; Iran: no deal "imminent"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'India MEA confirms 10 Indian sailors held in Iran since July released following "sustained diplomatic engagement." On deal talks: Rubio says framework needs "several more days" — walks back implied 24-hour timeline. Iran FM spokesperson says no deal "imminent." Key sticking points: PGSA transit fees (Rubio: "just not acceptable; can\'t happen"); nuclear language; sanctions sequencing. Iran\'s Fars: "even in a possible agreement, Hormuz will still be under Iranian management." $24B in frozen assets to be released only after Hormuz reopens. Pakistan and Qatar co-mediating (NBC News, CBS News, CNBC, India MEA, May 27).',
+  },
 ];
 
 export const STATUS_COLORS = {

@@ -864,6 +864,20 @@ const groundOps = {
       event: 'IDF airstrike on Mashghara, Bekaa Valley — 12 killed including women and children, 15 wounded; 10 homes struck; IDF says it targeted "Hezbollah infrastructure sites"; Lebanon toll updated to 3,213 killed / 9,737 wounded (Lebanese NNA, Washington Post, May 27)',
       type: 'airstrike',
     },
+    {
+      date: '2026-05-27',
+      lat: 33.28,
+      lng: 35.20,
+      event: 'IDF strikes Burj al-Shamali (Tyre outskirts) — 14 killed; IDF issues evacuation orders for Nabatieh city and 5 towns; civil defense facility in Nabatieh destroyed; strike near public hospital causes significant damage (AFP, CBS News, Lebanese NNA, May 27)',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-27',
+      lat: 33.37,
+      lng: 35.30,
+      event: 'IDF strikes kill 6 in Maarakeh, 5 in Kawthariyat al-Riz, 4 in Habbush, 2 in Salaa — total 31 killed / 40 wounded in May 27 afternoon strikes; Lebanon toll rises to 3,244 killed / 9,777 wounded; Hezbollah drones infiltrate northern Israel — sirens sounded, no injuries (CBS News, AFP, Times of Israel, May 27)',
+      type: 'airstrike',
+    },
   ],
 };
 
