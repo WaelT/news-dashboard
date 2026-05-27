@@ -1947,6 +1947,41 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Lebanon\'s Ministry of Public Health confirms 3,185 killed and 9,633 wounded since Israel restarted its war on Lebanon on March 2, 2026 — up from the 3,115 figure reported earlier in the day. Toll includes 292 women and 211 children. IDF airstrikes continue in southern Lebanon and Bekaa Valley. Next Lebanon military talks at Pentagon May 29; political talks June 2–3 (Lebanese Health Ministry via Middle East Eye, news.am, May 26).',
   },
+  {
+    date: '2026-05-27',
+    event: 'Iran internet partially restored after 88-day blackout — longest nationwide shutdown in modern history',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Iranian authorities partially restore internet connectivity on Day 88 of a near-total shutdown imposed when war erupted on February 28. President Masoud Pezeshkian ordered the Ministry of Communications to restore access; NetBlocks confirms partial connectivity is re-established. The shutdown was the longest nationwide internet blackout in modern history per NetBlocks. Many users still require a VPN; only the domestic intranet had been accessible for daily tasks. Supreme Leader Mojtaba Khamenei has not appeared in public since his father and predecessor Ali Khamenei was killed at the start of the war. Iranians emerging online express "skepticism and defiance" (CNN, RFERL, NetBlocks, ABC News, Channels TV, May 26–27).',
+  },
+  {
+    date: '2026-05-27',
+    event: 'Iranian negotiating team returns from Doha — Rubio: deal "work in progress", "disagreements over a word, a sentence"',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'The Iranian diplomatic delegation — FM Abbas Araghchi and Parliament Speaker Mohammad Bagher Ghalibaf — returns to Tehran following two days of talks in Doha with Qatar FM Sheikh Mohammed bin Abdulrahman Al Thani. Qatar FM confirms "frank and constructive discussions." No joint MOU announcement was made. US Secretary of State Marco Rubio told reporters the deal remains a "work in progress" with "disagreements over a word, a sentence" — notably over language concerning Iran\'s nuclear program and sanctions sequencing. The framework agreement would give both sides 60 days to reach final deal points, reopen the Strait of Hormuz, freeze Iran\'s nuclear program, and unfreeze Iranian assets. Ceasefire holds for a second consecutive day since the May 25 violation. Pakistan continues parallel mediation. Pentagon military talks May 29; political talks June 2–3 (CBS News, ABC News, CNBC, Al Arabiya, APA, Mehr News, May 27).',
+  },
+  {
+    date: '2026-05-27',
+    event: 'IDF expands ground operations beyond "yellow line" in south Lebanon — Netanyahu orders deeper push',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Israeli Prime Minister Benjamin Netanyahu orders the IDF to deepen ground operations in Lebanon, pushing troops beyond the so-called "yellow line" ceasefire demarcation in some areas. The objective is to drive Hezbollah further north and reduce the threat posed by Hezbollah\'s explosive drones to Israeli communities. Israeli media reports troops had begun ground operations north of the Yellow Line. IDF struck more than 100 Hezbollah sites overnight across southern Lebanon and the eastern Bekaa Valley, targeting storage facilities, command centres, and observation points. Hezbollah fighters reportedly repelled an Israeli force advancing toward Zawtar al-Sharqiyah, which overlooks Nabatieh. Lebanon cumulative death toll rises to 3,213 killed / 9,737 wounded (Israeli media, CBC News, RTÉ, Antiwar.com, J-Post, Ynet, IDF, May 26–27).',
+  },
+  {
+    date: '2026-05-27',
+    event: 'IDF strikes Mashghara, Bekaa Valley — 12 killed including women and children',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'An Israeli airstrike on the eastern village of Mashghara in the Bekaa Valley kills at least 12 people including several family members — a woman and two children among the dead — and 15 wounded. Lebanon\'s state-run National News Agency reports 10 homes targeted in the strike. The IDF says it struck "Hezbollah infrastructure sites" in the Mashghara area. The strike is part of the overnight IDF operations across south Lebanon and the Bekaa Valley, during which more than 100 Hezbollah sites were struck. Lebanon cumulative death toll updated to 3,213 killed / 9,737 wounded (Lebanese NNA, Washington Post, Antiwar.com, US News, PBS News, May 26–27).',
+  },
+  {
+    date: '2026-05-27',
+    event: 'Supreme Leader Khamenei issues Hajj message escalating rhetoric — warns Gulf states are "no longer a shield for American bases"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Supreme Leader Mojtaba Khamenei — who has yet to appear in public since his father Ali Khamenei was killed at the start of the war — issues a Hajj season message escalating rhetoric against the United States and Israel. Khamenei warns that regional countries will "no longer be a shield for American bases," signaling Iranian threats against GCC states hosting US military installations. The statement is seen as a response to Gulf states urging Trump to hold off on strikes (May 18-20) and to their perceived role in facilitating US-Iran negotiations. The Hajj message comes as Iran\'s internet is partially restored and the Iranian delegation returns from Doha (CNN Iran live updates, RFERL, May 27).',
+  },
 ];
 
 export const STATUS_COLORS = {

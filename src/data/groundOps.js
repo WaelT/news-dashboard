@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 26, 2026',
+  updated: 'MAY 27, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -848,6 +848,20 @@ const groundOps = {
       lat: 26.57,
       lng: 56.24,
       event: 'CENTCOM self-defense strikes — 2 IRGC fast-attack boats destroyed while emplacing mines in Strait of Hormuz; IRGC missile launch sites struck; IRGC claims it shot down US MQ-9 Reaper drone over Persian Gulf and fired on F-35 and a second drone; IRGC warns "reciprocal response to ceasefire violations is legitimate and certain"; Brent ~$99/bbl (+3%); Araghchi + Ghalibaf Doha talks ongoing (CENTCOM, PressTV, Al Jazeera, CNBC, May 26)',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-27',
+      lat: 33.38,
+      lng: 35.60,
+      event: 'IDF expands ground operations beyond "yellow line" in south Lebanon — Netanyahu orders deeper push to blunt Hezbollah drone threat; troops advance north of Yellow Line demarcation; IDF strikes 100+ Hezbollah sites overnight across south Lebanon and Bekaa Valley (Israeli media, CBC, J-Post, May 27)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-27',
+      lat: 33.57,
+      lng: 35.78,
+      event: 'IDF airstrike on Mashghara, Bekaa Valley — 12 killed including women and children, 15 wounded; 10 homes struck; IDF says it targeted "Hezbollah infrastructure sites"; Lebanon toll updated to 3,213 killed / 9,737 wounded (Lebanese NNA, Washington Post, May 27)',
       type: 'airstrike',
     },
   ],
