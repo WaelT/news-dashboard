@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 27, 2026',
+  updated: 'MAY 28, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -876,6 +876,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.30,
       event: 'IDF strikes kill 6 in Maarakeh, 5 in Kawthariyat al-Riz, 4 in Habbush, 2 in Salaa — total 31 killed / 40 wounded in May 27 afternoon strikes; Lebanon toll rises to 3,244 killed / 9,777 wounded; Hezbollah drones infiltrate northern Israel — sirens sounded, no injuries (CBS News, AFP, Times of Israel, May 27)',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-28',
+      lat: 33.20,
+      lng: 35.48,
+      event: 'Lebanon Health Ministry: 31 killed, 149 wounded in IDF strikes overnight — Lebanon toll rises to 3,275 killed / 9,926 wounded; IDF continues operations north of "yellow line"; Hezbollah drone activity in northern Israel sectors; Trump Cabinet meeting: "Iran negotiating on fumes", "time is on our side", midterms won\'t sway war strategy (Lebanese Health Ministry, Times of Israel, PBS, May 28)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-28',
+      lat: 27.19,
+      lng: 56.28,
+      event: 'CENTCOM conducts new self-defense airstrikes in southern Iran near Bandar Abbas — targeting Iranian military sites threatening US forces and commercial maritime traffic in the Strait of Hormuz; Reuters reports explosions in Bandar Abbas coastal area; Iran accuses US of "grave violation" of ceasefire; PGSA operational; UKMTO 2026-041 in effect; Brent ~$99/bbl (ABC News, Reuters, CENTCOM, May 28)',
       type: 'airstrike',
     },
   ],
