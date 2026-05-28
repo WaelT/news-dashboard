@@ -1996,6 +1996,34 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'India MEA confirms 10 Indian sailors held in Iran since July released following "sustained diplomatic engagement." On deal talks: Rubio says framework needs "several more days" — walks back implied 24-hour timeline. Iran FM spokesperson says no deal "imminent." Key sticking points: PGSA transit fees (Rubio: "just not acceptable; can\'t happen"); nuclear language; sanctions sequencing. Iran\'s Fars: "even in a possible agreement, Hormuz will still be under Iranian management." $24B in frozen assets to be released only after Hormuz reopens. Pakistan and Qatar co-mediating (NBC News, CBS News, CNBC, India MEA, May 27).',
   },
+  {
+    date: '2026-05-28',
+    event: 'Trump Cabinet meeting: Iran "negotiating on fumes", "time is on our side"; midterms won\'t sway war strategy',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'President Trump, speaking at the start of a Cabinet meeting, asserts that Iran is "negotiating on fumes" and that "time is on our side" in the push to end the nearly three-month-old conflict. Trump insists that November\'s midterm elections will not factor into his approach to the war. Trump said he wants to make a "good deal or no deal at all." Over the weekend, Trump declared that a settlement had been "largely negotiated" — but talks remain in flux. Ceasefire technically holds as a second consecutive day without major exchange (following May 26 CENTCOM strikes); Brent ~$99/bbl; PGSA operational; UKMTO 2026-041 in effect (PBS, 1news.co.nz, KMVT, CBS News, May 28).',
+  },
+  {
+    date: '2026-05-28',
+    event: 'Iran-US negotiators agree to "broad principles" — Iran in principle agrees to dispose of HEU; Khamenei endorses template',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'A senior Trump administration official tells CBS News that Iran has in principle agreed to a deal that would include disposal of highly enriched uranium (HEU), with a "broad commitment on principles" now in place. The US believes Iran\'s Supreme Leader Mojtaba Khamenei has endorsed the broad template of the deal. The finalized agreement would be a two-step process: first, Hormuz reopens in exchange for the US lifting its naval blockade; second, follow-on negotiations on nuclear moratorium and sanctions relief sequencing. Key unresolved issues: Iran demands sanctions relief before HEU handover; US insists on "relief for performance"; Trump says Russia and China cannot receive Iran\'s HEU stockpile; PGSA fees status unresolved (Rubio: "can\'t happen"); Iran wants Lebanon included in any final ceasefire. Brent ~$99/bbl (CBS News, JPost, BusinessToday, Gateway Pundit, May 28).',
+  },
+  {
+    date: '2026-05-28',
+    event: 'CENTCOM conducts new self-defense airstrikes in southern Iran near Bandar Abbas; Iran accuses US of "grave violation"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'US CENTCOM confirms new self-defense airstrikes in southern Iran near Bandar Abbas, targeting Iranian military sites that were threatening US forces and commercial maritime traffic in the Strait of Hormuz. Reuters reports explosions heard in Bandar Abbas city and surrounding coastal areas near the strait. CENTCOM said US forces acted with "restraint" during the ongoing ceasefire. Iran\'s Foreign Ministry accuses the US of a "grave violation" of the ceasefire, saying Washington has engaged in "unlawful and unjust actions" since the announcement of the ceasefire, including "numerous maritime robberies" against Iranian commercial ships. Iran\'s IRGC accuses Washington of "flagrantly violating the ceasefire in Iran\'s Hormozgan region over the past 48 hours." Brent crude ~$99/bbl; PGSA operational; UKMTO 2026-041 in effect (ABC News, Reuters, CBS News, CNBC, CENTCOM, May 28).',
+  },
+  {
+    date: '2026-05-28',
+    event: 'Trump insists Abraham Accords expansion must be part of Iran deal — Saudi Arabia and Pakistan reject',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'President Trump, in a May 25 Truth Social post subsequently expanded upon, states that it should be "mandatory" for Saudi Arabia, the UAE, Qatar, Pakistan, Turkey, Egypt, Jordan, and Bahrain to sign onto an updated Abraham Accords framework as a precondition for the broader Iran deal. Saudi Arabia reaffirms its position that normalization with Israel is impossible until Palestinians are offered an "irreversible pathway" to statehood. Pakistan formally rejects the Abraham Accords demand. Analysts note Trump is trying to satisfy the hawkish wing of his party on the Iran deal as talks face sharp domestic criticism. The Abraham Accords condition adds new complexity to an already stalled negotiation framework (Washington Post, Time, CNBC, NBC News, Newsweek, May 25–28).',
+  },
 ];
 
 export const STATUS_COLORS = {
