@@ -879,6 +879,13 @@ const groundOps = {
       type: 'airstrike',
     },
     {
+      date: '2026-05-27',
+      lat: 29.37,
+      lng: 47.97,
+      event: 'IRAN BALLISTIC MISSILE STRIKE ON KUWAIT — Iran fires 1 ballistic missile toward a US military base in Kuwait (~10:17 PM ET) + launches 5 one-way attack drones toward Strait of Hormuz; BM intercepted by Kuwaiti forces; all 5 drones intercepted by US forces. CENTCOM calls it an "egregious ceasefire violation." IRGC claims retaliation for CENTCOM Bandar Abbas strikes. Qatar condemns the attacks (CENTCOM, Iran International, OAN, Breitbart, May 27–28)',
+      type: 'escalation',
+    },
+    {
       date: '2026-05-28',
       lat: 33.20,
       lng: 35.48,
@@ -889,7 +896,7 @@ const groundOps = {
       date: '2026-05-28',
       lat: 27.19,
       lng: 56.28,
-      event: 'CENTCOM conducts new self-defense airstrikes in southern Iran near Bandar Abbas — targeting Iranian military sites threatening US forces and commercial maritime traffic in the Strait of Hormuz; Reuters reports explosions in Bandar Abbas coastal area; Iran accuses US of "grave violation" of ceasefire; PGSA operational; UKMTO 2026-041 in effect; Brent ~$99/bbl (ABC News, Reuters, CENTCOM, May 28)',
+      event: 'CENTCOM self-defense strike on Iranian ground control station near Bandar Abbas airport — preemptively destroys 6th Iranian drone launch site to prevent follow-on attack after intercepting 5 Hormuz drones overnight; CENTCOM: station was "actively directing drone attacks against US forces and commercial shipping"; Reuters reports explosions in Bandar Abbas coastal area; Iran accuses US of "grave violation" of ceasefire (CENTCOM, PJ Media, CBS News, May 28)',
       type: 'airstrike',
     },
     {
