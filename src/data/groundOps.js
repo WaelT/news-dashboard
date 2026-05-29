@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 28, 2026',
+  updated: 'MAY 29, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -891,6 +891,27 @@ const groundOps = {
       lng: 56.28,
       event: 'CENTCOM conducts new self-defense airstrikes in southern Iran near Bandar Abbas — targeting Iranian military sites threatening US forces and commercial maritime traffic in the Strait of Hormuz; Reuters reports explosions in Bandar Abbas coastal area; Iran accuses US of "grave violation" of ceasefire; PGSA operational; UKMTO 2026-041 in effect; Brent ~$99/bbl (ABC News, Reuters, CENTCOM, May 28)',
       type: 'airstrike',
+    },
+    {
+      date: '2026-05-29',
+      lat: 33.81,
+      lng: 35.52,
+      event: 'IDF precision strike in Shuwayfat (Beirut suburb) — first Beirut-area strike in ~3 weeks; target: Ali al-Husni, head of IRGC Quds Force Imam Hossein Division missile unit; 3 killed (woman, baby daughter, Syrian child), 15 wounded (Times of Israel, JNS, i24NEWS, May 29)',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-29',
+      lat: 33.56,
+      lng: 35.37,
+      event: 'IDF drone strike on apartment building in Sidon housing displaced families — 5 killed, 21 wounded including 5 children; IDF drone strikes car of fleeing family in Adloun — 6 killed (4 children + both parents); Lebanese soldier killed by IDF drone near Nabatieh; Lebanon cumulative toll rises to ~3,290 killed (Lebanese NNA, Times of Israel, AFP, May 29)',
+      type: 'airstrike',
+    },
+    {
+      date: '2026-05-29',
+      lat: 26.40,
+      lng: 56.35,
+      event: 'IRGC fires warning shots at 4 vessels near Strait of Hormuz — ships attempting entry "without coordination with security forces" forced to turn back; IRGC claims "smart control" with "full authority" over strait; US-Iran tentative 60-day MOU reported — Hormuz to reopen, no tolls; Trump/Khamenei final sign-off still pending; Vance: "still TBD"; Brent ~$96–97/bbl (Jerusalem Post, Al Jazeera, CBS News, CNBC, May 29)',
+      type: 'escalation',
     },
   ],
 };
