@@ -2024,6 +2024,27 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'President Trump, in a May 25 Truth Social post subsequently expanded upon, states that it should be "mandatory" for Saudi Arabia, the UAE, Qatar, Pakistan, Turkey, Egypt, Jordan, and Bahrain to sign onto an updated Abraham Accords framework as a precondition for the broader Iran deal. Saudi Arabia reaffirms its position that normalization with Israel is impossible until Palestinians are offered an "irreversible pathway" to statehood. Pakistan formally rejects the Abraham Accords demand. Analysts note Trump is trying to satisfy the hawkish wing of his party on the Iran deal as talks face sharp domestic criticism. The Abraham Accords condition adds new complexity to an already stalled negotiation framework (Washington Post, Time, CNBC, NBC News, Newsweek, May 25–28).',
   },
+  {
+    date: '2026-05-29',
+    event: 'US-Iran reach tentative 60-day MOU — Hormuz to reopen with no tolls; Iran to clear mines; Trump/Khamenei final sign-off still pending',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Al Jazeera and CBS News report that American and Iranian negotiators believe they have arrived at a draft 60-day MOU to formally extend the ceasefire and gradually reopen the Strait of Hormuz — but President Donald Trump and Iran\'s Supreme Leader Mojtaba Khamenei have not yet given their final approval. Key terms: 60-day ceasefire extension; Strait of Hormuz reopens with no tolls and no PGSA fees; Iran agrees to clear its mines from the strait to allow ships to pass freely; US lifts its naval blockade on Iranian ports and issues sanctions waivers allowing Iran to sell oil. VP JD Vance tells reporters it is "still TBD" whether Trump will sign. Outstanding issues include HEU disposal sequencing, nuclear moratorium duration, and the complete sanctions relief architecture. Qatar, Pakistan, and Oman are co-mediating (Al Jazeera, CBS News, CNBC, ABC News, May 29).',
+  },
+  {
+    date: '2026-05-29',
+    event: 'IDF strikes Beirut (Shuwayfat) for first time in 3 weeks — 3 killed, 15 wounded; Ali al-Husni, head of IRGC Imam Hossein Division missile force, targeted',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'The IDF conducted a precision strike in Shuwayfat, a southern suburb of Beirut, the first Israeli strike in the Beirut area in approximately three weeks. An Israeli security source identifies the target as Ali al-Husni, head of the missile force in the Imam Hossein Division — an IRGC Quds Force-linked Iranian militia operating alongside Hezbollah in Lebanon. Lebanon\'s health ministry confirms 3 killed (a woman, her baby daughter, and a Syrian-nationality child) and 15 wounded (including 3 children and 5 women). On the same day, IDF drones strike Sidon — 5 killed (including children), 21 wounded; IDF drone strikes a car in the coastal town of Adloun killing a fleeing family of 6 including two children and both parents; Lebanese military confirms a soldier killed by IDF drone near Nabatieh. Lebanon cumulative toll rises to approximately 3,290 killed (Times of Israel, JNS, i24NEWS, Lebanese NNA, May 29).',
+  },
+  {
+    date: '2026-05-29',
+    event: 'Pentagon Lebanon military talks — US-Israel-Lebanon delegations convene on ceasefire implementation and IDF withdrawal framework',
+    type: 'diplomacy',
+    status: 'convened',
+    detail: 'Pentagon military talks between US, Israeli, and Lebanese military delegations convene as scheduled, focused on implementing the Israel-Lebanon ceasefire framework, IDF withdrawal timelines relative to the "yellow line," and Hezbollah disarmament sequencing. The talks occur against the backdrop of IDF operations that have expanded north of the yellow line demarcation and ongoing daily strikes causing civilian casualties in southern Lebanon and the Bekaa Valley. Follow-on political talks are scheduled June 2–3. Pentagon military talks are the first such meeting since the ceasefire was extended 45 days (to ~July 1) following Round 3 Washington talks (State Dept, May 29).',
+  },
 ];
 
 export const STATUS_COLORS = {
