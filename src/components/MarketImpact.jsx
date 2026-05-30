@@ -17,7 +17,7 @@ const FALLBACK = {
   nasdaq: { price: 26920.47, change: 2.03 },
   dowjones: { price: 50344.82, change: 1.48 },
   nikkei: { price: 62180.55, change: 1.24 },
-  brent: { price: 97.14, change: -6.54 },
+  brent: { price: 91.20, change: -2.00 },
   btc: { price: 104820.00, change: 0.87 },
   gold: { price: 3285.40, change: -0.43 },
   silver: { price: 33.15, change: -0.62 },
@@ -46,17 +46,17 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
-  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
-  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
-  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
-  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
-  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
+  { label: 'Brent Crude', value: '$91.2/bbl', sub: '−17% in May; peak $126', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '95%', sub: 'peak traffic cut (April)', color: '#ff6600' },
+  { label: 'Seafarers Stranded', value: '~20,000', sub: 'IMO — in Hormuz/Gulf', color: '#ff6600' },
+  { label: 'US Gas Price', value: '~$4.45/gal', sub: 'up from $2.98 pre-war', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '78,000+', sub: 'cumulative Middle East', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day (war start)', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day (war start)', color: '#ff0040' },
   { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
   { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
-  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
-  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
+  { label: 'Iran GDP (IMF)', value: '−6.1%', sub: 'forecast 2026; inflation 68.9%', color: '#d4a017' },
+  { label: 'GCC GDP (World Bank)', value: '1.3%', sub: 'down from 4.4% forecast', color: '#d4a017' },
   { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
 ];
 
