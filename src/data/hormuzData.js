@@ -27,7 +27,7 @@
 //          Washington Times/NBC News/CNBC/CNN/Fortune/NPR/PBS (May 23-24 2026 — Trump Truth Social: deal "largely negotiated"; 14-point MOU; Hormuz reopening; war end framework; Brent ~$97)
 //          Wikipedia/UAE Defense Ministry/CENTCOM/Al Jazeera/Iran International (May 25 2026 — Iran fires 2 BMs + 3 drones at UAE; US-IRGC Hormuz exchange; Araghchi + Ghalibaf in Doha)
 export const hormuzData = {
-  updated: '2026-05-29T12:00Z',
+  updated: '2026-05-30T12:00Z',
 
   current: {
     transitsPerDay: 33,
