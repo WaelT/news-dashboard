@@ -2045,6 +2045,20 @@ const diplomaticEvents = [
     status: 'convened',
     detail: 'Pentagon military talks between US, Israeli, and Lebanese military delegations convene as scheduled, focused on implementing the Israel-Lebanon ceasefire framework, IDF withdrawal timelines relative to the "yellow line," and Hezbollah disarmament sequencing. The talks occur against the backdrop of IDF operations that have expanded north of the yellow line demarcation and ongoing daily strikes causing civilian casualties in southern Lebanon and the Bekaa Valley. Follow-on political talks are scheduled June 2–3. Pentagon military talks are the first such meeting since the ceasefire was extended 45 days (to ~July 1) following Round 3 Washington talks (State Dept, May 29).',
   },
+  {
+    date: '2026-05-30',
+    event: 'Trump posts specific Hormuz conditions on Truth Social — "Hormuz Strait must be immediately open, no tolls, for unrestricted shipping traffic, in both directions; all water mines will be terminated"',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'President Trump posts explicit conditions for the Hormuz component of the tentative 60-day MOU on Truth Social (Day 91 of the war): "The Hormuz Strait must be immediately open, no tolls, for unrestricted shipping traffic, in both directions" and "All water mines (bombs), if any, will be terminated." The post comes as the US and Iran have reached the outline of a tentative agreement but neither Trump nor Iran\'s Supreme Leader Mojtaba Khamenei has yet given final sign-off. VP Vance had said on May 29 it was "still TBD." The explicit public conditions signal Trump is trying to lock in specific Hormuz terms before signing. Iran has not publicly responded to the May 30 conditions. Brent crude: $91.2/bbl (−17% for May; lowest in ~6 weeks; CNBC May 29) — markets continue pricing in Hormuz reopening. Ceasefire holds — no new kinetic exchanges reported. Lebanon toll: ~3,324 killed / ~10,027 wounded (Lebanese Health Ministry). Pentagon political talks June 2–3 (NBC News liveblog; ABC7; RFERL; CNBC May 29–30).',
+  },
+  {
+    date: '2026-05-30',
+    event: 'Brent crude drops 17% in May — biggest monthly oil price decline since 2020; $91.2/bbl on deal optimism',
+    type: 'economic',
+    status: 'implemented',
+    detail: 'Brent crude falls to $91.2/barrel on May 29 (−2% on the day), capping a −17% monthly decline for May — the biggest monthly drop in global oil prices since April 2020. The decline reflects sustained market optimism that the US-Iran tentative 60-day MOU will lead to Hormuz reopening and supply restoration. From the conflict peak of ~$126/bbl (late April) to $91.2/bbl (May 29) represents a 28% pullback. WTI correspondingly trades near $88/bbl. The IEA had called the Hormuz disruption "the largest oil supply disruption in the history of the global oil market." Saudi Aramco CEO Amin Nasser had warned markets would not normalize until 2027 if Hormuz remained closed past mid-June; markets are now pricing in earlier normalization. War-risk insurance remains at 8× pre-crisis levels pending a formal Hormuz reopening announcement. US gas price ~$4.45/gal (down from $4.53/gal peak in mid-May) (CNBC May 29; IEA; Barchart; TradingEconomics).',
+  },
 ];
 
 export const STATUS_COLORS = {
