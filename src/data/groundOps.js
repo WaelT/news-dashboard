@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 29, 2026',
+  updated: 'MAY 30, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -919,6 +919,13 @@ const groundOps = {
       lng: 56.35,
       event: 'IRGC fires warning shots at 4 vessels near Strait of Hormuz — ships attempting entry "without coordination with security forces" forced to turn back; IRGC claims "smart control" with "full authority" over strait; US-Iran tentative 60-day MOU reported — Hormuz to reopen, no tolls; Trump/Khamenei final sign-off still pending; Vance: "still TBD"; Brent ~$96–97/bbl (Jerusalem Post, Al Jazeera, CBS News, CNBC, May 29)',
       type: 'escalation',
+    },
+    {
+      date: '2026-05-30',
+      lat: 33.25,
+      lng: 35.45,
+      event: 'Lebanon Health Ministry: ~3,324 killed / ~10,027 wounded cumulative (+34 killed from May 29); IDF operations continue in southern Lebanon and Bekaa Valley; ceasefire holds on Iran front — no new kinetic exchanges; Pentagon Lebanon political talks June 2–3; Trump posts specific Hormuz conditions on Truth Social: "Hormuz must be immediately open, no tolls... all water mines will be terminated"; Brent $91.2/bbl −17% for May (CNBC May 29) on deal optimism (Lebanese Health Ministry, NBC News, CNBC, May 30)',
+      type: 'ground',
     },
   ],
 };
