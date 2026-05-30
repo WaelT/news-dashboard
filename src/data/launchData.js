@@ -107,7 +107,7 @@ export const countryBreakdown = {
     { country: 'USA', count: 8 },
   ],
   drones: [
-    { country: 'UAE', count: 2267 },
+    { country: 'UAE', count: 2272 },
     { country: 'Israel', count: 765 },
     { country: 'Bahrain', count: 515 },
     { country: 'Kuwait', count: 464 },
