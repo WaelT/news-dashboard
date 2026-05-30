@@ -46,18 +46,18 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
-  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
-  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
-  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
-  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
-  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
-  { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
-  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
-  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
-  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
-  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
+  { label: 'Brent Crude (Day 91)', value: '$91.2', sub: 'vs $68 pre-war; peak $126', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '89%', sub: 'oil flow cut; deal pending', color: '#ff0040' },
+  { label: 'LNG Spot Price', value: '$43', sub: '/MMBtu; was ~$10 pre-war', color: '#ff6600' },
+  { label: 'US Gas Price', value: '$4.45', sub: '/gal (was $2.98 pre-war)', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '78,000+', sub: 'since war start', color: '#0088cc' },
+  { label: 'US War Cost', value: '$1.1B', sub: '/day; $70B+ total est.', color: '#ff0040' },
+  { label: 'Iran GDP (IMF)', value: '-22%', sub: '2026 forecast; −6.1% GDP', color: '#ff0040' },
+  { label: 'GCC GDP Cut', value: '-3.8%', sub: 'Oxford Economics 2026', color: '#d4a017' },
+  { label: 'Oil Supply Lost', value: '880M', sub: 'barrels (Aramco CEO est.)', color: '#ff0040' },
+  { label: 'War-Risk Insurance', value: '8×', sub: 'pre-crisis level; 6 P&I clubs out', color: '#d4a017' },
+  { label: 'VLCC Tanker Rate', value: '$385K+', sub: '/day to Asia', color: '#d4a017' },
+  { label: 'S&P 500 Rally', value: '+1.5%', sub: 'May 24 on deal optimism', color: '#00ff41' },
 ];
 
 function EconomicImpact() {
