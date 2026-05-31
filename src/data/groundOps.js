@@ -941,6 +941,20 @@ const groundOps = {
       event: 'Day 92 — ceasefire holds on Iran front; IDF continues operations in south Lebanon and Bekaa; Lebanon toll rises to ~3,336 killed / ~10,067 wounded; Trump to make "final determination" on 60-day MOU — Iran FM Baghaei: "no final agreement reached, exchanges continuing"; Ghalibaf: Iran will judge deal "by actions not words"; Pentagon Lebanon political talks June 2–3 (Al Jazeera, CBS News, Newsweek, May 31)',
       type: 'ground',
     },
+    {
+      date: '2026-05-31',
+      lat: 33.37,
+      lng: 35.53,
+      event: 'IDF captures Beaufort Castle (Qal\'at al-Shaqif) — strategic 13th-century hilltop fortress overlooking Litani River valley seized by IDF forces advancing deeper into southern Lebanon; commanding position used historically as Hezbollah observation and firing post (Times of Israel, May 31)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-31',
+      lat: 33.18,
+      lng: 35.45,
+      event: 'Hezbollah FPV drone strikes Givati Brigade reconnaissance position in southern Lebanon — 1 IDF soldier killed (first KIA since May 29 Shuwayfat strike), 4 others wounded; Lebanon cumulative toll rises to 3,371 killed / 10,129 wounded (Lebanese Health Ministry via SANA; Times of Israel liveblog, May 31)',
+      type: 'engagement',
+    },
   ],
 };
 
