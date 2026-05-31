@@ -2053,6 +2053,27 @@ const diplomaticEvents = [
     detail: 'President Trump posts explicit conditions for the Hormuz component of the tentative 60-day MOU on Truth Social (Day 91 of the war): "The Hormuz Strait must be immediately open, no tolls, for unrestricted shipping traffic, in both directions" and "All water mines (bombs), if any, will be terminated." The post comes as the US and Iran have reached the outline of a tentative agreement but neither Trump nor Iran\'s Supreme Leader Mojtaba Khamenei has yet given final sign-off. VP Vance had said on May 29 it was "still TBD." The explicit public conditions signal Trump is trying to lock in specific Hormuz terms before signing. Iran has not publicly responded to the May 30 conditions. Brent crude: $91.2/bbl (−17% for May; lowest in ~6 weeks; CNBC May 29) — markets continue pricing in Hormuz reopening. Ceasefire holds — no new kinetic exchanges reported. Lebanon toll: ~3,324 killed / ~10,027 wounded (Lebanese Health Ministry). Pentagon political talks June 2–3 (NBC News liveblog; ABC7; RFERL; CNBC May 29–30).',
   },
   {
+    date: '2026-05-31',
+    event: 'Trump to make "final determination" on Iran deal — Iran FM Baghaei insists no final agreement reached; Day 92 ceasefire holds',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'President Trump tells reporters he will make a "final determination" on whether to sign the tentative 60-day MOU with Iran. Iranian Foreign Ministry spokesperson Esmaeil Baghaei says "exchanges with the United States are continuing but stressed that no final agreement has been reached." Iran\'s chief negotiator Mohammad Bagher Ghalibaf says Tehran will "judge any agreement by actions rather than words" and that "no steps would be taken unless Washington acted first." The ceasefire continues to hold on the Iran front — Day 92, no new kinetic exchanges reported. Pentagon Lebanon political talks remain scheduled for June 2–3 (Al Jazeera, Newsweek, CBS News, May 31).',
+  },
+  {
+    date: '2026-05-31',
+    event: 'Hegseth at Shangri-La Dialogue: "US blockade very much still in place; able to recommence combat if necessary; Hormuz will be open and toll-free"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'US Defense Secretary Pete Hegseth, speaking at the Shangri-La Dialogue in Singapore on Saturday (May 30), warns that the US is ready to restart attacks on Iran if a satisfactory deal is not reached: "We have the ability to recommence if necessary... we are more than capable. Our stockpiles are more than suited for that, both there and around the globe." Hegseth also says "The blockade is very much still in place, and the Strait of Hormuz came up relatively often" in conversations with other countries at the conference, and that the strait "will be an open strait, a toll-free strait, that the entire world can use." Hegseth also announces that Trump plans a $1.5 trillion investment in defence and urges allies to spend at least 3.5% of GDP on defence (Newsweek, Al Jazeera, Tribune India, May 30–31).',
+  },
+  {
+    date: '2026-05-31',
+    event: 'CENTCOM fires Hellfire missile to disable M/V Lian Star in Gulf of Oman — 5th blockade runner disabled; 116 vessels redirected since blockade began',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'US Central Command confirms that on May 29–30, a US aircraft fired a Hellfire missile into the engine room of M/V Lian Star, a Gambia-flagged commercial cargo ship, disabling it in the Gulf of Oman after the vessel refused to halt during more than 20 warnings while attempting to sail to an Iranian port in violation of the US naval blockade. The ship is not boarded and remains adrift with crew aboard. No casualties reported. It is the fifth commercial vessel disabled by US forces since early April. CENTCOM says US forces have redirected a total of 116 vessels since the start of the blockade. US Defense Secretary Hegseth confirms at the Shangri-La Dialogue the same day: "The blockade is very much still in place." (CENTCOM, Stars and Stripes, Task and Purpose, The Hill, Maritime Executive, Xinhua, May 30–31).',
+  },
+  {
     date: '2026-05-30',
     event: 'Brent crude drops 17% in May — biggest monthly oil price decline since 2020; $91.2/bbl on deal optimism',
     type: 'economic',

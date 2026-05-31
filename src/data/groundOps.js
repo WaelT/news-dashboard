@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 30, 2026',
+  updated: 'MAY 31, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -925,6 +925,20 @@ const groundOps = {
       lat: 33.25,
       lng: 35.45,
       event: 'Lebanon Health Ministry: ~3,324 killed / ~10,027 wounded cumulative (+34 killed from May 29); IDF operations continue in southern Lebanon and Bekaa Valley; ceasefire holds on Iran front — no new kinetic exchanges; Pentagon Lebanon political talks June 2–3; Trump posts specific Hormuz conditions on Truth Social: "Hormuz must be immediately open, no tolls... all water mines will be terminated"; Brent $91.2/bbl −17% for May (CNBC May 29) on deal optimism (Lebanese Health Ministry, NBC News, CNBC, May 30)',
+      type: 'ground',
+    },
+    {
+      date: '2026-05-31',
+      lat: 33.47,
+      lng: 35.58,
+      event: 'CENTCOM fires Hellfire missile to disable M/V Lian Star (Gambia-flagged) in Gulf of Oman — 5th blockade-runner disabled; 116 vessels redirected since blockade began; Hegseth at Shangri-La Dialogue (Singapore): "US blockade very much still in place; able to recommence combat if necessary; Hormuz will be open and toll-free" (CENTCOM, Stars and Stripes, Newsweek, May 30–31)',
+      type: 'escalation',
+    },
+    {
+      date: '2026-05-31',
+      lat: 33.28,
+      lng: 35.42,
+      event: 'Day 92 — ceasefire holds on Iran front; IDF continues operations in south Lebanon and Bekaa; Lebanon toll rises to ~3,336 killed / ~10,067 wounded; Trump to make "final determination" on 60-day MOU — Iran FM Baghaei: "no final agreement reached, exchanges continuing"; Ghalibaf: Iran will judge deal "by actions not words"; Pentagon Lebanon political talks June 2–3 (Al Jazeera, CBS News, Newsweek, May 31)',
       type: 'ground',
     },
   ],
