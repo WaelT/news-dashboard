@@ -46,7 +46,7 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude (Day 91)', value: '$91.2', sub: 'vs $68 pre-war; peak $126', color: '#ff6600' },
+  { label: 'Brent Crude (Day 92)', value: '$91.1', sub: 'vs $68 pre-war; peak $126', color: '#ff6600' },
   { label: 'Hormuz Disruption', value: '89%', sub: 'oil flow cut; deal pending', color: '#ff0040' },
   { label: 'LNG Spot Price', value: '$43', sub: '/MMBtu; was ~$10 pre-war', color: '#ff6600' },
   { label: 'US Gas Price', value: '$4.45', sub: '/gal (was $2.98 pre-war)', color: '#3b82f6' },
