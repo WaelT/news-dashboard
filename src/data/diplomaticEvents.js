@@ -2080,6 +2080,13 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Brent crude falls to $91.2/barrel on May 29 (−2% on the day), capping a −17% monthly decline for May — the biggest monthly drop in global oil prices since April 2020. The decline reflects sustained market optimism that the US-Iran tentative 60-day MOU will lead to Hormuz reopening and supply restoration. From the conflict peak of ~$126/bbl (late April) to $91.2/bbl (May 29) represents a 28% pullback. WTI correspondingly trades near $88/bbl. The IEA had called the Hormuz disruption "the largest oil supply disruption in the history of the global oil market." Saudi Aramco CEO Amin Nasser had warned markets would not normalize until 2027 if Hormuz remained closed past mid-June; markets are now pricing in earlier normalization. War-risk insurance remains at 8× pre-crisis levels pending a formal Hormuz reopening announcement. US gas price ~$4.45/gal (down from $4.53/gal peak in mid-May) (CNBC May 29; IEA; Barchart; TradingEconomics).',
   },
+  {
+    date: '2026-06-01',
+    event: 'Day 93 — Iran ceasefire holds; IDF expands Lebanon ground op crossing Litani River toward Nabatieh; Hezbollah fires 25+ rockets at northern Israel; 60-day MOU still awaiting Trump/Khamenei sign-off',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Day 93 of the 2026 Iran war. The ceasefire between US/Israel and Iran continues to hold — no new kinetic exchanges on the Iran front. However, the parallel Lebanon conflict escalates sharply: Israeli PM Netanyahu orders the IDF to expand its ground manoeuvre, with IDF forces crossing the Litani River and advancing toward the city of Nabatieh — the largest Israeli push in Lebanon since early May. Netanyahu: "Our forces have crossed the Litani River and took dominant terrain." Separately, Hezbollah fires more than 25 projectiles toward northern Israel — air raid sirens sound in Karmiel and Safed for the first time since the Lebanon ceasefire was declared, marking a significant escalation in the northern front. Lebanon Health Ministry: 3,412 killed / 10,269 wounded cumulative. The tentative US-Iran 60-day MOU (Hormuz reopen with no tolls; US lifts blockade; Iran clears mines; sanctions waivers; nuclear talks) remains unsigned — neither Trump nor Supreme Leader Mojtaba Khamenei has given final approval. CENTCOM confirms 118 commercial vessels redirected and 5 disabled since the blockade began — 2 more redirections since May 31. Pentagon Lebanon political talks scheduled June 2–3. Brent ~$91/bbl. PGSA operational; UKMTO 2026-041 in effect (Fortune, US News & World Report, Al Arabiya, CBS News liveblog, Tribune India, June 1).',
+  },
 ];
 
 export const STATUS_COLORS = {

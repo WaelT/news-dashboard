@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'MAY 31, 2026',
+  updated: 'JUNE 1, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -953,6 +953,20 @@ const groundOps = {
       lat: 33.18,
       lng: 35.45,
       event: 'Hezbollah FPV drone strikes Givati Brigade reconnaissance position in southern Lebanon — 1 IDF soldier killed (first KIA since May 29 Shuwayfat strike), 4 others wounded; Lebanon cumulative toll rises to 3,371 killed / 10,129 wounded (Lebanese Health Ministry via SANA; Times of Israel liveblog, May 31)',
+      type: 'engagement',
+    },
+    {
+      date: '2026-06-01',
+      lat: 33.38,
+      lng: 35.45,
+      event: 'Day 93 — Netanyahu orders IDF to "expand ground manoeuvre in Lebanon"; IDF announces crossing of the Litani River and advance toward Nabatieh — largest Israeli ground push since early May; Israel\'s PM Netanyahu: "Our forces have crossed the Litani River and took dominant terrain." IDF says it is prepared to expand attack further "as required." Lebanon Health Ministry: 3,412 killed / 10,269 wounded cumulative. Iran ceasefire holds — no new kinetic exchanges on Iran front. Trump/Khamenei final sign-off on 60-day MOU still pending. Brent ~$91/bbl. Pentagon Lebanon political talks June 2–3 (Fortune, US News & World Report, Al Arabiya, CBS News liveblog, June 1)',
+      type: 'ground',
+    },
+    {
+      date: '2026-06-01',
+      lat: 32.93,
+      lng: 35.32,
+      event: 'Hezbollah fires 25+ projectiles at northern Israel — air raid sirens activated in Karmiel and Safed for the first time since the Lebanon ceasefire was declared; IDF conducts retaliatory airstrikes across southern Lebanon and Bekaa Valley; IDF advancing toward Nabatieh city — BBC reports IDF forces moving toward the city; CENTCOM confirms 118 commercial vessels redirected, 5 disabled since blockade began (Fortune, IDF spokesperson, CBS News liveblog, Tribune India/CENTCOM, June 1)',
       type: 'engagement',
     },
   ],
