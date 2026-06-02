@@ -2087,6 +2087,27 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 93 of the 2026 Iran war. The ceasefire between US/Israel and Iran continues to hold — no new kinetic exchanges on the Iran front. However, the parallel Lebanon conflict escalates sharply: Israeli PM Netanyahu orders the IDF to expand its ground manoeuvre, with IDF forces crossing the Litani River and advancing toward the city of Nabatieh — the largest Israeli push in Lebanon since early May. Netanyahu: "Our forces have crossed the Litani River and took dominant terrain." Separately, Hezbollah fires more than 25 projectiles toward northern Israel — air raid sirens sound in Karmiel and Safed for the first time since the Lebanon ceasefire was declared, marking a significant escalation in the northern front. Lebanon Health Ministry: 3,412 killed / 10,269 wounded cumulative. The tentative US-Iran 60-day MOU (Hormuz reopen with no tolls; US lifts blockade; Iran clears mines; sanctions waivers; nuclear talks) remains unsigned — neither Trump nor Supreme Leader Mojtaba Khamenei has given final approval. CENTCOM confirms 118 commercial vessels redirected and 5 disabled since the blockade began — 2 more redirections since May 31. Pentagon Lebanon political talks scheduled June 2–3. Brent ~$91/bbl. PGSA operational; UKMTO 2026-041 in effect (Fortune, US News & World Report, Al Arabiya, CBS News liveblog, Tribune India, June 1).',
   },
+  {
+    date: '2026-06-01',
+    event: 'Iran suspends all talks with US via mediators — cites Israeli "continuing crimes" in Lebanon; IRGC threatens full Hormuz closure and Bab al-Mandab activation',
+    type: 'escalation',
+    status: 'escalation',
+    detail: "Iran's IRGC-affiliated Tasnim news agency reports that Iran has suspended all indirect negotiations with the United States via mediators on June 1. The Iranian negotiating team states: 'Considering that Lebanon was one of the preconditions for the ceasefire and that this ceasefire has now been violated on all fronts, including Lebanon, the Iranian negotiating team is suspending dialogues and exchange of texts through mediators.' The IRGC says in a statement that Iran considers the crossing of red lines in Lebanon and Gaza to mean 'direct war and the imposition of costs on its national security.' Iran and the Axis of Resistance resolve to pursue 'the complete closure of the Strait of Hormuz and activate other fronts, including the Bab al-Mandab Strait.' Brent crude surges 6.62% to ~$97/bbl; WTI surges 7.69% to ~$93/bbl — reversing May's 17% monthly decline (Tasnim, IRGC, NBC News, NPR, The Hill, Euronews, June 1).",
+  },
+  {
+    date: '2026-06-01',
+    event: 'Trump vents anger at Netanyahu in heated call — presses Israel to scale back Lebanon; Trump claims Hezbollah agrees to halt hostilities',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'US President Donald Trump holds a heated phone call with Israeli PM Benjamin Netanyahu, pressing Israel to scale back its expanding military offensive in southern Lebanon, which Iran cited as grounds for suspending US-Iran talks. Trump uses expletives to convey disapproval of planned Israeli offensive. Trump tells Netanyahu: "There will be no troops going to Beirut, and any troops on the way have been turned back." Trump separately claims to have spoken with Hezbollah representatives and that "Israel will not attack them, and they will not attack Israel" — a claim not immediately confirmed by either side. Netanyahu says the IDF will "continue to operate as planned" in southern Lebanon. Lebanon Health Ministry: 3,412 killed / 10,269 wounded cumulative (CNN, Washington Post, Al Jazeera, CBS News, June 1).',
+  },
+  {
+    date: '2026-06-02',
+    event: 'Trump says Iran talks "back on at rapid pace"; Pentagon Lebanon political talks convene; Hezbollah fires missile at Ashdod; IDF doctor killed by drone',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'President Trump posts on Truth Social and tells reporters that US-Iran talks are continuing "at a rapid pace" — contradicting Iran\'s June 1 suspension announcement. Trump tells ABC News deal is reachable "over the next week." Pentagon Lebanon political talks (Round 4) convene June 2–3 — Lebanese PM Nawaf Salam defends negotiations, calling IDF escalation "dangerous and unprecedented" and demanding a "full and comprehensive ceasefire"; Lebanese President Joseph Aoun attends. Separately, Hezbollah fires a ballistic missile at Ashdod Naval Base (IDF strikes Hezbollah launchers in southern Lebanon in response). IDF doctor Cpt. Ori Yosef Silvester (30, Givati Brigade Shaked Battalion, Tel Aviv) killed by Hezbollah FPV drone strike in Zawtar al-Sharqiyah — 7 other soldiers wounded; 14th IDF KIA since April 8 ceasefire. Israeli airstrike in Nabatieh kills 19 including 13 Lebanese State Security personnel — ~15 others wounded. Lebanon Health Ministry: ~3,460 killed / ~10,480 wounded cumulative. 60-day MOU remains unsigned; PGSA operational; Brent ~$97/bbl (CBS News liveblog, Al Jazeera, NBC News, New Arab, Times of Israel, Jerusalem Post, June 2).',
+  },
 ];
 
 export const STATUS_COLORS = {

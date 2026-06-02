@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 1, 2026',
+  updated: 'JUNE 2, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -968,6 +968,27 @@ const groundOps = {
       lng: 35.32,
       event: 'Hezbollah fires 25+ projectiles at northern Israel — air raid sirens activated in Karmiel and Safed for the first time since the Lebanon ceasefire was declared; IDF conducts retaliatory airstrikes across southern Lebanon and Bekaa Valley; IDF advancing toward Nabatieh city — BBC reports IDF forces moving toward the city; CENTCOM confirms 118 commercial vessels redirected, 5 disabled since blockade began (Fortune, IDF spokesperson, CBS News liveblog, Tribune India/CENTCOM, June 1)',
       type: 'engagement',
+    },
+    {
+      date: '2026-06-02',
+      lat: 33.32,
+      lng: 35.49,
+      event: "Hezbollah FPV drone strikes IDF armored vehicle in Zawtar al-Sharqiyah — Cpt. Dr. Ori Yosef Silvester (30, Givati Brigade Shaked Battalion physician, Tel Aviv) killed; 7 soldiers wounded; 14th IDF KIA since April 8 ceasefire; two explosive-laden FPV drones hit armored vehicle in midday attack (Times of Israel, June 2)",
+      type: 'engagement',
+    },
+    {
+      date: '2026-06-02',
+      lat: 31.80,
+      lng: 34.64,
+      event: "Hezbollah fires ballistic missile at Ashdod Naval Base — Hezbollah says it targeted the naval base; IDF strikes Hezbollah launchers in Lebanon in response; Iran suspends all talks with US via mediators (Tasnim/IRGC, June 1) over Israeli 'continuing crimes' in Lebanon — oil surges 7%+ (Brent ~$97/bbl); IRGC threatens full Hormuz closure + Bab al-Mandab activation; Trump says talks 'back on at rapid pace' after discussions with Israel and Hezbollah; Lebanon toll 3,460/10,480 (Times of Israel, Tasnim, NBC News, Al Jazeera, June 2)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-06-02',
+      lat: 33.38,
+      lng: 35.46,
+      event: "Israeli airstrike in Nabatieh kills 19 including 13 Lebanese State Security personnel — ~15 others wounded; IDF continues operations north of Litani River advancing toward Nabatieh; Trump holds heated call with Netanyahu, demands scale back Lebanon offensive; Pentagon Lebanon political talks (Round 4) convene June 2–3 — Lebanese PM Nawaf Salam defends talks, calls Israeli escalation 'dangerous and unprecedented'; Lebanon Health Ministry: ~3,460 killed / ~10,480 wounded cumulative (Multiple sources, June 2)",
+      type: 'ground',
     },
   ],
 };
