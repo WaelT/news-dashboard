@@ -2102,6 +2102,27 @@ const diplomaticEvents = [
     detail: 'US President Donald Trump holds a heated phone call with Israeli PM Benjamin Netanyahu, pressing Israel to scale back its expanding military offensive in southern Lebanon, which Iran cited as grounds for suspending US-Iran talks. Trump uses expletives to convey disapproval of planned Israeli offensive. Trump tells Netanyahu: "There will be no troops going to Beirut, and any troops on the way have been turned back." Trump separately claims to have spoken with Hezbollah representatives and that "Israel will not attack them, and they will not attack Israel" — a claim not immediately confirmed by either side. Netanyahu says the IDF will "continue to operate as planned" in southern Lebanon. Lebanon Health Ministry: 3,412 killed / 10,269 wounded cumulative (CNN, Washington Post, Al Jazeera, CBS News, June 1).',
   },
   {
+    date: '2026-06-01',
+    event: 'CENTCOM self-defense strikes destroy Iranian radar and drone command sites on Qeshm Island and Goruk after MQ-1 drone shot down',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'US Central Command announces self-defense strikes on Iranian radar installations and drone command-and-control sites at Goruk and on Qeshm Island (Hormozgan Province) over the weekend of May 31–June 1. Triggered after Iran shot down a US MQ-1 drone operating over international waters. US fighter aircraft destroyed Iranian air defenses, a ground control station, and two one-way attack drones. CENTCOM describes strikes as "measured and deliberate." Qeshm Island is Iran\'s primary maritime forward-operating base near the Strait of Hormuz — described as Iran\'s "unsinkable aircraft carrier" with tunnel networks, forward drone squadrons, and anti-ship missile batteries. First confirmed US strikes inside Iranian territory since CENTCOM Bandar Abbas self-defense airstrikes (May 28). US naval blockade maintained; PGSA operational; UKMTO 2026-041 in effect (CENTCOM, Fox News, The Defense News, Republic World, June 1).',
+  },
+  {
+    date: '2026-06-01',
+    event: 'IRGC retaliates — fires 2 ballistic missiles + drones at Ali Al-Salem Air Base (Kuwait); all intercepted; no casualties',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Iran\'s IRGC aerospace force fires two ballistic missiles and accompanying drones at Ali Al-Salem Air Base in Kuwait — the facility it identifies as having been used in the US airstrike on a telecoms tower on Sirik Island (Hormozgan Province). CENTCOM confirms two ballistic missiles targeting American forces in Kuwait were intercepted. Kuwait\'s air defenses engage "hostile missiles and drones" with explosions attributed to defensive intercepts (KUNA). No US or Kuwaiti casualties reported. IRGC warns: "any repetition will trigger a response completely different in scale and nature" — places full responsibility on Washington. First IRGC ballistic missile attack on Kuwait since ceasefire began. Iran\'s Parliament Speaker Ghalibaf confirms Iran considers any Iran-US deal to require "cessation of attacks on all fronts, especially Lebanon" (CENTCOM, CNBC, The National, Al Jazeera, WION, Townhall, Times of Israel, Iran International, June 1).',
+  },
+  {
+    date: '2026-06-01',
+    event: 'Iran Parliament Speaker Ghalibaf warns of "direct confrontation" with Israel if Lebanon attacks continue; links any deal to halt of all fronts',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Iranian Parliament Speaker Mohammad Baqer Ghalibaf tells Lebanese Parliament Speaker Nabih Berri that any prospective Iran-US accord "will include the cessation of attacks on all fronts, especially Lebanon." Ghalibaf states: "If the Israeli aggression against Lebanon continues, we will not only halt the path of negotiations, but we will also be in direct confrontation with the enemy." Ghalibaf calls on Arab and Islamic states to provide practical support to Lebanon. Statement adds context to the IRGC\'s June 1 suspension of talks with the US via mediators — Ghalibaf escalates by warning Iran is prepared to move from suspending negotiations to active confrontation. Iran FM Araghchi separately warns the conflict cannot be resolved in isolation from Lebanon and Gaza. Iran\'s Axis of Resistance partners ordered to be ready to resume operations on all fronts (Antiwar.com, WION, Tribune India, Al Jazeera, Iran International, June 1).',
+  },
+  {
     date: '2026-06-02',
     event: 'Trump says Iran talks "back on at rapid pace"; Pentagon Lebanon political talks convene; Hezbollah fires missile at Ashdod; IDF doctor killed by drone',
     type: 'ceasefire',
