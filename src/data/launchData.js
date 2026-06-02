@@ -92,7 +92,7 @@ export const dailyLaunches = [
   { date: '2026-05-29', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   { date: '2026-05-30', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   { date: '2026-05-31', missiles: 0, drones: 0, intercepted: 0, targets: [] },
-  { date: '2026-06-01', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  { date: '2026-06-01', missiles: 2, drones: 4, intercepted: 6, targets: ['Kuwait'] },
   { date: '2026-06-02', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
@@ -102,7 +102,7 @@ export const countryBreakdown = {
     { country: 'Israel', count: 650 },
     { country: 'UAE', count: 567 },
     { country: 'Saudi Arabia', count: 296 },
-    { country: 'Kuwait', count: 242 },
+    { country: 'Kuwait', count: 244 },
     { country: 'Bahrain', count: 191 },
     { country: 'Qatar', count: 178 },
     { country: 'Jordan', count: 68 },
@@ -113,7 +113,7 @@ export const countryBreakdown = {
     { country: 'UAE', count: 2272 },
     { country: 'Israel', count: 765 },
     { country: 'Bahrain', count: 515 },
-    { country: 'Kuwait', count: 464 },
+    { country: 'Kuwait', count: 468 },
     { country: 'Saudi Arabia', count: 176 },
     { country: 'Qatar', count: 90 },
     { country: 'Jordan', count: 68 },
