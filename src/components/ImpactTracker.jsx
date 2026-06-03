@@ -27,7 +27,7 @@ const DEFAULT_CASUALTIES = {
   iran: { killed: 3664, wounded: 26520 },
   israel: { killed: 57, wounded: 8966 },
   usa: { killed: 15, wounded: 543 },
-  lebanon: { killed: 3460, wounded: 10480 },
+  lebanon: { killed: 3468, wounded: 10577 },
   yemen: { killed: 0, wounded: 0 },
   iraq: { killed: 119, wounded: 370 },
   uae: { killed: 15, wounded: 233 },
