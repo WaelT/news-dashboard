@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 2, 2026',
+  updated: 'JUNE 3, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -988,6 +988,13 @@ const groundOps = {
       lat: 33.38,
       lng: 35.46,
       event: "Israeli airstrike in Nabatieh kills 19 including 13 Lebanese State Security personnel — ~15 others wounded; IDF continues operations north of Litani River advancing toward Nabatieh; Trump holds heated call with Netanyahu, demands scale back Lebanon offensive; Pentagon Lebanon political talks (Round 4) convene June 2–3 — Lebanese PM Nawaf Salam defends talks, calls Israeli escalation 'dangerous and unprecedented'; Lebanon Health Ministry: ~3,460 killed / ~10,480 wounded cumulative (Multiple sources, June 2)",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-03',
+      lat: 33.38,
+      lng: 35.46,
+      event: "IDF airstrike hits vehicle in Nabatieh area — 1 Lebanese soldier killed, 4 injured; IDF continues operations north of Litani River; Pentagon Lebanon political talks (Round 4) Day 2 concludes; Lebanon Health Ministry: 3,468 killed / 10,577 wounded cumulative; Brent ~$94.58/bbl; Iran-US 60-day MOU still unsigned (Lebanese Ministry of Health, IDF, TradingEconomics, June 3)",
       type: 'ground',
     },
   ],

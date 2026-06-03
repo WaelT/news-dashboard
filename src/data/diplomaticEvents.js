@@ -2129,6 +2129,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'President Trump posts on Truth Social and tells reporters that US-Iran talks are continuing "at a rapid pace" — contradicting Iran\'s June 1 suspension announcement. Trump tells ABC News deal is reachable "over the next week." Pentagon Lebanon political talks (Round 4) convene June 2–3 — Lebanese PM Nawaf Salam defends negotiations, calling IDF escalation "dangerous and unprecedented" and demanding a "full and comprehensive ceasefire"; Lebanese President Joseph Aoun attends. Separately, Hezbollah fires a ballistic missile at Ashdod Naval Base (IDF strikes Hezbollah launchers in southern Lebanon in response). IDF doctor Cpt. Ori Yosef Silvester (30, Givati Brigade Shaked Battalion, Tel Aviv) killed by Hezbollah FPV drone strike in Zawtar al-Sharqiyah — 7 other soldiers wounded; 14th IDF KIA since April 8 ceasefire. Israeli airstrike in Nabatieh kills 19 including 13 Lebanese State Security personnel — ~15 others wounded. Lebanon Health Ministry: ~3,460 killed / ~10,480 wounded cumulative. 60-day MOU remains unsigned; PGSA operational; Brent ~$97/bbl (CBS News liveblog, Al Jazeera, NBC News, New Arab, Times of Israel, Jerusalem Post, June 2).',
   },
+  {
+    date: '2026-06-03',
+    event: 'Pentagon Lebanon political talks (Round 4) Day 2 concludes; Lebanon toll 3,468/10,577; IDF Nabatieh strike kills 1 Lebanese soldier; Iran-US MOU still unsigned',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Pentagon Lebanon political talks (Round 4), Day 2 concludes in Washington. Lebanese PM Nawaf Salam and President Joseph Aoun continue pressing for a full ceasefire, calling IDF escalation north of the Litani "dangerous and unprecedented." Lebanese Ministry of Public Health releases updated cumulative toll: 3,468 killed / 10,577 wounded since March 2. IDF airstrike hits a vehicle in Nabatieh area, killing 1 Lebanese soldier and injuring 4 others — IDF continues operations north of the Litani River toward Nabatieh. Iran-US 60-day MOU remains unsigned: Trump states talks are continuing "at a rapid pace" and a deal is reachable "within the week"; Iran has not formally reversed its June 1 suspension of indirect talks via mediators but Pakistan and Qatar are maintaining back-channel communications. Brent crude ~$94.58/bbl (TradingEconomics, June 2 close), down from the post-suspension surge of ~$97/bbl; deal optimism partially re-established. No new kinetic exchanges on Iran front; PGSA operational; UKMTO 2026-041 in effect (Lebanese Ministry of Health, TradingEconomics, Trump/Axios, IDF, Al Jazeera, June 3).',
+  },
 ];
 
 export const STATUS_COLORS = {
