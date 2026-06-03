@@ -19,7 +19,7 @@
 //          CNBC (May 29 2026 — Brent $91.2/bbl −2% on day; −17% for May; lowest in ~6 weeks — ceasefire deal optimism)
 //          RFERL/NBC News/ABC7/CBS News/Al Jazeera (May 29-30 2026 — US-Iran tentative 60-day MOU; Trump/Khamenei sign-off still pending; Trump May 30 Truth Social: "Hormuz Strait must be immediately open, no tolls... All water mines will be terminated"; Lebanon toll 3,324/10,027)
 export const globalImpact = {
-  updated: '2026-06-02',
+  updated: '2026-06-03',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; IMF forecast: GDP −6.1% for 2026, inflation 68.9%; oil exports halted; $24B frozen assets at stake; June 1: Iran suspends all US talks via mediators (Tasnim/IRGC) — cites Israeli "continuing crimes" in Lebanon as ceasefire precondition violation; IRGC threatens full Hormuz closure + Bab al-Mandab activation; June 2: Trump says talks "back on at rapid pace" — contradiction with Iran\'s suspension unresolved; PGSA operational; 60-day MOU still unsigned' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Finance Ministry initial estimate: NIS 35B (~$11.5B) war cost (ToI Apr 12); ~$3B/week GDP loss; fiscal deficit from 3.9%→5.1% GDP; Lebanon ceasefire extended 45 days (~July 1) — Netanyahu orders IDF to expand Lebanon ground manoeuvre (June 1); IDF crosses Litani River toward Nabatieh; Lebanon toll 3,412 killed / 10,269 wounded (June 1); Pentagon Lebanon political talks June 2–3' },
@@ -37,7 +37,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 97, peak: 126, forecast: 90,
-    note: 'Brent ~$97/bbl (June 2; surged 6.6% on June 1 after Iran suspended US talks — Brent had been ~$91/bbl May 31); WTI ~$93/bbl; −17% for May then reversal on Iran talk collapse; June 1: Iran suspends all talks with US via mediators (Tasnim/IRGC) — cites Israeli "continuing crimes" in Lebanon; IRGC threatens full Hormuz closure + Bab al-Mandab activation; June 2: Trump says talks "back on at rapid pace"; Pentagon Lebanon political talks June 2–3; Lebanon toll 3,460/10,480 (June 2); 60-day MOU still unsigned; PGSA operational; UKMTO 2026-041 in effect; war-risk insurance still 8× pre-crisis',
+    preWar: 68, current: 95, peak: 126, forecast: 90,
+    note: 'Brent ~$97/bbl (June 2; surged 6.6% on June 1 after Iran suspended US talks — Brent had been ~$91/bbl May 31); WTI ~$93/bbl; −17% for May then reversal on Iran talk collapse; June 1: Iran suspends all talks with US via mediators (Tasnim/IRGC) — cites Israeli "continuing crimes" in Lebanon; IRGC threatens full Hormuz closure + Bab al-Mandab activation; June 2: Trump says talks "back on at rapid pace"; Pentagon Lebanon political talks June 2–3; Lebanon toll 3,460/10,480 (June 2); 60-day MOU still unsigned; PGSA operational; UKMTO 2026-041 in effect; war-risk insurance still 8× pre-crisis; June 3: Pentagon Lebanon political talks (Round 4) Day 2 concludes; Lebanon toll 3,468/10,577 (Lebanese Ministry of Health); Brent ~$94.58/bbl (TradingEconomics, June 2 close); Iran-US 60-day MOU still unsigned — talks "continuing at rapid pace" per Trump',
   },
 };
