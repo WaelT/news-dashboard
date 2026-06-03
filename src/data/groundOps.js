@@ -997,6 +997,13 @@ const groundOps = {
       event: "IDF airstrike hits vehicle in Nabatieh area — 1 Lebanese soldier killed, 4 injured; IDF continues operations north of Litani River; Pentagon Lebanon political talks (Round 4) Day 2 concludes; Lebanon Health Ministry: 3,468 killed / 10,577 wounded cumulative; Brent ~$94.58/bbl; Iran-US 60-day MOU still unsigned (Lebanese Ministry of Health, IDF, TradingEconomics, June 3)",
       type: 'ground',
     },
+    {
+      date: '2026-06-03',
+      lat: 29.2264,
+      lng: 47.9689,
+      event: "IRGC drones strike Kuwait International Airport Terminal 1 — 1 killed, 63 injured, significant material damage, flights suspended; Bahrain Defence Force intercepts 3 Iranian ballistic missiles + several drones over Bahrain; CENTCOM self-defense strikes IRGC facility on Qeshm Island (Hormuz) in response to Iranian attacks; IRGC claims attack on US 5th Fleet HQ Bahrain — CENTCOM denies; all US forces safe; Brent rises toward $98/bbl on escalation (Al Jazeera, NPR, GlobalSecurity, Bahrain BDF, CENTCOM, June 3)",
+      type: 'escalation',
+    },
   ],
 };
 
