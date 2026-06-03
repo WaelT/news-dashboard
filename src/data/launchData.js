@@ -94,7 +94,7 @@ export const dailyLaunches = [
   { date: '2026-05-31', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   { date: '2026-06-01', missiles: 2, drones: 4, intercepted: 6, targets: ['Kuwait'] },
   { date: '2026-06-02', missiles: 0, drones: 0, intercepted: 0, targets: [] },
-  { date: '2026-06-03', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  { date: '2026-06-03', missiles: 3, drones: 8, intercepted: 10, targets: ['Kuwait', 'Bahrain'] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
@@ -104,7 +104,7 @@ export const countryBreakdown = {
     { country: 'UAE', count: 567 },
     { country: 'Saudi Arabia', count: 296 },
     { country: 'Kuwait', count: 244 },
-    { country: 'Bahrain', count: 191 },
+    { country: 'Bahrain', count: 194 },
     { country: 'Qatar', count: 178 },
     { country: 'Jordan', count: 68 },
     { country: 'Iraq', count: 22 },
@@ -113,8 +113,8 @@ export const countryBreakdown = {
   drones: [
     { country: 'UAE', count: 2272 },
     { country: 'Israel', count: 765 },
-    { country: 'Bahrain', count: 515 },
-    { country: 'Kuwait', count: 468 },
+    { country: 'Bahrain', count: 518 },
+    { country: 'Kuwait', count: 473 },
     { country: 'Saudi Arabia', count: 176 },
     { country: 'Qatar', count: 90 },
     { country: 'Jordan', count: 68 },
