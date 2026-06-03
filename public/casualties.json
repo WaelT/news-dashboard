@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-03T10:51:30.857Z",
+  "updatedAt": "2026-06-03T16:40:40.032Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "iran": {
@@ -27,8 +27,8 @@
       "wounded": 227
     },
     "kuwait": {
-      "killed": 10,
-      "wounded": 118
+      "killed": 11,
+      "wounded": 182
     },
     "bahrain": {
       "killed": 3,
