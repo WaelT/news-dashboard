@@ -2138,6 +2138,20 @@ const diplomaticEvents = [
   },
   {
     date: '2026-06-03',
+    event: 'US House passes War Powers resolution (215-208) to limit Trump\'s Iran war authority — bipartisan rebuke; 4 Republican defections',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'The US House of Representatives passes a War Powers resolution by 215–208 to rein in President Trump\'s authority to prosecute the Iran war without Congressional authorization. The vote is bipartisan — all House Democrats plus 4 Republican defections. The measure is largely symbolic (the Senate is unlikely to pass a matching bill, and Trump would veto it), but represents the most significant Congressional rebuke of the war so far. Speaker Johnson calls it "Democrat obstruction." Progressives argue the war was never formally declared. The White House dismisses the resolution as non-binding. Source: RFE/RL, CBS News, NPR, June 3.',
+  },
+  {
+    date: '2026-06-03',
+    event: 'Israel and Lebanon reach US-brokered ceasefire implementation agreement — contingent on full Hezbollah withdrawal south of Litani River',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'In a joint US-brokered statement, Israel and Lebanon announce a formal ceasefire implementation agreement in Washington during the Pentagon political talks (Round 4). The agreement is contingent on full Hezbollah withdrawal from south of the Litani River and is framed as the next step toward a permanent end to the 2026 Lebanon War. However, implementation remains fragile: IDF Chief of Staff says "No ceasefire for our forces" operating in Lebanon, IDF issues evacuation warnings for 6 south Lebanon towns (Jbaa, Houmine El Faouqa, Arkey, Arzay, Mazraat Kauthariyet al-Rez, Zrariyeh), and overnight clashes continued after the announcement. Lebanese PM Nawaf Salam calls IDF escalation north of the Litani "dangerous and unprecedented." IDF operations toward Nabatieh continue. Source: ABC News, CNN, Times of Israel, June 3.',
+  },
+  {
+    date: '2026-06-03',
     event: 'IRGC drones strike Kuwait International Airport (1 killed, 63 injured); Bahrain intercepts 3 Iranian ballistic missiles + drones; CENTCOM self-defense strikes Qeshm Island; ceasefire Day 95 — Iran-US MOU still unsigned',
     type: 'escalation',
     status: 'escalation',
