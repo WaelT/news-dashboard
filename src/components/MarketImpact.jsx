@@ -46,18 +46,18 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
-  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
-  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
-  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
-  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
-  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
-  { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
-  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
-  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
-  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
-  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
+  { label: 'Brent Crude (now)', value: '+43%', sub: '~$97/barrel (Jun 4)', color: '#ff6600' },
+  { label: 'Hormuz Oil Flow', value: '89%', sub: 'disrupted vs pre-war', color: '#ff6600' },
+  { label: 'LNG Spot Price', value: '$43', sub: '/MMBtu spot', color: '#ff6600' },
+  { label: 'US Gas Price', value: '$4.52', sub: '/gallon avg (AAA)', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '78,000+', sub: 'total since conflict', color: '#0088cc' },
+  { label: 'VLCC Tanker Rate', value: '$385K+', sub: '/day to Asia', color: '#ff0040' },
+  { label: 'War Risk Insurance', value: '+700%', sub: '8× pre-war levels', color: '#ff0040' },
+  { label: 'Brent Peak (Apr)', value: '$126', sub: 'war-high (from $68)', color: '#ff0040' },
+  { label: 'Vessels Stranded', value: '1,900+', sub: 'Gulf of Oman/Persian Gulf', color: '#ff0040' },
+  { label: 'Tankers Queued', value: '295', sub: 'awaiting Hormuz transit', color: '#d4a017' },
+  { label: 'Eurozone Growth', value: '-0.8%', sub: 'GDP cut (IMF 2026)', color: '#d4a017' },
+  { label: 'GCC GDP Impact', value: '-3.8%', sub: '$64B estimated loss', color: '#d4a017' },
 ];
 
 function EconomicImpact() {
