@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 3, 2026',
+  updated: 'JUNE 4, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1001,8 +1001,15 @@ const groundOps = {
       date: '2026-06-03',
       lat: 29.2264,
       lng: 47.9689,
-      event: "IRGC drones strike Kuwait International Airport Terminal 1 — 1 killed, 63 injured, significant material damage, flights suspended; Bahrain Defence Force intercepts 3 Iranian ballistic missiles + several drones over Bahrain; CENTCOM self-defense strikes IRGC facility on Qeshm Island (Hormuz) in response to Iranian attacks; IRGC claims attack on US 5th Fleet HQ Bahrain — CENTCOM denies; all US forces safe; Brent rises toward $98/bbl on escalation (Al Jazeera, NPR, GlobalSecurity, Bahrain BDF, CENTCOM, June 3)",
+      event: "IRGC drones strike Kuwait International Airport Terminal 1 — 1 killed (Indian citizen, confirmed), 63 injured, significant material damage, flights suspended; Bahrain Defence Force intercepts 3 Iranian ballistic missiles + several drones over Bahrain; CENTCOM self-defense strikes IRGC facility on Qeshm Island (Hormuz) in response to Iranian attacks; IRGC claims attack on US 5th Fleet HQ Bahrain — CENTCOM denies; all US forces safe; Brent rises toward $97–101/bbl on escalation (Al Jazeera, NPR, GlobalSecurity, Bahrain BDF, CENTCOM, June 3)",
       type: 'escalation',
+    },
+    {
+      date: '2026-06-04',
+      lat: 33.38,
+      lng: 35.46,
+      event: "Day 96 — US-brokered Israel-Lebanon ceasefire implementation agreement announced June 3 (contingent on full Hezbollah withdrawal south of Litani River); IDF Chief: 'No ceasefire for our forces'; IDF continues operations toward Nabatieh; IDF issues evacuation warnings for 6 south Lebanon towns (Jbaa, Houmine El Faouqa, Arkey, Arzay, Mazraat Kauthariyet al-Rez, Zrariyeh); Kiryat Shmona and Galilee Panhandle air raid sirens active; Iran-US 60-day MOU still unsigned; no new kinetic exchanges on Iran front; US House War Powers resolution passed 215-208 (June 3); Lebanon toll 3,468/10,577 (Lebanese Ministry of Health, June 3); Brent ~$97/bbl (ABC News, CNN, Times of Israel, Al Jazeera, RFE/RL, June 3–4)",
+      type: 'ground',
     },
   ],
 };
