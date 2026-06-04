@@ -19,7 +19,7 @@
 //          CNBC (May 29 2026 — Brent $91.2/bbl −2% on day; −17% for May; lowest in ~6 weeks — ceasefire deal optimism)
 //          RFERL/NBC News/ABC7/CBS News/Al Jazeera (May 29-30 2026 — US-Iran tentative 60-day MOU; Trump/Khamenei sign-off still pending; Trump May 30 Truth Social: "Hormuz Strait must be immediately open, no tolls... All water mines will be terminated"; Lebanon toll 3,324/10,027)
 export const globalImpact = {
-  updated: '2026-06-03',
+  updated: '2026-06-04',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; IMF forecast: GDP −6.1% for 2026, inflation 68.9%; oil exports halted; $24B frozen assets at stake; June 1: Iran suspends all US talks via mediators (Tasnim/IRGC) — cites Israeli "continuing crimes" in Lebanon as ceasefire precondition violation; IRGC threatens full Hormuz closure + Bab al-Mandab activation; June 2: Trump says talks "back on at rapid pace" — contradiction with Iran\'s suspension unresolved; PGSA operational; 60-day MOU still unsigned' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Finance Ministry initial estimate: NIS 35B (~$11.5B) war cost (ToI Apr 12); ~$3B/week GDP loss; fiscal deficit from 3.9%→5.1% GDP; Lebanon ceasefire extended 45 days (~July 1) — Netanyahu orders IDF to expand Lebanon ground manoeuvre (June 1); IDF crosses Litani River toward Nabatieh; Lebanon toll 3,412 killed / 10,269 wounded (June 1); Pentagon Lebanon political talks June 2–3' },
@@ -37,7 +37,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 98, peak: 126, forecast: 90,
-    note: 'Brent ~$97–101/bbl (June 3 intraday; third consecutive session of gains — escalation risk premium after IRGC drones strike Kuwait International Airport Terminal 1 (1 killed, 63 injured) + Bahrain intercepts 3 Iranian BMs + drones; CENTCOM strikes Qeshm Island self-defense); WTI ~$93/bbl; Brent had been ~$94.58/bbl (June 2 close); surged 6.6% on June 1 after Iran suspended US talks; −17% for May then reversal on Iran talk collapse; June 1: Iran suspends all talks via mediators (Tasnim/IRGC); IRGC threatens full Hormuz closure + Bab al-Mandab activation; June 2: Trump says talks "back on at rapid pace"; Lebanon toll 3,460/10,480; June 3: IRGC strikes Kuwait Airport + Bahrain; CENTCOM strikes Qeshm Island; Lebanon toll 3,468/10,577; MOU still unsigned; PGSA operational; UKMTO 2026-041 in effect; war-risk insurance still 8× pre-crisis (Fortune, Al Jazeera, NPR, TradingEconomics, CENTCOM, June 3)',
+    preWar: 68, current: 97, peak: 126, forecast: 90,
+    note: 'Brent ~$97/bbl (June 4 early trading; range $96–101 on June 3–4); WTI ~$93/bbl; Brent had been ~$94.58/bbl (June 2 close); surged 6.6% on June 1 after Iran suspended US talks; −17% for May then reversal on Iran talk collapse; June 1: Iran suspends all talks via mediators (Tasnim/IRGC); IRGC threatens full Hormuz closure + Bab al-Mandab activation; June 2: Trump says talks "back on at rapid pace"; Lebanon toll 3,460/10,480; June 3: IRGC strikes Kuwait Airport (1 killed/63 injured) + Bahrain intercepts 3 Iranian BMs; CENTCOM strikes Qeshm Island; Israel-Lebanon US-brokered ceasefire implementation agreement announced; US House passes War Powers resolution 215-208; Lebanon toll 3,468/10,577; June 4 (Day 96): no new kinetic exchanges on Iran front; MOU still unsigned; PGSA operational; UKMTO 2026-041 in effect; war-risk insurance still 8× pre-crisis; shipping executives unwilling to transit without definitive peace agreement (Fortune, Al Jazeera, NPR, TradingEconomics, CENTCOM, CNN Business, ABC News, CNN, RFE/RL, June 3–4)',
   },
 };
