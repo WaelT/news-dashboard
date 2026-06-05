@@ -36,7 +36,7 @@ const DEFAULT_CASUALTIES = {
   qatar: { killed: 4, wounded: 20 },
   saudi: { killed: 3, wounded: 29 },
   jordan: { killed: 0, wounded: 29 },
-  oman: { killed: 3, wounded: 17 },
+  oman: { killed: 9, wounded: 18 },
   syria: { killed: 2, wounded: 1 },
   palestine: { killed: 14, wounded: 15 },
   turkey: { killed: 3, wounded: 0 },

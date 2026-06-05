@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T03:24:45.840Z",
+  "updatedAt": "2026-06-05T09:38:50.367Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "lebanon": {
@@ -39,8 +39,8 @@
       "wounded": 29
     },
     "oman": {
-      "killed": 3,
-      "wounded": 17
+      "killed": 9,
+      "wounded": 18
     },
     "france": {
       "killed": 3,
