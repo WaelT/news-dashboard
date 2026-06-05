@@ -2157,6 +2157,20 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Iranian drones strike Kuwait International Airport Terminal 1 — 1 person killed, 63 injured, significant material damage; Kuwaiti authorities suspend all flights. Bahrain Defence Force (BDF) confirms intercepting 3 Iranian ballistic missiles and several drones over Bahrain — all defeated. CENTCOM announces self-defense strikes on an IRGC facility on Qeshm Island (Strait of Hormuz) in response to Iranian attacks on Gulf targets; IRGC claims it struck the US 5th Fleet HQ in Bahrain — CENTCOM denies the claim as false; all US forces safe. Brent crude rises toward $98/bbl (third consecutive session of gains) driven by escalation risk premium — up from $94.58/bbl (June 2 close). Iran-US 60-day MOU remains unsigned as Iran escalates kinetic activity across the Gulf while suspending indirect talks via mediators; PGSA operational; UKMTO 2026-041 in effect (Al Jazeera, NPR, GlobalSecurity.org, Bahrain BDF, CENTCOM, Fortune, June 3).',
   },
+  {
+    date: '2026-06-04',
+    event: 'Day 97 — US-brokered fragile Lebanon partial halt; Rubio tells Congress new Supreme Leader Khamenei "increasingly engaged"; Iran-US 60-day MOU still unsigned; no new kinetic exchanges on Iran front',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Day 97 of the 2026 Iran war. The ceasefire between US/Israel and Iran continues to hold — no new kinetic exchanges on the Iran front. A fragile US-brokered partial halt emerges on the Lebanon front: Israel agrees (per US request) to hold off striking Beirut\'s southern suburbs (Dahiyeh); Hezbollah agrees not to attack Israel — described by Trump as progress but not confirmed by either party as a formal agreement. Secretary of State Marco Rubio tells Congress that new Supreme Leader Mojtaba Khamenei is "increasingly engaged" in nuclear and Hormuz talks — the most positive characterization of Iranian leadership disposition since the ceasefire began. Trump says a Hormuz reopening deal is reachable "within a week." The 60-day MOU (Hormuz reopen with no tolls; US lifts blockade; Iran clears mines; sanctions waivers; nuclear talks) remains unsigned — neither Trump nor Khamenei has given final approval. Lebanon Health Ministry cumulative toll: 3,516 killed / 10,674 wounded. PGSA operational; UKMTO 2026-041 in effect; Brent ~$97/bbl (Al Jazeera, Times of Israel, CNN, June 4).',
+  },
+  {
+    date: '2026-06-05',
+    event: 'Day 98 — Trump: Iran deal reachable "within a week"; ceasefire holds; 60-day MOU still unsigned; Lebanon toll 3,516/10,674',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Day 98 of the 2026 Iran war. The ceasefire between US/Israel and Iran continues to hold for a second consecutive day since the June 3 escalation. Trump maintains that a comprehensive deal including Hormuz reopening is reachable "within a week." Secretary of State Rubio has briefed Congress that new Supreme Leader Mojtaba Khamenei — who assumed power after Ayatollah Khamenei\'s health deterioration — is "increasingly engaged" in back-channel talks. Pakistan and Qatar continue to serve as the primary mediation conduits. The 60-day MOU framework (Hormuz reopen with no tolls, US lifts naval blockade, Iran clears mines, US issues sanctions waivers, 30-day nuclear/Hormuz protocol follow-on) remains unsigned. Iran has not publicly reversed its June 1 suspension of indirect talks but is maintaining back-channel contacts. IDF continues operations north of the Litani River toward Nabatieh despite the June 3 ceasefire implementation agreement; IDF Chief reiterated "no ceasefire for our forces." PGSA operational; UKMTO 2026-041 in effect; Brent ~$97/bbl; Lebanon toll 3,516/10,674 (Al Jazeera, Times of Israel, CNN, RFE/RL, June 5).',
+  },
 ];
 
 export const STATUS_COLORS = {
