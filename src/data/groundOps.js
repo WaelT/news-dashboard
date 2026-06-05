@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 4, 2026',
+  updated: 'JUNE 5, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1009,6 +1009,13 @@ const groundOps = {
       lat: 33.38,
       lng: 35.46,
       event: "Day 96 — US-brokered Israel-Lebanon ceasefire implementation agreement announced June 3 (contingent on full Hezbollah withdrawal south of Litani River); IDF Chief: 'No ceasefire for our forces'; IDF continues operations toward Nabatieh; IDF issues evacuation warnings for 6 south Lebanon towns (Jbaa, Houmine El Faouqa, Arkey, Arzay, Mazraat Kauthariyet al-Rez, Zrariyeh); Kiryat Shmona and Galilee Panhandle air raid sirens active; Iran-US 60-day MOU still unsigned; no new kinetic exchanges on Iran front; US House War Powers resolution passed 215-208 (June 3); Lebanon toll 3,468/10,577 (Lebanese Ministry of Health, June 3); Brent ~$97/bbl (ABC News, CNN, Times of Israel, Al Jazeera, RFE/RL, June 3–4)",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-05',
+      lat: 33.38,
+      lng: 35.46,
+      event: "Day 98 — IDF continues operations north of Litani River toward Nabatieh; IDF Chief maintains 'no ceasefire for our forces'; US-brokered fragile Lebanon partial halt (Israel holds off Dahiyeh strikes; Hezbollah not attacking Israel); Trump says Iran deal 'within a week'; Lebanon toll 3,516/10,674; no new kinetic exchanges on Iran front; 60-day MOU still unsigned",
       type: 'ground',
     },
   ],
