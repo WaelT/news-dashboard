@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 5, 2026',
+  updated: 'JUNE 6, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1016,6 +1016,13 @@ const groundOps = {
       lat: 33.38,
       lng: 35.46,
       event: "Day 98 — IDF continues operations north of Litani River toward Nabatieh; IDF Chief maintains 'no ceasefire for our forces'; US-brokered fragile Lebanon partial halt (Israel holds off Dahiyeh strikes; Hezbollah not attacking Israel); Trump says Iran deal 'within a week'; Lebanon toll 3,516/10,674; no new kinetic exchanges on Iran front; 60-day MOU still unsigned",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-06',
+      lat: 33.38,
+      lng: 35.46,
+      event: "Day 99 — IDF continues operations north of Litani River; Hezbollah formally rejects Lebanon ceasefire implementation agreement; CENTCOM downs 4 Iranian drones + strikes Goruk/Qeshm radars; Trump says deal 'this weekend'; Iran FM says no 'significant progress'; Lebanon toll 3,516/10,674; 60-day MOU still unsigned",
       type: 'ground',
     },
   ],
