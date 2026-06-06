@@ -97,6 +97,7 @@ export const dailyLaunches = [
   { date: '2026-06-03', missiles: 3, drones: 8, intercepted: 10, targets: ['Kuwait', 'Bahrain'] },
   { date: '2026-06-04', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   { date: '2026-06-05', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  { date: '2026-06-06', missiles: 0, drones: 4, intercepted: 4, targets: ['Strait of Hormuz'] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
