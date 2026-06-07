@@ -1025,6 +1025,20 @@ const groundOps = {
       event: "Day 99 — IDF continues operations north of Litani River; Hezbollah formally rejects Lebanon ceasefire implementation agreement; CENTCOM downs 4 Iranian drones + strikes Goruk/Qeshm radars; Trump says deal 'this weekend'; Iran FM says no 'significant progress'; Lebanon toll 3,516/10,674; 60-day MOU still unsigned",
       type: 'ground',
     },
+    {
+      date: '2026-06-06',
+      lat: 29.3721,
+      lng: 47.9783,
+      event: "Iran fires 7 ballistic missiles at Kuwait and Bahrain — 6 intercepted, 7th fails to reach target; CENTCOM shoots down 4 Iranian drones launched toward Strait of Hormuz; CENTCOM retaliates with self-defense strikes on Iranian coastal radar sites at Goruk and Qeshm Island; IRGC vows 'responses of a completely different scale and nature' if US continues striking Iranian territory; most kinetically active 24-hour period since April 8 ceasefire; no US or Kuwaiti personnel killed (CENTCOM, The National, Business Standard, June 6)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-06-07',
+      lat: 33.38,
+      lng: 35.46,
+      event: "Day 100 — No new confirmed IRGC attacks as of June 7 morning; 60-day MOU (Hormuz reopen with no tolls, US lifts blockade, Iran clears mines, sanctions waivers, 60-day nuclear/Hormuz protocol follow-on) still unsigned; Trump 'this weekend' deadline (stated June 6) unmet; Iran FM Araghchi says no 'significant progress' — demands Lebanon/Gaza component and $24B frozen assets released; IAEA DG Grossi: preliminary nuclear framework 'moving forward'; IDF continues operations north of Litani River toward Nabatieh; Lebanon toll 3,593/10,990; PGSA operational; UKMTO 2026-041 in effect; Brent ~$93.71/bbl (CENTCOM, IAEA, CNBC, Al Jazeera, June 6–7)",
+      type: 'ground',
+    },
   ],
 };
 
