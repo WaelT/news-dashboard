@@ -46,18 +46,18 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
-  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
-  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
-  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
-  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
-  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
-  { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
-  { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
-  { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
-  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
-  { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
+  { label: 'Brent Crude', value: '$92/bbl', sub: 'Jun 8; peak $126; pre-war $68', color: '#ff6600' },
+  { label: 'Hormuz Oil Flow', value: '89%', sub: 'blocked; ~2 mbd flowing', color: '#ff6600' },
+  { label: 'US Gas Price', value: '$4.50', sub: '/gallon national avg', color: '#3b82f6' },
+  { label: 'War-Risk Insurance', value: '+700%', sub: '8× pre-crisis; P&I clubs out', color: '#ff0040' },
+  { label: 'US Total War Cost', value: '$70B+', sub: "Moody's: $100B household", color: '#3b82f6' },
+  { label: 'GCC GDP + Damage', value: '$64B', sub: '−3.8% GDP (Oxford Econ)', color: '#ff6600' },
+  { label: 'Israel War Cost', value: '$26B', sub: '~$3B/week; deficit 5.1%', color: '#0088cc' },
+  { label: 'Iran GDP Collapse', value: '−22%', sub: 'IMF 2026 forecast', color: '#ff0040' },
+  { label: 'Vessels Redirected', value: '118+', sub: 'US blockade; 5 disabled', color: '#d4a017' },
+  { label: 'Shipping Detour', value: '+6–14 days', sub: 'Cape of Good Hope route', color: '#d4a017' },
+  { label: 'LNG Spot Price', value: '$43', sub: '/MMBtu Asia spot', color: '#ff6600' },
+  { label: 'Flights Diverted', value: '78,000+', sub: 'cancelled/diverted total', color: '#0088cc' },
 ];
 
 function EconomicImpact() {
