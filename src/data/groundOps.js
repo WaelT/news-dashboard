@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 6, 2026',
+  updated: 'JUNE 8, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1037,6 +1037,13 @@ const groundOps = {
       lat: 33.38,
       lng: 35.46,
       event: "Day 100 — No new confirmed IRGC attacks as of June 7 morning; 60-day MOU (Hormuz reopen with no tolls, US lifts blockade, Iran clears mines, sanctions waivers, 60-day nuclear/Hormuz protocol follow-on) still unsigned; Trump 'this weekend' deadline (stated June 6) unmet; Iran FM Araghchi says no 'significant progress' — demands Lebanon/Gaza component and $24B frozen assets released; IAEA DG Grossi: preliminary nuclear framework 'moving forward'; IDF continues operations north of Litani River toward Nabatieh; Lebanon toll 3,593/10,990; PGSA operational; UKMTO 2026-041 in effect; Brent ~$93.71/bbl (CENTCOM, IAEA, CNBC, Al Jazeera, June 6–7)",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-08',
+      lat: 33.38,
+      lng: 35.46,
+      event: "Day 101 — Trump 'this weekend' MOU deadline (June 7–8) passes without signed agreement; IDF continues operations north of Litani River toward Nabatieh; Lebanon Health Ministry: ~3,620 killed / ~11,080 wounded cumulative; no new IRGC attacks on Iran front as of June 8 morning — ceasefire fragile but holding; diplomatic back-channels via Pakistan/Qatar ongoing; Iran FM Araghchi maintains no 'significant progress', demands Lebanon/Gaza component + $24B frozen assets; PGSA toll collection operational; UKMTO 2026-041 in effect; Brent ~$92/bbl (Al Jazeera, CNBC, Times of Israel, Lebanese Health Ministry, June 8)",
       type: 'ground',
     },
   ],
