@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 8, 2026',
+  updated: 'JUNE 9, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1043,8 +1043,29 @@ const groundOps = {
       date: '2026-06-08',
       lat: 33.38,
       lng: 35.46,
-      event: "Day 101 — Trump 'this weekend' MOU deadline (June 7–8) passes without signed agreement; IDF continues operations north of Litani River toward Nabatieh; Lebanon Health Ministry: ~3,620 killed / ~11,080 wounded cumulative; no new IRGC attacks on Iran front as of June 8 morning — ceasefire fragile but holding; diplomatic back-channels via Pakistan/Qatar ongoing; Iran FM Araghchi maintains no 'significant progress', demands Lebanon/Gaza component + $24B frozen assets; PGSA toll collection operational; UKMTO 2026-041 in effect; Brent ~$92/bbl (Al Jazeera, CNBC, Times of Israel, Lebanese Health Ministry, June 8)",
+      event: "Day 101 — Trump 'this weekend' MOU deadline (June 7–8) passes without signed agreement; IDF continues operations north of Litani River toward Nabatieh; Lebanon Health Ministry: ~3,620 killed / ~11,080 wounded cumulative; IDF issues evacuation orders for area near Lebanon's Tyre; Iran continues launching BMs at Israel overnight into June 8 after June 7 Dahiyeh retaliatory strike; Brent ~$94.48/bbl (Al Jazeera, CNBC, Times of Israel, Lebanese Health Ministry, i24NEWS, June 8)",
       type: 'ground',
+    },
+    {
+      date: '2026-06-07',
+      lat: 33.87,
+      lng: 35.52,
+      event: "IDF precision airstrike on Hezbollah HQ in Beirut's Dahiyeh — kills Hezbollah intelligence chief Hussain Makled and PIJ commander Adham Adnan al-Othman; 2 Lebanese civilians killed, 20 wounded (Lebanon Health Ministry); Iran's IRGC retaliates with 24 ballistic missiles at Israel — first direct Iran→Israel barrage since April 8 ceasefire; IRGC targets Ramat David Air Base; all 24 missiles intercepted or hit open areas — no Israeli casualties; IRGC warns responses 'will be broader' if aggressions repeated (IDF, Al Jazeera, Times of Israel, IRGC, PressTV, The War Zone, June 7)",
+      type: 'airstrike',
+    },
+    {
+      date: '2026-06-06',
+      lat: 33.20,
+      lng: 35.48,
+      event: "Sgt. Ohad Yaari, 21 (Givati Brigade Shaked Battalion, Rehovot) killed by suspected accidental firearm discharge in southern Lebanon — 16th IDF KIA since April 8 ceasefire; Cpt. Shahar Gamla, 23 (Egoz Unit, Commando Brigade, Natur) succumbs to Hezbollah drone injuries sustained Thursday June 5 — dies Saturday morning June 7; IDF 36th, 91st, 146th, 162nd Divisions continue operations north of Litani River (Times of Israel, Haaretz, The Jewish Chronicle, June 6–7)",
+      type: 'engagement',
+    },
+    {
+      date: '2026-06-09',
+      lat: 33.38,
+      lng: 35.46,
+      event: "Day 102 — Iran and Israel halt direct strikes on each other after Trump calls to 'stop shooting'; Iran suspends BM campaign vs. Israel, warns resumption if Lebanon struck; Israel also holds off; IDF continues southern Lebanon operations; Hezbollah claims ~20 attacks on IDF positions; Lebanon toll ~3,640/~11,130; 60-day MOU still unsigned — Iran FM: 'extreme suspicion'; PGSA operational; UKMTO 2026-041 in effect; Brent ~$95/bbl (CNN, CBC News, CBS News, Al Jazeera, Times of Israel, June 9)",
+      type: 'ceasefire',
     },
   ],
 };
