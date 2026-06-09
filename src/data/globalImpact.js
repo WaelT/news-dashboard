@@ -19,7 +19,7 @@
 //          CNBC (May 29 2026 — Brent $91.2/bbl −2% on day; −17% for May; lowest in ~6 weeks — ceasefire deal optimism)
 //          RFERL/NBC News/ABC7/CBS News/Al Jazeera (May 29-30 2026 — US-Iran tentative 60-day MOU; Trump/Khamenei sign-off still pending; Trump May 30 Truth Social: "Hormuz Strait must be immediately open, no tolls... All water mines will be terminated"; Lebanon toll 3,324/10,027)
 export const globalImpact = {
-  updated: '2026-06-08',
+  updated: '2026-06-09',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; IMF forecast: GDP −6.1% for 2026, inflation 68.9%; oil exports halted; $24B frozen assets at stake; June 1: Iran suspends all US talks via mediators (Tasnim/IRGC) — cites Israeli "continuing crimes" in Lebanon as ceasefire precondition violation; IRGC threatens full Hormuz closure + Bab al-Mandab activation; June 2: Trump says talks "back on at rapid pace" — contradiction with Iran\'s suspension unresolved; PGSA operational; 60-day MOU still unsigned' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Finance Ministry initial estimate: NIS 35B (~$11.5B) war cost (ToI Apr 12); ~$3B/week GDP loss; fiscal deficit from 3.9%→5.1% GDP; Lebanon ceasefire extended 45 days (~July 1) — Netanyahu orders IDF to expand Lebanon ground manoeuvre (June 1); IDF crosses Litani River toward Nabatieh; Lebanon toll 3,412 killed / 10,269 wounded (June 1); Pentagon Lebanon political talks June 2–3' },
@@ -37,7 +37,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 92, peak: 126, forecast: 90,
-    note: 'Brent ~$92/bbl (June 8; CNBC); WTI ~$90/bbl; June 8 (Day 101): Trump "this weekend" MOU deadline passes without signed agreement; no new IRGC attacks on Iran front — ceasefire fragile but holding; diplomatic back-channels via Pakistan/Qatar continue; Iran FM Araghchi: no "significant progress", demands Lebanon/Gaza component + $24B frozen assets; Lebanon toll ~3,620 killed / ~11,080 wounded; PGSA operational; UKMTO 2026-041 in effect; war-risk insurance still 8× pre-crisis; shipping executives unwilling to transit without definitive peace agreement (CNBC, Al Jazeera, Lebanese Health Ministry, June 8)',
+    preWar: 68, current: 95, peak: 126, forecast: 92,
+    note: 'Brent ~$95/bbl (June 9; up from $94.48 June 8; TradingEconomics/CNBC); June 9 (Day 102): Iran and Israel halt direct strikes on each other after Trump calls to "stop shooting" — both warn ready to resume; Iran suspended BM campaign vs. Israel after ceasefire violation June 7 (24 BMs fired at Ramat David airbase, all intercepted); IDF struck Beirut Dahiyeh June 7, killing Hezbollah intel chief Hussain Makled; Lebanon toll ~3,640 killed / ~11,130 wounded; Hormuz ~7 vessels/day transiting; 60-day MOU still unsigned — Iran FM: "extreme suspicion"; PGSA operational; UKMTO 2026-041 in effect (CNN, CBC News, Al Jazeera, CNBC, Times of Israel, June 8–9)',
   },
 };

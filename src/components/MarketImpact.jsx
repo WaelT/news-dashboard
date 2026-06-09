@@ -17,7 +17,7 @@ const FALLBACK = {
   nasdaq: { price: 26920.47, change: 2.03 },
   dowjones: { price: 50344.82, change: 1.48 },
   nikkei: { price: 62180.55, change: 1.24 },
-  brent: { price: 92.10, change: -1.72 },
+  brent: { price: 95.20, change: 1.49 },
   btc: { price: 104820.00, change: 0.87 },
   gold: { price: 3285.40, change: -0.43 },
   silver: { price: 33.15, change: -0.62 },
@@ -46,7 +46,7 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude', value: '$92/bbl', sub: 'Jun 8; peak $126; pre-war $68', color: '#ff6600' },
+  { label: 'Brent Crude', value: '$95/bbl', sub: 'Jun 9; peak $126; pre-war $68', color: '#ff6600' },
   { label: 'Hormuz Oil Flow', value: '89%', sub: 'blocked; ~2 mbd flowing', color: '#ff6600' },
   { label: 'US Gas Price', value: '$4.50', sub: '/gallon national avg', color: '#3b82f6' },
   { label: 'War-Risk Insurance', value: '+700%', sub: '8× pre-crisis; P&I clubs out', color: '#ff0040' },
