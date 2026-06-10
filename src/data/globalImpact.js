@@ -19,7 +19,7 @@
 //          CNBC (May 29 2026 — Brent $91.2/bbl −2% on day; −17% for May; lowest in ~6 weeks — ceasefire deal optimism)
 //          RFERL/NBC News/ABC7/CBS News/Al Jazeera (May 29-30 2026 — US-Iran tentative 60-day MOU; Trump/Khamenei sign-off still pending; Trump May 30 Truth Social: "Hormuz Strait must be immediately open, no tolls... All water mines will be terminated"; Lebanon toll 3,324/10,027)
 export const globalImpact = {
-  updated: '2026-06-09',
+  updated: '2026-06-10',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; IMF forecast: GDP −6.1% for 2026, inflation 68.9%; oil exports halted; $24B frozen assets at stake; June 1: Iran suspends all US talks via mediators (Tasnim/IRGC) — cites Israeli "continuing crimes" in Lebanon as ceasefire precondition violation; IRGC threatens full Hormuz closure + Bab al-Mandab activation; June 2: Trump says talks "back on at rapid pace" — contradiction with Iran\'s suspension unresolved; PGSA operational; 60-day MOU still unsigned' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Finance Ministry initial estimate: NIS 35B (~$11.5B) war cost (ToI Apr 12); ~$3B/week GDP loss; fiscal deficit from 3.9%→5.1% GDP; Lebanon ceasefire extended 45 days (~July 1) — Netanyahu orders IDF to expand Lebanon ground manoeuvre (June 1); IDF crosses Litani River toward Nabatieh; Lebanon toll 3,412 killed / 10,269 wounded (June 1); Pentagon Lebanon political talks June 2–3' },
@@ -27,7 +27,7 @@ export const globalImpact = {
     { region: 'Japan', flag: 'jp', pct: -1.1, costBn: 10, note: '80% oil via Hormuz; LNG rerouting; Eneos-managed tanker transits Hormuz May 15 (LSEG); May 30: awaiting Trump signature on 60-day MOU — formal Hormuz reopening would relieve pressure' },
     { region: 'EU', flag: 'eu', pct: -0.8, costBn: 18, note: 'Energy import surge; IMF cut growth forecast to 1.1%; World Bank downgraded regional GDP from 4.4%→1.3%; Brent $91.2/bbl (down from $126 peak) on deal optimism; May 30: MOU awaiting final sign-off' },
     { region: 'India', flag: 'in', pct: -0.7, costBn: 9, note: '60% oil via Gulf; Indian cargo vessel sunk off Oman by IRGC May 15; India-UAE defence pacts signed May 15; 10 Indian sailors released from Iran May 27 (India MEA); diverting purchases to West Africa and Americas' },
-    { region: 'US', flag: 'us', pct: -0.5, costBn: 70, note: 'Pentagon: $29B+ direct military cost (Military Times May 12; updated from $25B at Day 60); Moody\'s: $100B household cost (~$750/household); independent economists: $630B–$1T total; ~$1.1B/day; CENTCOM: 118 vessels redirected, 5 disabled total; June 8 (Day 101): Trump "this weekend" MOU deadline passes unsigned; Iran-US impasse continues; gas ~$4.50/gal; war-risk insurance still 8× pre-crisis; shipping executives unwilling to transit without signed agreement (NBC News, Military Times, Fortune/Moody\'s, CENTCOM, June 8)' },
+    { region: 'US', flag: 'us', pct: -0.5, costBn: 70, note: 'Pentagon: $29B+ direct military cost (Military Times May 12; updated from $25B at Day 60); Moody\'s: $100B household cost (~$750/household); independent economists: $630B–$1T total; ~$1.1B/day; CENTCOM: 118 vessels redirected, 5 disabled total; June 10 (Day 103): Iran/Israel halt of direct strikes holds 2nd day; 60-day MOU still unsigned; gas ~$4.50/gal; war-risk insurance still 8× pre-crisis; shipping executives unwilling to transit without signed deal; back-channel talks via Pakistan/Qatar ongoing (NBC News, Military Times, Fortune/Moody\'s, CENTCOM, Al Jazeera, June 10)' },
     { region: 'China', flag: 'cn', pct: -0.5, costBn: 13, note: '45% oil via Hormuz; paying PGSA fees in yuan; 12 entities sanctioned May 12; Xi pledges no military equipment to Iran (summit May 15); Brent $91.2/bbl on deal optimism — China closely monitoring Hormuz reopening for oil security' },
   ],
   disruptions: {
@@ -37,7 +37,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 95, peak: 126, forecast: 92,
-    note: 'Brent ~$95/bbl (June 9; up from $94.48 June 8; TradingEconomics/CNBC); June 9 (Day 102): Iran and Israel halt direct strikes on each other after Trump calls to "stop shooting" — both warn ready to resume; Iran suspended BM campaign vs. Israel after ceasefire violation June 7 (24 BMs fired at Ramat David airbase, all intercepted); IDF struck Beirut Dahiyeh June 7, killing Hezbollah intel chief Hussain Makled; Lebanon toll ~3,640 killed / ~11,130 wounded; Hormuz ~7 vessels/day transiting; 60-day MOU still unsigned — Iran FM: "extreme suspicion"; PGSA operational; UKMTO 2026-041 in effect (CNN, CBC News, Al Jazeera, CNBC, Times of Israel, June 8–9)',
+    preWar: 68, current: 94, peak: 126, forecast: 91,
+    note: 'Brent ~$94/bbl (June 10; TradingEconomics/CNBC); June 10 (Day 103): Iran/Israel halt of direct strikes holds for 2nd consecutive day — IDF continues Lebanon ground ops north of Litani River; Hezbollah fires rockets/anti-tank missiles at IDF positions; Lebanon toll ~3,648; 60-day MOU still unsigned — Iran FM maintains "extreme suspicion"; back-channel talks via Pakistan/Qatar ongoing; Hormuz ~7 vessels/day transiting; PGSA operational; UKMTO 2026-041 in effect; war-risk insurance still 8× pre-crisis; shipping executives unwilling to transit without signed deal (Al Jazeera, Reuters, CENTCOM, Times of Israel, CNBC, June 10)',
   },
 };
