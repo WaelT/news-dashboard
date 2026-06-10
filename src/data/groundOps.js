@@ -1067,6 +1067,13 @@ const groundOps = {
       event: "Day 102 — Iran and Israel halt direct strikes on each other after Trump calls to 'stop shooting'; Iran suspends BM campaign vs. Israel, warns resumption if Lebanon struck; Israel also holds off; IDF continues southern Lebanon operations; Hezbollah claims ~20 attacks on IDF positions; Lebanon toll ~3,640/~11,130; 60-day MOU still unsigned — Iran FM: 'extreme suspicion'; PGSA operational; UKMTO 2026-041 in effect; Brent ~$95/bbl (CNN, CBC News, CBS News, Al Jazeera, Times of Israel, June 9)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-06-10',
+      lat: 33.38,
+      lng: 35.46,
+      event: "Day 103 — Iran/Israel halt of direct strikes continues for 2nd consecutive day; IDF operations north of Litani toward Nabatieh continue; Hezbollah fires rockets and anti-tank missiles at IDF positions in south Lebanon; Lebanon toll ~3,648; 60-day MOU still unsigned — Pakistan/Qatar back-channel contacts ongoing despite Iran June 1 formal suspension of indirect talks; PGSA operational; UKMTO 2026-041 in effect; Brent ~$93–$95/bbl (Al Jazeera, CENTCOM, Reuters, Times of Israel, June 10)",
+      type: 'ground',
+    },
   ],
 };
 
