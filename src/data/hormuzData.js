@@ -36,12 +36,12 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-06-10T12:00Z',
+  updated: '2026-06-10T18:00Z',
 
   current: {
-    transitsPerDay: 7,
-    oilFlowMbd: 1.4,
-    disruptionPct: 92,
+    transitsPerDay: 6,
+    oilFlowMbd: 1.2,
+    disruptionPct: 93,
   },
 
   preWar: {

@@ -37,7 +37,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 94, peak: 126, forecast: 91,
-    note: 'Brent ~$94/bbl (June 10; TradingEconomics/CNBC); June 10 (Day 103): Iran/Israel halt of direct strikes holds for 2nd consecutive day — IDF continues Lebanon ground ops north of Litani River; Hezbollah fires rockets/anti-tank missiles at IDF positions; Lebanon toll ~3,648; 60-day MOU still unsigned — Iran FM maintains "extreme suspicion"; back-channel talks via Pakistan/Qatar ongoing; Hormuz ~7 vessels/day transiting; PGSA operational; UKMTO 2026-041 in effect; war-risk insurance still 8× pre-crisis; shipping executives unwilling to transit without signed deal (Al Jazeera, Reuters, CENTCOM, Times of Israel, CNBC, June 10)',
+    preWar: 68, current: 92, peak: 126, forecast: 91,
+    note: 'Brent ~$92/bbl (June 10 updated; TradingEconomics/CNBC); June 10 (Day 103, updated): US Army AH-64 Apache helicopter downed near Strait of Hormuz (June 9) — likely IRGC drone; CENTCOM self-defense strikes on Iranian air defense sites/radar/ground control near Hormuz (June 9 21:00 UTC); Iran retaliates overnight June 9-10 with missiles + drones at 5th Fleet HQ Bahrain, Al-Azraq AFB Jordan (5 missiles intercepted), and Ali Al-Salem AB Kuwait — nearly all intercepted; Trump: "Iran taking too long. Now they will have to pay the price"; Hormuz ~6 vessels/day transiting; PGSA operational; UKMTO 2026-041 in effect; war-risk insurance still 8× pre-crisis; IDF continues Lebanon ops; Lebanon toll ~3,648 (Al Jazeera, NPR, CENTCOM, Reuters, Iran International, June 9-10)',
   },
 };
