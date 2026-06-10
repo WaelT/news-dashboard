@@ -2206,6 +2206,34 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 99 of the 2026 Iran war. US Central Command shoots down 4 Iranian one-way attack drones launched toward the Strait of Hormuz and, in a self-defense response, strikes Iranian coastal surveillance radar stations on Goruk and Qeshm Island — at least the 4th publicly announced US self-defense strike series since the April 8 ceasefire (CNN June 5 liveblog, CENTCOM Friday statement). Iran\'s Foreign Minister claims US struck an Iranian oil tanker and a telecom tower on Qeshm Island — disputed by US. Separately, Hezbollah formally rejects the US-brokered Lebanon ceasefire implementation agreement announced June 3 — the deal collapses; IDF continues operations north of the Litani River (CNN June 4 liveblog, Al Jazeera June 4 liveblog). President Trump tells reporters a comprehensive deal including Hormuz reopening is reachable "this weekend" — the most optimistic US timeline stated since the ceasefire began. Iran FM Araghchi contradicts Trump: "no tangible progress" in talks; Iran demands release of $24B in frozen assets before substantive progress. Trump says he would consider meeting new Supreme Leader Mojtaba Khamenei if a deal is reached. IAEA DG Grossi: discussions possibly moving toward a preliminary nuclear framework. PGSA toll collection continues; UKMTO 2026-041 in effect; Brent ~$95/bbl (down ~3% on the day on diplomatic optimism; CNN, Al Jazeera, CENTCOM, RFE/RL, June 6).',
   },
+  {
+    date: '2026-06-07',
+    event: 'Day 100 — IDF strikes Beirut Dahiyeh killing Hezbollah intel chief Makled; Iran retaliates with 24 BMs at Ramat David airbase; all intercepted; ceasefire effectively broken',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 100 of the 2026 Iran war. IDF conducts precision airstrike on Hezbollah HQ in Beirut\'s Dahiyeh district, killing Hezbollah intelligence chief Hussain Makled and PIJ commander Adham Adnan al-Othman; 2 Lebanese civilians killed, 20 wounded (Lebanon Health Ministry). In retaliation, Iran\'s IRGC fires 24 ballistic missiles at Ramat David Air Base in northern Israel — the first direct Iran→Israel ballistic missile barrage since the April 8 ceasefire; all 24 missiles intercepted or strike open areas; no Israeli casualties. IRGC warns "responses will be broader" if aggressions are repeated. Sgt. Ohad Yaari (21, Givati Brigade) killed by suspected accidental firearm discharge in southern Lebanon June 6; Cpt. Shahar Gamla (23, Egoz Unit) dies June 7 of Hezbollah drone injuries sustained June 5. 60-day MOU still unsigned — Trump\'s "this weekend" deal timeline unmet. Lebanon toll ~3,620/~11,080; Brent ~$94.48/bbl (IDF, IRGC, Al Jazeera, Times of Israel, The War Zone, June 7).',
+  },
+  {
+    date: '2026-06-08',
+    event: 'Day 101 — Trump "this weekend" MOU deadline passes unsigned; Iran continues BM launches overnight into June 8; IDF issues evacuation orders near Tyre',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 101. Trump\'s publicly stated "this weekend" deadline for the 60-day MOU passes without a signed agreement. Iran continues ballistic missile launches overnight into June 8, targeting Israel. IDF issues evacuation orders for areas near Lebanon\'s Tyre as ground operations continue north of the Litani River toward Nabatieh. Lebanon Health Ministry: ~3,620 killed / ~11,080 wounded cumulative. 60-day MOU (Hormuz reopen with no tolls, US lifts blockade, Iran clears mines, sanctions waivers, 60-day nuclear/Hormuz follow-on talks) still awaiting Trump/Khamenei final sign-off. Iran FM Araghchi: deal requires Lebanon and Gaza component plus $24B frozen assets — conditions US has not accepted. PGSA toll collection continues; UKMTO 2026-041 in effect; Brent ~$94.48/bbl (Al Jazeera, CNBC, Times of Israel, Lebanese Health Ministry, i24NEWS, June 8).',
+  },
+  {
+    date: '2026-06-09',
+    event: 'Day 102 — Iran and Israel halt direct strikes after Trump "stop shooting" appeal; both warn ready to resume; Lebanon toll ~3,640/~11,130; MOU still unsigned',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Day 102. Iran and Israel halt direct strikes on each other following personal calls from President Trump urging both sides to "stop shooting." Iran suspends its ballistic missile campaign against Israel; warns it will resume if Lebanon is struck again. Israel also holds off on further Dahiyeh-area strikes. IDF continues ground operations in southern Lebanon north of the Litani River; Hezbollah claims ~20 attacks on IDF positions. 60-day MOU (Hormuz reopen/no tolls, US lifts blockade, Iran clears mines, 60-day nuclear/sanctions follow-on) still unsigned — Iran FM Araghchi cites "extreme suspicion" of US intentions; $24B frozen asset demand and Lebanon/Gaza precondition unresolved. PGSA toll collection continues; ~7 vessels/day transiting Hormuz (independent count); Brent ~$95/bbl. Lebanon toll ~3,640 killed / ~11,130 wounded (Lebanese Ministry of Health). UKMTO 2026-041 in effect (CNN, CBC News, CBS News, Al Jazeera, Times of Israel, CENTCOM, June 9).',
+  },
+  {
+    date: '2026-06-10',
+    event: 'Day 103 — Iran/Israel halt of direct strikes holds for 2nd day; IDF continues Lebanon ops; 60-day MOU negotiations ongoing via Pakistan/Qatar back-channel',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Day 103. The Iran-Israel halt of direct strikes continues for a second day — no new ballistic missile exchanges between the two countries. IDF operations north of the Litani River toward Nabatieh continue; Hezbollah fires rockets and anti-tank missiles at IDF positions. Lebanon Health Ministry reports incremental toll increase. 60-day MOU framework remains unsigned. Pakistan and Qatar back-channel contacts with Iran continue despite Iran\'s formal June 1 suspension of indirect talks via mediators. Iran FM Araghchi reiterates "extreme suspicion" of US intentions and conditions (Lebanon/Gaza component, $24B frozen assets) unmet. PGSA toll collection continues; ~7 vessels/day transiting Hormuz; Brent ~$93–$95/bbl. UKMTO 2026-041 in effect (Al Jazeera, CNBC, Times of Israel, CENTCOM, Reuters, June 10).',
+  },
 ];
 
 export const STATUS_COLORS = {
