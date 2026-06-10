@@ -1074,6 +1074,20 @@ const groundOps = {
       event: "Day 103 — Iran/Israel halt of direct strikes continues for 2nd consecutive day; IDF operations north of Litani toward Nabatieh continue; Hezbollah fires rockets and anti-tank missiles at IDF positions in south Lebanon; Lebanon toll ~3,648; 60-day MOU still unsigned — Pakistan/Qatar back-channel contacts ongoing despite Iran June 1 formal suspension of indirect talks; PGSA operational; UKMTO 2026-041 in effect; Brent ~$93–$95/bbl (Al Jazeera, CENTCOM, Reuters, Times of Israel, June 10)",
       type: 'ground',
     },
+    {
+      date: '2026-06-10',
+      lat: 26.57,
+      lng: 56.24,
+      event: "US Army AH-64 Apache helicopter downed near Strait of Hormuz (June 9) — likely by IRGC drone; both pilots rescued by drone boat; Trump confirms Iran responsible; CENTCOM self-defense strikes on Iranian air defense sites, radar stations, and ground control stations near Strait of Hormuz (June 9, 21:00 UTC); CENTCOM declares strikes 'completed'; Brent ~$93/bbl; PGSA operational; UKMTO 2026-041 in effect (NPR, CENTCOM, Al Jazeera, June 9–10)",
+      type: 'airstrike',
+    },
+    {
+      date: '2026-06-10',
+      lat: 26.21,
+      lng: 50.60,
+      event: "IRGC overnight June 9-10 missile + drone barrage in retaliation for CENTCOM Apache-downing strikes — targets: US 5th Fleet HQ (Bahrain), F-35 hangars and C2 center at Al-Azraq AFB (Jordan — Jordanian air defenses intercept 5 missiles, debris falls with no casualties), and Ali Al-Salem Air Base (Kuwait); nearly all intercepted per US initial assessment; IRGC claims 70% of targets hit; Trump (June 10): 'Iran is taking too long to negotiate a deal. Now they will have to pay the price.' Back-channel contacts via Pakistan/Qatar continue (CENTCOM, NPR, Al Jazeera, Iran International, June 10)",
+      type: 'escalation',
+    },
   ],
 };
 

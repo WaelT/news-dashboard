@@ -2234,6 +2234,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 103. The Iran-Israel halt of direct strikes continues for a second day — no new ballistic missile exchanges between the two countries. IDF operations north of the Litani River toward Nabatieh continue; Hezbollah fires rockets and anti-tank missiles at IDF positions. Lebanon Health Ministry reports incremental toll increase. 60-day MOU framework remains unsigned. Pakistan and Qatar back-channel contacts with Iran continue despite Iran\'s formal June 1 suspension of indirect talks via mediators. Iran FM Araghchi reiterates "extreme suspicion" of US intentions and conditions (Lebanon/Gaza component, $24B frozen assets) unmet. PGSA toll collection continues; ~7 vessels/day transiting Hormuz; Brent ~$93–$95/bbl. UKMTO 2026-041 in effect (Al Jazeera, CNBC, Times of Israel, CENTCOM, Reuters, June 10).',
   },
+  {
+    date: '2026-06-10',
+    event: 'US Apache helicopter downed near Hormuz — CENTCOM strikes Iranian sites; Iran retaliates at Bahrain, Jordan, Kuwait; Trump: "Iran will have to pay the price"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'US Army AH-64 Apache helicopter downed near the Strait of Hormuz (June 9) — likely by IRGC drone; both pilots rescued by drone boat. President Trump confirms Iran is responsible and says the US "must respond." CENTCOM conducts self-defense strikes on Iranian air defense sites, radar stations, and ground control stations near the Strait of Hormuz (June 9, 21:00 UTC); CENTCOM declares strikes "completed." Iran retaliates overnight June 9–10 with missiles and drones targeting: US 5th Fleet HQ in Bahrain; F-35 hangars and C2 center at Al-Azraq Air Force Base in Jordan — Jordanian air defenses intercept 5 missiles, debris falls with no casualties; and Ali Al-Salem Air Base in Kuwait. Nearly all missiles and drones intercepted per US initial assessment; IRGC claims 70% of targets hit. Trump statement June 10: "Iran is taking too long to negotiate a deal. Now they will have to pay the price." US envoy Witkoff continuing direct and mediated discussions; Iran FM Araghchi maintains "no significant progress" and conditions (Lebanon/Gaza, $24B frozen assets) remain unmet. PGSA toll collection continues; UKMTO 2026-041 in effect; Brent ~$93/bbl (NPR, CENTCOM, Al Jazeera, Iran International, AP, June 9–10).',
+  },
 ];
 
 export const STATUS_COLORS = {

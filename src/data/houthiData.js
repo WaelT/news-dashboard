@@ -3,14 +3,14 @@
 //          Gulf News, The Middle East Insider, NBC News
 export const houthiData = {
   updated: '2026-06-10',
-  status: 'ACTIVE — JUNE 10 (DAY 103): IRAN/ISRAEL HALT OF DIRECT STRIKES HOLDS FOR 2ND CONSECUTIVE DAY; IDF CONTINUES LEBANON OPS NORTH OF LITANI; HEZBOLLAH FIRING ROCKETS/ANTI-TANK MISSILES AT IDF POSITIONS; LEBANON TOLL ~3,648; 60-DAY MOU STILL UNSIGNED — BACK-CHANNEL TALKS VIA PAKISTAN/QATAR CONTINUING; BRENT ~$93–$95/BBL; PGSA OPERATIONAL; UKMTO 2026-041 IN EFFECT; IRGC BAB AL-MANDAB CLOSURE THREAT PERSISTS',
+  status: 'ACTIVE — JUNE 10 (DAY 103): US APACHE HELICOPTER DOWNED NEAR HORMUZ (JUNE 9); CENTCOM STRIKES IRANIAN AIR DEFENSE SITES; IRAN RETALIATES AT BAHRAIN/JORDAN/KUWAIT; TRUMP: "IRAN WILL HAVE TO PAY THE PRICE"; HOUTHIS FIRED 2 BMS AT CENTRAL ISRAEL (JUNE 8); IRGC BAB AL-MANDAB CLOSURE THREAT PERSISTS; PGSA OPERATIONAL; UKMTO 2026-041 IN EFFECT; BRENT ~$92/BBL',
   babAlMandab: {
     globalTradePct: 15,
-    closureThreat: 'IRGC and Axis of Resistance resolve to activate Bab al-Mandab front (June 1) — Iran cites Israeli Lebanon ops as ceasefire violation; Houthis ordered to resume Red Sea shipping attacks if Hormuz deal collapses',
+    closureThreat: 'IRGC and Axis of Resistance resolve to activate Bab al-Mandab front (June 1) — Iran cites Israeli Lebanon ops as ceasefire violation; Houthis ordered to resume Red Sea shipping attacks if Hormuz deal collapses; Houthis fired 2 ballistic missiles at central Israel June 8 — first Houthi attack on Israel since April 8 ceasefire (Euronews, June 8)',
   },
   attacks: {
-    totalLaunched: 10,
-    missilesAtIsrael: 4,
+    totalLaunched: 12,
+    missilesAtIsrael: 6,
     dronesAtIsrael: 3,
     attacksOnShipping: 3,
   },
