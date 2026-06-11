@@ -1088,6 +1088,20 @@ const groundOps = {
       event: "IRGC overnight June 9-10 missile + drone barrage in retaliation for CENTCOM Apache-downing strikes — targets: US 5th Fleet HQ (Bahrain), F-35 hangars and C2 center at Al-Azraq AFB (Jordan — Jordanian air defenses intercept 5 missiles, debris falls with no casualties), and Ali Al-Salem Air Base (Kuwait); nearly all intercepted per US initial assessment; IRGC claims 70% of targets hit; Trump (June 10): 'Iran is taking too long to negotiate a deal. Now they will have to pay the price.' Back-channel contacts via Pakistan/Qatar continue (CENTCOM, NPR, Al Jazeera, Iran International, June 10)",
       type: 'escalation',
     },
+    {
+      date: '2026-06-11',
+      lat: 33.38,
+      lng: 35.46,
+      event: "Day 104 — Iran/Israel direct strike halt holds for 3rd consecutive day; IDF operations north of Litani River toward Nabatieh continue; Lebanon Health Ministry: ~3,662 killed / ~11,200 wounded cumulative; Hezbollah fires rockets and anti-tank missiles at IDF positions; 60-day MOU effectively stalled — Iran reviews participation in all talks; Qatari mediation attempt June 10 failed; PGSA operational; UKMTO 2026-041 in effect; Brent ~$97/bbl (Lebanese Health Ministry, Al Jazeera, CENTCOM, TradingEconomics, June 11)",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-11',
+      lat: 26.21,
+      lng: 50.60,
+      event: "IRGC fires 3 ballistic missiles + 6 drones targeting US 5th Fleet HQ (Bahrain) and Ali Al-Salem Air Base (Kuwait) — all 9 intercepted per CENTCOM and BDF; Iran formally declared Hormuz 'closed to all vessels including oil tankers and commercial ships' June 10 following CENTCOM June 9 strike wave — CENTCOM disputes closure; dark fleet transits continue at ~7–8/day (Insurance Journal: 57–65% AIS-dark); Rapidan Energy Group: ~2 mb/d actual flow; Trump: 'Iran has been given enough time. Consequences are coming.' (CENTCOM, BDF, TradingEconomics, Insurance Journal, June 11)",
+      type: 'escalation',
+    },
   ],
 };
 

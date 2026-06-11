@@ -2,8 +2,8 @@
 // Sources: CENTCOM, Al Jazeera, USNI News, Alma Center, MARAD Advisory 2026-006,
 //          Gulf News, The Middle East Insider, NBC News
 export const houthiData = {
-  updated: '2026-06-10',
-  status: 'ACTIVE — JUNE 10 (DAY 103): US APACHE HELICOPTER DOWNED NEAR HORMUZ (JUNE 9); CENTCOM STRIKES IRANIAN AIR DEFENSE SITES; IRAN RETALIATES AT BAHRAIN/JORDAN/KUWAIT; TRUMP: "IRAN WILL HAVE TO PAY THE PRICE"; HOUTHIS FIRED 2 BMS AT CENTRAL ISRAEL (JUNE 8); IRGC BAB AL-MANDAB CLOSURE THREAT PERSISTS; PGSA OPERATIONAL; UKMTO 2026-041 IN EFFECT; BRENT ~$92/BBL',
+  updated: '2026-06-11',
+  status: 'ACTIVE — JUNE 11 (DAY 104): IRGC FIRES 3 MISSILES + 6 DRONES AT BAHRAIN/KUWAIT — ALL 9 INTERCEPTED; IRAN/ISRAEL DIRECT STRIKE HALT HOLDS 3RD DAY; IRAN DECLARED HORMUZ "CLOSED TO ALL VESSELS" JUNE 10 — CENTCOM DISPUTES; DARK FLEET AT ~7–8 TRANSITS/DAY; 60-DAY MOU STALLED; HOUTHIS FIRED 2 BMS AT CENTRAL ISRAEL (JUNE 8); IRGC BAB AL-MANDAB CLOSURE THREAT PERSISTS; PGSA OPERATIONAL; BRENT ~$97/BBL',
   babAlMandab: {
     globalTradePct: 15,
     closureThreat: 'IRGC and Axis of Resistance resolve to activate Bab al-Mandab front (June 1) — Iran cites Israeli Lebanon ops as ceasefire violation; Houthis ordered to resume Red Sea shipping attacks if Hormuz deal collapses; Houthis fired 2 ballistic missiles at central Israel June 8 — first Houthi attack on Israel since April 8 ceasefire (Euronews, June 8)',
