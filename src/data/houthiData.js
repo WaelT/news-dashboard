@@ -9,8 +9,8 @@ export const houthiData = {
     closureThreat: 'IRGC and Axis of Resistance resolve to activate Bab al-Mandab front (June 1) — Iran cites Israeli Lebanon ops as ceasefire violation; Houthis ordered to resume Red Sea shipping attacks if Hormuz deal collapses; Houthis fired 2 ballistic missiles at central Israel June 8 — first Houthi attack on Israel since April 8 ceasefire (Euronews, June 8)',
   },
   attacks: {
-    totalLaunched: 12,
-    missilesAtIsrael: 6,
+    totalLaunched: 14,
+    missilesAtIsrael: 8,
     dronesAtIsrael: 3,
     attacksOnShipping: 3,
   },
