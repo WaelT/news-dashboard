@@ -37,7 +37,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 92, peak: 126, forecast: 91,
+    preWar: 68, current: 97, peak: 126, forecast: 92,
     note: 'Brent ~$97/bbl (June 11; TradingEconomics/CNBC — escalation premium after ceasefire breakdown); June 11 (Day 104): Iran declared Hormuz "closed to all vessels" June 10 after US Apache downing + new CENTCOM strike wave — CENTCOM disputed closure; dark fleet transits (~57–65% AIS-dark per Insurance Journal) continue at ~7–8 vessels/day; Rapidan Energy Group: ~2 mb/d actual flow through strait; IRGC fires 3 missiles + 6 drones at Bahrain and Kuwait — all 9 intercepted per CENTCOM/BDF; Iran/Israel direct strikes halted per Trump June 9 appeal (3rd consecutive day) but CENTCOM-IRGC exchanges in Gulf ongoing; 60-day MOU effectively collapsed — Iran reviews participation; Qatari mediation attempt failed June 10; Lebanon toll ~3,662 killed / ~11,200 wounded (Lebanese Health Ministry); PGSA operational; UKMTO 2026-041 in effect; war-risk insurance 8× pre-crisis (Albany Antree, June 2026)',
   },
 };
