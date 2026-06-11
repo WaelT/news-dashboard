@@ -106,26 +106,29 @@ export const dailyLaunches = [
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
+// Updated through 2026-06-11: added June 9 (+1 Bahrain/+1 Kuwait missiles, +2/+2 drones),
+// June 10 (+3 Bahrain/+5 Jordan/+2 Kuwait missiles per CENTCOM/BDF, +2/+1/+1 drones),
+// June 11 (+2 Bahrain/+1 Kuwait missiles, +3/+3 drones) per CENTCOM/BDF statements
 export const countryBreakdown = {
   missiles: [
     { country: 'Israel', count: 722 },
     { country: 'UAE', count: 567 },
     { country: 'Saudi Arabia', count: 296 },
-    { country: 'Kuwait', count: 264 },
-    { country: 'Bahrain', count: 214 },
+    { country: 'Kuwait', count: 268 },
+    { country: 'Bahrain', count: 220 },
     { country: 'Qatar', count: 178 },
-    { country: 'Jordan', count: 73 },
+    { country: 'Jordan', count: 78 },
     { country: 'Iraq', count: 22 },
     { country: 'USA', count: 8 },
   ],
   drones: [
     { country: 'UAE', count: 2272 },
     { country: 'Israel', count: 765 },
-    { country: 'Bahrain', count: 534 },
-    { country: 'Kuwait', count: 500 },
+    { country: 'Bahrain', count: 541 },
+    { country: 'Kuwait', count: 506 },
     { country: 'Saudi Arabia', count: 176 },
     { country: 'Qatar', count: 90 },
-    { country: 'Jordan', count: 72 },
+    { country: 'Jordan', count: 73 },
     { country: 'Iraq', count: 40 },
     { country: 'Oman', count: 14 },
     { country: 'USA', count: 14 },
