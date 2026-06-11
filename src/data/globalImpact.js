@@ -19,7 +19,7 @@
 //          CNBC (May 29 2026 — Brent $91.2/bbl −2% on day; −17% for May; lowest in ~6 weeks — ceasefire deal optimism)
 //          RFERL/NBC News/ABC7/CBS News/Al Jazeera (May 29-30 2026 — US-Iran tentative 60-day MOU; Trump/Khamenei sign-off still pending; Trump May 30 Truth Social: "Hormuz Strait must be immediately open, no tolls... All water mines will be terminated"; Lebanon toll 3,324/10,027)
 export const globalImpact = {
-  updated: '2026-06-10',
+  updated: '2026-06-11',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; IMF forecast: GDP −6.1% for 2026, inflation 68.9%; oil exports halted; $24B frozen assets at stake; June 1: Iran suspends all US talks via mediators (Tasnim/IRGC) — cites Israeli "continuing crimes" in Lebanon as ceasefire precondition violation; IRGC threatens full Hormuz closure + Bab al-Mandab activation; June 2: Trump says talks "back on at rapid pace" — contradiction with Iran\'s suspension unresolved; PGSA operational; 60-day MOU still unsigned' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Finance Ministry initial estimate: NIS 35B (~$11.5B) war cost (ToI Apr 12); ~$3B/week GDP loss; fiscal deficit from 3.9%→5.1% GDP; Lebanon ceasefire extended 45 days (~July 1) — Netanyahu orders IDF to expand Lebanon ground manoeuvre (June 1); IDF crosses Litani River toward Nabatieh; Lebanon toll 3,412 killed / 10,269 wounded (June 1); Pentagon Lebanon political talks June 2–3' },
@@ -38,6 +38,6 @@ export const globalImpact = {
   },
   oil: {
     preWar: 68, current: 92, peak: 126, forecast: 91,
-    note: 'Brent ~$92/bbl (June 10 updated; TradingEconomics/CNBC); June 10 (Day 103, updated): US Army AH-64 Apache helicopter downed near Strait of Hormuz (June 9) — likely IRGC drone; CENTCOM self-defense strikes on Iranian air defense sites/radar/ground control near Hormuz (June 9 21:00 UTC); Iran retaliates overnight June 9-10 with missiles + drones at 5th Fleet HQ Bahrain, Al-Azraq AFB Jordan (5 missiles intercepted), and Ali Al-Salem AB Kuwait — nearly all intercepted; Trump: "Iran taking too long. Now they will have to pay the price"; Hormuz ~6 vessels/day transiting; PGSA operational; UKMTO 2026-041 in effect; war-risk insurance still 8× pre-crisis; IDF continues Lebanon ops; Lebanon toll ~3,648 (Al Jazeera, NPR, CENTCOM, Reuters, Iran International, June 9-10)',
+    note: 'Brent ~$97/bbl (June 11; TradingEconomics/CNBC — escalation premium after ceasefire breakdown); June 11 (Day 104): Iran declared Hormuz "closed to all vessels" June 10 after US Apache downing + new CENTCOM strike wave — CENTCOM disputed closure; dark fleet transits (~57–65% AIS-dark per Insurance Journal) continue at ~7–8 vessels/day; Rapidan Energy Group: ~2 mb/d actual flow through strait; IRGC fires 3 missiles + 6 drones at Bahrain and Kuwait — all 9 intercepted per CENTCOM/BDF; Iran/Israel direct strikes halted per Trump June 9 appeal (3rd consecutive day) but CENTCOM-IRGC exchanges in Gulf ongoing; 60-day MOU effectively collapsed — Iran reviews participation; Qatari mediation attempt failed June 10; Lebanon toll ~3,662 killed / ~11,200 wounded (Lebanese Health Ministry); PGSA operational; UKMTO 2026-041 in effect; war-risk insurance 8× pre-crisis (Albany Antree, June 2026)',
   },
 };
