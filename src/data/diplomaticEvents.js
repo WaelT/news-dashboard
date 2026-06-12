@@ -2243,6 +2243,13 @@ const diplomaticEvents = [
   },
   {
     date: '2026-06-11',
+    event: 'Day 104 (evening) — Trump announces "great settlement" with Iran; signing possibly in Europe "in next few days"; Iran FM calls it "speculation"; Netanyahu says Israel "not party"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 104 (evening). President Trump announces from the Oval Office: "We just made a great settlement of the war with Iran, subject to finalization of documents. It should get done over the next few days and probably have a signing, maybe in Europe." VP Vance and senior US officials expected to attend signing ceremony. Trump credits US military pressure: "They\'ve taken a pounding like very few people could take, and they want to make the deal a lot more than I do." Iran Foreign Ministry spokesperson: announcement is "merely speculation" — no final Iranian decision reached. Israel PM Netanyahu (Times of Israel June 11 liveblog) states Israel is "not party to emerging Iran deal" — but in a call with Trump, Netanyahu "expressed appreciation" for Trump\'s commitment that a final agreement would remove Iran\'s enriched uranium, dismantle its nuclear infrastructure, limit missile production, and halt support for regional proxies; pledges to continue military operations against all threats. ABC News: signing could come as early as this weekend (June 14–15). Brent crude falls ~5% to ~$89–$93/bbl on deal optimism; US stocks rally sharply. Lebanon toll 3,696 killed / 11,413 wounded (Lebanese Health Ministry/TASS). PGSA operational; UKMTO 2026-041 in effect (CNN, Times of Israel liveblog, ABC News, Reuters, Al Jazeera, June 11).',
+  },
+  {
+    date: '2026-06-11',
     event: 'Day 104 — Iran/Israel direct strike halt holds 3rd day; IRGC fires 3 missiles + 6 drones at Bahrain/Kuwait; 60-day MOU stalled; Iran reviews participation in talks; Brent ~$97/bbl',
     type: 'escalation',
     status: 'stalled',

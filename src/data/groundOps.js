@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 9, 2026',
+  updated: 'JUNE 12, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1101,6 +1101,20 @@ const groundOps = {
       lng: 50.60,
       event: "IRGC fires 3 ballistic missiles + 6 drones targeting US 5th Fleet HQ (Bahrain) and Ali Al-Salem Air Base (Kuwait) — all 9 intercepted per CENTCOM and BDF; Iran formally declared Hormuz 'closed to all vessels including oil tankers and commercial ships' June 10 following CENTCOM June 9 strike wave — CENTCOM disputes closure; dark fleet transits continue at ~7–8/day (Insurance Journal: 57–65% AIS-dark); Rapidan Energy Group: ~2 mb/d actual flow; Trump: 'Iran has been given enough time. Consequences are coming.' (CENTCOM, BDF, TradingEconomics, Insurance Journal, June 11)",
       type: 'escalation',
+    },
+    {
+      date: '2026-06-11',
+      lat: 38.90,
+      lng: -77.04,
+      event: "Day 104 (evening) — Trump announces 'great settlement of the war with Iran, subject to finalization of documents' from Oval Office; deal signing possibly in Europe 'within days'; Iran FM spokesperson: announcement is 'merely speculation', no final Iranian decision; Netanyahu says Israel 'not party to emerging Iran deal' but expresses appreciation for Trump's commitment to remove Iran's HEU, dismantle nuclear infrastructure, limit missiles; Brent falls ~5% to ~$89–$93/bbl; US stocks rally sharply; Lebanon toll 3,696/11,413 (Lebanese Health Ministry/TASS, June 11) (CNN, Times of Israel, ABC News, Reuters, June 11)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-06-12',
+      lat: 33.38,
+      lng: 35.46,
+      event: "Day 105 — Lebanon toll 3,696 killed / 11,413 wounded (Lebanese Health Ministry, June 12); IDF continues operations north of Litani River toward Nabatieh; no confirmed new IRGC kinetic exchanges — ceasefire holding ahead of Trump-announced deal signing; back-channel contacts via Pakistan/Qatar ongoing; deal signing possibly in Europe this weekend; PGSA operational; UKMTO 2026-041 in effect; Brent ~$90/bbl (Lebanese Health Ministry, Al Jazeera, CENTCOM, Reuters, June 12)",
+      type: 'ground',
     },
   ],
 };
