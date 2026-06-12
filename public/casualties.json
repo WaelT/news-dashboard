@@ -1,18 +1,10 @@
 {
-  "updatedAt": "2026-06-12T10:04:37.553Z",
-  "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
+  "updatedAt": "2026-06-12T18:00:00.000Z",
+  "source": "Wikipedia, Al Jazeera, HRANA, Reuters, Lebanese Health Ministry",
   "casualties": {
-    "lebanon": {
-      "killed": 3516,
-      "wounded": 10674
-    },
     "iran": {
-      "killed": 3636,
-      "wounded": 15000
-    },
-    "iraq": {
-      "killed": 119,
-      "wounded": 370
+      "killed": 3664,
+      "wounded": 26520
     },
     "israel": {
       "killed": 61,
@@ -22,61 +14,69 @@
       "killed": 15,
       "wounded": 543
     },
+    "lebanon": {
+      "killed": 3696,
+      "wounded": 11413
+    },
+    "yemen": {
+      "killed": 0,
+      "wounded": 0
+    },
+    "iraq": {
+      "killed": 119,
+      "wounded": 370
+    },
     "uae": {
-      "killed": 13,
-      "wounded": 227
+      "killed": 15,
+      "wounded": 233
     },
     "kuwait": {
-      "killed": 11,
-      "wounded": 182
+      "killed": 14,
+      "wounded": 308
     },
     "bahrain": {
       "killed": 3,
       "wounded": 51
     },
+    "qatar": {
+      "killed": 4,
+      "wounded": 20
+    },
     "saudi": {
       "killed": 3,
+      "wounded": 29
+    },
+    "jordan": {
+      "killed": 0,
       "wounded": 29
     },
     "oman": {
       "killed": 9,
       "wounded": 18
     },
-    "france": {
-      "killed": 3,
-      "wounded": 9
-    },
     "syria": {
       "killed": 2,
       "wounded": 1
+    },
+    "palestine": {
+      "killed": 14,
+      "wounded": 15
+    },
+    "turkey": {
+      "killed": 3,
+      "wounded": 0
+    },
+    "france": {
+      "killed": 3,
+      "wounded": 9
     },
     "philippines": {
       "killed": 2,
       "wounded": 0
     },
-    "jordan": {
-      "killed": 0,
-      "wounded": 29
-    },
-    "qatar": {
-      "killed": 0,
-      "wounded": 20
-    },
     "azerbaijan": {
       "killed": 0,
       "wounded": 4
-    },
-    "yemen": {
-      "killed": 0,
-      "wounded": 0
-    },
-    "palestine": {
-      "killed": 0,
-      "wounded": 0
-    },
-    "turkey": {
-      "killed": 0,
-      "wounded": 0
     }
   }
 }

@@ -56,7 +56,7 @@ export const hormuzData = {
     vesselsStranded: 1900,    // JCS Gen. Caine confirmed 1,550+ on May 6; higher estimates account for subsequent arrivals
     seafarersStranded: 22500,
     vesselsAttacked: 22,
-    seafarersKilled: 6,
+    seafarersKilled: 10,    // UN News/Euronews confirmed ≥10 killed (Apr–May 2026)
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
