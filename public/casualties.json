@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-12T20:04:30.191Z",
-  "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
+  "updatedAt": "2026-06-13T12:00:00.000Z",
+  "source": "Lebanese Ministry of Health, Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "lebanon": {
-      "killed": 3516,
-      "wounded": 10674
+      "killed": 3704,
+      "wounded": 11450
     },
     "iran": {
       "killed": 3636,
@@ -23,12 +23,12 @@
       "wounded": 543
     },
     "uae": {
-      "killed": 13,
-      "wounded": 227
+      "killed": 15,
+      "wounded": 233
     },
     "kuwait": {
-      "killed": 11,
-      "wounded": 182
+      "killed": 14,
+      "wounded": 308
     },
     "bahrain": {
       "killed": 3,
@@ -59,7 +59,7 @@
       "wounded": 29
     },
     "qatar": {
-      "killed": 0,
+      "killed": 4,
       "wounded": 20
     },
     "azerbaijan": {
@@ -71,11 +71,11 @@
       "wounded": 0
     },
     "palestine": {
-      "killed": 0,
-      "wounded": 0
+      "killed": 14,
+      "wounded": 15
     },
     "turkey": {
-      "killed": 0,
+      "killed": 3,
       "wounded": 0
     }
   }
