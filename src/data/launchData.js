@@ -103,14 +103,16 @@ export const dailyLaunches = [
   { date: '2026-06-09', missiles: 3, drones: 5, intercepted: 8, targets: ['Bahrain', 'Kuwait', 'Strait of Hormuz'] },
   { date: '2026-06-10', missiles: 10, drones: 4, intercepted: 14, targets: ['Bahrain', 'Jordan', 'Kuwait'] },
   { date: '2026-06-11', missiles: 3, drones: 6, intercepted: 9, targets: ['Bahrain', 'Kuwait'] },
-  { date: '2026-06-12', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  { date: '2026-06-12', missiles: 0, drones: 2, intercepted: 2, targets: ['Strait of Hormuz'] },
+  { date: '2026-06-13', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
-// Updated through 2026-06-12: added June 9 (+1 Bahrain/+1 Kuwait missiles, +2/+2 drones),
+// Updated through 2026-06-13: added June 9 (+1 Bahrain/+1 Kuwait missiles, +2/+2 drones),
 // June 10 (+3 Bahrain/+5 Jordan/+2 Kuwait missiles per CENTCOM/BDF, +2/+1/+1 drones),
 // June 11 (+2 Bahrain/+1 Kuwait missiles, +3/+3 drones) per CENTCOM/BDF statements;
-// June 12: no confirmed IRGC launches — ceasefire holding ahead of Trump "great settlement" deal signing
+// June 12: Iran fires 2 OWADs at Indian ships transiting Hormuz — CENTCOM intercepts both (Trump Truth Social June 12; CNBC);
+// June 13: no confirmed IRGC launches — deal signing expected "possibly this weekend in Europe"; Pakistan PM Sharif confirmed final agreed text June 12
 export const countryBreakdown = {
   missiles: [
     { country: 'Israel', count: 722 },
