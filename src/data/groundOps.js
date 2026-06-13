@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 12, 2026',
+  updated: 'JUNE 13, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1113,8 +1113,22 @@ const groundOps = {
       date: '2026-06-12',
       lat: 33.38,
       lng: 35.46,
-      event: "Day 105 — Lebanon toll 3,696 killed / 11,413 wounded (Lebanese Health Ministry, June 12); IDF continues operations north of Litani River toward Nabatieh; no confirmed new IRGC kinetic exchanges — ceasefire holding ahead of Trump-announced deal signing; back-channel contacts via Pakistan/Qatar ongoing; deal signing possibly in Europe this weekend; PGSA operational; UKMTO 2026-041 in effect; Brent ~$90/bbl (Lebanese Health Ministry, Al Jazeera, CENTCOM, Reuters, June 12)",
+      event: "Day 105 — Lebanon toll 3,696 killed / 11,413 wounded (Lebanese Health Ministry, June 12); IDF continues operations north of Litani River toward Nabatieh; no confirmed new IRGC kinetic exchanges — ceasefire holding ahead of Trump-announced deal signing; back-channel contacts via Pakistan/Qatar ongoing; deal signing possibly in Europe this weekend; PGSA operational; UKMTO 2026-041 in effect; Brent ~$87.33/bbl (Lebanese Health Ministry, Al Jazeera, CENTCOM, Reuters, June 12)",
       type: 'ground',
+    },
+    {
+      date: '2026-06-13',
+      lat: 33.27,
+      lng: 35.20,
+      event: "Day 106 — IDF strikes Tyre before city-wide evacuation warning: 8 killed, 37 wounded (including 9 women, 4 children, hospital staff); IDF issues evacuation order for entire Tyre city and surrounding areas; Israel launches new strikes across southern Lebanon as Trump insists Iran deal imminent; Lebanon toll rises to ~3,704 killed / ~11,450 wounded (Lebanese Health Ministry, Times of Israel, NBC News, APA, June 13)",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-13',
+      lat: 26.21,
+      lng: 50.60,
+      event: "Day 106 — No new confirmed IRGC kinetic exchanges; Pakistan PM Sharif confirmed 'final agreed text' of US-Iran peace deal June 12; Trump administration: 80–85% confidence in signing; deal signing expected 'possibly this weekend in Europe'; Iran FM Araghchi: MOU 'has never been closer'; PGSA operational; UKMTO 2026-041 in effect; Brent ~$87/bbl (Pakistan PM Sharif, CBS News, CNBC, RFERL, June 12–13)",
+      type: 'diplomacy',
     },
   ],
 };
