@@ -105,9 +105,12 @@ export const dailyLaunches = [
   { date: '2026-06-11', missiles: 3, drones: 6, intercepted: 9, targets: ['Bahrain', 'Kuwait'] },
   { date: '2026-06-12', missiles: 0, drones: 2, intercepted: 2, targets: ['Strait of Hormuz'] },
   { date: '2026-06-13', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  { date: '2026-06-14', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
+// Updated through 2026-06-14: June 13 — no confirmed IRGC launches; deal signing expected "today" in Europe per Trump (ABC News June 13);
+// June 14 — no new IRGC kinetic exchanges; US-Iran peace deal text agreed (Pakistan PM Sharif June 12) but unsigned as of June 14 morning;
 // Updated through 2026-06-13: added June 9 (+1 Bahrain/+1 Kuwait missiles, +2/+2 drones),
 // June 10 (+3 Bahrain/+5 Jordan/+2 Kuwait missiles per CENTCOM/BDF, +2/+1/+1 drones),
 // June 11 (+2 Bahrain/+1 Kuwait missiles, +3/+3 drones) per CENTCOM/BDF statements;
