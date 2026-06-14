@@ -1144,6 +1144,20 @@ const groundOps = {
       event: "Day 107 — 60-day MOU text agreed per Pakistan PM Sharif (June 12) but unsigned; deal signing expected in Europe this weekend; Houthis resumed Red Sea attacks (MV Tutor sunk June 12, MV Verbena struck June 13); PGSA operational; UKMTO 2026-041 in effect; Brent ~$87/bbl (Pakistan PM Sharif, CENTCOM, CBS News, Lebanese Ministry of Health, MARAD 2026-006, June 14)",
       type: 'diplomacy',
     },
+    {
+      date: '2026-06-14',
+      lat: 33.87,
+      lng: 35.52,
+      event: "Hezbollah fires 3 drones into Israel on June 14 morning (2 separate incidents) — both explode inside Israel, no Israeli injuries; IDF strikes Hezbollah C2 center in Beirut Dahiyeh used to direct attacks on IDF soldiers in south Lebanon — 1 killed, 4 injured; IDF notifies CENTCOM before strike; top Iranian official warns Dahiyeh strike 'shows US can't live up to deal' and 'will not go unanswered'",
+      type: 'airstrike',
+    },
+    {
+      date: '2026-06-14',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 107 (afternoon) — IDF 36th Division poised to launch offensive against Hezbollah in Nabatieh city; troops operating on outskirts of Arnoun (~3 km from Nabatieh); IDF reveals Hezbollah command tunnel network near Beaufort Castle; Lebanon toll ~3,757 killed / ~11,636 wounded; Trump announces 'Islamabad MOU' deal signing Sunday June 15 — Iran FM disputes timing; Iran protests erupt in Mashhad against deal (Times of Israel, JNS, CBS News, ABC News, June 14)",
+      type: 'ground',
+    },
   ],
 };
 
