@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 13, 2026',
+  updated: 'JUNE 14, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1128,6 +1128,20 @@ const groundOps = {
       lat: 26.21,
       lng: 50.60,
       event: "Day 106 — No new confirmed IRGC kinetic exchanges; Pakistan PM Sharif confirmed 'final agreed text' of US-Iran peace deal June 12; Trump administration: 80–85% confidence in signing; deal signing expected 'possibly this weekend in Europe'; Iran FM Araghchi: MOU 'has never been closer'; PGSA operational; UKMTO 2026-041 in effect; Brent ~$87/bbl (Pakistan PM Sharif, CBS News, CNBC, RFERL, June 12–13)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-06-14',
+      lat: 33.38,
+      lng: 35.46,
+      event: "Day 107 — IDF continues operations north of Litani River toward Nabatieh; Lebanon toll ~3,756 killed / ~11,632 wounded (Lebanese Ministry of Health, June 14); no new confirmed IRGC kinetic exchanges; ceasefire holding for third consecutive day",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-14',
+      lat: 26.21,
+      lng: 50.60,
+      event: "Day 107 — 60-day MOU text agreed per Pakistan PM Sharif (June 12) but unsigned; deal signing expected in Europe this weekend; Houthis resumed Red Sea attacks (MV Tutor sunk June 12, MV Verbena struck June 13); PGSA operational; UKMTO 2026-041 in effect; Brent ~$87/bbl (Pakistan PM Sharif, CENTCOM, CBS News, Lebanese Ministry of Health, MARAD 2026-006, June 14)",
       type: 'diplomacy',
     },
   ],
