@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 14, 2026',
+  updated: 'JUNE 15, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1157,6 +1157,20 @@ const groundOps = {
       lng: 35.48,
       event: "Day 107 (afternoon) — IDF 36th Division poised to launch offensive against Hezbollah in Nabatieh city; troops operating on outskirts of Arnoun (~3 km from Nabatieh); IDF reveals Hezbollah command tunnel network near Beaufort Castle; Lebanon toll ~3,757 killed / ~11,636 wounded; Trump announces 'Islamabad MOU' deal signing Sunday June 15 — Iran FM disputes timing; Iran protests erupt in Mashhad against deal (Times of Israel, JNS, CBS News, ABC News, June 14)",
       type: 'ground',
+    },
+    {
+      date: '2026-06-15',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 108 — IDF issues evacuation warnings for 24 locations including city of Nabatieh ahead of raids; strikes 70+ Hezbollah sites (rocket launchers, buildings) in southern Lebanon; Lebanese army withdraws from positions in Kfar Tebnit near Nabatieh as IDF advances; Hezbollah fires drone at IDF forces in Houla; Lebanese army soldier seriously wounded in IDF drone strike; Lebanon toll ~3,795 killed / ~11,730 wounded (Times of Israel, Al Jazeera, BSS News, IDF, June 15)",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-15',
+      lat: 38.90,
+      lng: -77.04,
+      event: "Day 108 — Trump announces US-Iran deal 'Now Complete'; authorizes end to US naval blockade; Strait of Hormuz to reopen immediately with no tolls; formal signing ceremony June 19 in Switzerland; Iran Deputy FM Gharibabadi confirms deal; G7 at Evian, France discusses long-term Hormuz reopening under new agreement; Brent crude plunges 4%+ to ~$81/bbl; no new IRGC kinetic exchanges (RFERL, PBS, NBC News, CBS News, France 24, Al Jazeera, June 15)",
+      type: 'diplomacy',
     },
   ],
 };
