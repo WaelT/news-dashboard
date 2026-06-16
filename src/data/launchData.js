@@ -107,9 +107,11 @@ export const dailyLaunches = [
   { date: '2026-06-13', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   { date: '2026-06-14', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   { date: '2026-06-15', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  { date: '2026-06-16', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
+// Updated through 2026-06-16: June 16 (Day 109) — no new IRGC kinetic exchanges; US naval blockade winding down following Trump "deal complete" announcement; Hormuz reopening underway; formal signing June 19 Switzerland; Brent ~$80–82/bbl (RFERL, PBS, NBC, CBS, Al Jazeera, June 15–16);
 // Updated through 2026-06-15: June 15 — no new IRGC kinetic exchanges; Trump announces US-Iran deal "Now Complete"; naval blockade ends; Hormuz to reopen; signing June 19 Switzerland; Brent ~$81/bbl (RFERL, PBS, NBC, CBS, Al Jazeera, June 15);
 // Updated through 2026-06-14: June 13 — no confirmed IRGC launches; deal signing expected "today" in Europe per Trump (ABC News June 13);
 // June 14 — no new IRGC kinetic exchanges; US-Iran peace deal text agreed (Pakistan PM Sharif June 12) but unsigned as of June 14 morning;
