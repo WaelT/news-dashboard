@@ -25,7 +25,7 @@ function flagUrl(cc) {
 
 const DEFAULT_CASUALTIES = {
   iran: { killed: 3664, wounded: 26520 },
-  israel: { killed: 61, wounded: 9026 },
+  israel: { killed: 61, wounded: 9126 },
   usa: { killed: 15, wounded: 543 },
   lebanon: { killed: 3795, wounded: 11730 },
   yemen: { killed: 0, wounded: 0 },
