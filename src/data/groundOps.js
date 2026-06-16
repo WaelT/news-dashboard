@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 15, 2026',
+  updated: 'JUNE 16, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1170,6 +1170,20 @@ const groundOps = {
       lat: 38.90,
       lng: -77.04,
       event: "Day 108 — Trump announces US-Iran deal 'Now Complete'; authorizes end to US naval blockade; Strait of Hormuz to reopen immediately with no tolls; formal signing ceremony June 19 in Switzerland; Iran Deputy FM Gharibabadi confirms deal; G7 at Evian, France discusses long-term Hormuz reopening under new agreement; Brent crude plunges 4%+ to ~$81/bbl; no new IRGC kinetic exchanges (RFERL, PBS, NBC News, CBS News, France 24, Al Jazeera, June 15)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-06-16',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 109 — IDF continues operations in south Lebanon near Nabatieh; 36th Division maintains positions north of Litani River; no new IRGC kinetic exchanges; Lebanon toll holding ~3,795 killed / ~11,730 wounded; ceasefire on Iran front holds; US naval blockade winding down pending formal signing June 19 (IDF spokesperson, RFERL, June 15–16)",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-16',
+      lat: 38.90,
+      lng: -77.04,
+      event: "Day 109 — First full day post-deal announcement; US naval blockade winding down; Hormuz transits increasing; ships moving more freely ahead of formal signing June 19 in Switzerland; Brent ~$80–82/bbl on sustained deal optimism; G7 Evian discussions on Hormuz reopening framework continuing (RFERL, PBS, NBC News, CBS News, Al Jazeera, June 15–16)",
       type: 'diplomacy',
     },
   ],
