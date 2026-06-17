@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 16, 2026',
+  updated: 'JUNE 17, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1184,6 +1184,20 @@ const groundOps = {
       lat: 38.90,
       lng: -77.04,
       event: "Day 109 — First full day post-deal announcement; US naval blockade winding down; Hormuz transits increasing; ships moving more freely ahead of formal signing June 19 in Switzerland; Brent ~$80–82/bbl on sustained deal optimism; G7 Evian discussions on Hormuz reopening framework continuing (RFERL, PBS, NBC News, CBS News, Al Jazeera, June 15–16)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-06-17',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 110 — IDF continues operations near Nabatieh; Lebanon toll ~3,812 killed / ~11,752 wounded; no new IRGC kinetic exchanges (5th consecutive day); ceasefire on Iran front holds T-2 before Switzerland signing (IDF spokesperson, Lebanese Ministry of Health estimate, June 17)",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-17',
+      lat: 26.57,
+      lng: 56.26,
+      event: "Day 110 — Hormuz transits rising to ~16/day as US naval blockade winds down; deal framework holds; formal signing June 19 Switzerland; CENTCOM escort operations continuing; PGSA toll status being clarified ahead of full reopening; Brent ~$80/bbl (RFERL, PBS, NBC News, CBS News, Al Jazeera, June 16–17)",
       type: 'diplomacy',
     },
   ],
