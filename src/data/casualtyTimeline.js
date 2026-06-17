@@ -110,6 +110,7 @@ const casualtyTimeline = [
   { date: '2026-06-14', iran: 3664, lebanon: 3757, israel: 61, usa: 15, uae: 15, iraq: 119, kuwait: 14 },
   { date: '2026-06-15', iran: 3664, lebanon: 3795, israel: 61, usa: 15, uae: 15, iraq: 119, kuwait: 14 },
   { date: '2026-06-16', iran: 3664, lebanon: 3795, israel: 61, usa: 15, uae: 15, iraq: 119, kuwait: 14 },
+  { date: '2026-06-17', iran: 3664, lebanon: 3812, israel: 61, usa: 15, uae: 15, iraq: 119, kuwait: 14 },
 ];
 
 export default casualtyTimeline;
