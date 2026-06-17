@@ -19,7 +19,7 @@
 //          CNBC (May 29 2026 — Brent $91.2/bbl −2% on day; −17% for May; lowest in ~6 weeks — ceasefire deal optimism)
 //          RFERL/NBC News/ABC7/CBS News/Al Jazeera (May 29-30 2026 — US-Iran tentative 60-day MOU; Trump/Khamenei sign-off still pending; Trump May 30 Truth Social: "Hormuz Strait must be immediately open, no tolls... All water mines will be terminated"; Lebanon toll 3,324/10,027)
 export const globalImpact = {
-  updated: '2026-06-16',
+  updated: '2026-06-17',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'Economy near-collapse; IMF forecast: GDP −6.1% for 2026, inflation 68.9%; oil exports halted; $24B frozen assets at stake; June 15 (Day 108): DEAL COMPLETE — Trump announces US-Iran deal "Now Complete", authorizes end to US naval blockade; Iran Deputy FM Gharibabadi confirms deal; formal signing June 19 in Switzerland; oil and some financial sanctions to be lifted under MOU; 60-day follow-on talks on nuclear program, remaining sanctions, proxy support; Iran economy expected to begin recovery once Hormuz reopens and sanctions lift; Brent ~$81/bbl (RFERL, PBS News, NBC News, CBS News, Al Jazeera, June 15)' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Finance Ministry initial estimate: NIS 35B (~$11.5B) war cost (ToI Apr 12); ~$3B/week GDP loss; fiscal deficit from 3.9%→5.1% GDP; Lebanon toll ~3,795 killed / ~11,730 wounded (Times of Israel, June 15); June 15 (Day 108): Trump announces deal "Now Complete"; Israel "not a party" to MOU; IDF issues evacuation warnings for 24 locations including Nabatieh city, strikes 70+ Hezbollah sites; Lebanese army withdraws from Kfar Tebnit near Nabatieh; deal does not formally end Israeli operations in Lebanon, which continue per Netanyahu\'s stated policy (Times of Israel, Al Jazeera, June 15)' },
@@ -37,7 +37,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 81, peak: 126, forecast: 78,
-    note: 'Brent ~$81/bbl — plunged 4%+ on June 15 deal announcement (from ~$87); WTI fell below $78; lowest since pre-war levels; markets pricing in imminent Hormuz reopening and end to global supply disruption; June 15 (Day 108): DEAL COMPLETE — Trump announces US-Iran deal "Now Complete", authorizes end to US naval blockade; Strait of Hormuz to reopen immediately; formal signing ceremony June 19 in Switzerland; Iran Deputy FM Gharibabadi confirms deal; G7 at Evian, France discussing long-term Hormuz reopening; EIA/IEA forecast Brent to stabilize near $75–80 once Hormuz fully reopens; Saudi Aramco CEO warned market won\'t normalize until 2027 if closed past mid-June — deal averts that scenario; UKMTO 2026-041 remains in effect until formal signing June 19 (RFERL, PBS News, NBC News, CBS News, Al Jazeera, Iran International, TradingEconomics, June 15)',
+    preWar: 68, current: 80, peak: 126, forecast: 78,
+    note: 'Brent ~$80/bbl (June 17, Day 110) — steady at post-deal levels ahead of formal signing June 19 Switzerland; markets pricing in full Hormuz reopening; June 15 (Day 108): DEAL COMPLETE — Trump announces US-Iran deal "Now Complete", authorizes end to US naval blockade; Strait of Hormuz to reopen immediately; formal signing ceremony June 19 in Switzerland; Iran Deputy FM Gharibabadi confirms deal; G7 at Evian, France discussing long-term Hormuz reopening; EIA/IEA forecast Brent to stabilize near $75–80 once Hormuz fully reopens; Saudi Aramco CEO warned market won\'t normalize until 2027 if closed past mid-June — deal averts that scenario; UKMTO 2026-041 remains in effect until formal signing June 19 (RFERL, PBS News, NBC News, CBS News, Al Jazeera, Iran International, TradingEconomics, June 15–17)',
   },
 };
