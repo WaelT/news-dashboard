@@ -17,7 +17,7 @@ const FALLBACK = {
   nasdaq: { price: 26920.47, change: 2.03 },
   dowjones: { price: 50344.82, change: 1.48 },
   nikkei: { price: 62180.55, change: 1.24 },
-  brent: { price: 92.40, change: -0.31 },
+  brent: { price: 79.10, change: -1.24 },
   btc: { price: 104820.00, change: 0.87 },
   gold: { price: 3285.40, change: -0.43 },
   silver: { price: 33.15, change: -0.62 },
@@ -46,7 +46,7 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
+  { label: 'Brent Crude Surge', value: '+16%', sub: '~$79/barrel', color: '#ff6600' },
   { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
   { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
   { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
