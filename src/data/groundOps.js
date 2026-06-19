@@ -1214,6 +1214,27 @@ const groundOps = {
       event: "Day 111 — Hormuz transits rising to ~20/day; 3 NITC Iranian tankers (Diona, Hero 2, Sonia 1) exit US blockade zone with ~5M bbls crude — first Iranian oil exports since April 13; Brent ~$79/bbl; Goldman Sachs cuts Q4 2026 forecast to $80/bbl; VP Vance confirmed for Burgenstock signing June 19 (CNBC, Al Jazeera, Seatrade Maritime, RFERL, Fortune, June 17–18)",
       type: 'diplomacy',
     },
+    {
+      date: '2026-06-19',
+      lat: 46.99,
+      lng: 8.40,
+      event: "Day 112 — MOU formally signed at Bürgenstock, Switzerland by VP Vance (US) and Iran Parliament Speaker Ghalibaf; 60-day follow-on talks launched; UKMTO 2026-041 lifted; JMIC downgrades Hormuz threat 'Severe'→'Substantial'; 3 Saudi VLCCs transit Hormuz (Kpler); Brent ~$78/bbl (Swiss FM, VP Vance press brief, Kpler, Al Jazeera, CNBC, June 19)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-06-19',
+      lat: 33.30,
+      lng: 35.45,
+      event: "Day 112 — IDF continues operations near Nabatieh; IDF reserve soldier killed + 7 wounded by Hezbollah explosives in south Lebanon; Trump at G7: Israel-Lebanon war 'too long, too deadly' — signals pressure on Netanyahu for rapid ceasefire; Lebanon toll ~3,820 killed / ~11,768 wounded (Times of Israel, Lebanese Ministry of Health, June 19)",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-19',
+      lat: 26.57,
+      lng: 56.26,
+      event: "Day 112 — Hormuz formally reopened; transits rise to ~25/day; oil flow ~5.1 mbd (up from ~4.0 mbd); 550+ vessels remain stranded on both sides pending backlog clearance expected within 10–15 days; Brent ~$78/bbl (Kpler, CNBC, JMIC, June 18–19)",
+      type: 'diplomacy',
+    },
   ],
 };
 
