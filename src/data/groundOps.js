@@ -1235,6 +1235,13 @@ const groundOps = {
       event: "Day 112 — Hormuz formally reopened; transits rise to ~25/day; oil flow ~5.1 mbd (up from ~4.0 mbd); 550+ vessels remain stranded on both sides pending backlog clearance expected within 10–15 days; Brent ~$78/bbl (Kpler, CNBC, JMIC, June 18–19)",
       type: 'diplomacy',
     },
+    {
+      date: '2026-06-19',
+      lat: 33.22,
+      lng: 35.40,
+      event: "Day 112 — Lt. Col. Dor Gedalia Ben Simhon (32, 52nd Battalion/401st Armored Brigade) killed + 3 tank crew killed when Merkava hit by Hezbollah explosives near Kfar Tebnit at ~00:20 local; 5 soldiers of 5th Commando Brigade also wounded; IDF strikes 80+ Hezbollah sites across south Lebanon and Bekaa; 18 Lebanese civilians killed / 33 wounded overnight; IDF publishes revised security zone map (~10km buffer into Lebanon); Lebanon toll ~3,902 killed / ~11,901 wounded (Times of Israel, Lebanese Ministry of Health, IDF spokesperson, June 18–19)",
+      type: 'ground',
+    },
   ],
 };
 
