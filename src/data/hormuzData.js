@@ -38,12 +38,12 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-06-18T06:00Z',
+  updated: '2026-06-19T12:00Z',
 
   current: {
-    transitsPerDay: 20,
-    oilFlowMbd: 4.0,
-    disruptionPct: 78,
+    transitsPerDay: 25,
+    oilFlowMbd: 5.1,
+    disruptionPct: 72,
   },
 
   preWar: {
@@ -54,9 +54,9 @@ export const hormuzData = {
   },
 
   crisis: {
-    tankersQueued: 295,
-    vesselsStranded: 1900,    // JCS Gen. Caine confirmed 1,550+ on May 6; higher estimates account for subsequent arrivals
-    seafarersStranded: 22500,
+    tankersQueued: 250,
+    vesselsStranded: 550,    // CNBC June 18–19: "more than 550 ships remain stranded on either side of the strait"; down from 1,900 peak as many rerouted via Cape of Good Hope
+    seafarersStranded: 6600,
     vesselsAttacked: 46,
     seafarersKilled: 14,    // IMO/gCaptain confirmed 14 killed as of June 10 MT Settebello attack (3 Indian crew killed)
     minesDetected: 12,
