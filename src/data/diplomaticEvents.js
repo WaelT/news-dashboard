@@ -2313,6 +2313,13 @@ const diplomaticEvents = [
   },
   {
     date: '2026-06-19',
+    event: 'Day 112 — Bürgenstock nuclear follow-on talks POSTPONED: VP Vance cancels Switzerland trip after IDF overnight strikes kill 18 Lebanese civilians in Nabatieh; France FM Barrot warns no UN sanctions lifting without French Security Council approval; UKMTO 2026-041 lifted; 3 Saudi VLCCs transit Hormuz (Kpler)',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 112 of the 2026 Iran war — Bürgenstock nuclear follow-on talks postponed on the day they were scheduled to begin. The IDF conducted overnight strikes on Nabatieh (June 18–19), killing 18 Lebanese civilians and wounding 33 others; Israeli Lt. Col. Dor Gedalia Ben Simhon (32, 52nd Battalion/401st Armored Brigade) was killed along with three additional crew members when their Merkava tank was struck by Hezbollah explosives near Kfar Tebnit at approximately 12:20 a.m. local time. Iran cited continued Israeli operations as grounds to delay sending its delegation to Switzerland; Switzerland confirmed the talks were canceled as of June 19. US Vice President JD Vance canceled his planned trip to Bürgenstock. France FM Jean-Noël Barrot issued a formal warning that France would not approve lifting UN Security Council sanctions on Iran without explicit French Security Council consent — complicating the 60-day follow-on negotiations on sanctions relief. Separately, UKMTO Advisory 2026-041 was lifted following the formal entry-into-force of the Islamabad MOU. Kpler vessel-tracking data confirmed 3 Saudi VLCCs successfully transited the Strait of Hormuz — first Saudi tanker movements since February 28. JMIC downgraded its Hormuz threat classification from "Severe" to "Substantial." Brent crude ~$79.95/bbl (Swiss FM spokesperson, Times of Israel, CNBC, Al Jazeera, Kpler, JMIC, June 19).',
+  },
+  {
+    date: '2026-06-19',
     event: 'Day 112 — MOU formally signed at Burgenstock, Switzerland by VP Vance (US) and Iran Parliament Speaker Ghalibaf; 60-day follow-on talks begin; 3 Saudi VLCCs transit Hormuz; JMIC downgrades threat "Severe"→"Substantial"; Brent ~$78/bbl; Trump: Israel-Lebanon war "too long, too deadly"',
     type: 'ceasefire',
     status: 'implemented',
