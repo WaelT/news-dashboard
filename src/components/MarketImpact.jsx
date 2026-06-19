@@ -13,13 +13,13 @@ const SYMBOLS = [
 ];
 
 const FALLBACK = {
-  sp500: { price: 7597.35, change: 1.52 },
+  sp500: { price: 7500.58, change: 1.08 },
   nasdaq: { price: 26920.47, change: 2.03 },
-  dowjones: { price: 50344.82, change: 1.48 },
-  nikkei: { price: 62180.55, change: 1.24 },
-  brent: { price: 78.05, change: -1.32 },
+  dowjones: { price: 51564.70, change: 0.14 },
+  nikkei: { price: 71250.06, change: 0.27 },
+  brent: { price: 79.95, change: -0.08 },
   btc: { price: 104820.00, change: 0.87 },
-  gold: { price: 3285.40, change: -0.43 },
+  gold: { price: 4209.50, change: -1.16 },
   silver: { price: 33.15, change: -0.62 },
 };
 
