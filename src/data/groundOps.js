@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 18, 2026',
+  updated: 'JUNE 20, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1240,6 +1240,13 @@ const groundOps = {
       lat: 33.22,
       lng: 35.40,
       event: "Day 112 — Lt. Col. Dor Gedalia Ben Simhon (32, 52nd Battalion/401st Armored Brigade) killed + 3 tank crew killed when Merkava hit by Hezbollah explosives near Kfar Tebnit at ~00:20 local; 5 soldiers of 5th Commando Brigade also wounded; IDF strikes 80+ Hezbollah sites across south Lebanon and Bekaa; 18 Lebanese civilians killed / 33 wounded overnight; IDF publishes revised security zone map (~10km buffer into Lebanon); Lebanon toll ~3,902 killed / ~11,901 wounded (Times of Israel, Lebanese Ministry of Health, IDF spokesperson, June 18–19)",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-20',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 113 — Israel and Hezbollah renew ceasefire on June 20 after overnight (June 19–20) fighting kills 21 Lebanese civilians + 4 IDF soldiers; IDF halts offensive operations near Nabatieh pending ceasefire verification; Hezbollah suspends rocket/drone fire at Israel; ceasefire brokered with US pressure after Trump stated Israel-Lebanon war 'too long, too deadly' at G7; Lebanon toll ~3,923 killed / ~11,960 wounded (Lebanese Ministry of Health; PBS News, CBS News, Times of Israel, IDF spokesperson, June 20)",
       type: 'ground',
     },
   ],
