@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 20, 2026',
+  updated: 'JUNE 21, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1248,6 +1248,20 @@ const groundOps = {
       lng: 35.48,
       event: "Day 113 — Israel and Hezbollah renew ceasefire on June 20 after overnight (June 19–20) fighting kills 21 Lebanese civilians + 4 IDF soldiers; IDF halts offensive operations near Nabatieh pending ceasefire verification; Hezbollah suspends rocket/drone fire at Israel; ceasefire brokered with US pressure after Trump stated Israel-Lebanon war 'too long, too deadly' at G7; Lebanon toll ~3,923 killed / ~11,960 wounded (Lebanese Ministry of Health; PBS News, CBS News, Times of Israel, IDF spokesperson, June 20)",
       type: 'ground',
+    },
+    {
+      date: '2026-06-21',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 114 — Israel-Hezbollah ceasefire holds on Day 2 after June 20 renewal; IDF maintains forward positions north of Litani pending withdrawal negotiations; no new major ground operations reported; Lebanon toll ~3,931 killed / ~11,970 wounded; IDF on alert following US nuclear strikes on Iran — Netanyahu security cabinet convenes; Hezbollah silent but IRGC on maximum alert (IDF spokesperson, Lebanese Ministry of Health, CBS News, Times of Israel, June 21)",
+      type: 'ground',
+    },
+    {
+      date: '2026-06-21',
+      lat: 32.53,
+      lng: 51.70,
+      event: "Day 114 — US strikes Isfahan nuclear research center with B-2 Spirit bombers + Tomahawk cruise missiles as part of coordinated strike on Fordow, Natanz, and Isfahan; Trump: 'completely and totally obliterated'; JCS Gen. Caine: 'extremely severe damage'; Iran vows unprecedented response; IRGC on maximum alert; deal framework in doubt (Wikipedia — United States strikes on Iranian nuclear sites; ASIL; CNBC; DoD briefing, June 21)",
+      type: 'airstrike',
     },
   ],
 };
