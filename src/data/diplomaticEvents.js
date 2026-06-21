@@ -2360,6 +2360,13 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Following the June 21 US strikes on Fordow, Natanz, and Isfahan nuclear facilities, Iran\'s Supreme National Security Council convened in emergency session. IRGC announced all forces placed on "maximum combat readiness." Iran FM Araghchi stated the US "destroyed the cornerstone of the Burgenstock agreement" and that Iran "reserves all options of response." Pakistan and Qatar reached out as emergency mediators. The White House stated the strikes were "outside the scope of the MOU" — a position immediately rejected by Tehran. US 5th Fleet and CENTCOM placed on elevated alert posture. Shipping companies immediately paused Hormuz transits on news of the strikes — tanker operators awaiting UKMTO and MARAD guidance. Brent crude surged sharply — futures market reopened with significant gap-up. Gold surged to new conflict-era highs. MARAD issued updated advisory. Houthis silent — 9th consecutive day — but spokesman Mohammed Al-Bukhaiti signaled "we will assess the situation and respond as appropriate" (CNBC, CBS News, Al Jazeera, IRGC statement, US DoD briefing, June 21).',
   },
+  {
+    date: '2026-06-21',
+    event: 'Day 114 — IRGC formally declares Strait of Hormuz "closed to all vessels including oil tankers"; CENTCOM denies closure; tanker transits drop from 20+/day to ~6/day; Brent spikes to ~$90',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Following the US nuclear strikes on Fordow, Natanz, and Isfahan, Iran\'s IRGC Navy formally declared the Strait of Hormuz "closed to all vessels, including oil tankers and commercial ships." The Persian Gulf Strait Authority (PGSA) broadcast warnings that "any vessel attempting to transit will be targeted." Iran additionally stated the closure was due to Israeli strikes in Lebanon, describing them as a "violation of its deal with the US." US CENTCOM denied the closure, stating commercial ships "are continuing to transit in and out" via US-escorted safe pathways. Tanker transits dropped sharply from the June 20 high of 20+/day to approximately 6/day by evening June 21 as shipping companies confirmed halting Hormuz transits pending new UKMTO and MARAD advisories. Brent crude surged from ~$76/bbl to ~$90/bbl on escalation fears. The Lloyd\'s Chubb-led war-risk insurance facility (launched June 19, $200M hull/P&I + $200M cargo) suspended new policies amid escalation. Iran FM Araghchi reaffirmed the MOU was "nullified by US aggression." IDF hold-fire order in Lebanon (except Ali al-Taher Hill) maintained — Israel-Hezbollah ceasefire Day 2 holds (Business Standard; IRGC Navy; CENTCOM; CBS News; Al Jazeera; CNBC, June 21).',
+  },
 ];
 
 export const STATUS_COLORS = {

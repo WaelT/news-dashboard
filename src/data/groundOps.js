@@ -1263,6 +1263,13 @@ const groundOps = {
       event: "Day 114 — US strikes Isfahan nuclear research center with B-2 Spirit bombers + Tomahawk cruise missiles as part of coordinated strike on Fordow, Natanz, and Isfahan; Trump: 'completely and totally obliterated'; JCS Gen. Caine: 'extremely severe damage'; Iran vows unprecedented response; IRGC on maximum alert; deal framework in doubt (Wikipedia — United States strikes on Iranian nuclear sites; ASIL; CNBC; DoD briefing, June 21)",
       type: 'airstrike',
     },
+    {
+      date: '2026-06-21',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 114 — Netanyahu and Defense Minister Israel Katz order IDF to hold fire everywhere in Lebanon except Ali al-Taher Hill; IDF stays in occupied Lebanese territories pending withdrawal negotiations; Israel-Hezbollah ceasefire Day 2 holds; Netanyahu security cabinet convenes following US nuclear strikes on Iran; Lebanon toll ~3,931 killed / ~11,970 wounded (CBS News; Times of Israel; Al Jazeera, June 21)",
+      type: 'ground',
+    },
   ],
 };
 
