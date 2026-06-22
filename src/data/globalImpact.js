@@ -37,7 +37,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 90, peak: 126, forecast: 95,
-    note: 'Brent ~$89–92/bbl (June 22, Day 115) — stabilizing after June 21 spike; tanker transits remain suppressed ~6/day; Iran on maximum alert but no new IRGC kinetic launches; VP Vance met Iranian officials in Switzerland June 21 — Vance: "great progress"; Trump threatened "hit Iran very hard again" simultaneously; UNSC emergency session; deal framework in doubt but talks not fully broken; IEA strategic reserve guidance reactivated; June 21: Brent surged from $76/bbl to ~$90/bbl on US nuclear strikes on Fordow, Natanz, Isfahan; Goldman Sachs Q4 forecast reversed; shipping companies suspending transits (CBS News, NPR, CNBC, Al Jazeera, June 21–22)',
+    preWar: 68, current: 80, peak: 126, forecast: 90,
+    note: 'Brent $80.26/bbl (August futures, CNBC June 22, −0.38%) — reversed June 21 spike; markets pricing in Switzerland talks continuing despite disruption; tanker transits ~6/day; no new IRGC kinetic launches (10th consecutive day); Switzerland talks stalled after Trump Fox News threat + Ghalibaf X warning "armed forces prepared to respond in a different manner"; Iranian delegation remained at Swiss resort — AP: no indication of intent to leave; back-channel contacts ongoing; June 21: Brent spiked from $76 to ~$90 on US nuclear strikes on Fordow, Natanz, Isfahan; June 22: Brent recovered to $80.26 as negotiations continued; IRGC closure declaration maintained but CENTCOM disputes (CBS News, CNBC, AP, CBC, June 22)',
   },
 };

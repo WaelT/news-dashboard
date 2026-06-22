@@ -17,7 +17,7 @@ const FALLBACK = {
   nasdaq: { price: 26920.47, change: 2.03 },
   dowjones: { price: 51564.70, change: 0.14 },
   nikkei: { price: 71250.06, change: 0.27 },
-  brent: { price: 79.95, change: -0.08 },
+  brent: { price: 80.26, change: -0.38 },
   btc: { price: 104820.00, change: 0.87 },
   gold: { price: 4209.50, change: -1.16 },
   silver: { price: 33.15, change: -0.62 },
