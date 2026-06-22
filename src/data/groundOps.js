@@ -1270,6 +1270,13 @@ const groundOps = {
       event: "Day 114 — Netanyahu and Defense Minister Israel Katz order IDF to hold fire everywhere in Lebanon except Ali al-Taher Hill; IDF stays in occupied Lebanese territories pending withdrawal negotiations; Israel-Hezbollah ceasefire Day 2 holds; Netanyahu security cabinet convenes following US nuclear strikes on Iran; Lebanon toll ~3,931 killed / ~11,970 wounded (CBS News; Times of Israel; Al Jazeera, June 21)",
       type: 'ground',
     },
+    {
+      date: '2026-06-22',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 115 — Israel-Hezbollah ceasefire Day 3 holds; IDF maintains forward positions north of Litani River; overnight Israeli strikes kill ~13 Lebanese civilians (CBS News 'more than a dozen overnight'); Lebanon toll ~3,944 killed / ~11,990 wounded; VP Vance holds face-to-face talks with Iranian officials in Switzerland — emergency Lebanon session added to agenda; UNSC emergency session on US nuclear strikes; IDF on alert after Iran's 'unprecedented response' pledge (CBS News, Times of Israel, Al Jazeera, Lebanese Ministry of Health, June 22)",
+      type: 'ground',
+    },
   ],
 };
 
