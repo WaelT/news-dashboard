@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 21, 2026',
+  updated: 'JUNE 23, 2026',
   status: 'ACTIVE',
   startDate: '2026-03-16',
 
@@ -1290,6 +1290,13 @@ const groundOps = {
       lng: 35.48,
       event: "Day 116 — Trump announces Iran-Israel ceasefire: Iran to end hostilities midnight June 24, Israel follows 12 hours later; Qatar mediated; Brent drops to ~$77.5/bbl; US Treasury authorizes Iranian oil sales for 60 days; Lebanon ceasefire Day 4 holds; IDF maintains positions north of Litani pending withdrawal timeline (Trump statement; Reuters; CBS News; NPR; CNBC, June 23)",
       type: 'diplomacy',
+    },
+    {
+      date: '2026-06-23',
+      lat: 33.38,
+      lng: 35.48,
+      event: "Day 116 — Hezbollah claims Israel violated Lebanon ceasefire near Nabatieh: IDF strikes group near Ali Taher ridge — Lebanon reports 2 killed; IDF: targeted Hezbollah gunmen threatening forces; Hezbollah warns it 'has adhered to ceasefire until now' and labels strike 'blatant violation'; Lebanon toll 4,175 killed / 12,164 wounded (Lebanese Ministry of Health; Times of Israel liveblog; Al Jazeera, June 23)",
+      type: 'ground',
     },
   ],
 };
