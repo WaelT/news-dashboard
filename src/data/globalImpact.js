@@ -19,7 +19,7 @@
 //          CNBC (May 29 2026 — Brent $91.2/bbl −2% on day; −17% for May; lowest in ~6 weeks — ceasefire deal optimism)
 //          RFERL/NBC News/ABC7/CBS News/Al Jazeera (May 29-30 2026 — US-Iran tentative 60-day MOU; Trump/Khamenei sign-off still pending; Trump May 30 Truth Social: "Hormuz Strait must be immediately open, no tolls... All water mines will be terminated"; Lebanon toll 3,324/10,027)
 export const globalImpact = {
-  updated: '2026-06-22',
+  updated: '2026-06-23',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'June 21 (Day 114): US strikes Fordow, Natanz, and Isfahan nuclear facilities; economy expected to deepen contraction; oil recovery halted; deal framework in doubt; Iran FM calls MOU "nullified"; IRGC on maximum alert; vows unprecedented response — sanctions relief now blocked; IMF forecast: GDP −6.1% for 2026, inflation 68.9%; $24B frozen assets now back in limbo; June 15 (Day 108): deal "Now Complete" had offered path to recovery; June 19: MOU signed at Burgenstock; now in doubt 2 days later after nuclear strikes (Wikipedia — United States strikes on Iranian nuclear sites; ASIL; CNBC; CBS News; Al Jazeera, June 21)' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Finance Ministry initial estimate: NIS 35B (~$11.5B) war cost (ToI Apr 12); ~$3B/week GDP loss; fiscal deficit from 3.9%→5.1% GDP; Lebanon toll ~3,795 killed / ~11,730 wounded (Times of Israel, June 15); June 15 (Day 108): Trump announces deal "Now Complete"; Israel "not a party" to MOU; IDF issues evacuation warnings for 24 locations including Nabatieh city, strikes 70+ Hezbollah sites; Lebanese army withdraws from Kfar Tebnit near Nabatieh; deal does not formally end Israeli operations in Lebanon, which continue per Netanyahu\'s stated policy (Times of Israel, Al Jazeera, June 15)' },
@@ -37,7 +37,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 80, peak: 126, forecast: 90,
-    note: 'Brent $80.26/bbl (August futures, CNBC June 22, −0.38%) — reversed June 21 spike; markets pricing in Switzerland talks continuing despite disruption; tanker transits ~6/day; no new IRGC kinetic launches (10th consecutive day); Switzerland talks stalled after Trump Fox News threat + Ghalibaf X warning "armed forces prepared to respond in a different manner"; Iranian delegation remained at Swiss resort — AP: no indication of intent to leave; back-channel contacts ongoing; June 21: Brent spiked from $76 to ~$90 on US nuclear strikes on Fordow, Natanz, Isfahan; June 22: Brent recovered to $80.26 as negotiations continued; IRGC closure declaration maintained but CENTCOM disputes (CBS News, CNBC, AP, CBC, June 22)',
+    preWar: 68, current: 77, peak: 126, forecast: 85,
+    note: 'Brent ~$77.5/bbl (June 23) — dropped sharply below $80 on Trump ceasefire announcement; Iran fired ~14 BMs at Al Udeid Air Base Qatar (retaliation for June 21 nuclear strikes) then Trump declared Iran-Israel ceasefire to take effect midnight June 24; US Treasury authorized Iranian oil sales for 60 days boosting supply recovery expectations; Gulf producers preparing to raise output; Kuwait lifting force majeure notices; ADNOC resuming supply ops; Brent now at lowest level since before war; June 22: $80.26; June 21 spike: ~$90 on nuclear strikes; trajectory sharply downward on ceasefire (CNBC; Reuters; US Treasury; June 23)',
   },
 };
