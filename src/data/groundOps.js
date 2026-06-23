@@ -1277,6 +1277,20 @@ const groundOps = {
       event: "Day 115 — Israel-Hezbollah ceasefire Day 3 holds; IDF maintains forward positions north of Litani River; overnight Israeli strikes kill ~13 Lebanese civilians (CBS News 'more than a dozen overnight'); Lebanon toll ~3,944 killed / ~11,990 wounded; VP Vance holds face-to-face talks with Iranian officials in Switzerland — emergency Lebanon session added to agenda; UNSC emergency session on US nuclear strikes; IDF on alert after Iran's 'unprecedented response' pledge (CBS News, Times of Israel, Al Jazeera, Lebanese Ministry of Health, June 22)",
       type: 'ground',
     },
+    {
+      date: '2026-06-23',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 116 — IRGC fires ~14 ballistic missiles at Al Udeid Air Base, Qatar (US retaliatory strike for June 21 nuclear hits); 13 intercepted, 1 impacts with no casualties; Qatar closed airspace; Iran gave advance warning; CENTCOM: 'U.S. and Qatari Forces Successfully Defend Against Iranian Ballistic Missile Attack'; Lebanon ceasefire Day 4 holds; Lebanon toll ~3,962 killed / ~12,020 wounded (CENTCOM press release; CBS News; NPR; Reuters; Lebanese Ministry of Health, June 23)",
+      type: 'airstrike',
+    },
+    {
+      date: '2026-06-23',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 116 — Trump announces Iran-Israel ceasefire: Iran to end hostilities midnight June 24, Israel follows 12 hours later; Qatar mediated; Brent drops to ~$77.5/bbl; US Treasury authorizes Iranian oil sales for 60 days; Lebanon ceasefire Day 4 holds; IDF maintains positions north of Litani pending withdrawal timeline (Trump statement; Reuters; CBS News; NPR; CNBC, June 23)",
+      type: 'diplomacy',
+    },
   ],
 };
 
