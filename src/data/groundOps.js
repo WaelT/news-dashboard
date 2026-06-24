@@ -1,8 +1,8 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 23, 2026',
-  status: 'ACTIVE',
+  updated: 'JUNE 24, 2026',
+  status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
   summary: {
@@ -1297,6 +1297,20 @@ const groundOps = {
       lng: 35.48,
       event: "Day 116 — Hezbollah claims Israel violated Lebanon ceasefire near Nabatieh: IDF strikes group near Ali Taher ridge — Lebanon reports 2 killed; IDF: targeted Hezbollah gunmen threatening forces; Hezbollah warns it 'has adhered to ceasefire until now' and labels strike 'blatant violation'; Lebanon toll 4,175 killed / 12,164 wounded (Lebanese Ministry of Health; Times of Israel liveblog; Al Jazeera, June 23)",
       type: 'ground',
+    },
+    {
+      date: '2026-06-24',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 117 — CEASEFIRE DAY 1 — Iran-Israel ceasefire formally in effect; Iran ceased hostilities at midnight June 24 (Doha/Tehran time ≈ UTC 20:30 June 23); Israel to follow ~12 hours later (≈ UTC 08:30 June 24); Lebanon ceasefire Day 5 holds — no new IDF offensive ground operations; IDF maintains forward positions north of Litani River pending withdrawal timeline negotiations; Hezbollah observing ceasefire; no new projectile fire at Israel confirmed; all fronts quiet; Lebanon toll 4,175 killed / 12,164 wounded (unchanged) (IDF spokesperson; Lebanese Ministry of Health; Reuters; CBS News; June 24)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-06-24',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 117 — Hormuz ceasefire Day 1: no new IRGC kinetic activity confirmed; Hormuz transits rising to ~13/day; IRGC Hormuz closure declaration lifted; PGSA toll system ceased; tanker rates falling sharply to ~$45K–$60K/day; US Treasury 60-day Iranian oil sales authorization in effect; US naval escort operations scaling down; Houthis 12th consecutive quiet day — formal Houthi ceasefire declaration expected within 24h per spokesman Al-Bukhaiti; Brent ~$76/bbl (CENTCOM; Reuters; US Treasury; Al Jazeera; June 24)",
+      type: 'ceasefire',
     },
   ],
 };
