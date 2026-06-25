@@ -1,7 +1,7 @@
 // Iranian military infrastructure damage assessment
 // Sources: Pentagon briefings, Alma Center, Critical Threats, IISS
 export const infrastructureDamage = {
-  updated: '2026-06-24',
+  updated: '2026-06-25',
   categories: [
     { id: 'nuclear', label: 'Nuclear Facilities', destructionPct: 99, detail: 'June 21 (Day 114): US strikes Fordow, Natanz, and Isfahan in coordinated operation — 7 B-2 Spirit stealth bombers carrying 14 GBU-57A/B Massive Ordnance Penetrators (30,000-lb bunker busters), 24+ Tomahawk cruise missiles from submarines, 125+ aircraft total; Trump: "completely and totally obliterated"; JCS Gen. Dan Caine: "extremely severe damage and destruction at all three sites"; independent analysts assess ~few months setback (Fordow depth limits full penetration); Iran vows unprecedented response; IAEA seals breached by strike; 440.9 kg of 60%-enriched HEU disposition now unknown; Barakah Nuclear Plant (UAE) Unit 3 restored May 19 — IAEA DG Grossi: "important step for nuclear safety" (Wikipedia — United States strikes on Iranian nuclear sites; ASIL; CNBC; DoD briefing, June 21)', color: '#ff6600' },
     { id: 'naval', label: 'Naval Forces', destructionPct: 92, detail: '140+ vessels destroyed; Bandar Abbas port partially repaired; IRGC fast-attack boats still conducting shadow ops in Hormuz; US AH-64 Apache helicopter downed near Strait of Hormuz June 9 by IRGC drone — CENTCOM conducts retaliatory self-defense strikes in response', color: '#00aaff' },
