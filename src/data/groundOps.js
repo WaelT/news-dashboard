@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 24, 2026',
+  updated: 'JUNE 25, 2026',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1310,6 +1310,27 @@ const groundOps = {
       lat: 25.11,
       lng: 51.32,
       event: "Day 117 — Hormuz ceasefire Day 1: no new IRGC kinetic activity confirmed; Hormuz transits rising to ~13/day; IRGC Hormuz closure declaration lifted; PGSA toll system ceased; tanker rates falling sharply to ~$45K–$60K/day; US Treasury 60-day Iranian oil sales authorization in effect; US naval escort operations scaling down; Houthis 12th consecutive quiet day — formal Houthi ceasefire declaration expected within 24h per spokesman Al-Bukhaiti; Brent ~$76/bbl (CENTCOM; Reuters; US Treasury; Al Jazeera; June 24)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-06-25',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 118 — CEASEFIRE DAY 2 — Lebanon ceasefire Day 6 holds; IDF maintains forward positions north of Litani River pending withdrawal timeline negotiations; no new IDF offensive ground operations; Hezbollah observing ceasefire; Lebanon toll 4,175 killed / 12,164 wounded (unchanged — no new casualties under ceasefire) (IDF spokesperson; Lebanese Ministry of Health; Reuters; CBS News; June 25)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-06-25',
+      lat: 12.78,
+      lng: 43.14,
+      event: "Day 118 — HOUTHI CEASEFIRE DECLARED — Houthi spokesman Mohammed Al-Bukhaiti formally announces Houthi Armed Forces ceasefire declaration; MARAD Advisory 2026-006 lifted; 13th consecutive quiet day; Bab al-Mandab reopening; shipping companies resuming normal Red Sea transits; war-risk insurance on Red Sea routes normalizing; 60-day follow-on talks to cover Houthi proxy support component (Al-Bukhaiti statement; MARAD; Reuters; Al Jazeera; June 25)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-06-25',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 118 — Hormuz ceasefire Day 2: Hormuz transits rise to ~18/day; tanker rates falling to $38K–$52K/day (approaching pre-war norms); NITC Iranian tankers accelerating cargo loading at Kharg Island under US Treasury 60-day authorization; IEA halts strategic reserve drawdown advisories for Japan, South Korea, India; Brent ~$74–76/bbl; 60-day follow-on talks venue being organized (Rome proposed) (CENTCOM; Reuters; IEA; Al Jazeera; June 25)",
       type: 'ceasefire',
     },
   ],
