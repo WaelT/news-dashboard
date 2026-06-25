@@ -13,14 +13,14 @@ const SYMBOLS = [
 ];
 
 const FALLBACK = {
-  sp500: { price: 7500.58, change: 1.08 },
-  nasdaq: { price: 26920.47, change: 2.03 },
-  dowjones: { price: 51564.70, change: 0.14 },
-  nikkei: { price: 71250.06, change: 0.27 },
-  brent: { price: 76.20, change: -1.69 },
-  btc: { price: 104820.00, change: 0.87 },
-  gold: { price: 4209.50, change: -1.16 },
-  silver: { price: 33.15, change: -0.62 },
+  sp500: { price: 7548.32, change: 0.64 },
+  nasdaq: { price: 27140.85, change: 0.82 },
+  dowjones: { price: 51820.40, change: 0.50 },
+  nikkei: { price: 71680.22, change: 0.60 },
+  brent: { price: 75.10, change: -1.45 },
+  btc: { price: 106200.00, change: 1.31 },
+  gold: { price: 4148.70, change: -1.45 },
+  silver: { price: 32.80, change: -1.06 },
 };
 
 const REFRESH_MS = 60_000;
@@ -46,8 +46,8 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
+  { label: 'Brent Crude', value: '~$75', sub: 'ceasefire Day 2 (peak $126)', color: '#ff6600' },
+  { label: 'Hormuz Transits', value: '18/day', sub: '↑ from 13 (Day 1 ceasefire)', color: '#ff6600' },
   { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
   { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
   { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
