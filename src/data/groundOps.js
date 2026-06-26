@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 25, 2026',
+  updated: 'JUNE 26, 2026',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1331,6 +1331,20 @@ const groundOps = {
       lat: 25.11,
       lng: 51.32,
       event: "Day 118 — Hormuz ceasefire Day 2: Hormuz transits rise to ~18/day; tanker rates falling to $38K–$52K/day (approaching pre-war norms); NITC Iranian tankers accelerating cargo loading at Kharg Island under US Treasury 60-day authorization; IEA halts strategic reserve drawdown advisories for Japan, South Korea, India; Brent ~$74–76/bbl; 60-day follow-on talks venue being organized (Rome proposed) (CENTCOM; Reuters; IEA; Al Jazeera; June 25)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-06-26',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 119 — CEASEFIRE DAY 3 — Lebanon ceasefire Day 7 holds; IDF maintains forward positions north of Litani River pending withdrawal timeline; no new IDF offensive operations; Hezbollah observing ceasefire; Lebanon toll 4,175 killed / 12,164 wounded (unchanged — no new casualties under ceasefire); Khamenei resurfaces in recorded speech (Reuters; IRNA; June 26)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-06-26',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 119 — Hormuz ceasefire Day 3: transits accelerating to ~23/day; oil flows recovering to ~4.8 mbd; Brent ~$72–73/bbl (approaching pre-war ~$68); US gas prices fall to ~$3.20/gal (4-year low); US-Iran de-confliction cell established via Qatar and Pakistan; IAEA inspectors invited back to Iran; Rome confirmed as proposed venue for 60-day follow-on talks (Reuters; France24; CNBC; Al Jazeera; June 26)",
       type: 'ceasefire',
     },
   ],
