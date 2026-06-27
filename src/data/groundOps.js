@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 26, 2026',
+  updated: 'JUNE 27, 2026',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1345,6 +1345,27 @@ const groundOps = {
       lat: 25.11,
       lng: 51.32,
       event: "Day 119 — Hormuz ceasefire Day 3: transits accelerating to ~23/day; oil flows recovering to ~4.8 mbd; Brent ~$72–73/bbl (approaching pre-war ~$68); US gas prices fall to ~$3.20/gal (4-year low); US-Iran de-confliction cell established via Qatar and Pakistan; IAEA inspectors invited back to Iran; Rome confirmed as proposed venue for 60-day follow-on talks (Reuters; France24; CNBC; Al Jazeera; June 26)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-06-27',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 120 — CEASEFIRE DAY 4 — Lebanon ceasefire Day 8 holds; IDF maintains forward positions north of Litani River — IDF-Hezbollah withdrawal timeline negotiations underway under US mediation; no new IDF offensive operations; Hezbollah observing ceasefire; Lebanon toll 4,175 killed / 12,164 wounded (no new casualties under ceasefire); IDF Chief: withdrawal schedule to be finalized within 60 days per MOU framework (IDF spokesperson; Lebanese Ministry of Health; Reuters; June 27)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-06-27',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 120 — IAEA DG Grossi arrives in Tehran for initial nuclear inspection discussions with AEOI chief Eslami; first IAEA access to Iranian nuclear program since June 21 US strikes; initial site access timeline under discussion; Grossi: 'initial discussions constructive — Iran demonstrating willingness to cooperate'; Brent ~$70–71/bbl; US-Iran de-confliction cell active; Rome 60-day follow-on talks preparations advancing (IAEA; IRNA; Reuters; Al Jazeera; June 27)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-06-27',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 120 — Hormuz ceasefire Day 4: transits recovering to ~28/day; oil flows recovering to ~5.5 mbd; Brent ~$70–71/bbl (approaching pre-war ~$68); US gas prices ~$3.15–3.20/gal (4-year low); Houthi ceasefire Day 3 — Bab al-Mandab at full commercial pace; war-risk insurance below pre-war norms for Hormuz routes; Gulf producers at full export capacity (CENTCOM; Reuters; IAEA; Al Jazeera; June 27)",
       type: 'ceasefire',
     },
   ],
