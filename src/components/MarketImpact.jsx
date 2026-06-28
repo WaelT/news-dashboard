@@ -46,10 +46,10 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Oil Peak', value: '+85%', sub: '$126/bbl peak → ~$71 now', color: '#ff6600' },
-  { label: 'Hormuz Recovery', value: '31%', sub: 'pre-war flow (ceasefire D4)', color: '#22c55e' },
+  { label: 'Brent Oil Peak', value: '+85%', sub: '$126/bbl peak → ~$69 now', color: '#ff6600' },
+  { label: 'Hormuz Recovery', value: '33%', sub: 'pre-war flow (ceasefire D5)', color: '#22c55e' },
   { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
-  { label: 'US Gas Prices', value: '$3.20', sub: '/gal — 4-yr low (↓ $4.53 peak)', color: '#22c55e' },
+  { label: 'US Gas Prices', value: '$3.15', sub: '/gal — 4-yr low (↓ $4.53 peak)', color: '#22c55e' },
   { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
   { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
   { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
