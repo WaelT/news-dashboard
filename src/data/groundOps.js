@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 27, 2026',
+  updated: 'JUNE 28, 2026',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1366,6 +1366,27 @@ const groundOps = {
       lat: 25.11,
       lng: 51.32,
       event: "Day 120 — Hormuz ceasefire Day 4: transits recovering to ~28/day; oil flows recovering to ~5.5 mbd; Brent ~$70–71/bbl (approaching pre-war ~$68); US gas prices ~$3.15–3.20/gal (4-year low); Houthi ceasefire Day 3 — Bab al-Mandab at full commercial pace; war-risk insurance below pre-war norms for Hormuz routes; Gulf producers at full export capacity (CENTCOM; Reuters; IAEA; Al Jazeera; June 27)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-06-28',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 121 — CEASEFIRE DAY 5 — Lebanon ceasefire Day 9 holds; IDF withdrawal timeline negotiations continuing under US mediation; no new IDF offensive operations; Hezbollah observing ceasefire; Lebanon toll 4,175 killed / 12,164 wounded (no new casualties — 5th consecutive ceasefire day); IDF and Hezbollah technical teams working on withdrawal phasing and buffer zone boundaries per MOU framework (IDF spokesperson; Lebanese Ministry of Health; Reuters; June 28)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-06-28',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 121 — IAEA DG Grossi Day 2 in Tehran: technical teams meet with AEOI counterparts; Iran Foreign Ministry confirms 'substantive progress on inspection modalities'; Fordow/Natanz/Isfahan site access schedule expected to be finalized this week; IAEA reviewing forensic samples from June 21 strike sites; Brent ~$68–69/bbl (at pre-war level); Rome 60-day follow-on talks approaching formal agenda confirmation (IAEA; IRNA; Reuters; Al Jazeera; June 28)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-06-28',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 121 — Hormuz ceasefire Day 5: transits recovering to ~33/day; oil flows recovering to ~6.0 mbd; Brent ~$68–69/bbl (at pre-war ~$68); US gas prices ~$3.10–3.15/gal (4-year low); Houthi ceasefire Day 4 — Bab al-Mandab at full commercial pace; war-risk insurance at/below pre-war norms for all routes; Kharg Island at ~65% export capacity; Gulf producers at full output (CENTCOM; Reuters; IAEA; IEA; Al Jazeera; June 28)",
       type: 'ceasefire',
     },
   ],
