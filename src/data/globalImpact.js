@@ -37,7 +37,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 69, peak: 126, forecast: 80,
-    note: 'Brent ~$68–69/bbl (June 28) — ceasefire Day 5; at/approaching pre-war level ($68); Hormuz transits recovering to ~33/day; oil flows recovering to ~6.0 mbd; Bab al-Mandab open (Houthi ceasefire Day 4); Gulf producers at full capacity; NITC fleet and Kharg Island at ~65% pre-war export rate and rising; US gas prices ~$3.10–3.15/gal (4-year low); IAEA DG Grossi in Tehran Day 2 of inspection discussions; Goldman Sachs Q4 2026 forecast $80/bbl; June 27: ~$70–71; June 26: ~$72–73; June 25: ~$74–76; June 23: ~$77.5; June 21 spike: ~$90 on US nuclear strikes; trajectory sharply downward on ceasefire — at pre-war norms (CNBC; Reuters; France24; IEA; Goldman Sachs; June 28)',
+    preWar: 68, current: 72, peak: 126, forecast: 80,
+    note: 'Brent $72/bbl (last traded Friday June 26; markets closed weekends) — ceasefire Day 5; near pre-war level ($68); Hormuz transits recovering to ~33/day; oil flows recovering toward ~6 mbd; Persian Gulf exports ~75% of pre-war levels across all routes (Ras Tanura loading resumed); Bab al-Mandab open (Houthi ceasefire Day 4); US gas prices ~$3.10–3.15/gal (4-year low); IAEA DG Grossi in Tehran Day 2 but Iran FM Baghaei says "no plans for inspections, no protocol" — statement war; Goldman Sachs Q4 2026 forecast $80/bbl; June 26: $72; June 25: ~$74–76; June 23: ~$77.5; June 21 spike: ~$90 on US nuclear strikes; down 43% from $126 peak (TradingEconomics; CNBC; Goldman Sachs; June 26–28)',
   },
 };
