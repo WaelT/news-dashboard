@@ -47,9 +47,9 @@ function formatPrice(price) {
 
 const ECON_DATA = [
   { label: 'Brent Crude Peak', value: '+85%', sub: '$126/bbl (May); $72 now', color: '#ff6600' },
-  { label: 'Hormuz (peak→now)', value: '100%→63%', sub: 'blocked; 33 transits/day', color: '#ff6600' },
+  { label: 'Hormuz (peak→now)', value: '100%→64%', sub: 'blocked; 38 transits/day', color: '#ff6600' },
   { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh (peak)', color: '#ff6600' },
-  { label: 'US Gas Price', value: '$4.53/gal', sub: 'peak; now $3.10–3.15 (4yr low)', color: '#3b82f6' },
+  { label: 'US Gas Price', value: '$4.53/gal', sub: 'peak; now $3.08–3.12 (4yr low)', color: '#3b82f6' },
   { label: 'Flights Cancelled', value: '78,000+', sub: 'total since Feb 28', color: '#0088cc' },
   { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day (Feb 28)', color: '#ff0040' },
   { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day (Feb 28)', color: '#ff0040' },
