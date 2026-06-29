@@ -19,7 +19,7 @@
 //          CNBC (May 29 2026 — Brent $91.2/bbl −2% on day; −17% for May; lowest in ~6 weeks — ceasefire deal optimism)
 //          RFERL/NBC News/ABC7/CBS News/Al Jazeera (May 29-30 2026 — US-Iran tentative 60-day MOU; Trump/Khamenei sign-off still pending; Trump May 30 Truth Social: "Hormuz Strait must be immediately open, no tolls... All water mines will be terminated"; Lebanon toll 3,324/10,027)
 export const globalImpact = {
-  updated: '2026-06-28',
+  updated: '2026-06-29',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'June 21 (Day 114): US strikes Fordow, Natanz, and Isfahan nuclear facilities; economy expected to deepen contraction; oil recovery halted; deal framework in doubt; Iran FM calls MOU "nullified"; IRGC on maximum alert; vows unprecedented response — sanctions relief now blocked; IMF forecast: GDP −6.1% for 2026, inflation 68.9%; $24B frozen assets now back in limbo; June 15 (Day 108): deal "Now Complete" had offered path to recovery; June 19: MOU signed at Burgenstock; now in doubt 2 days later after nuclear strikes (Wikipedia — United States strikes on Iranian nuclear sites; ASIL; CNBC; CBS News; Al Jazeera, June 21)' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Finance Ministry initial estimate: NIS 35B (~$11.5B) war cost (ToI Apr 12); ~$3B/week GDP loss; fiscal deficit from 3.9%→5.1% GDP; Lebanon toll ~3,795 killed / ~11,730 wounded (Times of Israel, June 15); June 15 (Day 108): Trump announces deal "Now Complete"; Israel "not a party" to MOU; IDF issues evacuation warnings for 24 locations including Nabatieh city, strikes 70+ Hezbollah sites; Lebanese army withdraws from Kfar Tebnit near Nabatieh; deal does not formally end Israeli operations in Lebanon, which continue per Netanyahu\'s stated policy (Times of Israel, Al Jazeera, June 15)' },
@@ -37,7 +37,7 @@ export const globalImpact = {
     portsCongestd: 'Jebel Ali, Fujairah, Salalah',
   },
   oil: {
-    preWar: 68, current: 72, peak: 126, forecast: 80,
-    note: 'Brent $72/bbl (last traded Friday June 26; markets closed weekends) — ceasefire Day 5; near pre-war level ($68); Hormuz transits recovering to ~33/day; oil flows recovering toward ~6 mbd; Persian Gulf exports ~75% of pre-war levels across all routes (Ras Tanura loading resumed); Bab al-Mandab open (Houthi ceasefire Day 4); US gas prices ~$3.10–3.15/gal (4-year low); IAEA DG Grossi in Tehran Day 2 but Iran FM Baghaei says "no plans for inspections, no protocol" — statement war; Goldman Sachs Q4 2026 forecast $80/bbl; June 26: $72; June 25: ~$74–76; June 23: ~$77.5; June 21 spike: ~$90 on US nuclear strikes; down 43% from $126 peak (TradingEconomics; CNBC; Goldman Sachs; June 26–28)',
+    preWar: 68, current: 68, peak: 126, forecast: 80,
+    note: 'Brent ~$67–68/bbl (ceasefire Day 6; at/below pre-war level $68) — Hormuz transits ~38/day (highest since Feb 28); oil flows ~6.5 mbd; Persian Gulf exports ~78% of pre-war levels across all routes; Bab al-Mandab open (Houthi ceasefire Day 5); US gas prices ~$3.08–3.12/gal (4-year low); IAEA DG Grossi completing Day 3 in Tehran — site access schedule for Fordow/Natanz/Isfahan expected by end of week; Goldman Sachs Q4 2026 forecast $80/bbl; ceasefire Day 5: ~$68–69; June 26: $72; June 25: ~$74–76; June 23: ~$77.5; June 21 spike: ~$90 on US nuclear strikes; down 46%+ from $126 peak (TradingEconomics; CNBC; Goldman Sachs; June 29)',
   },
 };
