@@ -46,17 +46,17 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Peak', value: '+85%', sub: '$126/bbl (May); $72 now', color: '#ff6600' },
-  { label: 'Hormuz (peak→now)', value: '100%→64%', sub: 'blocked; 38 transits/day', color: '#ff6600' },
-  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh (peak)', color: '#ff6600' },
-  { label: 'US Gas Price', value: '$4.53/gal', sub: 'peak; now $3.08–3.12 (4yr low)', color: '#3b82f6' },
-  { label: 'Flights Cancelled', value: '78,000+', sub: 'total since Feb 28', color: '#0088cc' },
-  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day (Feb 28)', color: '#ff0040' },
-  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day (Feb 28)', color: '#ff0040' },
+  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
+  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
+  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
+  { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
+  { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
+  { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
   { label: 'KOSPI Crash', value: '-12%', sub: 'circuit breaker triggered', color: '#ff0040' },
   { label: 'KSE 100 Crash', value: '-9.57%', sub: 'largest-ever decline', color: '#ff0040' },
   { label: 'Thai SET Drop', value: '-8%', sub: 'circuit breaker', color: '#ff0040' },
-  { label: 'Eurozone Growth', value: '-0.8%', sub: 'GDP impact (IMF est.)', color: '#d4a017' },
+  { label: 'Eurozone Growth', value: '-0.1%', sub: 'GDP reduction', color: '#d4a017' },
   { label: 'EU Inflation Rise', value: '+0.5%', sub: 'projected', color: '#d4a017' },
 ];
 
