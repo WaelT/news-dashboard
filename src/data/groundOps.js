@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JUNE 30, 2026 (DAY 123 — CEASEFIRE DAY 7)',
+  updated: 'JULY 1, 2026 (DAY 124 — CEASEFIRE DAY 8)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1429,6 +1429,27 @@ const groundOps = {
       lat: 25.11,
       lng: 51.32,
       event: "Day 123 — Hormuz ceasefire Day 7: transits recovering to ~43/day (highest since Feb 28 pre-war baseline); oil flows ~7.0 mbd; Persian Gulf exports ~82% of pre-war levels; Brent ~$66–68/bbl (at/below pre-war $68); US gas prices ~$3.05–3.12/gal (4-year low); Houthi ceasefire Day 6 — Bab al-Mandab fully open at pre-war commercial pace; VLCC rates $18K–$28K/day; Kharg Island at ~75% export capacity; Gulf producers at full output (CENTCOM; Reuters; IEA; Al Jazeera; JMIC; June 30)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-01',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 124 — CEASEFIRE DAY 8 — Lebanon ceasefire Day 12 holds; IDF maintains forward positions north of Litani River; withdrawal timeline negotiations continuing under US mediation; no new IDF offensive ground operations; Hezbollah observing ceasefire; IAEA DG Grossi completing Day 5 of Tehran nuclear inspection discussions — Fordow/Natanz/Isfahan site access schedule formally announced; Rome 60-day follow-on talks formal agenda confirmed (IDF spokesperson; IAEA; Reuters; Al Jazeera; July 1)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-01',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 124 — IAEA DG Grossi completing Day 5 in Tehran: Fordow, Natanz, and Isfahan site access schedule formally announced; Iran AEOI technical cooperation continuing; IAEA forensic data review of June 21 US strike sites advancing; Rome 60-day follow-on talks formal agenda confirmed; US-Iran de-confliction cell via Qatar and Pakistan active; Brent ~$64–66/bbl (IAEA; IRNA; Reuters; Al Jazeera; CENTCOM; July 1)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-01',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 124 — Hormuz ceasefire Day 8: transits ~48/day; oil flows ~7.5 mbd; Brent ~$64–66/bbl (below pre-war $68); US gas prices ~$3.00–3.08/gal (4-year low); Houthi ceasefire Day 7 — Bab al-Mandab fully open; 19th consecutive quiet day; VLCC rates $15K–$24K/day; Kharg Island at ~80% export capacity; Gulf producers at full output (CENTCOM; Reuters; IEA; Al Jazeera; JMIC; July 1)",
       type: 'ceasefire',
     },
   ],
