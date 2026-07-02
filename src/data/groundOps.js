@@ -1452,6 +1452,27 @@ const groundOps = {
       event: "Day 124 — Hormuz ceasefire Day 8: transits ~48/day; oil flows ~7.5 mbd; Brent ~$64–66/bbl (below pre-war $68); US gas prices ~$3.00–3.08/gal (4-year low); Houthi ceasefire Day 7 — Bab al-Mandab fully open; 19th consecutive quiet day; VLCC rates $15K–$24K/day; Kharg Island at ~80% export capacity; Gulf producers at full output (CENTCOM; Reuters; IEA; Al Jazeera; JMIC; July 1)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-02',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 125 — CEASEFIRE DAY 9 — Lebanon ceasefire Day 13 holds; IDF maintains forward positions north of Litani River; withdrawal timeline negotiations continuing under US mediation; no new IDF offensive ground operations; Hezbollah observing ceasefire for 13th consecutive day; IAEA DG Grossi completing Day 6 of Tehran nuclear inspection discussions — forensic site review teams advancing at Fordow, Natanz, and Isfahan under confirmed access schedule; Rome 60-day follow-on talks agenda implementation advancing; longest unbroken ceasefire streak since Feb 28 war start (IDF spokesperson; IAEA; Reuters; Al Jazeera; July 2)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-02',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 125 — IAEA DG Grossi completing Day 6 in Tehran: forensic site review teams advancing at Fordow, Natanz, and Isfahan under confirmed access schedule announced July 1; Iran AEOI technical cooperation continuing at all three US-struck facilities; Rome 60-day follow-on talks agenda implementation advancing — delegations from both US and Iranian sides confirming inaugural session participation; US-Iran de-confliction cell via Qatar and Pakistan active; Brent ~$62–65/bbl (IAEA; IRNA; Reuters; Al Jazeera; CENTCOM; July 2)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-02',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 125 — Hormuz ceasefire Day 9: transits ~52/day; oil flows ~8.0 mbd; Brent ~$62–65/bbl (further below pre-war $68 — war premium fully erased); US gas prices ~$2.96–3.05/gal (4-year low, continuing to fall); Houthi ceasefire Day 8 — Bab al-Mandab fully open; 20th consecutive quiet day; VLCC rates $12K–$20K/day (well below pre-war norms); Kharg Island at ~85% export capacity; Gulf producers at full output; war-risk insurance at/below pre-war norms for all routes (CENTCOM; Reuters; IEA; Al Jazeera; JMIC; July 2)",
+      type: 'ceasefire',
+    },
   ],
 };
 
