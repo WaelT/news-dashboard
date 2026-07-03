@@ -2500,6 +2500,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 125 of the 2026 Iran war — economic normalization on ceasefire Day 9. Strait of Hormuz tanker transits reached approximately 52 per day (up from 48 on Day 8), continuing the fastest normalization pace since the crisis began. Oil flows through Hormuz reached approximately 8.0 mbd (up from 7.5 mbd on Day 8), representing approximately 44% of the 18.1 mbd pre-war flow level. Saudi Arabia Ras Tanura, UAE ADNOC, and Kuwait KNPC all at full export capacity; Kharg Island Iranian crude exports at approximately 85% pre-war capacity and rising under the US Treasury 60-day authorization. Brent crude fell to approximately $62–65/bbl — further below the $68 pre-war baseline and continuing to decline; US average retail gasoline prices fell to approximately $2.96–3.05/gallon, the lowest 4-year level. VLCC tanker spot rates at $12K–$20K/day — well below pre-war norms of $35K–$50K/day and continuing to fall as Hormuz normalizes. War-risk insurance for all Gulf and Red Sea routes at or below pre-war baseline. Houthi ceasefire Day 8: Bab al-Mandab fully open; 20th consecutive quiet day; all major shipping lines at pre-war Red Sea operational tempo (TradingEconomics; CNBC; Goldman Sachs; JMIC; US EIA; Baltic Exchange; July 2).',
   },
+  {
+    date: '2026-07-03',
+    event: 'Day 126 — IAEA DG Grossi Day 7 in Tehran; Rome inaugural session preparation advancing; ceasefire Day 10 holds across all fronts',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Day 126 of the 2026 Iran war — ceasefire Day 10. IAEA Director-General Rafael Grossi completed his seventh day of nuclear inspection discussions in Tehran, with forensic site review teams continuing access at Fordow, Natanz, and Isfahan. AEOI technical cooperation continued at all three US-struck facilities. The Rome 60-day follow-on talks inaugural session preparation advanced, with delegations from the US and Iranian sides finalizing participation logistics. The US-Iran de-confliction cell via Qatar and Pakistan remained active. All three ceasefire tracks — Iran-Israel (Day 10), Lebanon-Israel (Day 14), and Houthi Red Sea (Day 9) — observed quiet for a tenth consecutive day, the longest unbroken ceasefire streak since the war began February 28. IDF-Hezbollah withdrawal timeline negotiations continued under US mediation in south Lebanon without new offensive operations (IAEA; CENTCOM; Reuters; NPR; Al Jazeera; IRNA; July 3).',
+  },
+  {
+    date: '2026-07-03',
+    event: 'Day 126 — Hormuz transits ~56/day; oil flows ~8.5 mbd; Brent ~$60–63/bbl; US gas ~$2.88–2.98/gal; VLCC rates $10K–$18K/day',
+    type: 'economic',
+    status: 'implemented',
+    detail: 'Day 126 of the 2026 Iran war — economic normalization on ceasefire Day 10. Strait of Hormuz tanker transits reached approximately 56 per day (up from 52 on Day 9), continuing the fastest normalization pace since the crisis began. Oil flows through Hormuz reached approximately 8.5 mbd (up from 8.0 mbd on Day 9), representing approximately 47% of the 18.1 mbd pre-war flow level. Saudi Arabia Ras Tanura, UAE ADNOC, and Kuwait KNPC all at full export capacity; Kharg Island Iranian crude exports at approximately 90% pre-war capacity and rising under the US Treasury 60-day authorization. Brent crude fell to approximately $60–63/bbl — further below the $68 pre-war baseline; US average retail gasoline prices fell to approximately $2.88–2.98/gallon, the lowest 4-year level and continuing to decline. VLCC tanker spot rates at $10K–$18K/day — well below pre-war norms of $35K–$50K/day and continuing to fall. War-risk insurance for all Gulf and Red Sea routes at or below pre-war baseline. Houthi ceasefire Day 9: Bab al-Mandab fully open; 21st consecutive quiet day; all major shipping lines at pre-war Red Sea operational tempo. Goldman Sachs Q4 2026 Brent forecast $80/bbl maintained (TradingEconomics; CNBC; Goldman Sachs; JMIC; US EIA; Baltic Exchange; July 3).',
+  },
 ];
 
 export const STATUS_COLORS = {

@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 2, 2026 (DAY 125 — CEASEFIRE DAY 9)',
+  updated: 'JULY 3, 2026 (DAY 126 — CEASEFIRE DAY 10)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1471,6 +1471,27 @@ const groundOps = {
       lat: 25.11,
       lng: 51.32,
       event: "Day 125 — Hormuz ceasefire Day 9: transits ~52/day; oil flows ~8.0 mbd; Brent ~$62–65/bbl (further below pre-war $68 — war premium fully erased); US gas prices ~$2.96–3.05/gal (4-year low, continuing to fall); Houthi ceasefire Day 8 — Bab al-Mandab fully open; 20th consecutive quiet day; VLCC rates $12K–$20K/day (well below pre-war norms); Kharg Island at ~85% export capacity; Gulf producers at full output; war-risk insurance at/below pre-war norms for all routes (CENTCOM; Reuters; IEA; Al Jazeera; JMIC; July 2)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-03',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 126 — CEASEFIRE DAY 10 — Lebanon ceasefire Day 14 holds; IDF maintains forward positions north of Litani River; withdrawal timeline negotiations continuing under US mediation; no new IDF offensive ground operations; Hezbollah observing ceasefire for 14th consecutive day; IAEA DG Grossi completing Day 7 of Tehran nuclear inspection discussions — forensic site review teams continuing access at Fordow, Natanz, and Isfahan; Rome 60-day follow-on talks inaugural session preparation advancing; longest unbroken ceasefire streak since Feb 28 war start (IDF spokesperson; IAEA; Reuters; Al Jazeera; July 3)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-03',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 126 — IAEA DG Grossi completing Day 7 in Tehran: forensic site review teams continuing access at Fordow, Natanz, and Isfahan under confirmed schedule; Iran AEOI technical cooperation continuing at all three US-struck facilities; Rome 60-day follow-on talks inaugural session preparation advancing — delegations finalizing participation logistics; US-Iran de-confliction cell via Qatar and Pakistan active; Brent ~$60–63/bbl (IAEA; IRNA; Reuters; Al Jazeera; CENTCOM; July 3)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-03',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 126 — Hormuz ceasefire Day 10: transits ~56/day; oil flows ~8.5 mbd; Brent ~$60–63/bbl (further below pre-war $68); US gas prices ~$2.88–2.98/gal (4-year low, continuing to fall); Houthi ceasefire Day 9 — Bab al-Mandab fully open; 21st consecutive quiet day; VLCC rates $10K–$18K/day (well below pre-war norms, continuing to fall); Kharg Island at ~90% export capacity; Gulf producers at full output; war-risk insurance at/below pre-war norms for all routes (CENTCOM; Reuters; IEA; Al Jazeera; JMIC; July 3)",
       type: 'ceasefire',
     },
   ],
