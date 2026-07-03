@@ -46,10 +46,10 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
-  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
-  { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
+  { label: 'Brent Crude', value: '+3–6%', sub: '~$71–72/barrel', color: '#d4a017' },
+  { label: 'Hormuz Disruption', value: '42%', sub: 'of flow disrupted', color: '#ff6600' },
+  { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh (peak)', color: '#ff6600' },
+  { label: 'US Gas Price', value: '$3.05–3.10', sub: '/gal (4-yr low)', color: '#00ff41' },
   { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
   { label: 'Dow Jones Drop', value: '-400pts', sub: 'single day', color: '#ff0040' },
   { label: 'S&P 500 Drop', value: '-0.7%', sub: 'single day', color: '#ff0040' },
