@@ -1494,6 +1494,27 @@ const groundOps = {
       event: "Day 126 — Hormuz ceasefire Day 10: transits ~56/day; oil flows ~8.5 mbd; Brent ~$60–63/bbl (further below pre-war $68); US gas prices ~$2.88–2.98/gal (4-year low, continuing to fall); Houthi ceasefire Day 9 — Bab al-Mandab fully open; 21st consecutive quiet day; VLCC rates $10K–$18K/day (well below pre-war norms, continuing to fall); Kharg Island at ~90% export capacity; Gulf producers at full output; war-risk insurance at/below pre-war norms for all routes (CENTCOM; Reuters; IEA; Al Jazeera; JMIC; July 3)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-04',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 127 — CEASEFIRE DAY 11 (US Independence Day) — Lebanon ceasefire Day 15 holds; IDF maintains forward positions north of Litani River; withdrawal timeline negotiations continuing under US mediation; no new IDF offensive ground operations; Hezbollah observing ceasefire for 15th consecutive day; IAEA DG Grossi completing Day 8 of Tehran nuclear inspection discussions — forensic site review teams maintaining access at Fordow, Natanz, and Isfahan; Rome 60-day follow-on talks inaugural session opens; longest unbroken ceasefire streak since Feb 28 war start (IDF spokesperson; IAEA; Reuters; Al Jazeera; July 4)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-04',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 127 — IAEA DG Grossi completing Day 8 in Tehran (US Independence Day): forensic site review teams maintaining full access at Fordow, Natanz, and Isfahan; Iran AEOI technical cooperation and data transfer to IAEA proceeding; Rome 60-day follow-on talks inaugural session convenes — US and Iranian delegations address nuclear disposition, sanctions relief, proxy networks, ballistic missiles; Trump Independence Day address: Iran deal 'greatest peace deal in history'; US-Iran de-confliction cell via Qatar and Pakistan active; Brent ~$58–61/bbl (IAEA; IRNA; Reuters; Al Jazeera; CENTCOM; July 4)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-04',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 127 — Hormuz ceasefire Day 11: transits ~60/day (highest since pre-war); oil flows ~9.0 mbd; Brent ~$58–61/bbl (below $60 intraday — pre-war $68 war premium fully collapsed); US gas prices ~$2.82–2.92/gal (4-year low, Independence Day); Houthi ceasefire Day 10 — Bab al-Mandab fully open; 22nd consecutive quiet day; VLCC rates $8K–$14K/day (well below pre-war norms, continuing to fall); Kharg Island at ~95% export capacity; Gulf producers at full output; IEA projects ~1.5 mbd global surplus by Q3 2026; war-risk insurance at/below pre-war norms (CENTCOM; Reuters; IEA; Al Jazeera; JMIC; July 4)",
+      type: 'ceasefire',
+    },
   ],
 };
 
