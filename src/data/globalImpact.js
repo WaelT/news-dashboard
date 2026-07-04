@@ -32,9 +32,9 @@ export const globalImpact = {
   ],
   disruptions: {
     flightsCancelled: '78,000+',
-    airspaceClosed: 'Iran (partial), S. Lebanon, Gulf corridors',
-    shippingDelay: '6–14 days avg via Cape of Good Hope reroute',
-    portsCongestd: 'Jebel Ali, Fujairah, Salalah',
+    airspaceClosed: 'Iran (partial), S. Lebanon (partial)',
+    shippingDelay: 'Direct Hormuz routes resumed; Cape of Good Hope surcharge lifted',
+    portsCongestd: 'Jebel Ali, Fujairah, Salalah (congestion clearing)',
   },
   oil: {
     preWar: 68, current: 59, peak: 126, forecast: 80,

@@ -71,11 +71,11 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'East-West Yanbu pipeline restored Apr 20 (4.6M bpd); Red Sea crude exports ~85% of pre-war capacity; Aramco routing select cargoes via Cape of Good Hope as contingency',
+      detail: 'July 4 (ceasefire Day 11): Ras Tanura export terminal at full loading capacity; East-West Yanbu pipeline at full 4.6M bpd; Red Sea exports fully restored to pre-war volumes; Aramco Cape of Good Hope contingency routing discontinued; Saudi VLCC loadings at pre-war schedule (CNBC; Reuters; Kpler; July 4)',
     },
     {
       country: 'Iraq',
-      detail: 'Basra crude exports via Khor al-Amaya SPM under US Navy escort; Iraq-Turkey Ceyhan pipeline at 68% capacity; SOMO offering extended payment terms to Asian spot buyers',
+      detail: 'July 4 (ceasefire Day 11): Basra crude exports via Khor al-Amaya SPM at full capacity; US Navy escort operations concluded post-MOU June 19; Iraq-Turkey Ceyhan pipeline at pre-war capacity; SOMO returned to standard commercial terms; Iraqi oil revenues recovering toward pre-war baseline (Reuters; SOMO; July 4)',
     },
     {
       country: 'UAE',
