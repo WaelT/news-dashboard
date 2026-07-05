@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 3, 2026 (DAY 126 — CEASEFIRE DAY 10)',
+  updated: 'JULY 5, 2026 (DAY 128 — CEASEFIRE DAY 12)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
