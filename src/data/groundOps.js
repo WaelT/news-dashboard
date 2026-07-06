@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 5, 2026 (DAY 128 — CEASEFIRE DAY 12)',
+  updated: 'JULY 6, 2026 (DAY 129 — CEASEFIRE DAY 13)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1533,7 +1533,21 @@ const groundOps = {
       date: '2026-07-05',
       lat: 25.11,
       lng: 51.32,
-      event: "Day 128 — Hormuz ceasefire Day 12: transits ~64/day; oil flows ~9.5 mbd; Brent ~$56–59/bbl (lowest since before the war — war premium fully and persistently collapsed); US gas prices ~$2.76–2.86/gal (4-year low, continuing to fall); Houthi ceasefire Day 11 — Bab al-Mandab fully open; 23rd consecutive quiet day; MARAD 2026-006 lifted; VLCC rates $6K–$12K/day (well below pre-war norms, continuing to fall); Kharg Island at ~98% export capacity; Gulf producers at full output; IEA projects ~1.5 mbd global surplus by Q3 2026; war-risk insurance at/below pre-war norms for all routes (CENTCOM; Reuters; IEA; Al Jazeera; JMIC; July 5)",
+      event: "Day 128 — Hormuz ceasefire Day 12: transits ~64/day; oil flows ~9.5 mbd; Brent $72.12 Friday close; OPEC+ announces +188K bpd on Sunday; Houthi ceasefire Day 11 — Bab al-Mandab fully open; 23rd consecutive quiet day; Saudi Arabia ~90% pre-war exports; UAE exports 3.9 mbd; total Hormuz flows >10 mbd; analysts warn mines + insurance costs slow full recovery; JMIC threat still 'Substantial' (CENTCOM; Reuters; IEA; Al Jazeera; JMIC; Fortune; July 5)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-06',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 129 — CEASEFIRE DAY 13 — Khamenei state funeral main Tehran procession: 10km from Imam Hossein Square to Azadi Square (06:00 local); millions attend; Mostafa, Meysam, Masoud Khamenei at coffin; Mojtaba (new Supreme Leader) absent — still no public sighting since Feb 28 injuries; US-Iran Rome talks paused one week for funeral; Trump: 'Iran gets a week off'; Doha indirect talks on $6B goods-purchase mechanism concluded earlier in week; all ceasefire fronts quiet Day 13 (NPR; CNN; CNBC; Al Jazeera; CBS News; GlobalSecurity; July 6)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-06',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 129 — Hormuz ceasefire Day 13: oil flows >10 mbd; Brent dips ~$69–72 after OPEC+ +188K bpd Sunday announcement; Rome talks paused for funeral week — next breakthrough on nuclear inspection/sanctions sequencing expected mid-July; JMIC: Hormuz threat still 'Substantial'; mines remain navigational hazard in strait center; Houthi ceasefire Day 12 — 24th consecutive quiet day; Bab al-Mandab fully open (CNBC; Al Jazeera; Fortune; JMIC; Fox News; July 6)",
       type: 'ceasefire',
     },
   ],
