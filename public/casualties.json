@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-06T12:00:00.000Z",
-  "source": "Wikipedia, Al Jazeera, HRANA, Reuters (no new casualties confirmed \u2014 ceasefire Day 13)",
+  "updatedAt": "2026-07-07T12:00:00.000Z",
+  "source": "Wikipedia, Al Jazeera, HRANA, Reuters (no new casualties confirmed — ceasefire Day 14; Khamenei funeral Day 4; all fronts quiet for 14th consecutive day)",
   "casualties": {
     "lebanon": {
       "killed": 4246,
       "wounded": 12190
     },
     "iran": {
-      "killed": 3636,
-      "wounded": 26500
+      "killed": 3664,
+      "wounded": 26520
     },
     "iraq": {
       "killed": 119,
@@ -34,13 +34,17 @@
       "killed": 14,
       "wounded": 87
     },
-    "uae": {
-      "killed": 13,
-      "wounded": 229
-    },
     "kuwait": {
-      "killed": 11,
-      "wounded": 182
+      "killed": 14,
+      "wounded": 308
+    },
+    "uae": {
+      "killed": 15,
+      "wounded": 233
+    },
+    "palestine": {
+      "killed": 14,
+      "wounded": 15
     },
     "syria": {
       "killed": 6,
@@ -55,8 +59,12 @@
       "wounded": 0
     },
     "france": {
+      "killed": 3,
+      "wounded": 9
+    },
+    "philippines": {
       "killed": 2,
-      "wounded": 3
+      "wounded": 0
     },
     "jordan": {
       "killed": 0,
@@ -67,14 +75,6 @@
       "wounded": 4
     },
     "yemen": {
-      "killed": 0,
-      "wounded": 0
-    },
-    "palestine": {
-      "killed": 0,
-      "wounded": 0
-    },
-    "philippines": {
       "killed": 0,
       "wounded": 0
     }
