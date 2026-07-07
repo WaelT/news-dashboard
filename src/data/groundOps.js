@@ -1550,6 +1550,27 @@ const groundOps = {
       event: "Day 129 — Hormuz ceasefire Day 13: oil flows >10 mbd; Brent dips ~$69–72 after OPEC+ +188K bpd Sunday announcement; Rome talks paused for funeral week — next breakthrough on nuclear inspection/sanctions sequencing expected mid-July; JMIC: Hormuz threat still 'Substantial'; mines remain navigational hazard in strait center; Houthi ceasefire Day 12 — 24th consecutive quiet day; Bab al-Mandab fully open (CNBC; Al Jazeera; Fortune; JMIC; Fox News; July 6)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-07',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 130 — CEASEFIRE DAY 14 — Lebanon ceasefire Day 18 holds; IDF maintains forward positions north of Litani River; no new IDF offensive ground operations; Hezbollah observing ceasefire for 18th consecutive day; IDF-Hezbollah withdrawal timeline negotiations continuing under US mediation; Khamenei funeral Day 4 (July 4–9); Rome talks paused; IAEA-Iran inspection standoff: Qalibaf blocks bombed-site access under parliamentary law — IAEA DG Grossi: inspections 'going to happen' (IDF spokesperson; IAEA; Reuters; Al Jazeera; July 7)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-07',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 130 — IAEA-Iran inspection standoff: parliament speaker Qalibaf blocks access to Fordow/Natanz/Isfahan citing parliamentary law + SNSC decree — only Bushehr and Tehran Research Reactor accessible; IAEA DG Grossi: inspections 'going to happen' under Islamabad MOU terms; deadlock referred to US-Iran de-confliction channel (Qatar/Pakistan); Khamenei funeral Day 4 ongoing; Mojtaba Khamenei (new Supreme Leader) still absent — recovering from injuries per Reuters; Rome 60-day follow-on talks paused full funeral week, expected resume ~July 14 (IAEA; PressTV; Tribune India; Reuters; Euronews; July 7)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-07',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 130 — Hormuz ceasefire Day 14: transits ~70/day; oil flows ~10.2 mbd; Brent ~$69–72 (OPEC+ +188K bpd supply pressure + Hormuz recovery); US gas ~$2.75–2.85/gal (4-year low); Houthi ceasefire Day 13 — 25th consecutive quiet day; Bab al-Mandab fully open; JMIC: Hormuz threat still 'Substantial' (mines remain hazard); Saudi Arabia ~90% pre-war exports; Kharg Island ~98% capacity (CNBC; Al Jazeera; JMIC; CENTCOM; Reuters; July 7)",
+      type: 'ceasefire',
+    },
   ],
 };
 
