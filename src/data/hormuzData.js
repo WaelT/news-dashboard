@@ -39,12 +39,12 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-07-07T12:00Z',
+  updated: '2026-07-08T12:00Z',
 
   current: {
-    transitsPerDay: 70,
-    oilFlowMbd: 10.2,
-    disruptionPct: 43,
+    transitsPerDay: 65,
+    oilFlowMbd: 9.8,
+    disruptionPct: 46,
   },
 
   preWar: {
@@ -55,10 +55,10 @@ export const hormuzData = {
   },
 
   crisis: {
-    tankersQueued: 35,
-    vesselsStranded: 60,    // July 7 (Day 130): ceasefire Day 14 — backlog continuing to clear as transits reach ~70/day; Khamenei funeral Day 4 (July 4–9); Rome talks paused full week; IAEA-Iran standoff: Qalibaf blocks bombed-site access under parliamentary law; IAEA DG Grossi: inspections 'going to happen'; down from peak 780 (March), 570 (Day 1), 70 (Day 13 → 60 Day 14); July 6 (Day 129): ceasefire Day 13 — backlog continuing to clear as transits reach ~68/day; Rome talks paused for Khamenei funeral week; down from peak 780 (March), 570 (Day 1), 80 (Day 12 → 70 Day 13); July 5 (Day 128): ceasefire Day 12 — transits ~64/day; July 4 (Day 127): ceasefire Day 11 — transits ~60/day; July 2 (Day 125): ceasefire Day 9 — transits ~52/day; July 1 (Day 124): ceasefire Day 8 — transits ~48/day
+    tankersQueued: 52,
+    vesselsStranded: 55,    // July 8 (Day 131): ceasefire Day 15 — IRGC struck Qatari LNG tanker Al Rekayyat + Saudi crude tanker July 7, chilling Hormuz transits; tankersQueued rising as operators hold; transits dip to ~65/day; Khamenei funeral Day 5 (July 4–9); Rome talks still paused; down from peak 780 (March), 570 (Day 1), 60 (Day 14 → 55 Day 15); July 7 (Day 130): ceasefire Day 14 — backlog continuing to clear as transits reach ~70/day; Khamenei funeral Day 4 (July 4–9); Rome talks paused full week; IAEA-Iran standoff: Qalibaf blocks bombed-site access under parliamentary law; IAEA DG Grossi: inspections 'going to happen'; down from peak 780 (March), 570 (Day 1), 70 (Day 13 → 60 Day 14); July 6 (Day 129): ceasefire Day 13 — backlog continuing to clear as transits reach ~68/day; Rome talks paused for Khamenei funeral week; down from peak 780 (March), 570 (Day 1), 80 (Day 12 → 70 Day 13); July 5 (Day 128): ceasefire Day 12 — transits ~64/day; July 4 (Day 127): ceasefire Day 11 — transits ~60/day; July 2 (Day 125): ceasefire Day 9 — transits ~52/day; July 1 (Day 124): ceasefire Day 8 — transits ~48/day
     seafarersStranded: 3500,
-    vesselsAttacked: 46,
+    vesselsAttacked: 48,
     seafarersKilled: 14,    // IMO/gCaptain confirmed 14 killed as of June 10 MT Settebello attack (3 Indian crew killed)
     minesDetected: 12,
     minesFound: 12,
