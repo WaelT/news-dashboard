@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-08T12:00:00.000Z",
-  "source": "Wikipedia, Al Jazeera, HRANA, Reuters, UKMTO (no new casualties confirmed — ceasefire Day 15; IRGC struck Qatari Al Rekayyat LNG tanker + Saudi crude tanker July 7 — zero casualties per UKMTO; Khamenei funeral Day 5; 26th consecutive quiet Houthi day)",
+  "updatedAt": "2026-07-08T13:00:00.000Z",
+  "source": "Wikipedia, Al Jazeera, HRANA, Reuters, UKMTO, Lebanese Ministry of Health (July 8 13:00 UTC \u2014 CEASEFIRE OVER; Lebanon +4 from Nabatieh al-Fawqa drone strike July 6; CENTCOM 80+ strikes July 7; US bombs Sirik/Qeshm/Bandar Abbas July 8; Brent ~$79/bbl)",
   "casualties": {
     "lebanon": {
-      "killed": 4246,
+      "killed": 4250,
       "wounded": 12190
     },
     "iran": {
