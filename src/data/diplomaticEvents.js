@@ -2570,6 +2570,27 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 130 of the 2026 Iran war — economic normalization on ceasefire Day 14. Strait of Hormuz tanker transits reached approximately 70 per day, continuing the recovery trend (Day 13: ~68, Day 12: ~64). Oil flows through Hormuz reached approximately 10.2 million barrels per day, with Saudi Arabia at ~90% of pre-war export baseline, UAE exports at 3.9 mbd, and Kharg Island Iranian exports at ~98% pre-war capacity under the US Treasury 60-day authorization. Brent crude trading in the $69–72/bbl range — continued downward pressure from the OPEC+ 188,000 bpd output increase announced July 6 and the Hormuz supply recovery. JMIC maintains Hormuz threat at "Substantial"; naval analysts warn mines in the strait center and ambiguous ceasefire terms represent lingering risks that could spark a rebound. US gas prices fell to approximately $2.75–2.85/gallon (4-year low continuing to decline). VLCC tanker spot rates continuing to fall toward pre-war norms. Houthi ceasefire Day 13: Bab al-Mandab fully open; 25th consecutive quiet day; all major shipping lines at pre-war Red Sea operational tempo (CNBC; Al Jazeera; Fortune; JMIC; CENTCOM; Reuters; July 7).',
   },
+  {
+    date: '2026-07-07',
+    event: 'Day 130 — IRGC fires missiles at Qatari LNG tanker Al Rekayyat + Saudi crude tanker in Strait of Hormuz; ceasefire strained',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 130 of the 2026 Iran war — a significant ceasefire violation: IRGC naval forces fired missiles at two commercial vessels inside the Strait of Hormuz. The primary target was the Qatari state-owned LNG tanker Al Rekayyat, struck on the port side igniting an engine room fire. A Saudi crude tanker was also damaged in the same operation. UKMTO confirmed zero casualties from both attacks. The IRGC justified the strikes by claiming the vessels were using the Oman-coordinated southern transit corridor, which Iran had declared unauthorized on June 25 for vessels associated with US-escorted convoys. Qatar dispatched a formal diplomatic protest to Tehran. Brent crude rose 1–2% in early July 8 trading before partially retracing on OPEC+ supply pressure. Tanker operators began holding vessels outside the Strait; Hormuz transits dipped from ~70/day to ~65/day. CENTCOM condemned the strikes as "inconsistent with the terms of the ceasefire." Ceasefire is nominally in place for Day 15 but described as "seriously strained." JMIC elevated operational advisory for central strait area. Rome follow-on talks — still paused for Khamenei funeral week — face urgent pressure to address the incident when they resume ~July 14 (Al Jazeera; The National; UKMTO; CENTCOM; IndexBox; Reuters; July 7–8).',
+  },
+  {
+    date: '2026-07-08',
+    event: 'Day 131 — CEASEFIRE DAY 15 — Khamenei funeral Day 5: processions in Najaf + Karbala (Iraq); Mojtaba still absent; Rome talks still paused',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 131 of the 2026 Iran war — ceasefire Day 15. The sixth-day state funeral of Supreme Leader Ali Khamenei reached Day 5, with ceremonies moving to Iraq: processions at the Shrine of Imam Ali in Najaf and Karbala, attended by millions of Iraqi Shia pilgrims and Iranian delegations. Mostafa, Meysam, and Masoud Khamenei attended; Mojtaba Khamenei (new Supreme Leader) was absent for the fifth consecutive funeral day. The funeral concludes July 9 with burial in Mashhad. Rome 60-day follow-on talks remain paused for the full funeral week, now under added urgency following the July 7 IRGC tanker attacks; talks expected to resume approximately July 14. The US-Iran de-confliction channel via Qatar and Pakistan was urgently activated following the Al Rekayyat strike to prevent further escalation. All three ceasefire tracks — Iran-Israel (Day 15), Lebanon-Israel (Day 19), Houthi Red Sea (Day 14) — nominally in place but Hormuz track is strained after the tanker attacks (Al Jazeera; State funeral of Ali Khamenei — Wikipedia; Reuters; CENTCOM; July 8).',
+  },
+  {
+    date: '2026-07-08',
+    event: 'Day 131 — Hormuz transits ~65/day; oil flows ~9.8 mbd; Brent ~$72–74 (tanker attack spike); Houthi ceasefire Day 14 (26th quiet day)',
+    type: 'economic',
+    status: 'implemented',
+    detail: 'Day 131 of the 2026 Iran war — economic situation on ceasefire Day 15. Strait of Hormuz tanker transits fell to approximately 65 per day (down from 70 on Day 14) as operators exercised caution following the July 7 IRGC missile strikes on Al Rekayyat and a Saudi crude tanker. Oil flows through Hormuz dropped to approximately 9.8 mbd (down from 10.2 mbd). Brent crude rose to approximately $72–74/bbl in early July 8 trading — a 1–2% spike on the tanker attack news — before partially retracing on continued OPEC+ supply pressure (+188K bpd). War-risk insurance premiums for Hormuz transits ticked up; tankers queued outside the strait rose to approximately 52. JMIC maintained Hormuz threat at "Substantial" with an elevated operational advisory for the central strait area. Houthi ceasefire Day 14: Bab al-Mandab fully open; 26th consecutive quiet day; all major shipping lines at pre-war Red Sea operational tempo (CNBC; Al Jazeera; The National; UKMTO; JMIC; Vantage Markets; July 8).',
+  },
 ];
 
 export const STATUS_COLORS = {

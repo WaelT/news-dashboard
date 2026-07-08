@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 6, 2026 (DAY 129 — CEASEFIRE DAY 13)',
+  updated: 'JULY 8, 2026 (DAY 131 — CEASEFIRE DAY 15)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1569,6 +1569,34 @@ const groundOps = {
       lat: 25.11,
       lng: 51.32,
       event: "Day 130 — Hormuz ceasefire Day 14: transits ~70/day; oil flows ~10.2 mbd; Brent ~$69–72 (OPEC+ +188K bpd supply pressure + Hormuz recovery); US gas ~$2.75–2.85/gal (4-year low); Houthi ceasefire Day 13 — 25th consecutive quiet day; Bab al-Mandab fully open; JMIC: Hormuz threat still 'Substantial' (mines remain hazard); Saudi Arabia ~90% pre-war exports; Kharg Island ~98% capacity (CNBC; Al Jazeera; JMIC; CENTCOM; Reuters; July 7)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-07',
+      lat: 26.57,
+      lng: 56.25,
+      event: "Day 130 — IRGC fires missiles at Qatari LNG tanker Al Rekayyat in Strait of Hormuz (engine room fire; port-side hit) + Saudi crude tanker also struck; UKMTO: zero casualties; IRGC claims vessels used unauthorized Oman-corridor route; Qatar dispatches diplomatic protest to Tehran; CENTCOM condemns as ceasefire violation; Brent spikes 1–2% early July 8 before retracing; Hormuz transits dip to ~65/day; tankersQueued rises to ~52; JMIC elevates strait advisory (Al Jazeera; The National; UKMTO; CENTCOM; IndexBox; Reuters; July 7–8)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-08',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 131 — CEASEFIRE DAY 15 — Lebanon ceasefire Day 19 holds; IDF maintains forward positions north of Litani River; no new IDF offensive ground operations; Hezbollah observing ceasefire for 19th consecutive day; IDF-Hezbollah withdrawal timeline negotiations continuing under US mediation; Khamenei funeral Day 5 (July 4–9): Iraq processions at Najaf (Shrine of Imam Ali) + Karbala; Mojtaba (new Supreme Leader) absent for 5th consecutive funeral day; Rome talks still paused (IDF spokesperson; Reuters; Al Jazeera; July 8)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-08',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 131 — IAEA-Iran inspection standoff continues: Qalibaf's parliamentary law block on Fordow/Natanz/Isfahan access remains in force (no new development); IAEA DG Grossi maintains inspections 'going to happen' under Islamabad MOU; US-Iran de-confliction channel urgently activated post-Al Rekayyat strike; Rome 60-day follow-on talks still paused full funeral week — expected resume ~July 14; Khamenei funeral Day 5: Iraq leg (Najaf + Karbala); Mojtaba still absent; no public appearance since March 9 designation (IAEA; PressTV; Reuters; Al Jazeera; July 8)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-08',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 131 — Hormuz ceasefire Day 15 STRAINED: IRGC tanker attacks July 7 send operators to hold; transits ~65/day (down from 70); oil flows ~9.8 mbd (down from 10.2); Brent ~$72–74 (brief attack spike; OPEC+ +188K bpd cap); tankersQueued ~52 (up from 35); JMIC elevated strait advisory; Houthi ceasefire Day 14 — 26th consecutive quiet day; Bab al-Mandab fully open (CNBC; Al Jazeera; The National; UKMTO; JMIC; July 8)",
       type: 'ceasefire',
     },
   ],

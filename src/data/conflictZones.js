@@ -108,7 +108,7 @@ const conflictZones = [
     lng: 56.25,
     type: 'strategic',
     icon: 'shipping',
-    description: 'Critical chokepoint — 20% of global oil transit',
+    description: 'Critical chokepoint — 20% of global oil transit. July 7: IRGC fired missiles at Qatari LNG tanker Al Rekayyat (engine room fire) + Saudi crude tanker; zero casualties (UKMTO); ceasefire strained; transits ~65/day.',
     status: 'high-alert',
     keywords: ['hormuz', 'هرمز', 'strait', 'chokepoint', 'oil shipping', 'persian gulf shipping'],
   },
