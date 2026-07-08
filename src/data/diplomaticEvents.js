@@ -2591,6 +2591,34 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 131 of the 2026 Iran war — economic situation on ceasefire Day 15. Strait of Hormuz tanker transits fell to approximately 65 per day (down from 70 on Day 14) as operators exercised caution following the July 7 IRGC missile strikes on Al Rekayyat and a Saudi crude tanker. Oil flows through Hormuz dropped to approximately 9.8 mbd (down from 10.2 mbd). Brent crude rose to approximately $72–74/bbl in early July 8 trading — a 1–2% spike on the tanker attack news — before partially retracing on continued OPEC+ supply pressure (+188K bpd). War-risk insurance premiums for Hormuz transits ticked up; tankers queued outside the strait rose to approximately 52. JMIC maintained Hormuz threat at "Substantial" with an elevated operational advisory for the central strait area. Houthi ceasefire Day 14: Bab al-Mandab fully open; 26th consecutive quiet day; all major shipping lines at pre-war Red Sea operational tempo (CNBC; Al Jazeera; The National; UKMTO; JMIC; Vantage Markets; July 8).',
   },
+  {
+    date: '2026-07-07',
+    event: 'CENTCOM launches 80+ strikes on Iran — ceasefire OVER; Trump declares Islamabad MOU dead at NATO Ankara summit',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 130 of the 2026 Iran war — CEASEFIRE COLLAPSE. Trump, speaking at the NATO summit in Ankara, declared the Islamabad Memorandum of Understanding ceasefire "over" after the IRGC fired anti-ship missiles at three commercial vessels in the Strait of Hormuz: the Qatari LNG tanker Al Rekayyat (engine room fire, crew safe per UKMTO), a Saudi-flagged crude tanker (damaged), and a third vessel. US CENTCOM launched "a series of powerful offensive strikes" hitting 80+ Iranian targets: air defense systems, command-and-control nodes, coastal surveillance radars, anti-ship cruise missiles, surface-to-air missile batteries, drone launch sites, and 60+ IRGC small boats in and around the Strait. Iran retaliated by claiming strikes on US military presence in Hormozgan province and Mahshahr. Air raid sirens activated in Bahrain and Kuwait. Brent crude rose 3% to $74.16/bbl. 60-day follow-on talks framework in serious jeopardy (CNN July 7; NBC News; NPR; CBS News; Al Jazeera liveblog July 7; Bloomberg; CENTCOM; UKMTO; July 7 2026).',
+  },
+  {
+    date: '2026-07-07',
+    event: 'US revokes Iranian oil sale licenses; Brent surges 3% to $74.16; NATO Ankara summit overshadowed by Iran escalation',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'Day 130 — following Trump\'s ceasefire-over declaration, the US Treasury revoked the 60-day authorization for Iranian oil sales that had been in effect since June 24 as part of the Islamabad MOU framework. Brent crude jumped 3% to $74.16/bbl on the combination of the IRGC Hormuz vessel attacks and the ceasefire collapse announcement. NATO leaders gathering at Ankara for the annual summit found the event dominated by the Iran escalation rather than Alliance business. Hormuz tanker transits began collapsing as operators held vessels pending security assessment. (CNN; CNBC; Al Jazeera economy; NBC News; Fortune; July 7 2026).',
+  },
+  {
+    date: '2026-07-06',
+    event: 'IDF drone strike kills 4 Lebanese civilians in Nabatieh al-Fawqa — deadliest Lebanon incident since ceasefire',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 129 — IDF drone strike in the town of Nabatieh al-Fawqa in southern Lebanon killed four civilians: a school principal, her mother, a domestic worker, and a Syrian national. This was the deadliest single incident in Lebanon since the Israel-Lebanon framework ceasefire was announced. IDF struck approximately 10 Hezbollah infrastructure sites in Lebanon on July 6-8, generating renewed diplomatic protests from Beirut. 640,000 displaced Lebanese who had returned home since the ceasefire announcement face renewed risk. Lebanon Ministry of Health updated toll: 4,250 killed / 12,190 wounded (+4 from Nabatieh al-Fawqa) (Lebanese Ministry of Health; Al Jazeera; CNN; July 6 2026).',
+  },
+  {
+    date: '2026-07-08',
+    event: 'US bombs Sirik, Qeshm, Bandar Abbas; oil jumps 6%+; Hormuz transits collapse; ceasefire framework in ruins',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 131 of the 2026 Iran war — resumption of full hostilities. US forces bombed Sirik (port town on Iran\'s Hormozgan coast), Qeshm Island (key transit control point at Strait entrance), and Bandar Abbas (principal IRGC naval base) per Al Jazeera liveblog July 8. Oil prices jumped an additional 6%+ after Trump\'s "ceasefire over" declaration — Brent reaching approximately $79/bbl. Hormuz tanker transits collapsed to approximately 25/day (from 65/day pre-strike) as operators halted scheduling. Tankers queued outside the strait surged toward 145. War-risk insurance premiums began reversing the July normalization trend. Iran claimed retaliatory strikes on US military presence in Hormozgan province. The Islamabad MOU 60-day follow-on talks framework is effectively suspended pending de-escalation (Al Jazeera liveblog July 8; CNN; NBC News; NPR; CENTCOM; UKMTO; Bloomberg; July 8 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

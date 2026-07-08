@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 8, 2026 (DAY 131 — CEASEFIRE DAY 15)',
+  updated: 'JULY 8, 2026 (DAY 131 — CEASEFIRE OVER: CENTCOM 80+ STRIKES JULY 7; US BOMBS SIRIK/QESHM/BANDAR ABBAS JULY 8; IDF STRUCK 10+ HEZBOLLAH SITES JULY 6-8; NABATIEH AL-FAWQA DRONE STRIKE KILLED 4 Lebanese CIVILIANS JULY 6; RESUMPTION OF ACTIVE OPERATIONS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
