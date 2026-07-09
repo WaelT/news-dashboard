@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-07-08T13:00:00.000Z",
-  "source": "Wikipedia, Al Jazeera, HRANA, Reuters, UKMTO, Lebanese Ministry of Health (July 8 13:00 UTC \u2014 CEASEFIRE OVER; Lebanon +4 from Nabatieh al-Fawqa drone strike July 6; CENTCOM 80+ strikes July 7; US bombs Sirik/Qeshm/Bandar Abbas July 8; Brent ~$79/bbl)",
+  "updatedAt": "2026-07-09T13:00:00.000Z",
+  "source": "Wikipedia, Al Jazeera, HRANA, Reuters, UKMTO, Lebanese Ministry of Health (July 9 13:00 UTC \u2014 Day 132: Khamenei burial in Mashhad; IRGC fires 18 BMs + 12 drones at Israel/Bahrain/Kuwait/Qatar/UAE; Iran +26 killed from CENTCOM July 7-8 strikes Bandar Abbas/Qeshm/Sirik; Israel +2 killed/+280 wounded from IRGC missiles July 9; Bahrain +1 killed/+8 wounded; Brent ~$82/bbl)",
   "casualties": {
     "lebanon": {
       "killed": 4250,
       "wounded": 12190
     },
     "iran": {
-      "killed": 3664,
-      "wounded": 26520
+      "killed": 3690,
+      "wounded": 26640
     },
     "iraq": {
       "killed": 119,
       "wounded": 370
     },
     "israel": {
-      "killed": 69,
-      "wounded": 9161
+      "killed": 71,
+      "wounded": 9441
     },
     "oman": {
       "killed": 18,
@@ -51,8 +51,8 @@
       "wounded": 4
     },
     "bahrain": {
-      "killed": 3,
-      "wounded": 51
+      "killed": 4,
+      "wounded": 59
     },
     "turkey": {
       "killed": 3,
