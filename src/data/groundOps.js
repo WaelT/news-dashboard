@@ -1599,6 +1599,34 @@ const groundOps = {
       event: "Day 131 — Hormuz ceasefire Day 15 STRAINED: IRGC tanker attacks July 7 send operators to hold; transits ~65/day (down from 70); oil flows ~9.8 mbd (down from 10.2); Brent ~$72–74 (brief attack spike; OPEC+ +188K bpd cap); tankersQueued ~52 (up from 35); JMIC elevated strait advisory; Houthi ceasefire Day 14 — 26th consecutive quiet day; Bab al-Mandab fully open (CNBC; Al Jazeera; The National; UKMTO; JMIC; July 8)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-09',
+      lat: 36.30,
+      lng: 59.61,
+      event: "Day 132 — Khamenei state funeral concludes: burial at Imam Reza Shrine, Mashhad; Mojtaba Khamenei absent for all 6 days (6-week total absence since Feb 28 injuries); ceremony attended by IRGC commanders, Iraqi/Lebanese/Syrian/Yemeni delegations; Rome 60-day follow-on talks suspended indefinitely (ceasefire framework collapsed July 7) (IRNA; Al Jazeera; Reuters; July 9)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-09',
+      lat: 31.50,
+      lng: 48.70,
+      event: "Day 132 — IRGC fires 18 ballistic missiles (Shahab-3 + Zulfiqar) + 12 Shahed-136 drones at Israel/Bahrain/Kuwait/Qatar/UAE following Khamenei burial; 22 intercepted (Iron Dome + Arrow-3 + PATRIOT + THAAD); 8 reach territory causing structural damage; no mass-casualty event; CENTCOM counter-strikes on IRGC launch sites in Khuzestan + Hormozgan; Israel activates nationwide emergency alert; Bahrain + Kuwait elevated alert; Brent ~$82/bbl (CENTCOM; IDF; Al Jazeera; IRNA; Reuters; July 9)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-09',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 132 — Lebanon ceasefire Day 20 holds; IDF maintains forward positions north of Litani River; no new IDF offensive ground operations; Hezbollah observing ceasefire for 20th consecutive day; IDF-Hezbollah withdrawal timeline negotiations on hold pending Iran-Israel re-escalation assessment; IRGC missiles targeted Israel July 9 — no Lebanon escalation (IDF spokesperson; Reuters; Al Jazeera; July 9)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-09',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 132 — Hormuz: transits ~22/day; oil flows ~3.8 mbd; disruptionPct 79%; Brent ~$82/bbl (+21% from pre-war); tankersQueued 162; vessels stranded 390; war-risk insurance back to near-peak; US gas prices reversing 4-year lows; Houthi ceasefire nominally Day 15 (27th quiet day) but Houthi leadership warning of potential reassessment; Bab al-Mandab still open (CNBC; Al Jazeera; JMIC; UKMTO; Baltic Exchange; July 9)",
+      type: 'strike',
+    },
   ],
 };
 

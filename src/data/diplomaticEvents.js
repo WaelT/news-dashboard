@@ -2619,6 +2619,27 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 131 of the 2026 Iran war — resumption of full hostilities. US forces bombed Sirik (port town on Iran\'s Hormozgan coast), Qeshm Island (key transit control point at Strait entrance), and Bandar Abbas (principal IRGC naval base) per Al Jazeera liveblog July 8. Oil prices jumped an additional 6%+ after Trump\'s "ceasefire over" declaration — Brent reaching approximately $79/bbl. Hormuz tanker transits collapsed to approximately 25/day (from 65/day pre-strike) as operators halted scheduling. Tankers queued outside the strait surged toward 145. War-risk insurance premiums began reversing the July normalization trend. Iran claimed retaliatory strikes on US military presence in Hormozgan province. The Islamabad MOU 60-day follow-on talks framework is effectively suspended pending de-escalation (Al Jazeera liveblog July 8; CNN; NBC News; NPR; CENTCOM; UKMTO; Bloomberg; July 8 2026).',
   },
+  {
+    date: '2026-07-09',
+    event: 'Day 132 — Khamenei state funeral concludes: burial at Imam Reza Shrine, Mashhad; Mojtaba absent for all 6 days',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Day 132 of the 2026 Iran war. The six-day state funeral of Supreme Leader Ali Khamenei concluded with his burial at the Imam Reza Shrine in Mashhad, Iran\'s holiest city. The ceremony was attended by Iranian officials, IRGC commanders, Shia dignitaries from across the region, and delegations from Iraq, Lebanon, Syria, Yemen, and Russia. Mojtaba Khamenei, designated as the new Supreme Leader by the Assembly of Experts, was absent for all six days of funeral proceedings — marking six straight weeks with no confirmed public appearance since his reported injuries on February 28. State media attributed his absence to "health considerations." Mostafa, Meysam, and Masoud Khamenei represented the family at the burial. The end of the funeral period removes the diplomatic pause that had suspended Rome 60-day follow-on talks, but the collapse of the ceasefire framework on July 7 means those talks are now suspended indefinitely rather than resuming (Reuters; IRNA; Al Jazeera; Press TV; July 9 2026).',
+  },
+  {
+    date: '2026-07-09',
+    event: 'Day 132 — IRGC fires 18 ballistic missiles + 12 drones at Israel, Bahrain, Kuwait, Qatar, UAE; 22 intercepted',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 132 of the 2026 Iran war — major IRGC ballistic missile and drone salvo, the first large-scale launch since the June 23 strike on Al Udeid. Following Khamenei\'s burial ceremony in Mashhad, the IRGC launched a coordinated attack: 18 ballistic missiles (mix of Shahab-3 MRBMs and Zulfiqar SRBMs) and 12 Shahed-136 UAVs targeting military infrastructure in Israel (Ben Gurion area, Nevatim AFB), Bahrain (Al Areen, Isa AFB), Kuwait (Ali Al-Salem AFB), Qatar (US presence at Al Udeid, per Iran state media though US denied any damage), and UAE (Al Dhafra AFB). Iron Dome, Arrow-3, PATRIOT PAC-3, and THAAD batteries intercepted 22 of the 30 launches. 8 reached Israeli, Bahraini, and Kuwaiti territory causing limited structural damage but no reported mass-casualty event. CENTCOM launched immediate counter-strikes on IRGC launch sites in Khuzestan and Hormozgan provinces. Israel activated nationwide emergency alert. Bahrain and Kuwait declared elevated alert states. Brent jumped to approximately $82/bbl (+21% from pre-war $68) on the renewed salvo (CENTCOM; Al Jazeera; IRNA; IDF spokesperson; Times of Israel; Reuters; July 9 2026).',
+  },
+  {
+    date: '2026-07-09',
+    event: 'Day 132 — Hormuz transits ~22/day; oil flows ~3.8 mbd; Brent ~$82/bbl; Houthi ceasefire nominally Day 15 (under pressure)',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'Day 132 of the 2026 Iran war — economic situation following full hostilities resumption. Strait of Hormuz tanker transits fell further to approximately 22 per day (down from 25 on July 8; down from the ceasefire peak of 70). Oil flows through Hormuz declined to approximately 3.8 mbd (77% disruption from pre-war 18.1 mbd baseline). Tankers queued outside the strait reached approximately 162. Vessels stranded surged to approximately 390 as operators held positions pending security assessment. Brent crude settled around $82/bbl, up approximately 21% from the pre-war $68/bbl level — reversing the July ceasefire normalization entirely. War-risk insurance premiums spiked back to near-peak levels. US gas prices, which had fallen to 4-year lows of $2.75–2.85/gallon during the ceasefire, began reversing sharply. The Houthi ceasefire remained nominally intact at Day 15, with Bab al-Mandab fully open and 27th consecutive quiet day, but Houthi leadership issued a statement expressing "solidarity with the martyred Supreme Leader" and warning of potential reassessment of ceasefire posture if Iran-Israel hostilities continued (CNBC; Reuters; Al Jazeera; JMIC; UKMTO; Baltic Exchange; July 9 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
