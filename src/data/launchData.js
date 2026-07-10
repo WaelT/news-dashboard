@@ -131,9 +131,11 @@ export const dailyLaunches = [
   { date: '2026-07-07', missiles: 3, drones: 0, intercepted: 0, targets: ['Strait of Hormuz'] },
   { date: '2026-07-08', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   { date: '2026-07-09', missiles: 18, drones: 12, intercepted: 22, targets: ['Israel', 'Bahrain', 'Kuwait', 'Qatar', 'UAE'] },
+  { date: '2026-07-10', missiles: 10, drones: 0, intercepted: 8, targets: ['Jordan'] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
+// Updated through 2026-07-10T12:00Z: Day 133 — CENTCOM launched ~90 strikes on Iranian targets overnight (missile/drone storage, logistics along coastline) — second consecutive night; IRGC responds: 10 ballistic missiles at Jordan's Al-Azraq AFB + 'US C2 center in West Asia' (IRGC SRBM/MRBM mix); Jordan intercepted 8, 2 hit (fragments only, no casualties, no damage); JMIC elevated Hormuz threat to 'Severe' (first time since June 15); Brent ~$78-80/bbl; Hormuz transits ~20/day; oil flows ~3.5 mbd; Lebanon ceasefire Day 21 holds; Houthi ceasefire nominally Day 16 (28th quiet day — pressure rising) (Al Jazeera; CENTCOM; IRGC; RFERL; US News; Iran International; Times of Israel; JMIC; UKMTO; July 10);
 // Updated through 2026-07-09T13:00Z: Day 132 — Khamenei buried in Mashhad (funeral concludes Day 6); IRGC fires 18 ballistic missiles + 12 drones at Israel/Bahrain/Kuwait/Qatar/UAE — first major ballistic salvo since June 23 Qatar strike; 22 intercepted; Brent ~$82/bbl (+21% from pre-war); Hormuz transits ~22/day; oil flows ~3.8 mbd; US gas prices reversing 4-year lows; US airstrikes on Iran continue (Al Jazeera; CENTCOM; IRGC; Reuters; July 9);
 // Updated through 2026-07-08T13:00Z: CEASEFIRE OVER — July 8 (Day 131): Trump declared Islamabad MOU ceasefire 'over' at NATO Ankara summit July 7; CENTCOM launched 80+ strikes on Iranian targets (air defense, C2, coastal radars, anti-ship cruise missiles, 60+ IRGC small boats) July 7; US bombed Sirik, Qeshm, Bandar Abbas July 8 per Al Jazeera liveblog; Brent jumped 3% to $74.16 July 7, then +6% July 8 (~$79/bbl); US revoked Iranian oil sale licenses July 7; IRGC fired 3 anti-ship missiles at Qatari LNG tanker Al Rekayyat + Saudi crude tanker + third vessel in Strait of Hormuz July 7 — 3 vessels hit, Al Rekayyat engine room fire (crew safe), zero casualties per UKMTO; first confirmed IRGC strike on shipping since June 29 stand-down; air raid sirens in Bahrain and Kuwait; Khamenei funeral Day 5 (July 4–9); Hormuz transits collapsing ~25/day (from 65) as operators halt; Rome talks in jeopardy (CNN; NBC News; Al Jazeera liveblog July 7–8; NPR; CBS News; CENTCOM; UKMTO; July 8 2026);
 // Updated through 2026-07-08: July 8 (Day 131) — CEASEFIRE DAY 15 [PRE-RETALIATION NOTE — see above for updated situation] — no confirmed IRGC ballistic missile or drone launches for 15th consecutive ceasefire day; Khamenei state funeral Day 5 (6-day ceremony July 4–9) — penultimate day; Mojtaba Khamenei (new Supreme Leader) still absent — no public appearance since Feb 28 injuries; Rome 60-day follow-on talks still paused (full funeral week), expected to resume ~July 14; IAEA-Iran inspection standoff ongoing: Qalibaf's parliamentary law block on Fordow/Natanz/Isfahan access remains in force; IAEA DG Grossi maintains inspections "going to happen"; Houthi ceasefire Day 14 — 26th consecutive quiet day; Brent ~$68–71 (continued downward pressure from OPEC+ +188K bpd + Hormuz supply recovery); oil flows ~10.4 mbd through Hormuz; Hormuz transits ~72/day; US-Iran de-confliction cell active via Qatar and Pakistan (IAEA; PressTV; Tribune India; Al Jazeera; Reuters; CENTCOM; July 8);
@@ -174,7 +176,7 @@ export const countryBreakdown = {
     { country: 'Kuwait', count: 270 },
     { country: 'Bahrain', count: 225 },
     { country: 'Qatar', count: 193 },
-    { country: 'Jordan', count: 78 },
+    { country: 'Jordan', count: 88 },
     { country: 'Iraq', count: 22 },
     { country: 'USA', count: 8 },
   ],
