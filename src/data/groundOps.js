@@ -1627,6 +1627,34 @@ const groundOps = {
       event: "Day 132 — Hormuz: transits ~22/day; oil flows ~3.8 mbd; disruptionPct 79%; Brent ~$82/bbl (+21% from pre-war); tankersQueued 162; vessels stranded 390; war-risk insurance back to near-peak; US gas prices reversing 4-year lows; Houthi ceasefire nominally Day 15 (27th quiet day) but Houthi leadership warning of potential reassessment; Bab al-Mandab still open (CNBC; Al Jazeera; JMIC; UKMTO; Baltic Exchange; July 9)",
       type: 'strike',
     },
+    {
+      date: '2026-07-10',
+      lat: 31.83,
+      lng: 36.82,
+      event: "Day 133 — IRGC fires 10 ballistic missiles at Jordan's Al-Azraq AFB + 'US C2 center in West Asia'; Jordan intercepts 8; 2 hit (fragments only, no casualties, no damage); retaliation for CENTCOM ~90-target overnight strikes on Iranian missile/drone storage + logistics; Al-Azraq hosts US, German, Belgian, French forces (IRGC; Jordan state news agency; RFERL; US News; Iran International; Times of Israel; July 10)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-10',
+      lat: 32.00,
+      lng: 53.68,
+      event: "Day 133 — CENTCOM launches ~90 strikes on Iran overnight (July 9–10): missile/drone storage facilities + logistics sites along Iran's coastline; second consecutive night of major US strikes following the ~80-target July 7 operation; Iran Health Ministry: 14 killed + 78 wounded from two days of US strikes (July 8–9), most reported IRGC/military; both sides accuse each other of violating Islamabad MOU (Al Jazeera; CENTCOM; RFERL; CBS News; July 10)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-10',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 133 — Lebanon ceasefire Day 21 holds; IDF maintaining positions north of Litani River; no new IDF offensive ground operations; Hezbollah observing ceasefire for 21st consecutive day; IDF-Hezbollah withdrawal timeline negotiations paused pending Iran-Israel re-escalation assessment; Mojtaba Khamenei still no public appearance (IDF spokesperson; Reuters; Al Jazeera; July 10)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-10',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 133 — JMIC elevates Hormuz threat to 'Severe' (first time since June 15); transits ~20/day; oil flows ~3.5 mbd; disruptionPct ~81%; Brent ~$78–80/bbl; tankersQueued ~170; Houthi ceasefire Day 16 (28th quiet day) nominally intact; Bab al-Mandab still open (JMIC; CENTCOM; Gulf News; CNBC; Al Jazeera; July 10)",
+      type: 'strike',
+    },
   ],
 };
 
