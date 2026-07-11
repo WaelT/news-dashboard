@@ -19,7 +19,7 @@
 //          CNBC (May 29 2026 — Brent $91.2/bbl −2% on day; −17% for May; lowest in ~6 weeks — ceasefire deal optimism)
 //          RFERL/NBC News/ABC7/CBS News/Al Jazeera (May 29-30 2026 — US-Iran tentative 60-day MOU; Trump/Khamenei sign-off still pending; Trump May 30 Truth Social: "Hormuz Strait must be immediately open, no tolls... All water mines will be terminated"; Lebanon toll 3,324/10,027)
 export const globalImpact = {
-  updated: '2026-07-10T12:00Z',
+  updated: '2026-07-11T12:00Z',
   gdpImpact: [
     { region: 'Iran', flag: 'ir', pct: -22.0, costBn: 0, note: 'July 3 (Day 126, ceasefire Day 10): IMF projects Iranian economy to contract 6.1% in 2026; inflation 50.6% annually — IMF projects 70%+ for 2026 (GlobalSecurity Day 125); $6B Iranian assets in Qatar to be used for goods-purchase mechanism per Doha talks July 1–2; Iran FM Araghchi confirmed sanctions on Iranian oil waived and some frozen assets released; IAEA access standoff: Iran parliament speaker Qalibaf blocked access to Fordow/Natanz/Isfahan — only Bushehr + Tehran research reactor allowed (NBC News; Times of Israel); Kharg Island export capacity rising; US Treasury 60-day Iranian oil sales authorization in effect; 60-day follow-on talks on nuclear disposition, sanctions relief, proxy support, ballistic missiles continuing (GlobalSecurity; Reuters; Al Jazeera; July 3)' },
     { region: 'Israel', flag: 'il', pct: -5.8, costBn: 26, note: 'Finance Ministry initial estimate: NIS 35B (~$11.5B) war cost (ToI Apr 12); ~$3B/week GDP loss; fiscal deficit from 3.9%→5.1% GDP; Lebanon toll 4,175 killed / 12,190 wounded (ceasefire Day 10 — unchanged since June 23 last Lebanese casualties); IDF maintaining positions in south Lebanon; ceasefire Day 14 for Lebanon front holding under US mediation; IDF withdrawal timeline negotiations continuing (Lebanese Ministry of Health; Times of Israel; Al Jazeera; July 3)' },
@@ -38,6 +38,6 @@ export const globalImpact = {
   },
   oil: {
     preWar: 68, current: 80, peak: 126, forecast: 98,
-    note: 'Brent ~$78–80/bbl July 10 (Day 133) — JMIC elevates Hormuz threat to "Severe"; CENTCOM ~90 overnight strikes + IRGC 10 BMs at Jordan Al-Azraq; slight pullback from July 9 intraday high ~$82 on market reassessment; Hormuz transits ~20/day; oil flows ~3.5 mbd; +18% from pre-war $68; prior July 9 (Day 132): ~$82 after IRGC 18 BMs + 12 drones at Israel/Gulf; July 8: ~$79 (+6% Trump ceasefire-over + CENTCOM 80+ strikes + US bombs Bandar Abbas/Qeshm/Sirik); July 7: +3% to $74.16 on IRGC Al Rekayyat + Saudi tanker attack; Day 14 close: ~$72.12; down from $126 peak (TradingEconomics; CNBC; Al Jazeera; CENTCOM; Reuters; July 10)',
+    note: 'Brent ~$79–81/bbl July 11 (Day 134) — JMIC "Severe" holds; no confirmed IRGC launches; Hormuz transits ~18/day; oil flows ~3.2 mbd; +18% from pre-war $68; prior July 10: ~$78–80 on JMIC upgrade to "Severe" + CENTCOM 90 strikes + IRGC 10 BMs at Jordan; July 9: ~$82 after IRGC 18 BMs + 12 drones; July 8: ~$79; down from $126 peak (TradingEconomics; CNBC; Al Jazeera; CENTCOM; Reuters; July 11)',
   },
 };
