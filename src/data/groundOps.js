@@ -1655,6 +1655,20 @@ const groundOps = {
       event: "Day 133 — JMIC elevates Hormuz threat to 'Severe' (first time since June 15); transits ~20/day; oil flows ~3.5 mbd; disruptionPct ~81%; Brent ~$78–80/bbl; tankersQueued ~170; Houthi ceasefire Day 16 (28th quiet day) nominally intact; Bab al-Mandab still open (JMIC; CENTCOM; Gulf News; CNBC; Al Jazeera; July 10)",
       type: 'strike',
     },
+    {
+      date: '2026-07-11',
+      lat: 32.00,
+      lng: 53.68,
+      event: "Day 134 — No confirmed IRGC launches through 12:00Z; CENTCOM assessing; Iran Health Ministry confirms additional casualties from July 10-11 US strikes; JMIC 'Severe' holds; Hormuz transits ~18/day; oil flows ~3.2 mbd; Brent ~$79-81/bbl (Al Jazeera; CENTCOM; JMIC; July 11)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-11',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 134 — Lebanon ceasefire Day 22 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire for 22nd consecutive day; Houthi ceasefire Day 17 (29th quiet day) — Bab al-Mandab fully open; Mojtaba Khamenei still no public appearance (IDF spokesperson; Reuters; Al Jazeera; July 11)",
+      type: 'ceasefire',
+    },
   ],
 };
 
