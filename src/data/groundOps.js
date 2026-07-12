@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 8, 2026 (DAY 131 — CEASEFIRE OVER: CENTCOM 80+ STRIKES JULY 7; US BOMBS SIRIK/QESHM/BANDAR ABBAS JULY 8; IDF STRUCK 10+ HEZBOLLAH SITES JULY 6-8; NABATIEH AL-FAWQA DRONE STRIKE KILLED 4 Lebanese CIVILIANS JULY 6; RESUMPTION OF ACTIVE OPERATIONS)',
+  updated: 'JULY 12, 2026 (DAY 135 — IRGC FIRES 0 BMs + 2 DRONES; CENTCOM LOWER-TEMPO STRIKES; IRAN BACK-CHANNEL VIA PAKISTAN SIGNALS CONDITIONAL PAUSE; JMIC DOWNGRADES HORMUZ THREAT SEVERE→SUBSTANTIAL; BRENT ~$79-80; HORMUZ TRANSITS ~19/DAY; LEBANON CEASEFIRE DAY 23 HOLDS; HOUTHI CEASEFIRE DAY 18 — 30TH QUIET DAY)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1667,6 +1667,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: "Day 134 — Lebanon ceasefire Day 22 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire for 22nd consecutive day; Houthi ceasefire Day 17 (29th quiet day) — Bab al-Mandab fully open; Mojtaba Khamenei still no public appearance (IDF spokesperson; Reuters; Al Jazeera; July 11)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-12',
+      lat: 26.57,
+      lng: 56.25,
+      event: "Day 135 — IRGC fires 0 BMs + 2 Shahed drones (Strait of Hormuz; 1 intercepted by CENTCOM, 1 impacts buoy line — no vessel casualties per UKMTO); CENTCOM lower-tempo overnight strikes on residual IRGC positions in Hormozgan; Iran signals conditional readiness to discuss pause via Pakistan back-channel; Trump: 'watching Iran actions carefully' — 72h ultimatum clock paused; JMIC downgrades Hormuz threat Severe to Substantial; Brent eases to ~$79-80/bbl; Hormuz transits slight recovery ~19/day; oil flows ~3.3 mbd (Al Jazeera; CENTCOM; UKMTO; JMIC; Reuters; Qatar MOFA; July 12)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-12',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 135 — Lebanon ceasefire Day 23 holds; IDF maintaining positions north of Litani River; no new IDF offensive ground operations; Hezbollah observing ceasefire for 23rd consecutive day; IDF-Hezbollah withdrawal timeline negotiations continuing under US mediation; Houthi ceasefire Day 18 (30th quiet day) — Bab al-Mandab fully open at pre-war operational tempo; Iran back-channel signals reduce Houthi re-entry risk; Mojtaba Khamenei still no public appearance (IDF spokesperson; Reuters; Al Jazeera; UKMTO; July 12)",
       type: 'ceasefire',
     },
   ],

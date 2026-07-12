@@ -2661,6 +2661,20 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 134 of the 2026 Iran war — maritime and diplomatic update. No confirmed IRGC ballistic missile or drone launches through 12:00Z July 11. JMIC Hormuz threat level remains at "Severe" — commercial operators continuing to hold pending security assessment. Hormuz transits fell further to approximately 18 per day; oil flows declining to approximately 3.2 mbd (~82% disruption from pre-war 18.1 mbd baseline). Tankers queued outside the strait rose to approximately 175. Iran\'s Health Ministry confirmed additional casualties from the July 10–11 overnight US strike period; CENTCOM assessing Iranian response options as the Islamabad MOU framework remains effectively collapsed. Lebanon ceasefire held for its 22nd consecutive day — IDF maintaining positions north of the Litani River; no new IDF offensive ground operations. Houthi ceasefire nominally at Day 17 (29th consecutive quiet day); Bab al-Mandab remains fully open at pre-war operational tempo; war-risk insurance for Red Sea routes remains at/below pre-war norms. Mojtaba Khamenei still no public appearance since Mashhad burial. Rome 60-day follow-on talks remain suspended indefinitely. Brent crude ~$79–81/bbl (Al Jazeera; CENTCOM; JMIC; UKMTO; Reuters; July 11 2026).',
   },
+  {
+    date: '2026-07-12',
+    event: 'Day 135 — Iran signals conditional pause via Pakistan; IRGC fires 0 BMs + 2 drones; JMIC downgrades Hormuz Severe to Substantial',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 135 of the 2026 Iran war. Iran\'s foreign ministry, through the Pakistan back-channel, conveyed a conditional signal of readiness to discuss a temporary operational pause — subject to CENTCOM halting strikes on Iranian territory. The Iranian delegation did not use the word "ceasefire" and set no formal timeline, but the signal was the most substantive diplomatic communication since the Islamabad MOU collapsed July 7. Pakistan FM Dar briefed US Secretary of State Rubio, who said the administration was "carefully evaluating" the Iranian position. CENTCOM confirmed lower-tempo overnight strikes on residual IRGC missile-launcher positions in Hormozgan. The IRGC launched only 2 Shahed drones toward the Strait of Hormuz — one intercepted, one impacted a warning buoy line with no vessel casualties per UKMTO. JMIC downgraded the Hormuz threat from "Severe" to "Substantial," citing the IRGC operational posture change and back-channel signals. Qatar FM Al-Thani described the back-channel as "the most active since the MOU collapse." Brent crude eased to ~$79–80/bbl. Lebanon ceasefire Day 23; Houthi ceasefire Day 18 (30th quiet day) (Reuters; Al Jazeera; CENTCOM; UKMTO; JMIC; Qatar MOFA; CNN; NPR; July 12 2026).',
+  },
+  {
+    date: '2026-07-12',
+    event: 'Day 135 — Hormuz transits ~19/day; Brent ~$79-80; JMIC Substantial; Houthi ceasefire Day 18 (30th quiet day)',
+    type: 'economic',
+    status: 'stalled',
+    detail: 'Day 135 — Strait of Hormuz tanker transits recovered slightly to approximately 19 per day (from 18 on July 11) as operators cautiously resumed scheduling following the JMIC threat downgrade and Iran back-channel signals. Oil flows held at approximately 3.3 mbd (~82% disruption from pre-war 18.1 mbd). Tankers queued outside the strait declined slightly to approximately 172; vessels stranded fell to approximately 408. Brent crude eased to approximately $79–80/bbl — approximately 17% above the pre-war $68 level. War-risk insurance premiums for Hormuz transits ticked down slightly on the JMIC downgrade but remained well above pre-war norms. LNG spot prices for Asian delivery fell 2% on Iran de-escalation signals. Lebanon ceasefire held for its 23rd consecutive day. Houthi ceasefire Day 18 continued for the 30th consecutive quiet day; Bab al-Mandab remained fully open at pre-war commercial tempo (JMIC; CENTCOM; UKMTO; CNBC; Al Jazeera; Baltic Exchange; July 12 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
