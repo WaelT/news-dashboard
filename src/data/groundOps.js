@@ -1683,6 +1683,27 @@ const groundOps = {
       event: "Day 135 — Lebanon ceasefire Day 23 holds; IDF maintaining positions north of Litani River; no new IDF offensive ground operations; Hezbollah observing ceasefire for 23rd consecutive day; IDF-Hezbollah withdrawal timeline negotiations continuing under US mediation; Houthi ceasefire Day 18 (30th quiet day) — Bab al-Mandab fully open at pre-war operational tempo; Iran back-channel signals reduce Houthi re-entry risk; Mojtaba Khamenei still no public appearance (IDF spokesperson; Reuters; Al Jazeera; UKMTO; July 12)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-12',
+      lat: 26.57,
+      lng: 56.25,
+      event: "Day 135 (20:00 UTC) — IRGC struck Cyprus-flagged M/V GFS Galaxy in Strait of Hormuz: engine room hit, fire onboard, crew abandoned ship; 10 Indian crew rescued, 1 Indian national missing per India MEA + UKMTO; India condemns attack; IRGC Navy declares Strait of Hormuz CLOSED 'until end of US interference'; CENTCOM launched 3rd round of strikes (~140 targets this round; 300+ total over 3 nights: missile/drone sites, naval assets, ammo storage, comms, coastal surveillance); CENTCOM asserts southern (Omani coast) route remains open for commercial traffic; JMIC re-elevated Hormuz threat to 'Severe'; Brent ~$82–84 intraday (Al Jazeera liveblog; CENTCOM; UKMTO; India MEA; defconalerts.com; Reuters; July 12)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-12',
+      lat: 32.00,
+      lng: 53.68,
+      event: "Day 135 (20:00 UTC) — IRGC launches largest ballistic missile + drone salvo in months across 6 Gulf states: ~38 ballistic missiles + ~22 drones targeting Qatar (Al Udeid AB), UAE (Al Dhafra), Bahrain (5th Fleet/Isa AFB), Kuwait (4 missiles + 10 drones intercepted), Jordan (Prince Hassan AB: 8 intercepted, 3 fell — no casualties; IRGC claimed MQ-9 hangars + C2 destroyed), Oman (Port of Duqm: logistics/refueling platforms for US carriers targeted per IRGC); Qatar reported 3 injuries incl. 1 child from falling shrapnel; no confirmed US military casualties; CENTCOM launched retaliatory strikes; Iran rejected Trump 24-hour ultimatum demanding Hormuz assurances (CENTCOM; IRGC; Kuwait MoD; Qatar MoI; Jordan state news; Arab News; Euronews; Fox News; Al Jazeera; ABC News; July 12)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-12',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 135 (20:00 UTC) — Iran formally rejects Trump 24-hour ultimatum: Iran demands Washington meet conditions (halt strikes, restore oil access) before any talks; IRGC closed Hormuz 'until end of US interference'; US Treasury reimposed sanctions on Iran oil exports; Trump threatened 'watching Iran actions carefully'; Pakistan FM Dar briefed US Sec. State Rubio on IRGC closure declaration; diplomatic back-channel via Pakistan and Qatar active; Mojtaba Khamenei still no public appearance (Bloomberg; Reuters; Iran state media; NewsTribune; Pakistan FM; July 12)",
+      type: 'diplomacy',
+    },
   ],
 };
 

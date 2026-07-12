@@ -133,10 +133,11 @@ export const dailyLaunches = [
   { date: '2026-07-09', missiles: 18, drones: 12, intercepted: 22, targets: ['Israel', 'Bahrain', 'Kuwait', 'Qatar', 'UAE'] },
   { date: '2026-07-10', missiles: 10, drones: 0, intercepted: 8, targets: ['Jordan'] },
   { date: '2026-07-11', missiles: 0, drones: 0, intercepted: 0, targets: [] },
-  { date: '2026-07-12', missiles: 0, drones: 2, intercepted: 1, targets: ['Strait of Hormuz'] },
+  { date: '2026-07-12', missiles: 38, drones: 22, intercepted: 44, targets: ['Qatar', 'UAE', 'Bahrain', 'Kuwait', 'Jordan', 'Oman', 'Strait of Hormuz'] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
+// Updated through 2026-07-12T20:00Z: Day 135 — IRGC fires ~38 BMs + ~22 drones at Qatar (Al Udeid AB), UAE, Bahrain, Kuwait (4 missiles + 10 drones intercepted per Kuwait MoD), Jordan (Prince Hassan AB; 8 intercepted, 3 fell — no casualties), Oman (Port of Duqm logistics/refueling platforms), and Strait of Hormuz — "largest Iranian attack in months" (Hormuz Letter); IRGC struck Cyprus-flagged M/V GFS Galaxy in Strait (engine room fire; crew abandoned ship; 10 Indian crew rescued, 1 Indian missing per India MEA + UKMTO); IRGC Navy declared Strait of Hormuz CLOSED "until end of US interference"; CENTCOM completed 3rd round of strikes (~140 targets total from this round; 300+ total over 3 nights) targeting missile/drone sites, naval assets, ammo storage, comms, coastal surveillance; CENTCOM says southern (Omani coast) route open for commercial traffic; Iran rejects Trump 24-hour ultimatum — demands Washington meet conditions before talks; Qatar: 3 injured (incl. 1 child) from shrapnel; Jordan: 3 fell — no casualties; US Treasury reimposed Iran oil export sanctions; Houthi ceasefire Day 18 (30th quiet day) — Bab al-Mandab open; Lebanon ceasefire Day 23 holds (CENTCOM; UKMTO; Al Jazeera; Reuters; India MEA; Kuwait MoD; Jordan state news; Fox News; Arab News; Euronews; ABC News; Al Jazeera liveblog; July 12);
 // Updated through 2026-07-12T13:00Z: Day 135 — IRGC fires 0 BMs + 2 drones (Strait of Hormuz; 1 intercepted, 1 minor impact on buoy line — no vessel casualties per UKMTO); CENTCOM lower-tempo overnight strikes on residual IRGC positions in Hormozgan; Iran signals conditional readiness to "discuss pause" via Pakistan back-channel; Trump: "watching Iran actions carefully" — 72h ultimatum clock paused; JMIC downgrades Hormuz threat Severe→Substantial; Brent eases to ~$79-80/bbl; Hormuz transits ~19/day; Lebanon ceasefire Day 23 holds; Houthi ceasefire Day 18 (30th quiet day) — Bab al-Mandab open (Al Jazeera; CENTCOM; UKMTO; Reuters; Qatar MOFA; July 12);
 // Updated through 2026-07-11T12:00Z: Day 134 — No confirmed IRGC ballistic missile or drone launches through 12:00Z July 11; CENTCOM assessing Iranian responses after 2nd consecutive night of ~90-target strikes (July 9-10); JMIC Hormuz threat remains "Severe"; Lebanon ceasefire Day 22 holds; Houthi ceasefire Day 17 (29th quiet day) nominally intact; Rome talks suspended indefinitely; Iran Health Ministry confirms additional casualties from July 10-11 strikes; Mojtaba Khamenei still no public appearance; Brent ~$79-81/bbl; transits ~18/day (Al Jazeera; CENTCOM; RFERL; JMIC; July 11);
 // Updated through 2026-07-10T12:00Z: Day 133 — CENTCOM launched ~90 strikes on Iranian targets overnight (missile/drone storage, logistics along coastline) — second consecutive night; IRGC responds: 10 ballistic missiles at Jordan's Al-Azraq AFB + 'US C2 center in West Asia' (IRGC SRBM/MRBM mix); Jordan intercepted 8, 2 hit (fragments only, no casualties, no damage); JMIC elevated Hormuz threat to 'Severe' (first time since June 15); Brent ~$78-80/bbl; Hormuz transits ~20/day; oil flows ~3.5 mbd; Lebanon ceasefire Day 21 holds; Houthi ceasefire nominally Day 16 (28th quiet day — pressure rising) (Al Jazeera; CENTCOM; IRGC; RFERL; US News; Iran International; Times of Israel; JMIC; UKMTO; July 10);
@@ -175,25 +176,26 @@ export const dailyLaunches = [
 export const countryBreakdown = {
   missiles: [
     { country: 'Israel', count: 732 },
-    { country: 'UAE', count: 567 },
+    { country: 'UAE', count: 572 },
     { country: 'Saudi Arabia', count: 296 },
-    { country: 'Kuwait', count: 270 },
-    { country: 'Bahrain', count: 225 },
-    { country: 'Qatar', count: 193 },
-    { country: 'Jordan', count: 88 },
+    { country: 'Kuwait', count: 274 },
+    { country: 'Bahrain', count: 230 },
+    { country: 'Qatar', count: 201 },
+    { country: 'Jordan', count: 99 },
     { country: 'Iraq', count: 22 },
     { country: 'USA', count: 8 },
+    { country: 'Oman', count: 5 },
   ],
   drones: [
-    { country: 'UAE', count: 2280 },
+    { country: 'UAE', count: 2286 },
     { country: 'Israel', count: 765 },
     { country: 'Bahrain', count: 545 },
-    { country: 'Kuwait', count: 506 },
+    { country: 'Kuwait', count: 516 },
     { country: 'Saudi Arabia', count: 176 },
     { country: 'Qatar', count: 90 },
     { country: 'Jordan', count: 73 },
     { country: 'Iraq', count: 40 },
-    { country: 'Oman', count: 14 },
+    { country: 'Oman', count: 20 },
     { country: 'USA', count: 14 },
   ],
 };
