@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-10T12:00:00.000Z",
-  "source": "Wikipedia, Al Jazeera, HRANA, Reuters, UKMTO, Lebanese Ministry of Health, Iran Health Ministry (July 10 12:00 UTC \u2014 Day 133: CENTCOM ~90 overnight strikes on Iran coastal missile/drone storage + logistics (2nd consecutive night); IRGC fires 10 BMs at Jordan Al-Azraq AFB + claimed US C2 center; Jordan intercepts 8, no casualties; Iran Health Ministry: 14 killed + 78 wounded cumulative from July 8-9 US strikes; no new Lebanon/Israel/GCC casualties confirmed)",
+  "updatedAt": "2026-07-12T13:00:00.000Z",
+  "source": "Wikipedia, Al Jazeera, HRANA, Reuters, UKMTO, Lebanese Ministry of Health, Iran Health Ministry (July 12 13:00 UTC \u2014 Day 135: IRGC fires 0 BMs + 2 drones; CENTCOM lower-tempo strikes continue; Iran signals conditional pause via Pakistan back-channel; Iran Health Ministry: +6 killed from July 11-12 CENTCOM strikes; JMIC downgrades Hormuz threat Severe\u2192Substantial; Brent ~$79-80; Lebanon ceasefire Day 23 holds; Houthi ceasefire Day 18 (30th quiet day))",
   "casualties": {
     "lebanon": {
       "killed": 4250,
       "wounded": 12190
     },
     "iran": {
-      "killed": 3704,
-      "wounded": 26718
+      "killed": 3724,
+      "wounded": 26874
     },
     "iraq": {
       "killed": 119,
