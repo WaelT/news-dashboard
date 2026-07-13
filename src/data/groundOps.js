@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 12, 2026 (DAY 135 — IRGC FIRES 0 BMs + 2 DRONES; CENTCOM LOWER-TEMPO STRIKES; IRAN BACK-CHANNEL VIA PAKISTAN SIGNALS CONDITIONAL PAUSE; JMIC DOWNGRADES HORMUZ THREAT SEVERE→SUBSTANTIAL; BRENT ~$79-80; HORMUZ TRANSITS ~19/DAY; LEBANON CEASEFIRE DAY 23 HOLDS; HOUTHI CEASEFIRE DAY 18 — 30TH QUIET DAY)',
+  updated: 'JULY 13, 2026 (DAY 136 — CENTCOM 4TH CONSECUTIVE NIGHT OF STRIKES (~70 TARGETS); IRGC FIRES 5 MISSILES + 3 DRONES ENFORCING HORMUZ CLOSED DECLARATION; GFS GALAXY INDIAN CREW MEMBER BODY RECOVERED BY OMANI SAR — SEAFARERS KILLED→15; TRUMP 24H ULTIMATUM EXPIRED — IRAN DID NOT COMPLY; PAKISTAN FM DAR IN WASHINGTON BRIEFING RUBIO; GOLDMAN SACHS Q3 BRENT FORECAST RAISED TO $95; BRENT ~$83-85; HORMUZ TRANSITS ~3/DAY; LEBANON CEASEFIRE DAY 24 HOLDS; HOUTHI CEASEFIRE DAY 19 — 31ST QUIET DAY)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1703,6 +1703,34 @@ const groundOps = {
       lng: 51.39,
       event: "Day 135 (20:00 UTC) — Iran formally rejects Trump 24-hour ultimatum: Iran demands Washington meet conditions (halt strikes, restore oil access) before any talks; IRGC closed Hormuz 'until end of US interference'; US Treasury reimposed sanctions on Iran oil exports; Trump threatened 'watching Iran actions carefully'; Pakistan FM Dar briefed US Sec. State Rubio on IRGC closure declaration; diplomatic back-channel via Pakistan and Qatar active; Mojtaba Khamenei still no public appearance (Bloomberg; Reuters; Iran state media; NewsTribune; Pakistan FM; July 12)",
       type: 'diplomacy',
+    },
+    {
+      date: '2026-07-13',
+      lat: 26.57,
+      lng: 56.25,
+      event: "Day 136 — IRGC fires 5 missiles + 3 drones at Hormuz/Bahrain/Kuwait enforcing CLOSED declaration; CENTCOM intercepts 5; GFS Galaxy Indian crew member body recovered by Omani SAR — seafarersKilled rises to 15; India deployed INS Shivalik + INS Kolkata to Oman Sea; India MEA summons Iranian ambassador (upgrade from envoy); CENTCOM 4th consecutive night of strikes (~70 targets: residual IRGC launchers, mobile missile systems, coastal infrastructure in Hormozgan + Khuzestan); JMIC 'Severe' maintained; Hormuz transits ~3/day (southern route, CENTCOM escort only); oil flows ~0.4 mbd (CENTCOM; UKMTO; India MEA; Al Jazeera; Reuters; July 13)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-13',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 136 — Trump 24-hour ultimatum expired with Iran non-compliant; Trump: Iran faces 'severe consequences'; CENTCOM launched 4th round of strikes; Pakistan FM Dar arrived in Washington to brief Rubio on Iran conditional terms (halt strikes + restore oil access); Rubio: both conditions 'non-starters'; Goldman Sachs raised Q3 2026 Brent forecast to $95/bbl; Mojtaba Khamenei still no public appearance; Rome 60-day follow-on talks suspended indefinitely; IAEA access standoff at bombed sites continues (Reuters; Al Jazeera; Goldman Sachs; CENTCOM; CNN; Pakistan FM; July 13)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-13',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 136 — Lebanon ceasefire Day 24 holds; IDF maintaining positions north of Litani River; no new IDF offensive ground operations; Hezbollah observing ceasefire for 24th consecutive day; IDF-Hezbollah withdrawal timeline negotiations continuing under US mediation; Houthi ceasefire Day 19 (31st quiet day) — Bab al-Mandab fully open at pre-war operational tempo; India deployments to Oman Sea for SAR/protection do not affect Lebanon or Red Sea fronts (IDF spokesperson; Reuters; Al Jazeera; UKMTO; July 13)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-13',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 136 — Hormuz: IRGC enforcement continues; transits ~3/day (southern route CENTCOM escort only); oil flows ~0.4 mbd; disruptionPct 98%; tankersQueued 232; vessels stranded 472; Brent ~$83-85/bbl (Goldman Sachs Q3 forecast raised to $95); war-risk insurance premiums at all-time highs; Cape of Good Hope rerouting mandatory for all Gulf cargos; Houthi ceasefire Day 19 (31st quiet day) — Bab al-Mandab fully open (JMIC; CENTCOM; UKMTO; Goldman Sachs; Baltic Exchange; July 13)",
+      type: 'strike',
     },
   ],
 };
