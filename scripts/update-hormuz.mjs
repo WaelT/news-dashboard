@@ -157,7 +157,10 @@ function updateFile(scraped) {
   };
   for (const [field, value] of Object.entries(strFields)) {
     if (!value) continue;
-    const re = new RegExp(`(${field}:\\s*)'(?:[^'\\\\]|\\\\.)*'`);
+    // Replace the ENTIRE single-line property value (greedy to the last quote
+    // on the line) — a lazy quoted-string match can stop early on escape
+    // sequences inside the value and leave orphaned text behind.
+    const re = new RegExp(`^(\\s*${field}:\\s*)'.*'(?=,?\\s*$)`, 'm');
     if (!re.test(code)) { console.log(`WARN: field ${field} not found in hormuzData.js`); continue; }
     code = code.replace(re, `$1'${jsStr(value)}'`);
     console.log(`${field}: -> ${value.slice(0, 100)}...`);
