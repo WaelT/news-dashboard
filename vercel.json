@@ -3,7 +3,7 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "rewrites": [
-    { "source": "/rss/:feed", "destination": "/api/rss/:feed" },
+    { "source": "/rss/:feed", "destination": "/api/rss?feed=:feed" },
     { "source": "/api/yahoo/:path*", "destination": "/api/yahoo" }
   ]
 }
