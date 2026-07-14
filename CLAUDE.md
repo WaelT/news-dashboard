@@ -50,7 +50,9 @@ Full-screen real-time news dashboard with military ops-center theme. Displays in
 
 ### Scripts & Automation
 - `scripts/update-casualties.mjs` — Scrapes Wikipedia "2026 Iran war" casualties-by-country table, updates both `public/casualties.json` and `DEFAULT_CASUALTIES` in `ImpactTracker.jsx`
+- `scripts/update-hormuz.mjs` — Scrapes Wikipedia "2026 Strait of Hormuz crisis" (infobox deaths, ships-attacked table, stranded figures, two latest dated events) and patches those fields in `src/data/hormuzData.js`; transits/oil-flow/insurance stay manually curated
 - `.github/workflows/update-casualties.yml` — Runs scraper every 6 hours + manual trigger, auto-commits changes
+- `.github/workflows/update-hormuz.yml` — Runs Hormuz scraper every 6 hours (offset :30 to avoid push races with casualties workflow), auto-commits changes
 
 ## Map Tiles
 Uses CartoDB Dark Matter tiles (free, no API key). Fallback: OpenStreetMap.
