@@ -2724,6 +2724,34 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 136 of the 2026 Iran war. The Lebanon ceasefire held for its 24th consecutive day. The IDF maintained forward positions north of the Litani River; no new IDF offensive ground operations were confirmed. Hezbollah observed the ceasefire for the 24th consecutive day. IDF-Hezbollah withdrawal timeline negotiations continued under US mediation; progress was described as "incremental" by a US mediator speaking anonymously to Reuters. The Houthi ceasefire continued for its 19th day, marking the 31st consecutive quiet day in the Red Sea and Bab al-Mandab. Houthi spokesman Mohammed Al-Bukhaiti reaffirmed the ceasefire posture and explicitly stated the Houthi Armed Forces would "not be drawn into the Hormuz conflict" unless the Iran-Israel ceasefire framework was formally dissolved, which he said "has already happened given Washington\'s unilateral actions." Despite this ambiguous statement, no confirmed Houthi attacks or preparations were observed. Bab al-Mandab remained fully open at pre-war commercial tempo; war-risk insurance for Red Sea routes remained at/below pre-war norms. The situation in the Strait of Hormuz and the Houthi operational posture remained the two most volatile variables in global maritime security (IDF; Hezbollah statement via Al-Manar; Houthi spokesman statement; Al Jazeera; UKMTO; Reuters; July 13 2026).',
   },
+  {
+    date: '2026-07-14',
+    event: 'Day 137 — IRGC cruise missile strikes on UAE tankers M/V Mombasa and M/V Al Bahiyah; 1 Indian killed, 8 wounded; CENTCOM 5th consecutive wave',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 137 of the 2026 Iran war. The IRGC Navy launched cruise missile attacks on two UAE-flagged oil tankers transiting the Strait of Hormuz under CENTCOM escort. M/V Mombasa was struck directly — 1 Indian crew member was killed and 8 others wounded; the vessel suffered significant damage to its bridge and superstructure but remained afloat. M/V Al Bahiyah was struck in a near-simultaneous attack and sustained hull damage; crew reported injuries. The UAE Ministry of Defence confirmed both attacks and summoned the Iranian Ambassador. India\'s MEA summoned the Iranian Ambassador for the second time in 48 hours, condemning the killing of a second Indian maritime worker in as many days. CENTCOM confirmed the attacks and launched a fifth consecutive night of strikes on IRGC targets inside Iran — approximately 60 targets including surviving mobile coastal defense assets, IRGC Navy patrol boat facilities, and early-warning radar sites along the Hormozgan coast. The IRGC issued a statement attributing the tanker strikes to enforcement of the Hormuz CLOSED declaration, describing both vessels as "illegally transiting under US military cover" (UAE Ministry of Defence; CENTCOM; India MEA; Reuters; GDN Online; July 14 2026).',
+  },
+  {
+    date: '2026-07-14',
+    event: 'Day 137 — Iran back-channel via Oman: "errant hardliners" blamed for tanker attacks; Iran-Oman Saturday summit (July 18) confirmed',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 137 of the 2026 Iran war. Iranian diplomatic sources, communicating through Oman\'s back-channel to the Trump team, privately attributed the UAE tanker attacks to "errant hardliners" within the IRGC Navy acting without full Supreme National Security Council authorization. The message, relayed via Omani FM Badr Al-Busaidi to US envoy Steve Witkoff, characterized the strikes as an operational overreach by hard-line IRGC Navy commanders opposed to the nascent Oman mediation track. The Iranian diplomatic team stressed that the Islamic Republic remained committed to reaching an agreement through Oman and expressed concern that the attacks were "counterproductive to Iran\'s strategic interests." Oman confirmed that an Iran-Oman summit would be held in Muscat on Saturday, July 18. The US delegation is expected to be led by VP JD Vance, with Secretary of State Marco Rubio, Special Envoy Steve Witkoff, and Senior Advisor Jared Kushner attending. Iran Foreign Minister Araghchi confirmed he would lead the Iranian delegation. The Oman channel represents the most substantive diplomatic contact between the two sides since the Pakistan back-channel stalled following Trump\'s ultimatum expiry July 13 (Omani FM; Reuters; CNN; July 14 2026).',
+  },
+  {
+    date: '2026-07-14',
+    event: 'Day 137 — Trump imposes 20% oil toll on Iran buyers; Araghchi declares Iran "eternal guardian" of Hormuz',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'Day 137 of the 2026 Iran war. President Trump posted on Truth Social announcing that any country purchasing Iranian oil would face a 20% tariff on all US goods, framing the measure as economic pressure to complement the ongoing military campaign and Hormuz blockade. The announcement targeted Iran\'s primary remaining revenue stream — dark fleet oil sales to China, India, and Turkey — and followed Goldman Sachs\'s revised Q3 Brent forecast of $95/bbl. Iran\'s Foreign Minister Araghchi rejected the toll threat, declaring in a nationally televised address that Iran was "the eternal guardian of the Strait of Hormuz" and that no economic pressure would alter the IRGC\'s enforcement posture. Araghchi stated: "The Strait of Hormuz is Iranian sovereign space and will remain so — no tariff, no bomb, no ultimatum changes this fact." China\'s Foreign Ministry responded by calling the tariff "unilateral economic coercion" and pledging to "safeguard China\'s legitimate energy interests." Brent crude rose approximately 3–4% on the combined news of tanker attacks and the tariff announcement, reaching approximately $86–89/bbl. US gas prices continued to rise, reaching $3.95–$4.05/gal nationally (Trump Truth Social; Araghchi press statement; China MFA; Reuters; Bloomberg; July 14 2026).',
+  },
+  {
+    date: '2026-07-14',
+    event: 'Day 137 — Lebanon ceasefire Day 25; Houthi ceasefire Day 20 (32nd quiet day); Bab al-Mandab open',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 137 of the 2026 Iran war. The Lebanon ceasefire held for its 25th consecutive day. No new IDF offensive operations were confirmed north of the Litani. Hezbollah observed the ceasefire; spokesman Ibrahim Moussawi issued a brief statement noting that Hezbollah was "monitoring" the Hormuz situation but reaffirmed the ceasefire posture vis-à-vis Israel. The Houthi ceasefire continued for its 20th day, marking the 32nd consecutive quiet day in the Red Sea and Bab al-Mandab. No confirmed Houthi military activity was observed in the Red Sea, Gulf of Aden, or Bab al-Mandab. Bab al-Mandab remained fully open at pre-war commercial tempo (IDF; Hezbollah via Al-Manar; Houthi statement; UKMTO; Al Jazeera; July 14 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
