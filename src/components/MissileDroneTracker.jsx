@@ -103,29 +103,39 @@ function warDay(dateStr) {
   return Math.floor((d - start) / 86400000) + 1;
 }
 
-// Group daily data into war weeks (7-day chunks from Feb 28)
-function groupByWarWeek(data) {
-  const weeks = [];
-  let currentWeek = null;
+// Group daily data into calendar months
+function groupByMonth(data) {
+  const months = [];
+  let current = null;
 
   for (const day of data) {
-    const dayNum = warDay(day.date);
-    const weekNum = Math.ceil(dayNum / 7);
+    const key = day.date.slice(0, 7); // YYYY-MM
 
-    if (!currentWeek || currentWeek.weekNum !== weekNum) {
-      if (currentWeek) weeks.push(currentWeek);
-      currentWeek = { weekNum, startDate: day.date, endDate: day.date, missiles: 0, drones: 0, intercepted: 0, days: [] };
+    if (!current || current.key !== key) {
+      if (current) months.push(current);
+      const d = new Date(day.date + 'T00:00:00');
+      current = {
+        key,
+        label: d.toLocaleDateString('en-US', { month: 'short' }).toUpperCase(),
+        year: d.getFullYear(),
+        startDate: day.date,
+        endDate: day.date,
+        missiles: 0,
+        drones: 0,
+        intercepted: 0,
+        days: [],
+      };
     }
 
-    currentWeek.endDate = day.date;
-    currentWeek.missiles += day.missiles;
-    currentWeek.drones += day.drones;
-    currentWeek.intercepted += day.intercepted;
-    currentWeek.days.push(day);
+    current.endDate = day.date;
+    current.missiles += day.missiles;
+    current.drones += day.drones;
+    current.intercepted += day.intercepted;
+    current.days.push(day);
   }
 
-  if (currentWeek) weeks.push(currentWeek);
-  return weeks;
+  if (current) months.push(current);
+  return months;
 }
 
 // Gauge chart for interception rate
@@ -262,25 +272,26 @@ function InterceptionGauge({ data }) {
   );
 }
 
-// Capability degradation line chart — week-by-week
+// Capability degradation line chart — month-by-month
 function CapabilityDegradation({ data }) {
   const [hoveredIdx, setHoveredIdx] = useState(null);
 
-  // Aggregate to war weeks
-  const weeks = useMemo(() => groupByWarWeek(data), [data]);
-  const weeklyTotals = weeks.map((w) => ({
-    weekNum: w.weekNum,
-    startDate: w.startDate,
-    endDate: w.endDate,
-    days: w.days.length,
-    total: w.missiles + w.drones,
+  // Aggregate to calendar months
+  const months = useMemo(() => groupByMonth(data), [data]);
+  const monthlyTotals = months.map((m) => ({
+    key: m.key,
+    label: m.label,
+    startDate: m.startDate,
+    endDate: m.endDate,
+    days: m.days.length,
+    total: m.missiles + m.drones,
   }));
 
-  const peak    = weeklyTotals[0]?.total || 0;
-  const current = weeklyTotals[weeklyTotals.length - 1]?.total || 0;
+  const peak    = Math.max(...monthlyTotals.map((m) => m.total), 0);
+  const current = monthlyTotals[monthlyTotals.length - 1]?.total || 0;
   const declinePct = peak > 0 ? Math.round(((current - peak) / peak) * 100) : 0;
 
-  const maxTotal = Math.max(...weeklyTotals.map((w) => w.total), 1);
+  const maxTotal = Math.max(...monthlyTotals.map((m) => m.total), 1);
   const W = 300;
   const H = 120;
   const padL = 32;
@@ -290,11 +301,11 @@ function CapabilityDegradation({ data }) {
   const chartW = W - padL - padR;
   const chartH = H - padT - padB;
 
-  const denom = Math.max(1, weeklyTotals.length - 1);
-  const points = weeklyTotals.map((w, i) => {
+  const denom = Math.max(1, monthlyTotals.length - 1);
+  const points = monthlyTotals.map((m, i) => {
     const x = padL + (i / denom) * chartW;
-    const y = padT + chartH - (w.total / maxTotal) * chartH;
-    return { x, y, ...w };
+    const y = padT + chartH - (m.total / maxTotal) * chartH;
+    return { x, y, ...m };
   });
 
   const linePath = points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x} ${p.y}`).join(' ');
@@ -302,7 +313,7 @@ function CapabilityDegradation({ data }) {
     ? linePath + ` L ${points[points.length - 1].x} ${padT + chartH} L ${points[0].x} ${padT + chartH} Z`
     : '';
 
-  // X-axis labels: show every 2nd week (or every 1 if few)
+  // X-axis labels: every month (every 2nd if the war drags on)
   const labelEvery = points.length > 8 ? 2 : 1;
   const xLabels = points.filter((_, i) => i % labelEvery === 0 || i === points.length - 1);
 
@@ -324,7 +335,7 @@ function CapabilityDegradation({ data }) {
         {/* Plot frame */}
         <rect x={padL} y={padT} width={chartW} height={chartH} fill="rgba(45, 212, 168, 0.015)" stroke="#1a2d3d" strokeWidth="0.5" />
 
-        {/* Vertical week separator gridlines */}
+        {/* Vertical month separator gridlines */}
         {points.map((p, i) => (
           <line key={`vtick-${i}`} x1={p.x} y1={padT} x2={p.x} y2={padT + chartH} stroke="#1a2d3d" strokeWidth="0.4" strokeDasharray="1 3" />
         ))}
@@ -358,7 +369,7 @@ function CapabilityDegradation({ data }) {
           </g>
         ))}
 
-        {/* Hover tooltip — weekly */}
+        {/* Hover tooltip — monthly */}
         {hoveredIdx !== null && (() => {
           const p = points[hoveredIdx];
           const tw = 78, th = 32;
@@ -371,18 +382,18 @@ function CapabilityDegradation({ data }) {
                 {p.total}
               </text>
               <text x={tx + tw / 2} y={ty + 23} textAnchor="middle" fill="#9ca3af" fontSize="8" fontFamily="monospace">
-                WK{String(p.weekNum).padStart(2,'0')} · {p.days}d
+                {p.label} · {p.days}d
               </text>
             </g>
           );
         })()}
 
-        {/* X-axis tick stubs + labels (every Nth week) */}
+        {/* X-axis tick stubs + labels (every Nth month) */}
         {xLabels.map((p) => (
-          <g key={`xl-${p.weekNum}`}>
+          <g key={`xl-${p.key}`}>
             <line x1={p.x} y1={padT + chartH} x2={p.x} y2={padT + chartH + 3} stroke="#475569" strokeWidth="0.8" />
             <text x={p.x} y={padT + chartH + 14} textAnchor="middle" fill="#9ca3af" fontSize="9" fontWeight="bold" fontFamily="monospace">
-              W{String(p.weekNum).padStart(2,'0')}
+              {p.label}
             </text>
           </g>
         ))}
@@ -396,14 +407,14 @@ function CapabilityDegradation({ data }) {
         </text>
       </svg>
 
-      {/* Stat boxes — weekly framing */}
+      {/* Stat boxes — monthly framing */}
       <div className="flex gap-2 mt-1.5">
         <div className="flex-1 bg-ops-border/20 rounded px-2 py-1 text-center">
-          <div className="text-[8px] text-gray-500 tracking-wider font-bold">PEAK WK</div>
+          <div className="text-[8px] text-gray-500 tracking-wider font-bold">PEAK MO</div>
           <div className="text-[14px] font-bold font-mono" style={{ color: '#ff0040' }}>{formatNum(peak)}</div>
         </div>
         <div className="flex-1 bg-ops-border/20 rounded px-2 py-1 text-center">
-          <div className="text-[8px] text-gray-500 tracking-wider font-bold">LAST WK</div>
+          <div className="text-[8px] text-gray-500 tracking-wider font-bold">LAST MO</div>
           <div className="text-[14px] font-bold font-mono" style={{ color: '#d4a017' }}>{formatNum(current)}</div>
         </div>
         <div className="flex-1 bg-ops-border/20 rounded px-2 py-1 text-center">
@@ -498,7 +509,7 @@ function WarCostComparison() {
 
 export default function MissileDroneTracker() {
   const [activeTab, setActiveTab] = useState('launches');
-  const weeks = useMemo(() => groupByWarWeek(launchData), []);
+  const months = useMemo(() => groupByMonth(launchData), []);
 
   const totals = useMemo(() => {
     const missiles = launchData.reduce((s, d) => s + d.missiles, 0);
@@ -509,9 +520,9 @@ export default function MissileDroneTracker() {
     return { missiles, drones, intercepted, total, rate };
   }, []);
 
-  const maxWeekly = useMemo(
-    () => Math.max(...weeks.map((w) => w.missiles + w.drones), 1),
-    [weeks],
+  const maxMonthly = useMemo(
+    () => Math.max(...months.map((m) => m.missiles + m.drones), 1),
+    [months],
   );
 
   const dateRange = launchData.length > 0
@@ -555,18 +566,18 @@ export default function MissileDroneTracker() {
 
       {/* Scrollable content */}
       <div className="flex-1 min-h-0 overflow-y-auto">
-        {/* Weekly bar chart */}
+        {/* Monthly bar chart */}
         <div className="px-3 py-2 space-y-1.5">
-          {[...weeks].reverse().map((week) => {
-            const total = week.missiles + week.drones;
-            const missilePct = (week.missiles / maxWeekly) * 100;
-            const dronePct = (week.drones / maxWeekly) * 100;
-            const interceptRate = total > 0 ? Math.round((week.intercepted / total) * 100) : 0;
+          {[...months].reverse().map((month) => {
+            const total = month.missiles + month.drones;
+            const missilePct = (month.missiles / maxMonthly) * 100;
+            const dronePct = (month.drones / maxMonthly) * 100;
+            const interceptRate = total > 0 ? Math.round((month.intercepted / total) * 100) : 0;
             return (
-              <div key={week.weekNum} className="group">
+              <div key={month.key} className="group">
                 <div className="flex items-center gap-2 cursor-pointer">
                   <span className="text-[11px] group-hover:text-[13px] font-mono text-ops-text group-hover:text-white w-16 shrink-0 font-bold group-hover:font-extrabold tracking-wide transition-all duration-200">
-                    WEEK {week.weekNum}
+                    {month.label} {month.year}
                   </span>
                   <div className="flex-1 h-5 flex rounded overflow-hidden bg-ops-border/20">
                     <div
@@ -585,11 +596,11 @@ export default function MissileDroneTracker() {
                 {/* Inline breakdown on hover */}
                 <div className="hidden group-hover:block pl-12 py-0.5">
                   <div className="text-[10px] text-gray-300 font-bold mb-0.5">
-                    {formatDate(week.startDate)} – {formatDate(week.endDate)} ({week.days.length} days)
+                    {formatDate(month.startDate)} – {formatDate(month.endDate)} ({month.days.length} days)
                   </div>
                   <div className="flex items-center gap-3 text-[12px] font-mono font-bold">
-                    <span><span className="text-[#ff0040]">{week.missiles}</span> <span className="text-gray-300">missiles</span></span>
-                    <span><span className="text-[#ff6600]">{week.drones}</span> <span className="text-gray-300">drones</span></span>
+                    <span><span className="text-[#ff0040]">{month.missiles}</span> <span className="text-gray-300">missiles</span></span>
+                    <span><span className="text-[#ff6600]">{month.drones}</span> <span className="text-gray-300">drones</span></span>
                     <span><span style={{ color: 'var(--ops-green, #00ff41)' }}>{interceptRate}%</span> <span className="text-gray-300">int.</span></span>
                   </div>
                 </div>
