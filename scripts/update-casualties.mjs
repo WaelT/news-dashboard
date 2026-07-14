@@ -32,6 +32,7 @@ const COUNTRY_MAP = {
   'palestine': 'palestine',
   'state of palestine': 'palestine',
   'palestine (west bank)': 'palestine',
+  'west bank': 'palestine',
   'turkey': 'turkey',
   'france': 'france',
   'philippines': 'philippines',
@@ -74,11 +75,14 @@ async function scrapeWikipedia() {
   let data = await res.json();
   let text = data?.parse?.wikitext?.['*'] || '';
 
-  // If section uses {{Excerpt}} or {{#invoke:Excerpt}} template, fetch from the dedicated casualties article
-  if ((text.includes('Excerpt|') || text.includes('Excerpt|main|')) && text.indexOf('{|') === -1) {
-    const excerptMatch = text.match(/(?:\{\{Excerpt\||Excerpt\|main\|)([^|}]+)/);
-    const targetPage = excerptMatch ? excerptMatch[1].trim() : 'Casualties of the 2026 Iran war';
-    console.log(`Section uses Excerpt template, fetching from: ${targetPage}`);
+  // If the section has no table, it links out to the dedicated casualties article
+  // via {{Excerpt|...}}, {{Main|...}}, or similar — follow the link
+  if (text.indexOf('{|') === -1) {
+    const linkMatch = text.match(/\{\{(?:Excerpt|Main|Further|See also)\|(?:main\|)?([^|}]+)/i);
+    const targetPage = (linkMatch ? linkMatch[1] : 'Casualties of the 2026 Iran war')
+      .split('#')[0]
+      .trim();
+    console.log(`Section has no table, fetching from: ${targetPage}`);
     url = `https://en.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(targetPage)}&prop=wikitext&format=json`;
     res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
     if (!res.ok) throw new Error(`Wikipedia API ${res.status} for ${targetPage}`);
