@@ -115,6 +115,36 @@ function jsStr(s) {
   return s.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
 
+// Keep narrative fields at current-status only: drop appended "[prior: …]"
+// history and cap length (external updaters append these forever, which is
+// how hormuzData.js once grew past 30KB).
+function trimNarrative(s, cap) {
+  let out = s;
+  const i = out.toLowerCase().indexOf('[prior');
+  if (i !== -1) out = out.slice(0, i);
+  out = out.replace(/[;,\s\\]+$/, '');
+  if (out.length > cap) {
+    const cut = out.lastIndexOf(';', cap);
+    out = (cut > cap * 0.4 ? out.slice(0, cut) : out.slice(0, cap));
+    out = out.replace(/[;,\s\\]+$/, '') + ' …';
+  }
+  return out;
+}
+
+// Line-based pass over hormuzData.js: trim single-quoted narrative fields
+function sanitizeNarratives(code) {
+  const CAPS = { tankerRates: 120, insuranceSurge: 120, detail: 300 };
+  return code
+    .split('\n')
+    .map((line) => {
+      const m = line.match(/^(\s*(tankerRates|insuranceSurge|detail):\s*')(.*)('\s*,?\s*)$/);
+      if (!m) return line;
+      const trimmed = trimNarrative(m[3], CAPS[m[2]]);
+      return trimmed === m[3] ? line : m[1] + trimmed + m[4];
+    })
+    .join('\n');
+}
+
 function updateFile(scraped) {
   const filePath = resolve(ROOT, 'src/data/hormuzData.js');
   const original = readFileSync(filePath, 'utf-8');
@@ -165,6 +195,8 @@ function updateFile(scraped) {
     code = code.replace(re, `$1'${jsStr(value)}'`);
     console.log(`${field}: -> ${value.slice(0, 100)}...`);
   }
+
+  code = sanitizeNarratives(code);
 
   if (code === original) {
     console.log('No changes — hormuzData.js already up to date.');

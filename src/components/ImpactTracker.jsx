@@ -23,6 +23,9 @@ function flagUrl(cc) {
   return `https://flagcdn.com/20x15/${cc}.png`;
 }
 
+// Stamped by scripts/update-casualties.mjs on each scrape
+const DATA_AS_OF = 'JULY 14, 2026';
+
 const DEFAULT_CASUALTIES = {
   iran: { killed: 3732, wounded: 26934 },
   israel: { killed: 71, wounded: 9441 },
@@ -174,7 +177,7 @@ export default function ImpactTracker() {
             TREND
           </button>
         </div>
-        <span className="text-ops-muted text-[9px]">JUNE 24, 2026</span>
+        <span className="text-ops-muted text-[9px]">{DATA_AS_OF}</span>
       </div>
 
       {/* Totals bar */}

@@ -11,6 +11,7 @@ import attackRoutes from '../data/attackRoutes';
 import launchData, { countryBreakdown } from '../data/launchData';
 import groundOps from '../data/groundOps';
 import displacementData from '../data/displacementData';
+import HORMUZ_DATA from '../data/hormuzData';
 
 // SVG icon paths for each marker type
 const ICONS = {
@@ -732,49 +733,15 @@ function timeAgo(dateStr) {
 
 // ========== Hormuz Stats ==========
 
-const HORMUZ_DATA = {
-  updated: 'MAY 4, 2026',
-  current: {
-    transitsPerDay: 12,
-    oilFlowMbd: 2.7,
-    disruptionPct: 87,
-  },
-  preWar: {
-    transitsPerDay: 90,
-    oilFlowMbd: 21,
-    globalOilPct: 20,
-    globalLngPct: 25,
-  },
-  crisis: {
-    tankersQueued: 2000,
-    vesselsStranded: 2000,
-    seafarersStranded: 20000,
-    vesselsAttacked: 44,
-    seafarersKilled: 31,
-    minesDetected: false,
-    minesFound: 0,
-    minelayersDestroyed: 47,
-    insuranceSurge: '2-3% of vessel value',
-    tankerRates: '$180K/day',
-    trumpUltimatum: 'PROJECT FREEDOM ACTIVE (May 4): US escort mission underway; ~12 ships/day, 13% of pre-war volume',
-    iranThreat: 'IRGC fires 4 cruise missiles + 8 drones at UAE/US vessels May 4; CENTCOM destroys 6 fast-attack boats',
-  },
-  disruptions: [
-    { country: 'Saudi Arabia', detail: 'Aramco rerouting via Cape; East-West pipeline at capacity' },
-    { country: 'Iraq', detail: 'Basra exports halted; Kirkuk-Ceyhan only working route' },
-    { country: 'UAE', detail: 'Jebel Ali queue 2,000+ vessels; war-risk premium 2-3%' },
-    { country: 'Asia', detail: 'Vance-Araghchi talks paused; LNG cargoes diverted to Australia/US' },
-  ],
-};
 
 function HormuzStatRow({ label, value, color = '#00aaff', sub }) {
   return (
     <div className="py-1.5 border-b border-ops-border/30">
       <div className="flex items-baseline justify-between gap-1">
-        <span className="text-[11px] text-gray-300">{label}</span>
-        <span className="text-[13px] font-bold font-mono" style={{ color }}>{value}</span>
+        <span className="text-[11px] text-gray-300 shrink-0">{label}</span>
+        <span className="text-[13px] font-bold font-mono text-right line-clamp-2 min-w-0" style={{ color }} title={typeof value === 'string' ? value : undefined}>{value}</span>
       </div>
-      {sub && <div className="text-[9px] text-gray-400 mt-0.5">{sub}</div>}
+      {sub && <div className="text-[9px] text-gray-400 mt-0.5 line-clamp-2">{sub}</div>}
     </div>
   );
 }
@@ -866,7 +833,7 @@ function HormuzStats() {
           <div key={c.country} className="flex items-center gap-1.5 py-1.5 border-b border-ops-border/30">
             <img src={`https://flagcdn.com/16x12/${{ 'Saudi Arabia': 'sa', 'Iraq': 'iq', 'UAE': 'ae', 'Asia': 'un' }[c.country] || 'un'}.png`} alt="" className="w-3.5 h-3" />
             <span className="text-[11px] font-bold text-gray-200">{c.country}</span>
-            <span className="text-[10px] text-gray-400 ml-auto">{c.detail}</span>
+            <span className="text-[10px] text-gray-400 ml-auto line-clamp-3" title={c.detail}>{c.detail}</span>
           </div>
         ))}
       </CollapsibleSection>

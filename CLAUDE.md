@@ -9,7 +9,6 @@ Full-screen real-time news dashboard with military ops-center theme. Displays in
 - React-Leaflet (Leaflet.js) for maps with animated attack route lines
 - GNews API + RSS feeds (BBC, Al Jazeera, Al Arabiya, RT, France24) for news
 - YouTube iframe embeds for live streams
-- X/Twitter embedded timelines
 - Yahoo Finance API for market data (via Vite proxy)
 - Wikipedia API for automated casualty scraping
 - GitHub Actions for scheduled data updates
@@ -36,7 +35,6 @@ Full-screen real-time news dashboard with military ops-center theme. Displays in
 - `src/components/ImpactTracker.jsx` — Horizontal bar chart of casualties by country (sorted descending), flags via flagcdn.com
 - `src/components/MarketImpact.jsx` — Live market tickers (Yahoo Finance) + economic impact data (US, Israel, Iran, GCC costs)
 - `src/components/LiveStreams.jsx` — YouTube live stream embeds
-- `src/components/TwitterFeed.jsx` — Embedded X timeline widget
 
 ### Hooks
 - `src/hooks/useNews.js` — News data fetching + caching (useEnglishNews, useArabicNews, useBreakingNews)

@@ -213,6 +213,10 @@ function updateFiles(casualties) {
     newBlock
   );
 
+  // Stamp the "as of" date shown in the panel header
+  const asOf = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).toUpperCase();
+  code = code.replace(/const DATA_AS_OF = '[^']*';/, `const DATA_AS_OF = '${asOf}';`);
+
   writeFileSync(trackerPath, code);
   console.log('Updated ImpactTracker.jsx DEFAULT_CASUALTIES');
 }
