@@ -21,7 +21,7 @@ Full-screen real-time news dashboard with military ops-center theme. Displays in
 - `node scripts/update-casualties.mjs` — Manually scrape & update casualty data
 
 ## Environment Variables
-- `VITE_GNEWS_API_KEY` — GNews API key for live news data (optional, RSS feeds work without it)
+- `GNEWS_API_KEY` (or legacy `VITE_GNEWS_API_KEY`) — GNews API key for live news data (optional, RSS feeds work without it). Server-side only: read by `api/gnews.js` in production and injected by the vite dev proxy locally — never shipped in the client bundle.
 
 ## Architecture
 

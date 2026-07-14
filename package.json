@@ -8,9 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "update-casualties": "node scripts/update-casualties.js",
-    "update-markets": "node scripts/update-markets.js",
-    "update-strikes": "node scripts/update-strikes.js"
+    "update-casualties": "node scripts/update-casualties.mjs",
+    "update-launches": "node scripts/update-launches.mjs",
+    "update-hormuz": "node scripts/update-hormuz.mjs",
+    "update-economic": "node scripts/update-economic.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

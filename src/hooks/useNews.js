@@ -2,15 +2,12 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import useInterval from './useInterval';
 import { fetchRssFeeds, fetchArabicRssFeeds, fetchBreakingFeeds } from '../utils/rssParser';
 
-const GNEWS_API_KEY = import.meta.env.VITE_GNEWS_API_KEY;
 const REFRESH_INTERVAL = 2 * 60 * 1000; // 2 minutes
 
 async function fetchGNews(lang = 'en') {
-  if (!GNEWS_API_KEY) return [];
-
   try {
-    const url = `https://gnews.io/api/v4/search?q=iran+war+conflict&lang=${lang}&max=10&token=${GNEWS_API_KEY}`;
-    const res = await fetch(url);
+    // Proxied through /api/gnews so the API key stays server-side
+    const res = await fetch(`/api/gnews?lang=${lang}`);
     if (!res.ok) throw new Error(`GNews API error: ${res.status}`);
     const data = await res.json();
 

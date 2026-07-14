@@ -891,29 +891,7 @@ function HormuzStats() {
 // ========== Main MapView ==========
 
 export default function MapView({ articles = [] }) {
-  const [dynamicZones, setDynamicZones] = useState([]);
-
-  useEffect(() => {
-    let cancelled = false;
-    function fetchStrikes() {
-      fetch('/strikes.json')
-        .then((res) => { if (!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
-        .then((data) => {
-          if (!cancelled && Array.isArray(data?.zones)) setDynamicZones(data.zones);
-        })
-        .catch(() => {});
-    }
-    fetchStrikes();
-    const interval = setInterval(fetchStrikes, 5 * 60 * 1000);
-    return () => { cancelled = true; clearInterval(interval); };
-  }, []);
-
-  const allZones = useMemo(() => {
-    const map = new Map();
-    for (const z of conflictZones) map.set(z.id, z);
-    for (const z of dynamicZones) map.set(z.id, z);
-    return Array.from(map.values());
-  }, [dynamicZones]);
+  const allZones = conflictZones;
 
   const [showRoutes, setShowRoutes] = useState(true);
   const [showHeat, setShowHeat] = useState(true);

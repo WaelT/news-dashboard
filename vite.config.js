@@ -1,10 +1,23 @@
-import { defineConfig } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig({
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), '');
+  const gnewsKey = env.GNEWS_API_KEY || env.VITE_GNEWS_API_KEY || '';
+
+  return {
   plugins: [react()],
   server: {
     proxy: {
+      // Mirrors api/gnews.js for dev — key injected here, never shipped to the client
+      '/api/gnews': {
+        target: 'https://gnews.io',
+        changeOrigin: true,
+        rewrite: (path) => {
+          const lang = path.includes('lang=ar') ? 'ar' : 'en';
+          return `/api/v4/search?q=iran+war+conflict&lang=${lang}&max=10&token=${gnewsKey}`;
+        },
+      },
       '/api/yahoo': {
         target: 'https://query1.finance.yahoo.com',
         changeOrigin: true,
@@ -45,20 +58,16 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/rss\/aljazeera/, '/xml/rss/all.xml'),
       },
-      '/api/polymarket': {
-        target: 'https://gamma-api.polymarket.com',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api\/polymarket/, ''),
-      },
+      // Al Arabiya's own RSS blocks proxied requests (TLS fingerprinting) — use Google News
       '/rss/alarabiya-ar': {
-        target: 'https://www.alarabiya.net',
+        target: 'https://news.google.com',
         changeOrigin: true,
-        rewrite: () => '/feed',
+        rewrite: () => '/rss/search?q=site:alarabiya.net&hl=ar&gl=SA&ceid=SA:ar',
       },
       '/rss/rt-ar': {
         target: 'https://arabic.rt.com',
         changeOrigin: true,
-        rewrite: () => '/rss',
+        rewrite: () => '/rss/',
       },
       '/rss/google-ar': {
         target: 'https://news.google.com',
@@ -80,11 +89,7 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: () => '/rss/search?q=%D8%B9%D8%A7%D8%AC%D9%84+%D8%A5%D9%8A%D8%B1%D8%A7%D9%86&hl=ar&gl=SA&ceid=SA:ar',
       },
-      '/tg-proxy': {
-        target: 'https://t.me',
-        changeOrigin: true,
-        rewrite: (path) => '/s' + path.replace(/^\/tg-proxy/, ''),
-      },
     },
   },
+  };
 });
