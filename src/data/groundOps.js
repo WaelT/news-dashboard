@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 13, 2026 (DAY 136 — CENTCOM 4TH CONSECUTIVE NIGHT OF STRIKES (~70 TARGETS); IRGC FIRES 5 MISSILES + 3 DRONES ENFORCING HORMUZ CLOSED DECLARATION; GFS GALAXY INDIAN CREW MEMBER BODY RECOVERED BY OMANI SAR — SEAFARERS KILLED→15; TRUMP 24H ULTIMATUM EXPIRED — IRAN DID NOT COMPLY; PAKISTAN FM DAR IN WASHINGTON BRIEFING RUBIO; GOLDMAN SACHS Q3 BRENT FORECAST RAISED TO $95; BRENT ~$83-85; HORMUZ TRANSITS ~3/DAY; LEBANON CEASEFIRE DAY 24 HOLDS; HOUTHI CEASEFIRE DAY 19 — 31ST QUIET DAY)',
+  updated: 'JULY 14, 2026 (DAY 137 — IRGC CRUISE MISSILE STRIKES UAE TANKERS M/V MOMBASA + M/V AL BAHIYAH; 1 INDIAN KILLED + 8 WOUNDED; CENTCOM 5TH CONSECUTIVE WAVE (~60 TARGETS); TRUMP 20% OIL TOLL ANNOUNCED; ARAGHCHI "ETERNAL GUARDIAN" RESPONSE; IRAN-OMAN SATURDAY SUMMIT JULY 18 CONFIRMED; BRENT ~$86-89; HORMUZ TRANSITS ~2/DAY; LEBANON CEASEFIRE DAY 25 HOLDS; HOUTHI CEASEFIRE DAY 20 — 32ND QUIET DAY)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1731,6 +1731,27 @@ const groundOps = {
       lng: 51.32,
       event: "Day 136 — Hormuz: IRGC enforcement continues; transits ~3/day (southern route CENTCOM escort only); oil flows ~0.4 mbd; disruptionPct 98%; tankersQueued 232; vessels stranded 472; Brent ~$83-85/bbl (Goldman Sachs Q3 forecast raised to $95); war-risk insurance premiums at all-time highs; Cape of Good Hope rerouting mandatory for all Gulf cargos; Houthi ceasefire Day 19 (31st quiet day) — Bab al-Mandab fully open (JMIC; CENTCOM; UKMTO; Goldman Sachs; Baltic Exchange; July 13)",
       type: 'strike',
+    },
+    {
+      date: '2026-07-14',
+      lat: 26.57,
+      lng: 56.25,
+      event: "Day 137 — IRGC cruise missiles strike UAE tankers M/V Mombasa + M/V Al Bahiyah in Strait of Hormuz under CENTCOM escort; 1 Indian crew member killed + 8 wounded (Mombasa); UAE Ministry of Defence + CENTCOM confirm both attacks; India MEA summons Iranian ambassador (2nd time in 48h); CENTCOM 5th consecutive wave of strikes (~60 targets: surviving mobile coastal defense, IRGC Navy patrol facilities, Hormozgan radar sites); transits ~2/day (southern route only); oil flows ~0.3 mbd; tankersQueued 245; vessels stranded 480; seafarersKilled 16; Brent ~$86-89/bbl (UAE MoD; CENTCOM; India MEA; Reuters; GDN Online; July 14)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-14',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 137 — Trump 20% oil toll: any country buying Iranian oil faces 20% tariff on all US goods; Araghchi: Iran is 'eternal guardian' of Hormuz, vows to maintain IRGC control; Iran back-channel via Oman privately blames 'errant hardliners' for UAE tanker strikes; Iran-Oman Saturday summit (July 18) confirmed — US: VP Vance, Rubio, Witkoff, Kushner; Iran: FM Araghchi; Brent ~$86-89/bbl (+3-4% on attack + tariff news); China MFA calls tariff 'unilateral economic coercion' (Trump Truth Social; Araghchi press statement; Omani FM; Reuters; Bloomberg; China MFA; July 14)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-14',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 137 — Lebanon ceasefire Day 25 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire 25th consecutive day; Houthi ceasefire Day 20 (32nd quiet day) — Bab al-Mandab fully open at pre-war operational tempo; no confirmed Houthi attacks or preparations (IDF spokesperson; Reuters; Al Jazeera; UKMTO; July 14)",
+      type: 'ceasefire',
     },
   ],
 };
