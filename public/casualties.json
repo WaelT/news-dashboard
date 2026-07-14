@@ -1,22 +1,26 @@
 {
-  "updatedAt": "2026-07-12T13:00:00.000Z",
-  "source": "Wikipedia, Al Jazeera, HRANA, Reuters, UKMTO, Lebanese Ministry of Health, Iran Health Ministry (July 12 13:00 UTC \u2014 Day 135: IRGC fires 0 BMs + 2 drones; CENTCOM lower-tempo strikes continue; Iran signals conditional pause via Pakistan back-channel; Iran Health Ministry: +6 killed from July 11-12 CENTCOM strikes; JMIC downgrades Hormuz threat Severe\u2192Substantial; Brent ~$79-80; Lebanon ceasefire Day 23 holds; Houthi ceasefire Day 18 (30th quiet day))",
+  "updatedAt": "2026-07-14T03:09:26.653Z",
+  "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "lebanon": {
-      "killed": 4250,
-      "wounded": 12190
+      "killed": 4321,
+      "wounded": 12203
     },
     "iran": {
-      "killed": 3724,
-      "wounded": 26874
+      "killed": 3636,
+      "wounded": 26500
     },
     "iraq": {
       "killed": 119,
-      "wounded": 370
+      "wounded": 384
     },
     "israel": {
-      "killed": 71,
-      "wounded": 9441
+      "killed": 69,
+      "wounded": 9240
+    },
+    "usa": {
+      "killed": 18,
+      "wounded": 553
     },
     "oman": {
       "killed": 18,
@@ -26,45 +30,37 @@
       "killed": 17,
       "wounded": 29
     },
-    "usa": {
-      "killed": 16,
-      "wounded": 543
-    },
-    "qatar": {
-      "killed": 14,
-      "wounded": 87
-    },
-    "kuwait": {
-      "killed": 14,
-      "wounded": 308
-    },
-    "uae": {
-      "killed": 15,
-      "wounded": 233
-    },
     "palestine": {
       "killed": 14,
       "wounded": 15
+    },
+    "qatar": {
+      "killed": 14,
+      "wounded": 90
+    },
+    "uae": {
+      "killed": 13,
+      "wounded": 229
+    },
+    "kuwait": {
+      "killed": 11,
+      "wounded": 183
     },
     "syria": {
       "killed": 6,
       "wounded": 4
     },
     "bahrain": {
-      "killed": 4,
-      "wounded": 59
+      "killed": 3,
+      "wounded": 51
     },
     "turkey": {
       "killed": 3,
       "wounded": 0
     },
     "france": {
-      "killed": 3,
-      "wounded": 9
-    },
-    "philippines": {
       "killed": 2,
-      "wounded": 0
+      "wounded": 3
     },
     "jordan": {
       "killed": 0,
@@ -75,6 +71,10 @@
       "wounded": 4
     },
     "yemen": {
+      "killed": 0,
+      "wounded": 0
+    },
+    "philippines": {
       "killed": 0,
       "wounded": 0
     }
