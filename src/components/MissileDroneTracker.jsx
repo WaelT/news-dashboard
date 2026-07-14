@@ -262,39 +262,49 @@ function InterceptionGauge({ data }) {
   );
 }
 
-// Capability degradation line chart
+// Capability degradation line chart — week-by-week
 function CapabilityDegradation({ data }) {
   const [hoveredIdx, setHoveredIdx] = useState(null);
-  const dailyTotals = data.map((d) => ({
-    day: warDay(d.date),
-    total: d.missiles + d.drones,
+
+  // Aggregate to war weeks
+  const weeks = useMemo(() => groupByWarWeek(data), [data]);
+  const weeklyTotals = weeks.map((w) => ({
+    weekNum: w.weekNum,
+    startDate: w.startDate,
+    endDate: w.endDate,
+    days: w.days.length,
+    total: w.missiles + w.drones,
   }));
 
-  const peak = dailyTotals[0].total;
-  const current = dailyTotals[dailyTotals.length - 1].total;
+  const peak    = weeklyTotals[0]?.total || 0;
+  const current = weeklyTotals[weeklyTotals.length - 1]?.total || 0;
   const declinePct = peak > 0 ? Math.round(((current - peak) / peak) * 100) : 0;
 
-  const maxTotal = Math.max(...dailyTotals.map((d) => d.total));
+  const maxTotal = Math.max(...weeklyTotals.map((w) => w.total), 1);
   const W = 300;
   const H = 120;
   const padL = 32;
-  const padR = 4;
-  const padT = 6;
-  const padB = 20;
+  const padR = 8;
+  const padT = 10;
+  const padB = 22;
   const chartW = W - padL - padR;
   const chartH = H - padT - padB;
 
-  const points = dailyTotals.map((d, i) => {
-    const x = padL + (i / (dailyTotals.length - 1)) * chartW;
-    const y = padT + chartH - (d.total / maxTotal) * chartH;
-    return { x, y, day: d.day, total: d.total };
+  const denom = Math.max(1, weeklyTotals.length - 1);
+  const points = weeklyTotals.map((w, i) => {
+    const x = padL + (i / denom) * chartW;
+    const y = padT + chartH - (w.total / maxTotal) * chartH;
+    return { x, y, ...w };
   });
 
   const linePath = points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x} ${p.y}`).join(' ');
-  const areaPath = linePath + ` L ${points[points.length - 1].x} ${padT + chartH} L ${points[0].x} ${padT + chartH} Z`;
+  const areaPath = points.length
+    ? linePath + ` L ${points[points.length - 1].x} ${padT + chartH} L ${points[0].x} ${padT + chartH} Z`
+    : '';
 
-  // X-axis labels: show every 3rd day
-  const xLabels = points.filter((_, i) => i % 3 === 0);
+  // X-axis labels: show every 2nd week (or every 1 if few)
+  const labelEvery = points.length > 8 ? 2 : 1;
+  const xLabels = points.filter((_, i) => i % labelEvery === 0 || i === points.length - 1);
 
   return (
     <div className="px-3 py-2">
@@ -304,17 +314,29 @@ function CapabilityDegradation({ data }) {
 
       {/* SVG line chart */}
       <svg viewBox={`0 0 ${W} ${H}`} className="w-full" style={{ height: 120 }}>
-        {/* Axis lines */}
-        <line x1={padL} y1={padT} x2={padL} y2={padT + chartH} stroke="#1a2d3d" strokeWidth="0.5" />
-        <line x1={padL} y1={padT + chartH} x2={padL + chartW} y2={padT + chartH} stroke="#1a2d3d" strokeWidth="0.5" />
+        <defs>
+          <linearGradient id="cap-area" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%"  stopColor="#ef4060" stopOpacity="0.32" />
+            <stop offset="100%" stopColor="#ef4060" stopOpacity="0" />
+          </linearGradient>
+        </defs>
+
+        {/* Plot frame */}
+        <rect x={padL} y={padT} width={chartW} height={chartH} fill="rgba(45, 212, 168, 0.015)" stroke="#1a2d3d" strokeWidth="0.5" />
+
+        {/* Vertical week separator gridlines */}
+        {points.map((p, i) => (
+          <line key={`vtick-${i}`} x1={p.x} y1={padT} x2={p.x} y2={padT + chartH} stroke="#1a2d3d" strokeWidth="0.4" strokeDasharray="1 3" />
+        ))}
 
         {/* Horizontal gridlines */}
         {[0.25, 0.5, 0.75].map(frac => {
           const yPos = padT + chartH - frac * chartH;
           return (
             <g key={frac}>
-              <line x1={padL} y1={yPos} x2={padL + chartW} y2={yPos} stroke="#1a2d3d" strokeWidth="0.5" strokeDasharray="3,2" />
-              <text x={padL - 3} y={yPos + 3} textAnchor="end" fill="#6e7681" fontSize="8" fontFamily="monospace">
+              <line x1={padL - 3} y1={yPos} x2={padL} y2={yPos} stroke="#475569" strokeWidth="0.8" />
+              <line x1={padL} y1={yPos} x2={padL + chartW} y2={yPos} stroke="#1a2d3d" strokeWidth="0.4" strokeDasharray="2 4" />
+              <text x={padL - 5} y={yPos + 3} textAnchor="end" fill="#9ca3af" fontSize="8" fontFamily="monospace" fontWeight="bold">
                 {formatNum(Math.round(maxTotal * frac))}
               </text>
             </g>
@@ -322,10 +344,11 @@ function CapabilityDegradation({ data }) {
         })}
 
         {/* Fill area */}
-        <path d={areaPath} fill="#ef4060" opacity="0.1" />
+        <path d={areaPath} fill="url(#cap-area)" />
 
-        {/* Line */}
-        <path d={linePath} fill="none" stroke="#ef4060" strokeWidth="1.5" strokeLinejoin="round" />
+        {/* Line — with subtle phosphor glow */}
+        <path d={linePath} fill="none" stroke="#ef4060" strokeWidth="1.6" strokeLinejoin="round"
+              style={{ filter: 'drop-shadow(0 0 2px #ef406088)' }} />
 
         {/* Data points — interactive */}
         {points.map((p, i) => (
@@ -335,30 +358,33 @@ function CapabilityDegradation({ data }) {
           </g>
         ))}
 
-        {/* Hover tooltip */}
+        {/* Hover tooltip — weekly */}
         {hoveredIdx !== null && (() => {
           const p = points[hoveredIdx];
-          const tw = 52, th = 26;
+          const tw = 78, th = 32;
           const tx = Math.min(Math.max(p.x - tw / 2, padL), padL + chartW - tw);
           const ty = p.y - th - 6;
           return (
             <g>
-              <rect x={tx} y={ty} width={tw} height={th} rx="3" fill="#0c1320" stroke="#1a2d3d" strokeWidth="0.5" />
-              <text x={tx + tw / 2} y={ty + 11} textAnchor="middle" fill="#ef4060" fontSize="10" fontWeight="bold" fontFamily="monospace">
+              <rect x={tx} y={ty} width={tw} height={th} rx="2" fill="#0c1320" stroke="#1a2d3d" strokeWidth="0.5" />
+              <text x={tx + tw / 2} y={ty + 12} textAnchor="middle" fill="#ef4060" fontSize="11" fontWeight="bold" fontFamily="monospace">
                 {p.total}
               </text>
-              <text x={tx + tw / 2} y={ty + 21} textAnchor="middle" fill="#9ca3af" fontSize="8" fontFamily="monospace">
-                Day {p.day}
+              <text x={tx + tw / 2} y={ty + 23} textAnchor="middle" fill="#9ca3af" fontSize="8" fontFamily="monospace">
+                WK{String(p.weekNum).padStart(2,'0')} · {p.days}d
               </text>
             </g>
           );
         })()}
 
-        {/* X-axis labels */}
+        {/* X-axis tick stubs + labels (every Nth week) */}
         {xLabels.map((p) => (
-          <text key={p.day} x={p.x} y={padT + chartH + 14} textAnchor="middle" fill="#9ca3af" fontSize="9" fontWeight="bold" fontFamily="monospace">
-            D{p.day}
-          </text>
+          <g key={`xl-${p.weekNum}`}>
+            <line x1={p.x} y1={padT + chartH} x2={p.x} y2={padT + chartH + 3} stroke="#475569" strokeWidth="0.8" />
+            <text x={p.x} y={padT + chartH + 14} textAnchor="middle" fill="#9ca3af" fontSize="9" fontWeight="bold" fontFamily="monospace">
+              W{String(p.weekNum).padStart(2,'0')}
+            </text>
+          </g>
         ))}
 
         {/* Y-axis labels */}
@@ -370,14 +396,14 @@ function CapabilityDegradation({ data }) {
         </text>
       </svg>
 
-      {/* Stat boxes */}
+      {/* Stat boxes — weekly framing */}
       <div className="flex gap-2 mt-1.5">
         <div className="flex-1 bg-ops-border/20 rounded px-2 py-1 text-center">
-          <div className="text-[8px] text-gray-500 tracking-wider font-bold">PEAK</div>
+          <div className="text-[8px] text-gray-500 tracking-wider font-bold">PEAK WK</div>
           <div className="text-[14px] font-bold font-mono" style={{ color: '#ff0040' }}>{formatNum(peak)}</div>
         </div>
         <div className="flex-1 bg-ops-border/20 rounded px-2 py-1 text-center">
-          <div className="text-[8px] text-gray-500 tracking-wider font-bold">CURRENT</div>
+          <div className="text-[8px] text-gray-500 tracking-wider font-bold">LAST WK</div>
           <div className="text-[14px] font-bold font-mono" style={{ color: '#d4a017' }}>{formatNum(current)}</div>
         </div>
         <div className="flex-1 bg-ops-border/20 rounded px-2 py-1 text-center">
