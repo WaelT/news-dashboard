@@ -66,7 +66,7 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
     tankerRates: 'JMIC "Severe" July 13 (Day 136, 20:00 UTC): CENTCOM 4th consecutive night ~70 strikes …',
-    trumpUltimatum: 'LATEST (13 Jul): Iran attacked two UAE-owned oil tankers—the Mombasa and Al Bahiyah—in the Strait with cruise missiles',
+    trumpUltimatum: 'LATEST (13 Jul): Iran attacked two UAE-owned oil tankers—the Mombasa B and Al Bahyah—in the Strait with cruise missiles',
     iranThreat: '12 Jul: the IRGC Navy declared the Strait closed after claiming it had fired warning shots at a ship attempting to cross an unauthorized route',
   },
 
