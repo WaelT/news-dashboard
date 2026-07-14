@@ -93,3 +93,5 @@ export const hormuzData = {
     },
   ],
 };
+
+export default hormuzData;
