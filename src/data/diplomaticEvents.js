@@ -2752,6 +2752,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 137 of the 2026 Iran war. The Lebanon ceasefire held for its 25th consecutive day. No new IDF offensive operations were confirmed north of the Litani. Hezbollah observed the ceasefire; spokesman Ibrahim Moussawi issued a brief statement noting that Hezbollah was "monitoring" the Hormuz situation but reaffirmed the ceasefire posture vis-à-vis Israel. The Houthi ceasefire continued for its 20th day, marking the 32nd consecutive quiet day in the Red Sea and Bab al-Mandab. No confirmed Houthi military activity was observed in the Red Sea, Gulf of Aden, or Bab al-Mandab. Bab al-Mandab remained fully open at pre-war commercial tempo (IDF; Hezbollah via Al-Manar; Houthi statement; UKMTO; Al Jazeera; July 14 2026).',
   },
+  {
+    date: '2026-07-15',
+    event: 'Day 138 — IRGC tactical pause ahead of July 18 Muscat summit; India files formal UNSC protest; China warns of tariff countermeasures',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 138 of the 2026 Iran war. The IRGC maintained its "Hormuz CLOSED" declaration but refrained from new vessel attacks through 12:00Z July 15, consistent with the back-channel message Iran transmitted via Oman on July 14 attributing the UAE tanker strikes to "errant hardliners." Omani FM Badr Al-Busaidi confirmed to Reuters that Iranian diplomatic sources in Muscat had indicated the SNSC had instructed IRGC Navy commanders to "exercise maximum restraint pending the July 18 meeting." India filed a formal protest at the UN Security Council, calling the killing of two Indian maritime workers in 48 hours — one aboard M/V GFS Galaxy (July 13) and one aboard M/V Mombasa (July 14) — an "egregious violation of international maritime law and humanitarian norms." Prime Minister Modi separately called President Trump and UAE President Sheikh Mohammed bin Zayed, receiving assurances that CENTCOM would provide dedicated naval escort for Indian-crewed vessels transiting the southern Hormuz corridor. China\'s MFA delivered a formal diplomatic note to the US Embassy in Beijing reiterating its opposition to Trump\'s 20% oil tariff and warning that China would take "proportionate countermeasures" if the measure was implemented. Oman confirmed that the July 18 summit venue at Muscat\'s Al-Bustan Palace had been finalized; interpreter arrangements, security protocols, and delegation lists were formally exchanged. CENTCOM conducted overnight strikes at a reduced tempo against residual IRGC coastal radar and patrol boat facilities along Hormozgan (CENTCOM; Omani FM; India MEA; India UN Mission; China MFA; Reuters; Bloomberg; July 15 2026).',
+  },
+  {
+    date: '2026-07-15',
+    event: 'Day 138 — Lebanon ceasefire Day 26; Houthi ceasefire Day 21 (33rd quiet day); Bab al-Mandab open',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 138 of the 2026 Iran war. The Lebanon ceasefire held for its 26th consecutive day. IDF maintained forward positions north of the Litani River with no new offensive operations confirmed. Hezbollah observed the ceasefire for the 26th consecutive day; no armed activity was reported. The Houthi ceasefire continued for its 21st day, marking the 33rd consecutive quiet day in the Red Sea and Bab al-Mandab. Houthi spokesman Mohammed Al-Bukhaiti issued a statement confirming the ceasefire posture and welcoming the Oman diplomatic channel as "a positive sign, though Iran\'s sovereignty over Hormuz must be recognized." No confirmed Houthi military activity was observed in the Red Sea, Gulf of Aden, or Bab al-Mandab. Bab al-Mandab remained fully open at pre-war commercial tempo; war-risk insurance for Red Sea routes remained at or below pre-war norms (IDF; Hezbollah statement via Al-Manar; Houthi spokesman Al-Bukhaiti via Al Jazeera; UKMTO; Reuters; July 15 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

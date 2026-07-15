@@ -1753,6 +1753,20 @@ const groundOps = {
       event: "Day 137 — Lebanon ceasefire Day 25 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire 25th consecutive day; Houthi ceasefire Day 20 (32nd quiet day) — Bab al-Mandab fully open at pre-war operational tempo; no confirmed Houthi attacks or preparations (IDF spokesperson; Reuters; Al Jazeera; UKMTO; July 14)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-15',
+      lat: 25.11,
+      lng: 51.32,
+      event: "Day 138 — Hormuz: IRGC tactical pause (no new vessel attacks through 12:00Z July 15) pending July 18 Muscat summit; Omani FM confirms SNSC instructed IRGC Navy 'maximum restraint'; 'Hormuz CLOSED' declaration maintained; transits ~2-3/day (southern route CENTCOM escort only); oil flows ~0.3 mbd; tankersQueued 248; seafarersKilled 16; Brent ~$84-87/bbl (stabilizing from July 14 $89 spike); CENTCOM overnight strikes at reduced tempo on residual Hormozgan coastal/radar assets; India INS Shivalik + INS Kolkata maintaining Oman Sea presence; JMIC 'Severe' maintained (CENTCOM; JMIC; Omani FM; UKMTO; Bloomberg; July 15)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-15',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 138 — Lebanon ceasefire Day 26 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire 26th consecutive day; Houthi ceasefire Day 21 (33rd quiet day) — Bab al-Mandab fully open at pre-war operational tempo; no confirmed Houthi attacks or preparations (IDF spokesperson; Reuters; Al Jazeera; UKMTO; July 15)",
+      type: 'ceasefire',
+    },
   ],
 };
 
