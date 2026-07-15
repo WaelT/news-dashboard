@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
     tankerRates: 'JMIC "Severe" July 13 (Day 136, 20:00 UTC): CENTCOM 4th consecutive night ~70 strikes …',
-    trumpUltimatum: 'LATEST (15 Jul): IRGC tactical pause on vessel attacks pending July 18 Muscat summit; Omani FM confirms SNSC instructed IRGC Navy "maximum restraint"; 20% US oil tariff on Iran buyers in force; Brent stabilizing ~$84-87/bbl',
-    iranThreat: '15 Jul: Hormuz CLOSED declaration maintained; IRGC pausing new attacks pending July 18 Muscat talks (VP Vance, Rubio, Witkoff, Kushner / FM Araghchi); Araghchi: Iran is "eternal guardian" of Hormuz',
+    trumpUltimatum: 'LATEST (14 Jul): Iran attacked three tankers in the strait',
+    iranThreat: '12 Jul: the IRGC Navy declared the strait closed after claiming it had fired warning shots at a ship attempting to cross an unauthorized route',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 15 (Day 138, 12:00Z): India PM Modi calls Trump + UAE President over 2 Indian crew deaths in 48h; India files formal UNSC protest; INS Shivalik + INS Kolkata maintaining Oman Sea presence; India MEA confirms dedicated CENTCOM escort secured for Indian-crewed vessels; Japan emergency petroleum reserve release procedures active; China MFA warns of "proportionate countermeasures" to 20% oil tariff …',
+      detail: 'July 15 (Day 138, 12:00Z): India PM Modi calls Trump + UAE President over 2 Indian crew deaths in 48h; India files formal UNSC protest; INS Shivalik + INS Kolkata maintaining Oman Sea presence; India MEA confirms dedicated CENTCOM escort secured for Indian-crewed vessels …',
     },
   ],
 };
