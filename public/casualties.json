@@ -1,22 +1,18 @@
 {
-  "updatedAt": "2026-07-15T08:00:50.897Z",
-  "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
+  "updatedAt": "2026-07-15T12:00:00.000Z",
+  "source": "Wikipedia, Al Jazeera, HRANA, Reuters, CENTCOM, India MEA, UAE MoD",
   "casualties": {
+    "iran": {
+      "killed": 3746,
+      "wounded": 26952
+    },
     "lebanon": {
       "killed": 4324,
       "wounded": 12221
     },
-    "iran": {
-      "killed": 3636,
-      "wounded": 26500
-    },
-    "iraq": {
-      "killed": 119,
-      "wounded": 384
-    },
     "israel": {
-      "killed": 70,
-      "wounded": 9240
+      "killed": 71,
+      "wounded": 9441
     },
     "usa": {
       "killed": 18,
@@ -26,41 +22,49 @@
       "killed": 18,
       "wounded": 23
     },
+    "qatar": {
+      "killed": 17,
+      "wounded": 90
+    },
     "saudi": {
       "killed": 17,
       "wounded": 29
+    },
+    "uae": {
+      "killed": 15,
+      "wounded": 237
+    },
+    "kuwait": {
+      "killed": 14,
+      "wounded": 308
     },
     "palestine": {
       "killed": 14,
       "wounded": 15
     },
-    "qatar": {
-      "killed": 14,
-      "wounded": 90
-    },
-    "uae": {
-      "killed": 14,
-      "wounded": 237
-    },
-    "kuwait": {
-      "killed": 11,
-      "wounded": 188
-    },
-    "syria": {
-      "killed": 6,
-      "wounded": 4
+    "iraq": {
+      "killed": 119,
+      "wounded": 384
     },
     "bahrain": {
+      "killed": 4,
+      "wounded": 59
+    },
+    "france": {
       "killed": 3,
-      "wounded": 51
+      "wounded": 9
     },
     "turkey": {
       "killed": 3,
       "wounded": 0
     },
-    "france": {
+    "philippines": {
       "killed": 2,
-      "wounded": 3
+      "wounded": 0
+    },
+    "syria": {
+      "killed": 6,
+      "wounded": 4
     },
     "jordan": {
       "killed": 0,
@@ -71,10 +75,6 @@
       "wounded": 4
     },
     "yemen": {
-      "killed": 0,
-      "wounded": 0
-    },
-    "philippines": {
       "killed": 0,
       "wounded": 0
     }
