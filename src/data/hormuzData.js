@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-07-14',
+  updated: '2026-07-15',
 
   current: {
     transitsPerDay: 2,
@@ -56,7 +56,7 @@ export const hormuzData = {
   },
 
   crisis: {
-    tankersQueued: 245,
+    tankersQueued: 248,
     vesselsStranded: 2000,    // July 14 (Day 137, 12:00 UTC): IRGC cruise missiles strike UAE tankers M/V Mombasa + M/V Al Bahiyah near Hormuz; 1 Indian killed + 8 wounded (Mombasa crew); CENTCOM 5th consecutive wave of strikes; all commercial transits halted; tankersQueued→245; seafarersKilled→16; July 13 (Day 136, 20:00 UTC): CENTCOM 4th consecutive night of strikes (~70 targets); IRGC fires 5 missiles + 3 drones at Hormuz/Bahrain/Kuwait (enforcing CLOSED declaration); body of 1 Indian crew member (GFS Galaxy) recovered by Omani SAR — seafarersKilled→15; Trump 24h ultimatum expired with no compliance; Pakistan FM Dar in Washington briefing Rubio; Goldman Sachs raises Q3 Brent forecast to $95; operators halted all Hormuz transits; Cape of Good Hope rerouting mandatory; Lebanon ceasefire Day 24 holds; Houthi ceasefire Day 19 (31st quiet day); [prior] July 12 (Day 135, 20:00 UTC): IRGC struck M/V GFS Galaxy (engine room fire; 10 Indian crew rescued, 1 missing); IRGC declared Strait CLOSED until "end of US interference"; CENTCOM 3rd round 140+ strikes (300+ total over 3 nights); IRGC major salvo ~38 BMs + ~22 drones at Qatar/UAE/Bahrain/Kuwait/Jordan/Oman; operators halting all Hormuz transits; Brent ~$82-84 (intraday spike; vs $79-80 at 13:00Z); JMIC re-elevated Hormuz threat to "Severe"; Houthi ceasefire Day 18 (30th quiet day) intact; Lebanon ceasefire Day 23 holds; July 12 (13:00 UTC): JMIC downgraded Severe→Substantial on IRGC pause + back-channel signals; transits ~19/day; July 11 (Day 134, 12:00 UTC): JMIC 'Severe' holds; no confirmed IRGC launches; transits ~18/day; operators holding; Iran Health Ministry confirms additional casualties from overnight strikes; Lebanon ceasefire Day 22; Houthi ceasefire Day 17 (29th quiet day); July 10 (Day 133, 12:00 UTC): JMIC elevated Hormuz threat to 'Severe' (first time since June 15); CENTCOM ~90 strikes overnight; IRGC 10 BMs at Jordan Al-Azraq; transits falling to ~20/day; operators holding; prior July 9 (Day 132, 13:00 UTC): Khamenei burial Mashhad; IRGC fires 18 BMs + 12 drones; operators halting all Hormuz transits; stranded vessels surging back toward crisis peak; prior July 8 (Day 131, 13:00 UTC): CEASEFIRE OVER — Trump declared Islamabad MOU 'over' at NATO Ankara; CENTCOM struck 80+ Iranian targets + Bandar Abbas/Qeshm/Sirik July 7–8; operators halting; stranded vessels surging back toward crisis levels from prior low of 55 (ceasefire Day 15 at 12:00 UTC); July 8 (Day 131, 12:00 UTC): ceasefire Day 15 — IRGC struck Qatari LNG tanker Al Rekayyat + Saudi crude tanker July 7, chilling Hormuz transits; tankersQueued rising as operators hold; transits dip to ~65/day; Khamenei funeral Day 5 (July 4–9); Rome talks still paused; down from peak 780 (March), 570 (Day 1), 60 (Day 14 → 55 Day 15); July 7 (Day 130): ceasefire Day 14 — backlog continuing to clear as transits reach ~70/day; Khamenei funeral Day 4 (July 4–9); Rome talks paused full week; IAEA-Iran standoff: Qalibaf blocks bombed-site access under parliamentary law; IAEA DG Grossi: inspections 'going to happen'; down from peak 780 (March), 570 (Day 1), 70 (Day 13 → 60 Day 14); July 6 (Day 129): ceasefire Day 13 — backlog continuing to clear as transits reach ~68/day; Rome talks paused for Khamenei funeral week; down from peak 780 (March), 570 (Day 1), 80 (Day 12 → 70 Day 13); July 5 (Day 128): ceasefire Day 12 — transits ~64/day; July 4 (Day 127): ceasefire Day 11 — transits ~60/day; July 2 (Day 125): ceasefire Day 9 — transits ~52/day; July 1 (Day 124): ceasefire Day 8 — transits ~48/day
     seafarersStranded: 20000,
     vesselsAttacked: 57,
@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
     tankerRates: 'JMIC "Severe" July 13 (Day 136, 20:00 UTC): CENTCOM 4th consecutive night ~70 strikes …',
-    trumpUltimatum: 'LATEST (13 Jul): Iran attacked two UAE-owned oil tankers—the Mombasa B and Al Bahyah—in the Strait with cruise missiles',
-    iranThreat: '12 Jul: the IRGC Navy declared the Strait closed after claiming it had fired warning shots at a ship attempting to cross an unauthorized route',
+    trumpUltimatum: 'LATEST (15 Jul): IRGC tactical pause on vessel attacks pending July 18 Muscat summit; Omani FM confirms SNSC instructed IRGC Navy "maximum restraint"; 20% US oil tariff on Iran buyers in force; Brent stabilizing ~$84-87/bbl',
+    iranThreat: '15 Jul: Hormuz CLOSED declaration maintained; IRGC pausing new attacks pending July 18 Muscat talks (VP Vance, Rubio, Witkoff, Kushner / FM Araghchi); Araghchi: Iran is "eternal guardian" of Hormuz',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 13 (Day 136, 20:00 UTC): India deployed INS Shivalik + INS Kolkata to Oman Sea after GFS Galaxy Indian crew member body recovered; India MEA summoned Iranian ambassador (upgrade from envoy); Japan activated emergency petroleum reserve release procedures …',
+      detail: 'July 15 (Day 138, 12:00Z): India PM Modi calls Trump + UAE President over 2 Indian crew deaths in 48h; India files formal UNSC protest; INS Shivalik + INS Kolkata maintaining Oman Sea presence; India MEA confirms dedicated CENTCOM escort secured for Indian-crewed vessels; Japan emergency petroleum reserve release procedures active; China MFA warns of "proportionate countermeasures" to 20% oil tariff …',
     },
   ],
 };
