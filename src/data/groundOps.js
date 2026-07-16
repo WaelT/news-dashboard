@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 14, 2026 (DAY 137 — IRGC CRUISE MISSILE STRIKES UAE TANKERS M/V MOMBASA + M/V AL BAHIYAH; 1 INDIAN KILLED + 8 WOUNDED; CENTCOM 5TH CONSECUTIVE WAVE (~60 TARGETS); TRUMP 20% OIL TOLL ANNOUNCED; ARAGHCHI "ETERNAL GUARDIAN" RESPONSE; IRAN-OMAN SATURDAY SUMMIT JULY 18 CONFIRMED; BRENT ~$86-89; HORMUZ TRANSITS ~2/DAY; LEBANON CEASEFIRE DAY 25 HOLDS; HOUTHI CEASEFIRE DAY 20 — 32ND QUIET DAY)',
+  updated: 'JULY 16, 2026 (DAY 139 — CENTCOM STRUCK GREATER TUNB ISLAND (5TH CONSECUTIVE DAY OF STRIKES; COASTAL DEFENSES + CRUISE MISSILE STORAGE/LAUNCH SITES, ~90-MIN WAVE); IRGC TACTICAL PAUSE DAY 2 (NO NEW VESSEL ATTACKS); IRAN ARMY CONFIRMS 7 SOLDIERS KILLED IN BAMPUR BARRACKS; TRUMP BACKED OFF 20% OIL TARIFF PLAN; JULY 18 MUSCAT SUMMIT DELEGATIONS CONFIRMED; BRENT ~$84-85; HORMUZ TRANSITS ~2/DAY; LEBANON CEASEFIRE DAY 27 HOLDS; HOUTHI CEASEFIRE DAY 22 — 34TH QUIET DAY)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1765,6 +1765,27 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: "Day 138 — Lebanon ceasefire Day 26 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire 26th consecutive day; Houthi ceasefire Day 21 (33rd quiet day) — Bab al-Mandab fully open at pre-war operational tempo; no confirmed Houthi attacks or preparations (IDF spokesperson; Reuters; Al Jazeera; UKMTO; July 15)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-16',
+      lat: 26.26,
+      lng: 55.29,
+      event: "Day 139 — CENTCOM struck Greater Tunb Island in ~90-min operation (5th consecutive day of strikes): coastal defense systems + cruise missile storage and launch sites destroyed; island sits at western mouth of Hormuz, ~30 miles south of Iran coast; IRGC tactical pause continues (no new vessel attacks for 2nd consecutive day) ahead of July 18 Muscat summit; Iran Army confirms 7 soldiers killed + 13 wounded in US strike on Bampur barracks (southeastern Iran) — IRGC Army describes it as 'first direct attack on Army barracks since start of war'; CENTCOM: strikes 'further degraded Iran's ability to attack commercial shipping in the Strait of Hormuz'; Trump backed off 20% oil tariff plan; Brent ~$84–85/bbl stabilizing; JMIC 'Severe' maintained; Hormuz transits ~2/day (southern CENTCOM escort corridor only) (CENTCOM; The Hill; WTOP; TWZ; Iran Army statement; NBC News; Reuters; July 16)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-16',
+      lat: 23.61,
+      lng: 58.59,
+      event: "Day 139 — July 18 Muscat summit delegations confirmed: US delegation (VP Vance, Sec. Rubio, Witkoff, Kushner) + Iran FM Araghchi; Oman Al-Bustan Palace venue confirmed; security protocols + interpreter arrangements exchanged; IRGC tactical pause framed by Iran back-channel as goodwill gesture ahead of summit; Trump backed off 20% oil tariff plan (NBC News confirmed White House walk-back); Goldman Sachs maintains Q3 Brent forecast at $95/bbl given ongoing Hormuz disruption; Brent ~$84.95 July 15 close, ~$85+ July 16 morning (NBC News; CNBC; Omani FM; Reuters; Bloomberg; July 16)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-16',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 139 — Lebanon ceasefire Day 27 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire 27th consecutive day; Houthi ceasefire Day 22 (34th quiet day) — Bab al-Mandab fully open at pre-war commercial tempo; no confirmed Houthi attacks or preparations (IDF spokesperson; Reuters; Al Jazeera; UKMTO; July 16)",
       type: 'ceasefire',
     },
   ],

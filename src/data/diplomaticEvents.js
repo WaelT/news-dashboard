@@ -2766,6 +2766,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 138 of the 2026 Iran war. The Lebanon ceasefire held for its 26th consecutive day. IDF maintained forward positions north of the Litani River with no new offensive operations confirmed. Hezbollah observed the ceasefire for the 26th consecutive day; no armed activity was reported. The Houthi ceasefire continued for its 21st day, marking the 33rd consecutive quiet day in the Red Sea and Bab al-Mandab. Houthi spokesman Mohammed Al-Bukhaiti issued a statement confirming the ceasefire posture and welcoming the Oman diplomatic channel as "a positive sign, though Iran\'s sovereignty over Hormuz must be recognized." No confirmed Houthi military activity was observed in the Red Sea, Gulf of Aden, or Bab al-Mandab. Bab al-Mandab remained fully open at pre-war commercial tempo; war-risk insurance for Red Sea routes remained at or below pre-war norms (IDF; Hezbollah statement via Al-Manar; Houthi spokesman Al-Bukhaiti via Al Jazeera; UKMTO; Reuters; July 15 2026).',
   },
+  {
+    date: '2026-07-16',
+    event: 'Day 139 — CENTCOM strikes Greater Tunb Island; IRGC tactical pause Day 2; Trump drops 20% oil tariff; July 18 Muscat summit set',
+    type: 'escalation',
+    status: 'stalled',
+    detail: 'Day 139 of the 2026 Iran war. CENTCOM struck Greater Tunb Island in a ~90-minute precision operation — the 5th consecutive day of US strikes on Iran — targeting coastal defense systems and cruise missile storage and launch sites. The island, located at the western mouth of the Strait of Hormuz approximately 30 miles south of the Iranian coast, is central to Iran\'s ability to threaten commercial shipping. CENTCOM stated the strikes "further degraded Iran\'s ability to attack commercial shipping in the Strait of Hormuz." The IRGC maintained its tactical pause for a second consecutive day (no new vessel attacks), with Iranian back-channels attributing the restraint to the forthcoming July 18 Muscat summit. The Iranian Army confirmed that 7 soldiers were killed and 13 wounded in a US strike on the Bampur barracks in southeastern Iran — described by the Army as "the first direct attack on Iranian Army barracks since the start of the war." President Trump backed off his announced 20% oil tariff plan, with NBC News confirming a White House walk-back; senior officials cited diplomatic concerns ahead of the Muscat summit. The July 18 summit at Oman\'s Al-Bustan Palace was confirmed with delegations finalized: the US delegation includes VP Vance, Secretary Rubio, Special Envoy Witkoff, and Jared Kushner; Iran will be represented by FM Araghchi. Brent crude settled at ~$84.95 on July 15 and rose above $85 on July 16 morning as the tariff walk-back partially offset strike escalation fears (CENTCOM; The Hill; WTOP; TWZ; Iran Army; NBC News; CNBC; Reuters; Bloomberg; July 16 2026).',
+  },
+  {
+    date: '2026-07-16',
+    event: 'Day 139 — Lebanon ceasefire Day 27; Houthi ceasefire Day 22 (34th quiet day); Bab al-Mandab open',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 139 of the 2026 Iran war. The Lebanon ceasefire held for its 27th consecutive day. IDF maintained forward positions north of the Litani River with no new offensive operations confirmed. Hezbollah observed the ceasefire for the 27th consecutive day; no armed activity was reported. The Houthi ceasefire continued for its 22nd day, marking the 34th consecutive quiet day in the Red Sea and Bab al-Mandab. No confirmed Houthi military activity was observed in the Red Sea, Gulf of Aden, or Bab al-Mandab. Bab al-Mandab remained fully open at pre-war commercial tempo; war-risk insurance for Red Sea routes remained at or below pre-war norms (IDF; UKMTO; Reuters; Al Jazeera; July 16 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
