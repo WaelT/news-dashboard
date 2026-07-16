@@ -139,6 +139,8 @@ const casualtyTimeline = [
   { date: '2026-07-13', iran: 3732, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 119, kuwait: 14 },
   { date: '2026-07-14', iran: 3740, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 119, kuwait: 14 },
   { date: '2026-07-15', iran: 3746, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 119, kuwait: 14 },
+  // Day 139: Iran Health Ministry confirms +2 killed (women) + 260+ wounded from July 15 overnight strikes; IRGC Army reports 7 soldiers killed in Bampur barracks strike (southeastern Iran) — first confirmed direct hit on Iranian Army barracks; total Iran +9 killed, +273 wounded (Iran Health Ministry; Iran Army statement; July 16)
+  { date: '2026-07-16', iran: 3755, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 119, kuwait: 14 },
 ];
 
 export default casualtyTimeline;
