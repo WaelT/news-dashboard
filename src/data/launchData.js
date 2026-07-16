@@ -137,6 +137,8 @@ export const dailyLaunches = [
   { date: '2026-07-13', missiles: 5, drones: 3, intercepted: 5, targets: ['Strait of Hormuz', 'Bahrain', 'Kuwait'] },
   { date: '2026-07-14', missiles: 6, drones: 2, intercepted: 2, targets: ['Strait of Hormuz', 'UAE'] },
   { date: '2026-07-15', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 139 — IRGC tactical pause continues ahead of July 18 Muscat summit; CENTCOM struck Greater Tunb Island (~90-min wave: coastal defense systems + cruise missile storage/launch sites — 5th consecutive day of strikes); Omani FM confirms SNSC "maximum restraint" order remains in force; no new IRGC launches (CENTCOM; The Hill; WTOP; July 16)
+  { date: '2026-07-16', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
