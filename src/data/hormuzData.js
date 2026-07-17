@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 17 (Day 140, 12:00Z): IRGC tactical pause Day 3 — no new attacks; CENTCOM 6th consecutive night of reduced-tempo strikes; India INS Shivalik + INS Kolkata maintaining Oman Sea presence; CENTCOM dedicated escort for Indian-crewed vessels continuing; Muscat summit (July 18) delegations en route; China MFA reaffirms opposition to US oil tariff — dark fleet tankers holding off departure pending summit outcome; Japan, South Korea, India emergency crude drawdowns continuing from strategic reserves; Cape of Good Hope diversions still mandatory for all major operators …',
+      detail: 'July 17 (Day 140, 12:00Z): IRGC tactical pause Day 3 — no new attacks; CENTCOM 6th consecutive night of reduced-tempo strikes; India INS Shivalik + INS Kolkata maintaining Oman Sea presence; CENTCOM dedicated escort for Indian-crewed vessels continuing; Muscat summit (July 18) delegations en route …',
     },
   ],
 };
