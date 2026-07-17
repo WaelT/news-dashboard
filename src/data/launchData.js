@@ -139,6 +139,8 @@ export const dailyLaunches = [
   { date: '2026-07-15', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 139 — IRGC tactical pause continues ahead of July 18 Muscat summit; CENTCOM struck Greater Tunb Island (~90-min wave: coastal defense systems + cruise missile storage/launch sites — 5th consecutive day of strikes); Omani FM confirms SNSC "maximum restraint" order remains in force; no new IRGC launches (CENTCOM; The Hill; WTOP; July 16)
   { date: '2026-07-16', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 140 — IRGC tactical pause Day 3; no new IRGC ballistic missile or drone launches confirmed through 12:00Z July 17; CENTCOM conducting 6th consecutive night of reduced-tempo strikes on residual Hormozgan coastal radar/patrol boat facilities; all eyes on Muscat summit July 18 (VP Vance, Rubio, Witkoff, Kushner vs. FM Araghchi); SNSC "maximum restraint" order remains in force; Lebanon ceasefire Day 28 holds; Houthi ceasefire Day 23 (35th quiet day) — Bab al-Mandab fully open; Brent ~$84–85/bbl stabilizing (CENTCOM; Omani FM; Reuters; Al Jazeera; JMIC; UKMTO; July 17)
+  { date: '2026-07-17', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
