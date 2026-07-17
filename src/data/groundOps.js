@@ -1788,6 +1788,27 @@ const groundOps = {
       event: "Day 139 — Lebanon ceasefire Day 27 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire 27th consecutive day; Houthi ceasefire Day 22 (34th quiet day) — Bab al-Mandab fully open at pre-war commercial tempo; no confirmed Houthi attacks or preparations (IDF spokesperson; Reuters; Al Jazeera; UKMTO; July 16)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-17',
+      lat: 26.26,
+      lng: 55.29,
+      event: "Day 140 — IRGC tactical pause Day 3 (no new vessel attacks); CENTCOM 6th consecutive night of reduced-tempo strikes on residual Hormozgan coastal radar/patrol boat facilities; Iran Health Ministry confirms 3 killed + ~40 wounded from overnight strikes; Hormuz transits ~2/day (southern CENTCOM escort corridor only); oil flows ~0.3 mbd; tankersQueued ~248; JMIC 'Severe' maintained; India INS Shivalik + INS Kolkata in Oman Sea providing escort for Indian-crewed vessels; Muscat summit (July 18) delegations en route — US: VP Vance, Rubio, Witkoff, Kushner; Iran: FM Araghchi (CENTCOM; Iran Health Ministry; JMIC; UKMTO; Reuters; July 17)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-17',
+      lat: 23.61,
+      lng: 58.59,
+      event: "Day 140 — July 18 Muscat summit eve: US delegation (VP Vance, Sec. Rubio, Witkoff, Kushner) departs Washington for Oman; Iran FM Araghchi confirms Iranian delegation traveling to Muscat; Oman Al-Bustan Palace confirmed ready; SNSC 'maximum restraint' order continues; IRGC Hormuz CLOSED declaration maintained but no enforcement actions for 3rd consecutive day; Brent ~$84-85/bbl on cautious diplomacy optimism; Goldman Sachs Q3 Brent $95/bbl forecast maintained pending summit outcome (Omani FM; Reuters; Bloomberg; CNBC; Al Jazeera; July 17)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-17',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 140 — Lebanon ceasefire Day 28 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire 28th consecutive day; Houthi ceasefire Day 23 (35th quiet day) — Bab al-Mandab fully open at pre-war commercial tempo; Houthi spokesman Al-Bukhaiti expresses cautious optimism ahead of Muscat summit; no confirmed Houthi attacks or preparations (IDF spokesperson; Houthi spokesman; Reuters; Al Jazeera; UKMTO; July 17)",
+      type: 'ceasefire',
+    },
   ],
 };
 
