@@ -27,7 +27,7 @@ function flagUrl(cc) {
 const DATA_AS_OF = 'JULY 17, 2026';
 
 const DEFAULT_CASUALTIES = {
-  iran: { killed: 3755, wounded: 27225 },
+  iran: { killed: 3758, wounded: 27265 },
   israel: { killed: 71, wounded: 9441 },
   usa: { killed: 18, wounded: 553 },
   lebanon: { killed: 4324, wounded: 12221 },
