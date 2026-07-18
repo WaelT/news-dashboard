@@ -2794,6 +2794,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 140 of the 2026 Iran war. The Lebanon ceasefire held for its 28th consecutive day. IDF maintained forward positions north of the Litani River with no new offensive operations confirmed. Hezbollah observed the ceasefire for the 28th consecutive day; IDF-Hezbollah withdrawal timeline negotiations continued under US mediation. The Houthi ceasefire continued for its 23rd day, marking the 35th consecutive quiet day in the Red Sea and Bab al-Mandab. No confirmed Houthi military activity was observed in the Red Sea, Gulf of Aden, or Bab al-Mandab. Houthi spokesman Mohammed Al-Bukhaiti noted the Muscat summit eve and expressed cautious optimism that a Hormuz resolution could "restore calm to all fronts." Bab al-Mandab remained fully open at pre-war commercial tempo; war-risk insurance for Red Sea routes remained at or below pre-war norms (IDF; Hezbollah via Al-Manar; Houthi spokesman Al-Bukhaiti; UKMTO; Reuters; Al Jazeera; July 17 2026).',
   },
+  {
+    date: '2026-07-18',
+    event: 'Day 141 — Muscat summit Day 1: US-Iran direct talks at Al-Bustan Palace; IRGC tactical pause Day 4; CENTCOM 7th consecutive night of reduced-tempo strikes',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 141 of the 2026 Iran war. The Muscat summit opened at the Al-Bustan Palace in Oman with the highest-level direct US-Iran engagement since the 2026 war began. The US delegation — VP JD Vance, Secretary of State Marco Rubio, Special Envoy Steve Witkoff, and Senior Adviser Jared Kushner — met with Iranian FM Hossein Amir-Abdollahian Araghchi and Deputy FM Ali Bagheri in plenary and bilateral sessions. Omani FM Badr Al-Busaidi served as host and facilitator. The IRGC maintained its tactical pause for a fourth consecutive day with no new vessel attacks in the Strait of Hormuz, consistent with the SNSC "maximum restraint" order conveyed through the Omani back-channel. CENTCOM conducted its 7th consecutive night of reduced-tempo strikes targeting residual IRGC coastal radar and patrol boat facilities in Hormozgan province; Iran\'s Health Ministry confirmed 3 killed and approximately 28 wounded from the overnight strikes. Iran\'s back-channel signal to Oman characterized the IRGC pause as "Iran\'s goodwill gesture at the table." Brent crude rose to ~$85–87/bbl on cautious diplomatic optimism. JMIC maintained the Hormuz threat at "Severe" pending summit outcome. Goldman Sachs maintained its Q3 Brent forecast at $95/bbl, noting that a Hormuz reopening deal could push prices back toward $70/bbl within 60 days. US 5th Fleet escort operations continued on the southern Hormuz corridor (Omani FM; CENTCOM; Reuters; Bloomberg; Al Jazeera; JMIC; July 18 2026).',
+  },
+  {
+    date: '2026-07-18',
+    event: 'Day 141 — Lebanon ceasefire Day 29; Houthi ceasefire Day 24 (36th quiet day); Bab al-Mandab open',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 141 of the 2026 Iran war. The Lebanon ceasefire held for its 29th consecutive day. IDF maintained forward positions north of the Litani River with no new offensive operations confirmed. Hezbollah observed the ceasefire for the 29th consecutive day; IDF-Hezbollah withdrawal timeline negotiations continued under US mediation. The Houthi ceasefire continued for its 24th day, marking the 36th consecutive quiet day in the Red Sea and Bab al-Mandab. No confirmed Houthi military activity was observed in the Red Sea, Gulf of Aden, or Bab al-Mandab. Bab al-Mandab remained fully open at pre-war commercial tempo; war-risk insurance for Red Sea routes remained at or below pre-war norms (IDF; UKMTO; Reuters; Al Jazeera; July 18 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

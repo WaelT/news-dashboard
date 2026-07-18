@@ -1809,6 +1809,20 @@ const groundOps = {
       event: "Day 140 — Lebanon ceasefire Day 28 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire 28th consecutive day; Houthi ceasefire Day 23 (35th quiet day) — Bab al-Mandab fully open at pre-war commercial tempo; Houthi spokesman Al-Bukhaiti expresses cautious optimism ahead of Muscat summit; no confirmed Houthi attacks or preparations (IDF spokesperson; Houthi spokesman; Reuters; Al Jazeera; UKMTO; July 17)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-18',
+      lat: 23.61,
+      lng: 58.59,
+      event: "Day 141 — MUSCAT SUMMIT DAY 1: US-Iran direct talks at Al-Bustan Palace, Oman; US delegation (VP Vance, Sec. Rubio, Witkoff, Kushner) + Iran FM Araghchi + Deputy FM Bagheri in plenary and bilateral sessions; Omani FM Badr Al-Busaidi hosting as facilitator; IRGC tactical pause Day 4 — no new vessel attacks in Hormuz; CENTCOM 7th consecutive night of reduced-tempo strikes on residual Hormozgan coastal radar/patrol boat facilities; Iran Health Ministry: +3 killed + ~28 wounded from overnight strikes; Iran back-channel: 'IRGC pause is Iran's goodwill gesture at the table'; JMIC 'Severe' maintained pending outcome; Brent ~$85–87/bbl on cautious diplomatic optimism (Omani FM; CENTCOM; Reuters; Bloomberg; Al Jazeera; JMIC; July 18)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-18',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 141 — Lebanon ceasefire Day 29 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire 29th consecutive day; Houthi ceasefire Day 24 (36th quiet day) — Bab al-Mandab fully open at pre-war commercial tempo; no confirmed Houthi attacks or preparations; all eyes on Muscat summit outcome (IDF spokesperson; UKMTO; Reuters; Al Jazeera; July 18)",
+      type: 'ceasefire',
+    },
   ],
 };
 
