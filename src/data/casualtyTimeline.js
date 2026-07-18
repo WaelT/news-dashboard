@@ -141,10 +141,10 @@ const casualtyTimeline = [
   { date: '2026-07-15', iran: 3746, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 119, kuwait: 14 },
   // Day 139: Iran Health Ministry confirms +2 killed (women) + 260+ wounded from July 15 overnight strikes; IRGC Army reports 7 soldiers killed in Bampur barracks strike (southeastern Iran) — first confirmed direct hit on Iranian Army barracks; total Iran +9 killed, +273 wounded (Iran Health Ministry; Iran Army statement; July 16)
   { date: '2026-07-16', iran: 3755, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 119, kuwait: 14 },
-  // Day 140: IRGC tactical pause Day 3 (no new attacks); CENTCOM 6th consecutive night of reduced-tempo strikes on Hormozgan coastal assets — Iran Health Ministry confirms +3 killed + ~40 wounded from overnight strikes on Greater Tunb Island follow-up and Hormozgan coastal installations; Lebanon ceasefire Day 28 / Houthi ceasefire Day 23 — no new casualties on those fronts (Iran Health Ministry; CENTCOM; Reuters; July 17)
-  { date: '2026-07-17', iran: 3758, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 119, kuwait: 14 },
-  // Day 141: Muscat summit Day 1 (July 18) — IRGC tactical pause Day 4 (no new attacks); CENTCOM 7th consecutive night of reduced-tempo strikes on residual Hormozgan coastal radar/patrol boat facilities — Iran Health Ministry confirms +3 killed + ~28 wounded from overnight strikes; Lebanon ceasefire Day 29 / Houthi ceasefire Day 24 — no new casualties on those fronts (Iran Health Ministry; CENTCOM; Reuters; July 18)
-  { date: '2026-07-18', iran: 3761, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 119, kuwait: 14 },
+  // Day 140: Iran Health Ministry confirms 38 killed + 400+ wounded from CENTCOM 7th consecutive night of strikes (Jask, Sirik, Bushehr, Bandar Abbas 5 bridges, Qeshm, Ahvaz, Yazd, Chabahar port control tower); 7 killed + 9 injured from Bandar Abbas bridge strikes (Hormozgan Governor); mother killed + infant critically injured (lost hand) in Allah Akbar Hill residential neighborhood, Bandar Abbas (PressTV); 9 Iraqi Kurdish fighters killed by IRGC strike near Erbil (Iraq); Lebanon ceasefire Day 28 holds; Houthi ceasefire Day 23 (Iran Health Ministry; PressTV; Hormozgan Governor; Jordan AF; CENTCOM; July 17)
+  { date: '2026-07-17', iran: 3793, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 128, kuwait: 14 },
+  // Day 141: Muscat Joint Hormuz Committee meeting (Araghchi + Omani FM; Oman dual-route proposal, no deal); CENTCOM operations ongoing; Lebanon ceasefire Day 29; Houthi ceasefire Day 24 — no major new casualty events confirmed as of 12:00Z July 18 (Al Jazeera; Reuters; Hormuz Strait Monitor; July 18)
+  { date: '2026-07-18', iran: 3793, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 128, kuwait: 14 },
 ];
 
 export default casualtyTimeline;
