@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 16, 2026 (DAY 139 — CENTCOM STRUCK GREATER TUNB ISLAND (5TH CONSECUTIVE DAY OF STRIKES; COASTAL DEFENSES + CRUISE MISSILE STORAGE/LAUNCH SITES, ~90-MIN WAVE); IRGC TACTICAL PAUSE DAY 2 (NO NEW VESSEL ATTACKS); IRAN ARMY CONFIRMS 7 SOLDIERS KILLED IN BAMPUR BARRACKS; TRUMP BACKED OFF 20% OIL TARIFF PLAN; JULY 18 MUSCAT SUMMIT DELEGATIONS CONFIRMED; BRENT ~$84-85; HORMUZ TRANSITS ~2/DAY; LEBANON CEASEFIRE DAY 27 HOLDS; HOUTHI CEASEFIRE DAY 22 — 34TH QUIET DAY)',
+  updated: 'JULY 18, 2026 (DAY 141 — MUSCAT JOINT HORMUZ COMMITTEE MEETING: ARAGHCHI + OMANI FM; OMAN DUAL-ROUTE PROPOSAL; NO DEAL — IRAN TAKING BACK TO TEHRAN; HORMUZ ~10 TRANSITS/DAY; BRENT $88.10 (+3.54%); 444 VESSELS ANCHORED GLOBALLY; CENTCOM 7TH NIGHT STRIKES JULY 17: BANDAR ABBAS 5 BRIDGES + CHABAHAR PORT CONTROL TOWER; IRAN 38 KILLED + 400+ WOUNDED; LEBANON CEASEFIRE DAY 29 HOLDS; HOUTHI CEASEFIRE DAY 24 — 36TH QUIET DAY)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1790,17 +1790,17 @@ const groundOps = {
     },
     {
       date: '2026-07-17',
-      lat: 26.26,
-      lng: 55.29,
-      event: "Day 140 — IRGC tactical pause Day 3 (no new vessel attacks); CENTCOM 6th consecutive night of reduced-tempo strikes on residual Hormozgan coastal radar/patrol boat facilities; Iran Health Ministry confirms 3 killed + ~40 wounded from overnight strikes; Hormuz transits ~2/day (southern CENTCOM escort corridor only); oil flows ~0.3 mbd; tankersQueued ~248; JMIC 'Severe' maintained; India INS Shivalik + INS Kolkata in Oman Sea providing escort for Indian-crewed vessels; Muscat summit (July 18) delegations en route — US: VP Vance, Rubio, Witkoff, Kushner; Iran: FM Araghchi (CENTCOM; Iran Health Ministry; JMIC; UKMTO; Reuters; July 17)",
+      lat: 29.92,
+      lng: 56.27,
+      event: "Day 140 — CENTCOM 7th consecutive night of strikes: Jask, Sirik, Bushehr, Bandar Abbas (5 bridges destroyed + railroad station hit), Qeshm, Ahvaz, Yazd, Chabahar port control tower — \"surveillance sites, military logistics infrastructure, underground weapons storage, maritime capabilities\" (CENTCOM statement); Iran Health Ministry: 38 killed + 400+ wounded nationwide; Hormozgan Governor: 7 killed + 9 injured in Bandar Abbas bridge strikes; mother killed + infant lost hand in Allah Akbar Hill residential neighborhood Bandar Abbas (PressTV; CNN; CENTCOM; July 17)",
       type: 'strike',
     },
     {
       date: '2026-07-17',
-      lat: 23.61,
-      lng: 58.59,
-      event: "Day 140 — July 18 Muscat summit eve: US delegation (VP Vance, Sec. Rubio, Witkoff, Kushner) departs Washington for Oman; Iran FM Araghchi confirms Iranian delegation traveling to Muscat; Oman Al-Bustan Palace confirmed ready; SNSC 'maximum restraint' order continues; IRGC Hormuz CLOSED declaration maintained but no enforcement actions for 3rd consecutive day; Brent ~$84-85/bbl on cautious diplomacy optimism; Goldman Sachs Q3 Brent $95/bbl forecast maintained pending summit outcome (Omani FM; Reuters; Bloomberg; CNBC; Al Jazeera; July 17)",
-      type: 'diplomacy',
+      lat: 31.95,
+      lng: 35.93,
+      event: "Day 140 — IRGC Operation Nasr 2 Wave 14: multiple BMs + drones at Jordan Al-Azraq AFB (US aircraft + refueling planes; Jordan intercepted 10 missiles — no injuries or material damage); Wave 15: missiles + drones at Kuwait US base + HIMARS launcher (Kuwait Land Forces 'a number of' personnel injured; air raid sirens); Qatar Al Udeid AB struck — child injured by interception shrapnel; Bahrain + Saudi Arabia shelter-in-place warnings; Lebanon ceasefire Day 28 holds; Houthi ceasefire Day 23 (35th quiet day) — Bab al-Mandab fully open (CNN; Jordan AF; Kuwait MoD; ABC News; Al Jazeera; JINSA; July 17)",
+      type: 'strike',
     },
     {
       date: '2026-07-17',
@@ -1813,7 +1813,7 @@ const groundOps = {
       date: '2026-07-18',
       lat: 23.61,
       lng: 58.59,
-      event: "Day 141 — MUSCAT SUMMIT DAY 1: US-Iran direct talks at Al-Bustan Palace, Oman; US delegation (VP Vance, Sec. Rubio, Witkoff, Kushner) + Iran FM Araghchi + Deputy FM Bagheri in plenary and bilateral sessions; Omani FM Badr Al-Busaidi hosting as facilitator; IRGC tactical pause Day 4 — no new vessel attacks in Hormuz; CENTCOM 7th consecutive night of reduced-tempo strikes on residual Hormozgan coastal radar/patrol boat facilities; Iran Health Ministry: +3 killed + ~28 wounded from overnight strikes; Iran back-channel: 'IRGC pause is Iran's goodwill gesture at the table'; JMIC 'Severe' maintained pending outcome; Brent ~$85–87/bbl on cautious diplomatic optimism (Omani FM; CENTCOM; Reuters; Bloomberg; Al Jazeera; JMIC; July 18)",
+      event: "Day 141 — First Joint Hormuz Committee meeting at Al-Bustan Palace, Muscat: Araghchi + Omani FM Badr al-Busaidi; Oman presents dual-route proposal (Iran controls northern lane, Oman controls southern lane); no deal reached — Iran taking proposal back to Tehran; Iranian side cites 'overt and covert US pressure on Oman' as blocking agreement; Hormuz ~10 transits/day (vs 88+ pre-war); Brent $88.10 (+3.54% over 24h); 444 vessels anchored or stopped globally; Lebanon ceasefire Day 29 holds; Houthi ceasefire Day 24 (36th quiet day) — Bab al-Mandab fully open (Al Jazeera; Reuters; Omani FM; Araghchi; ms.now; Hormuz Strait Monitor; July 18)",
       type: 'diplomacy',
     },
     {
