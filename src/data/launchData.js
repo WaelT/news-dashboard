@@ -141,6 +141,8 @@ export const dailyLaunches = [
   { date: '2026-07-16', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 140 — IRGC tactical pause Day 3; no new IRGC ballistic missile or drone launches confirmed through 12:00Z July 17; CENTCOM conducting 6th consecutive night of reduced-tempo strikes on residual Hormozgan coastal radar/patrol boat facilities; all eyes on Muscat summit July 18 (VP Vance, Rubio, Witkoff, Kushner vs. FM Araghchi); SNSC "maximum restraint" order remains in force; Lebanon ceasefire Day 28 holds; Houthi ceasefire Day 23 (35th quiet day) — Bab al-Mandab fully open; Brent ~$84–85/bbl stabilizing (CENTCOM; Omani FM; Reuters; Al Jazeera; JMIC; UKMTO; July 17)
   { date: '2026-07-17', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 141 — Muscat summit Day 1: US-Iran direct talks at Al-Bustan Palace, Muscat, Oman (US: VP Vance, Sec. Rubio, Witkoff, Kushner; Iran: FM Araghchi, Deputy FM Ali Bagheri); IRGC tactical pause Day 4 — no confirmed IRGC ballistic missile or drone launches through 12:00Z July 18; CENTCOM 7th consecutive night of reduced-tempo strikes on residual Hormozgan coastal radar/patrol boat facilities; SNSC "maximum restraint" order in force for 4th consecutive day; Iran back-channel signal to Oman: "summit presence is Iran's goodwill gesture"; Lebanon ceasefire Day 29 holds; Houthi ceasefire Day 24 (36th quiet day) — Bab al-Mandab fully open; Brent ~$85–87/bbl on diplomatic cautious optimism; JMIC "Severe" maintained pending summit outcome (Omani FM; CENTCOM; Reuters; Al Jazeera; Bloomberg; JMIC; July 18)
+  { date: '2026-07-18', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)

@@ -143,6 +143,8 @@ const casualtyTimeline = [
   { date: '2026-07-16', iran: 3755, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 119, kuwait: 14 },
   // Day 140: IRGC tactical pause Day 3 (no new attacks); CENTCOM 6th consecutive night of reduced-tempo strikes on Hormozgan coastal assets — Iran Health Ministry confirms +3 killed + ~40 wounded from overnight strikes on Greater Tunb Island follow-up and Hormozgan coastal installations; Lebanon ceasefire Day 28 / Houthi ceasefire Day 23 — no new casualties on those fronts (Iran Health Ministry; CENTCOM; Reuters; July 17)
   { date: '2026-07-17', iran: 3758, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 119, kuwait: 14 },
+  // Day 141: Muscat summit Day 1 (July 18) — IRGC tactical pause Day 4 (no new attacks); CENTCOM 7th consecutive night of reduced-tempo strikes on residual Hormozgan coastal radar/patrol boat facilities — Iran Health Ministry confirms +3 killed + ~28 wounded from overnight strikes; Lebanon ceasefire Day 29 / Houthi ceasefire Day 24 — no new casualties on those fronts (Iran Health Ministry; CENTCOM; Reuters; July 18)
+  { date: '2026-07-18', iran: 3761, lebanon: 4250, israel: 71, usa: 16, uae: 15, iraq: 119, kuwait: 14 },
 ];
 
 export default casualtyTimeline;
