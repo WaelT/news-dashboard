@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-07-17',
+  updated: '2026-07-18',
 
   current: {
     transitsPerDay: 2,
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 17 (Day 140, 12:00Z): IRGC tactical pause Day 3 — no new attacks; CENTCOM 6th consecutive night of reduced-tempo strikes; India INS Shivalik + INS Kolkata maintaining Oman Sea presence; CENTCOM dedicated escort for Indian-crewed vessels continuing; Muscat summit (July 18) delegations en route …',
+      detail: 'July 18 (Day 141, Muscat summit Day 1): IRGC tactical pause Day 4 — no new attacks as US-Iran direct talks underway at Al-Bustan Palace, Oman; CENTCOM 7th consecutive night of reduced-tempo strikes on residual Hormozgan coastal assets; India INS Shivalik + INS Kolkata maintaining Oman Sea escort presence; CENTCOM dedicated escort for Indian-crewed vessels continuing; Asian oil importers briefed by Omani FM on summit progress; Japan, South Korea, India closely watching outcome as >60% of their crude flows via Hormuz …',
     },
   ],
 };
