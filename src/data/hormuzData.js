@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
     tankerRates: 'JMIC "Severe" July 13 (Day 136, 20:00 UTC): CENTCOM 4th consecutive night ~70 strikes …',
-    trumpUltimatum: 'LATEST (18 Jul): Muscat Joint Hormuz Committee met; Oman dual-route proposal (Iran north lane, Oman south lane); no deal — Iran consulting Tehran; Brent $88.10',
-    iranThreat: '17 Jul: IRGC resumed Operation Nasr 2 (Waves 14-15) — BMs + drones at Jordan, Kuwait, Qatar, Bahrain; Iran adviser warns "full-scale offensive" if US strikes continue; US oil sanction waiver expired',
+    trumpUltimatum: 'LATEST (14 Jul): Iran attacked three tankers in the strait',
+    iranThreat: '12 Jul: the IRGC Navy declared the strait closed after claiming it had fired warning shots at a ship attempting to cross an unauthorized route',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 18 (Day 141, Muscat summit Day 1): First Joint Hormuz Committee meeting at Al-Bustan Palace (Araghchi + Omani FM Badr al-Busaidi); Oman dual-route proposal (Iran north lane, Oman south lane); no deal — Iran consulting Tehran; IRGC tactical pause Day 4 (no new vessel attacks); CENTCOM reduced-tempo strikes on residual Hormozgan coastal assets; Brent $88.10; July 17 (Day 140): CENTCOM 7th consecutive night of strikes — Bandar Abbas 5 bridges destroyed + Chabahar port control tower; Iran Health Ministry: 38 killed + 400+ wounded; IRGC Operation Nasr 2 Waves 14-15 on Jordan/Kuwait/Qatar/Bahrain; India INS Shivalik + INS Kolkata maintaining Oman Sea presence …',
+      detail: 'July 18 (Day 141, Muscat summit Day 1): First Joint Hormuz Committee meeting at Al-Bustan Palace (Araghchi + Omani FM Badr al-Busaidi); Oman dual-route proposal (Iran north lane, Oman south lane); no deal — Iran consulting Tehran; IRGC tactical pause Day 4 (no new vessel attacks) …',
     },
   ],
 };
