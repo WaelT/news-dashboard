@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
     tankerRates: 'JMIC "Severe" July 13 (Day 136, 20:00 UTC): CENTCOM 4th consecutive night ~70 strikes …',
-    trumpUltimatum: 'LATEST (18 Jul): Muscat summit failed; Iran suspended Islamabad MOU; IRGC resumed Operation Nasr 2 attacks on Kuwait/Jordan/Bahrain — 2 US KIA at Al-Azraq',
-    iranThreat: '18 Jul: Iran Deputy FM Gharibabadi announced suspension of all Islamabad MOU commitments; Iran warns of "full-scale offensive operations" if US strikes continue for 2-3 more days (Rezaee ultimatum)',
+    trumpUltimatum: 'LATEST (14 Jul): Iran attacked three tankers in the strait',
+    iranThreat: '12 Jul: the IRGC Navy declared the strait closed after claiming it had fired warning shots at a ship attempting to cross an unauthorized route',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 19 (Day 142): Islamabad MOU functionally defunct; Iran Deputy FM Gharibabadi confirmed suspension of all MOU commitments July 18; Iran accused US of "overt and covert pressure" on Oman at Muscat summit; CENTCOM 9th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar); Oman dual-route proposal under Tehran review with no timeline given; China MFA reiterates "proportionate countermeasures" on oil tariff; India INS Shivalik + INS Kolkata maintaining Oman Sea escort posture (EA WorldView; Al Jazeera; CENTCOM; Reuters; July 19) …',
+      detail: 'July 19 (Day 142): Islamabad MOU functionally defunct; Iran Deputy FM Gharibabadi confirmed suspension of all MOU commitments July 18; Iran accused US of "overt and covert pressure" on Oman at Muscat summit; CENTCOM 9th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar) …',
     },
   ],
 };
