@@ -141,8 +141,10 @@ export const dailyLaunches = [
   { date: '2026-07-16', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 140 — IRGC breaks tactical pause with Operation Nasr 2 Waves 14-15: Wave 14 = multiple BMs + drones at Jordan (Al-Azraq AFB — US aircraft and refueling planes; Jordan intercepted 10 missiles, no injuries); Wave 15 = missiles + drones at Kuwait (US base, HIMARS launcher; Kuwait Land Forces "a number of" personnel injured); additional strikes at Qatar (Al Udeid — Qatar intercepted missiles, child injured by interception shrapnel), Bahrain (air raid sirens + shelter-in-place); CENTCOM 7th consecutive night of strikes: Jask, Sirik, Bushehr, Bandar Abbas (5 bridges destroyed), Qeshm, Ahvaz, Yazd, Chabahar port control tower — "surveillance sites, military logistics infrastructure, underground weapons storage, maritime capabilities" per CENTCOM; Iran Health Ministry: 38 killed + 400+ wounded from US strikes; Iraqi Kurdish fighters: 9 killed in IRGC strike near Erbil; Brent ~$84–88/bbl (+10%+ for week); US Treasury Iranian oil sale authorization expired 12:01am EDT July 17; Lebanon ceasefire Day 28 holds; Houthi ceasefire Day 23 (35th quiet day) (CNN; NPR; PressTV; ABC News; Al Jazeera; CENTCOM; Jordan Armed Forces; Kuwait MoD; JINSA; July 17)
   { date: '2026-07-17', missiles: 22, drones: 36, intercepted: 20, targets: ['Jordan', 'Kuwait', 'Qatar', 'Bahrain'] },
-  // Day 141 — Muscat Joint Hormuz Committee meeting: Araghchi + Omani FM Badr al-Busaidi; Oman dual-route proposal (Iran north lane, Oman south lane); no deal — Iran consulting Tehran; no confirmed IRGC launches through 12:00Z July 18; Lebanon ceasefire Day 29 holds; Houthi ceasefire Day 24 (36th quiet day) — Bab al-Mandab open; Brent $88.10 (+3.54%); 444 vessels anchored/stopped globally (Al Jazeera; Reuters; Omani FM; Hormuz Strait Monitor; July 18)
-  { date: '2026-07-18', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 141 — Muscat summit fails; IRGC resumes Operation Nasr 2 (Wave 16): ~18 BMs + ~20 drones at Kuwait (Camp Arifjan + Ali Al Salem AFB + desalination plant hit), Jordan (Al Azraq AFB — Jordan intercepts 10; IRGC claims 2 US fighters + 3 aircraft destroyed), Bahrain (Sheikh Isa AB); 2 US service members killed + 1 missing at Al Azraq (first US KIA since March); Iran Deputy FM Gharibabadi suspends Islamabad MOU; Iran accuses US of pressure on Oman; CENTCOM 8th consecutive night of strikes; Brent ~$87–88/bbl; 444+ vessels anchored globally (CNN; Bloomberg; NBC; CBS; Axios; Jordan AF; Kuwait MoD; CENTCOM; Al Jazeera; July 18)
+  { date: '2026-07-18', missiles: 18, drones: 20, intercepted: 22, targets: ['Kuwait', 'Jordan', 'Bahrain'] },
+  // Day 142 — CENTCOM 9th consecutive night of strikes (second wave July 19: Bandar Abbas, Ahwaz, Chabahar); no confirmed new IRGC launches as of update time; Lebanon ceasefire Day 30 holds; Houthi ceasefire Day 25 (37th quiet day) — Bab al-Mandab open; Islamabad MOU functionally defunct; Oman dual-route proposal under Tehran review (EA WorldView; CENTCOM; Al Jazeera; July 19)
+  { date: '2026-07-19', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
@@ -180,6 +182,7 @@ export const dailyLaunches = [
 // Updated through 2026-06-15: June 15 — no new IRGC kinetic exchanges; Trump announces US-Iran deal "Now Complete"; naval blockade ends; Hormuz to reopen; signing June 19 Switzerland; Brent ~$81/bbl (RFERL, PBS, NBC, CBS, Al Jazeera, June 15);
 // Updated through 2026-06-14: June 13 — no confirmed IRGC launches; deal signing expected "today" in Europe per Trump (ABC News June 13);
 // June 14 — no new IRGC kinetic exchanges; US-Iran peace deal text agreed (Pakistan PM Sharif June 12) but unsigned as of June 14 morning;
+// Updated through 2026-07-18T20:00Z: Day 141 — IRGC Operation Nasr 2 Wave 16: Kuwait (+5 missiles +12 drones — Camp Arifjan, Ali Al Salem, desalination plant), Jordan (+10 missiles +4 drones — Al Azraq; 10 intercepted, IRGC claims 2 US fighters destroyed), Bahrain (+3 missiles +4 drones — Sheikh Isa AB); 2 US KIA + 1 MIA; Lebanon ceasefire Day 29; Houthi ceasefire Day 24 (CNN; Bloomberg; Jordan AF; Kuwait MoD; CENTCOM; Al Jazeera; July 18);
 // Updated through 2026-06-13: added June 9 (+1 Bahrain/+1 Kuwait missiles, +2/+2 drones),
 // June 10 (+3 Bahrain/+5 Jordan/+2 Kuwait missiles per CENTCOM/BDF, +2/+1/+1 drones),
 // June 11 (+2 Bahrain/+1 Kuwait missiles, +3/+3 drones) per CENTCOM/BDF statements;
@@ -190,10 +193,10 @@ export const countryBreakdown = {
     { country: 'Israel', count: 732 },
     { country: 'UAE', count: 578 },
     { country: 'Saudi Arabia', count: 296 },
-    { country: 'Kuwait', count: 281 },
-    { country: 'Bahrain', count: 237 },
+    { country: 'Kuwait', count: 286 },
+    { country: 'Bahrain', count: 240 },
     { country: 'Qatar', count: 206 },
-    { country: 'Jordan', count: 107 },
+    { country: 'Jordan', count: 117 },
     { country: 'Iraq', count: 22 },
     { country: 'USA', count: 8 },
     { country: 'Oman', count: 5 },
@@ -201,11 +204,11 @@ export const countryBreakdown = {
   drones: [
     { country: 'UAE', count: 2288 },
     { country: 'Israel', count: 765 },
-    { country: 'Bahrain', count: 555 },
-    { country: 'Kuwait', count: 531 },
+    { country: 'Bahrain', count: 559 },
+    { country: 'Kuwait', count: 543 },
     { country: 'Saudi Arabia', count: 176 },
     { country: 'Qatar', count: 95 },
-    { country: 'Jordan', count: 81 },
+    { country: 'Jordan', count: 85 },
     { country: 'Iraq', count: 40 },
     { country: 'Oman', count: 20 },
     { country: 'USA', count: 14 },
