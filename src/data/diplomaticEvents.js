@@ -2808,6 +2808,27 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 141 of the 2026 Iran war. The Lebanon ceasefire held for its 29th consecutive day. IDF maintained forward positions north of the Litani River with no new offensive operations confirmed. Hezbollah observed the ceasefire for the 29th consecutive day; IDF-Hezbollah withdrawal timeline negotiations continued under US mediation. The Houthi ceasefire continued for its 24th day, marking the 36th consecutive quiet day in the Red Sea and Bab al-Mandab. No confirmed Houthi military activity was observed in the Red Sea, Gulf of Aden, or Bab al-Mandab. Bab al-Mandab remained fully open at pre-war commercial tempo; war-risk insurance for Red Sea routes remained at or below pre-war norms (IDF; Houthi spokesman; UKMTO; Reuters; Al Jazeera; July 18 2026).',
   },
+  {
+    date: '2026-07-18',
+    event: 'Day 141 — IRGC resumes Nasr 2 after Muscat failure; Iran suspends Islamabad MOU; 2 US service members killed in Jordan',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 141 of the 2026 Iran war. Following the collapse of the Muscat Joint Hormuz Committee talks, the IRGC resumed Operation Nasr 2 attacks later in the day. Wave 16 targeted US military positions in Kuwait (Camp Arifjan and Ali Al Salem Air Base), Jordan (Al-Azraq Air Base), and Bahrain (Sheikh Isa Air Base). Jordan\'s military said air defenses intercepted 10 Iranian missiles — the kingdom\'s highest single-night intercept count of the July cycle — with no Jordanian casualties reported. Kuwait\'s desalination plant was struck, causing a fire that injured firefighters and a worker. Two U.S. service members were killed in action and one went missing at Al-Azraq Air Base — the first confirmed American military deaths since March. Four additional U.S. service members were medically evacuated and subsequently discharged from hospital. The IRGC claimed it destroyed at least two U.S. fighter jets and three other aircraft at Al-Azraq; U.S. officials did not confirm aircraft losses. Iran\'s Deputy Foreign Minister Kazem Gharibabadi announced that Iran had "suspended its commitments" to the Islamabad Memorandum of Understanding, stating the United States had "violated and suspended all of its commitments." Iran simultaneously accused Washington of exerting "overt and covert pressure" on Oman at the Muscat summit to prevent a deal. CENTCOM completed its eighth consecutive night of strikes on Iranian territory. Brent crude rose to approximately $87–88 per barrel (CNN; Bloomberg; NBC News; CBS News; Axios; CENTCOM; Jordan Armed Forces; Kuwait MoD; Iran Deputy FM Gharibabadi; Al Jazeera; July 18 2026).',
+  },
+  {
+    date: '2026-07-19',
+    event: 'Day 142 — CENTCOM 9th consecutive night of strikes; Islamabad MOU functionally defunct; Oman proposal under Tehran review',
+    type: 'escalation',
+    status: 'stalled',
+    detail: 'Day 142 of the 2026 Iran war. U.S. Central Command launched a second wave of strikes against Iran on July 19, with explosions reported in Bandar Abbas, Ahvaz, and Chabahar in southern Iran. No new confirmed IRGC missile or drone launches were reported as of the update time. Iran\'s suspension of the Islamabad MOU commitments, announced by Deputy FM Gharibabadi on July 18, rendered the agreement functionally defunct. Oman\'s dual-route proposal from the July 18 Muscat summit remained under review in Tehran without a stated timeline for a response. Iranian adviser Mohsen Rezaee\'s ultimatum — threatening "full-scale offensive operations" if US strikes continued for "another two or three days" — was the most specific escalation timeline attached to the July cycle, expiring over the weekend. Lebanon ceasefire Day 30 holds; Houthi ceasefire Day 25 (37th quiet day) — Bab al-Mandab fully open (EA WorldView; CENTCOM; Al Jazeera; Reuters; July 19 2026).',
+  },
+  {
+    date: '2026-07-19',
+    event: 'Day 142 — Lebanon ceasefire Day 30; Houthi ceasefire Day 25 (37th quiet day); Bab al-Mandab open',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 142 of the 2026 Iran war. The Lebanon ceasefire held for its 30th consecutive day. IDF maintained forward positions north of the Litani River with no new offensive operations confirmed. Hezbollah observed the ceasefire for the 30th consecutive day; IDF-Hezbollah withdrawal timeline negotiations continued under US mediation. The Houthi ceasefire continued for its 25th day, marking the 37th consecutive quiet day in the Red Sea and Bab al-Mandab. No confirmed Houthi military activity was observed in the Red Sea, Gulf of Aden, or Bab al-Mandab. Bab al-Mandab remained fully open at pre-war commercial tempo; war-risk insurance for Red Sea routes remained at or below pre-war norms (IDF; UKMTO; Reuters; Al Jazeera; July 19 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 18, 2026 (DAY 141 — MUSCAT JOINT HORMUZ COMMITTEE MEETING: ARAGHCHI + OMANI FM; OMAN DUAL-ROUTE PROPOSAL; NO DEAL — IRAN TAKING BACK TO TEHRAN; HORMUZ ~10 TRANSITS/DAY; BRENT $88.10 (+3.54%); 444 VESSELS ANCHORED GLOBALLY; CENTCOM 7TH NIGHT STRIKES JULY 17: BANDAR ABBAS 5 BRIDGES + CHABAHAR PORT CONTROL TOWER; IRAN 38 KILLED + 400+ WOUNDED; LEBANON CEASEFIRE DAY 29 HOLDS; HOUTHI CEASEFIRE DAY 24 — 36TH QUIET DAY)',
+  updated: 'JULY 19, 2026 (DAY 142 — CENTCOM 9TH CONSECUTIVE NIGHT OF STRIKES: BANDAR ABBAS, AHWAZ, CHABAHAR; ISLAMABAD MOU FUNCTIONALLY DEFUNCT — IRAN DEPUTY FM GHARIBABADI SUSPENDED ALL COMMITMENTS JULY 18; IRGC WAVE 16 HIT KUWAIT/JORDAN/BAHRAIN — 2 US KIA + 1 MIA AT AL-AZRAQ; HORMUZ ~10 TRANSITS/DAY; BRENT ~$87–88/BBL; LEBANON CEASEFIRE DAY 30 HOLDS; HOUTHI CEASEFIRE DAY 25 — 37TH QUIET DAY)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1822,6 +1822,27 @@ const groundOps = {
       lng: 35.48,
       event: "Day 141 — Lebanon ceasefire Day 29 holds; IDF maintaining positions north of Litani; no new IDF offensive operations; Hezbollah observing ceasefire 29th consecutive day; Houthi ceasefire Day 24 (36th quiet day) — Bab al-Mandab fully open at pre-war commercial tempo; no confirmed Houthi attacks or preparations; all eyes on Muscat summit outcome (IDF spokesperson; UKMTO; Reuters; Al Jazeera; July 18)",
       type: 'ceasefire',
+    },
+    {
+      date: '2026-07-18',
+      lat: 29.62,
+      lng: 47.98,
+      event: "Day 141 — IRGC Operation Nasr 2 Wave 16: strikes Camp Arifjan + Ali Al Salem AFB, Kuwait; desalination plant hit (firefighters + 1 worker injured); Kuwait International Airport suspended operations temporarily; Kuwait Land Forces on highest alert (Kuwait MoD; Kuwait Civil Defense; July 18)",
+      type: 'ground',
+    },
+    {
+      date: '2026-07-18',
+      lat: 31.83,
+      lng: 36.78,
+      event: "Day 141 — IRGC Wave 16 targets Al-Azraq AFB, Jordan: 10 missiles intercepted by Jordan AF (highest single-night count of July cycle); Jordan reports no Jordanian casualties; 2 US service members killed in action + 1 missing — first US military KIA since March; 4 additional US service members medically evacuated (CNN; Bloomberg; NBC News; CBS News; Axios; CENTCOM; Jordan AF; July 18)",
+      type: 'ground',
+    },
+    {
+      date: '2026-07-19',
+      lat: 27.18,
+      lng: 56.27,
+      event: "Day 142 — CENTCOM 9th consecutive night of strikes: Bandar Abbas, Ahwaz, and Chabahar targeted in second wave July 19 (CENTCOM announcement 22:30 local / 19:00 GMT); no confirmed new IRGC launches; Lebanon ceasefire Day 30 holds; Houthi ceasefire Day 25 (37th quiet day); Islamabad MOU suspended by Iran Deputy FM Gharibabadi (EA WorldView; CENTCOM; Al Jazeera; July 19)",
+      type: 'strike',
     },
   ],
 };
