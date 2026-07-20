@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-07-19',
+  updated: '2026-07-20',
 
   current: {
     transitsPerDay: 10,
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 19 (Day 142): Islamabad MOU functionally defunct; Iran Deputy FM Gharibabadi confirmed suspension of all MOU commitments July 18; Iran accused US of "overt and covert pressure" on Oman at Muscat summit; CENTCOM 9th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar) …',
+      detail: 'July 20 (Day 143): CENTCOM 10th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar); IRGC claims FPS long-range aerial radar + vessel detection radar in Oman destroyed (drone strike); Iran Army confirms kamikaze drone strikes on US depots Camp Udairi + Ali Al Salem AFB, Kuwait; Islamabad MOU functionally defunct; Oman dual-route proposal still under Tehran review with no stated response timeline; Lebanon ceasefire Day 31 holds; Houthi ceasefire Day 26 (38th quiet day) — Bab al-Mandab fully open …',
     },
   ],
 };
