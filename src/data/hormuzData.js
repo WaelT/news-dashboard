@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'JMIC "Severe" July 13 (Day 136, 20:00 UTC): CENTCOM 4th consecutive night ~70 strikes …',
-    trumpUltimatum: 'LATEST (14 Jul): Iran attacked three tankers in the strait',
-    iranThreat: '12 Jul: the IRGC Navy declared the strait closed after claiming it had fired warning shots at a ship attempting to cross an unauthorized route',
+    tankerRates: 'LATEST (20 Jul, Day 143): CENTCOM 10th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar); JMIC "Severe" maintained; Cape of Good Hope rerouting mandatory; Islamabad MOU functionally defunct (Gharibabadi suspension Jul 18); Oman dual-route Hormuz proposal under Tehran review — no response deadline stated; Brent ~$85–88/bbl; 444+ vessels anchored globally; ~10 transits/day …',
+    trumpUltimatum: 'LATEST (20 Jul): Islamabad MOU defunct — US continuing strikes for 10th consecutive night; Iran Army confirms kamikaze drone strikes on US depots Camp Udairi + Ali Al Salem AFB, Kuwait; IRGC claims FPS long-range aerial radar + vessel detection radar in Oman destroyed; no new US ultimatum issued — military pressure ongoing pending Oman dual-route proposal outcome',
+    iranThreat: 'LATEST (20 Jul): IRGC claims destruction of FPS long-range aerial radar + vessel detection radar in Oman via drone strike; Iran Army separately confirms kamikaze drone strikes on US military depots Camp Udairi + Ali Al Salem AFB, Kuwait (framed as retaliation for CENTCOM strikes on Iranian civilian infrastructure); Islamabad MOU suspended by Deputy FM Gharibabadi Jul 18; no new Hormuz closure declaration as of update time',
   },
 
   disruptions: [
@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'July 12 (Day 135, 20:00 UTC): IRGC Aerospace Force targeted Port of Duqm logistics support centers and refueling platforms used by US aircraft carriers (IRGC statement); JMIC advisory covers Duqm approaches; US Navy/CENTCOM did not confirm damage to US naval facilities …',
+      detail: 'July 20 (Day 143): IRGC claims FPS long-range aerial radar + vessel detection radar in Oman destroyed via drone strike; Oman dual-route Hormuz proposal under Tehran review with no stated response deadline; [prior July 12 (Day 135, 20:00 UTC): IRGC Aerospace Force targeted Port of Duqm logistics support centers and refueling platforms used by US aircraft carriers (IRGC statement); JMIC advisory covers Duqm approaches; US Navy/CENTCOM did not confirm damage to US naval facilities] …',
     },
     {
       country: 'Asia',

@@ -46,8 +46,8 @@ function formatPrice(price) {
 }
 
 const ECON_DATA = [
-  { label: 'Brent Crude Surge', value: '+10–13%', sub: '~$80–82/barrel', color: '#ff6600' },
-  { label: 'Hormuz Disruption', value: '20%', sub: 'global oil blocked', color: '#ff6600' },
+  { label: 'Brent Crude Surge', value: '+26–29%', sub: '~$85–88/barrel', color: '#ff6600' },
+  { label: 'Hormuz Disruption', value: '98%', sub: '10 transits/day vs 90', color: '#ff6600' },
   { label: 'EU Gas Prices', value: '€60', sub: '€60/MWh', color: '#ff6600' },
   { label: 'US Gas Price Rise', value: '+5–10¢', sub: '/gallon daily', color: '#3b82f6' },
   { label: 'Flights Cancelled', value: '4,000', sub: '/day grounded', color: '#0088cc' },
