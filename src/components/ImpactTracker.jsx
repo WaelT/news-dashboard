@@ -24,12 +24,12 @@ function flagUrl(cc) {
 }
 
 // Stamped by scripts/update-casualties.mjs on each scrape
-const DATA_AS_OF = 'JULY 19, 2026';
+const DATA_AS_OF = 'JULY 20, 2026';
 
 const DEFAULT_CASUALTIES = {
   iran: { killed: 3770, wounded: 27365 },
   israel: { killed: 71, wounded: 9441 },
-  usa: { killed: 22, wounded: 587 },
+  usa: { killed: 22, wounded: 588 },
   lebanon: { killed: 4324, wounded: 12221 },
   yemen: { killed: 0, wounded: 0 },
   iraq: { killed: 128, wounded: 387 },
