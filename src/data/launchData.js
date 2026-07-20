@@ -145,9 +145,12 @@ export const dailyLaunches = [
   { date: '2026-07-18', missiles: 18, drones: 20, intercepted: 22, targets: ['Kuwait', 'Jordan', 'Bahrain'] },
   // Day 142 — CENTCOM 9th consecutive night of strikes (second wave July 19: Bandar Abbas, Ahwaz, Chabahar); no confirmed new IRGC launches as of update time; Lebanon ceasefire Day 30 holds; Houthi ceasefire Day 25 (37th quiet day) — Bab al-Mandab open; Islamabad MOU functionally defunct; Oman dual-route proposal under Tehran review (EA WorldView; CENTCOM; Al Jazeera; July 19)
   { date: '2026-07-19', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 143 — CENTCOM 10th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar); IRGC claims FPS long-range aerial radar + vessel detection radar in Oman destroyed (drone strike); Iran Army confirms kamikaze drone strikes on US depots Camp Udairi + Ali Al Salem AFB, Kuwait (day-prior retaliation announcement); Lebanon ceasefire Day 31 holds; Houthi ceasefire Day 26 (38th quiet day) — Bab al-Mandab fully open; Hormuz ~10 transits/day; Brent ~$85–88/bbl (CENTCOM; Al Jazeera; IRGC; Iran Army; July 20)
+  { date: '2026-07-20', missiles: 0, drones: 4, intercepted: 2, targets: ['Kuwait', 'Oman'] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
+// Updated through 2026-07-20T12:00Z: Day 143 — IRGC/Iran Army drone strikes on Kuwait (Camp Udairi + Ali Al Salem AFB — 2 kamikaze drones) and IRGC drone claim on Oman (FPS long-range aerial radar + vessel detection radar — 2 drones); CENTCOM 10th consecutive night; Lebanon ceasefire Day 31; Houthi ceasefire Day 26 (38th quiet day) (Al Jazeera; IRGC; Iran Army; July 20);
 // Updated through 2026-07-17T20:00Z: Day 140 — IRGC Operation Nasr 2 Waves 14-15: Jordan (+22 missiles Wave 14 incl. 10 intercepted), Kuwait (+5 missiles +14 drones Wave 15), Qatar (+5 missiles +8 drones), Bahrain (+4 missiles +8 drones); Lebanon ceasefire Day 28; Houthi ceasefire Day 23 (CNN; Jordan AF; Kuwait MoD; CENTCOM; July 17);
 // Updated through 2026-07-15T12:00Z: Day 138 — No confirmed IRGC ballistic missile or drone launches through 12:00Z July 15; IRGC maintaining 'Hormuz CLOSED' declaration but pausing new vessel attacks pending July 18 Muscat summit — SNSC instructed IRGC Navy to "exercise maximum restraint" per Omani FM (confirmed via Oman back-channel); CENTCOM overnight strikes at reduced tempo on residual Hormozgan coastal assets; India PM Modi calls Trump + UAE President Mohammed bin Zayed over 2 Indian crew deaths in 48h; India files formal protest at UNSC; China MFA sends formal diplomatic note to US Embassy Beijing objecting to 20% oil tariff — warns "proportionate countermeasures"; Oman confirms July 18 Muscat summit logistics finalized (Al-Bustan Palace venue + delegation lists exchanged); Brent ~$84-87/bbl (stabilizing from July 14 $89 spike on diplomacy signals); Lebanon ceasefire Day 26 holds; Houthi ceasefire Day 21 (33rd quiet day) — Bab al-Mandab fully open; India INS Shivalik + INS Kolkata maintaining Oman Sea presence (CENTCOM; Omani FM; India MEA; India UN Mission; China MFA; Reuters; Al Jazeera; UKMTO; July 15);
 // Updated through 2026-07-14T12:00Z: Day 137 — IRGC strikes UAE oil tankers M/V Mombasa + M/V Al Bahiyah with cruise missiles in southern Strait of Hormuz lane (Omani territorial waters); 1 Indian national killed (aboard Mombasa), 8 wounded (4 critically), 6 Indian + 2 Ukrainian nationals; fires broke out on both vessels (subsequently brought under control); UAE Ministry of Defence "strongly condemns and denounces" attacks; CENTCOM launches 5th consecutive wave of strikes on Iran in response (dozens of targets at multiple locations with precision munitions targeting IRGC missile/drone sites, coastal radars, naval assets); US naval blockade reinstated (Trump July 13 announcement; 20% toll on all Hormuz cargo for US protection); Iranian officials privately told Trump advisers tanker attacks were from "errant hardliners" trying to undermine negotiations — Iran says it wants to keep talking; Araghchi: "Iran is eternal guardian of Hormuz; 20% toll too much, we will be fair"; Iran-Oman political + technical talks to continue (Araghchi confirmed July 13 after July 11 Muscat visit); US-Iran talks scheduled for Oman on Saturday (July 18) — VP Vance, Kushner, Witkoff, Rubio to lead US team; Brent ~$86–89/bbl (+4% on tanker attack news); Lebanon ceasefire Day 25 holds; Houthi ceasefire Day 20 (32nd quiet day) — Bab al-Mandab fully open; India deployed INS Shivalik + INS Kolkata to Oman Sea for crew protection; India summons Iranian ambassador (UAE Ministry of Defence; UAE MoFA; Reuters via Internazionale, July 14; GDN Online July 14; CNN July 13 live blog; CBS News; Araghchi/PressTV July 13; IranWire July 13; Iran-Oman/Times of Israel; AP; July 14);
@@ -205,12 +208,12 @@ export const countryBreakdown = {
     { country: 'UAE', count: 2288 },
     { country: 'Israel', count: 765 },
     { country: 'Bahrain', count: 559 },
-    { country: 'Kuwait', count: 543 },
+    { country: 'Kuwait', count: 545 },
     { country: 'Saudi Arabia', count: 176 },
     { country: 'Qatar', count: 95 },
     { country: 'Jordan', count: 85 },
     { country: 'Iraq', count: 40 },
-    { country: 'Oman', count: 20 },
+    { country: 'Oman', count: 22 },
     { country: 'USA', count: 14 },
   ],
 };
