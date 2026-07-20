@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 20 (Day 143): CENTCOM 10th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar); IRGC claims FPS long-range aerial radar + vessel detection radar in Oman destroyed (drone strike); Iran Army confirms kamikaze drone strikes on US depots Camp Udairi + Ali Al Salem AFB, Kuwait; Islamabad MOU functionally defunct; Oman dual-route proposal still under Tehran review with no stated response timeline; Lebanon ceasefire Day 31 holds; Houthi ceasefire Day 26 (38th quiet day) — Bab al-Mandab fully open …',
+      detail: 'July 20 (Day 143): CENTCOM 10th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar); IRGC claims FPS long-range aerial radar + vessel detection radar in Oman destroyed (drone strike); Iran Army confirms kamikaze drone strikes on US depots Camp Udairi + Ali Al Salem AFB, Kuwait …',
     },
   ],
 };
