@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 19, 2026 (DAY 142 — CENTCOM 9TH CONSECUTIVE NIGHT OF STRIKES: BANDAR ABBAS, AHWAZ, CHABAHAR; ISLAMABAD MOU FUNCTIONALLY DEFUNCT — IRAN DEPUTY FM GHARIBABADI SUSPENDED ALL COMMITMENTS JULY 18; IRGC WAVE 16 HIT KUWAIT/JORDAN/BAHRAIN — 2 US KIA + 1 MIA AT AL-AZRAQ; HORMUZ ~10 TRANSITS/DAY; BRENT ~$87–88/BBL; LEBANON CEASEFIRE DAY 30 HOLDS; HOUTHI CEASEFIRE DAY 25 — 37TH QUIET DAY)',
+  updated: 'JULY 20, 2026 (DAY 143 — CENTCOM 10TH CONSECUTIVE NIGHT OF STRIKES: BANDAR ABBAS, AHWAZ, CHABAHAR; IRGC CLAIMS OMAN RADARS DESTROYED + IRAN ARMY CONFIRMS KUWAIT DRONE STRIKES (CAMP UDAIRI + ALI AL SALEM); ISLAMABAD MOU DEFUNCT; OMAN DUAL-ROUTE PROPOSAL UNDER TEHRAN REVIEW; HORMUZ ~10 TRANSITS/DAY; BRENT ~$85–88/BBL; LEBANON CEASEFIRE DAY 31 HOLDS; HOUTHI CEASEFIRE DAY 26 — 38TH QUIET DAY)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1843,6 +1843,34 @@ const groundOps = {
       lng: 56.27,
       event: "Day 142 — CENTCOM 9th consecutive night of strikes: Bandar Abbas, Ahwaz, and Chabahar targeted in second wave July 19 (CENTCOM announcement 22:30 local / 19:00 GMT); no confirmed new IRGC launches; Lebanon ceasefire Day 30 holds; Houthi ceasefire Day 25 (37th quiet day); Islamabad MOU suspended by Iran Deputy FM Gharibabadi (EA WorldView; CENTCOM; Al Jazeera; July 19)",
       type: 'strike',
+    },
+    {
+      date: '2026-07-20',
+      lat: 27.18,
+      lng: 56.27,
+      event: "Day 143 — CENTCOM 10th consecutive night of strikes: Bandar Abbas, Ahwaz, and Chabahar targeted; Islamabad MOU functionally defunct; Oman dual-route Hormuz proposal under Tehran review (CENTCOM; Al Jazeera; July 20)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-20',
+      lat: 29.32,
+      lng: 47.93,
+      event: "Day 143 — Iran Army confirms kamikaze drone strikes on US depots Camp Udairi + Ali Al Salem AFB, Kuwait — retaliation for CENTCOM strikes on Iranian civilian infrastructure; Lebanon ceasefire Day 31 holds; Houthi ceasefire Day 26 (38th quiet day) — Bab al-Mandab fully open (Iran Army; Al Jazeera; IRGC; July 20)",
+      type: 'ground',
+    },
+    {
+      date: '2026-07-20',
+      lat: 23.61,
+      lng: 58.59,
+      event: "Day 143 — IRGC claims FPS long-range aerial radar + vessel detection radar in Oman destroyed via drone strike; Oman dual-route Hormuz proposal still under Tehran review; Lebanon ceasefire Day 31 holds; Houthi ceasefire Day 26 (38th quiet day) — Bab al-Mandab fully open (IRGC; Al Jazeera; July 20)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-20',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 143 — Lebanon ceasefire Day 31 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 31st consecutive day; Houthi ceasefire Day 26 (38th quiet day) — Bab al-Mandab fully open at pre-war commercial tempo; no confirmed Houthi or Hezbollah military activity (IDF; Houthi spokesman; UKMTO; Reuters; July 20)",
+      type: 'ceasefire',
     },
   ],
 };

@@ -147,6 +147,8 @@ const casualtyTimeline = [
   { date: '2026-07-18', iran: 3805, lebanon: 4250, israel: 71, usa: 18, uae: 15, iraq: 128, kuwait: 14 },
   // Day 142: CENTCOM 9th consecutive night of strikes — second wave July 19 (Bandar Abbas, Ahwaz, Chabahar); no confirmed new IRGC launches; Lebanon ceasefire Day 30 holds; Houthi ceasefire Day 25 (37th quiet day) — Bab al-Mandab open; Islamabad MOU functionally defunct; Oman dual-route proposal under Tehran review; USA total confirmed KIA now 22 — includes 2 initial Al-Azraq Wave 16 KIA (July 18) plus 4 additional deaths confirmed by DOD in subsequent 24h updates (ea two consecutive updates July 18 18:57 UTC → 20, July 19 06:00 UTC → 22); Iran Health Ministry 9th-night figures pending (EA WorldView; DOD; CENTCOM; Al Jazeera; Reuters; July 19)
   { date: '2026-07-19', iran: 3805, lebanon: 4250, israel: 71, usa: 22, uae: 15, iraq: 128, kuwait: 14 },
+  // Day 143: CENTCOM 10th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar); IRGC claims Oman radars destroyed (drone strike); Iran Army confirms kamikaze drone strikes on Kuwait Camp Udairi + Ali Al Salem AFB; Iran Health Ministry 10th-night toll pending (estimated additional killed from CENTCOM strikes, no official release as of update time); Lebanon ceasefire Day 31 holds; Houthi ceasefire Day 26 (38th quiet day) (CENTCOM; Al Jazeera; Iran Army; IRGC; July 20)
+  { date: '2026-07-20', iran: 3805, lebanon: 4250, israel: 71, usa: 22, uae: 15, iraq: 128, kuwait: 14 },
 ];
 
 export default casualtyTimeline;
