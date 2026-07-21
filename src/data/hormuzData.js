@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (21 Jul, Day 144): CENTCOM 11th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar, Dezful); no new IRGC launches; Oman dual-route proposal under Tehran review; tankersQueued ~265; Hormuz ~10 transits/day; Cape of Good Hope rerouting mandatory; JMIC "Severe" maintained',
+    tankerRates: 'LATEST (21 Jul, Day 144): CENTCOM 11th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar, Dezful) …',
     trumpUltimatum: 'LATEST (14 Jul): Iran attacked three tankers in the strait',
     iranThreat: '12 Jul: the IRGC Navy declared the strait closed after claiming it had fired warning shots at a ship attempting to cross an unauthorized route',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 21 (Day 144): CENTCOM 11th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar, Dezful); Iran Health Ministry confirms 10 killed + 195 wounded from overnight strikes; no new IRGC launches; India INS Shivalik + INS Kolkata maintaining Oman Sea presence; South Korea KOGAS and Japan Eneos holding new Hormuz transit orders; JMIC "Severe" maintained (CENTCOM; Iran Health Ministry; India MEA; Reuters; July 21)',
+      detail: 'July 21 (Day 144): CENTCOM 11th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar, Dezful); Iran Health Ministry confirms 10 killed + 195 wounded from overnight strikes; no new IRGC launches; India INS Shivalik + INS Kolkata maintaining Oman Sea presence …',
     },
   ],
 };
