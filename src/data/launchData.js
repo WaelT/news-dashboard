@@ -147,6 +147,8 @@ export const dailyLaunches = [
   { date: '2026-07-19', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 143 — CENTCOM 10th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar); IRGC claims FPS long-range aerial radar + vessel detection radar in Oman destroyed (drone strike); Iran Army confirms kamikaze drone strikes on US depots Camp Udairi + Ali Al Salem AFB, Kuwait (day-prior retaliation announcement); Lebanon ceasefire Day 31 holds; Houthi ceasefire Day 26 (38th quiet day) — Bab al-Mandab fully open; Hormuz ~10 transits/day; Brent ~$85–88/bbl (CENTCOM; Al Jazeera; IRGC; Iran Army; July 20)
   { date: '2026-07-20', missiles: 0, drones: 4, intercepted: 2, targets: ['Kuwait', 'Oman'] },
+  // Day 144 — CENTCOM 11th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar, Dezful — Dezful barracks first hit); no confirmed new IRGC missile or drone launches as of update time; Lebanon ceasefire Day 32 holds; Houthi ceasefire Day 27 (39th quiet day) — Bab al-Mandab fully open; Oman dual-route Hormuz proposal under Tehran review; Brent ~$86–89/bbl (CENTCOM; Al Jazeera; Reuters; July 21)
+  { date: '2026-07-21', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
