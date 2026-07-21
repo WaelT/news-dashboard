@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
     tankerRates: 'LATEST (21 Jul, Day 144): CENTCOM 11th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar, Dezful) …',
-    trumpUltimatum: 'LATEST (14 Jul): Iran attacked three tankers in the strait',
-    iranThreat: '12 Jul: the IRGC Navy declared the strait closed after claiming it had fired warning shots at a ship attempting to cross an unauthorized route',
+    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
 
   disruptions: [
