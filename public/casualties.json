@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T13:38:21.524Z",
+  "updatedAt": "2026-07-21T19:14:02.370Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "lebanon": {
@@ -20,7 +20,7 @@
     },
     "usa": {
       "killed": 19,
-      "wounded": 583
+      "wounded": 654
     },
     "oman": {
       "killed": 19,
@@ -43,7 +43,7 @@
       "wounded": 15
     },
     "kuwait": {
-      "killed": 9,
+      "killed": 11,
       "wounded": 187
     },
     "syria": {

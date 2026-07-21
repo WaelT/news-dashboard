@@ -29,7 +29,7 @@ const DATA_AS_OF = 'JULY 21, 2026';
 const DEFAULT_CASUALTIES = {
   iran: { killed: 3815, wounded: 27420 },
   israel: { killed: 71, wounded: 9441 },
-  usa: { killed: 22, wounded: 588 },
+  usa: { killed: 22, wounded: 654 },
   lebanon: { killed: 4324, wounded: 12221 },
   yemen: { killed: 0, wounded: 0 },
   iraq: { killed: 128, wounded: 387 },
