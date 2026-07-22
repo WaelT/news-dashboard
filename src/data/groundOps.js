@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 21, 2026 (DAY 144 — CENTCOM 11TH CONSECUTIVE NIGHT OF STRIKES: BANDAR Abbas, AHWAZ, CHABAHAR, DEZFUL; IRAN HEALTH MINISTRY: 10 KILLED + 195 WOUNDED; IRAN ARMY: 3 SOLDIERS KILLED DEZFUL BARRACKS; NO NEW IRGC LAUNCHES; OMAN DUAL-ROUTE PROPOSAL UNDER TEHRAN REVIEW; HORMUZ ~10 TRANSITS/DAY; BRENT ~$86–89/BBL; LEBANON CEASEFIRE DAY 32 HOLDS; HOUTHI CEASEFIRE DAY 27 — 39TH QUIET DAY)',
+  updated: 'JULY 22, 2026 (DAY 145 — CENTCOM 12TH CONSECUTIVE NIGHT OF STRIKES: TABRIZ PROVINCE + BANDAR ABBAS, CHABAHAR, SIRIK; NO NEW IRGC LAUNCHES; HOUTHI MARITIME BLOCKADE OF SAUDI ARABIA DECLARED AT BAB AL-MANDAB — SAUDI OIL LOADINGS DOWN 36%; MEDIATORS PROPOSE 10-DAY US-IRAN CEASEFIRE; HEGSETH SENATE: $37.5B WAR COST + $67.1B SUPPLEMENTAL; LEBANON CEASEFIRE DAY 33 HOLDS; BRENT ~$86–88/BBL)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1891,6 +1891,34 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: "Day 144 — Lebanon ceasefire Day 32 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 32nd consecutive day; Houthi ceasefire Day 27 (39th quiet day) — Bab al-Mandab fully open at pre-war commercial tempo; no confirmed Houthi or Hezbollah military activity (IDF; Houthi spokesman; UKMTO; Reuters; July 21)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-22',
+      lat: 27.18,
+      lng: 56.27,
+      event: "Day 145 — CENTCOM 12th consecutive night of strikes: Tabriz province area (East Azerbaijan Crisis Mgmt dept confirms no locations inside Tabriz city hit — military installations in province targeted), Bandar Abbas, Chabahar, Sirik; no confirmed new IRGC launches; JMIC 'Severe' maintained; Hormuz ~8–10 transits/day (Military Times; CENTCOM; IranWire; Middle East Eye; July 22)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-22',
+      lat: 12.58,
+      lng: 43.47,
+      event: "Day 145 — MAJOR DEVELOPMENT: Houthi ceasefire BROKEN — Houthis declared maritime blockade of Saudi Arabia at Bab al-Mandab Strait (July 20), barring Saudi-flagged ships and Saudi-bound cargo; Saudi oil loadings through Bab al-Mandab fell 36% in two weeks; Houthi spokesman: responding to Iran pressure to activate new fronts if US continues strikes on Iranian civilian infrastructure; Saudi Arabia suspended direct Red Sea crude loadings; MARAD issuing updated advisory (Al Jazeera; NPR; The War Zone; The National; CGTN; July 22)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-07-22',
+      lat: 25.20,
+      lng: 51.69,
+      event: "Day 145 — Mediators (Qatar, Pakistan, Oman) formally proposed 10-day US-Iran ceasefire to Iran: would halt CENTCOM strikes + IRGC attacks, fully reopen both Hormuz shipping lanes (southern Omani route + northern Iranian route), and create a framework for longer-term negotiations; Iran FM Baghaei: 'The principle of the matter is clear — mediators are working and trying to prevent tension from escalating'; White House: 'allowing diplomacy to proceed' — no formal acceptance; Hegseth Senate Appropriations testimony Jul 21: war cost $37.5B to date, $67.1B supplemental requested ($200B total request); Brent ~$86–88/bbl (Axios; NPR; Military Times; Jerusalem Post; CNN; July 22)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-22',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 145 — Lebanon ceasefire Day 33 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 33rd consecutive day; Houthi ceasefire effectively ended with Bab al-Mandab blockade declaration July 20 — Houthi forces enforcing maritime embargo on Saudi shipping (IDF; Houthi spokesman; UKMTO; Reuters; July 22)",
       type: 'ceasefire',
     },
   ],
