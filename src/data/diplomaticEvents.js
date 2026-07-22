@@ -2857,6 +2857,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 144 of the 2026 Iran war. The Lebanon ceasefire held for its 32nd consecutive day. IDF maintained forward positions north of the Litani River with no new offensive operations confirmed. Hezbollah observed the ceasefire for the 32nd consecutive day; IDF-Hezbollah withdrawal timeline negotiations continued under US mediation. The Houthi ceasefire continued for its 27th day, marking the 39th consecutive quiet day in the Red Sea and Bab al-Mandab. No confirmed Houthi military activity was observed in the Red Sea, Gulf of Aden, or Bab al-Mandab. Bab al-Mandab remained fully open at pre-war commercial tempo; war-risk insurance for Red Sea routes remained at or below pre-war norms (IDF; Houthi spokesman; UKMTO; Reuters; Al Jazeera; July 21 2026).',
   },
+  {
+    date: '2026-07-22',
+    event: 'Day 145 — Iran submits 10-day ceasefire proposal via Pakistan; US receives 15-point response; Houthi Saudi blockade ongoing; Brent ~$88–91/bbl',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 145 of the 2026 Iran war. Iran secretly submitted a 10-day ceasefire proposal via Pakistani mediators; the US State Department confirmed receipt of Iran\'s 15-point response document. Trump publicly stated Iran would pay "many times over" for killing US soldiers but did not categorically reject the proposal. Secretary Rubio characterized it as "a starting point" while reiterating that Hormuz must open unconditionally and all mines be terminated. CENTCOM launched its 12th consecutive night of strikes on Iran (Tabriz province, Bandar Abbas, Chabahar, Sirik). JMIC maintained its "Severe" threat classification for the Strait of Hormuz. The IRGC CLOSED declaration remained formally in force. Brent crude oscillated between ~$88 and $91/bbl. MT Kavomaleas (July 19) remained the latest confirmed vessel attack (58th total). The Houthi Saudi naval blockade declaration (July 20) remained in effect — no confirmed Red Sea attacks materialized but UKMTO maintained elevated watch. Iraq PM welcomed the 10-day proposal as a path to Hormuz reopening. Hegseth Senate Appropriations Committee testimony: $37.5B US war cost to date, $67.1B supplemental requested (Military Times; Axios; NPR; Al Jazeera; CENTCOM; JMIC; CNBC; Reuters; July 22 2026).',
+  },
+  {
+    date: '2026-07-22',
+    event: 'Day 145 — Lebanon ceasefire Day 33; Houthi Saudi blockade declared (Bab al-Mandab operationally open)',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 145 of the 2026 Iran war. The Lebanon ceasefire held for its 33rd consecutive day. IDF maintained forward positions north of the Litani River with no new offensive operations confirmed. Hezbollah observed the ceasefire for the 33rd consecutive day. The Lebanon cumulative toll stood at 4,324 killed / 12,221 wounded — unchanged since approximately June 23 (the last day of active Lebanon front hostilities). The Houthi Saudi naval blockade declaration (July 20) remained formally in effect, technically ending the Houthi ceasefire posture. However, no confirmed Houthi vessel attacks materialized in the Red Sea, Gulf of Aden, or Bab al-Mandab — Bab al-Mandab remained operationally open at near pre-war commercial tempo. UKMTO maintained elevated watch on Red Sea southern approaches. War-risk insurance for Red Sea routes rose modestly on the blockade declaration but remained far below Hormuz rates (Lebanese Ministry of Health; IDF; Houthi statement; UKMTO; Reuters; Al Jazeera; July 22 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
