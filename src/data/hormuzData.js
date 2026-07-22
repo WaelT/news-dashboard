@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-07-21',
+  updated: '2026-07-22',
 
   current: {
     transitsPerDay: 10,
@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (21 Jul, Day 144): CENTCOM 11th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar, Dezful) …',
-    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
-    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
+    tankerRates: 'LATEST (22 Jul, Day 145): CENTCOM 12th consecutive night of strikes (Tabriz province + Bandar Abbas, Chabahar, Sirik); no new IRGC launches; mediators propose 10-day ceasefire with full Hormuz reopening — Iran FM Baghaei confirms receipt; ~8–10 transits/day; Houthi maritime blockade of Saudi Arabia at Bab al-Mandab adds second chokepoint pressure; Brent ~$86–88/bbl …',
+    trumpUltimatum: 'LATEST (22 Jul): mediators (Qatar/Pakistan/Oman) propose 10-day US-Iran ceasefire; White House "allowing diplomacy to proceed" but no formal acceptance; Hegseth Jul 21 Senate testimony: $37.5B war cost + $67.1B supplemental requested',
+    iranThreat: '20 Jul: Houthis declared maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi oil loadings fell 36%; 14 Jul: Iran attacked three tankers in the strait',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 21 (Day 144): CENTCOM 11th consecutive night of strikes (Bandar Abbas, Ahwaz, Chabahar, Dezful); Iran Health Ministry confirms 10 killed + 195 wounded from overnight strikes; no new IRGC launches; India INS Shivalik + INS Kolkata maintaining Oman Sea presence …',
+      detail: 'July 22 (Day 145): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab (declared July 20) now enforced — Saudi oil loadings down 36%; second major chokepoint disruption alongside Hormuz; India INS Shivalik + INS Kolkata maintaining Oman Sea presence; CENTCOM 12th consecutive night of strikes (Tabriz province + Bandar Abbas, Chabahar, Sirik); mediators propose 10-day US-Iran ceasefire with Hormuz reopening (Al Jazeera; NPR; The National; UKMTO; July 22) …',
     },
   ],
 };
