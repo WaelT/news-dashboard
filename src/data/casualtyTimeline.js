@@ -153,6 +153,8 @@ const casualtyTimeline = [
   { date: '2026-07-21', iran: 3815, lebanon: 4250, israel: 71, usa: 22, uae: 15, iraq: 128, kuwait: 14 },
   // Day 145: CENTCOM 12th consecutive night of strikes (Tabriz province, Bandar Abbas, Chabahar, Sirik); Iran Iran Health Ministry casualty figures from 12th night pending; no new confirmed IRGC missile or drone launches; Iran submits 10-day ceasefire proposal via Pakistan (15-point response); Lebanon ceasefire Day 33 holds (toll 4,324/12,221 — unchanged since ~Jun 23); Houthi Saudi blockade declared Jul 20 — no confirmed Bab al-Mandab attacks; Brent ~$88–91/bbl; JMIC 'Severe' maintained (CENTCOM; Military Times; Axios; NPR; Al Jazeera; July 22)
   { date: '2026-07-22', iran: 3815, lebanon: 4324, israel: 71, usa: 22, uae: 15, iraq: 128, kuwait: 14 },
+  // Day 146: CENTCOM 13th consecutive night of strikes (Ahvaz, Andimeshk, Ramshir — Khuzestan; Shalamcheh border crossing — SNN: 2 killed from 12th/13th night strikes); Iran Health Ministry July 22 morning: 53 killed + 592 wounded since June 27 (12th night pending adds ≥2); Houthis attacked 2 Saudi oil tankers (70NM SW Al Shuqaiq — no casualties); no confirmed new IRGC missile or drone launches; Lebanon ceasefire Day 34 holds; Houthi Bab al-Mandab blockade active — no attacks on international shipping; Brent ~$91–95/bbl (SNN; Iran Health Ministry; Al Jazeera; CNBC; NBC News; July 23)
+  { date: '2026-07-23', iran: 3817, lebanon: 4324, israel: 71, usa: 22, uae: 15, iraq: 128, kuwait: 14 },
 ];
 
 export default casualtyTimeline;
