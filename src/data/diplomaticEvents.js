@@ -2871,6 +2871,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 145 of the 2026 Iran war. The Lebanon ceasefire held for its 33rd consecutive day. IDF maintained forward positions north of the Litani River with no new offensive operations confirmed. Hezbollah observed the ceasefire for the 33rd consecutive day. The Lebanon cumulative toll stood at 4,324 killed / 12,221 wounded — unchanged since approximately June 23 (the last day of active Lebanon front hostilities). The Houthi Saudi naval blockade declaration (July 20) remained formally in effect, technically ending the Houthi ceasefire posture. However, no confirmed Houthi vessel attacks materialized in the Red Sea, Gulf of Aden, or Bab al-Mandab — Bab al-Mandab remained operationally open at near pre-war commercial tempo. UKMTO maintained elevated watch on Red Sea southern approaches. War-risk insurance for Red Sea routes rose modestly on the blockade declaration but remained far below Hormuz rates (Lebanese Ministry of Health; IDF; Houthi statement; UKMTO; Reuters; Al Jazeera; July 22 2026).',
   },
+  {
+    date: '2026-07-23',
+    event: 'Day 146 — Trump: Iran "not ready to make deal"; US downplays 10-day ceasefire; CENTCOM 13th consecutive night; Brent ~$91–95/bbl',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 146 of the 2026 Iran war. US President Trump stated Iran is "not ready to make a deal yet," effectively downplaying the 10-day ceasefire proposal submitted by Iran via Pakistani mediators on July 22. The White House did not formally reject the proposal but declined to accept it; Trump emphasized that any deal must include unconditional Hormuz reopening. CENTCOM launched its 13th consecutive night of strikes on Iran (Ahvaz, Andimeshk, Ramshir in Khuzestan province; Shalamcheh border crossing area — SNN reported 2 killed near the passenger terminal). Iran Health Ministry reported cumulatively 53 killed and 592 wounded since June 27 as of July 22 morning; 13th night toll pending. Brent crude surged above $91–95/bbl — NBC News reported "Oil surges past $95 as US downplays Iran diplomacy and 2nd key trade route is disrupted," reflecting the Houthi maritime blockade of Saudi Arabia opening a second chokepoint alongside Hormuz. Houthis attacked 2 Saudi oil tankers on July 22 (~70NM SW Al Shuqaiq, Red Sea) — no casualties confirmed, fire onboard one vessel (Al Jazeera; CNBC). IRGC maintained tactical pause — no ballistic missile or drone launches (7th consecutive quiet day). JMIC "Severe" maintained for Strait of Hormuz. Lebanon ceasefire held for 34th consecutive day. Houthi Bab al-Mandab blockade remained active but no attacks on international shipping materialized (ABC News; CNBC; NBC News; Al Jazeera; CENTCOM; JMIC; SNN; Iran Health Ministry; July 23 2026).',
+  },
+  {
+    date: '2026-07-23',
+    event: 'Day 146 — Lebanon ceasefire Day 34; Houthi attacks 2 Saudi tankers in Red Sea; Bab al-Mandab operationally open',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 146 of the 2026 Iran war. The Lebanon ceasefire held for its 34th consecutive day. IDF maintained forward positions north of the Litani River with no new offensive operations confirmed. Hezbollah observed the ceasefire for the 34th consecutive day; Lebanon toll remained at 4,324 killed / 12,221 wounded. Houthis claimed responsibility for attacks on two Saudi oil tankers on July 22 (~70NM SW Al Shuqaiq — fire onboard one vessel, no casualties per UKMTO; Al Jazeera; CNBC). The Houthi maritime blockade of Saudi Arabia (declared July 20) entered its 4th day — while Bab al-Mandab remained operationally open to most international shipping, Saudi crude loadings through the strait were down ~36%. UKMTO maintained elevated watch on Red Sea southern approaches and issued warnings to mariners. Saudi Arabia suspended direct Bab al-Mandab crude loadings. War-risk insurance for Red Sea routes rose further on tanker attacks (Lebanese Ministry of Health; IDF; Houthi spokesman; UKMTO; Al Jazeera; CNBC; Reuters; July 23 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

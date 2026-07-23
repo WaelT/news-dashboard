@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 22, 2026 (DAY 145 — CENTCOM 12TH CONSECUTIVE NIGHT OF STRIKES: TABRIZ PROVINCE + BANDAR ABBAS, CHABAHAR, SIRIK; NO NEW IRGC LAUNCHES; HOUTHI MARITIME BLOCKADE OF SAUDI ARABIA DECLARED AT BAB AL-MANDAB — SAUDI OIL LOADINGS DOWN 36%; MEDIATORS PROPOSE 10-DAY US-IRAN CEASEFIRE; HEGSETH SENATE: $37.5B WAR COST + $67.1B SUPPLEMENTAL; LEBANON CEASEFIRE DAY 33 HOLDS; BRENT ~$86–88/BBL)',
+  updated: 'JULY 23, 2026 (DAY 146 — CENTCOM 13TH CONSECUTIVE NIGHT OF STRIKES: AHVAZ, ANDIMESHK, RAMSHIR (KHUZESTAN), SHALAMCHEH BORDER CROSSING — 2 KILLED (SNN); NO NEW IRGC LAUNCHES; HOUTHIS ATTACK 2 SAUDI TANKERS IN RED SEA (70NM SW AL SHUQAIQ — NO CASUALTIES); TRUMP: IRAN "NOT READY TO MAKE DEAL"; BRENT ~$91–95/BBL; LEBANON CEASEFIRE DAY 34 HOLDS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1919,6 +1919,27 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: "Day 145 — Lebanon ceasefire Day 33 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 33rd consecutive day; Houthi ceasefire effectively ended with Bab al-Mandab blockade declaration July 20 — Houthi forces enforcing maritime embargo on Saudi shipping (IDF; Houthi spokesman; UKMTO; Reuters; July 22)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-23',
+      lat: 31.32,
+      lng: 48.67,
+      event: "Day 146 — CENTCOM 13th consecutive night of strikes: Ahvaz, Andimeshk, Ramshir (Khuzestan province — Deputy Gov Khuzestan + IRNA); Shalamcheh border crossing passenger terminal area struck — SNN reported 2 killed; Sirik + Hormuz coastal assets also targeted; Iran Health Ministry July 22 AM (before 13th night): 53 killed + 592 wounded since June 27; no confirmed IRGC launches (tactical pause Day 7); Brent ~$91–95/bbl (JPost; CENTCOM; SNN; IRNA; NBC News; July 23)",
+      type: 'strike',
+    },
+    {
+      date: '2026-07-23',
+      lat: 12.58,
+      lng: 43.47,
+      event: "Day 146 — Houthis attack 2 Saudi oil tankers in Red Sea (70NM SW Al Shuqaiq, inside Bab al-Mandab approach); fire onboard one vessel; no casualties confirmed per UKMTO; Bab al-Mandab remains operationally open to most international shipping; Saudi crude loadings through Bab al-Mandab down ~36% since July 20 blockade declaration; UKMTO elevated watch maintained; war-risk insurance for Red Sea routes rising on tanker attacks (Al Jazeera; CNBC; UKMTO; Reuters; July 23)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-07-23',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 146 — Lebanon ceasefire Day 34 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 34th consecutive day; Lebanon toll unchanged at 4,324/12,221; Houthi Bab al-Mandab blockade in force — no attacks on international shipping materialized; Trump: Iran 'not ready to make deal'; 10-day ceasefire proposal under US review — not accepted (IDF; Houthi spokesman; UKMTO; ABC News; Reuters; July 23)",
       type: 'ceasefire',
     },
   ],
