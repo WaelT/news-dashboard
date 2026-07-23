@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-07-22',
+  updated: '2026-07-23',
 
   current: {
     transitsPerDay: 10,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (22 Jul, Day 145): CENTCOM 12th consecutive night of strikes (Tabriz province + Bandar Abbas, Chabahar, Sirik) …',
-    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
-    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
+    tankerRates: 'LATEST (23 Jul, Day 146): Brent surged to ~$91–95/bbl — NBC News: "Oil surges past $95 as US downplays Iran diplomacy and 2nd key trade route disrupted" (Houthi Bab al-Mandab blockade opening second chokepoint alongside Hormuz); CENTCOM 13th consecutive night of strikes (Ahvaz, Andimeshk, Ramshir/Khuzestan, Shalamcheh); Trump: Iran "not ready to make deal" — 10-day ceasefire proposal not accepted; Houthis attacked 2 Saudi oil tankers (70NM SW Al Shuqaiq, Red Sea — fire onboard, no casualties per UKMTO); Saudi crude loadings through Bab al-Mandab down ~36%; Iran Health Ministry (July 22 morning): 53 killed + 592 wounded since June 27; Hormuz ~8–10 tanker transits/day; JMIC "Severe" maintained …',
+    trumpUltimatum: 'LATEST (23 Jul): Trump: Iran "not ready to make deal" (ABC News) — declined to accept 10-day ceasefire proposal; previously (22 Jul) Trump threatened to bomb Iranian bridges and power plants if Iran shoots at ships in Hormuz (CNBC); prior (20 Jul): Greek-owned tankers Kavomaleas and Acheloos struck by IRGC projectiles on Omani side of Strait',
+    iranThreat: '22 Jul: Houthis attacked 2 Saudi oil tankers (70NM SW Al Shuqaiq) in Red Sea — Houthi Bab al-Mandab maritime blockade of Saudi Arabia active since July 20; 14 Jul: Iran attacked three tankers in Hormuz',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'July 13 (Day 136, 20:00 UTC): IRGC CLOSED declaration maintained; Ras Tanura fully suspended — Aramco CEO confirms no VLCC loadings until security situation resolved; East-West Yanbu pipeline at full standby …',
+      detail: 'July 23 (Day 146): Houthis attacked 2 Saudi oil tankers (70NM SW Al Shuqaiq, Red Sea) — fire onboard one vessel, no casualties per UKMTO; Houthi Bab al-Mandab maritime blockade of Saudi Arabia (declared July 20) in force — Saudi crude loadings through Bab al-Mandab down ~36%; Saudi Arabia suspended direct Bab al-Mandab crude loadings; Ras Tanura Hormuz loadings still suspended (Aramco CEO); East-West Yanbu pipeline at full standby; Red Sea war-risk insurance rising on tanker attacks (Al Jazeera; CNBC; UKMTO; Reuters; July 23) …',
     },
     {
       country: 'Iraq',
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 22 (Day 145): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab (declared July 20) now enforced — Saudi oil loadings down 36%; second major chokepoint disruption alongside Hormuz; India INS Shivalik + INS Kolkata maintaining Oman Sea presence …',
+      detail: 'July 23 (Day 146): Brent surged past $95/bbl on dual chokepoint disruption (Hormuz + Bab al-Mandab blockade) — NBC News: "Oil surges past $95 as US downplays Iran diplomacy and 2nd key trade route disrupted"; Houthi attacks on 2 Saudi tankers July 22 confirmed (Al Jazeera; CNBC); India INS Shivalik + INS Kolkata maintaining Oman Sea presence; Asian refiners paying 200%+ premium for alternative supplies; Chinese VLCC fleet rerouting via Cape of Good Hope; South Korea/Japan LNG at acute near-term shortage risk if Hormuz remains closed past August …',
     },
   ],
 };
