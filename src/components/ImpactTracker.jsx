@@ -28,7 +28,7 @@ const DATA_AS_OF = 'JULY 24, 2026';
 
 const DEFAULT_CASUALTIES = {
   iran: { killed: 3819, wounded: 27465 },
-  israel: { killed: 71, wounded: 9441 },
+  israel: { killed: 72, wounded: 9441 },
   usa: { killed: 22, wounded: 654 },
   lebanon: { killed: 4324, wounded: 12221 },
   yemen: { killed: 0, wounded: 0 },
@@ -40,7 +40,7 @@ const DEFAULT_CASUALTIES = {
   saudi: { killed: 17, wounded: 29 },
   jordan: { killed: 0, wounded: 29 },
   oman: { killed: 19, wounded: 26 },
-  syria: { killed: 6, wounded: 4 },
+  syria: { killed: 6, wounded: 6 },
   palestine: { killed: 14, wounded: 15 },
   turkey: { killed: 3, wounded: 0 },
   france: { killed: 3, wounded: 9 },
