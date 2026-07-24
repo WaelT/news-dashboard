@@ -1942,6 +1942,27 @@ const groundOps = {
       event: "Day 146 — Lebanon ceasefire Day 34 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 34th consecutive day; Lebanon toll unchanged at 4,324/12,221; Houthi Bab al-Mandab blockade in force — no attacks on international shipping materialized; Trump: Iran 'not ready to make deal'; 10-day ceasefire proposal under US review — not accepted (IDF; Houthi spokesman; UKMTO; ABC News; Reuters; July 23)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-24',
+      lat: 26.57,
+      lng: 56.25,
+      event: "Day 147 — IRGC claims 1 oil tanker caught fire after explosion in southern Strait of Hormuz while transiting 'illegal' US-encouraged route; 2 other vessels turned back; IRGC warns all vessels that transiting without Iranian coordination will face same outcome; no vessel name, nationality or casualties confirmed by independent sources; CENTCOM 13th consecutive night of strikes completed (B-1 Lancer deployed from RAF Fairford — first since July 11 resumption; targets: maritime capabilities, missile/drone storage, coastal surveillance, air defense per CENTCOM X); Hormuz transits ~9/day; Brent $100.65 (+7% Jul 23) — first above $100 since May 2026; Trump reportedly considering 'massive attack' on Iran per ABC News (no final decision) (IRGC; Tasnim; CENTCOM X; ABC News; Reuters; July 23–24)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-07-24',
+      lat: 12.36,
+      lng: 43.47,
+      event: "Day 147 — Houthi Bab al-Mandab maritime blockade of Saudi Arabia enters Day 5; Saudi SPA confirmed Encelia bow fire from July 22 attack — all crew safe; Layla attack claimed by Houthi SABA (unconfirmed independently); Bab al-Mandab operationally open to non-Saudi international shipping; Iran flew IRGC commanders and missile/drone equipment to Yemen per Reuters exclusive July 23 — suggests Tehran actively strengthening Houthi Red Sea strike capability; UKMTO elevated watch maintained; war-risk insurance for Red Sea routes rising further; Trump said US will hold Iran responsible for Houthi attacks (CNBC; Saudi SPA; Reuters exclusive; UKMTO; CNBC; July 23–24)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-07-24',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 147 — Lebanon ceasefire Day 35 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 35th consecutive day; Lebanon toll unchanged at 4,324/12,221; US/Pakistan/Qatar/Egypt/Oman 10-day ceasefire proposal still under US review — US demanding longer pause than 10 days before engaging; Iran submitted 15-point counterproposal via Pakistan; Brent $100+ as dual chokepoint (Hormuz + Bab al-Mandab) drives global supply fears; JMIC 'Severe' maintained on Hormuz (IDF; Lebanon MoH; Al Jazeera; Reuters; CNBC; ABC News; July 24)",
+      type: 'ceasefire',
+    },
   ],
 };
 

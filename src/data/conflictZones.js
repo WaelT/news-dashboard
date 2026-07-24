@@ -918,6 +918,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['shalamcheh', 'شلمچه', 'shalamcheh border', 'iran iraq border', 'khuzestan border', 'shalamcheh crossing'],
   },
+  {
+    id: 157,
+    name: 'Southern Hormuz Approach (IRGC Enforcement Zone)',
+    lat: 26.20,
+    lng: 56.68,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 147 (July 24): IRGC claims 1 oil tanker caught fire after explosion while transiting unauthorized southern route "encouraged by US military"; 2 other vessels turned back; IRGC warns all vessels against transiting without Iranian coordination — vessel name/nationality unconfirmed by independent sources; zone patrolled by IRGC Navy enforcing CLOSED declaration',
+    status: 'high-alert',
+    keywords: ['hormuz', 'strait of hormuz', 'irgc enforcement', 'tanker fire', 'hormuz closed', 'southern hormuz'],
+  },
 ];
 
 export default conflictZones;
