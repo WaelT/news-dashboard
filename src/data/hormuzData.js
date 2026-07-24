@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (24 Jul, Day 147): Brent closed $100.65 on Jul 23 (+7%) — first above $100 since May 2026; dual chokepoint (Hormuz + Houthi Bab al-Mandab Saudi blockade) driving surge; B-1 Lancer deployed from RAF Fairford for 13th consecutive night of strikes (first B-1 use since July 11 resumption); IRGC claims 1 tanker fire in southern Hormuz + 2 turned back after vessels transited unauthorized US-encouraged route; Hormuz ~9 transits/day; [prior 23 Jul, Day 146]: ~$91–95/bbl — NBC News: "Oil surges past $95 as US downplays Iran diplomacy an …',
-    trumpUltimatum: 'LATEST (24 Jul, Day 147): Trump reportedly considering "massive attack" on Iran with no final decision per ABC News; [22 Jul]: Trump Truth Social: "any time Iran shoots at a ship in the Strait of Hormuz ... the US will bomb and destroy ONE BRIDGE OR POWER PLANT, including those near Tehran"; Ghalibaf response: "if our security is not guaranteed, no infrastructure will be safe"; [prior 20 Jul]: Kavomaleas and Acheloos struck on Omani side of Hormuz',
-    iranThreat: 'LATEST (24 Jul): IRGC claims 1 oil tanker fire + 2 vessels turned back after transiting unauthorized southern Hormuz route (July 23 — vessel name/nationality unconfirmed); [14 Jul]: Iran attacked Mombasa + Al Bahiyah in southern lane; IRGC Strait CLOSED declaration remains in force',
+    tankerRates: 'LATEST (24 Jul, Day 147): Brent closed $100.65 on Jul 23 (+7%) — first above $100 since May 2026 …',
+    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'July 24 (Day 147): Iran flew IRGC commanders + missile/drone equipment to Yemen per Reuters exclusive — suggests Tehran actively strengthening Houthi Red Sea strike capability; Houthi Bab al-Mandab maritime blockade of Saudi Arabia (declared July 20) Day 5 — Saudi SPA confirmed refined-products tanker Encelia bow fire from July 22 attack (all crew safe); Layla attack claimed by Houthi SABA (no Saudi confirmation); Saudi crude loadings through Bab al-Mandab down ~36%; Trump said US will hold Iran responsible for Houthi attacks (CNBC; Saudi SPA; Reuters; UKMTO; July 23–24)',
+      detail: 'July 24 (Day 147): Iran flew IRGC commanders + missile/drone equipment to Yemen per Reuters exclusive — suggests Tehran actively strengthening Houthi Red Sea strike capability …',
     },
     {
       country: 'Iraq',
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 24 (Day 147): Brent closed $100.65 (+7% Jul 23) — first above $100 since May 2026 — dual chokepoint (Hormuz + Houthi Bab al-Mandab Saudi blockade Day 5) driving global supply fears; Japan/South Korea/India unable to import Gulf crude via normal routes; Cape of Good Hope adds 14+ days; IRGC tanker fire in southern Hormuz chilling transit (Jul 23); Asian LNG spot prices rising on Red Sea disruption; Iran flew IRGC commanders + gear to Yemen strengthening Houthi capability (Reuters Jul 23); [prior Jul 23]: NBC News: "Oil surges past $95 as US downplays Iran diplomacy and 2nd key trade route disrupted" (TradingEconomics; NBC News; Reuters; Al Jazeera; July 23–24)',
+      detail: 'July 24 (Day 147): Brent closed $100.65 (+7% Jul 23) — first above $100 since May 2026 — dual chokepoint (Hormuz + Houthi Bab al-Mandab Saudi blockade Day 5) driving global supply fears; Japan/South Korea/India unable to import Gulf crude via normal routes; Cape of Good Hope adds 14+ days …',
     },
   ],
 };
