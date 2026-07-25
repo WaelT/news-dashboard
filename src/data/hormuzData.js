@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-07-24',
+  updated: '2026-07-25',
 
   current: {
     transitsPerDay: 9,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (24 Jul, Day 147): Brent pulled back ~4.3% to ~$96 on Jul 24 (ceasefire proposal re-assessed …',
-    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
-    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
+    tankerRates: 'LATEST (25 Jul, Day 148): Brent ~$94–97/bbl (consolidating after $100.65 close Jul 23 — first above $100 since May 2026; dual Hormuz + Houthi Bab al-Mandab chokepoint driving surge; ceasefire proposal re-assessment + Trump tariff headwinds pulling back Jul 24–25); JMIC "Severe" maintained; Goldman Sachs Q3 forecast $103/bbl; Hormuz transits ~9/day',
+    trumpUltimatum: 'LATEST (25 Jul, Day 148): Iran formally rejected US ceasefire proposal conveyed by Iraqi PM Ali al-Zaidi (visited Tehran Jul 24; met Pezeshkian, Ghalibaf, Araghchi); Araghchi: US demands "irrational, excessive, hegemonic"; Iran "not interested in temporary deal that leaves Hormuz control unresolved"; US had not accepted 10-day pause proposal; CENTCOM 14th night status pending as of 12:00 UTC Jul 25',
+    iranThreat: 'LATEST (24 Jul, Day 147): IRGC Operation Nasr 2 Wave 27 — Erbil (6 drones intercepted; airport briefly closed; IRGC claims Patriot + espionage balloon + troop facilities struck), Kuwait Ali Al Salem AFB (kamikaze drones; IRGC claims "very large US ammunition depot" destroyed — unconfirmed; Kuwait intercepted), Jordan (Patriot + THAAD + C-RAM targeted; Jordan activated air defenses), Bahrain; no confirmed BM launches; IRGC tactical pause now Day 10 as of Jul 25',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'July 24 (Day 147): Iran flew IRGC commanders + missile/drone equipment to Yemen per Reuters exclusive — suggests Tehran actively strengthening Houthi Red Sea strike capability …',
+      detail: 'July 25 (Day 148): Houthi Bab al-Mandab maritime blockade of Saudi Arabia enters Day 6 — Saudi crude loadings remain suspended; Saudi SPA confirmed Encelia bow fire from July 22 Houthi attack (crew safe); Iran flew IRGC commanders + missile/drone equipment to Yemen per Reuters exclusive July 23 — first confirmed direct IRGC military reinforcement of Houthi maritime strike capability; Trump: US will hold Iran responsible for Houthi attacks; UKMTO elevated watch maintained on Red Sea southern approaches',
     },
     {
       country: 'Iraq',
