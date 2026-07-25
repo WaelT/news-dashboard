@@ -1967,7 +1967,7 @@ const groundOps = {
       date: '2026-07-25',
       lat: 35.69,
       lng: 51.39,
-      event: "Day 148 — Iran formally rejected US ceasefire proposal conveyed by Iraqi PM Ali al-Zaidi during his July 24 Tehran visit; al-Zaidi met Pezeshkian, Ghalibaf, and Araghchi; Araghchi: US approach 'irrational, excessive, and hegemonic'; Iran 'not interested in temporary deal that leaves Hormuz control unresolved'; IRGC tactical pause Day 10 — no confirmed new missile or drone launches as of 12:00 UTC; CENTCOM 14th night of strikes pending confirmation; Brent ~$94–97/bbl (consolidating after $100.65 close July 23); diplomatic deadlock deepens (Al Jazeera; Shafaq; i24NEWS; ANI; Reuters; GlobalSecurity; July 25)",
+      event: "Day 148 — Iran formally rejected US ceasefire proposal conveyed by Iraqi PM Ali al-Zaidi during his July 24 Tehran visit; al-Zaidi met Pezeshkian, Ghalibaf, and Araghchi; Ghalibaf: 'The problem is not passing messages, but America\\'s outlook'; Araghchi: US approach 'irrational, excessive, and hegemonic'; Iran 'not interested in temporary deal that leaves Hormuz control unresolved'; CENTCOM did NOT announce 14th night of strikes July 24 ET (first break since July 11 resumption — diplomatic pause); IRGC tactical pause Day 10 — no confirmed new launches; Brent settled $98.38 (−2.29%) on Pakistan-China diplomacy news (CNBC Jul 24); diplomatic deadlock deepens (Al Jazeera; Shafaq; i24NEWS; ANI; CNBC; US News; Reuters; GlobalSecurity; July 25)",
       type: 'escalation',
     },
     {
