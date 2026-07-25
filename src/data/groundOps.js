@@ -1963,6 +1963,20 @@ const groundOps = {
       event: "Day 147 — Lebanon ceasefire Day 35 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 35th consecutive day; Lebanon toll unchanged at 4,324/12,221; US/Pakistan/Qatar/Egypt/Oman 10-day ceasefire proposal still under US review — US demanding longer pause than 10 days before engaging; Iran submitted 15-point counterproposal via Pakistan; Brent $100+ as dual chokepoint (Hormuz + Bab al-Mandab) drives global supply fears; JMIC 'Severe' maintained on Hormuz (IDF; Lebanon MoH; Al Jazeera; Reuters; CNBC; ABC News; July 24)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-25',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 148 — Iran formally rejected US ceasefire proposal conveyed by Iraqi PM Ali al-Zaidi during his July 24 Tehran visit; al-Zaidi met Pezeshkian, Ghalibaf, and Araghchi; Araghchi: US approach 'irrational, excessive, and hegemonic'; Iran 'not interested in temporary deal that leaves Hormuz control unresolved'; IRGC tactical pause Day 10 — no confirmed new missile or drone launches as of 12:00 UTC; CENTCOM 14th night of strikes pending confirmation; Brent ~$94–97/bbl (consolidating after $100.65 close July 23); diplomatic deadlock deepens (Al Jazeera; Shafaq; i24NEWS; ANI; Reuters; GlobalSecurity; July 25)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-07-25',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 148 — Lebanon ceasefire Day 36 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 36th consecutive day; Lebanon toll unchanged at 4,324/12,221; Houthi Bab al-Mandab blockade Day 6 — Saudi crude loadings remain suspended; Hormuz ~9 transits/day; JMIC 'Severe' maintained; no new ceasefire deal in sight (IDF; Lebanon MoH; Al Jazeera; Reuters; July 25)",
+      type: 'ceasefire',
+    },
   ],
 };
 
