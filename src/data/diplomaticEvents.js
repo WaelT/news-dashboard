@@ -2920,6 +2920,27 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 148 of the 2026 Iran war. The Lebanon ceasefire held for its 36th consecutive day. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 36th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. The Houthi maritime blockade of Saudi Arabia entered its 6th day (declared July 20); Saudi crude loadings at Bab al-Mandab remain suspended; Bab al-Mandab operationally open to most non-Saudi international shipping. UKMTO elevated watch maintained on Red Sea southern approaches. No new Houthi attacks on international shipping reported for July 25. Iran rejected the US ceasefire proposal conveyed by Iraq PM al-Zaidi; diplomatic channels deadlocked. Hormuz transits ~9/day; JMIC "Severe" maintained (Lebanese Ministry of Health; IDF; UKMTO; Al Jazeera; Reuters; July 25 2026).',
   },
+  {
+    date: '2026-07-26',
+    event: 'Day 149 — Araghchi in Muscat; Oman Hormuz dual-route talks advance; CENTCOM strikes pause Day 2; Trump "locked and loaded"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 149 of the 2026 Iran war. Iranian FM Abbas Araghchi flew to Muscat, Oman on July 26 (Saturday) for direct talks with Omani FM Sayyid Badr bin Hamad Al-Busaidi focused on the Strait of Hormuz. A Qatari delegation also participated in portions of the talks. The two sides discussed Oman\'s dual-route Hormuz proposal: southern Omani corridor under pre-war free navigation conditions, and northern Iranian corridor requiring permission from Tehran for transit — no tolls imposed under the framework. Both foreign ministers exchanged views on "appropriate mechanisms" for safe passage under Article 5 of the Islamabad MOU framework. Iran and Oman agreed to continue political and technical-legal level discussions. CBS News regional sources said there was "positive progress" and "things are headed in a positive direction" but diplomacy needs more time. US Central Command did not announce strikes for the second consecutive night (July 25 ET), continuing the intentional pause to support Omani diplomacy — Fortune reported: "Trump pulls back after Iran crosses his red line as US military breaks two-week streak of airstrikes amid talks for potential Hormuz deal." At a White House press conference on July 25 (Friday), Trump stated: "We\'re locked and loaded and ready to go, but we\'re talking to them — I think they\'re getting more and more serious as the days go by." Brent crude traded around $94–97/bbl, consolidating after the July 23 $100.65 close (Fortune; CBS News; Tabnak/IRNA; PressTV; Islam Times; Al Jazeera; Fox News; July 25–26 2026).',
+  },
+  {
+    date: '2026-07-26',
+    event: 'Day 149 — Saudi-Houthi escalation: Saudi strikes on Hodeidah + Houthi retaliation at Aramco Yanbu & Jizan; Lebanon ceasefire Day 37',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 149 of the 2026 Iran war. Saudi Arabia\'s coalition struck Houthi military sites in the port city of Hodeidah on July 25 (Friday), targeting facilities "linked to attacks on shipping" by the group. Yemen\'s Houthi military spokesman Yahya Saree responded on July 25, announcing that ballistic missiles and drones were fired at Saudi Aramco facilities in Yanbu and Jizan (Jazan) in retaliation. Saudi Civil Defense issued warnings for residents of Yanbu governorate and Jazan province about "a potential danger" — warnings were subsequently lifted, with Civil Defense announcing the danger had passed in both areas. At least five explosions were reported in Jazan; commercial flights to the area diverted or entered holding patterns. No casualties were confirmed. Saudi air defense systems intercepted missiles and drones. On July 26 (Saturday) Saudi Arabia halted crude oil shipments through Bab al-Mandab. This marks the first direct Houthi strikes on Saudi Aramco facilities since 2022 and a significant escalation of the Bab al-Mandab maritime blockade declared July 20. The Lebanon ceasefire held for its 37th consecutive day; IDF maintained positions north of the Litani River; Hezbollah observed the ceasefire for the 37th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded (CNBC July 25; NBC News; Washington Post; CBC News; Spectrum News; Saudi SPA; UKMTO; Gulf News; July 25–26 2026).',
+  },
+  {
+    date: '2026-07-26',
+    event: 'Day 149 — Lebanon ceasefire Day 37; Saudi Arabia halts Red Sea crude; Houthi-Saudi exchange',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 149 of the 2026 Iran war. The Lebanon ceasefire held for its 37th consecutive day. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 37th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. The Houthi maritime blockade of Saudi Arabia entered its 7th day (declared July 20). Saudi Arabia halted crude oil shipments through Bab al-Mandab on July 26 following Houthi attacks on Saudi Aramco facilities in Yanbu and Jizan on July 25. Houthi missiles and drones targeting Aramco were intercepted by Saudi air defenses; no casualties. UKMTO elevated watch maintained on Red Sea southern approaches. Araghchi in Muscat for Hormuz dual-route talks — positive progress reported. Hormuz transits ~9/day; JMIC "Severe" maintained (Lebanese Ministry of Health; IDF; UKMTO; Gulf News; Saudi SPA; Al Jazeera; Reuters; July 26 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
