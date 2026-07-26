@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 23, 2026 (DAY 146 — CENTCOM 13TH CONSECUTIVE NIGHT OF STRIKES: AHVAZ, ANDIMESHK, RAMSHIR (KHUZESTAN), SHALAMCHEH BORDER CROSSING — 2 KILLED (SNN); NO NEW IRGC LAUNCHES; HOUTHIS ATTACK 2 SAUDI TANKERS IN RED SEA (70NM SW AL SHUQAIQ — NO CASUALTIES); TRUMP: IRAN "NOT READY TO MAKE DEAL"; BRENT ~$91–95/BBL; LEBANON CEASEFIRE DAY 34 HOLDS)',
+  updated: 'JULY 26, 2026 (DAY 149 — CENTCOM STRIKES PAUSE DAY 2; ARAGHCHI IN MUSCAT FOR HORMUZ DUAL-ROUTE TALKS — POSITIVE PROGRESS; TRUMP: "LOCKED AND LOADED" BUT TALKING; SAUDI-HOUTHI ESCALATION: SAUDI STRIKES HODEIDAH + HOUTHI MISSILES/DRONES AT ARAMCO YANBU + JIZAN (SAUDI AIR DEFENSES INTERCEPTED; NO CASUALTIES); SAUDI ARABIA HALTS RED SEA CRUDE JULY 26; BRENT ~$94–97/BBL; LEBANON CEASEFIRE DAY 37 HOLDS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1975,6 +1975,27 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: "Day 148 — Lebanon ceasefire Day 36 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 36th consecutive day; Lebanon toll unchanged at 4,324/12,221; Houthi Bab al-Mandab blockade Day 6 — Saudi crude loadings remain suspended; Hormuz ~9 transits/day; JMIC 'Severe' maintained; no new ceasefire deal in sight (IDF; Lebanon MoH; Al Jazeera; Reuters; July 25)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-26',
+      lat: 23.61,
+      lng: 58.59,
+      event: "Day 149 — Araghchi arrives in Muscat (Oman) July 26 for direct Hormuz dual-route talks with FM Al-Busaidi; Qatar delegation also present; Oman dual-route proposal: southern Omani corridor = free transit, northern Iranian corridor = permission required, no tolls; both sides agreed to continue political and technical-legal discussions; CBS News: 'positive progress' — deal possible over weekend; CENTCOM strikes pause Day 2 — US intentionally holding to allow diplomacy; Trump July 25: 'We're locked and loaded and ready to go, but we're talking to them'; Brent ~$94–97/bbl (Fortune; CBS News; CNBC; Tabnak/IRNA; Al Jazeera; July 25–26)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-26',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 149 — Saudi-Houthi escalation: Saudi coalition struck Houthi military sites in Hodeidah July 25 (Friday); Houthis retaliated with ballistic missiles + drones at Saudi Aramco Yanbu + Jizan — at least 5 explosions in Jazan; flights diverted; Saudi Civil Defense issued + lifted warnings for Yanbu and Jizan; Saudi air defenses intercepted missiles/drones; no casualties confirmed; Saudi Arabia halted crude shipments through Bab al-Mandab July 26 (Gulf News); first Houthi strikes on Saudi Aramco since 2022; Houthi Bab al-Mandab blockade Day 7 (CNBC; NBC News; Washington Post; Gulf News; Saudi SPA; July 25–26)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-07-26',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 149 — Lebanon ceasefire Day 37 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 37th consecutive day; Lebanon toll unchanged at 4,324/12,221; Araghchi in Muscat for Hormuz talks — positive progress; IRGC tactical pause Day 11 — no confirmed new launches; CENTCOM strikes pause Day 2; Saudi Arabia halts Red Sea crude on Houthi attacks; Hormuz ~9 transits/day; JMIC 'Severe' maintained (IDF; Lebanon MoH; UKMTO; Fortune; CBS News; Al Jazeera; July 26)",
       type: 'ceasefire',
     },
   ],
