@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-07-25',
+  updated: '2026-07-26',
 
   current: {
     transitsPerDay: 9,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (25 Jul, Day 148): Brent ~$94–97/bbl (consolidating after $100.65 close Jul 23 — first above $100 since May 2026 …',
-    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
-    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
+    tankerRates: 'LATEST (26 Jul, Day 149): Brent ~$94–97/bbl; CENTCOM strikes pause Day 2 — US holding to allow Oman-Iran Hormuz diplomacy; Araghchi in Muscat for dual-route talks (July 26); positive progress reported (CBS News); Saudi Arabia halted Red Sea crude July 26 after Houthi struck Aramco Yanbu + Jizan July 25; dual chokepoint (Hormuz + Bab al-Mandab) exerting continued pressure on global supply; Hormuz ~9 transits/day (Fortune; CBS News; Gulf News; CNBC; July 25–26)',
+    trumpUltimatum: 'LATEST (25 Jul): Trump at White House press conference: "We\'re locked and loaded and ready to go, but we\'re talking to them — I think they\'re getting more and more serious as the days go by"',
+    iranThreat: '26 Jul: Araghchi in Muscat for Hormuz dual-route talks with Omani FM; both sides agreed to continue political and technical-legal discussions; Oman proposal: southern Omani corridor free transit, northern Iranian corridor permission-required, no tolls',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'July 25 (Day 148): Houthi Bab al-Mandab maritime blockade of Saudi Arabia enters Day 6 — Saudi crude loadings remain suspended; Saudi SPA confirmed Encelia bow fire from July 22 Houthi attack (crew safe) …',
+      detail: 'July 26 (Day 149): Saudi Arabia halted crude oil shipments through Bab al-Mandab (Gulf News) after Houthis struck Saudi Aramco facilities in Yanbu and Jizan with ballistic missiles + drones July 25 — Saudi air defenses intercepted; no casualties; at least 5 explosions in Jazan; Saudi coalition struck Houthi sites in Hodeidah July 25 in response to Red Sea attacks; Houthi Bab al-Mandab blockade enters Day 7; first Houthi strikes on Saudi Aramco since 2022; dual chokepoint (Hormuz + Bab al-Mandab) driving global oil price pressure (CNBC; NBC News; Gulf News; Saudi SPA; UKMTO; July 25–26)',
     },
     {
       country: 'Iraq',
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 24 (Day 147): Brent closed $100.65 (+7% Jul 23) — first above $100 since May 2026 — dual chokepoint (Hormuz + Houthi Bab al-Mandab Saudi blockade Day 5) driving global supply fears; Japan/South Korea/India unable to import Gulf crude via normal routes; Cape of Good Hope adds 14+ days …',
+      detail: 'July 26 (Day 149): Brent ~$94–97/bbl — consolidating after $100.65 close Jul 23; dual chokepoint (Hormuz + Houthi Bab al-Mandab) keeps global supply under pressure; Saudi Arabia halted Red Sea crude July 26; Araghchi in Muscat for dual-route Hormuz talks — positive progress (CBS News); Japan/South Korea/India unable to import Gulf crude via normal routes; Cape of Good Hope rerouting adding 14+ days and higher freight costs (Fortune; CBS News; Gulf News; Al Jazeera; July 26)',
     },
   ],
 };
