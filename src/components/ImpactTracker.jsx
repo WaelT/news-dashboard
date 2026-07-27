@@ -24,7 +24,7 @@ function flagUrl(cc) {
 }
 
 // Stamped by scripts/update-casualties.mjs on each scrape
-const DATA_AS_OF = 'JULY 26, 2026';
+const DATA_AS_OF = 'JULY 27, 2026';
 
 const DEFAULT_CASUALTIES = {
   iran: { killed: 3819, wounded: 27465 },
@@ -32,14 +32,14 @@ const DEFAULT_CASUALTIES = {
   usa: { killed: 22, wounded: 654 },
   lebanon: { killed: 4324, wounded: 12221 },
   yemen: { killed: 0, wounded: 0 },
-  iraq: { killed: 128, wounded: 387 },
+  iraq: { killed: 160, wounded: 707 },
   uae: { killed: 15, wounded: 246 },
   kuwait: { killed: 14, wounded: 310 },
   bahrain: { killed: 4, wounded: 59 },
   qatar: { killed: 18, wounded: 91 },
   saudi: { killed: 17, wounded: 29 },
   jordan: { killed: 0, wounded: 29 },
-  oman: { killed: 19, wounded: 26 },
+  oman: { killed: 19, wounded: 35 },
   syria: { killed: 6, wounded: 6 },
   palestine: { killed: 14, wounded: 15 },
   turkey: { killed: 3, wounded: 0 },
