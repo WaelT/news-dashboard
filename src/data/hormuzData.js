@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (27 Jul, Day 150): Brent ~$93–96/bbl; CENTCOM strikes pause Day 3 — US holding to allow Oman-Iran Hormuz technical-legal talks to conclude; Oman dual-route delegations reconvened Muscat; Houthi Bab al-Mandab blockade Day 8; Saudi crude halted; IRGC tactical pause Day 12; JMIC "Severe" maintained …',
-    trumpUltimatum: 'LATEST (27 Jul): CENTCOM strikes pause Day 3 — intentional US hold for Oman-Iran Hormuz diplomacy; Trump Jul 25: "locked and loaded, but talking"',
-    iranThreat: '24 Jul: IRGC Wave 27 drones at Erbil, Kuwait, Jordan; 24 Jul: IRGC claims tanker fire in southern Hormuz (unauthorized transit); formal CLOSED declaration remains in force',
+    tankerRates: 'LATEST (27 Jul, Day 150): Brent ~$93–96/bbl; CENTCOM strikes pause Day 3 — US holding to allow Oman-Iran Hormuz technica …',
+    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 27 (Day 150): Brent ~$93–96/bbl — consolidating after $100.65 close Jul 23; dual chokepoint (Hormuz + Houthi Bab al-Mandab blockade Day 8) keeps global supply under pressure; Saudi crude halted through Bab al-Mandab; Oman-Iran Hormuz technical-legal talks continue Day 2 in Muscat; CENTCOM strikes pause Day 3; IRGC tactical pause Day 12 (CBS News; Al Jazeera; Fortune; Reuters; July 27) …',
+      detail: 'July 27 (Day 150): Brent ~$93–96/bbl — consolidating after $100.65 close Jul 23; dual chokepoint (Hormuz + Houthi Bab al-Mandab blockade Day 8) keeps global supply under pressure; Saudi crude halted through Bab al-Mandab; Oman-Iran Hormuz technical-legal talks continue Day 2 in Muscat …',
     },
   ],
 };
