@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 26, 2026 (DAY 149 — CENTCOM STRIKES PAUSE DAY 2; ARAGHCHI IN MUSCAT FOR HORMUZ DUAL-ROUTE TALKS — POSITIVE PROGRESS; TRUMP: "LOCKED AND LOADED" BUT TALKING; SAUDI-HOUTHI ESCALATION: SAUDI STRIKES HODEIDAH + HOUTHI MISSILES/DRONES AT ARAMCO YANBU + JIZAN (SAUDI AIR DEFENSES INTERCEPTED; NO CASUALTIES); SAUDI ARABIA HALTS RED SEA CRUDE JULY 26; BRENT ~$94–97/BBL; LEBANON CEASEFIRE DAY 37 HOLDS)',
+  updated: 'JULY 27, 2026 (DAY 150 — CENTCOM STRIKES PAUSE DAY 3; IRGC TACTICAL PAUSE DAY 12; OMAN-IRAN HORMUZ TECHNICAL TALKS CONTINUE IN MUSCAT; HOUTHI BAB AL-MANDAB BLOCKADE DAY 8; SAUDI CRUDE HALTED; BRENT ~$93–96/BBL; LEBANON CEASEFIRE DAY 38 HOLDS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -1996,6 +1996,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: "Day 149 — Lebanon ceasefire Day 37 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 37th consecutive day; Lebanon toll unchanged at 4,324/12,221; Araghchi in Muscat for Hormuz talks — positive progress; IRGC tactical pause Day 11 — no confirmed new launches; CENTCOM strikes pause Day 2; Saudi Arabia halts Red Sea crude on Houthi attacks; Hormuz ~9 transits/day; JMIC 'Severe' maintained (IDF; Lebanon MoH; UKMTO; Fortune; CBS News; Al Jazeera; July 26)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-27',
+      lat: 23.61,
+      lng: 58.59,
+      event: "Day 150 — CENTCOM strikes pause Day 3; IRGC tactical pause Day 12 — no confirmed new ballistic missile or drone launches; Oman-Iran Hormuz technical-legal delegations reconvene in Muscat — US holding strikes to allow talks to conclude; Brent ~$93–96/bbl; Lebanon ceasefire Day 38 holds; Houthi Bab al-Mandab blockade Day 8 — Saudi crude halted; JMIC 'Severe' maintained on Hormuz (CBS News; Fortune; Al Jazeera; Reuters; July 27)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-27',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 150 — Lebanon ceasefire Day 38 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 38th consecutive day; Lebanon toll unchanged at 4,324/12,221; IRGC tactical pause Day 12; CENTCOM strikes pause Day 3; Hormuz ~9 transits/day (IDF; Lebanon MoH; UKMTO; Al Jazeera; July 27)",
       type: 'ceasefire',
     },
   ],
