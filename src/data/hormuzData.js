@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (28 Jul PM, Day 151): Brent ~$86/bbl — sharply lower from $93–96 as Trump-Netanyahu White House meeting (Trump: Iran talks "very good") + Oman Malacca-model regional mechanism proposal + Araghchi trilateral calls with Saudi FM Faisal bin Farhan + Omani FM Al-Busaidi drove diplomacy optimism; CENTCOM Commander Admiral Cooper reported to have advised halt to bombing (targets ~80% destroyed); CENTCOM strikes pause Day 4 holds; IRGC tactical pause Day 13; Hormuz ~9 transits/day; Houthi Bab al-Mandab blockade Day 9 — Saudi crude halted (CNBC; Yahoo News; Bloomberg; Al-Monitor; Axios; July 28)',
+    tankerRates: 'LATEST (28 Jul PM, Day 151): Brent ~$86/bbl — sharply lower from $93–96 as Trump-Netanyahu White House meeting (Trump: I …',
     trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
     iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 28 PM (Day 151): Brent ~$86/bbl — sharp pullback from $93–96 on diplomacy breakthrough signals: Trump-Netanyahu White House meeting (first since war began; Trump "very good" Iran talks); Oman presents Malacca-model joint regional mechanism to Iran (voluntary fees, joint management, Saudi/Qatar/Egypt/Pakistan backing); Araghchi trilateral Hormuz calls with Saudi FM Faisal bin Farhan + Omani FM Al-Busaidi; CENTCOM Commander Admiral Cooper advised White House to halt bombing (targets ~80% destroyed under Epic Fury); dual chokepoint (Hormuz + Houthi Bab al-Mandab blockade Day 9) still disrupting supply; Saudi crude halted through Red Sea; Hormuz ~9 transits/day (CNBC; Al-Monitor; Bloomberg; Axios; Middle East Monitor; July 28)',
+      detail: 'July 28 PM (Day 151): Brent ~$86/bbl — sharp pullback from $93–96 on diplomacy breakthrough signals: Trump-Netanyahu White House meeting (first since war began; Trump "very good" Iran talks) …',
     },
   ],
 };
