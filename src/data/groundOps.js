@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 27, 2026 (DAY 150 — CENTCOM STRIKES PAUSE DAY 3; IRGC TACTICAL PAUSE DAY 12; OMAN-IRAN HORMUZ TECHNICAL TALKS CONTINUE IN MUSCAT; HOUTHI BAB AL-MANDAB BLOCKADE DAY 8; SAUDI CRUDE HALTED; BRENT ~$93–96/BBL; LEBANON CEASEFIRE DAY 38 HOLDS)',
+  updated: 'JULY 28, 2026 (DAY 151 — CENTCOM STRIKES PAUSE DAY 4; IRGC TACTICAL PAUSE DAY 13; OMAN-IRAN HORMUZ TECHNICAL-LEGAL TALKS CONTINUE; HOUTHI BAB AL-MANDAB BLOCKADE DAY 9; SAUDI CRUDE HALTED; BRENT ~$93–96/BBL; LEBANON CEASEFIRE DAY 39 HOLDS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -2010,6 +2010,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: "Day 150 — Lebanon ceasefire Day 38 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 38th consecutive day; Lebanon toll unchanged at 4,324/12,221; IRGC tactical pause Day 12; CENTCOM strikes pause Day 3; Hormuz ~9 transits/day (IDF; Lebanon MoH; UKMTO; Al Jazeera; July 27)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-28',
+      lat: 23.61,
+      lng: 58.59,
+      event: "Day 151 — CENTCOM strikes pause Day 4; IRGC tactical pause Day 13 — no confirmed new ballistic missile or drone launches; Oman-Iran Hormuz technical-legal talks continuing — US holding strikes to allow diplomacy to progress; Brent ~$93–96/bbl; Lebanon ceasefire Day 39 holds; Houthi Bab al-Mandab blockade Day 9 — Saudi crude halted; JMIC 'Severe' maintained on Hormuz (CBS News; Fortune; Al Jazeera; Reuters; July 28)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-28',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 151 — Lebanon ceasefire Day 39 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 39th consecutive day; Lebanon toll unchanged at 4,324/12,221; IRGC tactical pause Day 13; CENTCOM strikes pause Day 4; Hormuz ~9 transits/day (IDF; Lebanon MoH; UKMTO; Al Jazeera; July 28)",
       type: 'ceasefire',
     },
   ],
