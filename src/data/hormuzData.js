@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 28 (Day 151): Brent ~$93–96/bbl — consolidating after $100.65 close Jul 23; dual chokepoint (Hormuz + Houthi Bab al-Mandab blockade Day 9) keeps global supply under pressure; Saudi crude halted through Bab al-Mandab; Oman-Iran Hormuz technical-legal talks continuing; CENTCOM strikes pause Day 4 …',
+      detail: 'July 28 (Day 151): Brent ~$93–96/bbl — consolidating after $100.65 close Jul 23; dual chokepoint (Hormuz + Houthi Bab al-Mandab blockade Day 9) keeps global supply under pressure; Saudi crude halted through Bab al-Mandab; Oman-Iran Hormuz technical-legal talks continuing …',
     },
   ],
 };
