@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-07-27',
+  updated: '2026-07-28',
 
   current: {
     transitsPerDay: 9,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (27 Jul, Day 150): Brent ~$93–96/bbl; CENTCOM strikes pause Day 3 — US holding to allow Oman-Iran Hormuz technica …',
+    tankerRates: 'LATEST (28 Jul, Day 151): Brent ~$93–96/bbl; CENTCOM strikes pause Day 4 — US holding for Oman-Iran Hormuz technical-legal talks; IRGC tactical pause Day 13; Houthi Bab al-Mandab blockade Day 9; Saudi crude halted; Lebanon ceasefire Day 39 holds; Hormuz ~9 transits/day; JMIC "Severe" maintained (CBS News; Fortune; Al Jazeera; Reuters; July 28)',
     trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
     iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 27 (Day 150): Brent ~$93–96/bbl — consolidating after $100.65 close Jul 23; dual chokepoint (Hormuz + Houthi Bab al-Mandab blockade Day 8) keeps global supply under pressure; Saudi crude halted through Bab al-Mandab; Oman-Iran Hormuz technical-legal talks continue Day 2 in Muscat …',
+      detail: 'July 28 (Day 151): Brent ~$93–96/bbl — consolidating after $100.65 close Jul 23; dual chokepoint (Hormuz + Houthi Bab al-Mandab blockade Day 9) keeps global supply under pressure; Saudi crude halted through Bab al-Mandab; Oman-Iran Hormuz technical-legal talks continuing; CENTCOM strikes pause Day 4; IRGC tactical pause Day 13; Cape of Good Hope rerouting mandatory for Hormuz-bound Gulf cargos …',
     },
   ],
 };
