@@ -2969,6 +2969,27 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 151 of the 2026 Iran war. The Lebanon ceasefire held for its 39th consecutive day. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 39th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. The Houthi maritime blockade of Saudi Arabia entered its 9th day (declared July 20). Saudi Arabia crude oil shipments through Bab al-Mandab remained halted following Houthi strikes on Saudi Aramco Yanbu and Jizan facilities on July 25. No new Houthi attacks on international shipping reported for July 28. UKMTO elevated watch maintained on Red Sea southern approaches. Oman-Iran Hormuz technical-legal talks continuing in Muscat — US holding CENTCOM strikes to allow diplomacy. Hormuz transits ~9/day; JMIC "Severe" maintained (Lebanese Ministry of Health; IDF; UKMTO; Al Jazeera; Reuters; July 28 2026).',
   },
+  {
+    date: '2026-07-28',
+    event: 'Day 151 — Trump-Netanyahu White House meeting: first since Iran war began; Trump calls Iran talks "very good"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 151 of the 2026 Iran war. Israeli Prime Minister Benjamin Netanyahu arrived in Washington for his first in-person meeting with President Trump at the White House since the Iran war began on February 28. Netanyahu presented intelligence that Iran is actively expanding its nuclear sites, and pressed Trump to keep "constant, constant watch" on Iran\'s nuclear program under any deal framework. Netanyahu also sought assurances that US arms sales to Turkey or nuclear cooperation with Saudi Arabia would not compromise Israel\'s military edge, and progress toward a new long-term US-Israel defense pact. After the meeting, Trump said Iran talks would continue following a "very good meeting" with Netanyahu. The meeting comes as Trump faces pressure to end a conflict that has grown unpopular, and Netanyahu faces an upcoming election in which the Iran war is a central issue. The meeting is seen as shaping US parameters on any Hormuz-centered diplomatic resolution and nuclear oversight conditions in a final deal. Brent crude fell to ~$86/bbl on diplomacy optimism, down sharply from the $100.65 July 23 peak (Washington Post; NPR; CNN; Bloomberg; Fox News; Yahoo News; July 28 2026).',
+  },
+  {
+    date: '2026-07-28',
+    event: 'Day 151 — Araghchi holds trilateral Hormuz calls with Saudi FM Faisal bin Farhan + Omani FM Al-Busaidi',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 151 of the 2026 Iran war. Iranian FM Abbas Araghchi held separate telephone conversations on Monday evening (July 27) with Saudi Foreign Minister Prince Faisal bin Farhan and Omani FM Sayyid Badr bin Hamad Al-Busaidi to discuss the latest regional developments and the security situation in the Strait of Hormuz. In the calls — marking the first direct Araghchi-Saudi FM engagement on Hormuz since the war began — both sides stressed the need to strengthen regional cooperation and "advance joint diplomatic efforts to establish stability in the region and eliminate the insecurity imposed on the Strait of Hormuz." Iran and the two Gulf states agreed to continue joint diplomatic coordination. The Saudi engagement in trilateral Hormuz diplomacy alongside Oman widens regional ownership of any deal framework beyond the bilateral Oman-Iran channel that had dominated since early July. The calls followed the Houthi attacks on Saudi Aramco facilities July 25 and Saudi suspension of Red Sea crude exports July 26, reflecting shared Gulf-state interest in restoring both Hormuz and Bab al-Mandab shipping (IranWire; Al-Monitor; Al Arabiya; PressTV; Deccan Chronicle; July 27–28 2026).',
+  },
+  {
+    date: '2026-07-28',
+    event: 'Day 151 — Oman presents Malacca-model joint regional mechanism for Strait of Hormuz to Iran',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 151 of the 2026 Iran war. Oman formally presented to Iran a proposal to establish a joint regional mechanism for managing the Strait of Hormuz, modeled on the Strait of Malacca framework used by Malaysia, Indonesia, and Singapore. Under the Omani proposal — which has backing from Saudi Arabia, Qatar, Egypt, and Pakistan — ships would voluntarily pay fees for navigation services, environmental protection, and search-and-rescue operations, with the waterway managed on a joint basis rather than under exclusive Iranian control. The plan gives Iran a revenue stream and institutional role in Hormuz governance without granting it a veto over transit rights or allowing mandatory tolls that the US has said are unacceptable. US envoys Steve Witkoff and Jared Kushner are engaged in parallel US-side discussions on the framework. A deal on the Malacca mechanism would enable resumption of the broader US-Iran war-ending talks. Iran had not yet formally responded as of late July 28; Araghchi said Iran would "study the proposal." CENTCOM strikes remained paused (Day 4) — separately attributed to a report that CENTCOM Commander Admiral Brad Cooper advised the White House to halt the bombing, arguing it had "reached the limit of its effectiveness" with ~80% of designated targets already destroyed under Operation Epic Fury (Al-Monitor; Al Arabiya; IranWire; CNBC; Japan Times; Bloomberg; Daily Pakistan; Axios; Middle East Monitor; July 28 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
