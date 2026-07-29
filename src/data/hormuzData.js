@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (29 Jul, Day 152): Brent ~$84–88/bbl — diplomacy optimism sustained as Iran studies Oman Malacca-model Hormuz joint mechanism; CENTCOM strikes pause Day 5; IRGC tactical pause Day 14; Hormuz ~9 transits/day; Houthi Bab al-Mandab blockade Day 10; Saudi crude through Red Sea halted; Lebanon ceasefire Day 40 holds; JMIC "Severe" maintained (CBS News; Al Jazeera; Reuters; CENTCOM; July 29); [prior 28 Jul PM, Day 151]: Brent ~$86/bbl — sharply lower from $93–96 as Trump-Netanyahu White House meeting (Trump: I …',
+    tankerRates: 'LATEST (29 Jul, Day 152): Brent ~$84–88/bbl — diplomacy optimism sustained as Iran studies Oman Malacca-model Hormuz joi …',
     trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
-    iranThreat: '14 Jul: Iran attacked three tankers in the strait; 29 Jul (Day 152): Iran studying Oman Malacca-model Hormuz joint mechanism — Araghchi says Iran will "study the proposal"; CENTCOM strikes pause Day 5 maintained to allow diplomacy',
+    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'July 29 (Day 152): Brent ~$84–88/bbl — sustained diplomacy-driven pullback; Iran studying Oman Malacca-model Hormuz joint regional mechanism; CENTCOM strikes pause Day 5; IRGC tactical pause Day 14; Houthi Bab al-Mandab blockade Day 10 — Saudi Red Sea crude halted; Asian LNG imports still rerouting via Cape of Good Hope and Malacca at elevated freight rates; China + India Hormuz-dependent import programs at reduced pace; JMIC "Severe" maintained (CBS News; Al Jazeera; Reuters; CENTCOM; July 29)',
+      detail: 'July 29 (Day 152): Brent ~$84–88/bbl — sustained diplomacy-driven pullback; Iran studying Oman Malacca-model Hormuz joint regional mechanism; CENTCOM strikes pause Day 5; IRGC tactical pause Day 14; Houthi Bab al-Mandab blockade Day 10 — Saudi Red Sea crude halted …',
     },
   ],
 };
