@@ -2026,6 +2026,20 @@ const groundOps = {
       event: "Day 151 — Lebanon ceasefire Day 39 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 39th consecutive day; Lebanon toll unchanged at 4,324/12,221; IRGC tactical pause Day 13; CENTCOM strikes pause Day 4; Hormuz ~9 transits/day (IDF; Lebanon MoH; UKMTO; Al Jazeera; July 28)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-29',
+      lat: 23.61,
+      lng: 58.59,
+      event: "Day 152 — CENTCOM strikes pause Day 5; IRGC tactical pause Day 14 — no confirmed new ballistic missile or drone launches; Iran studying Oman Malacca-model joint regional Hormuz mechanism (Araghchi: Iran will 'study the proposal'); Lebanon ceasefire Day 40 holds; Houthi Bab al-Mandab blockade Day 10 — Saudi crude shipments through Red Sea halted; Brent ~$84–88/bbl; JMIC 'Severe' maintained on Hormuz (CBS News; Al Jazeera; Reuters; CENTCOM; July 29)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-29',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 152 — Lebanon ceasefire Day 40 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 40th consecutive day; Lebanon toll unchanged at 4,324/12,221; IRGC tactical pause Day 14; CENTCOM strikes pause Day 5; Hormuz ~9 transits/day; Houthi Bab al-Mandab blockade Day 10 (IDF; Lebanon MoH; UKMTO; Al Jazeera; July 29)",
+      type: 'ceasefire',
+    },
   ],
 };
 
