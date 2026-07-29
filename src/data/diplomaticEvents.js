@@ -2990,6 +2990,20 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 151 of the 2026 Iran war. Oman formally presented to Iran a proposal to establish a joint regional mechanism for managing the Strait of Hormuz, modeled on the Strait of Malacca framework used by Malaysia, Indonesia, and Singapore. Under the Omani proposal — which has backing from Saudi Arabia, Qatar, Egypt, and Pakistan — ships would voluntarily pay fees for navigation services, environmental protection, and search-and-rescue operations, with the waterway managed on a joint basis rather than under exclusive Iranian control. The plan gives Iran a revenue stream and institutional role in Hormuz governance without granting it a veto over transit rights or allowing mandatory tolls that the US has said are unacceptable. US envoys Steve Witkoff and Jared Kushner are engaged in parallel US-side discussions on the framework. A deal on the Malacca mechanism would enable resumption of the broader US-Iran war-ending talks. Iran had not yet formally responded as of late July 28; Araghchi said Iran would "study the proposal." CENTCOM strikes remained paused (Day 4) — separately attributed to a report that CENTCOM Commander Admiral Brad Cooper advised the White House to halt the bombing, arguing it had "reached the limit of its effectiveness" with ~80% of designated targets already destroyed under Operation Epic Fury (Al-Monitor; Al Arabiya; IranWire; CNBC; Japan Times; Bloomberg; Daily Pakistan; Axios; Middle East Monitor; July 28 2026).',
   },
+  {
+    date: '2026-07-29',
+    event: 'Day 152 — IRGC tactical pause Day 14; CENTCOM strikes pause Day 5; Oman-Iran Hormuz talks continue',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 152 of the 2026 Iran war. The IRGC maintained its tactical pause for a 14th consecutive day with no confirmed new ballistic missile or drone launches as of 12:00 UTC July 29. US Central Command did not announce strikes for a fifth consecutive night, continuing the intentional pause to allow Oman-Iran Hormuz technical-legal working group talks to conclude. Iran was studying the Omani Malacca-model joint regional mechanism proposal presented July 28 — Araghchi said Iran would "study the proposal" but gave no timeline. The IRGC formal Hormuz CLOSED declaration remained nominally in force. The Houthi maritime blockade of Saudi Arabia entered its 10th day; Saudi crude shipments through Bab al-Mandab remained halted. Brent crude consolidated around $84–88/bbl, continuing the diplomacy-driven pullback from the $100.65 peak on July 23. JMIC maintained the Hormuz threat at "Severe." Lebanon ceasefire held for its 40th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. No new US KIA confirmed (22 total per DoD) (CBS News; Fortune; Al Jazeera; Reuters; CENTCOM; UKMTO; JMIC; July 29 2026).',
+  },
+  {
+    date: '2026-07-29',
+    event: 'Day 152 — Lebanon ceasefire Day 40; Houthi Bab al-Mandab blockade Day 10; Saudi crude halted',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 152 of the 2026 Iran war. The Lebanon ceasefire held for its 40th consecutive day. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 40th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. The Houthi maritime blockade of Saudi Arabia entered its 10th day (declared July 20). Saudi Arabia crude oil shipments through Bab al-Mandab remained halted following Houthi strikes on Saudi Aramco Yanbu and Jizan facilities on July 25. No new Houthi attacks on international shipping reported for July 29. UKMTO elevated watch maintained on Red Sea southern approaches. Oman-Iran Hormuz technical-legal talks continuing — Iran studying Malacca-model joint mechanism. Hormuz transits ~9/day; JMIC "Severe" maintained (Lebanese Ministry of Health; IDF; UKMTO; Al Jazeera; Reuters; July 29 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
