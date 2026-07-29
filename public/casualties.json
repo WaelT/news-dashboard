@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T14:00:06.227Z",
+  "updatedAt": "2026-07-29T19:08:20.837Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "lebanon": {
@@ -11,8 +11,8 @@
       "wounded": 33000
     },
     "iraq": {
-      "killed": 160,
-      "wounded": 720
+      "killed": 180,
+      "wounded": 754
     },
     "israel": {
       "killed": 70,
