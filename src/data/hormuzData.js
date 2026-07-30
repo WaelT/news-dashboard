@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (30 Jul, Day 153): Brent ~$82–87/bbl — Iran yet to formally respond to Oman Malacca-model joint Hormuz mechanism; CENTCOM strikes pause Day 6; IRGC tactical pause Day 15; Houthi blockade Day 11 …',
+    tankerRates: 'LATEST (30 Jul, Day 153): Brent ~$82–87/bbl — Iran yet to formally respond to Oman Malacca-model joint Hormuz mechanism …',
     trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
     iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
