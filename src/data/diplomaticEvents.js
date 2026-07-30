@@ -3004,6 +3004,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 152 of the 2026 Iran war. The Lebanon ceasefire held for its 40th consecutive day. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 40th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. The Houthi maritime blockade of Saudi Arabia entered its 10th day (declared July 20). Saudi Arabia crude oil shipments through Bab al-Mandab remained halted following Houthi strikes on Saudi Aramco Yanbu and Jizan facilities on July 25. No new Houthi attacks on international shipping reported for July 29. UKMTO elevated watch maintained on Red Sea southern approaches. Oman-Iran Hormuz technical-legal talks continuing — Iran studying Malacca-model joint mechanism. Hormuz transits ~9/day; JMIC "Severe" maintained (Lebanese Ministry of Health; IDF; UKMTO; Al Jazeera; Reuters; July 29 2026).',
   },
+  {
+    date: '2026-07-30',
+    event: 'Day 153 — IRGC tactical pause Day 15; CENTCOM strikes pause Day 6; Iran yet to respond to Oman Malacca-model Hormuz proposal',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 153 of the 2026 Iran war. The IRGC maintained its tactical pause for a 15th consecutive day with no confirmed new ballistic missile or drone launches as of 12:00 UTC July 30. US Central Command did not announce strikes for a sixth consecutive night, continuing the intentional pause to allow Oman-Iran Hormuz technical-legal working group talks. Iran continued studying the Omani Malacca-model joint regional mechanism proposal; no formal Iranian response had been issued as of update time. The IRGC formal Hormuz CLOSED declaration remained nominally in force. The Houthi maritime blockade of Saudi Arabia entered its 11th day; Saudi crude shipments through Bab al-Mandab remained halted. Brent crude consolidated around $82–87/bbl, continuing the diplomacy-driven pullback from the $100.65 peak on July 23. JMIC maintained the Hormuz threat at "Severe." Lebanon ceasefire held for its 41st consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. No new US KIA confirmed (22 total per DoD) (CBS News; Fortune; Al Jazeera; Reuters; CENTCOM; UKMTO; JMIC; July 30 2026).',
+  },
+  {
+    date: '2026-07-30',
+    event: 'Day 153 — Lebanon ceasefire Day 41; Houthi Bab al-Mandab blockade Day 11; Saudi crude halted',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 153 of the 2026 Iran war. The Lebanon ceasefire held for its 41st consecutive day. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 41st consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. The Houthi maritime blockade of Saudi Arabia entered its 11th day (declared July 20). Saudi Arabia crude oil shipments through Bab al-Mandab remained halted. No new Houthi attacks on international shipping reported for July 30. UKMTO elevated watch maintained on Red Sea southern approaches. Iran continuing to study Oman Malacca-model joint regional Hormuz mechanism — no formal response issued. Hormuz transits ~9/day; JMIC "Severe" maintained (Lebanese Ministry of Health; IDF; UKMTO; Al Jazeera; Reuters; July 30 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
