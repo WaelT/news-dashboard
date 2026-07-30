@@ -166,9 +166,12 @@ export const dailyLaunches = [
   { date: '2026-07-28', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 152 — IRGC tactical pause Day 14 — no confirmed new ballistic missile or drone launches as of 12:00 UTC July 29; CENTCOM strikes pause Day 5 — US holding to allow Oman-Iran Hormuz technical-legal talks to conclude; Araghchi: Iran "studying" Oman Malacca-model joint regional mechanism proposal; Saudi-Omani joint diplomatic push continuing; Lebanon ceasefire Day 40 holds; Houthi Bab al-Mandab blockade Day 10 — Saudi crude shipments through Red Sea remain halted; Brent ~$84–88/bbl (CBS News; Al Jazeera; Reuters; CENTCOM; July 29)
   { date: '2026-07-29', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 153 — IRGC tactical pause Day 15 — no confirmed new ballistic missile or drone launches as of 12:00 UTC July 30; CENTCOM strikes pause Day 6 — US continuing to hold to allow Oman-Iran Hormuz technical-legal talks; Iran still studying Oman Malacca-model joint regional Hormuz mechanism — no formal response issued; Lebanon ceasefire Day 41 holds; Houthi Bab al-Mandab blockade Day 11 — Saudi crude shipments through Red Sea halted; Brent ~$82–87/bbl (CBS News; Al Jazeera; Reuters; CENTCOM; July 30)
+  { date: '2026-07-30', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
+// Updated through 2026-07-30T12:00Z: Day 153 — IRGC tactical pause Day 15 — no confirmed new launches; CENTCOM strikes pause Day 6; Lebanon ceasefire Day 41 holds; Houthi Bab al-Mandab blockade Day 11; countryBreakdown unchanged from Day 147 (Al Jazeera; CENTCOM; Reuters; CBS News; July 30);
 // Updated through 2026-07-29T12:00Z: Day 152 — IRGC tactical pause Day 14 — no confirmed new launches; CENTCOM strikes pause Day 5; Lebanon ceasefire Day 40 holds; Houthi Bab al-Mandab blockade Day 10; countryBreakdown unchanged from Day 147 (Al Jazeera; CENTCOM; Reuters; CBS News; July 29);
 // Updated through 2026-07-28T12:00Z: Day 151 — IRGC tactical pause Day 13 — no confirmed new launches; CENTCOM strikes pause Day 4; Lebanon ceasefire Day 39 holds; Houthi Bab al-Mandab blockade Day 9; countryBreakdown unchanged from Day 147 (Al Jazeera; CENTCOM; Reuters; CBS News; July 28);
 // Updated through 2026-07-26T12:00Z: Day 149 — No confirmed IRGC launches July 25–26 (tactical pause Day 11); CENTCOM strikes pause Day 2; countryBreakdown unchanged from Day 147 (Fortune; CBS News; CNBC; July 25–26);
