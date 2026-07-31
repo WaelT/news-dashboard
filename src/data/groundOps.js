@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'JULY 30, 2026 (DAY 153 — CENTCOM STRIKES PAUSE DAY 6; IRGC TACTICAL PAUSE DAY 15; IRAN STUDYING OMAN MALACCA-MODEL HORMUZ MECHANISM; HOUTHI BAB AL-MANDAB BLOCKADE DAY 11; SAUDI CRUDE HALTED; BRENT ~$82–87/BBL; LEBANON CEASEFIRE DAY 41 HOLDS)',
+  updated: 'JULY 31, 2026 (DAY 154 — CENTCOM STRIKES PAUSE DAY 7; IRGC TACTICAL PAUSE DAY 16; IRAN-OMAN HORMUZ BILATERAL TALKS ONGOING; HOUTHI BAB AL-MANDAB BLOCKADE DAY 12; SAUDI CRUDE HALTED; BRENT ~$89.32/BBL; LEBANON CEASEFIRE DAY 42 HOLDS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -2052,6 +2052,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: "Day 153 — Lebanon ceasefire Day 41 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 41st consecutive day; Lebanon toll unchanged at 4,324/12,221; IRGC tactical pause Day 15; CENTCOM strikes pause Day 6; Hormuz ~9 transits/day; Houthi Bab al-Mandab blockade Day 11 (IDF; Lebanon MoH; UKMTO; Al Jazeera; July 30)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-07-31',
+      lat: 23.61,
+      lng: 58.59,
+      event: "Day 154 — CENTCOM strikes pause Day 7; IRGC tactical pause Day 16 — no confirmed new ballistic missile or drone launches; Iran-Oman bilateral Hormuz talks continuing — Iran FM describes as 'useful negotiations on shipping management, unrelated to the US'; oil eases to ~$89.32/bbl (−1.56%) on Hormuz talk signals; Lebanon ceasefire Day 42 holds; Houthi Bab al-Mandab blockade Day 12 — Saudi crude halted; Hormuz ~9 transits/day; JMIC 'Severe' maintained (Bloomberg; Al Jazeera; Reuters; CNN; CENTCOM; July 31)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-07-31',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 154 — Lebanon ceasefire Day 42 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 42nd consecutive day; Lebanon toll unchanged at 4,324/12,221; IRGC tactical pause Day 16; CENTCOM strikes pause Day 7; Hormuz ~9 transits/day; Houthi Bab al-Mandab blockade Day 12 (IDF; Lebanon MoH; UKMTO; Al Jazeera; July 31)",
       type: 'ceasefire',
     },
   ],
