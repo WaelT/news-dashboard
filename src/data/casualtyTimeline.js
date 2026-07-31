@@ -169,6 +169,8 @@ const casualtyTimeline = [
   { date: '2026-07-29', iran: 3823, lebanon: 4324, israel: 71, usa: 22, uae: 15, iraq: 128, kuwait: 14 },
   // Day 153: CENTCOM strikes pause Day 6 — US continuing to hold to allow Oman-Iran Hormuz technical-legal talks; IRGC tactical pause Day 15 — no confirmed new ballistic missile or drone launches as of 12:00 UTC July 30; no new Iran Health Ministry casualty release; Lebanon ceasefire Day 41 holds (toll unchanged 4,324/12,221); Houthi Bab al-Mandab blockade Day 11 — Saudi crude halted; no new US KIA confirmed (22 total per DoD); Brent ~$82–87/bbl (CBS News; Fortune; Al Jazeera; Reuters; July 30)
   { date: '2026-07-30', iran: 3823, lebanon: 4324, israel: 71, usa: 22, uae: 15, iraq: 128, kuwait: 14 },
+  // Day 154: CENTCOM strikes pause Day 7 — US continuing to hold for Iran-Oman bilateral Hormuz talks; IRGC tactical pause Day 16 — no confirmed new ballistic missile or drone launches as of 12:00 UTC July 31; Iran Health Ministry last update July 27: 59 killed + 666 wounded since June 27 resumption (consistent with Iran total 3823 — confirmed deaths now encompass Tasnim/Khuzestan provincial figures); Lebanon ceasefire Day 42 holds (toll unchanged 4,324/12,221); Houthi Bab al-Mandab blockade Day 12 — Saudi crude halted; no new US KIA confirmed (22 total per DoD); Brent ~$89.32/bbl (Bloomberg; Fortune; Al Jazeera; Reuters; July 31)
+  { date: '2026-07-31', iran: 3823, lebanon: 4324, israel: 71, usa: 22, uae: 15, iraq: 128, kuwait: 14 },
 ];
 
 export default casualtyTimeline;
