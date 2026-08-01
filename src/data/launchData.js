@@ -164,15 +164,18 @@ export const dailyLaunches = [
   { date: '2026-07-27', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 151 — IRGC tactical pause Day 13 — no confirmed new ballistic missile or drone launches; CENTCOM strikes pause Day 4 (CENTCOM Commander Admiral Cooper advised White House to halt bombing — targets ~80% destroyed under Operation Epic Fury, continuing not justified without another large-scale operation per Axios Jul 26); Trump-Netanyahu White House meeting (first since war began) — Trump: Iran talks "very good" after meeting; Araghchi holds trilateral Hormuz calls with Saudi FM Faisal bin Farhan + Omani FM Al-Busaidi; Oman presents Malacca-model joint regional mechanism to Iran (voluntary fees, joint management, Saudi/Qatar/Egypt/Pakistan backing — no mandatory tolls, no exclusive Iranian control); Brent ~$86/bbl (down sharply from $93–96 on diplomacy optimism); Lebanon ceasefire Day 39 holds; Houthi Bab al-Mandab blockade Day 9 — Saudi crude halted; Hormuz ~9 transits/day; JMIC "Severe" maintained (CNBC; Axios; Al-Monitor; Bloomberg; Fox News; NPR; Washington Post; Yahoo News; July 28)
   { date: '2026-07-28', missiles: 0, drones: 0, intercepted: 0, targets: [] },
-  // Day 152 — IRGC tactical pause Day 14 — no confirmed new ballistic missile or drone launches as of 12:00 UTC July 29; CENTCOM strikes pause Day 5 — US holding to allow Oman-Iran Hormuz technical-legal talks to conclude; Araghchi: Iran "studying" Oman Malacca-model joint regional mechanism proposal; Saudi-Omani joint diplomatic push continuing; Lebanon ceasefire Day 40 holds; Houthi Bab al-Mandab blockade Day 10 — Saudi crude shipments through Red Sea remain halted; Brent ~$84–88/bbl (CBS News; Al Jazeera; Reuters; CENTCOM; July 29)
-  { date: '2026-07-29', missiles: 0, drones: 0, intercepted: 0, targets: [] },
-  // Day 153 — IRGC tactical pause Day 15 — no confirmed new ballistic missile or drone launches as of 12:00 UTC July 30; CENTCOM strikes pause Day 6 — US continuing to hold to allow Oman-Iran Hormuz technical-legal talks; Iran still studying Oman Malacca-model joint regional Hormuz mechanism — no formal response issued; Lebanon ceasefire Day 41 holds; Houthi Bab al-Mandab blockade Day 11 — Saudi crude shipments through Red Sea halted; Brent ~$82–87/bbl (CBS News; Al Jazeera; Reuters; CENTCOM; July 30)
-  { date: '2026-07-30', missiles: 0, drones: 0, intercepted: 0, targets: [] },
-  // Day 154 — IRGC tactical pause Day 16 — no confirmed new ballistic missile or drone launches as of 12:00 UTC July 31; CENTCOM strikes pause Day 7 — US holding strikes to allow Iran-Oman bilateral Hormuz talks to develop; Iran-Oman talks described as "useful negotiations on shipping management" by Iran FM (unrelated to US, per Araghchi); oil prices eased — Brent ~$89.32/bbl (−$1.42, −1.56%) on Hormuz talk signals; Lebanon ceasefire Day 42 holds; Houthi Bab al-Mandab blockade Day 12 — Saudi crude halted; Hormuz ~9 transits/day; JMIC 'Severe' maintained; no new US KIA (22 total per DoD) (Bloomberg; Al Jazeera; Reuters; Yahoo Finance; CNN; CENTCOM; July 31)
-  { date: '2026-07-31', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 152 — IRGC ends "tactical pause" with evening surprise attack (5:45 PM ET / 21:45 UTC): fires ~5 ballistic missiles at Muwaffaq Salti Airbase, Azraq, Jordan (Jordan armed forces intercepted all 5; Jordan Armed Forces statement; CENTCOM: "attempted surprise attack"); Trump: "it's our turn" — CENTCOM immediately launches retaliatory strikes on IRGC targets (ending 5-day US strikes pause); IRGC drone strikes US gas tanker at Damietta Port, Egypt — fire onboard, crew safe (first attack involving Egyptian soil); Iran formally rejected Oman/Malacca-model Hormuz joint mechanism ahead of attack; PBS/NPR: 3 US troops killed + 5 seriously wounded from Jordan attack (USA KIA: 22 → 25); Brent +4% reaction (IranWire; Euronews; PBS; NPR; CENTCOM; Jordan Armed Forces; CNN; July 29)
+  { date: '2026-07-29', missiles: 5, drones: 1, intercepted: 5, targets: ['Jordan', 'Egypt'] },
+  // Day 153 — CENTCOM "heavy wave" 2-hour strikes on dozens of IRGC targets across Iran (military command centers, missile/drone production facilities, coastal surveillance and defense sites, maritime capabilities) — retaliation for July 29 Jordan attack; IRGC fires 2nd 5-missile salvo at Muwaffaq Salti Airbase, Jordan (Jordan intercepted all 5); IRGC kamikaze drones strike northern Kuwait (building of Chinese company in northern Kuwait; 1 worker killed per Kuwait Defence Ministry); Iran vows further retaliation; Qeshm Island: Iranian couple + 2-year-old child killed in US strike on residential building; Brent $89.03/bbl (Saudi Arabia proposes naval coalition to protect Hormuz-area ships; CNBC July 30) (CENTCOM; Al Jazeera; Defense Post; NPR; Washington Times; CNN; July 30)
+  { date: '2026-07-30', missiles: 5, drones: 2, intercepted: 5, targets: ['Jordan', 'Kuwait'] },
+  // Day 154 — IRGC attacks Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB with kamikaze drones (targeting aircraft shelters, satellite comms, equipment storage; Kuwait armed forces intercepted/destroyed drones; material damage from debris, no human casualties per Kuwait MoD Sharjah24); Iran's army attacks Bahrain Sheikh Isa AB (power generators, navigation systems, support buildings); IRGC Navy hits 2 tankers in Strait of Hormuz ("unauthorized route under US air escort"), forces 4 others to turn back — at least 1 seafarer killed; Iran National: Hormuz passage "not feasible"; Trump: "dishonest Iran, will keep hitting them very hard"; Brent ~$88/bbl (+20% monthly gain); CBS: Pentagon identifies 4th US service member killed in recent days (total USA KIA → 26); Lebanon ceasefire Day 42 holds; Houthi Bab al-Mandab blockade Day 12 (Al Jazeera; CNBC; IranWire; Tasnim; Sharjah24; AOL; The National; CBS; July 31)
+  { date: '2026-07-31', missiles: 2, drones: 12, intercepted: 7, targets: ['Kuwait', 'Bahrain', 'Strait of Hormuz'] },
+  // Day 155 — Iran's army claims follow-up drone attack on US facilities at Kuwait's Ahmad Al-Jaber AB (targeting satellite comms, hangars; Kuwait MoD did not confirm new hits); Trump: "dishonest Iran" — vows further strikes; US Senate votes 47-51 against War Powers resolution (Iran conflict now spans Egypt, Kuwait, Bahrain, Jordan in 72h); 5 IRGC members killed in US-Saudi strikes — bodies returned to Iran (IRNA); CENTCOM assessing July 31 attacks; Brent ~$88+ (monthly +20% gain; "climbed above $88 on Friday" — TradingEconomics); Lebanon ceasefire Day 43 holds; Houthi Bab al-Mandab blockade Day 13 — Saudi crude halted (ZeroHedge; Al Mayadeen; IranWire; IRNA; August 1)
+  { date: '2026-08-01', missiles: 0, drones: 5, intercepted: 0, targets: ['Kuwait'] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
+// Updated through 2026-08-01T00:00Z: Day 155 — IRGC resumed attacks July 29-31 and Aug 1: Jordan +10 missiles (5 on Jul 29 + 5 on Jul 30); Kuwait +14 drones (2 Jul 30 + 8 Jul 31 + 4 Aug 1 initial claim); Bahrain +4 drones (Jul 31 Sheikh Isa AB); Strait of Hormuz +2 missiles (Jul 31 tanker attacks); Egypt +1 drone (Jul 29 Damietta port) (IranWire; CNBC; Euronews; Al Jazeera; Tasnim; Sharjah24; July 29-Aug 1);
 // Updated through 2026-07-31T12:00Z: Day 154 — IRGC tactical pause Day 16 — no confirmed new launches; CENTCOM strikes pause Day 7; Lebanon ceasefire Day 42 holds; Houthi Bab al-Mandab blockade Day 12; countryBreakdown unchanged from Day 147 (Bloomberg; Al Jazeera; CENTCOM; Reuters; July 31);
 // Updated through 2026-07-30T12:00Z: Day 153 — IRGC tactical pause Day 15 — no confirmed new launches; CENTCOM strikes pause Day 6; Lebanon ceasefire Day 41 holds; Houthi Bab al-Mandab blockade Day 11; countryBreakdown unchanged from Day 147 (Al Jazeera; CENTCOM; Reuters; CBS News; July 30);
 // Updated through 2026-07-29T12:00Z: Day 152 — IRGC tactical pause Day 14 — no confirmed new launches; CENTCOM strikes pause Day 5; Lebanon ceasefire Day 40 holds; Houthi Bab al-Mandab blockade Day 10; countryBreakdown unchanged from Day 147 (Al Jazeera; CENTCOM; Reuters; CBS News; July 29);
@@ -228,7 +231,8 @@ export const countryBreakdown = {
     { country: 'Kuwait', count: 286 },
     { country: 'Bahrain', count: 240 },
     { country: 'Qatar', count: 206 },
-    { country: 'Jordan', count: 117 },
+    { country: 'Jordan', count: 127 },
+    { country: 'Strait of Hormuz', count: 12 },
     { country: 'Iraq', count: 22 },
     { country: 'USA', count: 8 },
     { country: 'Oman', count: 5 },
@@ -236,14 +240,15 @@ export const countryBreakdown = {
   drones: [
     { country: 'UAE', count: 2288 },
     { country: 'Israel', count: 765 },
-    { country: 'Bahrain', count: 559 },
-    { country: 'Kuwait', count: 549 },
+    { country: 'Bahrain', count: 563 },
+    { country: 'Kuwait', count: 564 },
     { country: 'Saudi Arabia', count: 176 },
     { country: 'Qatar', count: 95 },
     { country: 'Jordan', count: 87 },
     { country: 'Iraq', count: 46 },
     { country: 'Oman', count: 22 },
     { country: 'USA', count: 14 },
+    { country: 'Egypt', count: 1 },
   ],
 };
 
