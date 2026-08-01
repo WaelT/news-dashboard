@@ -40,12 +40,12 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-07-31',
+  updated: '2026-08-01',
 
   current: {
-    transitsPerDay: 9,
-    oilFlowMbd: 0.3,
-    disruptionPct: 98,
+    transitsPerDay: 7,
+    oilFlowMbd: 0.2,
+    disruptionPct: 99,
   },
 
   preWar: {
@@ -56,24 +56,24 @@ export const hormuzData = {
   },
 
   crisis: {
-    tankersQueued: 260,
-    vesselsStranded: 2000,    // July 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; Iran taking to Tehran; 444 vessels anchored or stopped globally; ~10 transits July 18 vs 88+ pre-war; Brent $88.10; July 14 (Day 137, 12:00 UTC): IRGC cruise missiles strike UAE tankers M/V Mombasa + M/V Al Bahiyah near Hormuz; 1 Indian killed + 8 wounded (Mombasa crew); CENTCOM 5th consecutive wave of strikes; all commercial transits halted; tankersQueued→245; seafarersKilled→16; July 13 (Day 136, 20:00 UTC): CENTCOM 4th consecutive night of strikes (~70 targets); IRGC fires 5 missiles + 3 drones at Hormuz/Bahrain/Kuwait (enforcing CLOSED declaration); body of 1 Indian crew member (GFS Galaxy) recovered by Omani SAR — seafarersKilled→15; Trump 24h ultimatum expired with no compliance; Pakistan FM Dar in Washington briefing Rubio; Goldman Sachs raises Q3 Brent forecast to $95; operators halted all Hormuz transits; Cape of Good Hope rerouting mandatory; Lebanon ceasefire Day 24 holds; Houthi ceasefire Day 19 (31st quiet day); [prior] July 12 (Day 135, 20:00 UTC): IRGC struck M/V GFS Galaxy (engine room fire; 10 Indian crew rescued, 1 missing); IRGC declared Strait CLOSED until "end of US interference"; CENTCOM 3rd round 140+ strikes (300+ total over 3 nights); IRGC major salvo ~38 BMs + ~22 drones at Qatar/UAE/Bahrain/Kuwait/Jordan/Oman; operators halting all Hormuz transits; Brent ~$82-84 (intraday spike; vs $79-80 at 13:00Z); JMIC re-elevated Hormuz threat to "Severe"; Houthi ceasefire Day 18 (30th quiet day) intact; Lebanon ceasefire Day 23 holds; July 12 (13:00 UTC): JMIC downgraded Severe→Substantial on IRGC pause + back-channel signals; transits ~19/day; July 11 (Day 134, 12:00 UTC): JMIC 'Severe' holds; no confirmed IRGC launches; transits ~18/day; operators holding; Iran Health Ministry confirms additional casualties from overnight strikes; Lebanon ceasefire Day 22; Houthi ceasefire Day 17 (29th quiet day); July 10 (Day 133, 12:00 UTC): JMIC elevated Hormuz threat to 'Severe' (first time since June 15); CENTCOM ~90 strikes overnight; IRGC 10 BMs at Jordan Al-Azraq; transits falling to ~20/day; operators holding; prior July 9 (Day 132, 13:00 UTC): Khamenei burial Mashhad; IRGC fires 18 BMs + 12 drones; operators halting all Hormuz transits; stranded vessels surging back toward crisis peak; prior July 8 (Day 131, 13:00 UTC): CEASEFIRE OVER — Trump declared Islamabad MOU 'over' at NATO Ankara; CENTCOM struck 80+ Iranian targets + Bandar Abbas/Qeshm/Sirik July 7–8; operators halting; stranded vessels surging back toward crisis levels from prior low of 55 (ceasefire Day 15 at 12:00 UTC); July 8 (Day 131, 12:00 UTC): ceasefire Day 15 — IRGC struck Qatari LNG tanker Al Rekayyat + Saudi crude tanker July 7, chilling Hormuz transits; tankersQueued rising as operators hold; transits dip to ~65/day; Khamenei funeral Day 5 (July 4–9); Rome talks still paused; down from peak 780 (March), 570 (Day 1), 60 (Day 14 → 55 Day 15); July 7 (Day 130): ceasefire Day 14 — backlog continuing to clear as transits reach ~70/day; Khamenei funeral Day 4 (July 4–9); Rome talks paused full week; IAEA-Iran standoff: Qalibaf blocks bombed-site access under parliamentary law; IAEA DG Grossi: inspections 'going to happen'; down from peak 780 (March), 570 (Day 1), 70 (Day 13 → 60 Day 14); July 6 (Day 129): ceasefire Day 13 — backlog continuing to clear as transits reach ~68/day; Rome talks paused for Khamenei funeral week; down from peak 780 (March), 570 (Day 1), 80 (Day 12 → 70 Day 13); July 5 (Day 128): ceasefire Day 12 — transits ~64/day; July 4 (Day 127): ceasefire Day 11 — transits ~60/day; July 2 (Day 125): ceasefire Day 9 — transits ~52/day; July 1 (Day 124): ceasefire Day 8 — transits ~48/day
+    tankersQueued: 280,
+    vesselsStranded: 2100,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 57,
-    seafarersKilled: 17,    // IMO/gCaptain confirmed 16 killed: 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12) body recovered by Omani SAR July 13 per India MEA; +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
+    vesselsAttacked: 59,
+    seafarersKilled: 18,    // +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
-    insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war as of May 2026 …',
-    tankerRates: 'LATEST (31 Jul, Day 154): Brent $89.32/bbl (−$1.42, −1.56%) — oil easing on Iran-Oman bilateral Hormuz talk signals …',
-    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
-    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
+    insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war; surging again after July 31 tanker attacks)',
+    tankerRates: 'LATEST (1 Aug, Day 155): Brent ~$88+/bbl (+20% monthly gain; "climbed above $88 on Friday" TradingEconomics) — IRGC hit 2 tankers July 31, forced 4 back; Iran says Hormuz passage "not feasible"; Saudi coalition proposal partially offsetting; Brent $89.03 close July 30 (Saudi coalition proposal news; CNBC); $89.32 July 31 morning before tanker attacks; surge expected Monday open',
+    trumpUltimatum: 'LATEST (1 Aug): Trump: "dishonest Iran" — vows to keep "hitting them very hard"; Senate War Powers vote failed 47-51; CENTCOM assessing July 31 attacks; IRGC continues attacks on Kuwait Ahmad Al-Jaber AB August 1',
+    iranThreat: 'LATEST (31 Jul): IRGC Navy hit 2 tankers in Hormuz (under US air escort, "unauthorized route"), forced 4 others to turn back — at least 1 dead; Iran National: Hormuz passage "not feasible"; Iran\'s army struck Bahrain Sheikh Isa AB + Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB with kamikaze drones',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'July 26 (Day 149): Saudi Arabia halted crude oil shipments through Bab al-Mandab (Gulf News) after Houthis struck Saudi Aramco facilities in Yanbu and Jizan with ballistic missiles + drones July 25 — Saudi air defenses intercepted; no casualties; at least 5 explosions in Jazan …',
+      detail: 'Aug 1 (Day 155, Bab al-Mandab blockade Day 13): Saudi crude shipments through Bab al-Mandab remain halted — no Saudi oil exports via Red Sea since July 26; Houthi attacks on Saudi Aramco facilities in Yanbu and Jizan July 25 (BMs + drones; Saudi air defenses intercepted; no casualties; 5+ explosions in Jazan) triggered the suspension (Gulf News; July 26); Saudi FM Faisal bin Farhan now engaged in trilateral Hormuz diplomacy with Araghchi + Omani FM Al-Busaidi (July 27–28) — first direct Saudi-Iran FM engagement on Hormuz since war began; no new Houthi attacks on Saudi shipping Aug 1 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'July 21 (Day 144): Oman dual-route Hormuz proposal still under Tehran review — no Iranian response deadline stated; Omani FM Al-Busaidi maintaining diplomatic channel with Araghchi; Port of Duqm operations suspended following IRGC drone strike claims July 20 (Omani FM; Al Jazeera; Reuters; July 21)',
+      detail: 'Aug 1 (Day 155): Oman Malacca-model joint regional mechanism — presented to Iran July 28 (Day 151) and supported by Saudi Arabia, Qatar, Egypt, Pakistan — allows Iran revenue + institutional role in Hormuz governance without veto over transit rights; Iran has not formally accepted; Araghchi said Iran would "study the proposal" (July 28); Port of Duqm suspended following IRGC drone strike claims July 20; Omani FM Al-Busaidi maintaining diplomatic channel with Araghchi; Oman remains sole neutral mediator after July 31 tanker attacks (Al-Monitor; Al Arabiya; IranWire; Reuters; July 28–Aug 1)',
     },
     {
       country: 'Asia',
-      detail: 'July 31 (Day 154): Brent $89.32/bbl (−1.56%) — oil falling on Iran-Oman bilateral Hormuz talks; Iran FM Araghchi describes talks as "useful negotiations on shipping traffic management, unrelated to the US"; CENTCOM strikes pause Day 7; IRGC tactical pause Day 16 …',
+      detail: 'Aug 1 (Day 155): Brent ~$88+/bbl — "climbed above $88 on Friday" (TradingEconomics); surge driven by July 31 IRGC Navy tanker attacks (2 tankers hit under US air escort, 4 others forced back; Iran: Hormuz passage "not feasible"); CENTCOM assessing; Monday open surge expected; Brent $89.03 close July 30 (Saudi coalition proposal news); $89.32 July 31 morning before tanker attacks; monthly gain +20% — largest since March 2026; Goldman Sachs Q3 target $103/bbl; China/Japan/South Korea emergency IEA reserve draws authorized …',
     },
   ],
 };
