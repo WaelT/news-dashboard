@@ -3032,6 +3032,27 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 154 of the 2026 Iran war. The Lebanon ceasefire held for its 42nd consecutive day. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 42nd consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. The Houthi maritime blockade of Saudi Arabia entered its 12th day (declared July 20). Saudi Arabia crude oil shipments through Bab al-Mandab remained halted. No new Houthi attacks on international shipping reported for July 31. UKMTO elevated watch maintained on Red Sea southern approaches. Iran-Oman bilateral Hormuz talks continuing; Iran FM Araghchi described as "useful negotiations on shipping management." Hormuz transits ~9/day; JMIC "Severe" maintained (Lebanese Ministry of Health; IDF; UKMTO; Al Jazeera; Reuters; July 31 2026).',
   },
+  {
+    date: '2026-07-31',
+    event: 'Day 154 (evening) — IRGC Navy hits 2 tankers in Hormuz; forces 4 others back; Iran: Strait "not feasible"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 154 of the 2026 Iran war (evening escalation). The IRGC Navy attacked two tankers transiting the Strait of Hormuz under US naval air escort, which Iran described as an "unauthorized route." At least one seafarer was killed in explosions aboard the stricken vessels; four other tankers were forced to turn back. Iran\'s National (The National) reported Iran declared Hormuz passage "not feasible" for unauthorized transits — effectively re-enforcing the July 12 CLOSED declaration against vessels without PGSA clearance. Separately, Iran\'s Army launched kamikaze drone strikes against Bahrain Sheikh Isa Air Base, Kuwait Ahmad Al-Jaber Air Base, and Kuwait Ali Al Salem Air Base — widening the conflict to Gulf host-nation air facilities. The attacks ended a 16-day IRGC tactical pause, shocking markets: Brent expected to surge past $89.32 at Monday open. CENTCOM began assessing the attacks. The Senate held a War Powers vote on the Iran conflict — it failed 47–51 (AOL; The National; Kuwait MoD; Bahrain MoD; Reuters; Al Jazeera; CBS News; July 31 2026).',
+  },
+  {
+    date: '2026-08-01',
+    event: 'Day 155 — Trump vows to keep hitting Iran; IRGC continues Kuwait strikes; Senate War Powers vote fails',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 155 of the 2026 Iran war. President Trump, responding to the July 31 IRGC tanker attacks and drone strikes on Gulf air bases, posted on Truth Social calling Iran "dishonest" and vowing to keep "hitting them very hard." The Senate War Powers resolution on the Iran conflict failed 47–51, handing Trump a legislative win on war authority. The IRGC continued drone attacks against Kuwait Ahmad Al-Jaber Air Base on August 1. CENTCOM assessed the July 31 tanker attacks but had not announced new retaliatory strikes. One additional US service member was confirmed killed from injuries sustained in the July 31 Kuwait AB drone strike, raising the total US KIA to 26. The Lebanon ceasefire entered Day 43; the Houthi Bab al-Mandab blockade entered Day 13; Saudi crude shipments through Red Sea remained halted. Brent crude climbed above $88/bbl (+20% monthly gain — largest since March 2026) as markets priced in the renewed IRGC offensive and Iran\'s "not feasible" Hormuz declaration. Operators announced a halt to all unauthorized Hormuz transits; 280+ tankers queued outside the strait (Trump Truth Social; CBS News; Al Jazeera; CENTCOM; Reuters; TradingEconomics; Aug 1 2026).',
+  },
+  {
+    date: '2026-08-01',
+    event: 'Day 155 — Lebanon ceasefire Day 43; Houthi Bab al-Mandab blockade Day 13; Hormuz 99% disrupted',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 155 of the 2026 Iran war. The Lebanon ceasefire held for its 43rd consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. IDF maintained positions north of the Litani River; Hezbollah observed the ceasefire. The Houthi maritime blockade of Saudi Arabia entered its 13th day; Saudi crude shipments through Bab al-Mandab remained halted; no new Houthi attacks on international shipping. The Strait of Hormuz entered 99% disruption as tanker operators announced a halt to all unauthorized transits following the July 31 IRGC Navy attacks. Only ~7 transits/day recorded (vs 90 pre-war); oil flow ~0.2 mbd (vs 18.1 mbd pre-war); ~280 tankers queued; ~2,100 vessels stranded globally; JMIC threat level "Severe" (Lebanese Ministry of Health; IDF; UKMTO; JMIC; Al Jazeera; Reuters; Aug 1 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
