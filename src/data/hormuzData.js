@@ -57,23 +57,23 @@ export const hormuzData = {
 
   crisis: {
     tankersQueued: 280,
-    vesselsStranded: 2100,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
+    vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
     vesselsAttacked: 59,
     seafarersKilled: 18,    // +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
-    insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war; surging again after July 31 tanker attacks)',
-    tankerRates: 'LATEST (1 Aug, Day 155): Brent ~$88+/bbl (+20% monthly gain; "climbed above $88 on Friday" TradingEconomics) — IRGC hit 2 tankers July 31, forced 4 back; Iran says Hormuz passage "not feasible"; Saudi coalition proposal partially offsetting; Brent $89.03 close July 30 (Saudi coalition proposal news; CNBC); $89.32 July 31 morning before tanker attacks; surge expected Monday open',
-    trumpUltimatum: 'LATEST (1 Aug): Trump: "dishonest Iran" — vows to keep "hitting them very hard"; Senate War Powers vote failed 47-51; CENTCOM assessing July 31 attacks; IRGC continues attacks on Kuwait Ahmad Al-Jaber AB August 1',
-    iranThreat: 'LATEST (31 Jul): IRGC Navy hit 2 tankers in Hormuz (under US air escort, "unauthorized route"), forced 4 others to turn back — at least 1 dead; Iran National: Hormuz passage "not feasible"; Iran\'s army struck Bahrain Sheikh Isa AB + Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB with kamikaze drones',
+    insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
+    tankerRates: 'LATEST (1 Aug, Day 155): Brent ~$88+/bbl (+20% monthly gain …',
+    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 1 (Day 155, Bab al-Mandab blockade Day 13): Saudi crude shipments through Bab al-Mandab remain halted — no Saudi oil exports via Red Sea since July 26; Houthi attacks on Saudi Aramco facilities in Yanbu and Jizan July 25 (BMs + drones; Saudi air defenses intercepted; no casualties; 5+ explosions in Jazan) triggered the suspension (Gulf News; July 26); Saudi FM Faisal bin Farhan now engaged in trilateral Hormuz diplomacy with Araghchi + Omani FM Al-Busaidi (July 27–28) — first direct Saudi-Iran FM engagement on Hormuz since war began; no new Houthi attacks on Saudi shipping Aug 1 …',
+      detail: 'Aug 1 (Day 155, Bab al-Mandab blockade Day 13): Saudi crude shipments through Bab al-Mandab remain halted — no Saudi oil exports via Red Sea since July 26; Houthi attacks on Saudi Aramco facilities in Yanbu and Jizan July 25 (BMs + drones; Saudi air defenses intercepted; no casualties …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 1 (Day 155): Oman Malacca-model joint regional mechanism — presented to Iran July 28 (Day 151) and supported by Saudi Arabia, Qatar, Egypt, Pakistan — allows Iran revenue + institutional role in Hormuz governance without veto over transit rights; Iran has not formally accepted; Araghchi said Iran would "study the proposal" (July 28); Port of Duqm suspended following IRGC drone strike claims July 20; Omani FM Al-Busaidi maintaining diplomatic channel with Araghchi; Oman remains sole neutral mediator after July 31 tanker attacks (Al-Monitor; Al Arabiya; IranWire; Reuters; July 28–Aug 1)',
+      detail: 'Aug 1 (Day 155): Oman Malacca-model joint regional mechanism — presented to Iran July 28 (Day 151) and supported by Saudi Arabia, Qatar, Egypt, Pakistan — allows Iran revenue + institutional role in Hormuz governance without veto over transit rights; Iran has not formally accepted …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 1 (Day 155): Brent ~$88+/bbl — "climbed above $88 on Friday" (TradingEconomics); surge driven by July 31 IRGC Navy tanker attacks (2 tankers hit under US air escort, 4 others forced back; Iran: Hormuz passage "not feasible"); CENTCOM assessing; Monday open surge expected; Brent $89.03 close July 30 (Saudi coalition proposal news); $89.32 July 31 morning before tanker attacks; monthly gain +20% — largest since March 2026; Goldman Sachs Q3 target $103/bbl; China/Japan/South Korea emergency IEA reserve draws authorized …',
+      detail: 'Aug 1 (Day 155): Brent ~$88+/bbl — "climbed above $88 on Friday" (TradingEconomics); surge driven by July 31 IRGC Navy tanker attacks (2 tankers hit under US air escort, 4 others forced back; Iran: Hormuz passage "not feasible"); CENTCOM assessing; Monday open surge expected …',
     },
   ],
 };
