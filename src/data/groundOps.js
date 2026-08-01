@@ -2068,6 +2068,34 @@ const groundOps = {
       event: "Day 154 — Lebanon ceasefire Day 42 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 42nd consecutive day; Lebanon toll unchanged at 4,324/12,221; IRGC tactical pause Day 16; CENTCOM strikes pause Day 7; Hormuz ~9 transits/day; Houthi Bab al-Mandab blockade Day 12 (IDF; Lebanon MoH; UKMTO; Al Jazeera; July 31)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-07-31',
+      lat: 26.56,
+      lng: 56.25,
+      event: "Day 154 (evening escalation) — IRGC tactical pause ENDS: IRGC Navy attacks 2 tankers transiting Strait of Hormuz under US naval air escort ('unauthorized route' per Iran) — at least 1 seafarer killed; 4 other tankers forced to turn back; Iran National: Hormuz passage 'not feasible'; Iran Army kamikaze drones strike Bahrain Sheikh Isa AB (power generators, navigation systems, support buildings) + Kuwait Ahmad Al-Jaber AB (aircraft shelters, satellite comms, equipment storage — Kuwait MoD: 'intercepted/destroyed, material damage from debris, no human casualties') + Kuwait Ali Al Salem AB (similar pattern); US KIA total confirmed → 25 (DoD); tanker operators announce halt to all unauthorized Hormuz transits; Senate War Powers vote on Iran conflict pending Aug 1; CENTCOM begins assessing attacks; Brent expected to surge at Monday open (AOL; The National; Kuwait MoD; Bahrain MoD; CBS News; Reuters; Al Jazeera; July 31 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-08-01',
+      lat: 29.37,
+      lng: 47.98,
+      event: "Day 155 — IRGC continues Kuwait strikes: Iran's Army claims follow-up kamikaze drone attack on US facilities at Kuwait Ahmad Al-Jaber AB (targeting satellite comms, hangars); Kuwait MoD did not confirm new hits; 1 additional US KIA confirmed from injuries sustained in July 31 Kuwait AB drone strike — total US KIA rises to 26 (US DoD); Trump Truth Social: Iran is 'dishonest' — vows to keep 'hitting them very hard'; US Senate War Powers resolution on Iran conflict fails 47-51, handing Trump legislative win on war authority; CENTCOM assessing July 31 tanker attacks + base strikes — no new retaliatory strikes announced; 5 IRGC members killed in US-Saudi strikes — bodies returned to Iran (IRNA); Brent ~$88+/bbl surge (monthly +20% gain, largest since March 2026) as markets price in renewed IRGC offensive and Iran 'not feasible' Hormuz declaration; Goldman Sachs Q3 forecast $103/bbl maintained; JMIC 'Severe' maintained (ZeroHedge; Al Mayadeen; IranWire; IRNA; CBS News; Trump Truth Social; US DoD; TradingEconomics; Aug 1 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-08-01',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 155 — Lebanon ceasefire Day 43 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 43rd consecutive day; Lebanon toll unchanged at 4,324/12,221; IRGC attacks resumed July 31 evening — Bahrain + Kuwait Gulf bases struck by Iran Army drones; IRGC tanker attacks in Hormuz ended 16-day tactical pause; Houthi Bab al-Mandab blockade Day 13 — Saudi crude shipments through Red Sea halted; no new Houthi attacks on international shipping Aug 1; Hormuz ~7 transits/day (near shutdown); JMIC 'Severe' maintained (IDF; Lebanon MoH; UKMTO; JMIC; Al Jazeera; Aug 1 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-01',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 155 — Houthi Bab al-Mandab blockade Day 13; Saudi crude shipments through Red Sea remain halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping Aug 1; Houthi SABA media claims 'naval blockade of Israeli-linked shipping' ongoing in Bab al-Mandab approaches; Saudi military on heightened alert for further Houthi strikes on Aramco facilities; Red Sea commercial shipping continuing via Cape of Good Hope alternate routing; UKMTO elevated advisory maintained (UKMTO; Al Jazeera; Saudi SPA; JMIC; Aug 1 2026)",
+      type: 'escalation',
+    },
   ],
 };
 
