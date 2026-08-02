@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (1 Aug, Day 155): Brent ~$88+/bbl (+20% monthly gain …',
-    trumpUltimatum: 'LATEST (Aug 2, Day 156): GasLog Shanghai LNG tanker (Qatari cargo) struck ~12.7NM NE of Oman at ~11:30 PM Aug 1 local (Aug 2 UTC) — engine room damaged, fire extinguished, no crew casualties (Bloomberg; gcaptain; UKMTO Aug 2); UKMTO reports 2 new Hormuz attacks; CENTCOM resumes retaliatory strikes on IRGC targets (press release 4559495 "U.S. Strikes IRGC Targets After Attempted Iranian Attacks"); [prior Aug 1 Day 155]: two tankers hit by IRGC July 31, 4 forced back; Iran: Hormuz "not feasible"',
-    iranThreat: 'Aug 2: GasLog Shanghai LNG (Qatari cargo) hit NE of Oman — engine room damage, fire out, crew safe; prior: 31 Jul IRGC hit 2 tankers under US escort, forced 4 back; 14 Jul: M/V Mombasa + M/V Al Bahiyah struck (1 Indian killed); 12 Jul: GFS Galaxy struck (Hormuz CLOSED declared)',
+    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 2 (Day 156): Brent ~$90+/bbl — GasLog Shanghai LNG tanker (Qatari cargo) struck NE of Oman Aug 2 UTC compounding July 31 IRGC tanker attacks; CENTCOM resumes retaliatory strikes on IRGC targets; Goldman Sachs Q3 forecast $103/bbl maintained; Saudi Arabia Q2 2026 GDP -4.8% YoY, oil activities -24.7% YoY (Saudi GASTAT); JMIC "Severe" maintained; [prior Aug 1 Day 155]: Brent ~$88+/bbl surge on IRGC Navy July 31 attacks — monthly +20% gain, largest since March 2026 (Bloomberg; TradingEconomics; Saudi GASTAT; CENTCOM; UKMTO; Al Jazeera; Aug 2)',
+      detail: 'Aug 2 (Day 156): Brent ~$90+/bbl — GasLog Shanghai LNG tanker (Qatari cargo) struck NE of Oman Aug 2 UTC compounding July 31 IRGC tanker attacks; CENTCOM resumes retaliatory strikes on IRGC targets; Goldman Sachs Q3 forecast $103/bbl maintained …',
     },
   ],
 };
