@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-01',
+  updated: '2026-08-02',
 
   current: {
     transitsPerDay: 7,
@@ -59,15 +59,15 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 59,
+    vesselsAttacked: 61,
     seafarersKilled: 18,    // +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (1 Aug, Day 155): Brent ~$88+/bbl (+20% monthly gain …',
-    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
-    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
+    trumpUltimatum: 'LATEST (Aug 2, Day 156): GasLog Shanghai LNG tanker (Qatari cargo) struck ~12.7NM NE of Oman at ~11:30 PM Aug 1 local (Aug 2 UTC) — engine room damaged, fire extinguished, no crew casualties (Bloomberg; gcaptain; UKMTO Aug 2); UKMTO reports 2 new Hormuz attacks; CENTCOM resumes retaliatory strikes on IRGC targets (press release 4559495 "U.S. Strikes IRGC Targets After Attempted Iranian Attacks"); [prior Aug 1 Day 155]: two tankers hit by IRGC July 31, 4 forced back; Iran: Hormuz "not feasible"',
+    iranThreat: 'Aug 2: GasLog Shanghai LNG (Qatari cargo) hit NE of Oman — engine room damage, fire out, crew safe; prior: 31 Jul IRGC hit 2 tankers under US escort, forced 4 back; 14 Jul: M/V Mombasa + M/V Al Bahiyah struck (1 Indian killed); 12 Jul: GFS Galaxy struck (Hormuz CLOSED declared)',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 1 (Day 155): Brent ~$88+/bbl — "climbed above $88 on Friday" (TradingEconomics); surge driven by July 31 IRGC Navy tanker attacks (2 tankers hit under US air escort, 4 others forced back; Iran: Hormuz passage "not feasible"); CENTCOM assessing; Monday open surge expected …',
+      detail: 'Aug 2 (Day 156): Brent ~$90+/bbl — GasLog Shanghai LNG tanker (Qatari cargo) struck NE of Oman Aug 2 UTC compounding July 31 IRGC tanker attacks; CENTCOM resumes retaliatory strikes on IRGC targets; Goldman Sachs Q3 forecast $103/bbl maintained; Saudi Arabia Q2 2026 GDP -4.8% YoY, oil activities -24.7% YoY (Saudi GASTAT); JMIC "Severe" maintained; [prior Aug 1 Day 155]: Brent ~$88+/bbl surge on IRGC Navy July 31 attacks — monthly +20% gain, largest since March 2026 (Bloomberg; TradingEconomics; Saudi GASTAT; CENTCOM; UKMTO; Al Jazeera; Aug 2)',
     },
   ],
 };
