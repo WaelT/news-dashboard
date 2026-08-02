@@ -172,9 +172,12 @@ export const dailyLaunches = [
   { date: '2026-07-31', missiles: 2, drones: 12, intercepted: 7, targets: ['Kuwait', 'Bahrain', 'Strait of Hormuz'] },
   // Day 155 — Iran's army claims follow-up drone attack on US facilities at Kuwait's Ahmad Al-Jaber AB (targeting satellite comms, hangars; Kuwait MoD did not confirm new hits); Trump: "dishonest Iran" — vows further strikes; US Senate votes 47-51 against War Powers resolution (Iran conflict now spans Egypt, Kuwait, Bahrain, Jordan in 72h); 5 IRGC members killed in US-Saudi strikes — bodies returned to Iran (IRNA); CENTCOM assessing July 31 attacks; Brent ~$88+ (monthly +20% gain; "climbed above $88 on Friday" — TradingEconomics); Lebanon ceasefire Day 43 holds; Houthi Bab al-Mandab blockade Day 13 — Saudi crude halted (ZeroHedge; Al Mayadeen; IranWire; IRNA; August 1)
   { date: '2026-08-01', missiles: 0, drones: 5, intercepted: 0, targets: ['Kuwait'] },
+  // Day 156: GasLog Shanghai LNG tanker struck NE of Oman (~12.7NM) at ~11:30 PM Aug 1 local (Aug 2 UTC); UKMTO reports 2 new Hormuz attacks; CENTCOM resumes retaliatory strikes on IRGC targets (press release 4559495); no confirmed new IRGC ballistic missile launches against Gulf states Aug 2 (Bloomberg; gcaptain; CENTCOM; UKMTO; Aug 2 2026)
+  { date: '2026-08-02', missiles: 2, drones: 0, intercepted: 0, targets: ['Strait of Hormuz'] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
+// Updated through 2026-08-02T12:00Z: Day 156 — GasLog Shanghai LNG tanker (Qatari cargo) struck NE of Oman Aug 2 UTC + 1 other vessel per UKMTO (2 new Hormuz attacks); Strait of Hormuz +2 projectiles/missiles; CENTCOM resumes strikes on IRGC targets (press release 4559495) (Bloomberg; gcaptain; UKMTO; CENTCOM; Aug 2 2026)
 // Updated through 2026-08-01T00:00Z: Day 155 — IRGC resumed attacks July 29-31 and Aug 1: Jordan +10 missiles (5 on Jul 29 + 5 on Jul 30); Kuwait +14 drones (2 Jul 30 + 8 Jul 31 + 4 Aug 1 initial claim); Bahrain +4 drones (Jul 31 Sheikh Isa AB); Strait of Hormuz +2 missiles (Jul 31 tanker attacks); Egypt +1 drone (Jul 29 Damietta port) (IranWire; CNBC; Euronews; Al Jazeera; Tasnim; Sharjah24; July 29-Aug 1);
 // Updated through 2026-07-31T12:00Z: Day 154 — IRGC tactical pause Day 16 — no confirmed new launches; CENTCOM strikes pause Day 7; Lebanon ceasefire Day 42 holds; Houthi Bab al-Mandab blockade Day 12; countryBreakdown unchanged from Day 147 (Bloomberg; Al Jazeera; CENTCOM; Reuters; July 31);
 // Updated through 2026-07-30T12:00Z: Day 153 — IRGC tactical pause Day 15 — no confirmed new launches; CENTCOM strikes pause Day 6; Lebanon ceasefire Day 41 holds; Houthi Bab al-Mandab blockade Day 11; countryBreakdown unchanged from Day 147 (Al Jazeera; CENTCOM; Reuters; CBS News; July 30);
@@ -233,7 +236,7 @@ export const countryBreakdown = {
     { country: 'Qatar', count: 206 },
     { country: 'Jordan', count: 127 },
     { country: 'Iraq', count: 22 },
-    { country: 'Strait of Hormuz', count: 12 },
+    { country: 'Strait of Hormuz', count: 14 },
     { country: 'USA', count: 8 },
     { country: 'Oman', count: 5 },
   ],
