@@ -2117,6 +2117,13 @@ const groundOps = {
       event: "Day 156 — Houthi Bab al-Mandab blockade Day 14; Saudi crude shipments through Red Sea remain halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping Aug 2; Saudi military on heightened alert; Red Sea commercial shipping via Cape of Good Hope; UKMTO elevated advisory maintained; Saudi Arabia Q2 2026 GDP fell 4.8% YoY / oil activities fell 24.7% YoY (Saudi GASTAT) (UKMTO; Saudi SPA; Saudi GASTAT; Al Jazeera; Aug 2 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-02',
+      lat: 27.18,
+      lng: 56.27,
+      event: "Day 156 (afternoon) — CENTCOM completes 6th consecutive night of strikes against Iran (announced 2:00 PM ET Aug 2; completed ~18:00 UTC): fighter jets, aerial drones, and warships launched precision munitions hitting dozens of IRGC targets — coastal surveillance and air defense sites, military logistics infrastructure, and maritime capabilities; CENTCOM: 'further degrading Iranian military capabilities and holding Iran accountable for recent attacks on commercial shipping'; no confirmed new IRGC ballistic missile or drone launches against Gulf states as of 18:00 UTC Aug 2; IRGC senior official (Tasnim) warned of attack plan targeting regional energy infrastructure (Saudi Arabia, Qatar, Kuwait, Bahrain, UAE, Israel oil fields) in response to ongoing US strikes; Brent ~$90/bbl (CENTCOM X; JPOST; Al Jazeera; Aug 2 2026)",
+      type: 'escalation',
+    },
   ],
 };
 

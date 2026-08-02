@@ -3067,6 +3067,13 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 156 of the 2026 Iran war. The Lebanon ceasefire held for its 44th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. IDF maintained positions north of the Litani River; Hezbollah observed the ceasefire for the 44th consecutive day. The Houthi maritime blockade of Saudi Arabia entered its 14th day; Saudi crude shipments through Bab al-Mandab remained halted; no new Houthi attacks on international shipping reported. The Strait of Hormuz continued at 99% disruption — ~7 transits/day; JMIC threat level "Severe." Saudi Arabia released Q2 2026 GDP data: economy contracted 4.8% YoY and oil activities fell 24.7% YoY — reflecting the full impact of Hormuz disruption and Houthi Red Sea attacks on Gulf oil production revenue (Lebanese Ministry of Health; IDF; UKMTO; JMIC; Saudi GASTAT; Al Jazeera; Reuters; Aug 2 2026).',
   },
+  {
+    date: '2026-08-02',
+    event: 'Day 156 (PM) — CENTCOM completes 6th consecutive night of strikes on IRGC; Iran warns of energy infrastructure attack plan',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 156 of the 2026 Iran war (afternoon escalation). At 2:00 PM ET on August 2, US Central Command announced and then completed its sixth consecutive night of strikes against Iran, deploying fighter jets, aerial drones, and warships to launch precision munitions against dozens of IRGC targets — including coastal surveillance and air defense sites, military logistics infrastructure, and maritime capabilities. CENTCOM stated the operation was "further degrading Iranian military capabilities and holding Iran accountable for recent attacks on commercial shipping," and noted that over 50,000 US service members in the Middle East remain "vigilant, lethal, and ready." No confirmed new IRGC ballistic missile or drone launches against Gulf states were reported as of 18:00 UTC August 2. An IRGC senior official cited by Tasnim News Agency warned Iran had prepared an attack plan targeting regional energy infrastructure — including oil fields in Saudi Arabia, Qatar, Kuwait, Bahrain, the UAE, and Israel — in response to continued US strikes. Brent crude remained ~$90/bbl (CENTCOM X post; JPost; CENTCOM press release 4559495; Al Jazeera; Tasnim; Aug 2 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
