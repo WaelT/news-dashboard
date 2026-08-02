@@ -2096,6 +2096,27 @@ const groundOps = {
       event: "Day 155 — Houthi Bab al-Mandab blockade Day 13; Saudi crude shipments through Red Sea remain halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping Aug 1; Houthi SABA media claims 'naval blockade of Israeli-linked shipping' ongoing in Bab al-Mandab approaches; Saudi military on heightened alert for further Houthi strikes on Aramco facilities; Red Sea commercial shipping continuing via Cape of Good Hope alternate routing; UKMTO elevated advisory maintained (UKMTO; Al Jazeera; Saudi SPA; JMIC; Aug 1 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-02',
+      lat: 26.04,
+      lng: 57.02,
+      event: "Day 156 — GasLog Shanghai LNG tanker (Qatari cargo, 174,000 m³) struck by unknown projectile ~12.7NM NE of Oman at ~11:30 PM Aug 1 local time (Aug 2 UTC); engine room damaged, power lost, fire extinguished, ship unable to maneuver; crew safe — no casualties reported; UKMTO reports 2 new Hormuz attacks total; vessel identity confirmed by Vanguard Tech + Marisks security consultancies; attribution unconfirmed by UKMTO; CENTCOM resumes retaliatory strikes on IRGC targets ('U.S. Strikes IRGC Targets After Attempted Iranian Attacks' — CENTCOM press release 4559495); Brent ~$90+/bbl expected; Lebanon ceasefire Day 44 holds; Houthi Bab al-Mandab blockade Day 14 — Saudi crude halted; JMIC 'Severe' maintained (Bloomberg; gcaptain; Iran International; Arabtimes; UKMTO; CENTCOM; Aug 2 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-08-02',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 156 — Lebanon ceasefire Day 44 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 44th consecutive day; Lebanon toll unchanged at 4,324/12,221; IRGC Hormuz attacks resumed July 31 continuing — GasLog Shanghai LNG tanker struck Aug 2 UTC; Houthi Bab al-Mandab blockade Day 14 — Saudi crude halted; no new Houthi attacks on international shipping; Hormuz ~7 transits/day; JMIC 'Severe' maintained (IDF; Lebanon MoH; UKMTO; JMIC; Al Jazeera; Aug 2 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-02',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 156 — Houthi Bab al-Mandab blockade Day 14; Saudi crude shipments through Red Sea remain halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping Aug 2; Saudi military on heightened alert; Red Sea commercial shipping via Cape of Good Hope; UKMTO elevated advisory maintained; Saudi Arabia Q2 2026 GDP fell 4.8% YoY / oil activities fell 24.7% YoY (Saudi GASTAT) (UKMTO; Saudi SPA; Saudi GASTAT; Al Jazeera; Aug 2 2026)",
+      type: 'escalation',
+    },
   ],
 };
 

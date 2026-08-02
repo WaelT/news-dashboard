@@ -3053,6 +3053,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 155 of the 2026 Iran war. The Lebanon ceasefire held for its 43rd consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. IDF maintained positions north of the Litani River; Hezbollah observed the ceasefire. The Houthi maritime blockade of Saudi Arabia entered its 13th day; Saudi crude shipments through Bab al-Mandab remained halted; no new Houthi attacks on international shipping. The Strait of Hormuz entered 99% disruption as tanker operators announced a halt to all unauthorized transits following the July 31 IRGC Navy attacks. Only ~7 transits/day recorded (vs 90 pre-war); oil flow ~0.2 mbd (vs 18.1 mbd pre-war); ~280 tankers queued; ~2,100 vessels stranded globally; JMIC threat level "Severe" (Lebanese Ministry of Health; IDF; UKMTO; JMIC; Al Jazeera; Reuters; Aug 1 2026).',
   },
+  {
+    date: '2026-08-02',
+    event: 'Day 156 — GasLog Shanghai LNG tanker struck in Hormuz; CENTCOM resumes IRGC strikes; Bab al-Mandab blockade Day 14',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 156 of the 2026 Iran war. The GasLog Shanghai LNG carrier (loaded with Qatari LNG cargo, 174,000 m³) was struck by an unknown projectile approximately 12.7 nautical miles northeast of Oman in the Strait of Hormuz at approximately 11:30 PM local time on August 1 (August 2 UTC). The vessel sustained engine room damage, suffered a power outage and fire — the fire was subsequently extinguished; the ship was rendered unable to maneuver but crew were uninjured. Security consultancies Vanguard Tech and Marisks identified the vessel. UKMTO reported two separate new attacks in Hormuz, neither attributed to a specific actor. CENTCOM published a new press release titled "U.S. Strikes IRGC Targets After Attempted Iranian Attacks" (Article 4559495), confirming resumed US strikes on IRGC targets in response to the July 31–August 1 Iranian attacks on tankers and Gulf air bases. The Lebanon ceasefire entered its 44th consecutive day. The Houthi maritime blockade of Saudi Arabia entered Day 14; Saudi crude shipments through Bab al-Mandab remained halted. Brent crude expected to surge above $90/bbl at market open; Saudi Arabia Q2 2026 GDP reported -4.8% YoY with oil activities contracting 24.7% YoY (Saudi GASTAT). JMIC "Severe" maintained on Hormuz (Bloomberg; gcaptain; UKMTO; Iran International; CENTCOM press release 4559495; Saudi GASTAT; Al Jazeera; Aug 2 2026).',
+  },
+  {
+    date: '2026-08-02',
+    event: 'Day 156 — Lebanon ceasefire Day 44; Houthi Bab al-Mandab blockade Day 14; Saudi Q2 GDP -4.8%',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 156 of the 2026 Iran war. The Lebanon ceasefire held for its 44th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. IDF maintained positions north of the Litani River; Hezbollah observed the ceasefire for the 44th consecutive day. The Houthi maritime blockade of Saudi Arabia entered its 14th day; Saudi crude shipments through Bab al-Mandab remained halted; no new Houthi attacks on international shipping reported. The Strait of Hormuz continued at 99% disruption — ~7 transits/day; JMIC threat level "Severe." Saudi Arabia released Q2 2026 GDP data: economy contracted 4.8% YoY and oil activities fell 24.7% YoY — reflecting the full impact of Hormuz disruption and Houthi Red Sea attacks on Gulf oil production revenue (Lebanese Ministry of Health; IDF; UKMTO; JMIC; Saudi GASTAT; Al Jazeera; Reuters; Aug 2 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
