@@ -27,14 +27,14 @@ function flagUrl(cc) {
 const DATA_AS_OF = 'AUGUST 1, 2026';
 
 const DEFAULT_CASUALTIES = {
-  iran: { killed: 3823, wounded: 33000 },
+  iran: { killed: 3831, wounded: 33000 },
   israel: { killed: 72, wounded: 9441 },
-  usa: { killed: 22, wounded: 654 },
+  usa: { killed: 26, wounded: 654 },
   lebanon: { killed: 4324, wounded: 12221 },
   yemen: { killed: 0, wounded: 1 },
   iraq: { killed: 180, wounded: 757 },
   uae: { killed: 15, wounded: 246 },
-  kuwait: { killed: 14, wounded: 310 },
+  kuwait: { killed: 15, wounded: 314 },
   bahrain: { killed: 4, wounded: 59 },
   qatar: { killed: 18, wounded: 91 },
   saudi: { killed: 17, wounded: 29 },
