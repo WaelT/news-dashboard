@@ -175,6 +175,8 @@ const casualtyTimeline = [
   { date: '2026-08-01', iran: 3831, lebanon: 4324, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 156: GasLog Shanghai LNG tanker (Qatari cargo) struck NE of Oman at ~11:30 PM Aug 1 local (Aug 2 UTC) — engine room damaged, fire extinguished, no crew casualties; UKMTO reports 2 new Hormuz attacks; CENTCOM resumes retaliatory strikes on IRGC targets after July 31–Aug 1 attacks ("U.S. Strikes IRGC Targets After Attempted Iranian Attacks" — CENTCOM press release 4559495); no new Iran Health Ministry casualty release; Lebanon ceasefire Day 44 holds; Houthi Bab al-Mandab blockade Day 14 — Saudi crude halted; Brent ~$90+/bbl (CENTCOM; Bloomberg; gcaptain; UKMTO; Iran International; Al Jazeera; Aug 2)
   { date: '2026-08-02', iran: 3831, lebanon: 4324, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 157: Diplomatic pause — Trump called off planned strikes Aug 2 (Saturday Truth Social: deal "perimeters" agreed); US-Iran talks beginning Monday Aug 3; CENTCOM strikes paused Day 1; no new IRGC launches; no new Iran Health Ministry casualty release during diplomatic pause; Lebanon ceasefire Day 45 holds; Houthi Bab al-Mandab blockade Day 15 — Saudi crude halted; no new US KIA (26 total per DoD); Brent fell ~5.6% to ~$83/bbl (Al Jazeera; CBS News; Washington Post; Bloomberg; Reuters; Aug 3 2026)
+  { date: '2026-08-03', iran: 3831, lebanon: 4324, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;
