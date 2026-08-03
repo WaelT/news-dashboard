@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (3 Aug, Day 157): Brent ~$83/bbl (−5.6% Sunday on Trump pause-of-strikes announcement; diplomatic talks beginning Monday; TradingEconomics: "Brent Crude Rebounds on Volatile Monday" Aug 3); prior: ~$90+/bbl (1 Aug surge on IRGC tanker attacks + Bab al-Mandab dual chokepoint)',
-    trumpUltimatum: 'LATEST (2 Aug, Day 156 eve): Trump called off planned strikes via Truth Social Saturday evening — peace deal "perimeters" agreed; US-Iran talks to begin Monday Aug 3; parameters include immediate Hormuz reopening + end to Iran nuclear threat + US ends naval blockade + Iran allowed to export oil; prior (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
-    iranThreat: 'LATEST (3 Aug, Day 157): Iran FM Araghchi — Iran-Oman Hormuz route talks in "final stages"; FM spokesperson Baghaei: Hormuz "will in no way return to status before Feb. 28"; Iran FM Pezeshkian: US must honor June MOU; prior (14 Jul): Iran attacked three tankers in the strait',
+    tankerRates: 'LATEST (3 Aug, Day 157): Brent ~$83/bbl (−5.6% Sunday on Trump pause-of-strikes announcement …',
+    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 3 (Day 157): Brent ~$83/bbl (−5.6% Sunday on Trump pause announcement; volatile Monday as talks begin); Trump called off planned Iran strikes Aug 2 evening — US-Iran talks beginning Monday Aug 3; Iran-Oman Hormuz route deal "near final stage"; deal framework includes Hormuz reopening + halt of Iran-backed militia attacks; Asia importers watching closely — Japan, South Korea, India contingency purchases via Cape route ongoing; GasLog Shanghai LNG tanker (Aug 2 UTC) still unable to maneuver off NE Oman; Goldman Sachs revised Q3 forecast pending talk outcomes (Al Jazeera; CBS News; Bloomberg; Washington Post; Reuters; CNBC; Aug 3 2026) …',
+      detail: 'Aug 3 (Day 157): Brent ~$83/bbl (−5.6% Sunday on Trump pause announcement; volatile Monday as talks begin); Trump called off planned Iran strikes Aug 2 evening — US-Iran talks beginning Monday Aug 3; Iran-Oman Hormuz route deal "near final stage" …',
     },
   ],
 };
