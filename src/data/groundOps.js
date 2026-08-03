@@ -2124,6 +2124,34 @@ const groundOps = {
       event: "Day 156 (afternoon) — CENTCOM completes 6th consecutive night of strikes against Iran (announced 2:00 PM ET Aug 2; completed ~18:00 UTC): fighter jets, aerial drones, and warships launched precision munitions hitting dozens of IRGC targets — coastal surveillance and air defense sites, military logistics infrastructure, and maritime capabilities; CENTCOM: 'further degrading Iranian military capabilities and holding Iran accountable for recent attacks on commercial shipping'; no confirmed new IRGC ballistic missile or drone launches against Gulf states as of 18:00 UTC Aug 2; IRGC senior official (Tasnim) warned of attack plan targeting regional energy infrastructure (Saudi Arabia, Qatar, Kuwait, Bahrain, UAE, Israel oil fields) in response to ongoing US strikes; Brent ~$90/bbl (CENTCOM X; JPOST; Al Jazeera; Aug 2 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-02',
+      lat: 38.96,
+      lng: -77.41,
+      event: "Day 156 (evening) — Trump calls off planned Iran strikes via Truth Social: peace deal 'perimeters' agreed; US-Iran talks to begin Monday Aug 3; deal parameters include immediate Hormuz reopening + end to Iran nuclear threat; Brent fell ~5.6% to ~$83/bbl Sunday on ceasefire hopes (Washington Post; CBS News; AP; Bloomberg; Trump Truth Social; Aug 2 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-03',
+      lat: 27.18,
+      lng: 56.27,
+      event: "Day 157 — Hormuz: still ~7 transits/day, 99% disruption; JMIC 'Severe' maintained; CENTCOM strikes paused (Day 1 of new diplomatic pause); no confirmed new IRGC ballistic missile or drone launches; Iran-Oman Hormuz route talks in 'final stages' per Araghchi; US-Iran negotiations begin Monday; Brent ~$83/bbl (Al Jazeera liveblog; CBS News; CNBC; Reuters; Aug 3 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-03',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 157 — Lebanon ceasefire Day 45 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 45th consecutive day; Lebanon toll unchanged at 4,324/12,221; Houthi Bab al-Mandab blockade Day 15 — Saudi crude shipments through Red Sea halted; no new Houthi attacks on international shipping Aug 3; US-Iran talks beginning — diplomatic pressure for Houthi concessions as part of deal framework (IDF; Lebanon MoH; UKMTO; Al Jazeera; Aug 3 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-03',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 157 — Houthi Bab al-Mandab blockade Day 15; Saudi crude shipments through Red Sea remain halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping Aug 3; US-Iran deal framework reportedly includes halting Iran-backed militia attacks — would affect Houthi operations if agreed; Red Sea commercial shipping continuing via Cape of Good Hope (UKMTO; Al Jazeera; Saudi SPA; AP; Aug 3 2026)",
+      type: 'escalation',
+    },
   ],
 };
 
