@@ -65,8 +65,8 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (4 Aug, Day 158): Brent ~$83–84/bbl (volatile; −5.6% Sunday on Trump ceasefire announcement; ~24% gain in July — largest monthly rise since Mar 2026; deal talks ongoing)',
-    trumpUltimatum: 'LATEST (4 Aug): Trump calls Iran-Hormuz deal "imminent" and this Iran\'s "last chance to sign a good document"; Iran-Oman route deal in "final stages" with entry/exit lanes agreed in principle',
+    tankerRates: 'LATEST (4 Aug, Day 158): Brent ~$83–84/bbl (volatile; −5.6% Sunday on Trump ceasefire announcement …',
+    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
     iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
 
