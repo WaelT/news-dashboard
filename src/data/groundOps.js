@@ -2152,6 +2152,34 @@ const groundOps = {
       event: "Day 157 — Houthi Bab al-Mandab blockade Day 15; Saudi crude shipments through Red Sea remain halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping Aug 3; US-Iran deal framework reportedly includes halting Iran-backed militia attacks — would affect Houthi operations if agreed; Red Sea commercial shipping continuing via Cape of Good Hope (UKMTO; Al Jazeera; Saudi SPA; AP; Aug 3 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-04',
+      lat: 27.18,
+      lng: 56.27,
+      event: "Day 158 — Hormuz: still ~7 transits/day, 99% disruption; JMIC 'Severe' maintained; CENTCOM strikes paused Day 2; no confirmed new IRGC ballistic missile or drone launches; Iran-Oman Hormuz route deal in 'final stages' — proposed new corridor has entry and exit lanes, respects both sides' sovereignty (Araghchi + Baghaei); Trump: deal 'imminent' on Hormuz + denuclearization; Brent ~$83–84/bbl volatile (Al Jazeera; CBS News; AP; Arab News; Aug 4 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-04',
+      lat: 38.96,
+      lng: -77.41,
+      event: "Day 158 — Trump at White House: this is Iran's 'last chance to sign a good document'; 'a deal is imminent having to do with the Hormuz Strait and also, ultimately, the denuclearization of Iran'; no deadline set; US-Iran talks Day 2 ongoing (Al Jazeera; CBS News; Bloomberg; Trump White House; Aug 4 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-04',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 158 — Lebanon ceasefire Day 46 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 46th consecutive day; Lebanon toll unchanged at 4,324/12,221; Houthi Bab al-Mandab blockade Day 16 — Saudi crude shipments through Red Sea halted; no new Houthi attacks on international shipping Aug 4 (IDF; Lebanon MoH; UKMTO; Al Jazeera; Aug 4 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-04',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 158 — Houthi Bab al-Mandab blockade Day 16; Saudi crude shipments through Red Sea remain halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping Aug 4; deal framework under discussion would require Houthis to stand down as part of broader Iran agreement; Red Sea commercial shipping continuing via Cape of Good Hope (UKMTO; Al Jazeera; Saudi SPA; AP; Aug 4 2026)",
+      type: 'escalation',
+    },
   ],
 };
 

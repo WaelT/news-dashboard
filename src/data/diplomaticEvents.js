@@ -3088,6 +3088,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 157 of the 2026 Iran war. US-Iran negotiations formally began Monday August 3 following Trump\'s Saturday evening call-off of planned strikes. No new IRGC ballistic missile or drone launches were confirmed as of midday UTC. CENTCOM issued no new press release — strikes remained paused for first time since July 29 resumption (Day 1 of new diplomatic pause). Iranian FM Araghchi confirmed Iran-Oman technical negotiations on a new Hormuz shipping corridor were in "final stages," though FM spokesperson Baghaei warned the strait would "in no way return to the status it was before Feb. 28." Iran FM spokesperson also urged the US to honor the June Islamabad MOU before any new commitments. Brent crude fell to ~$83/bbl on Sunday\'s ceasefire news and traded on a "volatile Monday" (TradingEconomics); oil markets watching talks closely. Lebanon ceasefire Day 45 holds; Houthi Bab al-Mandab blockade Day 15 — Saudi crude shipments through Red Sea halted; Hormuz still ~7 transits/day, 99% disruption (Al Jazeera liveblog Aug 3; CBS News live updates; Washington Post; Bloomberg; CNBC; AP; Reuters; Aug 3 2026).',
   },
+  {
+    date: '2026-08-04',
+    event: 'Day 158 — US-Iran talks Day 2; Trump: "last chance" for Iran; deal "imminent" on Hormuz + denuclearization',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Day 158 of the 2026 Iran war. US-Iran negotiations entered their second day on Tuesday August 4. President Trump, speaking from the White House, called this Iran\'s "last chance to sign a good document," stating that "a deal is imminent having to do with the Hormuz Strait and also, ultimately, the denuclearization of Iran" — and that he had set no deadline. Iranian FM Abbas Araghchi confirmed that negotiations with Oman on a new Hormuz shipping corridor were in their "final stages," describing the proposed arrangement as a new path "neither the northern route nor the southern route" but one respecting both sides\' sovereignty, with designated entry and exit lanes. Iranian FM spokesperson Esmaeil Baghaei cautioned that the strait "will in no way return to the status it was before Feb. 28." CENTCOM strikes remained paused for a second consecutive day. No new IRGC ballistic missile or drone launches were confirmed. Lebanon ceasefire Day 46 holds; Houthi Bab al-Mandab blockade Day 16 — Saudi crude shipments halted; Hormuz ~7 transits/day, 99% disruption; Brent ~$83–84/bbl (Al Jazeera; CBS News; Bloomberg; Reuters; AP; Arab News; Trump White House; Aug 4 2026).',
+  },
+  {
+    date: '2026-08-04',
+    event: 'Day 158 — Lebanon ceasefire Day 46; Houthi Bab al-Mandab blockade Day 16; Hormuz 99% disrupted',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 158 of the 2026 Iran war. The Lebanon ceasefire held for its 46th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 46th consecutive day. The Houthi maritime blockade of Saudi Arabia entered its 16th day; Saudi crude shipments through Bab al-Mandab remained halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping reported. US-Iran deal framework reportedly includes halting Iran-backed militia attacks as a condition. The Strait of Hormuz continued at ~99% disruption — ~7 transits/day; ~280 tankers queued; JMIC threat level "Severe" maintained (Lebanese Ministry of Health; IDF; UKMTO; JMIC; Al Jazeera; Reuters; Aug 4 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
