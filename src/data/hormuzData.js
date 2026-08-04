@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-03',
+  updated: '2026-08-04',
 
   current: {
     transitsPerDay: 7,
@@ -65,8 +65,8 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (3 Aug, Day 157): Brent ~$83/bbl (−5.6% Sunday on Trump pause-of-strikes announcement …',
-    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    tankerRates: 'LATEST (4 Aug, Day 158): Brent ~$83–84/bbl (volatile; −5.6% Sunday on Trump ceasefire announcement; ~24% gain in July — largest monthly rise since Mar 2026; deal talks ongoing)',
+    trumpUltimatum: 'LATEST (4 Aug): Trump calls Iran-Hormuz deal "imminent" and this Iran\'s "last chance to sign a good document"; Iran-Oman route deal in "final stages" with entry/exit lanes agreed in principle',
     iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
 
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 3 (Day 157): Brent ~$83/bbl (−5.6% Sunday on Trump pause announcement; volatile Monday as talks begin); Trump called off planned Iran strikes Aug 2 evening — US-Iran talks beginning Monday Aug 3; Iran-Oman Hormuz route deal "near final stage" …',
+      detail: 'Aug 4 (Day 158): Brent ~$83–84/bbl (volatile; ~24% July gain — largest since Mar 2026); US-Iran talks Day 2 ongoing; Trump calls deal "imminent" on Hormuz + denuclearization — Iran\'s "last chance"; Iran-Oman route in "final stages" with entry/exit lanes …',
     },
   ],
 };
