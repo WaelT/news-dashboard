@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-05',
+  updated: '2026-08-05T20:00Z',
 
   current: {
     transitsPerDay: 7,
@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (4 Aug, Day 158): Brent ~$83–84/bbl (volatile; −5.6% Sunday on Trump ceasefire announcement …',
-    trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
-    iranThreat: '14 Jul: Iran attacked three tankers in the strait',
+    tankerRates: 'LATEST (5 Aug, Day 159): Brent falling toward $80–82/bbl (−2–4% on deal optimism; US-Iran-Oman 60-day Hormuz interim deal near announcement per Axios — inbound northern lane/Iranian waters, outbound southern lane/Omani waters, no tolls, 30-day mine clearance; Dow +800pts, S&P +1.2%, Nasdaq +1.7% on deal hopes; Bessent CNBC Aug 4: "deal today or tomorrow"; Iran FM denies direct US-Iran talks); prior: Brent ~$83–84/bbl −5.6% Sunday on Trump ceasefire announcement; Aug 3 (2210 UTC): unknown projectile hit cargo ship northbound in Omani Hormuz waters — 1 crew missing; Iran FM spokesperson Baghaei cautioned strait "will in no way return to status it was before Feb. 28" (Axios; Forbes; Bloomberg; CNBC; JPost; gcaptain; UKMTO; Aug 4–5 2026)',
+    trumpUltimatum: 'LATEST (5 Aug): US-Iran-Oman 60-day Hormuz deal near announcement — Axios reports as early as Wednesday Aug 5; Iran\'s Khamenei + SNSC completed deal approval Tuesday Aug 4; Witkoff-Araghchi-Al-Busaidi calls ongoing; deal terms: dual shipping lanes (northern inbound / southern outbound), no transit fees, mine clearance in 30 days, 60-day duration with extension option; Bessent (CNBC): "deal today or tomorrow"; Rubio: deal imminent; prior: Trump Aug 2 Truth Social called off planned strikes — peace deal "perimeters" agreed; [20 Jul]: two Greek-owned tankers Kavomaleas + Acheloos struck in Hormuz',
+    iranThreat: 'LATEST (5 Aug): Iran FM denies direct US-Iran negotiations are underway, calling US characterization of talks "inaccurate"; FM Araghchi: strait "will in no way return to the status it was before Feb. 28"; [14 Jul]: Iran attacked three tankers in the strait',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 4 (Day 158): Brent ~$83–84/bbl (volatile; ~24% July gain — largest since Mar 2026); US-Iran talks Day 2 ongoing; Trump calls deal "imminent" on Hormuz + denuclearization — Iran\'s "last chance"; Iran-Oman route in "final stages" with entry/exit lanes …',
+      detail: 'Aug 5 (Day 159): Brent falling toward $80–82/bbl on Hormuz deal optimism (US-Iran-Oman 60-day interim deal near announcement per Axios; deal expected Wednesday Aug 5; inbound northern lane/Iranian waters, outbound southern lane/Omani waters, no transit fees, 30-day mine clearance); global stock rally — Dow +800pts, S&P +1.2%, Nasdaq +1.7%; Asian LNG importers (Japan, South Korea, China, India) monitoring deal progress closely — 60-day window would allow first Gulf crude/LNG cargoes to resume without naval escort …',
     },
   ],
 };
