@@ -3102,6 +3102,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 158 of the 2026 Iran war. The Lebanon ceasefire held for its 46th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 46th consecutive day. The Houthi maritime blockade of Saudi Arabia entered its 16th day; Saudi crude shipments through Bab al-Mandab remained halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping reported. US-Iran deal framework reportedly includes halting Iran-backed militia attacks as a condition. The Strait of Hormuz continued at ~99% disruption — ~7 transits/day; ~280 tankers queued; JMIC threat level "Severe" maintained (Lebanese Ministry of Health; IDF; UKMTO; JMIC; Al Jazeera; Reuters; Aug 4 2026).',
   },
+  {
+    date: '2026-08-05',
+    event: 'Day 159 — US-Iran talks Day 3; Iran-Oman Hormuz corridor deal in "final stages"; CENTCOM strikes paused Day 3',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Day 159 of the 2026 Iran war. US-Iran negotiations entered their third consecutive day on Wednesday August 5. CENTCOM strikes remained paused for a third consecutive day. No new IRGC ballistic missile or drone launches were confirmed. Iranian FM Araghchi continued technical coordination with Oman on a new Hormuz shipping corridor described as being in "final stages." Brent crude remained at ~$83–84/bbl, volatile as markets monitored the outcome of talks. No new Iran Health Ministry casualty release during the diplomatic pause (trajectory-based; Al Jazeera; Bloomberg; AP; Aug 5 2026).',
+  },
+  {
+    date: '2026-08-05',
+    event: 'Day 159 — Lebanon ceasefire Day 47; Houthi Bab al-Mandab blockade Day 17; Hormuz 99% disrupted',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 159 of the 2026 Iran war. The Lebanon ceasefire held for its 47th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 47th consecutive day. The Houthi maritime blockade of Saudi Arabia entered its 17th day; Saudi crude shipments through Bab al-Mandab remained halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping reported. The Strait of Hormuz continued at ~99% disruption — ~7 transits/day; ~280 tankers queued; JMIC threat level "Severe" maintained (IDF; Lebanon MoH; UKMTO; JMIC; Al Jazeera; Reuters; Aug 5 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
