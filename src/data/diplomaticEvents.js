@@ -3116,6 +3116,13 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 159 of the 2026 Iran war. The Lebanon ceasefire held for its 47th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 47th consecutive day. The Houthi maritime blockade of Saudi Arabia entered its 17th day; Saudi crude shipments through Bab al-Mandab remained halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping reported. The Strait of Hormuz continued at ~99% disruption — ~7 transits/day; ~280 tankers queued; JMIC threat level "Severe" maintained (IDF; Lebanon MoH; UKMTO; JMIC; Al Jazeera; Reuters; Aug 5 2026).',
   },
+  {
+    date: '2026-08-05',
+    event: 'Day 159 — US-Iran-Oman 60-day Hormuz deal near announcement; Bessent: "deal today or tomorrow"; Iran FM denies direct US-Iran talks',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Day 159 of the 2026 Iran war. The US, Iran and Oman are closing in on an interim 60-day agreement to reopen the Strait of Hormuz, with the Trump administration aiming for announcement as early as Wednesday August 5 (Axios). The proposed arrangement: inbound vessels entering the Persian Gulf would use a northern shipping lane in Iranian territorial waters; outbound vessels heading toward the Arabian Sea would use a southern lane in Omani territorial waters coordinated with Tehran. No transit fees or tolls during the 60-day period. Naval mines to be cleared from the strait\'s main shipping lane within 30 days. Option to extend for a further 60 days. Iran\'s Supreme Leader Khamenei and Supreme National Security Council completed their approval process on Tuesday August 4. Steve Witkoff (Trump envoy), FM Abbas Araghchi and FM Badr al-Busaidi (Oman) held multiple calls; Qatar, Pakistan and Saudi Arabia also participated as mediators. US Treasury Secretary Scott Bessent told CNBC on August 4: "We are in talks with the Iranians, and I think there is a chance we may have a deal today or tomorrow to open the strait and move towards a more normalized position in this conflict." Secretary of State Rubio likewise stated a Hormuz deal was imminent. Iran\'s FM spokesperson separately denied that direct US-Iran negotiations were underway, calling US characterization of talks "inaccurate." US equity markets rallied sharply on deal optimism — Dow +800 pts (+1.5%), S&P 500 +1.2%, Nasdaq +1.7%; Brent fell toward $80–82/bbl (Axios; Forbes; Bloomberg; Khaleej Times; JPost; Israel HaYom; Washington Times; CNBC; HotAir; Aug 4–5 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

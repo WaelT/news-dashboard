@@ -2201,6 +2201,20 @@ const groundOps = {
       event: "Day 159 — Houthi Bab al-Mandab blockade Day 17; Saudi crude shipments through Red Sea remain halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping Aug 5; US-Iran deal framework under negotiation would require Houthi stand-down; Red Sea commercial shipping continuing via Cape of Good Hope (UKMTO; Al Jazeera; Saudi SPA; AP; Aug 5 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-05',
+      lat: 25.82,
+      lng: 57.15,
+      event: "Day 159 — US-Iran-Oman 60-day Hormuz interim deal near announcement: inbound vessels use northern lane (Iranian waters), outbound use southern lane (Omani waters); no transit fees; mine clearance within 30 days; Iran's Khamenei + SNSC approved Tuesday Aug 4; Witkoff–Araghchi–Al-Busaidi calls ongoing; Bessent on CNBC: 'deal today or tomorrow'; Dow +800pts, S&P +1.2%, Nasdaq +1.7%; Brent falling toward $80–82/bbl (Axios; Bloomberg; Forbes; CNBC; JPost; Aug 4–5 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-03',
+      lat: 24.60,
+      lng: 58.30,
+      event: "Day 157 (2210 UTC) — Unknown projectile strikes cargo ship transiting northbound in Omani territorial waters, Strait of Hormuz: engine room + crew accommodations hit; 1 crew member missing; remaining crew evacuated safely; UKMTO issued maritime advisory; attribution unconfirmed (UKMTO; gcaptain; IranWire; The Hill; Aug 3 2026)",
+      type: 'escalation',
+    },
   ],
 };
 

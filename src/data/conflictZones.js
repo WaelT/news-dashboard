@@ -984,6 +984,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['gaslog shanghai', 'lng tanker oman', 'hormuz lng attack', 'gaslog strike', 'oman sea tanker aug 2'],
   },
+  {
+    id: 163,
+    name: 'Hormuz Cargo Ship Projectile Strike, Omani Waters',
+    lat: 24.60,
+    lng: 58.30,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 157 (Aug 3, 2210 UTC): Unknown projectile strikes northbound cargo ship transiting Omani territorial waters in the Strait of Hormuz — engine room and crew accommodations hit; 1 crew member missing; remaining crew evacuated; UKMTO issued maritime advisory; attribution unconfirmed; strike coincides with day of fresh VHF threats from actors claiming to be "Sepah Navy" against other transiting vessels; US-Iran-Oman 60-day Hormuz deal negotiations ongoing (UKMTO; gcaptain; IranWire; The Hill; Aug 3 2026)',
+    status: 'high-alert',
+    keywords: ['hormuz cargo ship aug 3', 'hormuz projectile aug 3', 'omani waters cargo ship', 'ukmto aug 3', 'hormuz crew missing'],
+  },
 ];
 
 export default conflictZones;
