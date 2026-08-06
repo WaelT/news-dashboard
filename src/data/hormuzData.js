@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-05',
+  updated: '2026-08-06',
 
   current: {
     transitsPerDay: 7,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (5 Aug, Day 159): Brent falling toward $80–82/bbl (−2–4% on deal optimism …',
+    tankerRates: 'LATEST (6 Aug, Day 160): Brent ~$79–81/bbl ($79.26 close Aug 5; −2–4% on deal optimism; Iran-Oman Hormuz shipping agreement reached per Bloomberg Aug 5; Trump aiming for formal Aug 6 announcement; CENTCOM/IRGC strikes paused Day 4) …',
     trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
     iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 5 (Day 159): Brent falling toward $80–82/bbl on Hormuz deal optimism (US-Iran-Oman 60-day interim deal near announcement per Axios; deal expected Wednesday Aug 5; inbound northern lane/Iranian waters, outbound southern lane/Omani waters, no transit fees, 30-day mine clearance) …',
+      detail: 'Aug 6 (Day 160): Brent ~$79–81/bbl ($79.26 close Aug 5) — Iran-Oman reached agreement on Hormuz shipping routes per Bloomberg Aug 5; Trump aiming for formal Aug 6 announcement; terms: 60-day interim dual-lane system (inbound northern/Iranian waters, outbound southern/Omani waters), no transit fees, 30-day mine clearance; Iran-Oman joint statement in final drafting; IRGC/CENTCOM strikes paused Day 4 …',
     },
   ],
 };
