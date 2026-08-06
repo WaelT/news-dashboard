@@ -985,6 +985,17 @@ const conflictZones = [
     keywords: ['gaslog shanghai', 'lng tanker oman', 'hormuz lng attack', 'gaslog strike', 'oman sea tanker aug 2'],
   },
   {
+    id: 164,
+    name: 'Houthi Wafa Tanker Strike — Northern Red Sea, Yanbu',
+    lat: 24.07,
+    lng: 38.07,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 159 (Aug 5): Houthis strike Saudi-flagged oil tanker Wafa with ballistic missiles in northern Red Sea off Yanbu — 8th Saudi tanker struck since Houthi blockade began July 20; Houthis simultaneously announce expansion of target zone to all northern Red Sea shipping threatening Yanbu port and Saudi Aramco East-West Pipeline export terminals; no crew casualties reported; escalation from Bab al-Mandab blockade to deeper Red Sea attack posture; Brent fell despite escalation on Hormuz deal optimism (CNN; Washington Times; Bloomberg; The War Zone; Aug 5 2026)',
+    status: 'high-alert',
+    keywords: ['wafa tanker', 'houthi yanbu', 'northern red sea attack', 'houthi saudi tanker aug 5', 'yanbu missile strike'],
+  },
+  {
     id: 163,
     name: 'Hormuz Cargo Ship Projectile Strike, Omani Waters',
     lat: 24.60,

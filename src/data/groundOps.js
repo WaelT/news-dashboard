@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'AUGUST 1, 2026 (DAY 155 — IRGC ATTACKS RESUMED JULY 31 EVENING; IRGC NAVY HIT 2 TANKERS + FORCED 4 BACK; IRAN: HORMUZ "NOT FEASIBLE"; IRGC DRONES STRUCK BAHRAIN SHEIKH ISA AB + KUWAIT AHMAD AL-JABER AB + ALI AL SALEM AB; US KIA → 26; SENATE WAR POWERS FAILED 47-51; TRUMP VOWS TO KEEP HITTING IRAN; CENTCOM ASSESSING; BRENT ~$88+/BBL (+20% MONTHLY GAIN); HOUTHI BAB AL-MANDAB BLOCKADE DAY 13; LEBANON CEASEFIRE DAY 43 HOLDS)',
+  updated: 'AUGUST 6, 2026 (DAY 160 — IRGC/CENTCOM STRIKES PAUSED DAY 4; IRAN-OMAN HORMUZ DEAL "AGREED IN PRINCIPLE" PER BLOOMBERG AUG 6; HOUTHI STRUCK SAUDI TANKER WAFA IN NORTHERN RED SEA AUG 5 — 8TH SAUDI TANKER HIT; HOUTHIS EXPANDING TARGET ZONE TO NORTHERN RED SEA; BAB AL-MANDAB BLOCKADE DAY 18; LEBANON CEASEFIRE DAY 48 HOLDS; BRENT ~$79–81/BBL)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -2198,7 +2198,14 @@ const groundOps = {
       date: '2026-08-05',
       lat: 14.84,
       lng: 42.95,
-      event: "Day 159 — Houthi Bab al-Mandab blockade Day 17; Saudi crude shipments through Red Sea remain halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping Aug 5; US-Iran deal framework under negotiation would require Houthi stand-down; Red Sea commercial shipping continuing via Cape of Good Hope (UKMTO; Al Jazeera; Saudi SPA; AP; Aug 5 2026)",
+      event: "Day 159 — Houthi Bab al-Mandab blockade Day 17; Saudi crude shipments through Red Sea remain halted — no Saudi oil exports via Red Sea since July 26; Houthis struck Saudi-flagged tanker Wafa with ballistic missiles in northern Red Sea off Yanbu (8th Saudi tanker hit since blockade); Houthis announce expansion to target northern Red Sea shipping threatening Yanbu terminals; US-Iran deal framework under negotiation would require Houthi stand-down (CNN; Washington Times; Bloomberg; UKMTO; Al Jazeera; Aug 5 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-08-05',
+      lat: 24.07,
+      lng: 38.07,
+      event: "Day 159 — Houthi ballistic missile strike on Saudi-flagged oil tanker Wafa in northern Red Sea off Yanbu; Wafa is the 8th Saudi tanker struck since Houthi blockade began July 20; Bloomberg: 'Yemen's Houthis Say They'll Target Tankers in Northern Red Sea' — Houthi escalation from Bab al-Mandab toward deeper Red Sea targeting of Saudi Aramco East-West Pipeline terminals at Yanbu; no crew casualties reported; Houthis vow further northern Red Sea attacks until Hormuz and Bab al-Mandab are resolved (CNN; Washington Times; Bloomberg; The War Zone; Aug 5 2026)",
       type: 'escalation',
     },
     {
@@ -2219,7 +2226,7 @@ const groundOps = {
       date: '2026-08-06',
       lat: 25.82,
       lng: 57.15,
-      event: "Day 160 — Hormuz: still ~7 transits/day, 99% disruption; JMIC 'Severe' maintained; IRGC/CENTCOM strikes paused Day 4; Iran-Oman Hormuz shipping agreement reached (Bloomberg Aug 5) — Trump aiming for formal Aug 6 announcement; joint statement in final drafting; Brent ~$79–81/bbl ($79.26 close Aug 5; Bloomberg; TradingEconomics; Aug 6 2026)",
+      event: "Day 160 — Hormuz: still ~7 transits/day, 99% disruption; JMIC 'Severe' maintained; IRGC/CENTCOM strikes paused Day 4; Bloomberg Aug 6: Iran says deal with Oman on Hormuz 'agreed in principle' — FM spokesperson Baghaei confirmed; joint statement from Tehran + Muscat still in final drafting/review; formal public announcement pending; Trump says 'a lot of progress'; Brent ~$79–81/bbl ($79.26 close Aug 5; Bloomberg; CBS News; Al Jazeera; Aug 6 2026)",
       type: 'diplomacy',
     },
     {
