@@ -2215,6 +2215,27 @@ const groundOps = {
       event: "Day 157 (2210 UTC) — Unknown projectile strikes cargo ship transiting northbound in Omani territorial waters, Strait of Hormuz: engine room + crew accommodations hit; 1 crew member missing; remaining crew evacuated safely; UKMTO issued maritime advisory; attribution unconfirmed (UKMTO; gcaptain; IranWire; The Hill; Aug 3 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-06',
+      lat: 25.82,
+      lng: 57.15,
+      event: "Day 160 — Hormuz: still ~7 transits/day, 99% disruption; JMIC 'Severe' maintained; IRGC/CENTCOM strikes paused Day 4; Iran-Oman Hormuz shipping agreement reached (Bloomberg Aug 5) — Trump aiming for formal Aug 6 announcement; joint statement in final drafting; Brent ~$79–81/bbl ($79.26 close Aug 5; Bloomberg; TradingEconomics; Aug 6 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-06',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 160 — Lebanon ceasefire Day 48 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 48th consecutive day; Lebanon toll unchanged at 4,324/12,221; Houthi Bab al-Mandab blockade Day 18 — Saudi crude shipments through Red Sea halted; no new Houthi attacks on international shipping Aug 6 (IDF; Lebanon MoH; UKMTO; Al Jazeera; Aug 6 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-06',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 160 — Houthi Bab al-Mandab blockade Day 18; Saudi crude shipments through Red Sea remain halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping Aug 6; US-Iran-Oman Hormuz deal nearing announcement would require Houthi stand-down as part of broader ceasefire terms; Red Sea commercial shipping continuing via Cape of Good Hope (UKMTO; Al Jazeera; Saudi SPA; AP; Aug 6 2026)",
+      type: 'escalation',
+    },
   ],
 };
 
