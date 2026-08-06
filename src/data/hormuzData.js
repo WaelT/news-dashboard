@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (6 Aug, Day 160): Brent ~$79–81/bbl ($79.26 close Aug 5; −2–4% on deal optimism) — Bloomberg Aug 6: Iran says Hormuz deal with Oman "agreed in principle"; FM Baghaei confirmed; joint statement in final drafting; formal announcement pending; Houthi struck Saudi tanker Wafa (ballistic missiles, northern Red Sea off Yanbu) Aug 5 — Houthis expanding to northern Red Sea targets …',
+    tankerRates: 'LATEST (6 Aug, Day 160): Brent ~$79–81/bbl ($79.26 close Aug 5 …',
     trumpUltimatum: 'LATEST (20 Jul): two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
     iranThreat: '14 Jul: Iran attacked three tankers in the strait',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 5 (Day 159, Bab al-Mandab blockade Day 17): Houthis struck Saudi-flagged tanker Wafa with ballistic missiles in northern Red Sea off Yanbu — 8th Saudi tanker struck since blockade; Houthis announce expansion to northern Red Sea targeting Yanbu terminals; Saudi crude shipments through Bab al-Mandab remain halted — no Saudi oil exports via Red Sea since July 26; Houthi attacks on Saudi Aramco facilities in Yanbu and Jizan July 25 (BMs + drones; Saudi air defenses intercepted; no casualties) …',
+      detail: 'Aug 5 (Day 159, Bab al-Mandab blockade Day 17): Houthis struck Saudi-flagged tanker Wafa with ballistic missiles in northern Red Sea off Yanbu — 8th Saudi tanker struck since blockade; Houthis announce expansion to northern Red Sea targeting Yanbu terminals …',
     },
     {
       country: 'Iraq',
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 6 (Day 160): Bloomberg: Iran says Hormuz deal with Oman "agreed in principle" — FM spokesperson Baghaei confirmed Aug 6; joint statement from Tehran + Muscat in final drafting/review; formal public announcement pending; Brent ~$79–81/bbl ($79.26 close Aug 5; 3-session drop on deal optimism); Houthi tanker Wafa (northern Red Sea, Aug 5) adds secondary pressure on Saudi exports …',
+      detail: 'Aug 6 (Day 160): Bloomberg: Iran says Hormuz deal with Oman "agreed in principle" — FM spokesperson Baghaei confirmed Aug 6; joint statement from Tehran + Muscat in final drafting/review; formal public announcement pending; Brent ~$79–81/bbl ($79.26 close Aug 5; 3-session drop on deal optimism) …',
     },
   ],
 };
