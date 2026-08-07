@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (7 Aug, Day 161): Brent ~$74–76/bbl (~$75 intraday Aug 7) — falling further on Hormuz deal optimism …',
-    trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
-    iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    tankerRates: 'LATEST (7 Aug, Day 161): Brent ~$74–76/bbl (~$75 intraday Aug 7) — falling further on Hormuz deal optimism; Iran-Oman joint statement in final legal/translation review; Iran parliament reviewing bill to ban US/Israeli ships from Hormuz (Middle East Monitor Aug 6); Deputy FM Gharibabadi: deal "does not mean full reopening" — "a new model distinct from the past 60 years" where "a significant portion" routes through Iranian territorial waters (IranWire Aug 5–6) …',
+    trumpUltimatum: 'LATEST (7 Aug): Trump says Hormuz deal "moving along" but no timeline; US has formally rejected any arrangement creating "impediments" to free transit (CNBC Aug 6); prior (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
+    iranThreat: 'LATEST (7 Aug): Iran parliament reviewing bill to require compensation from "hostile countries" before transit granted; bill would ban US, Israeli, and designated-hostile vessels from Hormuz and the Persian Gulf (Middle East Monitor Aug 6); prior: 20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
 
   disruptions: [

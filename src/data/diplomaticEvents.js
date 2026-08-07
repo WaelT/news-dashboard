@@ -3165,6 +3165,13 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 161 of the 2026 Iran war. The Lebanon ceasefire held for its 49th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. IDF maintained forward positions north of the Litani River; Hezbollah continued observing the ceasefire. The Houthi maritime blockade of Saudi Arabia entered its 19th day; Saudi crude shipments through Bab al-Mandab remained halted; no new Houthi attacks on international shipping reported Aug 7. Hormuz Strait continued at ~99% disruption — ~7 transits/day; ~280 tankers queued; JMIC threat level "Severe" maintained; Iran-Oman joint statement in final drafting; Brent ~$74–76/bbl on deal optimism (IDF; Lebanon MoH; UKMTO; JMIC; Bloomberg; Al Jazeera; Reuters; Aug 7 2026).',
   },
+  {
+    date: '2026-08-07',
+    event: 'Day 161 — Iran parliament reviews Hormuz restriction bill; Gharibabadi: deal is "a new model", not full reopening',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 161 of the 2026 Iran war. Iran\'s parliament reviewed a draft bill that would fundamentally reshape navigation rights in the Strait of Hormuz and the Persian Gulf, Middle East Monitor reported August 6. The bill would ban vessels linked to the United States, Israel and other countries Tehran designates as hostile; countries and individuals deemed responsible for damage to Iran would be denied transit rights until compensation is paid. The legislative push adds parliamentary pressure behind Iran\'s negotiating position with Oman. Separately, Deputy Foreign Minister Kazem Gharibabadi stressed that the Iran-Oman deal "does not mean full reopening of the Strait of Hormuz" and represents "a new model — distinct from the practice of the past sixty years — under which a significant portion of the shipping route will pass through Iran\'s territorial waters." Bloomberg reported Aug 7 that Trump said talks were "moving along" as Iranian lawmakers continued to debate the exact wording. The US has formally rejected any arrangement that creates "impediments" to free Hormuz transit (CNBC Aug 6). Brent ~$74–76/bbl on deal optimism (Middle East Monitor; IranWire; Bloomberg; CNBC; GlobalSecurity/IRNA; Aug 6–7 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
