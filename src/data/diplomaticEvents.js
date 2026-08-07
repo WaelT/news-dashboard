@@ -3151,6 +3151,20 @@ const diplomaticEvents = [
     status: 'implemented',
     detail: 'Day 160 of the 2026 Iran war. The Lebanon ceasefire held for its 48th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. IDF maintained forward positions north of the Litani River; Hezbollah observed the ceasefire for the 48th consecutive day. The Houthi maritime blockade of Saudi Arabia entered its 18th day; Saudi crude shipments through Bab al-Mandab remained halted — no Saudi oil exports via Red Sea since July 26; no new Houthi attacks on international shipping reported Aug 6. The Strait of Hormuz continued at ~99% disruption — ~7 transits/day; ~280 tankers queued; JMIC threat level "Severe" maintained; Iran-Oman Hormuz deal announcement expected Aug 6 (IDF; Lebanon MoH; UKMTO; JMIC; Bloomberg; Al Jazeera; Reuters; Aug 6 2026).',
   },
+  {
+    date: '2026-08-07',
+    event: 'Day 161 — Iran-Oman joint statement in final drafting; US-Iran gap on ship access remains; Brent ~$75',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 161 of the 2026 Iran war. A joint Iran-Oman statement on Hormuz shipping was in final legal and translation review, per Iranian officials cited by Bloomberg and Al Jazeera Aug 7. Iran\'s FM spokesperson Baghaei had confirmed the deal "agreed in principle" at an Aug 6 press conference. Remaining sticking point: Iran insists on banning US Navy vessels and Israeli-linked shipping from the new commercial lanes; Washington has not accepted that condition. Trump said Aug 7 he was "hopeful" but declined to give a timeline. Brent crude fell to ~$74–76/bbl (~$75 intraday Aug 7) as markets priced in imminent Hormuz deal. Lebanon ceasefire Day 49 holds. Houthi Bab al-Mandab blockade Day 19 — Saudi crude shipments via Red Sea halted. IRGC/CENTCOM strikes paused for a 5th consecutive day (Bloomberg; Al Jazeera; CBS News; TradingEconomics; AP; Aug 7 2026).',
+  },
+  {
+    date: '2026-08-07',
+    event: 'Day 161 — Lebanon ceasefire Day 49; Houthi Bab al-Mandab blockade Day 19; Hormuz deal imminent',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 161 of the 2026 Iran war. The Lebanon ceasefire held for its 49th consecutive day; Lebanon toll unchanged at 4,324 killed / 12,221 wounded. IDF maintained forward positions north of the Litani River; Hezbollah continued observing the ceasefire. The Houthi maritime blockade of Saudi Arabia entered its 19th day; Saudi crude shipments through Bab al-Mandab remained halted; no new Houthi attacks on international shipping reported Aug 7. Hormuz Strait continued at ~99% disruption — ~7 transits/day; ~280 tankers queued; JMIC threat level "Severe" maintained; Iran-Oman joint statement in final drafting; Brent ~$74–76/bbl on deal optimism (IDF; Lebanon MoH; UKMTO; JMIC; Bloomberg; Al Jazeera; Reuters; Aug 7 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

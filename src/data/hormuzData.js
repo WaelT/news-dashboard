@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (6 Aug, Day 160): Brent ~$79–81/bbl ($79.26 close Aug 5 …',
-    trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
-    iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    tankerRates: 'LATEST (7 Aug, Day 161): Brent ~$74–76/bbl (~$75 intraday Aug 7) — falling further on Hormuz deal optimism; Iran-Oman joint statement in final legal/translation review; remaining gap: Iran demands ban on US Navy + Israeli-linked ships in new commercial lanes; Trump "hopeful" but no timeline; JMIC "Severe" maintained; Hormuz ~7 transits/day; ~280 tankers queued (Bloomberg; Al Jazeera; TradingEconomics; AP; Aug 7 2026); [prior 6 Aug, Day 160]: Brent ~$79–81/bbl ($79.26 close Aug 5 …',
+    trumpUltimatum: 'LATEST (7 Aug): Iran-Oman joint statement in final drafting; US-Iran gap remains on banning US Navy + Israeli-linked vessels from new Hormuz commercial lanes; Trump said Aug 7 he was "hopeful" but gave no timeline for formal announcement; IRGC/CENTCOM strikes paused Day 5 (Bloomberg; CBS News; AP; Aug 7 2026); [prior 2 Aug]: a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
+    iranThreat: 'LATEST (7 Aug): Iran insists new Hormuz commercial lanes must ban US Navy vessels and Israeli-linked shipping — this remains the key US-Iran gap blocking formal announcement of the agreed-in-principle deal; Iran FM spokesperson Baghaei confirmed deal "agreed in principle" Aug 6 at press conference; joint statement from Tehran + Muscat in final legal/translation review (Bloomberg Aug 7); [prior 20 Jul]: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 6 (Day 160): Bloomberg: Iran says Hormuz deal with Oman "agreed in principle" — FM spokesperson Baghaei confirmed Aug 6; joint statement from Tehran + Muscat in final drafting/review; formal public announcement pending; Brent ~$79–81/bbl ($79.26 close Aug 5; 3-session drop on deal optimism) …',
+      detail: 'Aug 7 (Day 161): Brent ~$74–76/bbl (~$75 intraday Aug 7; TradingEconomics) — further drop on Hormuz deal optimism; Iran-Oman joint statement in final legal/translation review; remaining gap: Iran demands ban on US Navy + Israeli-linked ships; Asia-bound LNG + crude still rerouting via Cape of Good Hope; no new IRGC attacks Aug 7; [prior Aug 6 (Day 160)]: Bloomberg: Iran says Hormuz deal with Oman "agreed in principle" — FM spokesperson Baghaei confirmed Aug 6; joint statement from Tehran + Muscat in final drafting/review; formal public announcement pending; Brent ~$79–81/bbl ($79.26 close Aug 5; 3-session drop on deal optimism) …',
     },
   ],
 };
