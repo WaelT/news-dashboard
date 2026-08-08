@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (8 Aug, Day 162): Brent ~$72–74/bbl — continuing drop on Iran-Oman Hormuz deal optimism; diplomatic pause Day 6; IRGC/CENTCOM strikes paused; deal still in final legal review; Lebanon ceasefire Day 50 holds; Houthi Bab al-Mandab blockade Day 20; JMIC "Severe" maintained (Bloomberg; Al Jazeera; TradingEconomics; Aug 8 2026) …',
+    tankerRates: 'LATEST (8 Aug, Day 162): Brent ~$72–74/bbl — continuing drop on Iran-Oman Hormuz deal optimism; diplomatic pause Day 6 …',
     trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 8 (Day 162): Brent ~$72–74/bbl — continuing drop on Hormuz deal optimism; Iran-Oman deal still in final legal review; remaining gap: Iran demands ban on US Navy + Israeli-linked ships from new commercial lanes; Houthi Bab al-Mandab blockade Day 20 — Saudi crude halted; Lebanon ceasefire Day 50 milestone holds; JMIC "Severe" maintained (Bloomberg; Al Jazeera; TradingEconomics; Aug 8 2026) …',
+      detail: 'Aug 8 (Day 162): Brent ~$72–74/bbl — continuing drop on Hormuz deal optimism; Iran-Oman deal still in final legal review; remaining gap: Iran demands ban on US Navy + Israeli-linked ships from new commercial lanes; Houthi Bab al-Mandab blockade Day 20 — Saudi crude halted …',
     },
   ],
 };
