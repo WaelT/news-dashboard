@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-07',
+  updated: '2026-08-08',
 
   current: {
     transitsPerDay: 7,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (7 Aug, Day 161): Brent ~$74–76/bbl (~$75 intraday Aug 7) — falling further on Hormuz deal optimism …',
+    tankerRates: 'LATEST (8 Aug, Day 162): Brent ~$72–74/bbl — continuing drop on Iran-Oman Hormuz deal optimism; diplomatic pause Day 6; IRGC/CENTCOM strikes paused; deal still in final legal review; Lebanon ceasefire Day 50 holds; Houthi Bab al-Mandab blockade Day 20; JMIC "Severe" maintained (Bloomberg; Al Jazeera; TradingEconomics; Aug 8 2026) …',
     trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 7 (Day 161): Brent ~$74–76/bbl (~$75 intraday Aug 7; TradingEconomics) — further drop on Hormuz deal optimism; Iran-Oman joint statement in final legal/translation review; remaining gap: Iran demands ban on US Navy + Israeli-linked ships …',
+      detail: 'Aug 8 (Day 162): Brent ~$72–74/bbl — continuing drop on Hormuz deal optimism; Iran-Oman deal still in final legal review; remaining gap: Iran demands ban on US Navy + Israeli-linked ships from new commercial lanes; Houthi Bab al-Mandab blockade Day 20 — Saudi crude halted; Lebanon ceasefire Day 50 milestone holds; JMIC "Severe" maintained (Bloomberg; Al Jazeera; TradingEconomics; Aug 8 2026) …',
     },
   ],
 };
