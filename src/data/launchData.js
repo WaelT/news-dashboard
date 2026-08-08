@@ -184,6 +184,8 @@ export const dailyLaunches = [
   { date: '2026-08-06', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 161 — IRGC diplomatic pause Day 5 — no confirmed new ballistic missile or drone launches; CENTCOM strikes paused Day 5; Iran-Oman joint statement in final drafting (Bloomberg Aug 6 confirmed deal "agreed in principle" — FM Baghaei press conference); Lebanon ceasefire Day 49 holds; Houthi Bab al-Mandab blockade Day 19 — Saudi crude halted; Brent ~$74–76/bbl (~$75 intraday Aug 7 falling further on Hormuz deal optimism); countryBreakdown unchanged (Bloomberg; Axios; Al Jazeera; TradingEconomics; Aug 7 2026)
   { date: '2026-08-07', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 162 — IRGC diplomatic pause Day 6 — no confirmed new ballistic missile or drone launches; CENTCOM strikes paused Day 6; Iran-Oman Hormuz deal still in final legal review — remaining gap: Iran's demand to ban US Navy + Israeli-linked ships from new commercial lanes; Lebanon ceasefire Day 50 holds (milestone); Houthi Bab al-Mandab blockade Day 20 — Saudi crude halted; no new Houthi attacks on international shipping; Brent ~$72–74/bbl (continuing drop on deal optimism); countryBreakdown unchanged (Wikipedia 403 — trajectory-based; Bloomberg; Al Jazeera; Aug 8 2026)
+  { date: '2026-08-08', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
