@@ -3172,6 +3172,20 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 161 of the 2026 Iran war. Iran\'s parliament reviewed a draft bill that would fundamentally reshape navigation rights in the Strait of Hormuz and the Persian Gulf, Middle East Monitor reported August 6. The bill would ban vessels linked to the United States, Israel and other countries Tehran designates as hostile; countries and individuals deemed responsible for damage to Iran would be denied transit rights until compensation is paid. The legislative push adds parliamentary pressure behind Iran\'s negotiating position with Oman. Separately, Deputy Foreign Minister Kazem Gharibabadi stressed that the Iran-Oman deal "does not mean full reopening of the Strait of Hormuz" and represents "a new model — distinct from the practice of the past sixty years — under which a significant portion of the shipping route will pass through Iran\'s territorial waters." Bloomberg reported Aug 7 that Trump said talks were "moving along" as Iranian lawmakers continued to debate the exact wording. The US has formally rejected any arrangement that creates "impediments" to free Hormuz transit (CNBC Aug 6). Brent ~$74–76/bbl on deal optimism (Middle East Monitor; IranWire; Bloomberg; CNBC; GlobalSecurity/IRNA; Aug 6–7 2026).',
   },
+  {
+    date: '2026-08-08',
+    event: 'Day 162 — Lebanon ceasefire Day 50 milestone; IRGC/CENTCOM diplomatic pause Day 6; Iran-Oman Hormuz deal in final legal review',
+    type: 'ceasefire',
+    status: 'implemented',
+    detail: 'Day 162 of the 2026 Iran war. The Lebanon ceasefire marked its 50th consecutive day — a milestone without a single confirmed hostile exchange since June 19. The toll remained unchanged at 4,324 killed / 12,221 wounded. IDF maintained forward positions north of the Litani River; Hezbollah continued observing the ceasefire. The IRGC entered its sixth consecutive day of diplomatic pause — no confirmed new ballistic missile or drone launches. CENTCOM likewise held its sixth consecutive day without new strikes on Iran. The Iran-Oman Hormuz deal remained in final legal review; the sole outstanding gap was Iran\'s insistence on barring US Navy vessels and Israeli-linked shipping from the new commercial lanes — Washington had not formally accepted that condition as of the August 8 update. No new US KIA reported; US total held at 26. Brent crude fell further to ~$72–74/bbl on continued deal optimism. JMIC "Severe" threat level maintained (Bloomberg; Al Jazeera; DoD; TradingEconomics; Wikipedia API 403 — trajectory-based; Aug 8 2026).',
+  },
+  {
+    date: '2026-08-08',
+    event: 'Day 162 — Houthi Bab al-Mandab blockade Day 20; Saudi crude shipments remain halted',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 162 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 20th consecutive day. Saudi crude shipments through the Red Sea remained halted since July 26 — no Saudi oil was exported via the Red Sea corridor. No new Houthi attacks on international commercial shipping were reported August 8. Red Sea commercial traffic continued to transit via the Cape of Good Hope. The Houthi stand-down required under broader ceasefire terms had not been agreed as of August 8; Houthi delegation indicated they would resume normal shipping only after a Hormuz deal is formalized (UKMTO; Al Jazeera; Saudi SPA; Aug 8 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

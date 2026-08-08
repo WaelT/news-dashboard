@@ -1006,6 +1006,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['hormuz cargo ship aug 3', 'hormuz projectile aug 3', 'omani waters cargo ship', 'ukmto aug 3', 'hormuz crew missing'],
   },
+  {
+    id: 165,
+    name: 'Hormuz Strait — Diplomatic Pause Day 6, Lebanon Ceasefire Day 50',
+    lat: 26.10,
+    lng: 56.60,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 162 (Aug 8): IRGC/CENTCOM diplomatic pause enters sixth consecutive day — no confirmed new IRGC ballistic missile or drone launches; no new CENTCOM strikes on Iran. Iran-Oman Hormuz dual-lane deal remains in final legal review; sole outstanding gap: Iran demands explicit prohibition on US Navy and Israeli-linked vessels from new commercial lanes, which Washington has rejected. Lebanon ceasefire marks 50-day milestone (4,324 killed / 12,221 wounded — unchanged). Houthi Bab al-Mandab blockade Day 20 — Saudi crude shipments via Red Sea remain halted. Hormuz at ~7 tanker transits/day (99% disruption). ~280 tankers queued. JMIC threat level "Severe" maintained. Brent ~$72–74/bbl (continuing drop on deal optimism). No new US KIA — 26 total per DoD. Wikipedia API unavailable (403) — trajectory-based update (Bloomberg; Al Jazeera; TradingEconomics; JMIC; UKMTO; DoD; Aug 8 2026)',
+    status: 'high-alert',
+    keywords: ['hormuz aug 8', 'diplomatic pause day 6', 'lebanon ceasefire day 50', 'houthi blockade day 20', 'brent aug 8', 'iran oman deal'],
+  },
 ];
 
 export default conflictZones;
