@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (9 Aug, Day 163): Brent ~$70–72/bbl — continuing decline on imminent Iran-Oman Hormuz deal; diplomatic pause Day 7; US-Iran bridging remaining gap on ship access via Omani mediators …',
+    tankerRates: 'LATEST (9 Aug, Day 163): Brent ~$70–72/bbl — continuing decline on imminent Iran-Oman Hormuz deal …',
     trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 9 (Day 163): Brent ~$70–72/bbl — continued decline on Hormuz deal optimism; Iran-Oman deal in final legal/translation review; US and Iran narrowing remaining gap on US Navy + Israeli-linked ship access clause via Omani mediators; formal announcement expected imminently; Houthi Bab al-Mandab blockade Day 21 — Saudi crude halted …',
+      detail: 'Aug 9 (Day 163): Brent ~$70–72/bbl — continued decline on Hormuz deal optimism; Iran-Oman deal in final legal/translation review; US and Iran narrowing remaining gap on US Navy + Israeli-linked ship access clause via Omani mediators; formal announcement expected imminently …',
     },
   ],
 };
