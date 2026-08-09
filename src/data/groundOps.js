@@ -2285,6 +2285,27 @@ const groundOps = {
       event: "Day 162 — Houthi Bab al-Mandab blockade Day 20; Saudi crude through Red Sea remains halted since July 26; no new Houthi attacks on international shipping Aug 8; Houthi stand-down not yet agreed; Red Sea commercial shipping continuing via Cape of Good Hope (UKMTO; Al Jazeera; Saudi SPA; Aug 8 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-09',
+      lat: 25.82,
+      lng: 57.15,
+      event: "Day 163 — Hormuz: ~7 transits/day, 99% disruption; IRGC/CENTCOM diplomatic pause Day 7; Iran-Oman deal in final legal/translation review — US-Iran narrowing remaining gap on US Navy + Israeli-linked ship access clause via Omani mediators; formal announcement expected imminently; Brent ~$70–72/bbl (continued decline on deal optimism); JMIC 'Severe' maintained (Bloomberg; Al Jazeera; Reuters; TradingEconomics; Aug 9 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-09',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 163 — Lebanon ceasefire Day 51 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 51st consecutive day; Lebanon toll unchanged at 4,324/12,221; no new hostile exchanges reported Aug 9 (IDF; Lebanon MoH; Al Jazeera; Aug 9 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-09',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 163 — Houthi Bab al-Mandab blockade Day 21; Saudi crude through Red Sea remains halted since July 26; no new Houthi attacks on international shipping Aug 9; Houthi stand-down required under broader Iran ceasefire terms not yet agreed; Hormuz deal finalization expected to trigger linked Houthi stand-down; Red Sea commercial shipping continuing via Cape of Good Hope (UKMTO; Al Jazeera; Saudi SPA; Bloomberg; Aug 9 2026)",
+      type: 'escalation',
+    },
   ],
 };
 
