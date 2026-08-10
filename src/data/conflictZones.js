@@ -1017,6 +1017,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['hormuz aug 8', 'diplomatic pause day 6', 'lebanon ceasefire day 50', 'houthi blockade day 20', 'brent aug 8', 'iran oman deal'],
   },
+  {
+    id: 166,
+    name: 'Hormuz Strait — Diplomatic Pause Day 8, Lebanon Ceasefire Day 52',
+    lat: 26.15,
+    lng: 56.55,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 164 (Aug 10): IRGC/CENTCOM diplomatic pause enters eighth consecutive day — no confirmed new IRGC ballistic missile or drone launches; no new CENTCOM strikes on Iran. Iran-Oman Hormuz deal in final review; formal announcement expected imminently — no confirmed signing as of Aug 10 update. Lebanon ceasefire Day 52 (4,324 killed / 12,221 wounded — unchanged since June 23). Houthi Bab al-Mandab blockade Day 22 — Saudi crude shipments via Red Sea remain halted for 15th consecutive day. Hormuz at ~7 tanker transits/day (99% disruption). ~280 tankers queued. JMIC threat level "Severe" maintained pending formal deal signing. Brent ~$68–70/bbl — approaching pre-war level of ~$68 as markets fully price in imminent Hormuz reopening. No new US KIA — 26 total per DoD. Wikipedia API unavailable (403) — trajectory-based update (Bloomberg; Al Jazeera; TradingEconomics; JMIC; UKMTO; DoD; Aug 10 2026)',
+    status: 'high-alert',
+    keywords: ['hormuz aug 10', 'diplomatic pause day 8', 'lebanon ceasefire day 52', 'houthi blockade day 22', 'brent aug 10', 'iran oman deal final'],
+  },
 ];
 
 export default conflictZones;
