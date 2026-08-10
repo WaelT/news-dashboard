@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (10 Aug, Day 164): Brent ~$68–70/bbl — nearing pre-war $68 level as markets price in imminent formal Hormuz reopening; Iran-Oman deal in final review; no confirmed formal signing Aug 10; IRGC/CENTCOM diplomatic pause Day 8; Houthi Bab al-Mandab blockade Day 22; ~280 tankers queued outside Hormuz; JMIC "Severe" maintained pending signing …',
+    tankerRates: 'LATEST (10 Aug, Day 164): Brent ~$68–70/bbl — nearing pre-war $68 level as markets price in imminent formal Hormuz reope …',
     trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 10 (Day 164): Brent ~$68–70/bbl — approaching pre-war $68 level on imminent Hormuz deal; Iran-Oman deal in final review — no confirmed formal signing Aug 10; IRGC/CENTCOM diplomatic pause Day 8; formal announcement expected imminently; Houthi Bab al-Mandab blockade Day 22 — Saudi Red Sea crude halted; ~280 tankers queued; JMIC "Severe" maintained pending signing (trajectory-based; Wikipedia API 403; Bloomberg; Al Jazeera; Reuters; Aug 10 2026) …',
+      detail: 'Aug 10 (Day 164): Brent ~$68–70/bbl — approaching pre-war $68 level on imminent Hormuz deal; Iran-Oman deal in final review — no confirmed formal signing Aug 10; IRGC/CENTCOM diplomatic pause Day 8; formal announcement expected imminently …',
     },
   ],
 };
