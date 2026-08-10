@@ -189,6 +189,8 @@ const casualtyTimeline = [
   { date: '2026-08-08', iran: 3831, lebanon: 4324, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 163: IRGC diplomatic pause Day 7 — no confirmed new launches; CENTCOM strikes paused Day 7; no new Iran Health Ministry casualty release during diplomatic pause; Lebanon ceasefire Day 51 holds (toll unchanged 4,324/12,221); Houthi Bab al-Mandab blockade Day 21 — Saudi crude halted; Iran-Oman Hormuz deal in final legal/translation review — remaining gap on US Navy + Israeli-linked ship access being bridged via Omani mediators; no new US KIA (26 total per DoD); Brent ~$70–72/bbl (continued decline on deal optimism; trajectory-based; Bloomberg; Al Jazeera; Reuters; Aug 9 2026)
   { date: '2026-08-09', iran: 3831, lebanon: 4324, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 164: IRGC diplomatic pause Day 8 — no confirmed new launches; CENTCOM strikes paused Day 8; no new Iran Health Ministry casualty release during diplomatic pause (Iran: 3,831 killed — unchanged since Aug 1 Iran Health Ministry update); Lebanon ceasefire Day 52 holds (toll unchanged 4,324/12,221); Houthi Bab al-Mandab blockade Day 22 — Saudi crude halted; Iran-Oman Hormuz deal in final review — no confirmed formal signing as of Aug 10 update; no new US KIA (26 total per DoD); Brent ~$68–70/bbl (nearing pre-war $68 — markets pricing in imminent Hormuz reopening); JMIC "Severe" maintained; Wikipedia API 403 — all figures trajectory-based (Bloomberg; Al Jazeera; Reuters; DoD; Aug 10 2026)
+  { date: '2026-08-10', iran: 3831, lebanon: 4324, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;
