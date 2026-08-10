@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-09',
+  updated: '2026-08-10',
 
   current: {
     transitsPerDay: 7,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (9 Aug, Day 163): Brent ~$70–72/bbl — continuing decline on imminent Iran-Oman Hormuz deal …',
+    tankerRates: 'LATEST (10 Aug, Day 164): Brent ~$68–70/bbl — nearing pre-war $68 level as markets price in imminent formal Hormuz reopening; Iran-Oman deal in final review; no confirmed formal signing Aug 10; IRGC/CENTCOM diplomatic pause Day 8; Houthi Bab al-Mandab blockade Day 22; ~280 tankers queued outside Hormuz; JMIC "Severe" maintained pending signing …',
     trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 9 (Day 163): Brent ~$70–72/bbl — continued decline on Hormuz deal optimism; Iran-Oman deal in final legal/translation review; US and Iran narrowing remaining gap on US Navy + Israeli-linked ship access clause via Omani mediators; formal announcement expected imminently …',
+      detail: 'Aug 10 (Day 164): Brent ~$68–70/bbl — approaching pre-war $68 level on imminent Hormuz deal; Iran-Oman deal in final review — no confirmed formal signing Aug 10; IRGC/CENTCOM diplomatic pause Day 8; formal announcement expected imminently; Houthi Bab al-Mandab blockade Day 22 — Saudi Red Sea crude halted; ~280 tankers queued; JMIC "Severe" maintained pending signing (trajectory-based; Wikipedia API 403; Bloomberg; Al Jazeera; Reuters; Aug 10 2026) …',
     },
   ],
 };
