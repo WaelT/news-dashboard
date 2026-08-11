@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (11 Aug, Day 165): Brent ~$65–68/bbl — at or below pre-war $68 level; markets fully pricing in imminent Hormuz forma …',
+    tankerRates: 'LATEST (11 Aug, Day 165): Brent ~$65–68/bbl — at or below pre-war $68 level …',
     trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
