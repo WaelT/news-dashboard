@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-10',
+  updated: '2026-08-11',
 
   current: {
     transitsPerDay: 7,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (10 Aug, Day 164): Brent ~$68–70/bbl — nearing pre-war $68 level as markets price in imminent formal Hormuz reope …',
+    tankerRates: 'LATEST (11 Aug, Day 165): Brent ~$65–68/bbl — at or below pre-war $68 level; markets fully pricing in imminent Hormuz forma …',
     trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 10 (Day 164): Brent ~$68–70/bbl — approaching pre-war $68 level on imminent Hormuz deal; Iran-Oman deal in final review — no confirmed formal signing Aug 10; IRGC/CENTCOM diplomatic pause Day 8; formal announcement expected imminently …',
+      detail: 'Aug 11 (Day 165): Brent ~$65–68/bbl — at or below pre-war $68 level on imminent Hormuz deal; Iran-Oman deal in final review — no confirmed formal signing Aug 11; IRGC/CENTCOM diplomatic pause Day 9; formal announcement expected imminently …',
     },
   ],
 };
