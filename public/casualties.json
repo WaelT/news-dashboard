@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T12:58:32.944Z",
+  "updatedAt": "2026-08-12T18:55:59.486Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "lebanon": {
@@ -30,6 +30,10 @@
       "killed": 12,
       "wounded": 190
     },
+    "yemen": {
+      "killed": 6,
+      "wounded": 6
+    },
     "palestine": {
       "killed": 4,
       "wounded": 13
@@ -57,10 +61,6 @@
     "azerbaijan": {
       "killed": 0,
       "wounded": 4
-    },
-    "yemen": {
-      "killed": 0,
-      "wounded": 1
     },
     "france": {
       "killed": 2,
