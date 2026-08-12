@@ -3228,6 +3228,20 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 165 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 23rd consecutive day. Saudi crude shipments through the Red Sea remained halted since July 26 — now in their 16th consecutive day of suspension. No new Houthi attacks on international commercial shipping were reported August 11. Houthi spokesman indicated the blockade would be lifted in coordination with any formal Iran-Oman Hormuz deal announcement. International commercial shipping via the Red Sea corridor continued to be rerouted via the Cape of Good Hope. Dual-chokepoint pressure (Hormuz + Bab al-Mandab) persisted as the imminent formal Hormuz signing remained the key variable (UKMTO; Al Jazeera; Saudi SPA; Houthi spokesman; Aug 11 2026).',
   },
+  {
+    date: '2026-08-12',
+    event: 'Day 166 — IRGC/CENTCOM diplomatic pause Day 10; Iran-Oman Hormuz deal in final review; Lebanon ceasefire Day 54',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Day 166 of the 2026 Iran war. The IRGC entered its tenth consecutive day of diplomatic pause — no confirmed new ballistic missile or drone launches. CENTCOM likewise held its tenth consecutive day without new strikes on Iran. The Iran-Oman Hormuz dual-lane deal remained in final legal review with no confirmed formal signing as of the August 12 update; Omani mediators continued to work through the ship access clause and mine clearance timeline with Iranian and US counterparts. The Lebanon ceasefire held for its 54th consecutive day; toll unchanged at 4,324 killed / 12,221 wounded. No new US KIA; US total remained at 26 per DoD. Brent crude fell to ~$63–66/bbl — below the pre-war level of ~$68/bbl — as markets continued to price in an imminent formal Hormuz reopening announcement. JMIC \'Severe\' threat maintained pending formal signing (trajectory-based; Wikipedia API 403; Bloomberg; Al Jazeera; Reuters; DoD; Aug 12 2026).',
+  },
+  {
+    date: '2026-08-12',
+    event: 'Day 166 — Houthi Bab al-Mandab blockade Day 24; Saudi crude via Red Sea halted for 17th day',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 166 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 24th consecutive day. Saudi crude shipments through the Red Sea remained halted since July 26 — now in their 17th consecutive day of suspension. No new Houthi attacks on international commercial shipping were reported August 12. Houthi spokesman reiterated that the Bab al-Mandab blockade would be lifted concurrently with or after a formal Iran-Oman Hormuz deal announcement. International commercial shipping via the Red Sea corridor continued to be rerouted via the Cape of Good Hope. Dual-chokepoint pressure (Hormuz + Bab al-Mandab) persisted as the imminent formal Hormuz signing remained the key variable (UKMTO; Al Jazeera; Saudi SPA; Houthi spokesman; Aug 12 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
