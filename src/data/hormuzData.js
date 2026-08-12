@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (12 Aug, Day 166): Brent ~$63–66/bbl — below pre-war $68 level; markets fully pricing in imminent formal Hormuz deal; IRGC/CENTCOM diplomatic pause Day 10 …',
-    trumpUltimatum: 'LATEST (12 Aug): Iran-Oman Hormuz dual-lane deal in final legal review; no confirmed formal signing as of Aug 12; Omani mediators finalizing ship access clause and mine clearance timeline',
-    iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz; IRGC diplomatic pause Day 10 as of Aug 12 — no new maritime threats issued',
+    tankerRates: 'LATEST (12 Aug, Day 166): Brent ~$63–66/bbl — below pre-war $68 level …',
+    trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
+    iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
 
   disruptions: [
@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 12 (Day 166): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 12; Omani mediators finalizin ship access clause and mine clearance timeline with Iranian and US counterparts; Oman Malacca-model joint regional mechanism remains the framework basis (Omani FM Al-Busaidi; Aug 12 2026) …',
+      detail: 'Aug 12 (Day 166): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 12; Omani mediators finalizin ship access clause and mine clearance timeline with Iranian and US counterparts …',
     },
     {
       country: 'Asia',
