@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-11',
+  updated: '2026-08-12',
 
   current: {
     transitsPerDay: 7,
@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (11 Aug, Day 165): Brent ~$65–68/bbl — at or below pre-war $68 level …',
-    trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
-    iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    tankerRates: 'LATEST (12 Aug, Day 166): Brent ~$63–66/bbl — below pre-war $68 level; markets fully pricing in imminent formal Hormuz deal; IRGC/CENTCOM diplomatic pause Day 10 …',
+    trumpUltimatum: 'LATEST (12 Aug): Iran-Oman Hormuz dual-lane deal in final legal review; no confirmed formal signing as of Aug 12; Omani mediators finalizing ship access clause and mine clearance timeline',
+    iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz; IRGC diplomatic pause Day 10 as of Aug 12 — no new maritime threats issued',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 1 (Day 155): Oman Malacca-model joint regional mechanism — presented to Iran July 28 (Day 151) and supported by Saudi Arabia, Qatar, Egypt, Pakistan — allows Iran revenue + institutional role in Hormuz governance without veto over transit rights; Iran has not formally accepted …',
+      detail: 'Aug 12 (Day 166): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 12; Omani mediators finalizin ship access clause and mine clearance timeline with Iranian and US counterparts; Oman Malacca-model joint regional mechanism remains the framework basis (Omani FM Al-Busaidi; Aug 12 2026) …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 11 (Day 165): Brent ~$65–68/bbl — at or below pre-war $68 level on imminent Hormuz deal; Iran-Oman deal in final review — no confirmed formal signing Aug 11; IRGC/CENTCOM diplomatic pause Day 9; formal announcement expected imminently …',
+      detail: 'Aug 12 (Day 166): Brent ~$63–66/bbl — below pre-war $68 level as markets fully price in imminent Hormuz formal deal; Iran-Oman deal in final review — no confirmed formal signing Aug 12; IRGC/CENTCOM diplomatic pause Day 10; formal announcement expected imminently …',
     },
   ],
 };
