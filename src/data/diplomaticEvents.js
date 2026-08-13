@@ -3242,6 +3242,13 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 166 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 24th consecutive day. Saudi crude shipments through the Red Sea remained halted since July 26 — now in their 17th consecutive day of suspension. No new Houthi attacks on international commercial shipping were reported August 12. Houthi spokesman reiterated that the Bab al-Mandab blockade would be lifted concurrently with or after a formal Iran-Oman Hormuz deal announcement. International commercial shipping via the Red Sea corridor continued to be rerouted via the Cape of Good Hope. Dual-chokepoint pressure (Hormuz + Bab al-Mandab) persisted as the imminent formal Hormuz signing remained the key variable (UKMTO; Al Jazeera; Saudi SPA; Houthi spokesman; Aug 12 2026).',
   },
+  {
+    date: '2026-08-13',
+    event: 'Day 167 — IRGC/CENTCOM diplomatic pause Day 11; Iran-Oman Hormuz deal in final legal review; Lebanon ceasefire Day 55 holds; Houthi Bab al-Mandab blockade Day 25',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 167 of the 2026 Iran war. The IRGC/CENTCOM mutual diplomatic pause entered its 11th consecutive day with no confirmed new Iranian ballistic missile or drone launches and no new US retaliatory strikes. The Iran-Oman Hormuz dual-lane deal remained in final legal review with no confirmed formal signing as of August 13 — omani mediators continued finalizing the ship access clause and mine clearance timeline with Iranian and US counterparts. The Lebanon ceasefire entered its 55th consecutive day with the toll unchanged at 4,324 killed / 12,221 wounded. The Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 25th consecutive day — Saudi crude shipments through the Red Sea remained halted for the 18th day since July 26. No new Houthi attacks on international commercial shipping were reported August 13. Brent crude continued falling to ~$60–63/bbl as markets fully priced in the imminent formal Hormuz announcement. JMIC "Severe" threat level maintained pending formal signing. No new US KIA (26 total per DoD). All figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; DoD; Aug 13 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
