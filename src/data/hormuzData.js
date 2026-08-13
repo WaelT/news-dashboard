@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (13 Aug, Day 167): Brent ~$60–63/bbl — below pre-war $68 level; markets fully pricing in imminent Iran-Oman Hormuz deal; IRGC/CENTCOM diplomatic pause Day 11; no new launches; JMIC "Severe" maintained pending formal signing …',
+    tankerRates: 'LATEST (13 Aug, Day 167): Brent ~$60–63/bbl — below pre-war $68 level …',
     trumpUltimatum: 'LATEST (2 Aug): a vessel reported a nearby explosion while on the Omani side of the Strait of Hormuz',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 13 (Day 167): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 13; Omani mediators finalizing ship access clause and mine clearance timeline with Iranian and US counterparts; formal announcement expected imminently (Bloomberg; Al Jazeera; Reuters; Aug 13 2026) …',
+      detail: 'Aug 13 (Day 167): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 13; Omani mediators finalizing ship access clause and mine clearance timeline with Iranian and US counterparts; formal announcement expected imminently (Bloomberg; Al Jazeera; Reuters …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 13 (Day 167): Brent ~$60–63/bbl — continuing decline below pre-war $68 level; markets fully pricing in imminent Hormuz deal announcement; Iran-Oman deal in final review — no confirmed formal signing Aug 13; IRGC/CENTCOM diplomatic pause Day 11; Houthi Bab al-Mandab blockade Day 25 — Saudi crude via Red Sea halted for 18th consecutive day; formal Hormuz announcement expected imminently (Bloomberg; Al Jazeera; Reuters; Aug 13 2026) …',
+      detail: 'Aug 13 (Day 167): Brent ~$60–63/bbl — continuing decline below pre-war $68 level; markets fully pricing in imminent Hormuz deal announcement; Iran-Oman deal in final review — no confirmed formal signing Aug 13; IRGC/CENTCOM diplomatic pause Day 11 …',
     },
   ],
 };
