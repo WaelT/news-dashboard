@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (15 Aug, Day 169): Brent ~$54–58/bbl — continuing decline well below pre-war $68 level; IRGC/CENTCOM diplomatic pause Day 13; Iran-Oman Hormuz deal in final legal review — no confirmed formal signing as of Aug 15; Houthi Bab al-Mandab blockade Day 27 (Bloomberg; Al Jazeera; TradingEconomics; Aug 15 2026) …',
+    tankerRates: 'LATEST (15 Aug, Day 169): Brent ~$54–58/bbl — continuing decline well below pre-war $68 level …',
     trumpUltimatum: 'LATEST (3 Aug): the bulk carrier Minoan Pioneer was reportedly struck on its engine room by a projectile in the Strait, causing a blackout and leaving the third engineer missing',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
