@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-14',
+  updated: '2026-08-15',
 
   current: {
     transitsPerDay: 7,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (14 Aug, Day 168): Brent ~$57–61/bbl — well below pre-war $68 level; IRGC/CENTCOM diplomatic pause Day 12 …',
+    tankerRates: 'LATEST (15 Aug, Day 169): Brent ~$54–58/bbl — continuing decline well below pre-war $68 level; IRGC/CENTCOM diplomatic pause Day 13; Iran-Oman Hormuz deal in final legal review — no confirmed formal signing as of Aug 15; Houthi Bab al-Mandab blockade Day 27 (Bloomberg; Al Jazeera; TradingEconomics; Aug 15 2026) …',
     trumpUltimatum: 'LATEST (3 Aug): the bulk carrier Minoan Pioneer was reportedly struck on its engine room by a projectile in the Strait, causing a blackout and leaving the third engineer missing',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 14 (Day 168): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 14; Omani mediators continuing to finalize ship access clause and mine clearance timeline with Iranian and US counterparts …',
+      detail: 'Aug 15 (Day 169): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 15; Omani mediators continuing to finalize ship access clause and mine clearance timeline with Iranian and US counterparts; formal announcement expected imminently …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 14 (Day 168): Brent ~$57–61/bbl — continuing decline well below pre-war $68 level; markets fully pricing in imminent Hormuz deal announcement; Iran-Oman deal in final legal review — no confirmed formal signing Aug 14; IRGC/CENTCOM diplomatic pause Day 12 …',
+      detail: 'Aug 15 (Day 169): Brent ~$54–58/bbl — continuing decline well below pre-war $68 level; markets fully pricing in imminent Hormuz deal announcement; Iran-Oman deal in final legal review — no confirmed formal signing Aug 15; IRGC/CENTCOM diplomatic pause Day 13 …',
     },
   ],
 };
