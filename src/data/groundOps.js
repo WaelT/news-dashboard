@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'AUGUST 14, 2026 (DAY 168 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 12; IRAN-OMAN HORMUZ DEAL IN FINAL LEGAL REVIEW — NO FORMAL SIGNING YET; HOUTHI BAB AL-MANDAB BLOCKADE DAY 26; SAUDI CRUDE HALTED FOR 19TH DAY; LEBANON CEASEFIRE DAY 56 HOLDS; BRENT ~$57–61/BBL)',
+  updated: 'AUGUST 15, 2026 (DAY 169 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 13; IRAN-OMAN HORMUZ DEAL IN FINAL LEGAL REVIEW — NO FORMAL SIGNING YET; HOUTHI BAB AL-MANDAB BLOCKADE DAY 27; SAUDI CRUDE HALTED FOR 20TH DAY; LEBANON CEASEFIRE DAY 57 HOLDS; BRENT ~$54–58/BBL)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -2388,6 +2388,27 @@ const groundOps = {
       lat: 14.84,
       lng: 42.95,
       event: "Day 167 — Houthi Bab al-Mandab blockade Day 25; Saudi crude through Red Sea halted for 18th consecutive day since July 26; no new Houthi attacks on international shipping Aug 13; Houthi stand-down awaiting formal Hormuz deal announcement; Red Sea commercial shipping continuing via Cape of Good Hope (UKMTO; Al Jazeera; Saudi SPA; Aug 13 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-08-15',
+      lat: 25.82,
+      lng: 57.15,
+      event: "Day 169 — Hormuz: ~7 transits/day, 99% disruption; IRGC/CENTCOM diplomatic pause Day 13; Iran-Oman Hormuz deal in final legal review — no confirmed formal signing as of Aug 15; Brent ~$54–58/bbl (continuing decline — well below pre-war $68; markets fully pricing in imminent deal); JMIC 'Severe' maintained pending formal signing (Bloomberg; Al Jazeera; Reuters; TradingEconomics; Aug 15 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-15',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 169 — Lebanon ceasefire Day 57 holds; IDF maintaining forward positions north of Litani River; Hezbollah observing ceasefire for 57th consecutive day; Lebanon toll unchanged at 4,324/12,221; no new hostile exchanges reported Aug 15 (IDF; Lebanon MoH; Al Jazeera; Aug 15 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-15',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 169 — Houthi Bab al-Mandab blockade Day 27; Saudi crude through Red Sea halted for 20th consecutive day since July 26; no new Houthi attacks on international shipping Aug 15; Houthi stand-down awaiting formal Hormuz deal announcement; Red Sea commercial shipping continuing via Cape of Good Hope (UKMTO; Al Jazeera; Saudi SPA; Aug 15 2026)",
       type: 'escalation',
     },
   ],
