@@ -81,7 +81,7 @@ export const hormuzData = {
     },
     {
       country: 'UAE',
-      detail: 'Aug 13–14 (Day 167–168): Two ADNOC vessels attacked in Strait of Hormuz (Aug 13 evening) — no crew injuries; bulk carrier also struck Aug 14; ADNOC confirms 15 of its vessels struck since war start; UAE foreign ministry formally accused Iran and called on Tehran to halt attacks; UAE Air Force on highest alert; Jebel Ali suspended all new Hormuz-bound cargo scheduling since July 13; ADNOC crude exports halted via Hormuz routes; Fujairah congestion at capacity …',
+      detail: 'Aug 13–14 (Day 167–168): Two ADNOC vessels attacked in Strait of Hormuz (Aug 13 evening) — no crew injuries; bulk carrier also struck Aug 14; ADNOC confirms 15 of its vessels struck since war start; UAE foreign ministry formally accused Iran and called on Tehran to halt attacks …',
     },
     {
       country: 'Oman',
