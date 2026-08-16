@@ -3173,6 +3173,13 @@ const diplomaticEvents = [
     detail: 'Day 161 of the 2026 Iran war. Iran\'s parliament reviewed a draft bill that would fundamentally reshape navigation rights in the Strait of Hormuz and the Persian Gulf, Middle East Monitor reported August 6. The bill would ban vessels linked to the United States, Israel and other countries Tehran designates as hostile; countries and individuals deemed responsible for damage to Iran would be denied transit rights until compensation is paid. The legislative push adds parliamentary pressure behind Iran\'s negotiating position with Oman. Separately, Deputy Foreign Minister Kazem Gharibabadi stressed that the Iran-Oman deal "does not mean full reopening of the Strait of Hormuz" and represents "a new model — distinct from the practice of the past sixty years — under which a significant portion of the shipping route will pass through Iran\'s territorial waters." Bloomberg reported Aug 7 that Trump said talks were "moving along" as Iranian lawmakers continued to debate the exact wording. The US has formally rejected any arrangement that creates "impediments" to free Hormuz transit (CNBC Aug 6). Brent ~$74–76/bbl on deal optimism (Middle East Monitor; IranWire; Bloomberg; CNBC; GlobalSecurity/IRNA; Aug 6–7 2026).',
   },
   {
+    date: '2026-08-07',
+    event: 'Mecca Joint Defence Agreement signed — Pakistan, Saudi Arabia, Turkey trilateral mutual defence pact',
+    type: 'diplomacy',
+    status: 'implemented',
+    detail: 'Pakistan, Saudi Arabia and Turkey signed the Mecca Joint Defence Agreement on August 7, 2026 — a trilateral mutual defence pact comparable in scope to NATO Article 5. Signed in Mecca, the agreement commits each signatory to treat an armed attack against any member as an attack against all three and to provide military assistance accordingly. The pact is widely seen as a direct strategic response to Iran\'s military posture during the 2026 war and signals a significant realignment of the region\'s security architecture outside US-led frameworks. Iranian state media condemned the agreement as "hostile escalation" and "a provocation." Turkey\'s foreign minister described it as "a defensive architecture for the Muslim world" (Al Jazeera; Iran International; Wikipedia; Aug 7 2026).',
+  },
+  {
     date: '2026-08-08',
     event: 'Day 162 — Lebanon ceasefire Day 50 milestone; IRGC/CENTCOM diplomatic pause Day 6; Iran-Oman Hormuz deal in final legal review',
     type: 'ceasefire',
@@ -3215,6 +3222,13 @@ const diplomaticEvents = [
     detail: 'Day 164 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 22nd consecutive day. Saudi crude shipments through the Red Sea remained halted since July 26 — now in their 15th consecutive day of suspension. No new Houthi attacks on international commercial shipping were reported August 10. Houthi representatives indicated the stand-down under broader Iran ceasefire terms would follow a formal Hormuz deal being finalized. International commercial shipping via the Red Sea corridor continued to be rerouted via the Cape of Good Hope. The dual-chokepoint situation (Hormuz + Bab al-Mandab) continued to exert pressure on global energy logistics despite the imminent diplomatic resolution at Hormuz (UKMTO; Al Jazeera; Saudi SPA; Aug 10 2026).',
   },
   {
+    date: '2026-08-10',
+    event: 'IRGC command reshuffle — Mojtaba Khamenei appoints 6 new senior commanders',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Mojtaba Khamenei, acting in an expanded command capacity following his father\'s death, announced a comprehensive IRGC and Armed Forces command reshuffle on August 10, appointing six new senior commanders: Brigadier General Ali Abdollahi as Armed Forces Chief of Staff; Major General Kioumars Heydari as Deputy Chief of Staff; Major General Ahmad Vahidi as IRGC Commander-in-Chief (former Interior Minister and widely reported as the first commander of the IRGC Quds Force, under US and EU sanctions); Major General Mostafa Izadi as IRGC Deputy Commander-in-Chief; Rear Admiral Ali Azmaei as IRGC Navy Commander; and Brigadier General Hossein Taeb as Basij Commander. The reshuffle is the largest reorganization of Iran\'s military command structure since the 2026 war began and consolidates operational authority under Mojtaba Khamenei (Fox News; JNS; Palestine Chronicle; Iran International; Aug 10 2026).',
+  },
+  {
     date: '2026-08-11',
     event: 'Day 165 — IRGC/CENTCOM diplomatic pause Day 9; Iran-Oman Hormuz deal in final review; Lebanon ceasefire Day 53',
     type: 'diplomacy',
@@ -3250,6 +3264,13 @@ const diplomaticEvents = [
     detail: 'Day 167 of the 2026 Iran war. The IRGC/CENTCOM mutual diplomatic pause entered its 11th consecutive day with no confirmed new Iranian ballistic missile or drone launches and no new US retaliatory strikes. The Iran-Oman Hormuz dual-lane deal remained in final legal review with no confirmed formal signing as of August 13 — Omani mediators continued finalizing the ship access clause and mine clearance timeline with Iranian and US counterparts. The Lebanon ceasefire entered its 55th consecutive day with the toll unchanged at 4,324 killed / 12,221 wounded. The Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 25th consecutive day — Saudi crude shipments through the Red Sea remained halted for the 18th day since July 26. No new Houthi attacks on international commercial shipping were reported August 13. Brent crude continued falling to ~$60–63/bbl as markets fully priced in the imminent formal Hormuz announcement. JMIC "Severe" threat level maintained pending formal signing. No new US KIA (26 total per DoD). All figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; DoD; Aug 13 2026).',
   },
   {
+    date: '2026-08-13',
+    event: 'ADNOC vessels attacked in Strait of Hormuz — UAE accuses Iran; 15 ADNOC ships struck since war start',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Two ADNOC (Abu Dhabi National Oil Company) vessels were attacked in the Strait of Hormuz on the evening of August 13, 2026, with no crew injuries reported. The UAE foreign ministry formally accused Iran of responsibility and called on Tehran to cease attacks on commercial vessels. ADNOC confirmed that 15 of its vessels had been struck since the start of the 2026 war. A bulk carrier was additionally reported struck on August 14. The UAE Air Force was placed on highest alert status following the attacks. The incidents occurred during the ongoing IRGC/CENTCOM diplomatic pause and while the Iran-Oman Hormuz dual-lane deal remained in final legal review — undermining Iran\'s stated ceasefire posture. Brent briefly spiked before resuming its broader decline as markets maintained confidence in the imminent formal Hormuz deal (Middle East Eye; Al Jazeera; US News; CNN; Aug 13–14 2026).',
+  },
+  {
     date: '2026-08-14',
     event: 'Day 168 — IRGC/CENTCOM diplomatic pause Day 12; Iran-Oman Hormuz deal in final legal review; Lebanon ceasefire Day 56; Houthi Bab al-Mandab blockade Day 26',
     type: 'diplomacy',
@@ -3276,6 +3297,13 @@ const diplomaticEvents = [
     type: 'escalation',
     status: 'escalation',
     detail: 'Day 169 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 27th consecutive day. Saudi crude shipments through the Red Sea remained halted since July 26 — now in their 20th consecutive day of suspension. No new Houthi attacks on international commercial shipping were reported August 15. Houthi spokesman reiterated that the Bab al-Mandab blockade would be lifted concurrently with or after a formal Iran-Oman Hormuz deal announcement. International commercial shipping via the Red Sea corridor continued to be rerouted via the Cape of Good Hope. Dual-chokepoint pressure (Hormuz + Bab al-Mandab) persisted as the imminent formal Hormuz signing remained the key variable (UKMTO; Al Jazeera; Saudi SPA; Houthi spokesman; Aug 15 2026).',
+  },
+  {
+    date: '2026-08-15',
+    event: 'IDF strikes kill 11 in southern Lebanon — Ansar (7 killed incl. 3 children) + Deir al-Zahrani (4 killed); Lebanon PM warns of dangerous escalation',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Israeli Defense Forces carried out strikes on two sites in southern Lebanon on August 15, 2026, killing at least 11 people and wounding 21. In the village of Ansar, 7 people were killed including 3 children, and 2 others were wounded; in Deir al-Zahrani, 4 people were killed and 17 were wounded. The IDF stated the strikes followed Hezbollah violations of the ceasefire in which three Israeli soldiers were seriously injured in an incident in the security zone. Lebanese Prime Minister Nawaf Salam condemned the escalation as "extremely dangerous" and called on the international community to intervene. The strikes raised Lebanon\'s cumulative war toll to approximately 4,335 killed and 12,240 wounded. Israel and Hezbollah exchanged mutual accusations regarding who violated the ceasefire first (The National; Haaretz; France24; UPI/Yahoo News; Lebanon MoH; Aug 15 2026).',
   },
   {
     date: '2026-08-16',
