@@ -3289,7 +3289,7 @@ const diplomaticEvents = [
     event: 'Day 170 — Houthi Bab al-Mandab blockade Day 28; Saudi crude via Red Sea halted for 21st day',
     type: 'escalation',
     status: 'escalation',
-    detail: 'Day 170 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 28th consecutive day. Saudi crude shipments through the Red Sea remained halted since July 26 — now in their 21st consecutive day of suspension. No new Houthi attacks on international commercial shipping were reported August 16. The dual-chokepoint situation (Hormuz + Bab al-Mandab) persisted with global shipping continuing to reroute via the Cape of Good Hope. Energy markets continued to price in the imminent formal Hormuz deal as the key catalyst for normalization of both chokepoints (UKMTO; Al Jazeera; Saudi SPA; Houthi spokesman; Aug 16 2026).
+    detail: 'Day 170 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 28th consecutive day. Saudi crude shipments through the Red Sea remained halted since July 26 — now in their 21st consecutive day of suspension. No new Houthi attacks on international commercial shipping were reported August 16. The dual-chokepoint situation (Hormuz + Bab al-Mandab) persisted with global shipping continuing to reroute via the Cape of Good Hope. Energy markets continued to price in the imminent formal Hormuz deal as the key catalyst for normalization of both chokepoints (UKMTO; Al Jazeera; Saudi SPA; Houthi spokesman; Aug 16 2026).',
   },
 ];
 
