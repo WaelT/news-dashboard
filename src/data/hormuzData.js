@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (16 Aug, Day 170): Brent ~$53–57/bbl — continuing decline well below pre-war $68 level; IRGC/CENTCOM diplomatic pause Day 14; Iran-Oman deal in final legal review — no confirmed formal signing as of Aug 16; Lebanon ceasefire Day 58 holds; Houthi Bab al-Mandab blockade Day 28 — Saudi crude via Red Sea halted for 21st day …',
+    tankerRates: 'LATEST (16 Aug, Day 170): Brent ~$53–57/bbl — continuing decline well below pre-war $68 level …',
     trumpUltimatum: 'LATEST (3 Aug): the bulk carrier Minoan Pioneer was reportedly struck on its engine room by a projectile in the Strait, causing a blackout and leaving the third engineer missing',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 16 (Day 170): Brent ~$53–57/bbl — continuing decline well below pre-war $68 level; markets fully pricing in imminent Hormuz deal announcement; Iran-Oman deal in final legal review — no confirmed formal signing Aug 16; IRGC/CENTCOM diplomatic pause Day 14; Houthi Bab al-Mandab blockade Day 28 — Saudi crude via Red Sea halted …',
+      detail: 'Aug 16 (Day 170): Brent ~$53–57/bbl — continuing decline well below pre-war $68 level; markets fully pricing in imminent Hormuz deal announcement; Iran-Oman deal in final legal review — no confirmed formal signing Aug 16; IRGC/CENTCOM diplomatic pause Day 14 …',
     },
   ],
 };
