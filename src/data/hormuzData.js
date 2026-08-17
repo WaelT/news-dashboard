@@ -40,11 +40,11 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-16',
+  updated: '2026-08-17',
 
   current: {
-    transitsPerDay: 7,
-    oilFlowMbd: 0.2,
+    transitsPerDay: 6,
+    oilFlowMbd: 0.1,
     disruptionPct: 99,
   },
 
@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (16 Aug, Day 170): Brent ~$53–57/bbl — continuing decline well below pre-war $68 level …',
-    trumpUltimatum: 'LATEST (3 Aug): the bulk carrier Minoan Pioneer was reportedly struck on its engine room by a projectile in the Strait, causing a blackout and leaving the third engineer missing',
-    iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    tankerRates: 'LATEST (17 Aug, Day 171): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned and new SNSC chief Rezaei hardens reopening conditions; GlobalSecurity Day 166 (Aug 12) confirmed $91.60/bbl; markets repricing away from deal optimism as Iran expands demands to include end of Lebanon and Gaza wars …',
+    trumpUltimatum: 'LATEST (12 Aug, Day 166): Trump at Joint Base Andrews told reporters US has "total control" of the Strait of Hormuz and warned Iran could "get blown away"; CENTCOM enforcing naval blockade — 55 vessels redirected, 3 disabled, 2 boarded since July 14 reinstatement; US Navy MH-60 fired Hellfire missiles into engine room of Panama-flagged Vela Nova for ignoring blockade warnings (GlobalSecurity; CBS News; Aug 12 2026)',
+    iranThreat: 'LATEST (12 Aug, Day 166): New SNSC Secretary Mohsen Rezaei expanded Iran\'s Hormuz reopening conditions to include end to the wars in Lebanon and Gaza — "the Strait of Hormuz will remain closed until all conditions are met"; Iran First VP Mohammad Reza Aref warns adversaries are increasing economic pressure; Mojtaba Khamenei overseeing Arba\'een (40-day mourning) for Ali Khamenei in Tehran/Qom/Mashhad — Aug 18 main memorial (GlobalSecurity; Sunday Guardian Live; Dawn.com; Aug 12–17 2026)',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 16 (Day 170): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 16; Omani mediators continuing to finalize ship access clause and mine clearance timeline with Iranian and US counterparts; diplomatic pause Day 14 ongoing …',
+      detail: 'Aug 17 (Day 171): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 17; new SNSC chief Rezaei expanded reopening conditions to include end to Lebanon and Gaza wars, complicating finalization; Omani mediators continuing shuttle diplomacy; Khamenei Arba\'een (40-day mourning) ceremonies Aug 17–18 in Tehran/Qom/Mashhad; main memorial at Imam Khomeini Mosalla Aug 18 …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 16 (Day 170): Brent ~$53–57/bbl — continuing decline well below pre-war $68 level; markets fully pricing in imminent Hormuz deal announcement; Iran-Oman deal in final legal review — no confirmed formal signing Aug 16; IRGC/CENTCOM diplomatic pause Day 14 …',
+      detail: 'Aug 17 (Day 171): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned and Iranian demands harden under new SNSC chief Rezaei; GlobalSecurity Day 166 (Aug 12) confirmed $91.60/bbl; Hormuz transits ~6/day (fallen to 6 vessels as of week of Aug 11–17, per maritime tracking firms); dual-chokepoint pressure (Hormuz + Houthi Bab al-Mandab blockade Day 29) …',
     },
   ],
 };
