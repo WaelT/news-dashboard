@@ -3317,7 +3317,21 @@ const diplomaticEvents = [
     event: 'Day 170 — Houthi Bab al-Mandab blockade Day 28; Saudi crude via Red Sea halted for 21st day',
     type: 'escalation',
     status: 'escalation',
-    detail: 'Day 170 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 28th consecutive day. Saudi crude shipments through the Red Sea remained halted since July 26 — now in their 21st consecutive day of suspension. No new Houthi attacks on international commercial shipping were reported August 16. The dual-chokepoint situation (Hormuz + Bab al-Mandab) persisted with global shipping continuing to reroute via the Cape of Good Hope. Energy markets continued to price in the imminent formal Hormuz deal as the key catalyst for normalization of both chokepoints (UKMTO; Al Jazeera; Saudi SPA; Houthi spokesman; Aug 16 2026).',
+    detail: 'Day 170 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 28th consecutive day. Saudi crude shipments through the Red Sea remained halted since July 26 — now in their 21st consecutive day of suspension. No new Houthi attacks on international commercial shipping were reported August 16. The dual-chokepoint situation (Hormuz + Bab al-Mandab) persisted with global shipping continuing to reroute via the Cape of Good Hope. Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned (GlobalSecurity Day 166: $91.60/bbl at 6:35 AM ET Aug 12). JMIC "Severe" maintained (UKMTO; Al Jazeera; Saudi SPA; Houthi spokesman; GlobalSecurity; Aug 16 2026).',
+  },
+  {
+    date: '2026-08-17',
+    event: 'Day 171 — Iran holds Arba\'een (40-day) mourning ceremonies for Khamenei; Mojtaba Khamenei oversees; Rezaei expands Hormuz conditions',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 171 of the 2026 Iran war. Iran held multi-city 40-day mourning ceremonies (Arba\'een) for Supreme Leader Ali Khamenei — who was killed on February 28, 2026, the first day of US-Israeli strikes — in Tehran, Qom, and Mashhad. Supreme Leader Mojtaba Hosseini Khamenei (son and successor) oversaw the ceremonies; the main memorial was planned at Tehran\'s Imam Khomeini Mosalla on August 18. New SNSC Secretary Mohsen Rezaei expanded Iran\'s Hormuz reopening conditions to include the end of the wars in Lebanon and Gaza — "the Strait of Hormuz will remain closed until all conditions are met" — significantly hardening Iran\'s negotiating position after weeks of diplomatic pause. Iran-Oman deal remained in final legal review with no confirmed formal signing. Lebanon ceasefire Day 59 holds. Houthi Bab al-Mandab blockade Day 29 — Saudi crude via Red Sea halted for 22nd consecutive day. Brent ~$88–92/bbl. Hormuz transits ~6/day (Sunday Guardian Live; Dawn.com; GlobalSecurity Day 166; CNN; Al Jazeera; Aug 17 2026).',
+  },
+  {
+    date: '2026-08-17',
+    event: 'Day 171 — Houthi Bab al-Mandab blockade Day 29; Saudi crude via Red Sea halted for 22nd day',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 171 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 29th consecutive day. Saudi crude shipments through the Red Sea remained halted for the 22nd consecutive day since July 26. No confirmed new Houthi attacks on international commercial shipping as of August 17. The dual-chokepoint situation (Hormuz + Bab al-Mandab) persisted. Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned and new SNSC chief Rezaei hardens reopening conditions (UKMTO; Al Jazeera; Saudi SPA; Houthi spokesman; Aug 17 2026).',
   },
 ];
 
