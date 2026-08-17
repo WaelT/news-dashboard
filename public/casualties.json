@@ -1,82 +1,82 @@
 {
-  "updatedAt": "2026-08-17T12:00:00.000Z",
-  "source": "Wikipedia, Al Jazeera, HRANA, Reuters, Iran Health Ministry (Wikipedia API 403 — values synced from ImpactTracker.jsx DEFAULT_CASUALTIES)",
+  "updatedAt": "2026-08-17T06:43:31.051Z",
+  "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
+    "lebanon": {
+      "killed": 4324,
+      "wounded": 12221
+    },
     "iran": {
-      "killed": 3831,
+      "killed": 3636,
       "wounded": 33000
+    },
+    "iraq": {
+      "killed": 146,
+      "wounded": 522
     },
     "israel": {
       "killed": 72,
-      "wounded": 9441
+      "wounded": 7841
     },
-    "usa": {
-      "killed": 26,
-      "wounded": 654
-    },
-    "lebanon": {
-      "killed": 4335,
-      "wounded": 12240
-    },
-    "yemen": {
-      "killed": 6,
-      "wounded": 6
-    },
-    "iraq": {
-      "killed": 180,
-      "wounded": 757
+    "oman": {
+      "killed": 16,
+      "wounded": 35
     },
     "uae": {
       "killed": 15,
       "wounded": 246
     },
     "kuwait": {
-      "killed": 15,
-      "wounded": 314
+      "killed": 12,
+      "wounded": 190
     },
-    "bahrain": {
+    "yemen": {
+      "killed": 6,
+      "wounded": 6
+    },
+    "palestine": {
       "killed": 4,
-      "wounded": 59
+      "wounded": 13
     },
-    "qatar": {
-      "killed": 18,
-      "wounded": 91
+    "syria": {
+      "killed": 4,
+      "wounded": 6
     },
     "saudi": {
-      "killed": 17,
-      "wounded": 29
+      "killed": 3,
+      "wounded": 23
+    },
+    "bahrain": {
+      "killed": 2,
+      "wounded": 51
+    },
+    "qatar": {
+      "killed": 1,
+      "wounded": 21
     },
     "jordan": {
       "killed": 0,
       "wounded": 29
     },
-    "oman": {
-      "killed": 19,
-      "wounded": 35
-    },
-    "syria": {
-      "killed": 6,
-      "wounded": 6
-    },
-    "palestine": {
-      "killed": 14,
-      "wounded": 15
-    },
-    "turkey": {
-      "killed": 3,
-      "wounded": 0
-    },
-    "france": {
-      "killed": 3,
-      "wounded": 9
-    },
-    "philippines": {
-      "killed": 2,
-      "wounded": 0
-    },
     "azerbaijan": {
       "killed": 0,
       "wounded": 4
+    },
+    "france": {
+      "killed": 2,
+      "wounded": 2
+    },
+    "usa": {
+      "killed": 0,
+      "wounded": 0
+    },
+    "turkey": {
+      "killed": 0,
+      "wounded": 0
+    },
+    "philippines": {
+      "killed": 0,
+      "wounded": 0
     }
   }
 }
