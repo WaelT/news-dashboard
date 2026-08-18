@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (18 Aug, Day 172): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned …',
-    trumpUltimatum: 'LATEST (3 Aug): the bulk carrier Minoan Pioneer was reportedly struck on its engine room by a projectile in the Strait, causing a blackout and leaving the third engineer missing',
-    iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
+    trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
+    iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
   },
 
   disruptions: [
