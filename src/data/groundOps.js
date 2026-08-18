@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'AUGUST 17, 2026 (DAY 171 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 15; IRAN HOLDS ARBA\'EEN (40-DAY) MOURNING FOR KHAMENEI; MOJTABA KHAMENEI OVERSEES; REZAEI EXPANDS HORMUZ CONDITIONS; HORMUZ DEAL UNSIGNED; HOUTHI BAB AL-MANDAB BLOCKADE DAY 29; SAUDI CRUDE HALTED 22ND DAY; LEBANON CEASEFIRE DAY 59 HOLDS; BRENT ~$88–92/BBL)',
+  updated: 'AUGUST 18, 2026 (DAY 172 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 16; IRAN HOLDS MAIN ARBA\'EEN CEREMONY AT TEHRAN IMAM KHOMEINI MOSALLA; MOJTABA KHAMENEI PRESIDES; REZAEI EXPANDED CONDITIONS IN EFFECT; HORMUZ DEAL UNSIGNED; HOUTHI BAB AL-MANDAB BLOCKADE DAY 30; SAUDI CRUDE HALTED 23RD DAY; LEBANON CEASEFIRE DAY 60 MILESTONE; BRENT ~$88–92/BBL)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -2444,6 +2444,27 @@ const groundOps = {
       lat: 14.84,
       lng: 42.95,
       event: "Day 170 — Houthi Bab al-Mandab blockade Day 28; Saudi crude through Red Sea halted for 21st consecutive day since July 26; no new Houthi attacks on international shipping Aug 16; dual-chokepoint pressure (Hormuz + Bab al-Mandab) persists; formal Hormuz deal announcement remains key catalyst for normalization (UKMTO; Al Jazeera; Saudi SPA; Aug 16 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-08-18',
+      lat: 35.6892,
+      lng: 51.389,
+      event: "Day 172 — Iran holds main Arba'een (40-day) mourning ceremony for Supreme Leader Khamenei at Tehran's Imam Khomeini Mosalla; Mojtaba Hosseini Khamenei presides over largest memorial gathering of the 40-day cycle; IRGC/CENTCOM diplomatic pause Day 16 continues — no confirmed new launches; Iran-Oman Hormuz deal in final legal review (no confirmed signing Aug 18); Rezaei expanded conditions remain Iranian position (Al Jazeera; Reuters; CENTCOM; Aug 18 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-18',
+      lat: 25.82,
+      lng: 57.15,
+      event: "Day 172 — Hormuz: ~6 transits/day, 99% disruption; IRGC/CENTCOM diplomatic pause Day 16; Iran-Oman Hormuz deal in final legal review — no confirmed formal signing Aug 18; Rezaei expanded conditions (end to Lebanon+Gaza wars) still in force; Brent ~$88–92/bbl; JMIC 'Severe' maintained (Al Jazeera; Bloomberg; Reuters; Aug 18 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-18',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 172 — Houthi Bab al-Mandab blockade Day 30 (milestone); Saudi crude through Red Sea halted for 23rd consecutive day since July 26; no new Houthi attacks on international shipping Aug 18; Houthi blockade lift contingent on formal Hormuz deal announcement; Lebanon ceasefire Day 60 holds (milestone — toll unchanged 4,335/12,240) (UKMTO; Al Jazeera; Saudi SPA; Aug 18 2026)",
       type: 'escalation',
     },
   ],
