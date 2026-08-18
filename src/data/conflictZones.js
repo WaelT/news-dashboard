@@ -1105,6 +1105,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['arbaeen khamenei aug 17', 'rezaei hormuz conditions', 'mojtaba khamenei', 'diplomatic pause day 15', 'lebanon ceasefire day 59', 'houthi blockade day 29', 'brent $90 aug 17'],
   },
+  {
+    id: 174,
+    name: 'Tehran — Main Arba\'een Ceremony at Imam Khomeini Mosalla; Mojtaba Khamenei Presides; Diplomatic Pause Day 16',
+    lat: 35.69,
+    lng: 51.39,
+    type: 'diplomacy',
+    icon: 'flag',
+    description: 'Day 172 (Aug 18): Iran held the main Arba\'een (40-day) mourning ceremony for Supreme Leader Ali Khamenei at Tehran\'s Imam Khomeini Mosalla — the largest memorial gathering of the 40-day cycle. Supreme Leader Mojtaba Hosseini Khamenei presided. The IRGC/CENTCOM mutual diplomatic pause entered its 16th consecutive day with no confirmed new Iranian ballistic missile or drone launches and no new US retaliatory strikes. The Iran-Oman Hormuz dual-lane deal remained in final legal review with no confirmed formal signing as of Aug 18 — new SNSC Secretary Rezaei\'s expanded conditions (end to Lebanon and Gaza wars) continued to complicate finalization. Lebanon ceasefire reached its 60th consecutive day — a milestone — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab blockade Day 30 (milestone) — Saudi crude via Red Sea halted for 23rd consecutive day since July 26. No confirmed new Houthi attacks on international shipping Aug 18. Hormuz transits ~6/day (99% disruption). Brent ~$88–92/bbl. JMIC "Severe" maintained. No new US KIA — 26 total per DoD (Al Jazeera; Reuters; Bloomberg; CENTCOM; Aug 18 2026)',
+    status: 'high-alert',
+    keywords: ['arbaeen main ceremony aug 18', 'imam khomeini mosalla', 'mojtaba khamenei presides', 'diplomatic pause day 16', 'lebanon ceasefire day 60', 'houthi blockade day 30', 'brent $90 aug 18'],
+  },
 ];
 
 export default conflictZones;
