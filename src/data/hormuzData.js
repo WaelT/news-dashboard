@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-17',
+  updated: '2026-08-18',
 
   current: {
     transitsPerDay: 6,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (17 Aug, Day 171): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned and new SNSC chief Rezaei hard …',
+    tankerRates: 'LATEST (18 Aug, Day 172): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned; Rezaei expanded conditions (end to Lebanon+Gaza wars) harden Iranian position; Houthi Bab al-Mandab blockade Day 30 — Saudi crude halted 23rd consecutive day; dual-chokepoint pressure persists …',
     trumpUltimatum: 'LATEST (3 Aug): the bulk carrier Minoan Pioneer was reportedly struck on its engine room by a projectile in the Strait, causing a blackout and leaving the third engineer missing',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 5 (Day 159, Bab al-Mandab blockade Day 17): Houthis struck Saudi-flagged tanker Wafa with ballistic missiles in northern Red Sea off Yanbu — 8th Saudi tanker struck since blockade; Houthis announce expansion to northern Red Sea targeting Yanbu terminals …',
+      detail: 'Aug 18 (Day 172, Bab al-Mandab blockade Day 30): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 30th day; Saudi crude shipments via Red Sea halted for 23rd consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 18; Houthi reps state blockade lifts only after formal Hormuz deal announcement; shipping rerouting via Cape of Good Hope; [prior Aug 5 Day 159]: Houthis struck Saudi-flagged tanker Wafa with ballistic missiles off Yanbu — 8th Saudi tanker struck since blockade …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 17 (Day 171): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 17; new SNSC chief Rezaei expanded reopening conditions to include end to Lebanon and Gaza wars, complicating finalization; Omani mediators continuing shuttle diplomacy …',
+      detail: 'Aug 18 (Day 172): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 18; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; main Arba\'een ceremony held at Tehran Imam Khomeini Mosalla Aug 18; Omani mediators continuing shuttle diplomacy …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 17 (Day 171): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned and Iranian demands harden under new SNSC chief Rezaei; GlobalSecurity Day 166 (Aug 12) confirmed $91.60/bbl; Hormuz transits ~6/day (fallen to 6 vessels as of week of Aug 11–17, per maritime tracking firms) …',
+      detail: 'Aug 18 (Day 172): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned; Rezaei expanded conditions (end to Lebanon+Gaza wars) harden Iranian position; Houthi Bab al-Mandab blockade Day 30 — dual-chokepoint pressure persists; Hormuz transits ~6/day; GlobalSecurity Day 166 (Aug 12) confirmed $91.60/bbl; JMIC "Severe" maintained …',
     },
   ],
 };
