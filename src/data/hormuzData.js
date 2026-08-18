@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (18 Aug, Day 172): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned; Rezaei expanded conditions (end to Lebanon+Gaza wars) harden Iranian position; Houthi Bab al-Mandab blockade Day 30 — Saudi crude halted 23rd consecutive day; dual-chokepoint pressure persists …',
+    tankerRates: 'LATEST (18 Aug, Day 172): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned …',
     trumpUltimatum: 'LATEST (3 Aug): the bulk carrier Minoan Pioneer was reportedly struck on its engine room by a projectile in the Strait, causing a blackout and leaving the third engineer missing',
     iranThreat: '20 Jul: two Greek-owned tankers, the Kavomaleas and the Acheloos, were struck by projectiles on the Omani side of the Strait of Hormuz',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 18 (Day 172, Bab al-Mandab blockade Day 30): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 30th day; Saudi crude shipments via Red Sea halted for 23rd consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 18; Houthi reps state blockade lifts only after formal Hormuz deal announcement; shipping rerouting via Cape of Good Hope; [prior Aug 5 Day 159]: Houthis struck Saudi-flagged tanker Wafa with ballistic missiles off Yanbu — 8th Saudi tanker struck since blockade …',
+      detail: 'Aug 18 (Day 172, Bab al-Mandab blockade Day 30): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 30th day; Saudi crude shipments via Red Sea halted for 23rd consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 18 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 18 (Day 172): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 18; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; main Arba\'een ceremony held at Tehran Imam Khomeini Mosalla Aug 18; Omani mediators continuing shuttle diplomacy …',
+      detail: 'Aug 18 (Day 172): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 18; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; main Arba\'een ceremony held at Tehran Imam Khomeini Mosalla Aug 18 …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 18 (Day 172): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned; Rezaei expanded conditions (end to Lebanon+Gaza wars) harden Iranian position; Houthi Bab al-Mandab blockade Day 30 — dual-chokepoint pressure persists; Hormuz transits ~6/day; GlobalSecurity Day 166 (Aug 12) confirmed $91.60/bbl; JMIC "Severe" maintained …',
+      detail: 'Aug 18 (Day 172): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned; Rezaei expanded conditions (end to Lebanon+Gaza wars) harden Iranian position; Houthi Bab al-Mandab blockade Day 30 — dual-chokepoint pressure persists; Hormuz transits ~6/day …',
     },
   ],
 };
