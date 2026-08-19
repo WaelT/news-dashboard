@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-18',
+  updated: '2026-08-19',
 
   current: {
     transitsPerDay: 6,
@@ -65,8 +65,8 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (18 Aug, Day 172): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned …',
-    trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
+    tankerRates: 'LATEST (19 Aug, Day 173): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned; Rezaei expanded conditions (end to Lebanon+Gaza wars) harden Iranian position; IRGC/CENTCOM diplomatic pause Day 17; Houthi Bab al-Mandab blockade Day 31; Hormuz transits ~6/day …',
+    trumpUltimatum: 'LATEST (19 Aug): diplomatic pause Day 17 — no new IRGC launches or CENTCOM strikes; Iran-Oman dual-lane deal in final legal review but unsigned; Iranian negotiating position hardened by Rezaei expanded conditions',
     iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
   },
 
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 18 (Day 172): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 18; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; main Arba\'een ceremony held at Tehran Imam Khomeini Mosalla Aug 18 …',
+      detail: 'Aug 19 (Day 173): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 19; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 17 ongoing …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 18 (Day 172): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned; Rezaei expanded conditions (end to Lebanon+Gaza wars) harden Iranian position; Houthi Bab al-Mandab blockade Day 30 — dual-chokepoint pressure persists; Hormuz transits ~6/day …',
+      detail: 'Aug 19 (Day 173): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned; Rezaei expanded conditions (end to Lebanon+Gaza wars) harden Iranian position; Houthi Bab al-Mandab blockade Day 31 — dual-chokepoint pressure persists; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 17 …',
     },
   ],
 };
