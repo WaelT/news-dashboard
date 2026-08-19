@@ -1116,6 +1116,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['arbaeen main ceremony aug 18', 'imam khomeini mosalla', 'mojtaba khamenei presides', 'diplomatic pause day 16', 'lebanon ceasefire day 60', 'houthi blockade day 30', 'brent $90 aug 18'],
   },
+  {
+    id: 175,
+    name: 'Strait of Hormuz — Diplomatic Pause Day 17; Iran-Oman Deal Unsigned; Brent ~$90/bbl',
+    lat: 26.6,
+    lng: 56.25,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 173 (Aug 19): The IRGC/CENTCOM mutual diplomatic pause entered its 17th consecutive day — no confirmed new Iranian ballistic missile or drone launches and no new US retaliatory strikes on Iran. The Iran-Oman Hormuz dual-lane deal remained in final legal review with no confirmed formal signing as of Aug 19 — new SNSC Secretary Rezaei\'s expanded conditions (end to wars in Lebanon and Gaza required for Hormuz reopening) continued to harden Iran\'s negotiating position and stall finalization. Lebanon ceasefire Day 61 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab blockade Day 31 — Saudi crude via Red Sea halted for 24th consecutive day since July 26. Hormuz transits ~6/day (99% disruption). ~280 tankers queued outside Hormuz. Brent ~$88–92/bbl — elevated as deal remains unsigned and Iranian demands remain hardened. JMIC "Severe" maintained. No new US KIA — 26 total per DoD. Wikipedia API 403 — all figures trajectory-based (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Aug 19 2026)',
+    status: 'high-alert',
+    keywords: ['diplomatic pause day 17', 'hormuz deal unsigned aug 19', 'rezaei expanded conditions', 'lebanon ceasefire day 61', 'houthi blockade day 31', 'brent aug 19', 'hormuz aug 19'],
+  },
 ];
 
 export default conflictZones;

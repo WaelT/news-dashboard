@@ -2467,6 +2467,27 @@ const groundOps = {
       event: "Day 172 — Houthi Bab al-Mandab blockade Day 30 (milestone); Saudi crude through Red Sea halted for 23rd consecutive day since July 26; no new Houthi attacks on international shipping Aug 18; Houthi blockade lift contingent on formal Hormuz deal announcement; Lebanon ceasefire Day 60 holds (milestone — toll unchanged 4,335/12,240) (UKMTO; Al Jazeera; Saudi SPA; Aug 18 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-19',
+      lat: 25.82,
+      lng: 57.15,
+      event: "Day 173 — Hormuz: ~6 transits/day, 99% disruption; IRGC/CENTCOM diplomatic pause Day 17 — no confirmed new IRGC launches or CENTCOM strikes; Iran-Oman Hormuz deal in final legal review — no confirmed formal signing as of Aug 19; Rezaei expanded conditions (end to Lebanon+Gaza wars) remain Iranian negotiating position; ~280 tankers queued; Brent ~$88–92/bbl; JMIC 'Severe' maintained (Bloomberg; Al Jazeera; Reuters; CENTCOM; Aug 19 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-19',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 173 — Lebanon ceasefire Day 61 holds; Lebanon toll unchanged at 4,335 killed / 12,240 wounded (last update Aug 15 IDF strikes on Ansar + Deir al-Zahrani); IDF maintaining security positions in southern Lebanon; no new confirmed escalation Aug 19 (IDF; Lebanon MoH; Al Jazeera; Aug 19 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-19',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 173 — Houthi Bab al-Mandab blockade Day 31; Saudi crude through Red Sea halted for 24th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 19; dual-chokepoint pressure (Hormuz + Bab al-Mandab) persists; formal Hormuz deal signing remains key catalyst for normalization (UKMTO; Al Jazeera; Saudi SPA; Aug 19 2026)",
+      type: 'escalation',
+    },
   ],
 };
 
