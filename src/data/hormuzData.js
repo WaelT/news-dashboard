@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (20 Aug, Day 174): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned and Rezaei expanded conditions (end to Lebanon+Gaza wars) complicate finalization; diplomatic pause Day 18 …',
-    trumpUltimatum: 'LATEST (20 Aug): IRGC/CENTCOM diplomatic pause Day 18 — no new attacks on shipping confirmed Aug 20; Hormuz transits ~6/day; JMIC "Severe" maintained pending formal deal signing',
-    iranThreat: '20 Aug: Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing; Rezaei expanded conditions (end to Lebanon+Gaza wars) remain Iranian negotiating position',
+    tankerRates: 'LATEST (20 Aug, Day 174): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned and Rezaei expanded conditions …',
+    trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
+    iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
   },
 
   disruptions: [
