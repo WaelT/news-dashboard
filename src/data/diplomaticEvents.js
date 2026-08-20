@@ -3362,6 +3362,13 @@ const diplomaticEvents = [
     detail: 'Day 173 of the 2026 Iran war. The Houthi maritime blockade of Saudi Arabia at Bab al-Mandab entered its 31st consecutive day. Saudi crude shipments through the Red Sea remained halted for the 24th consecutive day since July 26. No confirmed new Houthi attacks on international commercial shipping were reported August 19. The dual-chokepoint situation (Hormuz + Bab al-Mandab) persisted, with international commercial shipping continuing to reroute via the Cape of Good Hope. Brent ~$88–92/bbl as the formal Hormuz signing remained outstanding and Rezaei\'s expanded conditions complicated negotiations (UKMTO; Al Jazeera; Saudi SPA; Houthi spokesman; Aug 19 2026).',
   },
   {
+    date: '2026-08-19',
+    event: 'Day 173 — UAE detects 2 ballistic missiles targeting Hormuz maritime navigation; UAE suspends all trade with Iran; Trump: "no talks underway"',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 173 of the 2026 Iran war. UAE air defense forces detected two ballistic missiles targeting maritime navigation in the Strait of Hormuz — both fell into UAE territorial waters and caused no damage or casualties. The UAE Foreign Ministry immediately suspended all trade, commercial exchanges, and financial transactions with Iran "until further notice," stripping Tehran of a partner that supplied more than 30% of its imports. Iran denied firing the missiles. President Trump simultaneously stated there are no talks with Iran underway or scheduled, directly contradicting his own confirmation on August 17 of a US-IRGC backchannel via Qatar. The diplomatic pause nominally continued at Day 17 with no confirmed IRGC launches, but the UAE trade suspension marked a significant economic escalation. Brent crude rose above $92/bbl on renewed supply disruption fears (CNN; CNBC; Washington Post; Fortune; Jerusalem Post; Al Jazeera; Aug 19 2026).',
+  },
+  {
     date: '2026-08-20',
     event: 'Day 174 — IRGC/CENTCOM diplomatic pause Day 18; Iran-Oman Hormuz deal in final legal review; Houthi Bab al-Mandab blockade Day 32',
     type: 'diplomacy',

@@ -60,14 +60,14 @@ export const hormuzData = {
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
     vesselsAttacked: 63,
-    seafarersKilled: 18,    // +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
+    seafarersKilled: 19,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (20 Aug, Day 174): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned and Rezaei expanded conditions …',
     trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
-    iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
+    iranThreat: '19 Aug: UAE air defenses detected 2 ballistic missiles targeting maritime navigation in the Strait — both fell into the sea (no casualties); UAE suspended all trade and financial transactions with Iran "until further notice"; Iran denied firing the missiles (CNN; CNBC; WashPost; Aug 19 2026)',
   },
 
   disruptions: [
@@ -81,7 +81,7 @@ export const hormuzData = {
     },
     {
       country: 'UAE',
-      detail: 'Aug 13–14 (Day 167–168): Two ADNOC vessels attacked in Strait of Hormuz (Aug 13 evening) — no crew injuries; bulk carrier also struck Aug 14; ADNOC confirms 15 of its vessels struck since war start; UAE foreign ministry formally accused Iran and called on Tehran to halt attacks …',
+      detail: 'Aug 19 (Day 173): UAE air defenses detected 2 ballistic missiles targeting maritime navigation — both fell into sea, no casualties; UAE suspended all trade and financial transactions with Iran "until further notice," stripping Iran of a partner supplying >30% of its imports; Iran denied firing the missiles. Prior: Aug 13–14 (Day 167–168) two ADNOC vessels attacked in Hormuz — no crew injuries; ADNOC 15 vessels struck since war start (CNN; CNBC; WashPost; Fortune; Aug 19 2026)',
     },
     {
       country: 'Oman',

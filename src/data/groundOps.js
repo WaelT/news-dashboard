@@ -2488,6 +2488,34 @@ const groundOps = {
       event: "Day 173 — Houthi Bab al-Mandab blockade Day 31; Saudi crude through Red Sea halted for 24th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 19; dual-chokepoint pressure (Hormuz + Bab al-Mandab) persists; formal Hormuz deal signing remains key catalyst for normalization (UKMTO; Al Jazeera; Saudi SPA; Aug 19 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-19',
+      lat: 25.20,
+      lng: 55.27,
+      event: "Day 173 — UAE detects 2 ballistic missiles targeting Hormuz maritime navigation; both fall into sea (no casualties); UAE suspends all trade with Iran 'until further notice'; Iran denies firing; Trump: 'no talks underway' — Brent rises above $92/bbl (CNN; CNBC; WashPost; Fortune; Aug 19 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-08-20',
+      lat: 25.82,
+      lng: 57.15,
+      event: "Day 174 — Hormuz: ~6 transits/day, 99% disruption; IRGC/CENTCOM diplomatic pause Day 18 — no confirmed new IRGC launches or CENTCOM strikes; Iran-Oman Hormuz deal in final legal review — no confirmed formal signing as of Aug 20; Rezaei expanded conditions persist; UAE trade suspension with Iran in effect; Brent ~$92/bbl; JMIC 'Severe' maintained (Bloomberg; Al Jazeera; Reuters; CENTCOM; Aug 20 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-20',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 174 — Lebanon ceasefire Day 62 holds; Lebanon toll unchanged at 4,335 killed / 12,240 wounded; IDF maintaining security positions in southern Lebanon; no new confirmed escalation Aug 20 (IDF; Lebanon MoH; Al Jazeera; Aug 20 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-20',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 174 — Houthi Bab al-Mandab blockade Day 32; Saudi crude through Red Sea halted for 25th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 20; dual-chokepoint pressure (Hormuz + Bab al-Mandab) persists (UKMTO; Al Jazeera; Saudi SPA; Aug 20 2026)",
+      type: 'escalation',
+    },
   ],
 };
 
