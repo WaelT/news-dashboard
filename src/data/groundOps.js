@@ -2516,6 +2516,27 @@ const groundOps = {
       event: "Day 174 — Houthi Bab al-Mandab blockade Day 32; Saudi crude through Red Sea halted for 25th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 20; dual-chokepoint pressure (Hormuz + Bab al-Mandab) persists (UKMTO; Al Jazeera; Saudi SPA; Aug 20 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-21',
+      lat: 25.82,
+      lng: 57.15,
+      event: "Day 175 — Hormuz: ~6 transits/day, 99% disruption; IRGC/CENTCOM diplomatic pause Day 19; Iran-Oman Hormuz deal in final legal review — no confirmed formal signing as of Aug 21; Rezaei expanded conditions (end Lebanon+Gaza wars) persist; Brent ~$88–92/bbl; JMIC 'Severe' maintained (Bloomberg; Al Jazeera; Reuters; Aug 21 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-21',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 175 — Lebanon ceasefire Day 63 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Aug 21; IDF maintaining security positions in southern Lebanon (IDF; Lebanon MoH; Al Jazeera; Aug 21 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-21',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 175 — Houthi Bab al-Mandab blockade Day 33; Saudi crude through Red Sea halted for 26th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 21; dual-chokepoint pressure (Hormuz + Bab al-Mandab) persists (UKMTO; Al Jazeera; Saudi SPA; Aug 21 2026)",
+      type: 'escalation',
+    },
   ],
 };
 
