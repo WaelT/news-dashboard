@@ -3389,6 +3389,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 175 of the 2026 Iran war. IRGC/CENTCOM diplomatic pause entered its 19th consecutive day. No confirmed new IRGC ballistic missile or drone launches August 21. CENTCOM airstrikes remained paused. Iran-Oman Hormuz dual-lane deal continued in final legal review with no confirmed formal signing as of August 21. SNSC Secretary Rezaei\'s expanded conditions — requiring an end to the wars in Lebanon and Gaza before Hormuz reopening — remained the official Iranian negotiating position. Lebanon ceasefire Day 63 holds (toll unchanged at 4,335 killed / 12,240 wounded). Houthi Bab al-Mandab blockade entered its 33rd consecutive day; Saudi crude via Red Sea halted for 26th consecutive day since July 26. Hormuz transits ~6/day; Brent ~$88–92/bbl elevated; JMIC "Severe" maintained (Bloomberg; Al Jazeera; Reuters; CENTCOM; Aug 21 2026).',
   },
+  {
+    date: '2026-08-21',
+    event: 'Day 175 — Trump threatens "Economic D-Day" against Iran; Bessent to detail "Operation Economic Fury" secondary sanctions Monday; Brent $93.86/bbl (second consecutive weekly gain ~6%)',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'Day 175 of the 2026 Iran war. President Trump threatened Iran with an "Economic D-Day," describing an unprecedented coordinated campaign to isolate Iran\'s economy. Treasury Secretary Scott Bessent told CNBC that Washington would impose "the toughest sanctions in history" on Iran, calling the effort "the greatest coordinated economic isolation in the history of the world" under the name "Operation Economic Fury." Bessent announced he would hold a press conference on Monday August 25 to detail the full package, which includes secondary sanctions on any nation or company conducting business with Iran — directly targeting Chinese and Indian oil buyers. Iran FM Araghchi called the US threats a "diversion" and said "Doubling down on failed policies will only bring further defeat." China\'s Foreign Ministry criticized the approach. Brent crude closed at $93.86/bbl (+0.08%) on August 21, on pace for a second consecutive weekly gain of ~6%, driven by the Economic D-Day announcement and expectations of further US pressure. No new IRGC launches or CENTCOM strikes — diplomatic pause Day 19 holds. Lebanon ceasefire Day 63 (toll 4,335/12,240). Houthi Bab al-Mandab blockade Day 33. US also imposed new sanctions on Hezbollah (Al Jazeera liveblog Aug 21; Bloomberg Aug 20 "Bessent to Detail US Plans"; Washington Times Aug 20 "Operation Economic Fury"; KSAT/AP/Boston Globe Aug 21; Reuters; TradingEconomics Aug 21).',
+  },
 ];
 
 export const STATUS_COLORS = {
