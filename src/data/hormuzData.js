@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-20',
+  updated: '2026-08-21',
 
   current: {
     transitsPerDay: 6,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (20 Aug, Day 174): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned and Rezaei expanded conditions …',
+    tankerRates: 'LATEST (21 Aug, Day 175): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned and Rezaei expanded conditions (end to Lebanon+Gaza wars) persist; IRGC/CENTCOM diplomatic pause Day 19; Hormuz transits ~6/day; Houthi Bab al-Mandab blockade Day 33 …',
     trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
     iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 20 (Day 174, Bab al-Mandab blockade Day 32): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 32nd day; Saudi crude shipments via Red Sea halted for 25th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 20 …',
+      detail: 'Aug 21 (Day 175, Bab al-Mandab blockade Day 33): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 33rd day; Saudi crude shipments via Red Sea halted for 26th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 21; IRGC/CENTCOM diplomatic pause Day 19 ongoing; Brent ~$88–92/bbl …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 20 (Day 174): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 20; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 18 ongoing …',
+      detail: 'Aug 21 (Day 175): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 21; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 19 ongoing; Oman FM Al-Busaidi previously expressed confidence in "near-term" completion …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 20 (Day 174): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned; Rezaei expanded conditions (end to Lebanon+Gaza wars) harden Iranian position; Houthi Bab al-Mandab blockade Day 32 — dual-chokepoint pressure persists; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 18 …',
+      detail: 'Aug 21 (Day 175): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned; Rezaei expanded conditions (end to Lebanon+Gaza wars) harden Iranian position; Houthi Bab al-Mandab blockade Day 33 — dual-chokepoint pressure persists; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 19; UAE trade suspension with Iran in effect; Japan, South Korea, India strategic petroleum reserves active; China rerouting 85% Gulf crude via alternative routes …',
     },
   ],
 };
