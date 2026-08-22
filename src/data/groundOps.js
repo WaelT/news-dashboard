@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'AUGUST 20, 2026 (DAY 174 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 18; NO NEW LAUNCHES CONFIRMED; IRAN-OMAN HORMUZ DEAL IN FINAL LEGAL REVIEW — NO CONFIRMED SIGNING; REZAEI EXPANDED CONDITIONS IN EFFECT; HOUTHI BAB AL-MANDAB BLOCKADE DAY 32; SAUDI CRUDE HALTED 25TH DAY; LEBANON CEASEFIRE DAY 62; BRENT ~$88–92/BBL)',
+  updated: 'AUGUST 22, 2026 (DAY 176 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 20; NO NEW LAUNCHES CONFIRMED; IRAN-OMAN HORMUZ DEAL IN FINAL LEGAL REVIEW — NO CONFIRMED SIGNING; REZAEI EXPANDED CONDITIONS IN EFFECT; HOUTHI BAB AL-MANDAB BLOCKADE DAY 34; SAUDI CRUDE HALTED 27TH DAY; LEBANON CEASEFIRE DAY 64; BRENT ~$93–95/BBL; OPERATION ECONOMIC FURY PRESSER MON AUG 25)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -2535,6 +2535,27 @@ const groundOps = {
       lat: 14.84,
       lng: 42.95,
       event: "Day 175 — Houthi Bab al-Mandab blockade Day 33; Saudi crude through Red Sea halted for 26th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 21; dual-chokepoint pressure (Hormuz + Bab al-Mandab) persists (UKMTO; Al Jazeera; Saudi SPA; Aug 21 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-08-22',
+      lat: 25.82,
+      lng: 57.15,
+      event: "Day 176 — Hormuz: ~6 transits/day, 99% disruption; IRGC/CENTCOM diplomatic pause Day 20; Iran-Oman Hormuz deal in final legal review — no confirmed formal signing as of Aug 22; Rezaei expanded conditions (end Lebanon+Gaza wars) persist; Brent ~$93–95/bbl elevated after Trump Economic D-Day + Bessent Operation Economic Fury announcement (presser Mon Aug 25); JMIC 'Severe' maintained (Bloomberg; Al Jazeera; Reuters; Aug 22 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-22',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 176 — Lebanon ceasefire Day 64 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Aug 22; IDF maintaining security positions in southern Lebanon (IDF; Lebanon MoH; Al Jazeera; Aug 22 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-22',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 176 — Houthi Bab al-Mandab blockade Day 34; Saudi crude through Red Sea halted for 27th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 22; dual-chokepoint pressure (Hormuz + Bab al-Mandab) persists; Operation Economic Fury secondary sanctions set for Mon Aug 25 press conference (UKMTO; Al Jazeera; Saudi SPA; Aug 22 2026)",
       type: 'escalation',
     },
   ],
