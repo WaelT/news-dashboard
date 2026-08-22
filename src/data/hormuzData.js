@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (22 Aug, Day 176): Brent ~$93–95/bbl — elevated after Trump "Economic D-Day" threat + Bessent "Operation Economic Fury" announcement (secondary sanctions on Iranian crude buyers; press conference Mon Aug 25); 2nd+ consecutive weekly gain; diplomatic pause Day 20 ongoing …',
-    trumpUltimatum: 'LATEST (21 Aug): Trump threatened Iran with "Economic D-Day"; Bessent detailed "Operation Economic Fury" — unprecedented secondary sanctions package targeting Chinese and Indian oil buyers; press conference Monday Aug 25',
-    iranThreat: '22 Aug: Iran-Oman Hormuz dual-lane deal remains unsigned (Day 20 of diplomatic pause); Rezaei expanded conditions (end Lebanon+Gaza wars required) continue to stall finalization; Hormuz transits ~6/day (99% disruption)',
+    tankerRates: 'LATEST (22 Aug, Day 176): Brent ~$93–95/bbl — elevated after Trump "Economic D-Day" threat + Bessent "Operation Economic …',
+    trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
+    iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
   },
 
   disruptions: [
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 22 (Day 176): Brent ~$93–95/bbl — elevated as Bessent "Operation Economic Fury" secondary sanctions (targeting Chinese and Indian buyers of Iranian crude) press conference set for Mon Aug 25; Iran-Oman deal unsigned; Rezaei conditions harden Iranian position; Houthi Bab al-Mandab blockade Day 34 — dual-chokepoint pressure persists; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 20 …',
+      detail: 'Aug 22 (Day 176): Brent ~$93–95/bbl — elevated as Bessent "Operation Economic Fury" secondary sanctions (targeting Chinese and Indian buyers of Iranian crude) press conference set for Mon Aug 25; Iran-Oman deal unsigned; Rezaei conditions harden Iranian position …',
     },
   ],
 };
