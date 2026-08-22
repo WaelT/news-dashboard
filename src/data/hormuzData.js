@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-21',
+  updated: '2026-08-22',
 
   current: {
     transitsPerDay: 6,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (21 Aug PM, Day 175): Brent $93.86/bbl (confirmed close, +0.08%) — 2nd consecutive weekly gain ~6% …',
-    trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
-    iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
+    tankerRates: 'LATEST (22 Aug, Day 176): Brent ~$93–95/bbl — elevated after Trump "Economic D-Day" threat + Bessent "Operation Economic Fury" announcement (secondary sanctions on Iranian crude buyers; press conference Mon Aug 25); 2nd+ consecutive weekly gain; diplomatic pause Day 20 ongoing …',
+    trumpUltimatum: 'LATEST (21 Aug): Trump threatened Iran with "Economic D-Day"; Bessent detailed "Operation Economic Fury" — unprecedented secondary sanctions package targeting Chinese and Indian oil buyers; press conference Monday Aug 25',
+    iranThreat: '22 Aug: Iran-Oman Hormuz dual-lane deal remains unsigned (Day 20 of diplomatic pause); Rezaei expanded conditions (end Lebanon+Gaza wars required) continue to stall finalization; Hormuz transits ~6/day (99% disruption)',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 21 (Day 175, Bab al-Mandab blockade Day 33): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 33rd day; Saudi crude shipments via Red Sea halted for 26th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 21 …',
+      detail: 'Aug 22 (Day 176, Bab al-Mandab blockade Day 34): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 34th day; Saudi crude shipments via Red Sea halted for 27th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 22 …',
     },
     {
       country: 'Iraq',
@@ -81,15 +81,15 @@ export const hormuzData = {
     },
     {
       country: 'UAE',
-      detail: 'Aug 19 (Day 173): UAE air defenses detected 2 ballistic missiles targeting maritime navigation — both fell into sea, no casualties; UAE suspended all trade and financial transactions with Iran "until further notice," stripping Iran of a partner supplying >30% of its imports …',
+      detail: 'Aug 22 (Day 176): UAE trade and financial transaction suspension with Iran continues — imposed Aug 19 following detection of 2 ballistic missiles targeting Hormuz maritime navigation; UAE stripping Iran of partner supplying >30% of its imports; ADNOC 15 vessels struck since war start …',
     },
     {
       country: 'Oman',
-      detail: 'Aug 21 (Day 175): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 21; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 19 ongoing …',
+      detail: 'Aug 22 (Day 176): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 22; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 20 ongoing …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 21 (Day 175): Brent ~$88–92/bbl — elevated as Iran-Oman deal remains unsigned; Rezaei expanded conditions (end to Lebanon+Gaza wars) harden Iranian position; Houthi Bab al-Mandab blockade Day 33 — dual-chokepoint pressure persists; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 19 …',
+      detail: 'Aug 22 (Day 176): Brent ~$93–95/bbl — elevated as Bessent "Operation Economic Fury" secondary sanctions (targeting Chinese and Indian buyers of Iranian crude) press conference set for Mon Aug 25; Iran-Oman deal unsigned; Rezaei conditions harden Iranian position; Houthi Bab al-Mandab blockade Day 34 — dual-chokepoint pressure persists; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 20 …',
     },
   ],
 };
