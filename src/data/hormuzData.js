@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (23 Aug, Day 177): Brent ~$93–95/bbl — elevated; Bessent "Operation Economic Fury" secondary-sanctions presser set Mon Aug 25; USS George Washington relieved USS Abraham Lincoln in region Aug 20 …',
+    tankerRates: 'LATEST (23 Aug, Day 177): Brent ~$93–95/bbl — elevated …',
     trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
     iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
   },
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 23 (Day 177): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 23; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 21 ongoing; USS George Washington arrived region Aug 20 relieving USS Abraham Lincoln …',
+      detail: 'Aug 23 (Day 177): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 23; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 21 ongoing …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 23 (Day 177): Brent ~$93–95/bbl — elevated as Bessent "Operation Economic Fury" secondary sanctions (targeting Chinese and Indian buyers of Iranian crude) press conference set for Mon Aug 25; Iran-Oman deal unsigned; Rezaei conditions harden Iranian position; USS George Washington arrived region Aug 20 relieving USS Abraham Lincoln …',
+      detail: 'Aug 23 (Day 177): Brent ~$93–95/bbl — elevated as Bessent "Operation Economic Fury" secondary sanctions (targeting Chinese and Indian buyers of Iranian crude) press conference set for Mon Aug 25; Iran-Oman deal unsigned; Rezaei conditions harden Iranian position …',
     },
   ],
 };
