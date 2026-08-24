@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 24 (Day 178, Bab al-Mandab blockade Day 36): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 36th day; Saudi crude shipments via Red Sea halted for 29th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 22-24; Saudi Aramco diverting all Gulf crude exports via Strait of Hormuz (southern route under CENTCOM escort) and overland pipelines …',
+      detail: 'Aug 24 (Day 178, Bab al-Mandab blockade Day 36): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 36th day; Saudi crude shipments via Red Sea halted for 29th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 22-24 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 24 (Day 178): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 24; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 22 ongoing; Bessent "Operation Economic Fury" secondary sanctions package imminently expected — adds new pressure on Iranian negotiating calculus …',
+      detail: 'Aug 24 (Day 178): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 24; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 22 ongoing …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 24 (Day 178): Brent elevated — Iranian position hardened by Rezaei expanded conditions; Houthi Bab al-Mandab blockade Day 36 — dual-chokepoint pressure persists; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 22; "Operation Economic Fury" secondary sanctions threat targeting Chinese and Indian oil buyers adds new market uncertainty …',
+      detail: 'Aug 24 (Day 178): Brent elevated — Iranian position hardened by Rezaei expanded conditions; Houthi Bab al-Mandab blockade Day 36 — dual-chokepoint pressure persists; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 22 …',
     },
   ],
 };
