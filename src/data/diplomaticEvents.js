@@ -3396,6 +3396,27 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 175 of the 2026 Iran war. President Trump threatened Iran with an "Economic D-Day," describing an unprecedented coordinated campaign to isolate Iran\'s economy. Treasury Secretary Scott Bessent told CNBC that Washington would impose "the toughest sanctions in history" on Iran, calling the effort "the greatest coordinated economic isolation in the history of the world" under the name "Operation Economic Fury." Bessent announced he would hold a press conference on Monday August 25 to detail the full package, which includes secondary sanctions on any nation or company conducting business with Iran — directly targeting Chinese and Indian oil buyers. Iran FM Araghchi called the US threats a "diversion" and said "Doubling down on failed policies will only bring further defeat." China\'s Foreign Ministry criticized the approach. Brent crude closed at $93.86/bbl (+0.08%) on August 21, on pace for a second consecutive weekly gain of ~6%, driven by the Economic D-Day announcement and expectations of further US pressure. No new IRGC launches or CENTCOM strikes — diplomatic pause Day 19 holds. Lebanon ceasefire Day 63 (toll 4,335/12,240). Houthi Bab al-Mandab blockade Day 33. US also imposed new sanctions on Hezbollah (Al Jazeera liveblog Aug 21; Bloomberg Aug 20 "Bessent to Detail US Plans"; Washington Times Aug 20 "Operation Economic Fury"; KSAT/AP/Boston Globe Aug 21; Reuters; TradingEconomics Aug 21).',
   },
+  {
+    date: '2026-08-22',
+    event: 'Day 176 — IRGC/CENTCOM diplomatic pause Day 20; Iran-Oman Hormuz deal in final legal review; Houthi Bab al-Mandab blockade Day 34',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 176 of the 2026 Iran war. The IRGC/CENTCOM mutual diplomatic pause entered its 20th consecutive day with no confirmed new Iranian ballistic missile or drone launches and no new US retaliatory airstrikes. The Iran-Oman Hormuz dual-lane deal remained in final legal review — no confirmed formal signing as of August 22. SNSC Secretary Rezaei\'s expanded conditions (end to Lebanon and Gaza wars) remained the official Iranian negotiating position. Lebanon ceasefire entered its 64th day (toll unchanged at 4,335/12,240). Houthi Bab al-Mandab blockade Day 34 — Saudi crude via Red Sea halted for 27th consecutive day since July 26. Hormuz transits ~6/day. Brent elevated on "Operation Economic Fury" secondary sanctions threat. JMIC "Severe" maintained. No new US KIA (26 total per DoD). All figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; Aug 22 2026).',
+  },
+  {
+    date: '2026-08-23',
+    event: 'Day 177 — IRGC/CENTCOM diplomatic pause Day 21; Houthi Bab al-Mandab blockade Day 35; Lebanon ceasefire Day 65',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 177 of the 2026 Iran war. The IRGC/CENTCOM mutual diplomatic pause entered its 21st consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz dual-lane deal continued in final legal review with no confirmed formal signing as of August 23. Rezaei expanded conditions remained the Iranian position. Lebanon ceasefire Day 65 holds (toll unchanged at 4,335/12,240). Houthi Bab al-Mandab blockade Day 35 — Saudi crude via Red Sea halted for 28th consecutive day since July 26. No new Houthi attacks on international shipping. Hormuz transits ~6/day. JMIC "Severe" maintained. No new US KIA (26 total per DoD). All figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; Aug 23 2026).',
+  },
+  {
+    date: '2026-08-24',
+    event: 'Day 178 — IRGC/CENTCOM diplomatic pause Day 22; Bessent "Operation Economic Fury" sanctions package details expected; Houthi Bab al-Mandab blockade Day 36',
+    type: 'economic',
+    status: 'escalation',
+    detail: 'Day 178 of the 2026 Iran war. The IRGC/CENTCOM mutual diplomatic pause entered its 22nd consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. Treasury Secretary Scott Bessent\'s "Operation Economic Fury" press conference was expected to detail secondary sanctions targeting any nation or company conducting business with Iran, directly pressuring Chinese and Indian oil buyers. Iran FM Araghchi dismissed the threat as "economic bullying." The Iran-Oman Hormuz deal remained in final legal review — no confirmed formal signing as of August 24; Rezaei expanded conditions (end to Lebanon and Gaza wars) remain the official Iranian position. Lebanon ceasefire Day 66 holds (toll unchanged at 4,335/12,240). Houthi Bab al-Mandab blockade Day 36 — Saudi crude via Red Sea halted for 29th consecutive day since July 26. Hormuz transits ~6/day. JMIC "Severe" maintained. No new US KIA (26 total per DoD). All figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; Aug 24 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
