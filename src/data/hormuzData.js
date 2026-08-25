@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (25 Aug, Day 179): Bessent "Operation Economic Outcast" press conference details toughest-ever secondary sanctions o …',
+    tankerRates: 'LATEST (25 Aug, Day 179): Bessent "Operation Economic Outcast" press conference details toughest-ever secondary sanction …',
     trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
     iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 25 (Day 179, Bab al-Mandab blockade Day 37): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 37th day; Saudi crude shipments via Red Sea halted for 30th consecutive day since July 26; Aug 24 — Houthis fired ballistic missile at Saudi supertanker MV Amzan (Bahri shipping company) 63 nautical miles west of Yanbu — vessel ablaze, all crew safe (Bloomberg; Euronews; Bahri statement Aug 24); Bessent Operation Economic Outcast secondary sanctions Aug 25 add pressure on Saudi shipping alternatives …',
+      detail: 'Aug 25 (Day 179, Bab al-Mandab blockade Day 37): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 37th day; Saudi crude shipments via Red Sea halted for 30th consecutive day since July 26 …',
     },
     {
       country: 'Iraq',
