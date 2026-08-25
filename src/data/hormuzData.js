@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-24',
+  updated: '2026-08-25',
 
   current: {
     transitsPerDay: 6,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (21 Aug PM, Day 175): Brent $93.86/bbl (confirmed close, +0.08%) — 2nd consecutive weekly gain ~6% …',
-    trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
-    iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
+    tankerRates: 'LATEST (25 Aug, Day 179): Bessent "Operation Economic Fury" press conference details toughest-ever secondary sanctions on Chinese/Indian oil buyers; Brent volatile; IRGC/CENTCOM diplomatic pause Day 23 — Hormuz ~6 transits/day; Houthi Bab al-Mandab blockade Day 37; Saudi crude halted 30th day; Lebanon ceasefire Day 67; Iran-Oman deal in final legal review; JMIC "Severe" maintained (US Treasury; Bloomberg; Al Jazeera; Aug 25 2026); [prior 21 Aug PM, Day 175]: Brent $93.86/bbl (confirmed close, +0.08%) — 2nd consecutive weekly gain ~6% …',
+    trumpUltimatum: 'LATEST (25 Aug): Bessent "Operation Economic Fury" — secondary sanctions targeting any nation or entity buying Iranian oil, calling it "the greatest coordinated economic isolation in history." Iran FM Araghchi: "economic bullying that will only fail." [prior 18 Aug]: the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
+    iranThreat: '25 Aug: Iran FM Araghchi dismissed "Operation Economic Fury" as "doubling down on failed policies." [prior 14 Aug]: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 24 (Day 178, Bab al-Mandab blockade Day 36): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 36th day; Saudi crude shipments via Red Sea halted for 29th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 22-24 …',
+      detail: 'Aug 25 (Day 179, Bab al-Mandab blockade Day 37): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 37th day; Saudi crude shipments via Red Sea halted for 30th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 25; Bessent "Operation Economic Fury" secondary sanctions further pressure Iran and indirectly tighten Houthi financial lifeline; JMIC "Severe" maintained …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 24 (Day 178): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 24; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 22 ongoing …',
+      detail: 'Aug 25 (Day 179): Iran-Oman Hormuz dual-lane deal in final legal review — no confirmed formal signing as of Aug 25; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 23 ongoing; Bessent "Operation Economic Fury" secondary sanctions add new economic pressure on Iran, potentially complicating deal timeline …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 24 (Day 178): Brent elevated — Iranian position hardened by Rezaei expanded conditions; Houthi Bab al-Mandab blockade Day 36 — dual-chokepoint pressure persists; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 22 …',
+      detail: 'Aug 25 (Day 179): Bessent "Operation Economic Fury" secondary sanctions — China and India oil buyers face toughest-ever US sanctions; Brent volatile on announcement; Houthi Bab al-Mandab blockade Day 37 — dual-chokepoint pressure persists; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 23; JMIC "Severe" maintained …',
     },
   ],
 };
