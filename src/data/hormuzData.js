@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Aug 25 (Day 179): Bessent "Operation Economic Fury" secondary sanctions — China and India oil buyers face toughest-ever US sanctions; Brent volatile on announcement; Houthi Bab al-Mandab blockade Day 37 — dual-chokepoint pressure persists; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 23 …',
+      detail: 'Aug 25 (Day 179): Bessent "Operation Economic Fury" secondary sanctions — China and India oil buyers face toughest-ever US sanctions; Brent volatile on announcement; Houthi Bab al-Mandab blockade Day 37 — dual-chokepoint pressure persists; Hormuz transits ~6/day …',
     },
   ],
 };
