@@ -60,7 +60,7 @@ export const hormuzData = {
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
     vesselsAttacked: 63,
-    seafarersKilled: 19,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
+    seafarersKilled: 20,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 26 (Day 180, Bab al-Mandab blockade Day 38): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 38th day; Saudi crude shipments via Red Sea halted for 31st consecutive day since July 26; Houthis attacked Saudi supertanker MV Amzan (Bahri) Aug 24 near Yanbu — fire reported, all crew safe; no new confirmed Houthi attacks Aug 25–26; dual-chokepoint situation (Hormuz + Bab al-Mandab) persists; international shipping continuing to reroute via Cape of Good Hope (UKMTO; Al Jazeera; Saudi SPA; Houthi spokesman; Aug 26 2026)',
+      detail: 'Aug 26 (Day 180, Bab al-Mandab blockade Day 38): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 38th day; Saudi crude shipments via Red Sea halted for 31st consecutive day since July 26 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 26 (Day 180): Oman FM Sayyid Badr Albusaidi in Tehran Day 2 — Hormuz corridor negotiations ongoing (arrived Aug 25); Iran-Oman dual-lane deal in final legal/political review — no confirmed formal signing as of Aug 26; Rezaei expanded conditions (end to Lebanon + Gaza wars required) remain Iranian negotiating position; IRGC/CENTCOM diplomatic pause Day 24; Brent ~$86–88/bbl (easing on Albusaidi visit + Pakistan/Qatar diplomacy signals) (Al Jazeera; Reuters; GlobalSecurity; Aug 25–26 2026)',
+      detail: 'Aug 26 (Day 180): Oman FM Sayyid Badr Albusaidi in Tehran Day 2 — Hormuz corridor negotiations ongoing (arrived Aug 25); Iran-Oman dual-lane deal in final legal/political review — no confirmed formal signing as of Aug 26 …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 26 (Day 180): Brent ~$86–88/bbl (falling — Oman FM Albusaidi in Tehran Day 2 + Pakistan/Qatar diplomacy signals; prior day Bessent "Operation Economic Outcast" threatened secondary sanctions on China/Indian oil buyers); Houthi Bab al-Mandab blockade Day 38 — dual-chokepoint (Hormuz + Bab al-Mandab) pressure persists; Hormuz transits ~6/day (73 weekly, down from 91 pre-crisis); TD3C Middle East Gulf-China >$520K/day; ship-to-ship transfer activity elevated off Oman/Fujairah; Iran parliament Hormuz fee legislation advancing (Al Jazeera; Reuters; GlobalSecurity Day 179; Lloyd\'s List Intelligence; Eastern Herald; Aug 25–26 2026)',
+      detail: 'Aug 26 (Day 180): Brent ~$86–88/bbl (falling — Oman FM Albusaidi in Tehran Day 2 + Pakistan/Qatar diplomacy signals; prior day Bessent "Operation Economic Outcast" threatened secondary sanctions on China/Indian oil buyers) …',
     },
   ],
 };
