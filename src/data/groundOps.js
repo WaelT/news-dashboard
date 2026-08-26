@@ -2628,6 +2628,27 @@ const groundOps = {
       event: "Day 179 — Houthi Bab al-Mandab blockade Day 37; Saudi crude via Red Sea halted 30th consecutive day since July 26; no new Houthi attacks on international shipping confirmed Aug 25; Houthi attack on Saudi supertanker Amzan Aug 24 confirms ongoing blockade enforcement; Operation Economic Outcast secondary sanctions add pressure (UKMTO; Al Jazeera; Saudi SPA; Aug 25 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-26',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 180 (6-month milestone) — Oman FM Sayyid Badr Albusaidi in Tehran Day 2 for Hormuz corridor negotiations; no confirmed formal signing of Iran-Oman dual-lane deal as of Aug 26; Rezaei expanded conditions (end to Lebanon + Gaza wars) remain Iranian position; Operation Economic Outcast secondary sanctions in full effect; Pakistan Army Chief Munir in Tehran Aug 24; Qatar mediation ongoing; IRGC/CENTCOM diplomatic pause Day 24 — no confirmed new Iranian launches or US retaliatory strikes; Brent ~$86–88/bbl (easing on diplomacy signals) (Al Jazeera; Reuters; CENTCOM; Aug 26 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-26',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 180 — Lebanon ceasefire Day 68 holds; toll unchanged at 4,335 killed / 12,240 wounded; IDF maintaining security positions in southern Lebanon; no new confirmed escalation Aug 26; dual-chokepoint (Hormuz + Bab al-Mandab) situation persists (IDF; Lebanon MoH; Al Jazeera; Aug 26 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-26',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 180 — Houthi Bab al-Mandab blockade Day 38; Saudi crude via Red Sea halted 31st consecutive day since July 26; no new confirmed Houthi attacks on international shipping Aug 26; dual-chokepoint (Hormuz + Bab al-Mandab) persists; Operation Economic Outcast secondary sanctions add long-term pressure on Houthi financing (UKMTO; Al Jazeera; Saudi SPA; Aug 26 2026)",
+      type: 'escalation',
+    },
   ],
 };
 
