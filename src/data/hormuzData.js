@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (27 Aug, Day 181): Iran-Oman temporary route + revenue-sharing deal confirmed by IRGC — temporary lane active 2–4 months through Iran\'s territorial waters; NOT a full reopening; Iran dep. FM Gharibabadi: full reopening conditioned on US fulfilling June peace deal commitments; implementation not yet begun; tanker rates remain severely elevated (Bloomberg; Al Jazeera; Aug 27)',
-    trumpUltimatum: 'LATEST (25 Aug): Bessent "Operation Economic Outcast" unveiled — sweeping secondary sanctions targeting ~60 entities; any nation or company doing business with Iran faces US sanctions; China and India oil buyers directly targeted',
-    iranThreat: '26 Aug: IRGC spokesman Mohebbi announced Iran-Oman agreement on each country\'s share of the strait\'s waters + revenue; confirmed by Iran dep. FM Gharibabadi who stated Hormuz full reopening conditioned on US compliance with June deal',
+    tankerRates: 'LATEST (27 Aug, Day 181): Iran-Oman temporary route + revenue-sharing deal confirmed by IRGC — temporary lane active 2–4 …',
+    trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
+    iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 27 (Day 181): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera Aug 26) — following Oman FM Albusaidi\'s Tehran visit Aug 25–26; temporary lane active 2–4 months through Iran\'s territorial waters; NOT a full reopening — dep. FM Gharibabadi: full reopening requires US to fulfill June peace deal commitments …',
+      detail: 'Aug 27 (Day 181): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera Aug 26) — following Oman FM Albusaidi\'s Tehran visit Aug 25–26; temporary lane active 2–4 months through Iran\'s territorial waters …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 27 (Day 181): Brent ~$87.90/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Iran-Oman temporary route deal announced but not yet implemented; Operation Economic Outcast secondary sanctions targeting Chinese and Indian buyers of Iranian crude add uncertainty for Asian importers; LNG spot markets elevated …',
+      detail: 'Aug 27 (Day 181): Brent ~$87.90/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Iran-Oman temporary route deal announced but not yet implemented; Operation Economic Outcast secondary sanctions targeting Chinese and Indian buyers of Iranian crude add uncertainty for Asian importers …',
     },
   ],
 };
