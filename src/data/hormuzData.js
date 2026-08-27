@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-26',
+  updated: '2026-08-27',
 
   current: {
     transitsPerDay: 6,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (25 Aug, Day 179): Bessent "Operation Economic Outcast" press conference details toughest-ever secondary sanction …',
-    trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
-    iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
+    tankerRates: 'LATEST (27 Aug, Day 181): Iran-Oman temporary route + revenue-sharing deal confirmed by IRGC — temporary lane active 2–4 months through Iran\'s territorial waters; NOT a full reopening; Iran dep. FM Gharibabadi: full reopening conditioned on US fulfilling June peace deal commitments; implementation not yet begun; tanker rates remain severely elevated (Bloomberg; Al Jazeera; Aug 27)',
+    trumpUltimatum: 'LATEST (25 Aug): Bessent "Operation Economic Outcast" unveiled — sweeping secondary sanctions targeting ~60 entities; any nation or company doing business with Iran faces US sanctions; China and India oil buyers directly targeted',
+    iranThreat: '26 Aug: IRGC spokesman Mohebbi announced Iran-Oman agreement on each country\'s share of the strait\'s waters + revenue; confirmed by Iran dep. FM Gharibabadi who stated Hormuz full reopening conditioned on US compliance with June deal',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 26 (Day 180, Bab al-Mandab blockade Day 38): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 38th day; Saudi crude shipments via Red Sea halted for 31st consecutive day since July 26 …',
+      detail: 'Aug 27 (Day 181, Bab al-Mandab blockade Day 39): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 39th day; Saudi crude shipments via Red Sea halted for 32nd consecutive day since July 26 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 26 (Day 180): Oman FM Sayyid Badr Albusaidi in Tehran Day 2 — Hormuz corridor negotiations ongoing (arrived Aug 25); Iran-Oman dual-lane deal in final legal/political review — no confirmed formal signing as of Aug 26 …',
+      detail: 'Aug 27 (Day 181): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera Aug 26) — following Oman FM Albusaidi\'s Tehran visit Aug 25–26; temporary lane active 2–4 months through Iran\'s territorial waters; NOT a full reopening — dep. FM Gharibabadi: full reopening requires US to fulfill June peace deal commitments …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 26 (Day 180): Brent ~$86–88/bbl (falling — Oman FM Albusaidi in Tehran Day 2 + Pakistan/Qatar diplomacy signals; prior day Bessent "Operation Economic Outcast" threatened secondary sanctions on China/Indian oil buyers) …',
+      detail: 'Aug 27 (Day 181): Brent ~$87.90/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Iran-Oman temporary route deal announced but not yet implemented; Operation Economic Outcast secondary sanctions targeting Chinese and Indian buyers of Iranian crude add uncertainty for Asian importers; LNG spot markets elevated …',
     },
   ],
 };
