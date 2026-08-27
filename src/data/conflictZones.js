@@ -1182,6 +1182,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['6-month milestone aug 26', 'oman fm albusaidi tehran day 2', 'diplomatic pause day 24', 'operation economic outcast in effect', 'houthi blockade day 38', 'lebanon ceasefire day 68', 'brent aug 26'],
   },
+  {
+    id: 181,
+    name: 'Strait of Hormuz — Iran-Oman Temporary Route Deal; Diplomatic Pause Day 25; Brent ~$87.90/bbl',
+    lat: 26.65,
+    lng: 56.20,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 181 (Aug 27): Iran and Oman announced a temporary route agreement for the Strait of Hormuz — IRGC spokesman Mohebbi confirmed Iran and Oman reached agreement on each country\'s share of the strait\'s waters and revenue (Bloomberg/Al Jazeera Aug 26). The temporary lane would be active for 2–4 months with a significant portion of traffic passing through Iran\'s territorial waters. However, this is NOT a full reopening: Iran\'s Deputy FM Gharibabadi stated the waterway will not fully reopen until the United States fulfills its commitments under the June interim peace deal. The deal requires US compliance on sanctions and naval posture. IRGC/CENTCOM mutual diplomatic pause entered its 25th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. Hormuz transits remained ~6/day as deal implementation had not yet begun. Lebanon ceasefire Day 69 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade Day 39 — Saudi crude via Red Sea halted for 32nd consecutive day since July 26. Brent ~$87.90/bbl. JMIC "Severe" maintained. No new US KIA — 26 total per DoD. Operation Economic Outcast secondary sanctions in full effect (Bloomberg; Al Jazeera; CENTCOM; DoD; Aug 27 2026)',
+    status: 'high-alert',
+    keywords: ['iran oman hormuz deal aug 27', 'temporary route revenue sharing', 'diplomatic pause day 25', 'houthi blockade day 39', 'lebanon ceasefire day 69', 'brent aug 27', 'operation economic outcast'],
+  },
 ];
 
 export default conflictZones;

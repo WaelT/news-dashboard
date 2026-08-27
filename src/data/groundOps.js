@@ -2649,6 +2649,27 @@ const groundOps = {
       event: "Day 180 — Houthi Bab al-Mandab blockade Day 38; Saudi crude via Red Sea halted 31st consecutive day since July 26; no new confirmed Houthi attacks on international shipping Aug 26; dual-chokepoint (Hormuz + Bab al-Mandab) persists; Operation Economic Outcast secondary sanctions add long-term pressure on Houthi financing (UKMTO; Al Jazeera; Saudi SPA; Aug 26 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-08-27',
+      lat: 26.65,
+      lng: 56.20,
+      event: "Day 181 — Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera Aug 26); temporary lane active 2–4 months through Iran's territorial waters; NOT a full reopening — Iran dep. FM Gharibabadi: Hormuz won't fully reopen until US fulfills June peace deal commitments; Hormuz transits ~6/day (deal not yet implemented); IRGC/CENTCOM diplomatic pause Day 25; JMIC 'Severe' maintained; Brent ~$87.90/bbl (Bloomberg; Al Jazeera; CENTCOM; Aug 27 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-08-27',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 181 — Houthi Bab al-Mandab blockade Day 39; Saudi crude via Red Sea halted 32nd consecutive day since July 26; no new confirmed Houthi attacks on international shipping Aug 27; Iran-Oman Hormuz deal adds diplomatic pressure but Houthis maintaining independent blockade posture; Operation Economic Outcast sanctions in full effect (UKMTO; Al Jazeera; Saudi SPA; Aug 27 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-08-27',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 181 — Lebanon ceasefire Day 69 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Aug 27; IDF maintaining security positions in southern Lebanon; dual-chokepoint (Hormuz + Bab al-Mandab) shipping crisis ongoing (IDF; Lebanon MoH; Al Jazeera; Aug 27 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 
