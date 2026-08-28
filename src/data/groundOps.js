@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'AUGUST 26, 2026 (DAY 180 — 6-MONTH MILESTONE; IRGC/CENTCOM DIPLOMATIC PAUSE DAY 24; NO NEW LAUNCHES CONFIRMED; OMAN FM ALBUSAIDI IN TEHRAN DAY 2 FOR HORMUZ TALKS; OPERATION ECONOMIC OUTCAST IN EFFECT; HOUTHI BAB AL-MANDAB BLOCKADE DAY 38; SAUDI CRUDE HALTED 31ST DAY; LEBANON CEASEFIRE DAY 68; BRENT ~$86–88/BBL)',
+  updated: 'AUGUST 28, 2026 (DAY 182 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 26; NO NEW LAUNCHES CONFIRMED; HORMUZ TEMPORARY ROUTE DEAL CONFIRMED AUG 26 — IMPLEMENTATION NOT YET BEGUN; HOUTHI BAB AL-MANDAB BLOCKADE DAY 40; SAUDI CRUDE HALTED 33RD DAY; LEBANON CEASEFIRE DAY 70; BRENT ~$87–88/BBL; USA WOUNDED UPDATED 756 PER PENTAGON DCAS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -2668,6 +2668,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: "Day 181 — Lebanon ceasefire Day 69 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Aug 27; IDF maintaining security positions in southern Lebanon; dual-chokepoint (Hormuz + Bab al-Mandab) shipping crisis ongoing (IDF; Lebanon MoH; Al Jazeera; Aug 27 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-08-28',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 182 — Houthi Bab al-Mandab blockade Day 40 (milestone); Saudi crude via Red Sea halted 33rd consecutive day since July 26; no new confirmed Houthi attacks on international shipping Aug 28; Houthis maintaining independent blockade posture despite Iran-Oman Hormuz temporary route deal; Operation Economic Outcast sanctions in full effect (UKMTO; Al Jazeera; Saudi SPA; Aug 28 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-08-28',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 182 — Lebanon ceasefire Day 70 holds (milestone); toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Aug 28; IDF maintaining security positions in southern Lebanon; Pentagon updates USA wounded to 756 (Pentagon DCAS Aug 21 — Washington Post/Stars and Stripes); IRGC/CENTCOM diplomatic pause Day 26 (IDF; Lebanon MoH; Al Jazeera; Pentagon; Aug 28 2026)",
       type: 'ceasefire',
     },
   ],
