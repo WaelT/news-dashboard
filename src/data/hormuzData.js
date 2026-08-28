@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (28 Aug, Day 182): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet begun; Hormuz transits ~6/day; IRGC/CENTCOM diplomatic pause Day 26; Houthi Bab al-Mandab blockade Day 40; Saudi crude halted 33rd day; Operation Economic Outcast secondary sanctions in full effect; JMIC "Severe" maintained …',
+    tankerRates: 'LATEST (28 Aug, Day 182): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet beg …',
     trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
     iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
   },
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 28 (Day 182): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane active 2–4 months through Iran\'s territorial waters; implementation NOT yet begun as of Aug 28; Iran dep. FM Gharibabadi: Hormuz won\'t fully reopen until US fulfills June peace deal commitments; Hormuz transits ~6/day …',
+      detail: 'Aug 28 (Day 182): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane active 2–4 months through Iran\'s territorial waters; implementation NOT yet begun as of Aug 28 …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 28 (Day 182): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Iran-Oman temporary route deal confirmed Aug 26 but implementation not yet begun; Operation Economic Outcast secondary sanctions (announced Aug 25) directly targeting Chinese and Indian buyers of Iranian crude; JMIC "Severe" maintained …',
+      detail: 'Aug 28 (Day 182): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Iran-Oman temporary route deal confirmed Aug 26 but implementation not yet begun …',
     },
   ],
 };
