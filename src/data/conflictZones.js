@@ -1193,6 +1193,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['iran oman hormuz deal aug 27', 'temporary route revenue sharing', 'diplomatic pause day 25', 'houthi blockade day 39', 'lebanon ceasefire day 69', 'brent aug 27', 'operation economic outcast'],
   },
+  {
+    id: 182,
+    name: 'Strait of Hormuz — Diplomatic Pause Day 26; Hormuz Deal Implementation Pending; Houthi Blockade Day 40',
+    lat: 26.55,
+    lng: 56.25,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 182 (Aug 28): The IRGC/CENTCOM mutual diplomatic pause entered its 26th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi, Bloomberg, Al Jazeera) had not yet entered implementation as of Aug 28; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi maintained that a full Hormuz reopening is contingent on US fulfilling June peace deal commitments. Operation Economic Outcast secondary sanctions — targeting any entity conducting business with Iran, with direct pressure on Chinese and Indian oil buyers — remained in full effect (announced Aug 25). Pentagon DCAS updated US wounded to 756 (as of Aug 21; confirmed Washington Post/Stars and Stripes). Lebanon ceasefire Day 70 holds (milestone) — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade entered its 40th consecutive day (milestone) — Saudi crude via Red Sea halted for 33rd consecutive day since July 26. No new Houthi attacks on international shipping confirmed Aug 28. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA — 26 total per DoD. All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Pentagon DCAS; Aug 28 2026)',
+    status: 'high-alert',
+    keywords: ['diplomatic pause day 26', 'hormuz deal implementation pending', 'houthi blockade day 40 milestone', 'lebanon ceasefire day 70 milestone', 'operation economic outcast', 'pentagon dcas 756 wounded', 'brent aug 28'],
+  },
 ];
 
 export default conflictZones;
