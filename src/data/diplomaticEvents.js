@@ -3452,6 +3452,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 183 of the 2026 Iran war. The IRGC/CENTCOM mutual diplomatic pause entered its 27th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26) had still not entered implementation as of Aug 29; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi maintained that a full Hormuz reopening requires US compliance with June peace deal commitments. Operation Economic Outcast secondary sanctions remained in full effect. Lebanon ceasefire Day 71 holds (toll unchanged at 4,335/12,240). Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 41st consecutive day — Saudi crude shipments via Red Sea halted for 34th consecutive day since July 26. Brent ~$87–88/bbl. Hormuz transits ~6/day. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Aug 29 2026).',
   },
+  {
+    date: '2026-08-30',
+    event: 'Day 184 — IRGC/CENTCOM diplomatic pause Day 28; Hormuz deal implementation still pending; Houthi Bab al-Mandab blockade Day 42',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 184 of the 2026 Iran war. The IRGC/CENTCOM mutual diplomatic pause entered its 28th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi, Bloomberg, and Al Jazeera) had not yet entered implementation as of Aug 30; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi maintained that a full Hormuz reopening requires US fulfillment of June peace deal commitments on sanctions and naval posture. Operation Economic Outcast secondary sanctions remained in full effect. Lebanon ceasefire Day 72 holds (toll unchanged at 4,335/12,240). Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 42nd consecutive day — Saudi crude shipments via Red Sea halted for 35th consecutive day since July 26. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Aug 30 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
