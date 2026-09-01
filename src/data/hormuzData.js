@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-08-31',
+  updated: '2026-09-01',
 
   current: {
     transitsPerDay: 6,
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Aug 31 (Day 185, Bab al-Mandab blockade Day 43): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 43rd day; Saudi crude shipments via Red Sea halted for 36th consecutive day since July 26 …',
+      detail: 'Sep 1 (Day 186, Bab al-Mandab blockade Day 44): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 44th day; Saudi crude shipments via Red Sea halted for 37th consecutive day since July 26 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Aug 31 (Day 185): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane active 2–4 months through Iran\'s territorial waters; implementation NOT yet begun as of Aug 31 …',
+      detail: 'Sep 1 (Day 186): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane active 2–4 months through Iran\'s territorial waters; implementation NOT yet begun as of Sep 1 …',
     },
     {
       country: 'Asia',
-      detail: 'Aug 31 (Day 185): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Aug 31 …',
+      detail: 'Sep 1 (Day 186): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 1 …',
     },
   ],
 };
