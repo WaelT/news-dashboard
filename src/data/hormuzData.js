@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (4 Sep, Day 189): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet beg …',
-    trumpUltimatum: 'LATEST (18 Aug): the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
-    iranThreat: '14 Aug: ADNOC announced that another one of its vessels were struck in the Strait the day prior, causing no casualties',
+    trumpUltimatum: 'LATEST (5 Sep): the United States and Iran were involved in a standoff in the Strait of Hormuz',
+    iranThreat: '18 Aug: the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
   },
 
   disruptions: [
