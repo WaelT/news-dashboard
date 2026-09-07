@@ -2810,6 +2810,20 @@ const groundOps = {
       event: "Day 191 — Lebanon ceasefire Day 79 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Sep 6; IRGC/CENTCOM diplomatic pause Day 35; Iran-Oman Hormuz temporary route deal implementation still pending (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Sep 6 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-09-07',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 192 — Houthi Bab al-Mandab blockade Day 50 (50-day milestone); Saudi crude via Red Sea halted 43rd consecutive day since July 26; no new confirmed Houthi attacks on international shipping Sep 7; Houthis maintaining independent blockade posture (UKMTO; Al Jazeera; Saudi SPA; Sep 7 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-09-07',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 192 — Lebanon ceasefire Day 80 holds (80-day milestone); toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Sep 7; IRGC/CENTCOM diplomatic pause Day 36; Iran-Oman Hormuz temporary route deal implementation still pending (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Sep 7 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 
