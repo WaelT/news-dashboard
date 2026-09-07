@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Sep 7 (Day 192): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane active 2–4 months through Iran\'s territorial waters; implementation NOT yet begun as of Sep 7; IRGC/CENTCOM diplomatic pause entering Day 36 …',
+      detail: 'Sep 7 (Day 192): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane active 2–4 months through Iran\'s territorial waters; implementation NOT yet begun as of Sep 7 …',
     },
     {
       country: 'Asia',
