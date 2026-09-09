@@ -3522,6 +3522,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 193 of the 2026 Iran war. The IRGC/CENTCOM mutual diplomatic pause entered its 37th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi, Bloomberg, and Al Jazeera) had still not entered implementation as of Sep 8; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi maintained full Hormuz reopening is contingent on US fulfilling June peace deal commitments on sanctions and naval posture. Operation Economic Outcast secondary sanctions in full effect. Lebanon ceasefire Day 81 holds (toll unchanged at 4,335/12,240). Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 51st consecutive day — Saudi crude shipments via Red Sea halted for 44th consecutive day since July 26. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 8 2026).',
   },
+  {
+    date: '2026-09-09',
+    event: 'Day 194 — IRGC/CENTCOM diplomatic pause Day 38; Houthi Bab al-Mandab blockade Day 52; Lebanon ceasefire Day 82',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 194 of the 2026 Iran war. The IRGC/CENTCOM mutual diplomatic pause entered its 38th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi, Bloomberg, and Al Jazeera) had still not entered implementation as of Sep 9; Hormuz transits remained ~6/day. Operation Economic Outcast secondary sanctions in full effect. Lebanon ceasefire Day 82 holds (toll unchanged at 4,335/12,240). Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 52nd consecutive day — Saudi crude shipments via Red Sea halted for 45th consecutive day since July 26. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 9 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

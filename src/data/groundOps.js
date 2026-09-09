@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'SEPTEMBER 4, 2026 (DAY 189 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 33; NO NEW LAUNCHES CONFIRMED; HORMUZ TEMPORARY ROUTE DEAL CONFIRMED AUG 26 — IMPLEMENTATION NOT YET BEGUN; HOUTHI BAB AL-MANDAB BLOCKADE DAY 47; SAUDI CRUDE HALTED 40TH DAY; LEBANON CEASEFIRE DAY 77; BRENT ~$87–88/BBL; USA WOUNDED 756 PER PENTAGON DCAS)',
+  updated: 'SEPTEMBER 9, 2026 (DAY 194 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 38; NO NEW LAUNCHES CONFIRMED; HORMUZ TEMPORARY ROUTE DEAL CONFIRMED AUG 26 — IMPLEMENTATION NOT YET BEGUN; HOUTHI BAB AL-MANDAB BLOCKADE DAY 52; SAUDI CRUDE HALTED 45TH DAY; LEBANON CEASEFIRE DAY 82; BRENT ~$87–88/BBL; USA WOUNDED 756 PER PENTAGON DCAS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -2836,6 +2836,20 @@ const groundOps = {
       lat: 33.37,
       lng: 35.48,
       event: "Day 193 — Lebanon ceasefire Day 81 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Sep 8; IRGC/CENTCOM diplomatic pause Day 37; Iran-Oman Hormuz temporary route deal implementation still pending (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Sep 8 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-09-09',
+      lat: 14.84,
+      lng: 42.95,
+      event: "Day 194 — Houthi Bab al-Mandab blockade Day 52; Saudi crude via Red Sea halted 45th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Sep 9; Houthis maintaining independent blockade posture (UKMTO; Al Jazeera; Saudi SPA; Sep 9 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-09-09',
+      lat: 33.37,
+      lng: 35.48,
+      event: "Day 194 — Lebanon ceasefire Day 82 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Sep 9; IRGC/CENTCOM diplomatic pause Day 38; Iran-Oman Hormuz temporary route deal implementation still pending (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Sep 9 2026)",
       type: 'ceasefire',
     },
   ],
