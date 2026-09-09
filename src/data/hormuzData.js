@@ -65,8 +65,8 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (8 Sep, Day 193): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet beg …',
-    trumpUltimatum: 'LATEST (5 Sep): the United States and Iran were involved in a standoff in the Strait of Hormuz',
+    tankerRates: 'LATEST (9 Sep, Day 194): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet beg …',
+    trumpUltimatum: 'LATEST (9 Sep): IRGC/CENTCOM diplomatic pause Day 38; Iran-Oman Hormuz temporary route deal confirmed but not yet implemented',
     iranThreat: '18 Aug: the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
   },
 
