@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-09-08',
+  updated: '2026-09-09',
 
   current: {
     transitsPerDay: 6,
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Sep 8 (Day 193, Bab al-Mandab blockade Day 51): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 51st day; Saudi crude shipments via Red Sea halted for 44th consecutive day since July 26 …',
+      detail: 'Sep 9 (Day 194, Bab al-Mandab blockade Day 52): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 52nd day; Saudi crude shipments via Red Sea halted for 45th consecutive day since July 26 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Sep 8 (Day 193): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane active 2–4 months through Iran\'s territorial waters; implementation NOT yet begun as of Sep 8 …',
+      detail: 'Sep 9 (Day 194): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane active 2–4 months through Iran\'s territorial waters; implementation NOT yet begun as of Sep 9 …',
     },
     {
       country: 'Asia',
-      detail: 'Sep 8 (Day 193): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade enters 51st day; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 8; Operation Economic Outcast secondary sanctions in full effect …',
+      detail: 'Sep 9 (Day 194): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade enters 52nd day; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 9; Operation Economic Outcast secondary sanctions in full effect …',
     },
   ],
 };
