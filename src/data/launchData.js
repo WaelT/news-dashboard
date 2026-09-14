@@ -258,6 +258,8 @@ export const dailyLaunches = [
   { date: '2026-09-12', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 198 — IRGC/CENTCOM diplomatic pause Day 42 — no confirmed new ballistic missile or drone launches; CENTCOM airstrikes paused Day 42; Iran-Oman Hormuz temporary route deal (confirmed Aug 26) — implementation still not yet begun as of Sep 13; Houthi Bab al-Mandab blockade Day 56 — Saudi crude via Red Sea halted 49th consecutive day since July 26; Lebanon ceasefire Day 86 holds (toll unchanged 4,335/12,240); Brent ~$87–88/bbl; Hormuz transits ~6/day; JMIC "Severe" maintained; no new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS); countryBreakdown unchanged (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 13 2026)
   { date: '2026-09-13', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 199 — IRGC/CENTCOM diplomatic pause Day 43 — no confirmed new ballistic missile or drone launches; CENTCOM airstrikes paused Day 43; Iran-Oman Hormuz temporary route deal (confirmed Aug 26) — implementation still not yet begun as of Sep 14; Houthi Bab al-Mandab blockade Day 57 — Saudi crude via Red Sea halted 50th consecutive day since July 26; Lebanon ceasefire Day 87 holds (toll unchanged 4,335/12,240); Brent ~$87–88/bbl; Hormuz transits ~6/day; JMIC "Severe" maintained; no new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS); countryBreakdown unchanged (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 14 2026)
+  { date: '2026-09-14', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
