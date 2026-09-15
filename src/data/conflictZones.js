@@ -1365,9 +1365,20 @@ const conflictZones = [
     lng: 57.00,
     type: 'naval',
     icon: 'ship',
-    description: 'Day 199 (Sep 14): The IRGC/CENTCOM mutual diplomatic pause entered its 43rd consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi, Bloomberg, Al Jazeera) had still not entered implementation as of Sep 14; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi maintained that a full Hormuz reopening is contingent on US fulfilling June peace deal commitments on sanctions and naval posture. Operation Economic Outcast secondary sanctions remained in full effect. Lebanon ceasefire Day 87 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 57th consecutive day — Saudi crude via Red Sea halted for 50th consecutive day since July 26. No new Houthi attacks on international shipping confirmed Sep 14. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA — 26 total per DoD (756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 14 2026)',
+    description: 'Day 199 (Sep 14): The IRGC/CENTCOM mutual diplomatic pause entered its 43rd consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26) had still not entered implementation as of Sep 14; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi maintained that a full Hormuz reopening is contingent on US fulfilling June peace deal commitments on sanctions and naval posture. Operation Economic Outcast secondary sanctions remained in full effect. Lebanon ceasefire Day 87 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 57th consecutive day — Saudi crude via Red Sea halted for 50th consecutive day (50-day milestone) since July 26. No new Houthi attacks on international shipping confirmed Sep 14. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA — 26 total per DoD (756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 14 2026)',
     status: 'high-alert',
-    keywords: ['diplomatic pause day 43', 'hormuz deal implementation pending', 'houthi blockade day 57', 'lebanon ceasefire day 87', 'operation economic outcast', 'brent sep 14'],
+    keywords: ['diplomatic pause day 43', 'hormuz deal implementation pending', 'houthi blockade day 57', 'saudi crude red sea halt 50-day milestone', 'lebanon ceasefire day 87', 'operation economic outcast', 'brent sep 14'],
+  },
+  {
+    id: 198,
+    name: 'Strait of Hormuz — Day 200 Milestone; Diplomatic Pause Day 44; Hormuz Deal Implementation Pending; Houthi Blockade Day 58',
+    lat: 25.75,
+    lng: 57.05,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 200 (Sep 15) — 200-day war milestone: The IRGC/CENTCOM mutual diplomatic pause entered its 44th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26) had still not entered implementation as of Sep 15; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi maintained that a full Hormuz reopening is contingent on US fulfilling June peace deal commitments on sanctions and naval posture. Operation Economic Outcast secondary sanctions remained in full effect. Lebanon ceasefire Day 88 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 58th consecutive day — Saudi crude via Red Sea halted for 51st consecutive day since July 26. No new Houthi attacks on international shipping confirmed Sep 15. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA — 26 total per DoD (756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 15 2026)',
+    status: 'high-alert',
+    keywords: ['day 200 milestone', 'diplomatic pause day 44', 'hormuz deal implementation pending', 'houthi blockade day 58', 'lebanon ceasefire day 88', 'operation economic outcast', 'brent sep 15'],
   },
 ];
 
