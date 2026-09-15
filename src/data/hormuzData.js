@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-09-14',
+  updated: '2026-09-15',
 
   current: {
     transitsPerDay: 6,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (14 Sep, Day 199): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet beg …',
-    trumpUltimatum: 'LATEST (5 Sep): the United States and Iran were involved in a standoff in the Strait of Hormuz',
-    iranThreat: '18 Aug: the Greek-owned bulk carrier Minoan Dignity was attacked in the Strait, killing its chief engineer',
+    tankerRates: 'LATEST (15 Sep, Day 200): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet begun as of Sep 15 (Day 200 milestone); Hormuz transits ~6/day; war-risk premiums remain at ~700% above pre-crisis baseline; dual Hormuz/Bab al-Mandab disruption with Houthi blockade Day 58 …',
+    trumpUltimatum: 'LATEST (15 Sep, Day 200): IRGC/CENTCOM mutual diplomatic pause enters 44th consecutive day; Iran Deputy FM Gharibabadi reiterates full Hormuz reopening contingent on US sanctions relief and naval posture changes; Iran-Oman deal implementation still pending',
+    iranThreat: 'LATEST (15 Sep): Houthi Bab al-Mandab blockade Day 58 — Saudi crude Red Sea halt 51st consecutive day; Iran-Oman Hormuz deal unimplemented; 18 Aug: Greek-owned bulk carrier Minoan Dignity attacked in Strait, killing its chief engineer',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Sep 14 (Day 199, Bab al-Mandab blockade Day 57): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 57th day; Saudi crude shipments via Red Sea halted for 50th consecutive day since July 26 …',
+      detail: 'Sep 15 (Day 200, Bab al-Mandab blockade Day 58): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 58th day; Saudi crude shipments via Red Sea halted for 51st consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–15; Saudi Aramco routing crude via Gulf/pipeline alternatives at significant additional cost (UKMTO; Saudi SPA; Al Jazeera; Sep 15 2026) …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Sep 14 (Day 199): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane active 2–4 months through Iran\'s territorial waters; implementation NOT yet begun as of Sep 14 …',
+      detail: 'Sep 15 (Day 200): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Sep 15 (Day 200 — 200-day war milestone); Omani FM continuing quiet mediation between Iran and US on full Hormuz reopening …',
     },
     {
       country: 'Asia',
-      detail: 'Sep 14 (Day 199): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade enters 57th day; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 14; Operation Economic Outcast secondary sanctions in full effect …',
+      detail: 'Sep 15 (Day 200): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade Day 58; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 15; Operation Economic Outcast secondary sanctions in full effect; Asian LNG premiums remain elevated with global LNG flows disrupted; IMF estimates global GDP impact at -0.8% for 2026 (Bloomberg; IEA; IMF; Sep 15 2026) …',
     },
   ],
 };
