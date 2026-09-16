@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (16 Sep, Day 201): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation still not begun as of Sep 16 (Day 201); IRGC/CENTCOM diplomatic pause Day 45; Houthi Bab al-Mandab blockade Day 59; Saudi crude via Red Sea halted 52nd day; Brent ~$87–88/bbl; JMIC "Severe" maintained (Bloomberg; Al Jazeera; Sep 16 2026) …',
+    tankerRates: 'LATEST (16 Sep, Day 201): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation still not b …',
     trumpUltimatum: 'LATEST (9 Sep): the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
     iranThreat: '7 Sep: an oil tanker loaded at a Saudi port was prevented from leaving the Strait of Hormuz',
   },
