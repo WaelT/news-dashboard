@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-09-16',
+  updated: '2026-09-17',
 
   current: {
     transitsPerDay: 6,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (16 Sep, Day 201): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation still not b …',
+    tankerRates: 'LATEST (17 Sep, Day 202): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation still not begun as of Day 202; Hormuz transits ~6/day; dual chokepoint disruption (Hormuz + Houthi Bab al-Mandab) keeps Brent elevated ~$87–88/bbl; JMIC "Severe" maintained; Houthi blockade 60-day (2-month) milestone; Lebanon ceasefire 90-day (3-month) milestone (Bloomberg; Al Jazeera; UKMTO; Sep 17 2026) …',
     trumpUltimatum: 'LATEST (9 Sep): the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
     iranThreat: '7 Sep: an oil tanker loaded at a Saudi port was prevented from leaving the Strait of Hormuz',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Sep 16 (Day 201, Bab al-Mandab blockade Day 59): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 59th day; Saudi crude shipments via Red Sea halted for 52nd consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–16 …',
+      detail: 'Sep 17 (Day 202, Bab al-Mandab blockade Day 60 — 2-month milestone): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 60th day (2-month milestone); Saudi crude shipments via Red Sea halted for 53rd consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–17; Houthis maintaining independent blockade posture with IRGC logistical support (UKMTO; Al Jazeera; Saudi SPA; Sep 17 2026) …',
     },
     {
       country: 'Iraq',
