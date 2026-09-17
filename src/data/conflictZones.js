@@ -1391,6 +1391,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['day 201', 'diplomatic pause day 45', 'hormuz deal implementation pending', 'houthi blockade day 59', 'saudi crude red sea halt 52nd day', 'lebanon ceasefire day 89', 'operation economic outcast', 'brent sep 16'],
   },
+  {
+    id: 200,
+    name: 'Strait of Hormuz — Day 202; Diplomatic Pause Day 46; Hormuz Deal Implementation Pending; Houthi Blockade Day 60 (2-month milestone); Lebanon Ceasefire Day 90 (3-month milestone)',
+    lat: 25.65,
+    lng: 57.15,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 202 (Sep 17): The IRGC/CENTCOM mutual diplomatic pause entered its 46th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi) had still not entered implementation as of Sep 17; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi maintained that a full Hormuz reopening is contingent on US fulfilling June peace deal commitments on sanctions and naval posture. Operation Economic Outcast secondary sanctions remained in full effect. Lebanon ceasefire reached its 90-day (3-month) milestone — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia reached its 60-day (2-month) milestone — Saudi crude via Red Sea halted for 53rd consecutive day since July 26. No new Houthi attacks on international shipping confirmed Sep 17. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA — 26 total per DoD (756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 17 2026)',
+    status: 'high-alert',
+    keywords: ['day 202', 'diplomatic pause day 46', 'hormuz deal implementation pending', 'houthi blockade day 60', '2-month houthi blockade milestone', 'saudi crude red sea halt 53rd day', 'lebanon ceasefire day 90', '3-month lebanon ceasefire milestone', 'operation economic outcast', 'brent sep 17'],
+  },
 ];
 
 export default conflictZones;
