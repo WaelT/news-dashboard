@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Sep 18 (Day 203, Bab al-Mandab blockade Day 61): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 61st day; Saudi crude shipments via Red Sea halted for 54th consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–18; Houthis maintaining independent blockade posture …',
+      detail: 'Sep 18 (Day 203, Bab al-Mandab blockade Day 61): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 61st day; Saudi crude shipments via Red Sea halted for 54th consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–18 …',
     },
     {
       country: 'Iraq',
