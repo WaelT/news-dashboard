@@ -67,7 +67,7 @@ export const hormuzData = {
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (19 Sep, Day 204): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation still not b …',
     trumpUltimatum: 'LATEST (9 Sep): the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
-    iranThreat: '7 Sep: an oil tanker loaded at a Saudi port was prevented from leaving the Strait of Hormuz; IRGC/CENTCOM diplomatic pause Day 48 — no new vessel attacks Sep 16–19',
+    iranThreat: '7 Sep: an oil tanker loaded at a Saudi port was prevented from leaving the Strait of Hormuz',
   },
 
   disruptions: [
