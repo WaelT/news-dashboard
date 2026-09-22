@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (21 Sep, Day 206): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation still not b …',
-    trumpUltimatum: 'LATEST (9 Sep): the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
-    iranThreat: '7 Sep: an oil tanker loaded at a Saudi port was prevented from leaving the Strait of Hormuz',
+    tankerRates: 'LATEST (22 Sep, Day 207): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet beg …',
+    trumpUltimatum: 'LATEST (22 Sep): IRGC/CENTCOM diplomatic pause Day 51 — no new US ultimatum; Operation Economic Outcast secondary sanctions in full effect; all Hormuz tanker operators maintaining minimum-transit posture',
+    iranThreat: '22 Sep: Iran Deputy FM Gharibabadi maintains full Hormuz reopening contingent on US fulfilling June peace deal commitments on sanctions and naval posture; IRGC CLOSED declaration technically in force',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Sep 22 (Day 207): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation still not begun as of Sep 22 …',
+      detail: 'Sep 22 (Day 207): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Sep 22 (Day 207); Iran Deputy FM Gharibabadi maintains full reopening contingent on US fulfilling June peace deal commitments …',
     },
     {
       country: 'Asia',
-      detail: 'Sep 22 (Day 207): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi Bab al-Mandab blockade Day 65 (Saudi crude halted 58th consecutive day); Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 22 …',
+      detail: 'Sep 22 (Day 207): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade Day 65; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 22; Operation Economic Outcast secondary sanctions in full effect …',
     },
   ],
 };
