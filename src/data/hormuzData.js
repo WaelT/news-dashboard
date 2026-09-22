@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (22 Sep, Day 207): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet beg …',
-    trumpUltimatum: 'LATEST (22 Sep): IRGC/CENTCOM diplomatic pause Day 51 — no new US ultimatum; Operation Economic Outcast secondary sanctions in full effect; all Hormuz tanker operators maintaining minimum-transit posture',
-    iranThreat: '22 Sep: Iran Deputy FM Gharibabadi maintains full Hormuz reopening contingent on US fulfilling June peace deal commitments on sanctions and naval posture; IRGC CLOSED declaration technically in force',
+    trumpUltimatum: 'LATEST (9 Sep): the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
+    iranThreat: '7 Sep: an oil tanker loaded at a Saudi port was prevented from leaving the Strait of Hormuz',
   },
 
   disruptions: [
@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Sep 22 (Day 207): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Sep 22 (Day 207); Iran Deputy FM Gharibabadi maintains full reopening contingent on US fulfilling June peace deal commitments …',
+      detail: 'Sep 22 (Day 207): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Sep 22 (Day 207) …',
     },
     {
       country: 'Asia',
