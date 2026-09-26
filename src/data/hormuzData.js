@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-09-23',
+  updated: '2026-09-26',
 
   current: {
     transitsPerDay: 6,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (22 Sep, Day 207): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet beg …',
+    tankerRates: 'LATEST (26 Sep, Day 211): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet beg …',
     trumpUltimatum: 'LATEST (9 Sep): the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
     iranThreat: '7 Sep: an oil tanker loaded at a Saudi port was prevented from leaving the Strait of Hormuz',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Sep 23 (Day 208, Bab al-Mandab blockade Day 66): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 66th day; Saudi crude shipments via Red Sea halted for 59th consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–23 …',
+      detail: 'Sep 26 (Day 211, Bab al-Mandab blockade Day 69): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 69th day; Saudi crude shipments via Red Sea halted for 62nd consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–26 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Sep 23 (Day 208): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Sep 23 (Day 208) …',
+      detail: 'Sep 26 (Day 211): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Sep 26 (Day 211) …',
     },
     {
       country: 'Asia',
-      detail: 'Sep 23 (Day 208): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade Day 66; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 23; Operation Economic Outcast secondary sanctions in full effect …',
+      detail: 'Sep 26 (Day 211): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade Day 69; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 26; Operation Economic Outcast secondary sanctions in full effect …',
     },
   ],
 };
