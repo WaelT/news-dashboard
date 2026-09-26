@@ -3035,6 +3035,48 @@ const groundOps = {
       event: "Day 208 — Lebanon ceasefire Day 96 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Sep 23; IRGC/CENTCOM diplomatic pause Day 52; Iran-Oman Hormuz temporary route deal implementation still pending as of Sep 23 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Sep 23 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-09-24',
+      lat: 14.06,
+      lng: 42.44,
+      event: "Day 209 — Houthi Bab al-Mandab blockade Day 67; Saudi crude via Red Sea halted 60th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Sep 24; Houthis maintaining independent blockade posture (UKMTO; Al Jazeera; Saudi SPA; Sep 24 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-09-24',
+      lat: 33.72,
+      lng: 35.14,
+      event: "Day 209 — Lebanon ceasefire Day 97 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Sep 24; IRGC/CENTCOM diplomatic pause Day 53; Iran-Oman Hormuz temporary route deal implementation still pending as of Sep 24 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Sep 24 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-09-25',
+      lat: 14.56,
+      lng: 42.66,
+      event: "Day 210 — Houthi Bab al-Mandab blockade Day 68; Saudi crude via Red Sea halted 61st consecutive day since July 26; no new confirmed Houthi attacks on international shipping Sep 25; Houthis maintaining independent blockade posture (UKMTO; Al Jazeera; Saudi SPA; Sep 25 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-09-25',
+      lat: 33.68,
+      lng: 35.50,
+      event: "Day 210 — Lebanon ceasefire Day 98 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Sep 25; IRGC/CENTCOM diplomatic pause Day 54; Iran-Oman Hormuz temporary route deal implementation still pending as of Sep 25 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Sep 25 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-09-26',
+      lat: 14.06,
+      lng: 42.44,
+      event: "Day 211 — Houthi Bab al-Mandab blockade Day 69; Saudi crude via Red Sea halted 62nd consecutive day since July 26; no new confirmed Houthi attacks on international shipping Sep 26; Houthis maintaining independent blockade posture (UKMTO; Al Jazeera; Saudi SPA; Sep 26 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-09-26',
+      lat: 33.72,
+      lng: 35.50,
+      event: "Day 211 — Lebanon ceasefire Day 99 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Sep 26; IRGC/CENTCOM diplomatic pause Day 55; Iran-Oman Hormuz temporary route deal implementation still pending as of Sep 26 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Sep 26 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 
