@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'SEPTEMBER 21, 2026 (DAY 206 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 50 MILESTONE; NO NEW LAUNCHES CONFIRMED; HORMUZ TEMPORARY ROUTE DEAL CONFIRMED AUG 26 — IMPLEMENTATION NOT YET BEGUN; HOUTHI BAB AL-MANDAB BLOCKADE DAY 64; SAUDI CRUDE HALTED 57TH DAY; LEBANON CEASEFIRE DAY 94; BRENT ~$87–88/BBL; USA WOUNDED 756 PER PENTAGON DCAS)',
+  updated: 'SEPTEMBER 25, 2026 (DAY 210 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 54; NO NEW LAUNCHES CONFIRMED; HORMUZ TEMPORARY ROUTE DEAL CONFIRMED AUG 26 — IMPLEMENTATION NOT YET BEGUN; HOUTHI BAB AL-MANDAB BLOCKADE DAY 68; SAUDI CRUDE HALTED 61ST DAY; LEBANON CEASEFIRE DAY 98; BRENT ~$87–88/BBL; USA WOUNDED 756 PER PENTAGON DCAS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -3037,8 +3037,8 @@ const groundOps = {
     },
     {
       date: '2026-09-24',
-      lat: 14.06,
-      lng: 42.44,
+      lat: 14.56,
+      lng: 42.66,
       event: "Day 209 — Houthi Bab al-Mandab blockade Day 67; Saudi crude via Red Sea halted 60th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Sep 24; Houthis maintaining independent blockade posture (UKMTO; Al Jazeera; Saudi SPA; Sep 24 2026)",
       type: 'escalation',
     },
@@ -3059,7 +3059,7 @@ const groundOps = {
     {
       date: '2026-09-25',
       lat: 33.68,
-      lng: 35.50,
+      lng: 35.47,
       event: "Day 210 — Lebanon ceasefire Day 98 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Sep 25; IRGC/CENTCOM diplomatic pause Day 54; Iran-Oman Hormuz temporary route deal implementation still pending as of Sep 25 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Sep 25 2026)",
       type: 'ceasefire',
     },
