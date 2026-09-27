@@ -1501,6 +1501,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['day 211', 'diplomatic pause day 55', 'hormuz deal implementation pending', 'houthi blockade day 69', 'saudi crude red sea halt 62nd day', 'lebanon ceasefire day 99', 'operation economic outcast', 'brent sep 26'],
   },
+  {
+    id: 210,
+    name: 'Strait of Hormuz — Day 212; Diplomatic Pause Day 56; Hormuz Deal Implementation Pending; Houthi Blockade Day 70; Lebanon Ceasefire Day 100',
+    lat: 25.20,
+    lng: 57.60,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 212 (Sep 27): The IRGC/CENTCOM mutual diplomatic pause continued for the 56th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi) had not entered implementation as of Sep 27; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi position unchanged: full Hormuz reopening contingent on US fulfilling June peace deal commitments on sanctions and naval posture. Operation Economic Outcast secondary sanctions in full effect. Lebanon ceasefire reached its 100-day milestone — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 70th consecutive day (70-day milestone) — Saudi crude via Red Sea halted for 63rd consecutive day since July 26. No new Houthi attacks on international shipping confirmed Sep 27. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA — 26 total per DoD (756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 27 2026)',
+    status: 'high-alert',
+    keywords: ['day 212', 'diplomatic pause day 56', 'hormuz deal implementation pending', 'houthi blockade day 70', '70-day houthi blockade milestone', 'saudi crude red sea halt 63rd day', 'lebanon ceasefire day 100', '100-day lebanon ceasefire milestone', 'operation economic outcast', 'brent sep 27'],
+  },
 ];
 
 export default conflictZones;
