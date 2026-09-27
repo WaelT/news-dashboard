@@ -285,6 +285,8 @@ const casualtyTimeline = [
   { date: '2026-09-25', iran: 3831, lebanon: 4335, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 211: IRGC/CENTCOM diplomatic pause Day 55 — no confirmed new ballistic missile or drone launches; CENTCOM airstrikes paused Day 55; no new Iran Health Ministry casualty release during diplomatic pause (Iran: 3,831 killed — unchanged since Aug 1 Iran Health Ministry update); Lebanon ceasefire Day 99 holds (toll unchanged 4,335/12,240); Houthi Bab al-Mandab blockade Day 69 — Saudi crude via Red Sea halted for 62nd consecutive day since July 26; no new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS); Brent ~$87–88/bbl; Wikipedia API 403 — all casualty figures trajectory-based (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 26 2026)
   { date: '2026-09-26', iran: 3831, lebanon: 4335, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 212: IRGC/CENTCOM diplomatic pause Day 56 — no confirmed new ballistic missile or drone launches; CENTCOM airstrikes paused Day 56; no new Iran Health Ministry casualty release during diplomatic pause (Iran: 3,831 killed — unchanged since Aug 1 Iran Health Ministry update); Lebanon ceasefire Day 100 (100-day milestone) holds (toll unchanged 4,335/12,240); Houthi Bab al-Mandab blockade Day 70 (70-day milestone) — Saudi crude via Red Sea halted for 63rd consecutive day since July 26; no new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS); Brent ~$87–88/bbl; Wikipedia API 403 — all casualty figures trajectory-based (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 27 2026)
+  { date: '2026-09-27', iran: 3831, lebanon: 4335, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;
