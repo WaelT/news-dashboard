@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Sep 27 (Day 212): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade Day 70 (70-day milestone); Lebanon ceasefire Day 100 (100-day milestone); Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 27; Operation Economic Outcast secondary sanctions in full effect …',
+      detail: 'Sep 27 (Day 212): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade Day 70 (70-day milestone); Lebanon ceasefire Day 100 (100-day milestone); Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 27 …',
     },
   ],
 };
