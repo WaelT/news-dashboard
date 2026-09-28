@@ -1512,6 +1512,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['day 212', 'diplomatic pause day 56', 'hormuz deal implementation pending', 'houthi blockade day 70', '70-day houthi blockade milestone', 'saudi crude red sea halt 63rd day', 'lebanon ceasefire day 100', '100-day lebanon ceasefire milestone', 'operation economic outcast', 'brent sep 27'],
   },
+  {
+    id: 211,
+    name: 'Strait of Hormuz — Day 213; Diplomatic Pause Day 57; Hormuz Deal Implementation Pending; Houthi Blockade Day 71; Lebanon Ceasefire Day 101',
+    lat: 25.15,
+    lng: 57.65,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 213 (Sep 28): The IRGC/CENTCOM mutual diplomatic pause continued for the 57th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi) had not entered implementation as of Sep 28; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi position unchanged: full Hormuz reopening contingent on US fulfilling June peace deal commitments on sanctions and naval posture. Operation Economic Outcast secondary sanctions in full effect. Lebanon ceasefire Day 101 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 71st consecutive day — Saudi crude shipments via Red Sea halted for 64th consecutive day since July 26. No new confirmed Houthi vessel attacks Sep 28. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 28 2026)',
+    status: 'high-alert',
+    keywords: ['day 213', 'diplomatic pause day 57', 'hormuz deal implementation pending', 'houthi blockade day 71', 'saudi crude red sea halt 64th day', 'lebanon ceasefire day 101', 'operation economic outcast', 'brent sep 28'],
+  },
 ];
 
 export default conflictZones;
