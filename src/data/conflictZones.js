@@ -1523,6 +1523,28 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['day 213', 'diplomatic pause day 57', 'hormuz deal implementation pending', 'houthi blockade day 71', 'saudi crude red sea halt 64th day', 'lebanon ceasefire day 101', 'operation economic outcast', 'brent sep 28'],
   },
+  {
+    id: 212,
+    name: 'Strait of Hormuz — Day 214; Diplomatic Pause Day 58; Hormuz Deal Implementation Pending; Houthi Blockade Day 72; Lebanon Ceasefire Day 102',
+    lat: 25.10,
+    lng: 57.70,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 214 (Sep 29): The IRGC/CENTCOM mutual diplomatic pause continued for the 58th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi) had not entered implementation as of Sep 29; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi position unchanged: full Hormuz reopening contingent on US fulfilling June peace deal commitments on sanctions and naval posture. Operation Economic Outcast secondary sanctions in full effect. Lebanon ceasefire Day 102 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 72nd consecutive day — Saudi crude shipments via Red Sea halted for 65th consecutive day since July 26. No new confirmed Houthi vessel attacks Sep 29. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 29 2026)',
+    status: 'high-alert',
+    keywords: ['day 214', 'diplomatic pause day 58', 'hormuz deal implementation pending', 'houthi blockade day 72', 'saudi crude red sea halt 65th day', 'lebanon ceasefire day 102', 'operation economic outcast', 'brent sep 29'],
+  },
+  {
+    id: 213,
+    name: 'Strait of Hormuz — Day 215; Diplomatic Pause Day 59; Hormuz Deal Implementation Pending; Houthi Blockade Day 73; Lebanon Ceasefire Day 103',
+    lat: 25.05,
+    lng: 57.75,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 215 (Sep 30): The IRGC/CENTCOM mutual diplomatic pause continued for the 59th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi) had not entered implementation as of Sep 30; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi position unchanged: full Hormuz reopening contingent on US fulfilling June peace deal commitments on sanctions and naval posture. Operation Economic Outcast secondary sanctions in full effect. Lebanon ceasefire Day 103 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 73rd consecutive day — Saudi crude shipments via Red Sea halted for 66th consecutive day since July 26. No new confirmed Houthi vessel attacks Sep 30. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 30 2026)',
+    status: 'high-alert',
+    keywords: ['day 215', 'diplomatic pause day 59', 'hormuz deal implementation pending', 'houthi blockade day 73', 'saudi crude red sea halt 66th day', 'lebanon ceasefire day 103', 'operation economic outcast', 'brent sep 30'],
+  },
 ];
 
 export default conflictZones;
