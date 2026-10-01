@@ -60,7 +60,7 @@ export const hormuzData = {
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
     vesselsAttacked: 63,
-    seafarersKilled: 20,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
+    seafarersKilled: 24,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
