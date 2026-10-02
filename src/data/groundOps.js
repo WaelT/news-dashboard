@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'SEPTEMBER 29, 2026 (DAY 214 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 58; NO NEW LAUNCHES CONFIRMED; HORMUZ TEMPORARY ROUTE DEAL CONFIRMED AUG 26 — IMPLEMENTATION NOT YET BEGUN; HOUTHI BAB AL-MANDAB BLOCKADE DAY 72; SAUDI CRUDE HALTED 65TH DAY; LEBANON CEASEFIRE DAY 102; BRENT ~$87–88/BBL; USA WOUNDED 756 PER PENTAGON DCAS)',
+  updated: 'OCTOBER 2, 2026 (DAY 217 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 61; NO NEW LAUNCHES CONFIRMED; IRAN RECEIVED US HORMUZ RESPONSE VIA QATAR; TRUMP THREATENS POST-MIDTERM STRIKES; RUBIO EXPELLED IRAN UN DELEGATION; HORMUZ TEMPORARY ROUTE DEAL CONFIRMED AUG 26 — IMPLEMENTATION NOT YET BEGUN; HOUTHI BAB AL-MANDAB BLOCKADE DAY 75; SAUDI CRUDE HALTED 68TH DAY; LEBANON CEASEFIRE DAY 105; BRENT ~$87–103/BBL (VOLATILE); USA WOUNDED 756 PER PENTAGON DCAS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -3145,6 +3145,27 @@ const groundOps = {
       lat: 33.72,
       lng: 35.59,
       event: "Day 216 — Lebanon ceasefire Day 104 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 1; IRGC/CENTCOM diplomatic pause Day 60; Iran-Oman Hormuz temporary route deal implementation still pending as of Oct 1 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 1 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-10-02',
+      lat: 25.00,
+      lng: 56.80,
+      event: "Day 217 — IRGC/CENTCOM diplomatic pause Day 61; Iran received US response to 7-day Hormuz proposal via Qatari mediators; sides largely agree on key points per sources; Trump says US will decide 'very soon' on strikes vs. negotiate; Rubio expelled Iran UN delegation from US; UKMTO reports several vessels struck by unknown projectiles near Hormuz in recent days (CBS News; JPost; Al Jazeera; UKMTO; Oct 2 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-10-02',
+      lat: 14.22,
+      lng: 42.60,
+      event: "Day 217 — Houthi Bab al-Mandab blockade Day 75; Saudi crude via Red Sea halted 68th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 2 (UKMTO; Al Jazeera; Saudi SPA; Oct 2 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-02',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 217 — Lebanon ceasefire Day 105 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 2; IRGC/CENTCOM diplomatic pause Day 61 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 2 2026)",
       type: 'ceasefire',
     },
   ],

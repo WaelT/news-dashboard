@@ -1556,6 +1556,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['day 216', 'diplomatic pause day 60', 'hormuz deal implementation pending', 'houthi blockade day 74', 'saudi crude red sea halt 67th day', 'lebanon ceasefire day 104', 'operation economic outcast', 'brent oct 1'],
   },
+  {
+    id: 215,
+    name: 'Strait of Hormuz — Day 217; Diplomatic Pause Day 61; Iran Receives US Hormuz Response; Trump Threatens Strikes; Houthi Blockade Day 75; Lebanon Ceasefire Day 105',
+    lat: 24.95,
+    lng: 57.85,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 217 (Oct 2): The IRGC/CENTCOM mutual diplomatic pause continued for the 61st consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. Iran received Washington\'s response to its 7-day Hormuz proposal via Qatari mediators; sides largely agree on key points per sources. President Trump said the US would decide "very soon" on strikes vs. negotiate; US Sec. State Rubio expelled Iranian UN delegation from the US after talks stalled. UKMTO reports several vessels struck by unknown projectiles near Hormuz in recent days. The Iran-Oman Hormuz temporary route deal (confirmed Aug 26) remained unimplemented as of Oct 2; Hormuz transits ~5–6/day. Brent $87–103/bbl (volatile — stalled talks, dual chokepoint disruption). Lebanon ceasefire Day 105 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 75th consecutive day — Saudi crude shipments via Red Sea halted for 68th consecutive day since July 26. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). Wikipedia API 403 — casualty figures trajectory-based (CBS News; JPost; Al Jazeera; UKMTO; CENTCOM; DoD; Oct 2 2026)',
+    status: 'high-alert',
+    keywords: ['day 217', 'diplomatic pause day 61', 'hormuz us response', 'trump threatens strikes', 'rubio iran delegation', 'ukmto tanker strikes', 'houthi blockade day 75', 'saudi crude red sea halt 68th day', 'lebanon ceasefire day 105', 'operation economic outcast', 'brent oct 2'],
+  },
 ];
 
 export default conflictZones;
