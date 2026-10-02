@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (2 Oct, Day 217): Brent $87–103/bbl (volatile — US-Iran talks stall; dual Hormuz + Bab al-Mandab disruption); UKMTO reports several vessels struck by unknown projectiles near Hormuz in recent days; war-risk premiums ~40× normal; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet beg …',
-    trumpUltimatum: 'LATEST (2 Oct): Trump says US will decide "very soon" whether to strike Iran or negotiate; said post-midterm strikes "possible." Rubio expelled Iranian UN General Assembly delegation from US. Iran received Washington\'s response to 7-day Hormuz proposal via Qatari mediators — sides largely agree on key points per sources (CBS News; JPost; Al Jazeera; Oct 2 2026)',
-    iranThreat: '2 Oct: UKMTO reports several vessels struck by unknown projectiles in and around the Strait of Hormuz in recent days; attribution not confirmed. 9 Sep: oil tanker Hercules Star attacked by projectile off Dubai, 1 crew member killed, 1 missing',
+    tankerRates: 'LATEST (2 Oct, Day 217): Brent $87–103/bbl (volatile — US-Iran talks stall; dual Hormuz + Bab al-Mandab disruption) …',
+    trumpUltimatum: 'LATEST (25 Sep): Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
+    iranThreat: '9 Sep: the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 2 (Day 217): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Oct 2 (Day 217); Iran received US response to 7-day Hormuz proposal via Qatari mediators Oct 2 …',
+      detail: 'Oct 2 (Day 217): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Oct 2 (Day 217) …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 2 (Day 217): Brent $87–103/bbl (volatile — US-Iran talks stall on Rubio expulsion of Iran\'s UN delegation; Trump threatens post-midterm strikes); Houthi blockade Day 75; Lebanon ceasefire Day 105; Iran received US response to 7-day Hormuz proposal via Qatar; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Oct 2 …',
+      detail: 'Oct 2 (Day 217): Brent $87–103/bbl (volatile — US-Iran talks stall on Rubio expulsion of Iran\'s UN delegation; Trump threatens post-midterm strikes); Houthi blockade Day 75; Lebanon ceasefire Day 105; Iran received US response to 7-day Hormuz proposal via Qatar …',
     },
   ],
 };
