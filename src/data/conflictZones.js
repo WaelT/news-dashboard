@@ -1567,6 +1567,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['day 217', 'diplomatic pause day 61', 'hormuz us response', 'trump threatens strikes', 'rubio iran delegation', 'ukmto tanker strikes', 'houthi blockade day 75', 'saudi crude red sea halt 68th day', 'lebanon ceasefire day 105', 'operation economic outcast', 'brent oct 2'],
   },
+  {
+    id: 216,
+    name: 'Strait of Hormuz — Day 218; Diplomatic Pause Day 62; US-Iran Hormuz Back-Channel Talks; Houthi Blockade Day 76; Lebanon Ceasefire Day 106',
+    lat: 24.90,
+    lng: 57.90,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 218 (Oct 3): The IRGC/CENTCOM mutual diplomatic pause continued for the 62nd consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. US-Iran Hormuz back-channel negotiations continued via Omani and Qatari mediators following Iran\'s receipt of the US Hormuz proposal on Oct 2. Iranian FM Araghchi signaled Iran remains "open to talks" but insisted the US must first fulfill June MOU commitments on sanctions before a full Hormuz reopening. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi) had not entered implementation as of Oct 3; Hormuz transits remained ~5–6/day. Operation Economic Outcast secondary sanctions remained in full effect. Lebanon ceasefire Day 106 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 76th consecutive day — Saudi crude shipments via Red Sea halted for 69th consecutive day since July 26. No new confirmed Houthi vessel attacks Oct 3. Brent ~$87–90/bbl (stabilizing from volatile Oct 2). JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Oct 3 2026)',
+    status: 'high-alert',
+    keywords: ['day 218', 'diplomatic pause day 62', 'hormuz back-channel talks', 'araghchi open to talks', 'houthi blockade day 76', 'saudi crude red sea halt 69th day', 'lebanon ceasefire day 106', 'operation economic outcast', 'brent oct 3'],
+  },
 ];
 
 export default conflictZones;
