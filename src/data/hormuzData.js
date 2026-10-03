@@ -65,8 +65,8 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (3 Oct, Day 218): Brent $87–90/bbl (stabilizing slightly from volatile Oct 2 $87–103/bbl range; back-channel US-Iran Hormuz talks continuing via Oman/Qatar) …',
-    trumpUltimatum: 'LATEST (3 Oct): Iranian FM Araghchi signals Iran "open to talks" but insists US must first fulfill June MOU commitments on sanctions before Hormuz fully reopens; US-Iran back-channel negotiations ongoing via Omani and Qatari mediators',
+    tankerRates: 'LATEST (3 Oct, Day 218): Brent $87–90/bbl (stabilizing slightly from volatile Oct 2 $87–103/bbl range …',
+    trumpUltimatum: 'LATEST (25 Sep): Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
     iranThreat: '9 Sep: the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
   },
 
@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 3 (Day 218): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Oct 3 (Day 218); US-Iran back-channel negotiations continue via Omani mediators …',
+      detail: 'Oct 3 (Day 218): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Oct 3 (Day 218) …',
     },
     {
       country: 'Asia',
