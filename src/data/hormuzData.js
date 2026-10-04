@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-03',
+  updated: '2026-10-04',
 
   current: {
     transitsPerDay: 6,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (3 Oct, Day 218): Brent $87–90/bbl (stabilizing slightly from volatile Oct 2 $87–103/bbl range …',
-    trumpUltimatum: 'LATEST (25 Sep): Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
-    iranThreat: '9 Sep: the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
+    tankerRates: 'LATEST (4 Oct, Day 219): Brent $87–100/bbl (volatile — crude tanker struck east of Oman Oct 3, crew safe, no environmental impact per UKMTO; Camp David meeting Oct 3 reviewed post-midterm military options; Hormuz ~5–6 transits/day; Iran-Oman route deal Aug 26 still not implemented) …',
+    trumpUltimatum: 'LATEST (2 Oct): Trump rejected Iran\'s 7-day Hormuz reopening proposal as "unacceptable"; Rubio expelled Iranian UN delegation from US; Trump said renewed strikes after Nov 3 midterms "possible" but indicated talks would "resume this week" via back-channels',
+    iranThreat: '3 Oct: crude tanker struck east of Oman by unknown projectile (crew safe, no environmental impact — UKMTO); 9 Sep: oil tanker Hercules Star attacked off Dubai (1 crew member killed, 1 missing)',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 3 (Day 218, Bab al-Mandab blockade Day 76): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 76th day; Saudi crude shipments via Red Sea halted for 69th consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–Oct 3 …',
+      detail: 'Oct 4 (Day 219, Bab al-Mandab blockade Day 77): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 77th day; Saudi crude shipments via Red Sea halted for 70th consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–Oct 4 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 3 (Day 218): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Oct 3 (Day 218) …',
+      detail: 'Oct 4 (Day 219): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Oct 4 (Day 219); crude tanker struck east of Oman Oct 3 (crew safe, no environmental impact per UKMTO) …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 3 (Day 218): Brent $87–90/bbl (stabilizing from volatile Oct 2 range; US-Iran Hormuz back-channel talks ongoing via Oman/Qatar); Houthi blockade Day 76; Lebanon ceasefire Day 106; Araghchi signals openness to talks conditioned on US fulfilling June MOU commitments …',
+      detail: 'Oct 4 (Day 219): Brent $87–100/bbl (volatile — crude tanker struck east of Oman Oct 3, Camp David Oct 3 reviewed post-midterm strike options); Trump-Iran back-channel talks reportedly resuming via Oman/Qatar; Houthi blockade Day 77; Lebanon ceasefire Day 107; Iran-Oman route deal Aug 26 still not implemented; Araghchi signals openness to talks conditioned on US fulfilling June MOU commitments …',
     },
   ],
 };
