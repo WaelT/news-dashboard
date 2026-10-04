@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-09-30',
+  updated: '2026-10-04',
 
   current: {
     transitsPerDay: 6,
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Sep 30 (Day 215, Bab al-Mandab blockade Day 73): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 73rd day; Saudi crude shipments via Red Sea halted for 66th consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–30 …',
+      detail: 'Oct 4 (Day 219, Bab al-Mandab blockade Day 77): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 77th day; Saudi crude shipments via Red Sea halted for 70th consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–Oct 4 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Sep 30 (Day 215): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Sep 30 (Day 215) …',
+      detail: 'Oct 4 (Day 219): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Oct 4 (Day 219) …',
     },
     {
       country: 'Asia',
-      detail: 'Sep 30 (Day 215): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade Day 73; Lebanon ceasefire Day 103; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 30 …',
+      detail: 'Oct 4 (Day 219): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade Day 77; Lebanon ceasefire Day 107; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Oct 4 …',
     },
   ],
 };
