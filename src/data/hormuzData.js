@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (4 Oct, Day 219): Brent $87–100/bbl (volatile — crude tanker struck east of Oman Oct 3, crew safe, no environmental impact per UKMTO; Camp David meeting Oct 3 reviewed post-midterm military options; Hormuz ~5–6 transits/day; Iran-Oman route deal Aug 26 still not implemented) …',
-    trumpUltimatum: 'LATEST (2 Oct): Trump rejected Iran\'s 7-day Hormuz reopening proposal as "unacceptable"; Rubio expelled Iranian UN delegation from US; Trump said renewed strikes after Nov 3 midterms "possible" but indicated talks would "resume this week" via back-channels',
-    iranThreat: '3 Oct: crude tanker struck east of Oman by unknown projectile (crew safe, no environmental impact — UKMTO); 9 Sep: oil tanker Hercules Star attacked off Dubai (1 crew member killed, 1 missing)',
+    tankerRates: 'LATEST (4 Oct, Day 219): Brent $87–100/bbl (volatile — crude tanker struck east of Oman Oct 3, crew safe, no environment …',
+    trumpUltimatum: 'LATEST (25 Sep): Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
+    iranThreat: '9 Sep: the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 4 (Day 219): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Oct 4 (Day 219); crude tanker struck east of Oman Oct 3 (crew safe, no environmental impact per UKMTO) …',
+      detail: 'Oct 4 (Day 219): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Oct 4 (Day 219) …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 4 (Day 219): Brent $87–100/bbl (volatile — crude tanker struck east of Oman Oct 3, Camp David Oct 3 reviewed post-midterm strike options); Trump-Iran back-channel talks reportedly resuming via Oman/Qatar; Houthi blockade Day 77; Lebanon ceasefire Day 107; Iran-Oman route deal Aug 26 still not implemented; Araghchi signals openness to talks conditioned on US fulfilling June MOU commitments …',
+      detail: 'Oct 4 (Day 219): Brent $87–100/bbl (volatile — crude tanker struck east of Oman Oct 3, Camp David Oct 3 reviewed post-midterm strike options); Trump-Iran back-channel talks reportedly resuming via Oman/Qatar; Houthi blockade Day 77; Lebanon ceasefire Day 107 …',
     },
   ],
 };
