@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'OCTOBER 4, 2026 (DAY 219 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 63; NO NEW LAUNCHES CONFIRMED; HORMUZ TEMPORARY ROUTE DEAL CONFIRMED AUG 26 — IMPLEMENTATION NOT YET BEGUN; HOUTHI BAB AL-MANDAB BLOCKADE DAY 77; SAUDI CRUDE HALTED 70TH DAY; LEBANON CEASEFIRE DAY 107; BRENT ~$87–88/BBL; USA WOUNDED 756 PER PENTAGON DCAS)',
+  updated: 'OCTOBER 3, 2026 (DAY 218 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 62; NO NEW LAUNCHES CONFIRMED; US-IRAN HORMUZ BACK-CHANNEL TALKS CONTINUE VIA OMAN/QATAR; ARAGHCHI SIGNALS OPENNESS TO TALKS; HORMUZ TEMPORARY ROUTE DEAL CONFIRMED AUG 26 — IMPLEMENTATION NOT YET BEGUN; HOUTHI BAB AL-MANDAB BLOCKADE DAY 76; SAUDI CRUDE HALTED 69TH DAY; LEBANON CEASEFIRE DAY 106; BRENT ~$87–90/BBL (STABILIZING); USA WOUNDED 756 PER PENTAGON DCAS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -3135,8 +3135,8 @@ const groundOps = {
     },
     {
       date: '2026-10-01',
-      lat: 14.18,
-      lng: 42.56,
+      lat: 14.22,
+      lng: 42.60,
       event: "Day 216 — Houthi Bab al-Mandab blockade Day 74; Saudi crude via Red Sea halted 67th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 1; Houthis maintaining independent blockade posture (UKMTO; Al Jazeera; Saudi SPA; Oct 1 2026)",
       type: 'escalation',
     },
@@ -3149,22 +3149,36 @@ const groundOps = {
     },
     {
       date: '2026-10-02',
+      lat: 25.00,
+      lng: 56.80,
+      event: "Day 217 — IRGC/CENTCOM diplomatic pause Day 61; Iran received US response to 7-day Hormuz proposal via Qatari mediators; sides largely agree on key points per sources; Trump says US will decide 'very soon' on strikes vs. negotiate; Rubio expelled Iran UN delegation from US; UKMTO reports several vessels struck by unknown projectiles near Hormuz in recent days (CBS News; JPost; Al Jazeera; UKMTO; Oct 2 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-10-02',
       lat: 14.22,
       lng: 42.60,
-      event: "Day 217 — Houthi Bab al-Mandab blockade Day 75; Saudi crude via Red Sea halted 68th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 2; Houthis maintaining independent blockade posture (UKMTO; Al Jazeera; Saudi SPA; Oct 2 2026)",
+      event: "Day 217 — Houthi Bab al-Mandab blockade Day 75; Saudi crude via Red Sea halted 68th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 2 (UKMTO; Al Jazeera; Saudi SPA; Oct 2 2026)",
       type: 'escalation',
     },
     {
       date: '2026-10-02',
-      lat: 33.68,
-      lng: 35.57,
-      event: "Day 217 — Lebanon ceasefire Day 105 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 2; IRGC/CENTCOM diplomatic pause Day 61; Iran-Oman Hormuz temporary route deal implementation still pending as of Oct 2 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 2 2026)",
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 217 — Lebanon ceasefire Day 105 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 2; IRGC/CENTCOM diplomatic pause Day 61 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 2 2026)",
       type: 'ceasefire',
     },
     {
       date: '2026-10-03',
-      lat: 14.18,
-      lng: 42.56,
+      lat: 25.00,
+      lng: 56.80,
+      event: "Day 218 — IRGC/CENTCOM diplomatic pause Day 62; Trump-Iran back-channel Hormuz talks continue; Camp David meeting held secretly to review post-midterm war options (military option not abandoned); crude tanker struck east of Oman — crew safe, no environmental impact (UKMTO); Iran rial collapses to record 2.7M per dollar; Trump says talks will 'resume this week'; Iran-Oman Hormuz temporary route deal (Aug 26) still not implemented; Brent ~$87–90/bbl; Hormuz ~5–6 transits/day (CBS News; GlobalSecurity; Bloomberg; Al Jazeera; Reuters; CENTCOM; Oct 3 2026)",
+      type: 'diplomacy',
+    },
+    {
+      date: '2026-10-03',
+      lat: 14.22,
+      lng: 42.60,
       event: "Day 218 — Houthi Bab al-Mandab blockade Day 76; Saudi crude via Red Sea halted 69th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 3; Houthis maintaining independent blockade posture (UKMTO; Al Jazeera; Saudi SPA; Oct 3 2026)",
       type: 'escalation',
     },
@@ -3172,8 +3186,15 @@ const groundOps = {
       date: '2026-10-03',
       lat: 33.72,
       lng: 35.59,
-      event: "Day 218 — Lebanon ceasefire Day 106 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 3; IRGC/CENTCOM diplomatic pause Day 62; Iran-Oman Hormuz temporary route deal implementation still pending as of Oct 3 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 3 2026)",
+      event: "Day 218 — Lebanon ceasefire Day 106 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 3; IRGC/CENTCOM diplomatic pause Day 62 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 3 2026)",
       type: 'ceasefire',
+    },
+    {
+      date: '2026-10-04',
+      lat: 25.00,
+      lng: 56.80,
+      event: "Day 219 — IRGC/CENTCOM diplomatic pause Day 63; Trump-Iran back-channel talks reportedly resuming via Oman/Qatar; Trump rejected Iran's 7-day Hormuz proposal Oct 2 but said talks would 'resume this week'; Rubio expelled Iranian UN delegation; Camp David Oct 3 reviewed post-midterm military options (not abandoned); Iran rial at record 2.7M/dollar; Iran-Oman Hormuz temporary route deal (Aug 26) still not implemented; Brent ~$87–100/bbl (volatile); Hormuz ~5–6 transits/day; JMIC 'Severe' maintained (CBS News; GlobalSecurity; Bloomberg; Al Jazeera; Reuters; CENTCOM; Oct 4 2026)",
+      type: 'diplomacy',
     },
     {
       date: '2026-10-04',
@@ -3185,8 +3206,8 @@ const groundOps = {
     {
       date: '2026-10-04',
       lat: 33.72,
-      lng: 35.55,
-      event: "Day 219 — Lebanon ceasefire Day 107 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 4; IRGC/CENTCOM diplomatic pause Day 63; Iran-Oman Hormuz temporary route deal implementation still pending as of Oct 4 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 4 2026)",
+      lng: 35.59,
+      event: "Day 219 — Lebanon ceasefire Day 107 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 4; IRGC/CENTCOM diplomatic pause Day 63 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 4 2026)",
       type: 'ceasefire',
     },
   ],

@@ -60,12 +60,12 @@ export const hormuzData = {
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
     vesselsAttacked: 63,
-    seafarersKilled: 20,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
+    seafarersKilled: 24,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (30 Sep, Day 215): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet beg …',
+    tankerRates: 'LATEST (4 Oct, Day 219): Brent $87–100/bbl (volatile — crude tanker struck east of Oman Oct 3, crew safe, no environment …',
     trumpUltimatum: 'LATEST (25 Sep): Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
     iranThreat: '9 Sep: the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Oct 4 (Day 219): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade Day 77; Lebanon ceasefire Day 107; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Oct 4 …',
+      detail: 'Oct 4 (Day 219): Brent $87–100/bbl (volatile — crude tanker struck east of Oman Oct 3, Camp David Oct 3 reviewed post-midterm strike options); Trump-Iran back-channel talks reportedly resuming via Oman/Qatar; Houthi blockade Day 77; Lebanon ceasefire Day 107 …',
     },
   ],
 };
