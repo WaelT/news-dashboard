@@ -1589,6 +1589,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['day 219', 'diplomatic pause day 63', 'trump iran back-channel', 'camp david post-midterm', 'tanker struck east oman', 'iran rial record low', 'houthi blockade day 77', 'saudi crude red sea halt 70th day', 'lebanon ceasefire day 107', 'operation economic outcast', 'brent oct 4'],
   },
+  {
+    id: 218,
+    name: 'Strait of Hormuz — Day 220; Diplomatic Pause Day 64; US-Iran Back-Channel Talks Continuing; Houthi Blockade Day 78; Lebanon Ceasefire Day 108',
+    lat: 24.80,
+    lng: 58.00,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 220 (Oct 5): The IRGC/CENTCOM mutual diplomatic pause continued for the 64th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes remained paused. US-Iran back-channel negotiations via Omani and Qatari mediators continued following Trump\'s Oct 3 statement that talks would "resume this week." Both sides remained in contact with mediators; no breakthrough reported as of 13:23 UTC. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi) had not entered implementation; Hormuz transits ~5–6/day. Operation Economic Outcast secondary sanctions remain in full effect. Lebanon ceasefire Day 108 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 78th consecutive day — Saudi crude shipments via Red Sea halted for 71st consecutive day since July 26. No new confirmed Houthi vessel attacks Oct 5. Brent ~$87–100/bbl (volatile — dual chokepoint disruption; stalled Hormuz talks). JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (CBS News; GlobalSecurity; Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Oct 5 2026)',
+    status: 'high-alert',
+    keywords: ['day 220', 'diplomatic pause day 64', 'us-iran back-channel', 'hormuz deal implementation pending', 'houthi blockade day 78', 'saudi crude red sea halt 71st day', 'lebanon ceasefire day 108', 'operation economic outcast', 'brent oct 5'],
+  },
 ];
 
 export default conflictZones;
