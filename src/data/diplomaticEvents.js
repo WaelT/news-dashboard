@@ -3671,6 +3671,48 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 215 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause continued for the 59th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes paused Day 59. The Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi) had not entered implementation as of Sep 30; Hormuz transits remained ~6/day. Iran Deputy FM Gharibabadi position unchanged: full Hormuz reopening contingent on US fulfilling June peace deal commitments on sanctions and naval posture. Operation Economic Outcast secondary sanctions in full effect. Lebanon ceasefire Day 103 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade of Saudi Arabia entered its 73rd consecutive day — Saudi crude shipments via Red Sea halted for 66th consecutive day since July 26. No new confirmed Houthi vessel attacks Sep 30. Brent ~$87–88/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). All casualty figures trajectory-based; Wikipedia API 403 (Bloomberg; Al Jazeera; Reuters; CENTCOM; DoD; Sep 30 2026).',
   },
+  {
+    date: '2026-10-01',
+    event: 'Day 216 — IRGC/CENTCOM diplomatic pause Day 60; IRGC claims unverified ballistic maritime strike; Iran 60-day ceasefire roadmap (Sep 24) under US review',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 216 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause continued for the 60th consecutive day — no confirmed land-based ballistic missile or drone launches against host states; CENTCOM airstrikes paused Day 60. An IRGC official on Oct 1 claimed the first long-range ballistic hit on a moving maritime target — claim remained unverified with no CENTCOM confirmation. Iran had presented the United States with a written 60-day ceasefire roadmap on Sep 24 (full regional ceasefire) — US response still pending as of Oct 1. The Iran-Oman Hormuz temporary route deal had not entered implementation. Lebanon ceasefire Day 104 holds. Houthi Bab al-Mandab blockade Day 74 — Saudi crude halted 67th day. Brent ~$89–91/bbl. JMIC "Severe" maintained (GlobalSecurity; Al Jazeera; CENTCOM; DoD; Oct 1 2026).',
+  },
+  {
+    date: '2026-10-02',
+    event: 'Trump rejects Iran Hormuz 7-day reopening proposal as "unacceptable"; IRGC Navy attacks 2 tankers',
+    type: 'escalation',
+    status: 'rejected',
+    detail: 'Day 217. President Trump rejected Iran\'s proposal for a 7-day Hormuz reopening window as "unacceptable" (Reuters/CNBC Oct 2). Concurrently, the IRGC Navy attacked 2 tankers — one outbound through the Strait of Hormuz and one approximately 4 nautical miles east of Oman (Critical Threats Oct 3 assessment); a drone entered one tanker\'s funnel causing a small fire and temporary power loss; a second vessel was struck on its port quarter and drifted briefly before continuing toward Fujairah with tug assistance — no crew casualties. No confirmed land-based ballistic missile or drone launches against host states (diplomatic pause Day 61 continues). Lebanon ceasefire Day 105 holds. Houthi Bab al-Mandab blockade Day 75 — Saudi crude halted 68th day. Brent ~$90–92/bbl on rejection news. JMIC "Severe" maintained (Reuters; CNBC; Critical Threats; gCaptain; UKMTO; Oct 2 2026).',
+  },
+  {
+    date: '2026-10-03',
+    event: 'Houthis drone-strike Saudi Aramco Riyadh Refinery; 4 total tanker attacks Oct 2–3 in Hormuz',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 218. Houthis struck Saudi Aramco\'s Riyadh Refinery with a drone on Oct 3 — Aramco statement: "fire protection crews and Civil Defense successfully controlled a limited fire; no personnel injured; no impact on operations." Houthi spokesman cited "new long-range Drone, Sammad 2, that targeted Aramco in Riyadh — a successful and qualitative experience." Four confirmed vessel attacks in the Strait of Hormuz / Oman approaches occurred Oct 2–3 — attacks along the Omani side continuing; third tanker lost propulsion following another projectile strike; no crew casualties in the four incidents. No confirmed land-based ballistic missile or drone launches against host states (diplomatic pause Day 62 holds). Lebanon ceasefire Day 106 holds. Houthi Bab al-Mandab blockade Day 76 — Saudi crude halted 69th day. Brent ~$91–92/bbl. JMIC "Severe" maintained (Al Jazeera; Khaleeji Times; OilPrice.com; SBS News; UKMTO; Oct 3 2026).',
+  },
+  {
+    date: '2026-10-04',
+    event: 'Day 219 — 26 consecutive days no land ballistic attacks; 30 consecutive days no host-state drone attacks; diplomatic pause Day 63',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 219 of the 2026 Iran war. No Iranian ballistic salvo at any of the six Arabian Peninsula Gulf states, Jordan, or Israel for the 26th consecutive day; no Iranian drone attack on a host state for the 30th consecutive day (GlobalSecurity Day 219 assessment). CENTCOM airstrikes paused Day 63. Iran-Oman Hormuz deal implementation remains pending. Lebanon ceasefire Day 107 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade Day 77 — Saudi crude halted 70th day since July 26. Brent ~$91–92/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS) (GlobalSecurity; Al Jazeera; CENTCOM; DoD; Oct 4 2026).',
+  },
+  {
+    date: '2026-10-05',
+    event: 'Day 220 — IRGC/CENTCOM diplomatic pause Day 64; Houthi blockade Day 78; Lebanon ceasefire Day 108',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 220 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause continued for the 64th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes paused Day 64. The Iran-Oman Hormuz temporary route deal had not entered implementation; Hormuz transits remained ~6/day. Lebanon ceasefire Day 108 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade Day 78 — Saudi crude halted 71st day. Brent ~$91–92/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). Wikipedia API 403 — casualty figures trajectory-based (GlobalSecurity Day 220; Al Jazeera; CENTCOM; DoD; Oct 5 2026).',
+  },
+  {
+    date: '2026-10-06',
+    event: 'Day 221 — IRGC/CENTCOM diplomatic pause Day 65; Houthi blockade Day 79; Lebanon ceasefire Day 109',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 221 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause continued for the 65th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes paused Day 65. The Iran-Oman Hormuz temporary route deal had not entered implementation; Hormuz transits remained ~6/day. Lebanon ceasefire Day 109 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade Day 79 — Saudi crude halted 72nd consecutive day since July 26. Brent ~$91–92/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). Wikipedia API 403 — casualty figures trajectory-based (Al Jazeera; CENTCOM; DoD; Oct 6 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
