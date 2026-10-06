@@ -60,7 +60,7 @@ export const hormuzData = {
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
     vesselsAttacked: 67,    // +4 from Oct 2–3 2026: IRGC Navy attacked 2 tankers Oct 2 (one outbound Hormuz, one ~4nm east of Oman); 4 total vessel attacks Oct 2–3 — drone entered tanker funnel (small fire + power loss), second vessel struck port quarter (drifted briefly, tug-assisted to Fujairah), third lost propulsion; no crew casualties (Critical Threats; gCaptain; UKMTO; SBS News; Oct 3 2026)
-    seafarersKilled: 20,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
+    seafarersKilled: 24,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters; additional crew casualties from Aug–Sep incidents
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Oct 6 (Day 221): Brent ~$91–92/bbl — elevated further on IRGC 4 tanker attacks Oct 2–3, Trump rejection of Hormuz 7-day proposal Oct 2, and Houthi Aramco Riyadh refinery drone strike Oct 3; Houthi Bab al-Mandab blockade Day 79; Lebanon ceasefire Day 109; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun (Reuters; CNBC; BNEF; Al Jazeera; Oct 6 2026) …',
+      detail: 'Oct 6 (Day 221): Brent ~$91–92/bbl — elevated further on IRGC 4 tanker attacks Oct 2–3, Trump rejection of Hormuz 7-day proposal Oct 2, and Houthi Aramco Riyadh refinery drone strike Oct 3; Houthi Bab al-Mandab blockade Day 79; Lebanon ceasefire Day 109; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun; US-Iran back-channel talks continuing via Oman/Qatar (Reuters; CNBC; BNEF; Al Jazeera; Oct 6 2026) …',
     },
   ],
 };
