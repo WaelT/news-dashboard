@@ -47,13 +47,13 @@ Full-screen real-time news dashboard with military ops-center theme. Displays in
 - `src/data/launchData.js` — Manually curated daily missile/drone launch data + per-country breakdown (from defense ministry reports). No auto-scraper — Wikipedia lacks structured launch tables
 
 ### Scripts & Automation
-- `scripts/update-casualties.mjs` — Scrapes Wikipedia "2026 Iran war" casualties-by-country table, updates both `public/casualties.json` and `DEFAULT_CASUALTIES` in `ImpactTracker.jsx`
+- `scripts/update-casualties.mjs` — Scrapes the casualties-by-country table (now in Wikipedia's "Casualties of the 2026 Iran war"; the main article only links to it), updates both `public/casualties.json` and `DEFAULT_CASUALTIES` in `ImpactTracker.jsx`
 - `scripts/update-hormuz.mjs` — Scrapes Wikipedia "2026 Strait of Hormuz crisis" (infobox deaths, ships-attacked table, stranded figures, two latest dated events) and patches those fields in `src/data/hormuzData.js`; transits/oil-flow/insurance stay manually curated
 - `.github/workflows/update-casualties.yml` — Runs scraper every 6 hours + manual trigger, auto-commits changes
 - `.github/workflows/update-hormuz.yml` — Runs Hormuz scraper every 6 hours (offset :30 to avoid push races with casualties workflow), auto-commits changes
 
 ## Map Tiles
-Uses CartoDB Dark Matter tiles (free, no API key). Fallback: OpenStreetMap.
+Uses Esri Dark Gray Canvas tiles (`services.arcgisonline.com`, no API key, `{z}/{y}/{x}` order, native zoom tops out at 16). **Do not use CARTO basemaps**: since autumn 2026 they require an API key and serve "API KEY REQUIRED" placeholder tiles with HTTP 200, so nothing errors — the map just fills with watermarks.
 
 ## RSS Proxy
 Vite dev server proxies RSS feeds to avoid CORS:

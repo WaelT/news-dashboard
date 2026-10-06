@@ -37,21 +37,29 @@ function extractNum(text) {
   return m ? parseInt(m[1], 10) : 0;
 }
 
-async function findSectionIndex() {
-  const url = 'https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&prop=sections&format=json';
-  const res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
-  if (!res.ok) throw new Error(`Wikipedia sections API ${res.status}`);
-  const data = await res.json();
-  const sections = data?.parse?.sections || [];
-  const match = sections.find(s => s.line && /missiles? and drones/i.test(s.line));
-  if (!match) throw new Error('Could not find missile/drone section in article');
-  console.log(`Found section "${match.line}" at index ${match.index}`);
-  return match.index;
+// Wikipedia keeps splitting the main article up — the table has moved out to
+// the list article. Try each page in turn so a move back doesn't break us.
+const PAGES = ['2026 Iran war', 'List of attacks during the 2026 Iran war'];
+
+async function findSection() {
+  for (const page of PAGES) {
+    const url = `https://en.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(page)}&prop=sections&format=json&redirects=1`;
+    const res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
+    if (!res.ok) throw new Error(`Wikipedia sections API ${res.status}`);
+    const data = await res.json();
+    const sections = data?.parse?.sections || [];
+    const match = sections.find(s => s.line && /missiles? and drones/i.test(s.line));
+    if (match) {
+      console.log(`Found section "${match.line}" at index ${match.index} of "${page}"`);
+      return { page, index: match.index };
+    }
+  }
+  throw new Error(`Could not find missile/drone section in any of: ${PAGES.join(', ')}`);
 }
 
 async function scrapeLaunches() {
-  const sectionIndex = await findSectionIndex();
-  const url = `https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&section=${sectionIndex}&prop=wikitext&format=json`;
+  const { page, index: sectionIndex } = await findSection();
+  const url = `https://en.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(page)}&section=${sectionIndex}&prop=wikitext&format=json&redirects=1`;
   const res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
   if (!res.ok) throw new Error(`Wikipedia API ${res.status}`);
   const data = await res.json();

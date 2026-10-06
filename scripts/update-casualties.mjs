@@ -37,7 +37,14 @@ const COUNTRY_MAP = {
   'france': 'france',
   'philippines': 'philippines',
   'azerbaijan': 'azerbaijan',
+  // The dedicated casualties article lists armed forces as their own rows
+  'united states military': 'usa',
+  'french military': 'france',
 };
+
+// Wikipedia keeps splitting the main article up. The table now lives here; the
+// main article's section only links to it.
+const CASUALTIES_PAGE = 'Casualties of the 2026 Iran war';
 
 function extractFirstNum(text) {
   if (!text) return 0;
@@ -56,48 +63,62 @@ async function findCasualtiesSectionIndex() {
   if (!res.ok) throw new Error(`Wikipedia sections API ${res.status}`);
   const data = await res.json();
   const sections = data?.parse?.sections || [];
-  // Try multiple possible names: "Casualties by country", "Casualties by citizenship"
-  const match = sections.find(s => s.line && (
-    s.line.toLowerCase().includes('casualties by country') ||
-    s.line.toLowerCase().includes('casualties by citizenship')
-  ));
-  if (!match) throw new Error('Could not find casualties section in article');
+  // Section has been renamed several times: "Casualties by country",
+  // "Casualties by citizenship", "Casualties and damages". Prefer the specific
+  // names, then fall back to anything mentioning casualties.
+  const named = (s, ...needles) => s.line && needles.some(n => s.line.toLowerCase().includes(n));
+  const match =
+    sections.find(s => named(s, 'casualties by country', 'casualties by citizenship')) ||
+    sections.find(s => named(s, 'casualties'));
+  if (!match) return null;
   console.log(`Found section "${match.line}" at index ${match.index}`);
   return match.index;
+}
+
+/** First wikitable that looks like the by-country table (has Killed + an Iran row). */
+function findCasualtiesTable(text) {
+  let from = 0;
+  for (;;) {
+    const start = text.indexOf('{|', from);
+    if (start === -1) return null;
+    const end = text.indexOf('|}', start);
+    if (end === -1) return null;
+    const table = text.substring(start, end);
+    if (/!\s*Killed/i.test(table) && /\n\|+\s*(\{\{[Ff]lag\|)?\[*Iran\b/.test(table)) return table;
+    from = end + 2;
+  }
 }
 
 async function scrapeWikipedia() {
   // First try the main article section
   const sectionIndex = await findCasualtiesSectionIndex();
-  let url = `https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&section=${sectionIndex}&prop=wikitext&format=json`;
-  let res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
-  if (!res.ok) throw new Error(`Wikipedia API ${res.status}`);
-  let data = await res.json();
-  let text = data?.parse?.wikitext?.['*'] || '';
-
-  // If the section has no table, it links out to the dedicated casualties article
-  // via {{Excerpt|...}}, {{Main|...}}, or similar — follow the link
-  if (text.indexOf('{|') === -1) {
-    const linkMatch = text.match(/\{\{(?:Excerpt|Main|Further|See also)\|(?:main\|)?([^|}]+)/i);
-    const targetPage = (linkMatch ? linkMatch[1] : 'Casualties of the 2026 Iran war')
-      .split('#')[0]
-      .trim();
-    console.log(`Section has no table, fetching from: ${targetPage}`);
-    url = `https://en.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(targetPage)}&prop=wikitext&format=json`;
-    res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
-    if (!res.ok) throw new Error(`Wikipedia API ${res.status} for ${targetPage}`);
-    data = await res.json();
+  let text = '';
+  if (sectionIndex !== null) {
+    const url = `https://en.wikipedia.org/w/api.php?action=parse&page=2026+Iran+war&section=${sectionIndex}&prop=wikitext&format=json`;
+    const res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
+    if (!res.ok) throw new Error(`Wikipedia API ${res.status}`);
+    const data = await res.json();
     text = data?.parse?.wikitext?.['*'] || '';
   }
 
-  // Find the casualties table
-  const tableStart = text.indexOf('{|');
-  if (tableStart === -1) throw new Error('Casualties table not found');
+  let tableText = findCasualtiesTable(text);
 
-  const tableEnd = text.indexOf('|}', tableStart);
-  if (tableEnd === -1) throw new Error('Table end not found');
+  // If the section has no table, it links out to the dedicated casualties article
+  // via {{Excerpt|...}}, {{Main|...}}, or similar — follow the link
+  if (!tableText) {
+    const targets = [...text.matchAll(/\{\{(?:Excerpt|Main|Further|See also)\|([^}]+)\}\}/gi)]
+      .flatMap(m => m[1].split('|'))
+      .map(t => t.split('#')[0].trim());
+    const targetPage = targets.find(t => /^casualties\b/i.test(t)) || CASUALTIES_PAGE;
+    console.log(`Section has no table, fetching from: ${targetPage}`);
+    const url = `https://en.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(targetPage)}&prop=wikitext&format=json&redirects=1`;
+    const res = await fetch(url, { headers: { 'User-Agent': 'NewsDashboard/1.0' } });
+    if (!res.ok) throw new Error(`Wikipedia API ${res.status} for ${targetPage}`);
+    const data = await res.json();
+    tableText = findCasualtiesTable(data?.parse?.wikitext?.['*'] || '');
+  }
 
-  const tableText = text.substring(tableStart, tableEnd);
+  if (!tableText) throw new Error('Casualties table not found');
 
   // Split into rows by |-
   const rows = tableText.split(/\n\|-\s*\n/);
@@ -120,8 +141,8 @@ async function scrapeWikipedia() {
     // If the row starts with ! it's a header row (e.g. "Total") — skip it
     if (rawCountry.startsWith('!') || row.trimStart().startsWith('!')) continue;
 
-    // Strip leading pipe character from the country name
-    rawCountry = rawCountry.replace(/^\|/, '');
+    // Strip leading pipe character(s) from the country name
+    rawCountry = rawCountry.replace(/^\|+/, '');
     // Handle {{Flag|CountryName}} or {{Flag|CountryName|name=...}} templates
     const flagMatch = rawCountry.match(/\{\{[Ff]lag\|([^|}]+)/);
     if (flagMatch) {
@@ -154,9 +175,12 @@ async function scrapeWikipedia() {
       }
     }
 
+    // A country can appear on more than one row (e.g. "French military" and
+    // France under UNIFIL) — add them up rather than letting the last one win
+    const prev = casualties[key] || { killed: 0, wounded: 0 };
     casualties[key] = {
-      killed: extractFirstNum(killedCell),
-      wounded: extractFirstNum(injuredCell),
+      killed: prev.killed + extractFirstNum(killedCell),
+      wounded: prev.wounded + extractFirstNum(injuredCell),
     };
   }
 

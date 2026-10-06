@@ -1023,9 +1023,12 @@ export default function MapView({ articles = [] }) {
         zoomControl={true}
         attributionControl={true}
       >
+        {/* Esri Dark Gray Canvas — CARTO basemaps now require an API key and
+            serve "API KEY REQUIRED" placeholder tiles without one */}
         <TileLayer
-          attribution='&copy; <a href="https://carto.com/">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          attribution='Tiles &copy; <a href="https://www.esri.com/">Esri</a>'
+          url="https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+          maxNativeZoom={16}
         />
 
         <FlyToActive zones={filteredZones} articles={articles} />
