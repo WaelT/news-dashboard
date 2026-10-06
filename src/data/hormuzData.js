@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-09-30',
+  updated: '2026-10-06',
 
   current: {
     transitsPerDay: 6,
@@ -59,21 +59,21 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 63,
+    vesselsAttacked: 67,    // +4 from Oct 2–3 2026: IRGC Navy attacked 2 tankers Oct 2 (one outbound Hormuz, one ~4nm east of Oman); 4 total vessel attacks Oct 2–3 — drone entered tanker funnel (small fire + power loss), second vessel struck port quarter (drifted briefly, tug-assisted to Fujairah), third lost propulsion; no crew casualties (Critical Threats; gCaptain; UKMTO; SBS News; Oct 3 2026)
     seafarersKilled: 20,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (30 Sep, Day 215): Iran-Oman temporary route + revenue-sharing deal confirmed Aug 26 — implementation not yet beg …',
-    trumpUltimatum: 'LATEST (25 Sep): Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
-    iranThreat: '9 Sep: the oil tanker Hercules Star was attacked by a projectile off Dubai, killing one crew member and leaving another missing',
+    tankerRates: 'LATEST (6 Oct, Day 221): 4 vessel attacks Oct 2–3 resuming active IRGC maritime strikes; Brent ~$91–92/bbl on tanker attacks + Trump\'s Oct 2 rejection of Iran\'s Hormuz 7-day reopening proposal; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun; Hormuz transits ~6/day; JMIC "Severe" maintained (Critical Threats; Reuters; gCaptain; UKMTO; Oct 2–6 2026)',
+    trumpUltimatum: 'LATEST (2 Oct): Trump rejected Iran\'s 7-day Hormuz reopening proposal as "unacceptable" (Reuters/CNBC Oct 2 2026). [Prior 25 Sep]: Iranian FM Araghchi stated Hormuz reopening depends on US fulfilling June MOU commitments on sanctions and naval posture',
+    iranThreat: 'LATEST (3 Oct): 4 vessel attacks Oct 2–3 in Hormuz/Oman approaches — drone entered tanker funnel (small fire + power loss); second vessel struck port quarter (drifted, tug to Fujairah); third lost propulsion; no crew casualties (Critical Threats; gCaptain; SBS News; Oct 3 2026). [Prior 9 Sep]: tanker Hercules Star attacked off Dubai — 1 crew killed, 1 missing',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Sep 30 (Day 215, Bab al-Mandab blockade Day 73): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 73rd day; Saudi crude shipments via Red Sea halted for 66th consecutive day since July 26; no new confirmed Houthi vessel attacks Sep 9–30 …',
+      detail: 'Oct 6 (Day 221, Bab al-Mandab blockade Day 79): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 79th day; Saudi crude shipments via Red Sea halted for 72nd consecutive day since July 26. Oct 3: Houthis drone-struck Saudi Aramco Riyadh Refinery — Aramco: "limited fire controlled, no personnel injured, no production impact" (Sammad-2 long-range drone per Houthi spokesman). No new Houthi attacks on international shipping confirmed Oct 1–6 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Sep 30 (Day 215): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Sep 30 (Day 215) …',
+      detail: 'Oct 6 (Day 221): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation NOT yet begun as of Oct 6 (Day 221). Oct 2: Trump rejected Iran\'s 7-day Hormuz reopening proposal as "unacceptable" — further complicating near-term implementation prospects (Reuters; CNBC; Oct 2 2026) …',
     },
     {
       country: 'Asia',
-      detail: 'Sep 30 (Day 215): Brent ~$87–88/bbl — elevated on ongoing Hormuz/Bab al-Mandab dual disruption; Houthi blockade Day 73; Lebanon ceasefire Day 103; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun as of Sep 30 …',
+      detail: 'Oct 6 (Day 221): Brent ~$91–92/bbl — elevated further on IRGC 4 tanker attacks Oct 2–3, Trump rejection of Hormuz 7-day proposal Oct 2, and Houthi Aramco Riyadh refinery drone strike Oct 3; Houthi Bab al-Mandab blockade Day 79; Lebanon ceasefire Day 109; Iran-Oman temporary route deal confirmed Aug 26 — implementation not yet begun (Reuters; CNBC; BNEF; Al Jazeera; Oct 6 2026) …',
     },
   ],
 };
