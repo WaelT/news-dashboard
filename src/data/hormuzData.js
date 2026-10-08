@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (8 Oct, Day 223): Bloomberg/UKMTO: 9 vessel attacks in first week of October alone — accelerating pace vs. September total; NBC News: tanker attacks escalating as oil exports near pre-war levels; Maersk warns of "heightened and increasingly unpredictable kinetic threat"; oil flows depend on US naval escort along Omani coastal route; Vortexa 14-day avg 18.6 mbd near pre-war but not through main Hormuz channel',
-    trumpUltimatum: 'LATEST (8 Oct): Pentagon directed CENTCOM to prepare for possible resumption of major combat operations post-November 3 midterms; Trump has not made final decision; Rubio (Oct 7): Iran "failed to take advantage of multiple opportunities" for nuclear deal; Trump described Iran as "ready to fold up" and signaled action possible after midterms if talks fail',
-    iranThreat: 'Oct 8: Iran parliament speaker Ghalibaf — Hormuz stays closed until US meets 7 conditions per June MOU (ceasefire, sanctions lift, naval blockade end, asset unfreeze, oil sector sanctions, Islamabad MOU implementation, nuclear talks); prior 25 Sep: FM Araghchi stated reopening depends on US',
+    tankerRates: 'LATEST (8 Oct, Day 223): Bloomberg/UKMTO: 9 vessel attacks in first week of October alone — accelerating pace vs. Septem …',
+    trumpUltimatum: 'LATEST (5 Oct): Data showed that the seven-day average for crude exports was 18.3 million barrels per day by September 30, with exports surpassing pre-war figures on 14 days in September',
+    iranThreat: '25 Sep: Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 8 (Day 223, Bab al-Mandab blockade Day 81): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 81st day; Saudi crude via Red Sea halted 74th consecutive day since July 26; no new confirmed Houthi vessel attacks Oct 7–8; Houthis maintaining independent blockade posture distinct from IRGC/CENTCOM diplomatic pause (UKMTO; Al Jazeera; Saudi SPA; Oct 8 2026)',
+      detail: 'Oct 8 (Day 223, Bab al-Mandab blockade Day 81): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 81st day; Saudi crude via Red Sea halted 74th consecutive day since July 26; no new confirmed Houthi vessel attacks Oct 7–8 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 8 (Day 223): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation still not entered as of Oct 8; Iran parliament speaker added Hormuz re-opening conditioned on US meeting 7 MOU conditions; Oman continuing shuttle diplomacy as US-Iran mediator (Al Jazeera; Bloomberg; Oct 8 2026)',
+      detail: 'Oct 8 (Day 223): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation still not entered as of Oct 8 …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 8 (Day 223): Brent ~$83–92/bbl (volatile) — 9 UKMTO-documented attacks in first week of October accelerate pressure; Bloomberg: oil flows near pre-war levels per Vortexa (18.6 mbd 14-day avg) but entirely dependent on US escort; Maersk warns of "heightened and increasingly unpredictable kinetic threat"; ship-to-ship transfers in Gulf of Oman at capacity limits; Houthi Bab al-Mandab blockade Day 81; Lebanon ceasefire Day 111 (CNBC; Bloomberg; NBC News; Al Jazeera; Oct 8 2026)',
+      detail: 'Oct 8 (Day 223): Brent ~$83–92/bbl (volatile) — 9 UKMTO-documented attacks in first week of October accelerate pressure; Bloomberg: oil flows near pre-war levels per Vortexa (18.6 mbd 14-day avg) but entirely dependent on US escort …',
     },
   ],
 };
