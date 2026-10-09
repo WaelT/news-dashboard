@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (9 Oct, Day 224): Brent surged to ~$103–108/bbl on Oct 8–9 — Fortune Oct 8: "Oil Jumps 2% as Iran Steps Up Attacks on Hormuz Tankers"; ~70% YTD gain in 2026; UKMTO: vessel struck ~13nm off UAE coast Oct 9 (fire aboard, crew safe; +68th vessel attack total); IRGC Navy conducting nightly Hormuz operations per IRGC Navy political deputy; geographic expansion of attacks confirmed to UAE and Qatar waters (Euronews; Maritime Executive). Vortexa: Gulf crude exports 18.6 mbd 14-day average — near pre-war but entirely US-escort dependent (Fortune; OilPrice.com; The Hill; Bloomberg; UKMTO; Euronews; Oct 8–9 2026); [prior CENTCOM rebutted Iran closed-strait claim, citing 20M bbls crude transited under US escort — tanker attack pace accelerating with 9 UKMTO-reported attacks in first week of October alone]',
-    trumpUltimatum: 'LATEST (9 Oct): Trump confirmed no US strikes before Nov 3 midterm elections (CBS News; Axios/Il Sole 24 Ore; Dawn Oct 9). Iranian President Pezeshkian ruled out direct US-Iran talks (Iran International Oct 9). VP Vance (Oct 6) demanded "meaningful" reduction in uranium enrichment as prerequisite. [prior (5 Oct): Data showed that the seven-day average for crude exports was 18.3 million barrels per day by September 30, with exports surpassing pre-war figures on 14 days in September]',
+    tankerRates: 'LATEST (9 Oct, Day 224): Brent surged to ~$103–108/bbl on Oct 8–9 — Fortune Oct 8: "Oil Jumps 2% as Iran Steps Up Attack …',
+    trumpUltimatum: 'LATEST (5 Oct): Data showed that the seven-day average for crude exports was 18.3 million barrels per day by September 30, with exports surpassing pre-war figures on 14 days in September',
     iranThreat: '25 Sep: Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 9 (Day 224, Bab al-Mandab blockade Day 82): Houthis struck King Khalid International Airport in Riyadh with a drone — 3 Saudi citizens killed, several foreigners wounded; Saudia Airlines aircraft targeted (Al Jazeera live blog; CBS News; Oct 9 2026). IRGC Navy conducting nightly operations against "unauthorized" Hormuz transits per IRGC Navy political deputy. Bab al-Mandab maritime blockade enters 82nd day — Saudi crude via Red Sea halted 75th consecutive day since July 26; no new confirmed Houthi vessel attacks elsewhere Oct 9. Saudi-backed Yemeni forces claimed gains in Dhubab district overlooking strait Oct 3–5 — Houthis denied losses (Iran International; Al Jazeera; Oct 3–5 2026). Trump confirmed no US strikes before Nov 3 midterms …',
+      detail: 'Oct 9 (Day 224, Bab al-Mandab blockade Day 82): Houthis struck King Khalid International Airport in Riyadh with a drone — 3 Saudi citizens killed, several foreigners wounded; Saudia Airlines aircraft targeted (Al Jazeera live blog; CBS News …',
     },
     {
       country: 'Iraq',
