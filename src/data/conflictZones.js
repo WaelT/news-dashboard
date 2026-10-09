@@ -1644,6 +1644,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['day 224', 'diplomatic pause day 68', 'trump no strikes before midterms', 'centcom 20m bbls hormuz', 'naqdi illegal routes threat', 'oct 6 tanker struck', 'houthi blockade day 82', 'saudi crude red sea halt 75th day', 'lebanon ceasefire day 112', 'brent oct 9'],
   },
+  {
+    id: 223,
+    name: 'Riyadh King Khalid Airport — Day 224 PM; Houthi Drone Strike; 3 Saudi Killed',
+    lat: 24.69,
+    lng: 46.72,
+    type: 'strike',
+    icon: 'explosion',
+    description: 'Day 224 PM (Oct 9): Houthis struck King Khalid International Airport in Riyadh with a drone — Saudi Civil Aviation Authority confirmed 3 Saudi citizens killed and several foreigners wounded; a Saudia Airlines aircraft was also targeted. IRGC Navy political deputy confirmed Iranian forces are conducting nightly Hormuz operations against vessels deemed to be "violating" Iranian rules. Brent crude surged to ~$103–108/bbl on Oct 8–9 as tanker attacks accelerate and expand geographically to UAE and Qatar waters (Antigua-flagged tanker Acers struck multiple times ~50nm north of Qatar Oct 6–7). Iranian President Pezeshkian ruled out direct US-Iran talks Oct 9. JMIC "Severe" maintained (Al Jazeera live blog; CBS News; UKMTO; Iran International; Euronews; Maritime Executive; Fortune; OilPrice.com; Oct 9 2026)',
+    status: 'high-alert',
+    keywords: ['day 224', 'riyadh airport houthi strike', 'king khalid airport drone', '3 saudi killed riyadh', 'brent 103-108', 'tanker attacks expanding', 'pezeshkian no direct talks', 'bab al-mandab day 82', 'oct 9 2026'],
+  },
 ];
 
 export default conflictZones;

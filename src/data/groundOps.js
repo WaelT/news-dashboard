@@ -3301,6 +3301,20 @@ const groundOps = {
       event: "Day 224 — Lebanon ceasefire Day 112 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 9; IRGC/CENTCOM diplomatic pause Day 68; Trump pledged no strikes before Nov 3 midterm elections (IDF; Lebanon MoH; CBS News; CENTCOM; Oct 9 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-10-09',
+      lat: 24.69,
+      lng: 46.72,
+      event: "Day 224 (PM) — Houthis strike King Khalid International Airport, Riyadh with drone: 3 Saudi citizens killed, several foreigners wounded; Saudia Airlines aircraft targeted; Saudi Civil Aviation Authority confirmed — first Houthi strike on Riyadh airport since early war (Al Jazeera live blog; CBS News; Oct 9 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-09',
+      lat: 24.93,
+      lng: 56.52,
+      event: "Day 224 (PM) — UKMTO: vessel struck by unknown projectile ~13nm off UAE coast — fire aboard, crew safe; Brent surged to ~$103–108/bbl Oct 8–9 on accelerating tanker attacks; attacks expanding geographically to UAE/Qatar waters (UKMTO; Iran International; Euronews; Maritime Executive; Fortune; Oct 9 2026)",
+      type: 'escalation',
+    },
   ],
 };
 
