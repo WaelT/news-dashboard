@@ -3712,6 +3712,20 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 221 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause continued for the 65th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes paused Day 65. The Iran-Oman Hormuz temporary route deal had not entered implementation; Hormuz transits remained ~6/day. Lebanon ceasefire Day 109 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade Day 79 — Saudi crude halted 72nd consecutive day since July 26. Brent ~$91–92/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). Wikipedia API 403 — casualty figures trajectory-based (Al Jazeera; CENTCOM; DoD; Oct 6 2026).',
   },
+  {
+    date: '2026-10-07',
+    event: 'Day 222 — Rubio: Iran "failed multiple opportunities" for nuclear deal; Qatar confirms US-Iran talks ongoing; UKMTO: 9 tanker attacks in first week of October; diplomatic pause Day 66',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 222 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause continued for the 66th consecutive day — no confirmed new Iranian ballistic missile or drone launches against host states; CENTCOM airstrikes paused Day 66. Secretary of State Marco Rubio publicly declared that Iran had "failed to take advantage of multiple opportunities" to reach a deal on its nuclear program (CNBC Oct 7). Qatar confirmed that US-Iran back-channel talks remain ongoing (Al Arabiya Oct 6). CNBC reported ~20 commercial ships attacked in the past month, with UKMTO documenting 9 attacks in the first week of October alone — already half of September\'s entire monthly total; attacks depend on US naval escort for oil flow recovery. Vortexa: Gulf crude exports averaged 18.6 mbd over 14 days — near pre-war levels — but entirely dependent on US escort along Omani coastal route. Iran-Oman temporary route deal still unimplemented; Hormuz transits ~6/day. Lebanon ceasefire Day 110 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab blockade Day 80 — Saudi crude halted 73rd consecutive day since July 26. Brent ~$83–92/bbl (volatile). No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). Wikipedia API 403 — casualty figures trajectory-based (CNBC; Bloomberg; Al Arabiya; Al Jazeera; CENTCOM; DoD; Oct 7 2026).',
+  },
+  {
+    date: '2026-10-08',
+    event: 'Day 223 — Pentagon orders CENTCOM to prepare post-midterm strike plans; Iran: Hormuz closed until 7 MOU conditions met; UKMTO attack pace accelerating; diplomatic pause Day 67',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 223 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause continued for the 67th consecutive day — no confirmed new Iranian ballistic missile or drone launches against host states; CENTCOM airstrikes paused Day 67. The Pentagon reportedly directed CENTCOM to prepare for a possible resumption of major combat operations after the November 3 midterms, though President Trump has not made a final decision and no strike date was set. Iran\'s parliament speaker stated that the Strait of Hormuz would remain closed to commercial shipping until the United States fulfills 7 conditions stipulated in the June memorandum of understanding. Bloomberg: UKMTO documented 9 vessel attacks in the first week of October — an accelerating pace compared with all of September. NBC News reported that tanker attacks are escalating even as oil exports near pre-war levels. Maersk warned of a "heightened and increasingly unpredictable kinetic threat" in the waterway. Iran-Oman temporary route deal still unimplemented; Hormuz transits ~6/day. Lebanon ceasefire Day 111 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade Day 81 — Saudi crude halted 74th consecutive day since July 26. Brent ~$83–92/bbl (volatile). No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). Wikipedia API 403 — casualty figures trajectory-based (Bloomberg; NBC News; CNBC; Al Jazeera; CENTCOM; DoD; Oct 8 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

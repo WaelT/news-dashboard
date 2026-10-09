@@ -3259,6 +3259,34 @@ const groundOps = {
       event: "Day 221 — Lebanon ceasefire Day 109 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 6; IRGC/CENTCOM diplomatic pause Day 65 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 6 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-10-07',
+      lat: 14.08,
+      lng: 42.30,
+      event: "Day 222 — Houthi Bab al-Mandab blockade Day 80; Saudi crude via Red Sea halted 73rd consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 7; CNBC: ~20 commercial ships attacked in past month, 9 UKMTO-reported attacks in first week of October — half September's total; diplomatic pause Day 66 (UKMTO; CNBC; Bloomberg; Al Jazeera; Oct 7 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-07',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 222 — Lebanon ceasefire Day 110 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 7; IRGC/CENTCOM diplomatic pause Day 66; Rubio: Iran 'failed multiple opportunities' for nuclear deal (IDF; Lebanon MoH; CNBC; CENTCOM; Oct 7 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-10-08',
+      lat: 14.05,
+      lng: 42.25,
+      event: "Day 223 — Houthi Bab al-Mandab blockade Day 81; Saudi crude via Red Sea halted 74th consecutive day since July 26; Bloomberg: UKMTO reported 9 vessel attacks in first week of October — accelerating pace vs. September; NBC News: tanker attacks escalating even as oil exports near pre-war levels; diplomatic pause Day 67 (UKMTO; Bloomberg; NBC News; Al Jazeera; Oct 8 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-08',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 223 — Lebanon ceasefire Day 111 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 8; IRGC/CENTCOM diplomatic pause Day 67; Pentagon directing CENTCOM to prepare for possible post-midterm strike resumption per reports (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 8 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

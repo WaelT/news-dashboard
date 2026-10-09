@@ -305,6 +305,10 @@ const casualtyTimeline = [
   { date: '2026-10-05', iran: 3831, lebanon: 4335, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 221: IRGC/CENTCOM diplomatic pause Day 65 — no confirmed new ballistic missile or drone launches; Lebanon ceasefire Day 109 holds (toll unchanged 4,335/12,240); Houthi Bab al-Mandab blockade Day 79 — Saudi crude halted 72nd day; no new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS); Brent ~$91–92/bbl; Wikipedia API 403 — all casualty figures trajectory-based (Al Jazeera; CENTCOM; DoD; Oct 6 2026)
   { date: '2026-10-06', iran: 3831, lebanon: 4335, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 222: IRGC/CENTCOM diplomatic pause Day 66 — no confirmed new ballistic missile or drone launches; Lebanon ceasefire Day 110 holds (toll unchanged 4,335/12,240); Houthi Bab al-Mandab blockade Day 80 — Saudi crude halted 73rd day; Rubio: Iran "failed multiple opportunities" for nuclear deal (CNBC); Qatar: US-Iran talks ongoing; no new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS); Brent ~$83–92/bbl (volatile); Wikipedia API 403 — all casualty figures trajectory-based (CNBC; Al Arabiya; Al Jazeera; CENTCOM; DoD; Oct 7 2026)
+  { date: '2026-10-07', iran: 3831, lebanon: 4335, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 223: IRGC/CENTCOM diplomatic pause Day 67 — no confirmed new ballistic missile or drone launches; Lebanon ceasefire Day 111 holds (toll unchanged 4,335/12,240); Houthi Bab al-Mandab blockade Day 81 — Saudi crude halted 74th consecutive day since July 26; UKMTO: 9 tanker attacks in first week of October (half September total); Pentagon told CENTCOM to prepare for possible post-midterm strike resumption; Iran parliament speaker: Hormuz closed until US meets 7 conditions; no new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS); Brent ~$83–92/bbl (volatile); Wikipedia API 403 — all casualty figures trajectory-based (Bloomberg; NBC News; CNBC; Al Jazeera; CENTCOM; DoD; Oct 8 2026)
+  { date: '2026-10-08', iran: 3831, lebanon: 4335, israel: 71, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;

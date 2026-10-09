@@ -1611,6 +1611,28 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['day 221', 'diplomatic pause day 65', 'hormuz deal implementation pending', 'houthi blockade day 79', 'saudi crude red sea halt 72nd day', 'lebanon ceasefire day 109', 'operation economic outcast', 'brent oct 6'],
   },
+  {
+    id: 220,
+    name: 'Strait of Hormuz — Day 222; Diplomatic Pause Day 66; Rubio Iran "Multiple Failures"; Houthi Blockade Day 80; Lebanon Ceasefire Day 110',
+    lat: 24.70,
+    lng: 57.95,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 222 (Oct 7): The IRGC/CENTCOM mutual diplomatic pause continued for the 66th consecutive day — no confirmed new Iranian ballistic missile or drone launches against host states; CENTCOM airstrikes remained paused. Secretary of State Rubio declared Iran had "failed to take advantage of multiple opportunities" for a nuclear deal (CNBC Oct 7). Qatar confirmed US-Iran back-channel talks still ongoing (Al Arabiya Oct 6). CNBC: ~20 commercial ships attacked in past month, with UKMTO reporting 9 attacks already in October alone — half September\'s entire monthly total in just the first week. Oil exports near pre-war levels per Vortexa (18.6 mbd 14-day average) but depend entirely on US naval escort along Omani coastal route. Iran-Oman temporary route deal still unimplemented; Hormuz transits ~6/day. Lebanon ceasefire Day 110 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade Day 80 — Saudi crude halted 73rd consecutive day since July 26. Brent ~$83–92/bbl (volatile). JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). Wikipedia API 403 (CNBC; Bloomberg; Al Arabiya; Al Jazeera; CENTCOM; DoD; Oct 7 2026)',
+    status: 'high-alert',
+    keywords: ['day 222', 'diplomatic pause day 66', 'rubio iran multiple failures', 'ukmto 9 attacks october', 'hormuz attacks accelerating', 'houthi blockade day 80', 'saudi crude red sea halt 73rd day', 'lebanon ceasefire day 110', 'brent oct 7'],
+  },
+  {
+    id: 221,
+    name: 'Strait of Hormuz — Day 223; Diplomatic Pause Day 67; UKMTO 9 October Attacks; Houthi Blockade Day 81; Lebanon Ceasefire Day 111',
+    lat: 24.65,
+    lng: 57.90,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 223 (Oct 8): The IRGC/CENTCOM mutual diplomatic pause continued for the 67th consecutive day — no confirmed new Iranian ballistic missile or drone launches against host states; CENTCOM airstrikes remained paused. Bloomberg reported UKMTO documented 9 vessel attacks in the first week of October — accelerating pace vs. all of September. NBC News: tanker attacks are escalating even as oil exports near pre-war levels. The Pentagon reportedly directed CENTCOM to prepare for possible resumption of major combat operations after the November 3 midterms, though Trump has not made a final decision. Iran\'s parliament speaker stated Hormuz will remain closed until the US meets 7 conditions per the June MOU. Iran-Oman temporary route deal still unimplemented; Hormuz transits ~6/day. Lebanon ceasefire Day 111 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade Day 81 — Saudi crude halted 74th consecutive day since July 26. Brent ~$83–92/bbl (volatile). JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). Wikipedia API 403 (Bloomberg; NBC News; CNBC; Al Jazeera; CENTCOM; DoD; Oct 8 2026)',
+    status: 'high-alert',
+    keywords: ['day 223', 'diplomatic pause day 67', 'ukmto 9 october attacks', 'pentagon post-midterm strike preparation', 'hormuz closed 7 conditions', 'houthi blockade day 81', 'saudi crude red sea halt 74th day', 'lebanon ceasefire day 111', 'brent oct 8'],
+  },
 ];
 
 export default conflictZones;

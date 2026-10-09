@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-06',
+  updated: '2026-10-08',
 
   current: {
     transitsPerDay: 6,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (6 Oct, Day 221): 4 vessel attacks Oct 2–3 resuming active IRGC maritime strikes …',
+    tankerRates: 'LATEST (8 Oct, Day 223): Bloomberg/UKMTO: 9 vessel attacks in first week of October alone — accelerating pace vs. Septem …',
     trumpUltimatum: 'LATEST (5 Oct): Data showed that the seven-day average for crude exports was 18.3 million barrels per day by September 30, with exports surpassing pre-war figures on 14 days in September',
     iranThreat: '25 Sep: Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 6 (Day 221, Bab al-Mandab blockade Day 79): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 79th day …',
+      detail: 'Oct 8 (Day 223, Bab al-Mandab blockade Day 81): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 81st day; Saudi crude via Red Sea halted 74th consecutive day since July 26; no new confirmed Houthi vessel attacks Oct 7–8 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 6 (Day 221): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months …',
+      detail: 'Oct 8 (Day 223): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation still not entered as of Oct 8 …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 6 (Day 221): Brent ~$91–92/bbl — elevated further on IRGC 4 tanker attacks Oct 2–3, Trump rejection of Hormuz 7-day proposal Oct 2, and Houthi Aramco Riyadh refinery drone strike Oct 3; Houthi Bab al-Mandab blockade Day 79; Lebanon ceasefire Day 109 …',
+      detail: 'Oct 8 (Day 223): Brent ~$83–92/bbl (volatile) — 9 UKMTO-documented attacks in first week of October accelerate pressure; Bloomberg: oil flows near pre-war levels per Vortexa (18.6 mbd 14-day avg) but entirely dependent on US escort …',
     },
   ],
 };
