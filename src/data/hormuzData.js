@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (9 Oct, Day 224): CENTCOM rebutted Iran closed-strait claim, citing 20M bbls crude transited under US escort; IRGC adviser Naqdi threatens to close routes Iran deems "illegal"; Oct 6 crude tanker struck — fire, crew safe (UKMTO)',
-    trumpUltimatum: 'LATEST (9 Oct): Trump confirmed US will NOT resume strikes before November 3 midterm elections (CBS News; Axios; Dawn); no final decision on post-midterm military resumption',
-    iranThreat: '9 Oct: IRGC adviser Mohammadreza Naqdi stated routes Iran considers "illegal" would soon be closed; CENTCOM disputed Iran\'s public claim that Hormuz is closed, citing >20M bbls flowing through',
+    tankerRates: 'LATEST (9 Oct, Day 224): CENTCOM rebutted Iran closed-strait claim, citing 20M bbls crude transited under US escort …',
+    trumpUltimatum: 'LATEST (5 Oct): Data showed that the seven-day average for crude exports was 18.3 million barrels per day by September 30, with exports surpassing pre-war figures on 14 days in September',
+    iranThreat: '25 Sep: Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 9 (Day 224): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation still not entered as of Oct 9; IRGC adviser Naqdi separately threatened to close routes Iran deems "illegal" …',
+      detail: 'Oct 9 (Day 224): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation still not entered as of Oct 9 …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 9 (Day 224): CENTCOM rebutted Iran closed-strait claim — stated over 20 million barrels of crude transited under US escort; IRGC adviser Naqdi threatens "illegal" route closure; Brent ~$83–92/bbl (volatile); oil flows near pre-war levels per Vortexa but entirely dependent on US escort; Oct 6 tanker struck (fire, crew safe) …',
+      detail: 'Oct 9 (Day 224): CENTCOM rebutted Iran closed-strait claim — stated over 20 million barrels of crude transited under US escort; IRGC adviser Naqdi threatens "illegal" route closure; Brent ~$83–92/bbl (volatile); oil flows near pre-war levels per Vortexa but entirely dependent on US escort …',
     },
   ],
 };
