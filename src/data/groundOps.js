@@ -3287,6 +3287,20 @@ const groundOps = {
       event: "Day 223 — Lebanon ceasefire Day 111 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 8; IRGC/CENTCOM diplomatic pause Day 67; Pentagon directing CENTCOM to prepare for possible post-midterm strike resumption per reports (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 8 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-10-09',
+      lat: 14.05,
+      lng: 42.25,
+      event: "Day 224 — Houthi Bab al-Mandab blockade Day 82; Saudi crude via Red Sea halted 75th consecutive day since July 26; Trump confirms no US strikes before Nov 3 midterms; CENTCOM rejects Iran closed-Hormuz claim citing 20M bbls transited; IRGC adviser Naqdi threatens to close 'illegal' routes; diplomatic pause Day 68 (CBS News; CENTCOM; Tribune India; UKMTO; Oct 9 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-09',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 224 — Lebanon ceasefire Day 112 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 9; IRGC/CENTCOM diplomatic pause Day 68; Trump pledged no strikes before Nov 3 midterm elections (IDF; Lebanon MoH; CBS News; CENTCOM; Oct 9 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

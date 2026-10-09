@@ -1633,6 +1633,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['day 223', 'diplomatic pause day 67', 'ukmto 9 october attacks', 'pentagon post-midterm strike preparation', 'hormuz closed 7 conditions', 'houthi blockade day 81', 'saudi crude red sea halt 74th day', 'lebanon ceasefire day 111', 'brent oct 8'],
   },
+  {
+    id: 222,
+    name: 'Strait of Hormuz — Day 224; Trump No-Strike Pledge Before Midterms; CENTCOM Rejects Closed-Strait Claim; Houthi Blockade Day 82',
+    lat: 24.65,
+    lng: 57.90,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 224 (Oct 9): The IRGC/CENTCOM mutual diplomatic pause continued for the 68th consecutive day — no confirmed new Iranian ballistic missile or drone launches against host states; CENTCOM airstrikes remained paused. President Trump publicly confirmed the US will NOT resume strikes before the November 3 midterm elections (CBS News; Axios/Il Sole 24 Ore). CENTCOM rebutted Iranian claims that the Strait of Hormuz is closed, stating that over 20 million barrels of crude oil have transited under US naval escort. IRGC adviser Mohammadreza Naqdi threatened to close routes Iran considers "illegal" in the near term. UKMTO reported a crude tanker struck by an unknown projectile on October 6 — fire aboard, crew safe. Iran-Oman temporary route deal still unimplemented; Hormuz transits ~6/day. Lebanon ceasefire Day 112 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade Day 82 — Saudi crude halted 75th consecutive day since July 26. Brent ~$83–92/bbl (volatile). JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). Wikipedia API 403 (CBS News; Tribune India; Axios; Dawn; CENTCOM; UKMTO; Oct 9 2026)',
+    status: 'high-alert',
+    keywords: ['day 224', 'diplomatic pause day 68', 'trump no strikes before midterms', 'centcom 20m bbls hormuz', 'naqdi illegal routes threat', 'oct 6 tanker struck', 'houthi blockade day 82', 'saudi crude red sea halt 75th day', 'lebanon ceasefire day 112', 'brent oct 9'],
+  },
 ];
 
 export default conflictZones;

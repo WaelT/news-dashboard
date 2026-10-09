@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-08',
+  updated: '2026-10-09',
 
   current: {
     transitsPerDay: 6,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (8 Oct, Day 223): Bloomberg/UKMTO: 9 vessel attacks in first week of October alone — accelerating pace vs. Septem …',
-    trumpUltimatum: 'LATEST (5 Oct): Data showed that the seven-day average for crude exports was 18.3 million barrels per day by September 30, with exports surpassing pre-war figures on 14 days in September',
-    iranThreat: '25 Sep: Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
+    tankerRates: 'LATEST (9 Oct, Day 224): CENTCOM rebutted Iran closed-strait claim, citing 20M bbls crude transited under US escort; IRGC adviser Naqdi threatens to close routes Iran deems "illegal"; Oct 6 crude tanker struck — fire, crew safe (UKMTO)',
+    trumpUltimatum: 'LATEST (9 Oct): Trump confirmed US will NOT resume strikes before November 3 midterm elections (CBS News; Axios; Dawn); no final decision on post-midterm military resumption',
+    iranThreat: '9 Oct: IRGC adviser Mohammadreza Naqdi stated routes Iran considers "illegal" would soon be closed; CENTCOM disputed Iran\'s public claim that Hormuz is closed, citing >20M bbls flowing through',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 8 (Day 223, Bab al-Mandab blockade Day 81): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 81st day; Saudi crude via Red Sea halted 74th consecutive day since July 26; no new confirmed Houthi vessel attacks Oct 7–8 …',
+      detail: 'Oct 9 (Day 224, Bab al-Mandab blockade Day 82): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 82nd day; Saudi crude via Red Sea halted 75th consecutive day since July 26; no new confirmed Houthi vessel attacks Oct 9; Trump confirmed no US strikes before Nov 3 midterms …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 8 (Day 223): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation still not entered as of Oct 8 …',
+      detail: 'Oct 9 (Day 224): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation still not entered as of Oct 9; IRGC adviser Naqdi separately threatened to close routes Iran deems "illegal" …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 8 (Day 223): Brent ~$83–92/bbl (volatile) — 9 UKMTO-documented attacks in first week of October accelerate pressure; Bloomberg: oil flows near pre-war levels per Vortexa (18.6 mbd 14-day avg) but entirely dependent on US escort …',
+      detail: 'Oct 9 (Day 224): CENTCOM rebutted Iran closed-strait claim — stated over 20 million barrels of crude transited under US escort; IRGC adviser Naqdi threatens "illegal" route closure; Brent ~$83–92/bbl (volatile); oil flows near pre-war levels per Vortexa but entirely dependent on US escort; Oct 6 tanker struck (fire, crew safe) …',
     },
   ],
 };
