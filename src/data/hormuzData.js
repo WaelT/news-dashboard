@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (9 Oct, Day 224): "October Sees Near Daily Strikes on Ships in Hormuz" (USNI News Oct 9) …',
-    trumpUltimatum: 'LATEST (5 Oct): Data showed that the seven-day average for crude exports was 18.3 million barrels per day by September 30, with exports surpassing pre-war figures on 14 days in September',
-    iranThreat: '25 Sep: Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
+    trumpUltimatum: 'LATEST (9 Oct): the Panama-flagged oil tanker "Gem No',
+    iranThreat: '7 Oct: Mohammadreza Naqdi, an adviser to the commander of Iran\'s Islamic Revolutionary Guard Corps, said Iran would soon close routes through the Strait of Hormuz that it considered illegal',
   },
 
   disruptions: [
