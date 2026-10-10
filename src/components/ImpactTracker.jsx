@@ -24,7 +24,7 @@ function flagUrl(cc) {
 }
 
 // Stamped by scripts/update-casualties.mjs on each scrape
-const DATA_AS_OF = 'OCTOBER 6, 2026';
+const DATA_AS_OF = 'OCTOBER 10, 2026';
 
 const DEFAULT_CASUALTIES = {
   iran: { killed: 3831, wounded: 33000 },
@@ -37,7 +37,7 @@ const DEFAULT_CASUALTIES = {
   kuwait: { killed: 15, wounded: 314 },
   bahrain: { killed: 4, wounded: 59 },
   qatar: { killed: 18, wounded: 91 },
-  saudi: { killed: 17, wounded: 29 },
+  saudi: { killed: 20, wounded: 29 },
   jordan: { killed: 0, wounded: 29 },
   oman: { killed: 19, wounded: 35 },
   syria: { killed: 6, wounded: 6 },
