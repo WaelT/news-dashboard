@@ -64,16 +64,16 @@ export const hormuzData = {
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
-    insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war; VLCC single-voyage war-risk ~$10.0M = 30× peacetime as of Oct 9 — CNBC/Lloyd\'s)',
-    tankerRates: 'LATEST (9 Oct, Day 224): "October Sees Near Daily Strikes on Ships in Hormuz" (USNI News Oct 9); 9 ships struck Oct 1–6 per IMO; 11 tankers attacked week ending Oct 4 — wartime high; tanker struck outside Hormuz Oct 7 (first since Sep 9); second Oct 8 east of Fujairah; oil exports from Persian Gulf dropped from ~15 mbd in mid-Sep to ~4 mbd in early Oct; shadow shipping with AIS off continuing; CENTCOM disabled 3 vessels Oct 5; US sanctioned 22 tankers linked to Iran\'s oil trade; Brent $103.50 Oct 9',
-    trumpUltimatum: 'LATEST (9 Oct): US CENTCOM disabled 3 vessels Oct 5; US Treasury sanctioned 22 tankers + dozens of individuals linked to Iran\'s oil trade; back-channel talks via Oman/Qatar continuing; Iran-Oman Hormuz temporary route deal confirmed Aug 26 — implementation still NOT begun as of Oct 10',
-    iranThreat: '7 Oct: Iranian military threatened preemptive strikes on American positions in the region (Iran International; Oct 7 2026); 25 Sep: Iranian FM Araghchi stated Hormuz reopening depends on US fulfilling June peace deal commitments',
+    insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
+    tankerRates: 'LATEST (9 Oct, Day 224): "October Sees Near Daily Strikes on Ships in Hormuz" (USNI News Oct 9) …',
+    trumpUltimatum: 'LATEST (5 Oct): Data showed that the seven-day average for crude exports was 18.3 million barrels per day by September 30, with exports surpassing pre-war figures on 14 days in September',
+    iranThreat: '25 Sep: Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 10 (Day 225, Bab al-Mandab blockade Day 83): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 83rd day — Saudi crude via Red Sea halted for 76th consecutive day since July 26. Houthis claimed missile and drone strikes on Saudi airports and Aramco Riyadh refinery Oct 5–8 (CBS News; Saudi SPA: "limited fire controlled; no personnel injured; no production impact"). Operation Economic Outcast secondary sanctions in full effect targeting Chinese/Indian oil buyers. JMIC "Severe" maintained …',
+      detail: 'Oct 10 (Day 225, Bab al-Mandab blockade Day 83): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 83rd day — Saudi crude via Red Sea halted for 76th consecutive day since July 26. Houthis claimed missile and drone strikes on Saudi airports and Aramco Riyadh refinery Oct 5–8 (CBS News …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 10 (Day 225): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months. As of Oct 10 implementation has NOT begun; Iranian dep. FM Gharibabadi conditions (full reopening contingent on US fulfilling June peace deal commitments) remain in effect. Iran-Oman back-channel technical talks continuing via Muscat. CENTCOM disabled 3 vessels Oct 5 (US 5th Fleet) …',
+      detail: 'Oct 10 (Day 225): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months. As of Oct 10 implementation has NOT begun …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 9 (Day 224): Brent $103.50/bbl — surge driven by near-daily IRGC Navy tanker strikes in October (9 ships struck Oct 1–6 per IMO; 11 tankers in week ending Oct 4 = new wartime high; attacks resumed outside Hormuz Oct 7–8); Houthi Bab al-Mandab blockade Day 82; oil exports from Persian Gulf dropped from ~15 mbd (mid-Sep) to ~4 mbd (early Oct); VLCC war-risk insurance ~$10.0M (30× peacetime); Japan/South Korea/India diverting purchases to long-route cargoes; EIA projects prolonged supply shock if Hormuz deal not implemented by Nov (USNI News; CNBC; EIA; IMO; UKMTO; Oct 9 2026) …',
+      detail: 'Oct 9 (Day 224): Brent $103.50/bbl — surge driven by near-daily IRGC Navy tanker strikes in October (9 ships struck Oct 1–6 per IMO; 11 tankers in week ending Oct 4 = new wartime high; attacks resumed outside Hormuz Oct 7–8); Houthi Bab al-Mandab blockade Day 82 …',
     },
   ],
 };
