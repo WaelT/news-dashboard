@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-06',
+  updated: '2026-10-10',
 
   current: {
     transitsPerDay: 6,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (6 Oct, Day 221): 4 vessel attacks Oct 2–3 resuming active IRGC maritime strikes …',
-    trumpUltimatum: 'LATEST (5 Oct): Data showed that the seven-day average for crude exports was 18.3 million barrels per day by September 30, with exports surpassing pre-war figures on 14 days in September',
-    iranThreat: '25 Sep: Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
+    tankerRates: 'LATEST (10 Oct, Day 225): IRGC/CENTCOM diplomatic pause Day 69 — no new vessel attacks Oct 7–10; Hormuz transits ~5–6/day; Iran-Oman temporary route deal confirmed Aug 26, implementation still pending; JMIC "Severe" maintained; Houthi Bab al-Mandab blockade Day 83 — Saudi crude halted 76th consecutive day since July 26; Lebanon ceasefire Day 113 holds (4,335/12,240); Brent ~$89–91/bbl …',
+    trumpUltimatum: 'LATEST (10 Oct): US-Iran back-channel talks continuing via Oman/Qatar mediators; Iran-Oman Hormuz temporary route + revenue-sharing deal (confirmed Aug 26 by IRGC spokesman Mohebbi) implementation still not begun as of Oct 10; Operation Economic Outcast secondary sanctions remain in full effect',
+    iranThreat: '25 Sep: Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States fulfilling its commitments under the June 2026 peace deal',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 6 (Day 221, Bab al-Mandab blockade Day 79): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 79th day …',
+      detail: 'Oct 10 (Day 225, Bab al-Mandab blockade Day 83): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 83rd day; Saudi crude via Red Sea halted 76th consecutive day since July 26; no new confirmed Houthi vessel attacks Oct 7–10; Saudi coalition monitoring Houthi Red Sea positions …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 6 (Day 221): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months …',
+      detail: 'Oct 10 (Day 225): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation still not begun as of Oct 10; dep. FM Gharibabadi conditions persist (full reopening contingent on US June peace deal commitments) …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 6 (Day 221): Brent ~$91–92/bbl — elevated further on IRGC 4 tanker attacks Oct 2–3, Trump rejection of Hormuz 7-day proposal Oct 2, and Houthi Aramco Riyadh refinery drone strike Oct 3; Houthi Bab al-Mandab blockade Day 79; Lebanon ceasefire Day 109 …',
+      detail: 'Oct 10 (Day 225): Brent ~$89–91/bbl — easing slightly from Oct 6 peak on diplomatic pause continuity; IRGC/CENTCOM diplomatic pause Day 69; no new vessel attacks or Gulf base strikes Oct 7–10; Houthi Bab al-Mandab blockade Day 83; Lebanon ceasefire Day 113; Iran-Oman Hormuz deal implementation pending; Operation Economic Outcast secondary sanctions in full effect …',
     },
   ],
 };
