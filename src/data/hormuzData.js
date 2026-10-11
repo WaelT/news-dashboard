@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (11 Oct, Day 226): IRGC conducting nightly operations against "unauthorized" vessels — NV Sunshine LPG carrier struck Oct 9 (engine-room fire); supertanker hit mine Oct 10; US warplane disabled blockade-breaching vessel Oct 11; 11+ ships attacked since early Oct; war-risk premiums ~30× pre-crisis; Brent ~$100–105/bbl',
-    trumpUltimatum: 'LATEST (11 Oct): Trump pledged no attacks on Iran before Nov 3 midterm elections — "productive discussions" ongoing; White House asked Pentagon for post-midterm strike options (The Atlantic Oct 7); Iran-Oman Hormuz temporary route deal still not implemented',
-    iranThreat: '9 Oct: IRGC says it targets "violating" ships nightly in Hormuz and threatened "punitive measures" beyond Hormuz — any vessel using unauthorized routes will be pursued into Indian Ocean if fighting resumes (ABC News; Euronews; Al Jazeera Oct 9–11 2026)',
+    tankerRates: 'LATEST (11 Oct, Day 226): IRGC conducting nightly operations against "unauthorized" vessels — NV Sunshine LPG carrier st …',
+    trumpUltimatum: 'LATEST (9 Oct): the Panama-flagged oil tanker "Gem No',
+    iranThreat: '7 Oct: Mohammadreza Naqdi, an adviser to the commander of Iran\'s Islamic Revolutionary Guard Corps, said Iran would soon close routes through the Strait of Hormuz that it considered illegal',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 11 (Day 226, Bab al-Mandab blockade Day 84): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 84th day — Saudi crude via Red Sea halted for 77th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 7–11; Houthi/IRGC cooperation deepening (Reuters: IRGC flew commanders + gear to Yemen) …',
+      detail: 'Oct 11 (Day 226, Bab al-Mandab blockade Day 84): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 84th day — Saudi crude via Red Sea halted for 77th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 7–11 …',
     },
     {
       country: 'Iraq',
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Oct 11 (Day 226): Brent ~$100–105/bbl — sustained elevated on IRGC nightly Hormuz tanker strikes (NV Sunshine Oct 9, supertanker mine Oct 10, US warplane disabled vessel Oct 11), dual chokepoint disruption (Hormuz + Houthi Bab al-Mandab blockade Day 84); Japanese importers diverting supply; Goldman Sachs: Gulf flows constrained; Lebanon ceasefire Day 114; JMIC "Severe" maintained …',
+      detail: 'Oct 11 (Day 226): Brent ~$100–105/bbl — sustained elevated on IRGC nightly Hormuz tanker strikes (NV Sunshine Oct 9, supertanker mine Oct 10, US warplane disabled vessel Oct 11), dual chokepoint disruption (Hormuz + Houthi Bab al-Mandab blockade Day 84); Japanese importers diverting supply …',
     },
   ],
 };
