@@ -40,10 +40,12 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-10',
+
+  updated: '2026-10-11',
 
   current: {
     transitsPerDay: 4,
+
     oilFlowMbd: 0.1,
     disruptionPct: 99,
   },
@@ -59,21 +61,27 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 71,    // +2 from Oct 7–8 2026: crude tanker struck ~51nm NW Madinat ash Shamal Oct 7 (first attack outside Hormuz since Sep 9; crew safe per UKMTO); second tanker struck east of Fujairah Oct 8 (crew safe; UKMTO Oct 8); 9 ships struck Oct 1–6 per IMO; 11 tankers attacked week ending Oct 4 — new wartime high (USNI News; CNBC; IMO; UKMTO; Oct 9 2026)
+
+    vesselsAttacked: 82,    // +15 from Oct 7–11 2026: 10 tankers attacked in Sep 28–Oct 4 week (record per Kpler/IMO — CNBC Oct 9); 5 additional tanker attacks Oct 5–9; IRGC claimed struck gas tanker Oct 9 (~20:39 UTC); weekly rate is highest since war began; prior +4 from Oct 2–3 2026 (Critical Threats; gCaptain; UKMTO; SBS News; CNBC; Oct 9 2026)
+
     seafarersKilled: 24,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters; additional crew casualties from Aug–Sep incidents
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (9 Oct, Day 224): "October Sees Near Daily Strikes on Ships in Hormuz" (USNI News Oct 9) …',
-    trumpUltimatum: 'LATEST (9 Oct): the Panama-flagged oil tanker "Gem No',
-    iranThreat: '7 Oct: Mohammadreza Naqdi, an adviser to the commander of Iran\'s Islamic Revolutionary Guard Corps, said Iran would soon close routes through the Strait of Hormuz that it considered illegal',
+
+    tankerRates: 'LATEST (11 Oct, Day 226): Record tanker attack pace — 10 vessels hit Sep 28–Oct 4, 5 more Oct 5–9 (Kpler/IMO; CNBC Oct 9); 7 transits Oct 7 (lowest since Jul 23 per Kpler); IRGC claimed gas tanker struck Oct 9; Brent $104.28/bbl +4% Oct 8; WTI $91.49; tanker operators suspending new Hormuz transits without US escort (CNBC; Rigzone; OilPrice.com; Oct 9 2026)',
+    trumpUltimatum: 'LATEST (9 Oct): Trump promises no Iran strikes before Nov 3 midterms; Pentagon ordered CENTCOM to prepare post-midterm strike options (Axios/Breitbart Oct 7); White House asked CENTCOM for pre-midterm options (The Atlantic/GlobalSecurity Oct 8); US sets new demands in Iran deal (Al Jazeera Oct 7)',
+    iranThreat: '9 Oct: IRGC adviser confirms Hormuz under full Iranian control; remains closed until US meets all conditions; IRGC claimed struck gas tanker Oct 9 (Al Jazeera; PressTV; Oct 9 2026)',
+
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 10 (Day 225, Bab al-Mandab blockade Day 83): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 83rd day — Saudi crude via Red Sea halted for 76th consecutive day since July 26. Houthis claimed missile and drone strikes on Saudi airports and Aramco Riyadh refinery Oct 5–8 (CBS News …',
+
+      detail: 'Oct 11 (Day 226, Bab al-Mandab blockade Day 84): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 84th day; Saudi crude via Red Sea halted 77th consecutive day since July 26; Houthis attacked Abha Airport + King Khalid Riyadh Airport Oct 6–7: 3 killed (Moroccan + Algerian nationals at Abha; Sudanese national at Riyadh), 36 wounded (GACA/SPA Oct 8); UAE condemned attacks; Saudi coalition intercepted ballistic missile + destroyed launch platform …',
+
     },
     {
       country: 'Iraq',
@@ -85,11 +93,13 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 10 (Day 225): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months. As of Oct 10 implementation has NOT begun …',
+
+      detail: 'Oct 11 (Day 226): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months; implementation still pending as of Oct 11; diplomatic pause Day 70 holding …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 9 (Day 224): Brent $103.50/bbl — surge driven by near-daily IRGC Navy tanker strikes in October (9 ships struck Oct 1–6 per IMO; 11 tankers in week ending Oct 4 = new wartime high; attacks resumed outside Hormuz Oct 7–8); Houthi Bab al-Mandab blockade Day 82 …',
+      detail: 'Oct 11 (Day 226): Brent ~$101–104/bbl — record tanker attacks in Hormuz Oct 1–9 (15 vessels in 2 weeks); Trump promising no strikes before Nov 3 midterms but Pentagon preparing options; Houthi Bab al-Mandab blockade Day 84; Lebanon ceasefire Day 114; Asian buyers continuing to seek Hormuz alternatives (Middle East pipeline, Cape of Good Hope routing) …',
+
     },
   ],
 };
