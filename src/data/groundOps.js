@@ -3260,72 +3260,40 @@ const groundOps = {
       type: 'ceasefire',
     },
     {
-      date: '2026-10-07',
-
-      lat: 18.24,
-      lng: 42.51,
-      event: "Day 222 — Houthis attacked Abha Airport (Asir Province): 1 Moroccan national + 1 Algerian national killed; 12+ wounded; Houthi Bab al-Mandab blockade Day 80; Saudi crude halted 73rd consecutive day since July 26; Saudi coalition intercepted ballistic missile + destroyed launch platform (GACA; SPA; Al Jazeera; Aerocorner; Oct 7–8 2026)",
-      type: 'escalation',
-    },
-    {
-      date: '2026-10-07',
-      lat: 24.96,
-      lng: 46.70,
-      event: "Day 222 — Houthis attacked King Khalid International Airport (Riyadh): 1 Sudanese national killed; 24+ wounded; 3 total killed + 36 total wounded across both Saudi airport attacks Oct 6–7 per GACA/SPA Oct 8; UAE condemned attacks; Saudi coalition intercepted BM + destroyed launch platform (GACA; SPA; Al Jazeera; Aerocorner; Oct 7–8 2026)",
-      type: 'escalation',
-    },
-    {
-      date: '2026-10-07',
-      lat: 25.05,
-      lng: 57.75,
-      event: "Day 222 — IRGC/CENTCOM diplomatic pause Day 66; Strait of Hormuz 7 transits Oct 7 (lowest since July 23 per Kpler); record 10 tanker attacks Sep 28–Oct 4 (Kpler/IMO); tanker operators suspending new transits without US escort; Brent ~$100–104/bbl; JMIC 'Severe' (Kpler; CNBC; Oct 7 2026)",
-
-      type: 'escalation',
-    },
-    {
-      date: '2026-10-07',
-      lat: 33.72,
-      lng: 35.59,
-
-      event: "Day 222 — Lebanon ceasefire Day 110 holds; toll 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 7; IRGC/CENTCOM diplomatic pause Day 66 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 7 2026)",
-      type: 'ceasefire',
-    },
-    {
       date: '2026-10-09',
+      lat: 26.30,
+      lng: 56.40,
+      event: "Day 224 — IRGC Navy struck NV Sunshine LPG carrier in Hormuz on 'unauthorized route' — engine room fire (Al Jazeera; Euronews; Oct 9 2026); IRGC says it targets 'violating' ships nightly; Houthi Bab al-Mandab blockade Day 82 — Saudi crude halted 75th day; Lebanon ceasefire Day 112 holds; diplomatic pause Day 68",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-10',
       lat: 26.35,
-      lng: 56.48,
-      event: "Day 224 — IRGC claimed struck gas tanker in Hormuz ~20:39 UTC Oct 9; 5 more tanker attacks Oct 5–9 — 15 total in 2 weeks (record since war began); IRGC adviser: Hormuz under 'full Iranian control'; closed until US meets all conditions; 7 transits Oct 7 (lowest since July 23); tanker operators suspending transits without US escort; Brent ~$101–104/bbl (Al Jazeera; PressTV; CNBC; Kpler; Oct 9 2026)",
-      type: 'escalation',
-    },
-    {
-      date: '2026-10-09',
-      lat: 14.22,
-      lng: 42.60,
-      event: "Day 224 — Houthi Bab al-Mandab blockade Day 82; Saudi crude via Red Sea halted 75th consecutive day since July 26; no new confirmed Houthi international shipping attacks Oct 9; diplomatic pause Day 68 (UKMTO; Al Jazeera; Saudi SPA; Oct 9 2026)",
+      lng: 56.45,
+      event: "Day 225 — IRGC claims crude supertanker struck naval mine and exploded in Hormuz (unauthorized route, GPS disabled — Middle East Eye; Tasnim; Oct 10 2026); IRGC issued 'punitive measures' warning for vessels beyond Hormuz; Trump: 'productive discussions' with Iran; Houthi Bab al-Mandab blockade Day 83; Lebanon ceasefire Day 113 holds; Brent ~$100–105/bbl",
       type: 'escalation',
     },
     {
       date: '2026-10-11',
-      lat: 25.05,
-      lng: 57.75,
-      event: "Day 226 — IRGC/CENTCOM diplomatic pause Day 70; 15 tanker attacks in 2 weeks (record); Iran-Oman Hormuz route deal still unimplemented; IRGC: Hormuz closed until US meets all conditions; Trump: no strikes before Nov 3 midterms; Pentagon preparing post-midterm options; Brent ~$101–104/bbl; JMIC 'Severe' (CNBC; Kpler; Al Jazeera; Axios; Oct 11 2026)",
+      lat: 26.40,
+      lng: 56.50,
+      event: "Day 226 — US warplane knocked out ship breaching Iran blockade as tankers burned in Hormuz (The National News Oct 11); IRGC threatened to pursue vessels into Indian Ocean if fighting resumes (ABC News); 11+ ships attacked since early Oct; Hormuz ~4 transits/day; Houthi Bab al-Mandab blockade Day 84 — Saudi crude halted 77th day; Lebanon ceasefire Day 114 holds; Brent ~$100–105/bbl; JMIC 'Severe' maintained",
       type: 'escalation',
     },
     {
       date: '2026-10-11',
-      lat: 14.22,
-      lng: 42.60,
-      event: "Day 226 — Houthi Bab al-Mandab blockade Day 84; Saudi crude via Red Sea halted 77th consecutive day since July 26; Houthis attacked Abha Airport + King Khalid Riyadh Airport Oct 6–7: 3 killed + 36 wounded; Saudi coalition intercepted BMs + destroyed launch platform; diplomatic pause Day 70 (GACA; SPA; UKMTO; Al Jazeera; Oct 11 2026)",
+      lat: 14.12,
+      lng: 42.35,
+      event: "Day 226 — Houthi Bab al-Mandab blockade Day 84; Saudi crude via Red Sea halted 77th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 7–11; diplomatic pause Day 70 (UKMTO; Al Jazeera; Saudi SPA; Oct 11 2026)",
       type: 'escalation',
     },
     {
       date: '2026-10-11',
       lat: 33.72,
       lng: 35.59,
-      event: "Day 226 — Lebanon ceasefire Day 114 holds; toll 4,383 killed / 12,406 wounded; no new confirmed escalation Oct 11; IRGC/CENTCOM diplomatic pause Day 70 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 11 2026)",
+      event: "Day 226 — Lebanon ceasefire Day 114 holds; toll unchanged at 4,383 killed / 12,406 wounded; no new confirmed escalation Oct 7–11; IRGC/CENTCOM diplomatic pause Day 70 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 11 2026)",
       type: 'ceasefire',
     },
-
   ],
 };
 
