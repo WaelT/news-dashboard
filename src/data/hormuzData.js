@@ -70,9 +70,9 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
 
-    tankerRates: 'LATEST (11 Oct, Day 226): Record tanker attack pace — 10 vessels hit Sep 28–Oct 4, 5 more Oct 5–9 (Kpler/IMO; CNBC Oct 9); 7 transits Oct 7 (lowest since Jul 23 per Kpler); IRGC claimed gas tanker struck Oct 9; Brent $104.28/bbl +4% Oct 8; WTI $91.49; tanker operators suspending new Hormuz transits without US escort (CNBC; Rigzone; OilPrice.com; Oct 9 2026)',
-    trumpUltimatum: 'LATEST (9 Oct): Trump promises no Iran strikes before Nov 3 midterms; Pentagon ordered CENTCOM to prepare post-midterm strike options (Axios/Breitbart Oct 7); White House asked CENTCOM for pre-midterm options (The Atlantic/GlobalSecurity Oct 8); US sets new demands in Iran deal (Al Jazeera Oct 7)',
-    iranThreat: '9 Oct: IRGC adviser confirms Hormuz under full Iranian control; remains closed until US meets all conditions; IRGC claimed struck gas tanker Oct 9 (Al Jazeera; PressTV; Oct 9 2026)',
+    tankerRates: 'LATEST (11 Oct, Day 226): Record tanker attack pace — 10 vessels hit Sep 28–Oct 4, 5 more Oct 5–9 (Kpler/IMO …',
+    trumpUltimatum: 'LATEST (9 Oct): the Panama-flagged oil tanker "Gem No',
+    iranThreat: '7 Oct: Mohammadreza Naqdi, an adviser to the commander of Iran\'s Islamic Revolutionary Guard Corps, said Iran would soon close routes through the Strait of Hormuz that it considered illegal',
 
   },
 
@@ -80,7 +80,7 @@ export const hormuzData = {
     {
       country: 'Saudi Arabia',
 
-      detail: 'Oct 11 (Day 226, Bab al-Mandab blockade Day 84): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 84th day; Saudi crude via Red Sea halted 77th consecutive day since July 26; Houthis attacked Abha Airport + King Khalid Riyadh Airport Oct 6–7: 3 killed (Moroccan + Algerian nationals at Abha; Sudanese national at Riyadh), 36 wounded (GACA/SPA Oct 8); UAE condemned attacks; Saudi coalition intercepted ballistic missile + destroyed launch platform …',
+      detail: 'Oct 11 (Day 226, Bab al-Mandab blockade Day 84): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 84th day; Saudi crude via Red Sea halted 77th consecutive day since July 26 …',
 
     },
     {
@@ -98,7 +98,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Oct 11 (Day 226): Brent ~$101–104/bbl — record tanker attacks in Hormuz Oct 1–9 (15 vessels in 2 weeks); Trump promising no strikes before Nov 3 midterms but Pentagon preparing options; Houthi Bab al-Mandab blockade Day 84; Lebanon ceasefire Day 114; Asian buyers continuing to seek Hormuz alternatives (Middle East pipeline, Cape of Good Hope routing) …',
+      detail: 'Oct 11 (Day 226): Brent ~$101–104/bbl — record tanker attacks in Hormuz Oct 1–9 (15 vessels in 2 weeks); Trump promising no strikes before Nov 3 midterms but Pentagon preparing options; Houthi Bab al-Mandab blockade Day 84; Lebanon ceasefire Day 114 …',
 
     },
   ],
