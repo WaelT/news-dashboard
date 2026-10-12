@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 12 (Day 227, Bab al-Mandab blockade Day 85): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 85th day — Saudi crude via Red Sea halted for 78th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 7–12; Houthis continuing daily operations targeting Saudi Aramco facilities and airports per Seatrade (Oct 5) and Naked Capitalism (Oct 2026); Red Sea shipping rerouting via Cape of Good Hope at increased cost (CNN; Al Jazeera; Seatrade; Oct 12 2026)',
+      detail: 'Oct 12 (Day 227, Bab al-Mandab blockade Day 85): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 85th day — Saudi crude via Red Sea halted for 78th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 7–12 …',
     },
     {
       country: 'Iraq',
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Oct 12 (Day 227): Brent ~$100–105/bbl — sustained elevated on IRGC nightly Hormuz tanker strikes; CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from prior wartime high — IRGC resumed attacks after oil briefly re-scaled upward; EIA (Oct 6) raised Brent Q4 forecast to ~$105/bbl; dual chokepoint disruption (Hormuz + Houthi Bab al-Mandab blockade Day 85); Japanese/South Korean/Indian importers diverting supply via Cape of Good Hope; Asia LNG spot prices elevated; JMIC "Severe" maintained (CNN; EIA; Al Jazeera; Oct 12 2026)',
+      detail: 'Oct 12 (Day 227): Brent ~$100–105/bbl — sustained elevated on IRGC nightly Hormuz tanker strikes; CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from prior wartime high — IRGC resumed attacks after oil briefly re-scaled upward …',
     },
   ],
 };
