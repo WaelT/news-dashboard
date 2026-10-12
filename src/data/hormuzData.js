@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-11',
+  updated: '2026-10-12',
 
   current: {
     transitsPerDay: 4,
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 11 (Day 226, Bab al-Mandab blockade Day 84): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 84th day — Saudi crude via Red Sea halted for 77th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 7–11 …',
+      detail: 'Oct 12 (Day 227, Bab al-Mandab blockade Day 85): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 85th day — Saudi crude via Red Sea halted for 78th consecutive day since July 26; no new confirmed Houthi attacks on international shipping Oct 7–12; Houthis continuing daily operations targeting Saudi Aramco facilities and airports per Seatrade (Oct 5) and Naked Capitalism (Oct 2026); Red Sea shipping rerouting via Cape of Good Hope at increased cost (CNN; Al Jazeera; Seatrade; Oct 12 2026)',
     },
     {
       country: 'Iraq',
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Oct 11 (Day 226): Brent ~$100–105/bbl — sustained elevated on IRGC nightly Hormuz tanker strikes (NV Sunshine Oct 9, supertanker mine Oct 10, US warplane disabled vessel Oct 11), dual chokepoint disruption (Hormuz + Houthi Bab al-Mandab blockade Day 84); Japanese importers diverting supply …',
+      detail: 'Oct 12 (Day 227): Brent ~$100–105/bbl — sustained elevated on IRGC nightly Hormuz tanker strikes; CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from prior wartime high — IRGC resumed attacks after oil briefly re-scaled upward; EIA (Oct 6) raised Brent Q4 forecast to ~$105/bbl; dual chokepoint disruption (Hormuz + Houthi Bab al-Mandab blockade Day 85); Japanese/South Korean/Indian importers diverting supply via Cape of Good Hope; Asia LNG spot prices elevated; JMIC "Severe" maintained (CNN; EIA; Al Jazeera; Oct 12 2026)',
     },
   ],
 };
