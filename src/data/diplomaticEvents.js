@@ -3726,6 +3726,13 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 226 of the 2026 Iran war. IRGC/CENTCOM diplomatic pause continued for the 70th consecutive day — no new IRGC land-based missile or drone launches. However, IRGC Navy escalated maritime operations: Oct 9 struck NV Sunshine LPG carrier (engine-room fire); Oct 10 IRGC claims crude supertanker struck naval mine; Oct 11 US warplane knocked out ship breaching Iran blockade as tankers burned in Hormuz (The National News). IRGC issued "punitive measures" warning — threatened to pursue vessels into Indian Ocean if fighting resumes (ABC News; Euronews). 11+ ships attacked since early October. Hormuz transits fell to ~4/day. Iran-Oman temporary route deal implementation still pending. Lebanon ceasefire Day 114 holds (toll unchanged 4,383/12,406). Houthi Bab al-Mandab maritime blockade Day 84 — Saudi crude halted 77th consecutive day since July 26. Brent ~$100–105/bbl (sustained elevated). JMIC "Severe" maintained. No new US KIA (26 total per DoD; 861 wounded per Pentagon DCAS). Casualties trajectory-based; Wikipedia API 403 (The National News; ABC News; Al Jazeera; Euronews; Middle East Eye; Tasnim; CENTCOM; DoD; Oct 11 2026).',
   },
+  {
+    date: '2026-10-12',
+    event: 'Day 227 — IRGC/CENTCOM diplomatic pause Day 71; IRGC nightly Hormuz maritime ops continuing; Houthi blockade Day 85; Lebanon ceasefire Day 115',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 227 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause continued for the 71st consecutive day on land-based strikes — no confirmed new Iranian ballistic missile or drone launches at host states; CENTCOM airstrikes paused Day 71. IRGC Navy nightly maritime operations in Hormuz continuing; 71+ vessels attacked (cumulative). Hormuz transits ~4/day; CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd figure, but Hormuz transits at historically low levels). US-Iran back-channel talks via Oman/Qatar continuing; Trump confirmed no US strike on Iran before November 3 midterms. Lebanon ceasefire Day 115 holds — toll unchanged at 4,383 killed / 12,406 wounded. Houthi Bab al-Mandab maritime blockade Day 85 — Saudi crude halted 78th consecutive day since July 26. No new US KIA (26 total per DoD; 861 wounded per Pentagon DCAS). JMIC "Severe" maintained. Brent ~$100–105/bbl. Casualties trajectory-based; Wikipedia API 403 (CNN; Al Jazeera; CENTCOM; DoD; Oct 12 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
