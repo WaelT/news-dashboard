@@ -312,6 +312,8 @@ const casualtyTimeline = [
   { date: '2026-10-09', iran: 3831, lebanon: 4383, israel: 72, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   { date: '2026-10-10', iran: 3831, lebanon: 4383, israel: 72, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   { date: '2026-10-11', iran: 3831, lebanon: 4383, israel: 72, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 227: IRGC/CENTCOM diplomatic pause Day 71 — no confirmed new IRGC land-based launches for 37th consecutive day; Lebanon ceasefire Day 115 holds (toll unchanged 4,383/12,406); Houthi Bab al-Mandab blockade Day 85 — Saudi crude via Red Sea halted 78th consecutive day since July 26; IRGC nightly Hormuz tanker operations continuing (~4 transits/day); CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from wartime high; Brent ~$100–105/bbl sustained elevated; no new US KIA (26 total per DoD; 861 wounded per Pentagon DCAS); Wikipedia API 403 — all casualty figures trajectory-based (CNN; Al Jazeera; CENTCOM; DoD; Oct 12 2026)
+  { date: '2026-10-12', iran: 3831, lebanon: 4383, israel: 72, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;
