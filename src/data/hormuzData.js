@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (13 Oct, Day 228): IRGC tanker attacks surged to wartime high week ending Oct 4 (11 attacks per IMO); CNN (Oct 8): record attacks sent Hormuz crossings to two-month low; NV Sunshine LPG struck Oct 9 (engine room fire); supertanker mine Oct 10; US warplane disabled vessel Oct 11; OilPrice (Oct 12): Brent $106.80/bbl; 3rd supertanker struck Oct 12; war-risk premiums ~30× pre-crisis; 7 Oct: IRGC adviser Naqdi: Iran would "close routes it considers illegal" (Al Jazeera; CNBC; OilPrice; Oct 12–13 2026)',
-    trumpUltimatum: 'LATEST (13 Oct): Iran-US peace talks stalled — Iran called US response "insufficient" (CBS News Oct 11–12); Al Jazeera (Oct 11): "Hormuz attacks intensify as efforts to end war on Iran stall"; US back-channel communications via Oman/Qatar ongoing but no breakthrough; Iran-Oman temporary route deal (Aug 26) still not implemented (Al Jazeera; CBS News; CNBC; Oct 13 2026)',
-    iranThreat: 'LATEST (12 Oct): IRGC struck 3rd non-compliant supertanker Oct 12 (Al Jazeera); IRGC warned AIS-dark vessels treated as hostile; IRGC adviser Naqdi (Oct 7): Iran would "close routes it considers illegal"; IRGC threatened to target ships beyond Hormuz in Indian Ocean if fighting resumes (ABC News Oct 11); nightly maritime enforcement operations continuing (Al Jazeera; NBC News; Oct 12 2026)',
+    tankerRates: 'LATEST (13 Oct, Day 228): IRGC tanker attacks surged to wartime high week ending Oct 4 (11 attacks per IMO) …',
+    trumpUltimatum: 'LATEST (9 Oct): the Panama-flagged oil tanker "Gem No',
+    iranThreat: '7 Oct: Mohammadreza Naqdi, an adviser to the commander of Iran\'s Islamic Revolutionary Guard Corps, said Iran would soon close routes through the Strait of Hormuz that it considered illegal',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 13 (Day 228, Bab al-Mandab blockade Day 86): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 86th day — Saudi crude shipments via Red Sea halted 79th consecutive day since July 26; Saudi-backed Yemeni forces claimed to retake Bab el-Mandab coastal positions ("Dawn of Yemen" operation Oct 5–9); Saudi ambassador claimed strait "cleared" Oct 9 — not independently confirmed; Houthis have not publicly conceded; JMIC "Severe" maintained (Al Jazeera; Saudi SPA; UKMTO; Oct 13 2026)',
+      detail: 'Oct 13 (Day 228, Bab al-Mandab blockade Day 86): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 86th day — Saudi crude shipments via Red Sea halted 79th consecutive day since July 26 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 13 (Day 228): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented despite ongoing diplomatic back-channel — IRGC maritime attacks accelerated Oct 8–12 undermining implementation; transit corridor in legal limbo; Oman mediating both US-Iran talks and Hormuz route implementation (Al Jazeera; Bloomberg; Oct 13 2026)',
+      detail: 'Oct 13 (Day 228): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented despite ongoing diplomatic back-channel — IRGC maritime attacks accelerated Oct 8–12 undermining implementation; transit corridor in legal limbo …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 13 (Day 228): OilPrice (Oct 12): Brent $106.80/bbl — elevated on IRGC tanker attack surge; CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from wartime high; Goldman Sachs raised Dec Brent forecast $90 from $85 with ~$20/bbl geopolitical premium; Gulf oil exports at ~60% of pre-war levels (down from 81% Sep); Asian LNG spot market disrupted; India condemned 2 ship attacks with 2 Indian crew missing (Oct 11); Houthi Bab al-Mandab blockade Day 86; Lebanon ceasefire Day 116 (CNN; OilPrice; CNBC; Goldman Sachs; NBC News; Oct 13 2026)',
+      detail: 'Oct 13 (Day 228): OilPrice (Oct 12): Brent $106.80/bbl — elevated on IRGC tanker attack surge; CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from wartime high; Goldman Sachs raised Dec Brent forecast $90 from $85 with ~$20/bbl geopolitical premium …',
     },
   ],
 };
