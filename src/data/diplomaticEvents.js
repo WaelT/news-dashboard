@@ -3754,6 +3754,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 228 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause continued for the 72nd consecutive day on land-based strikes — no confirmed new Iranian ballistic missile or drone launches at host states for 38th consecutive day; CENTCOM airstrikes paused Day 72. Iran-US peace talks stalled — Iran called US response "insufficient" (CBS News Oct 11–12); Al Jazeera (Oct 11): "Hormuz attacks intensify as efforts to end war on Iran stall." IRGC struck 3rd non-compliant supertanker Oct 12 (Al Jazeera). US back-channel communications via Oman/Qatar ongoing but no breakthrough. Iran-Oman temporary route deal (Aug 26) still not implemented (Al Jazeera; Bloomberg). IRGC maritime attacks accelerated Oct 8–12 — Hormuz transits ~4/day (two-month low). OilPrice (Oct 12): Brent $106.80/bbl. Lebanon ceasefire Day 116 holds — toll unchanged at 4,383 killed / 12,406 wounded. Houthi Bab al-Mandab maritime blockade Day 86 — Saudi crude halted 79th day since July 26; Saudi ambassador claimed strait "cleared" Oct 9 (not independently confirmed). JMIC "Severe" maintained. No new US KIA (26 total per DoD; 861 wounded per Pentagon DCAS). Wikipedia API 403 — figures trajectory-based (Al Jazeera; CBS News; OilPrice; CNBC; Bloomberg; CENTCOM; DoD; Oct 13 2026).',
   },
+  {
+    date: '2026-10-13',
+    event: 'Day 228 — Iran offers Saudi-Houthi mediation; Houthis threaten US; King Khalid airport closure extended to Oct 17',
+    type: 'diplomacy',
+    status: 'escalation',
+    detail: 'Day 228 of the 2026 Iran war. Iran FM Araghchi called Saudi FM Prince Faisal bin Farhan Oct 12 and offered to facilitate Saudi Arabia–Houthi talks following the Oct 10 Riyadh airport attack (12 killed, 309 wounded). Houthi spokesman Yahya Saree threatened a "swift and painful" response if the US joins Saudi strikes on the group (CBS News Oct 12). Trump denounced Houthi attacks as "misbehaving very badly" after call with Saudi crown prince (Fox News). King Khalid International Airport closure extended until Oct 17 21:00 GMT — FAA warned US airlines to use "extreme caution" over Saudi airspace; Etihad cancelled Saudi flights over "regional disruption." King Fahd International Airport (Dammam) also targeted Oct 12. Saudi coalition said it intercepted ballistic missiles aimed at Riyadh and Khamis Mushait on Oct 12. WSJ cited Saudi officials saying Riyadh running low on air defense interceptors. IRGC/CENTCOM diplomatic pause Day 72 holds — no new Iranian land-based launches. Lebanon ceasefire Day 116 holds. Houthi Bab al-Mandab blockade Day 86 (Al Jazeera; Fox News; CBS News; Reuters; Saudi SPA; Saudi civil aviation authority; WSJ; FAA; CNBC; Oct 12–13 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

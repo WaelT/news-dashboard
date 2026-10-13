@@ -1634,6 +1634,17 @@ const conflictZones = [
     keywords: ['day 224', 'day 225', 'day 226', 'nv sunshine lpg carrier', 'supertanker mine hormuz oct 10', 'us warplane blockade oct 11', 'irgc nightly tanker strikes', '11 ships attacked', 'hormuz 4 transits per day', 'irgc threats indian ocean', 'houthi blockade day 82 83 84', 'brent 100 105 oct 9 10 11'],
   },
   {
+    id: 223,
+    name: 'Riyadh, Saudi Arabia — Houthi Airport Strike Oct 10; 12 Killed, 309 Wounded; Oct 12 Missile Intercepted',
+    lat: 24.96,
+    lng: 46.70,
+    type: 'houthi',
+    icon: 'explosion',
+    description: 'Day 225–227 (Oct 10–12): Houthi ballistic missiles and drones struck King Khalid International Airport in Riyadh with escalating frequency. Oct 10: attack killed 12 people (4 Saudis, 2 Bangladeshis, 1 US, 1 Jordanian, 1 Palestinian, 1 Syrian, 1 Sudanese, 1 Egyptian per Saudi civil aviation authority) and wounded 309 — deadliest Houthi strike on Saudi Arabia since 2022; airport suspended operations and diverted flights; Saudi coalition called it a "war crime." Oct 12: Saudi coalition intercepted a Houthi ballistic missile aimed at King Khalid International Airport; airport closure extended until Oct 17 21:00 GMT; King Fahd International Airport (Dammam) also targeted. WSJ: Saudi officials said Riyadh running low on air defense interceptors. FAA warned US airlines "extreme caution" over Saudi airspace; Etihad cancelled Saudi flights. Iran FM Araghchi offered to mediate Saudi-Houthi talks Oct 12. Houthis threatened "swift and painful" response if US joins Saudi strikes. IRGC/CENTCOM diplomatic pause Day 71–72 holds on land-based strikes against other states (Reuters; Al Jazeera; CNN; CBS News; Fox News; Saudi SPA; WSJ; FAA; Oct 10–12 2026)',
+    status: 'critical',
+    keywords: ['houthi riyadh airport oct 10', '12 killed 309 wounded', 'king khalid international airport', 'airport closure oct 17', 'saudi coalition intercepts oct 12', 'iran mediation saudi houthi', 'houthi escalation october 2026', 'day 225 226 227'],
+  },
+  {
     id: 222,
     name: 'Strait of Hormuz — Day 228; 3rd Supertanker Struck Oct 12; Brent $106.80; Talks Stalled',
     lat: 24.75,

@@ -3344,6 +3344,13 @@ const groundOps = {
       type: 'ceasefire',
     },
     {
+      date: '2026-10-12',
+      lat: 24.96,
+      lng: 46.70,
+      event: "Day 227 — Houthi ballistic missile aimed at King Khalid International Airport (Riyadh) intercepted by Saudi coalition Oct 12; airport closure extended until Oct 17 21:00 GMT; follows Oct 10 attack killing 12 (4 Saudis, 2 Bangladeshis, 1 US, 1 Jordanian, 1 Palestinian, 1 Syrian, 1 Sudanese, 1 Egyptian) and wounding 309 — deadliest Houthi strike on Saudi since 2022; Iran FM Araghchi offered to mediate Saudi-Houthi talks Oct 12; Houthis threatened 'swift and painful' response if US joins Saudi strikes; King Fahd Airport (Dammam) also targeted (Reuters; Al Jazeera; CBS News; Fox News; Saudi SPA; Saudi civil aviation authority; Oct 10–12 2026)",
+      type: 'escalation',
+    },
+    {
       date: '2026-10-13',
       lat: 14.12,
       lng: 42.35,
