@@ -1611,6 +1611,17 @@ const conflictZones = [
     status: 'high-alert',
     keywords: ['day 221', 'diplomatic pause day 65', 'hormuz deal implementation pending', 'houthi blockade day 79', 'saudi crude red sea halt 72nd day', 'lebanon ceasefire day 109', 'operation economic outcast', 'brent oct 6'],
   },
+  {
+    id: 220,
+    name: 'Strait of Hormuz — Day 228; IRGC Maritime Attacks at Wartime High; Brent $107',
+    lat: 24.75,
+    lng: 57.95,
+    type: 'naval',
+    icon: 'ship',
+    description: 'Day 228 (Oct 13): IRGC maritime attacks on Hormuz tankers surged to wartime high week of Oct 8–12 — CNBC (Oct 9): "Tanker attacks in Strait of Hormuz surge to wartime high"; CNN (Oct 8): record attacks sent Hormuz crossings to two-month low (~4/day). Suezmax carrying Iraqi crude struck (~Oct 11; fire, 2 Indian crew missing per NBC/Yahoo News); product carrier hit by drone (~Oct 11); IRGC struck 3rd non-compliant supertanker Oct 12 (Al Jazeera); CENTCOM disabled M/V Ocean Molica in Gulf of Oman Oct 10 (precision munition; CENTCOM press release). IRGC warned ships transiting in AIS-off "dark mode" will be treated as hostile. Iran-US peace talks stalled — CBS: Iran called US response "insufficient"; Al Jazeera (Oct 11): "Hormuz attacks intensify as efforts to end war stall". Iran-Oman temporary route deal (Aug 26) still not implemented. Diplomatic pause Day 72 holds (no land-based IRGC launches). Lebanon ceasefire Day 116 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab blockade Day 86 — Saudi crude halted 79th day. Brent $106.80/bbl (OilPrice Oct 12). JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded). All casualty figures trajectory-based; Wikipedia API 403 (Al Jazeera; CNN; CNBC; OilPrice; CBS News; NBC News; CENTCOM; DoD; Oct 13 2026)',
+    status: 'high-alert',
+    keywords: ['day 228', 'irgc maritime attacks wartime high', 'hormuz tanker attacks record', 'diplomatic pause day 72', 'houthi blockade day 86', 'saudi crude red sea halt 79th day', 'lebanon ceasefire day 116', 'brent 107', 'ocean molica', 'suezmax attack'],
+  },
 ];
 
 export default conflictZones;

@@ -3712,6 +3712,20 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 221 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause continued for the 65th consecutive day — no confirmed new Iranian ballistic missile or drone launches; CENTCOM airstrikes paused Day 65. The Iran-Oman Hormuz temporary route deal had not entered implementation; Hormuz transits remained ~6/day. Lebanon ceasefire Day 109 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade Day 79 — Saudi crude halted 72nd consecutive day since July 26. Brent ~$91–92/bbl. JMIC "Severe" maintained. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). Wikipedia API 403 — casualty figures trajectory-based (Al Jazeera; CENTCOM; DoD; Oct 6 2026).',
   },
+  {
+    date: '2026-10-09',
+    event: 'Day 224 — IRGC tanker attacks surge to wartime high; Iran-US talks stalled; Houthi blockade Day 82',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 224 of the 2026 Iran war. IRGC maritime attacks on Hormuz tankers reached wartime high week of Oct 8–9 — CNN (Oct 8): "record number of tanker attacks" sent Hormuz crossings to two-month low (~4/day); CNBC (Oct 9): "Tanker attacks in Strait of Hormuz surge to wartime high." IRGC warned ships transiting in AIS-off "dark mode" will be treated as hostile. Iran-US peace talks stalled — Iran called US response "insufficient" (CBS News). Iran-Oman Hormuz temporary route deal (confirmed Aug 26) still not implemented. Diplomatic pause Day 68 holds — no land-based ballistic missile or drone launches. Lebanon ceasefire Day 112 holds — toll unchanged at 4,335 killed / 12,240 wounded. Houthi Bab al-Mandab maritime blockade Day 82 — Saudi crude halted 75th day. Brent ~$103–107/bbl (two-week high on tanker attack surge). No new US KIA (26 total per DoD). Wikipedia API 403 (CBS News; CNN; CNBC; Al Jazeera; CENTCOM; Oct 9 2026).',
+  },
+  {
+    date: '2026-10-12',
+    event: 'Day 227 — 3rd supertanker struck; CENTCOM disables M/V Ocean Molica; Brent $106.80; talks stalled',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 227 of the 2026 Iran war. IRGC struck 3rd non-compliant supertanker in Hormuz (Al Jazeera Oct 12). Earlier in week: Suezmax carrying Iraqi crude struck (~Oct 11; fire, 2 Indian crew missing per NBC News/Yahoo News); product carrier hit by drone (~Oct 11). CENTCOM disabled M/V Ocean Molica in Gulf of Oman with precision munition (Oct 10 — vessel had departed Iranian port; no crew casualties per CENTCOM press release). Al Jazeera (Oct 11): "Hormuz attacks intensify as efforts to end war on Iran stall." OilPrice (Oct 12): Brent at $106.80/bbl. Hormuz transits ~4/day (two-month low). Diplomatic pause Day 71 holds — no land-based IRGC launches. Lebanon ceasefire Day 115 holds. Houthi Bab al-Mandab blockade Day 85 — Saudi crude halted 78th day. No new US KIA (26 total per DoD; 756 wounded per Pentagon DCAS). Wikipedia API 403 — casualty figures trajectory-based (Al Jazeera; CNN; OilPrice; CNBC; CBS News; CENTCOM; DoD; Oct 12 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

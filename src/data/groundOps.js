@@ -3259,6 +3259,48 @@ const groundOps = {
       event: "Day 221 — Lebanon ceasefire Day 109 holds; toll unchanged at 4,335 killed / 12,240 wounded; no new confirmed escalation Oct 6; IRGC/CENTCOM diplomatic pause Day 65 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 6 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-10-08',
+      lat: 26.5,
+      lng: 57.0,
+      event: "Day 223 — IRGC tanker attacks in Hormuz reach wartime high; CNN: 'record number of tanker attacks' sent Hormuz crossings to two-month low (~4 transits/day); CNBC (Oct 9): 'Tanker attacks in Strait of Hormuz surge to wartime high'; Brent ~$102–106/bbl (CNN; CNBC; Oct 8–9 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-10',
+      lat: 22.5,
+      lng: 59.5,
+      event: "Day 225 — CENTCOM precision munition disabled M/V Ocean Molica in Gulf of Oman after vessel departed Iranian port; no crew casualties (CENTCOM press release; Oct 10 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-11',
+      lat: 26.3,
+      lng: 56.5,
+      event: "Day 226 — Two tankers attacked near Hormuz: Suezmax carrying Iraqi crude (fire; 2 Indian crew missing) and product carrier (drone hit); IRGC warned AIS-dark ships treated as hostile (NBC News; Yahoo News; CNBC; Oct 11 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-12',
+      lat: 26.6,
+      lng: 57.2,
+      event: "Day 227 — IRGC struck 3rd non-compliant supertanker in Hormuz; Al Jazeera: 'Hormuz attacks intensify as efforts to end war stall'; OilPrice: Brent at $106.80/bbl; Iran-US peace talks stalled — Iran calls US response 'insufficient' (Al Jazeera; OilPrice; CBS News; Oct 12 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-13',
+      lat: 14.12,
+      lng: 42.35,
+      event: "Day 228 — Houthi Bab al-Mandab blockade Day 86; Saudi crude via Red Sea halted 79th day; Saudi ambassador claimed Bab el-Mandab 'cleared' Oct 9 (not independently confirmed; Houthis have not conceded); diplomatic pause Day 72 (UKMTO; Al Jazeera; Saudi SPA; Oct 13 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-13',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 228 — Lebanon ceasefire Day 116 holds; toll unchanged at 4,335 killed / 12,240 wounded; IRGC/CENTCOM diplomatic pause Day 72 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 13 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 
