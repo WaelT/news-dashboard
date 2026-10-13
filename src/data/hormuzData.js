@@ -40,11 +40,11 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-06',
+  updated: '2026-10-13',
 
   current: {
-    transitsPerDay: 6,
-    oilFlowMbd: 0.1,
+    transitsPerDay: 4,
+    oilFlowMbd: 0.07,
     disruptionPct: 99,
   },
 
@@ -59,21 +59,21 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 67,    // +4 from Oct 2–3 2026: IRGC Navy attacked 2 tankers Oct 2 (one outbound Hormuz, one ~4nm east of Oman); 4 total vessel attacks Oct 2–3 — drone entered tanker funnel (small fire + power loss), second vessel struck port quarter (drifted briefly, tug-assisted to Fujairah), third lost propulsion; no crew casualties (Critical Threats; gCaptain; UKMTO; SBS News; Oct 3 2026)
-    seafarersKilled: 24,    // +1 from Aug 18 Minoan Dignity attack in Hormuz (chief engineer killed; CNBC/NBC News); +1 from Jul 31 Hormuz tanker explosions (AOL); prior: 17 confirmed — 14 as of June 10 MT Settebello attack; +1 Indian crew (GFS Galaxy, July 12); +1 Indian crew (M/V Mombasa, July 14) per UAE Ministry of Defence/Reuters; additional crew casualties from Aug–Sep incidents
+    vesselsAttacked: 74,    // +7 Oct 7–13 2026: CNBC (Oct 9): tanker attacks at wartime high; CNN (Oct 8): record attacks sent Hormuz crossings to two-month low; Suezmax carrying Iraqi crude struck (fire, departed Oct 8 — 2 Indian crew missing per NBC/Yahoo News); product carrier hit by drone (~Oct 11); IRGC struck 3rd non-compliant supertanker (~Oct 12 per Al Jazeera); CENTCOM disabled M/V Ocean Molica in Gulf of Oman (Oct 10; precision munition, no crew casualties); prior 67: +4 Oct 2–3 (Critical Threats; gCaptain; UKMTO; Oct 3 2026)
+    seafarersKilled: 26,    // +2 Oct 2026: 2 Indian crew members missing (presumed dead) from Suezmax attack ~Oct 11 per NBC News/Yahoo News; prior 24: +1 Aug 18 Minoan Dignity (chief engineer; CNBC/NBC News); +1 Jul 31 Hormuz (AOL); 17 prior confirmed including Jun 10 MT Settebello, Jul 12 GFS Galaxy (Indian), Jul 14 M/V Mombasa (Indian)
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (6 Oct, Day 221): 4 vessel attacks Oct 2–3 resuming active IRGC maritime strikes …',
-    trumpUltimatum: 'LATEST (5 Oct): Data showed that the seven-day average for crude exports was 18.3 million barrels per day by September 30, with exports surpassing pre-war figures on 14 days in September',
-    iranThreat: '25 Sep: Iranian Foreign Minister Abbas Araghchi stated that reopening the Strait of Hormuz depends on the United States',
+    tankerRates: 'LATEST (13 Oct, Day 228): IRGC tanker attacks surged to wartime high week ending Oct 4 (11 attacks per IMO); CNN (Oct 8): record attacks sent Hormuz crossings to two-month low; OilPrice (Oct 12): Brent at $106.80/bbl; 3rd supertanker struck Oct 12; CENTCOM disabled M/V Ocean Molica Oct 10; war-risk premiums ~30× pre-crisis; Gulf oil exports fell from 81% of pre-war levels in Sep to ~60% by mid-Oct as attacks accelerated (CNBC; CNN; OilPrice; Al Jazeera; Oct 12–13 2026)',
+    trumpUltimatum: 'LATEST (13 Oct): Iran-US peace talks stalled — Iran called US response "insufficient" (CBS News Oct 11–12); Al Jazeera (Oct 11): "Hormuz attacks intensify as efforts to end war on Iran stall"; US back-channel communications via Oman/Qatar ongoing but no breakthrough; Iran-Oman temporary route deal (Aug 26) still not implemented (Al Jazeera; CBS News; CNBC; Oct 13 2026)',
+    iranThreat: 'LATEST (12 Oct): IRGC warned vessels transiting in "dark mode" (AIS off) will be treated as hostile and targeted; 3rd non-compliant supertanker struck Oct 12 (Al Jazeera); IRGC Navy operating enhanced maritime enforcement posture since late September (Al Jazeera; NBC News; Oct 12 2026)',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 6 (Day 221, Bab al-Mandab blockade Day 79): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 79th day …',
+      detail: 'Oct 13 (Day 228, Bab al-Mandab blockade Day 86): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 86th day — Saudi crude shipments via Red Sea halted 79th consecutive day since July 26; Saudi-backed Yemeni forces claimed to retake Bab el-Mandab coastal positions ("Dawn of Yemen" operation Oct 5–9); Saudi ambassador claimed strait "cleared" Oct 9 — not independently confirmed; Houthis have not publicly conceded; JMIC "Severe" maintained (Al Jazeera; Saudi SPA; UKMTO; Oct 13 2026)',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 6 (Day 221): Iran-Oman Hormuz temporary route + revenue-sharing agreement confirmed Aug 26 by IRGC spokesman Mohebbi (Bloomberg; Al Jazeera) — temporary lane through Iran\'s territorial waters agreed for 2–4 months …',
+      detail: 'Oct 13 (Day 228): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented despite ongoing diplomatic back-channel — IRGC maritime attacks accelerated Oct 8–12 undermining implementation; transit corridor in legal limbo; Oman mediating both US-Iran talks and Hormuz route implementation (Al Jazeera; Bloomberg; Oct 13 2026)',
     },
     {
       country: 'Asia',
-      detail: 'Oct 6 (Day 221): Brent ~$91–92/bbl — elevated further on IRGC 4 tanker attacks Oct 2–3, Trump rejection of Hormuz 7-day proposal Oct 2, and Houthi Aramco Riyadh refinery drone strike Oct 3; Houthi Bab al-Mandab blockade Day 79; Lebanon ceasefire Day 109 …',
+      detail: 'Oct 13 (Day 228): Brent ~$100–107/bbl — OilPrice (Oct 12): $106.80/bbl on tanker attack surge; Goldman Sachs raised Dec Brent forecast to $90 from $85 with ~$20/bbl geopolitical premium; Gulf oil exports at ~60% of pre-war levels (down from 81% in Sep); Asian LNG spot market disrupted; VLCC orderbooks stretched; India condemned attacks on 2 ships near Hormuz with 2 Indian crew missing (Oct 11); Houthi Bab al-Mandab blockade Day 86; Lebanon ceasefire Day 116 (CNBC; CNN; OilPrice; Goldman Sachs; NBC News; Oct 13 2026)',
     },
   ],
 };
