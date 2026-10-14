@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-13',
+  updated: '2026-10-14',
 
   current: {
     transitsPerDay: 4,
@@ -59,13 +59,13 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 74,    // +3 Oct 12–13 2026: IRGC struck 3rd non-compliant supertanker Oct 12 (Al Jazeera); +4 Oct 7–11: NV Sunshine LPG carrier Oct 9 (engine room fire — Al Jazeera/Euronews); supertanker mine Oct 10 (IRGC claim — Middle East Eye/Tasnim); US warplane disabled vessel Oct 11 (The National News); prior 67: +4 Oct 2–3 (Critical Threats; gCaptain; UKMTO; Oct 3 2026)
-    seafarersKilled: 24,    // No new confirmed deaths Oct 7–12 (2 Indian crew missing from Suezmax Oct 11 per NBC News — status unconfirmed); prior 24: +1 Aug 18 Minoan Dignity (chief engineer; CNBC/NBC News); +1 Jul 31 Hormuz (AOL); 17 prior confirmed including Jun 10 MT Settebello, Jul 12 GFS Galaxy (Indian), Jul 14 M/V Mombasa (Indian)
+    vesselsAttacked: 76,    // +2 Oct 14 2026: UKMTO reported tanker + container ship struck by unknown projectiles in Hormuz Oct 14 (crew safe; CBS News/UKMTO); prior 74: +3 Oct 12–13 (IRGC struck 3rd non-compliant supertanker Oct 12 — Al Jazeera); +4 Oct 7–11 (NV Sunshine LPG carrier Oct 9; supertanker mine Oct 10; US warplane disabled vessel Oct 11); prior 67: +4 Oct 2–3 (Critical Threats; gCaptain; UKMTO; Oct 3 2026)
+    seafarersKilled: 24,    // No new confirmed deaths Oct 13–14 (crew safe in Oct 14 UKMTO incidents); prior 24: +1 Aug 18 Minoan Dignity (chief engineer; CNBC/NBC News); +1 Jul 31 Hormuz (AOL); 17 prior confirmed including Jun 10 MT Settebello, Jul 12 GFS Galaxy (Indian), Jul 14 M/V Mombasa (Indian)
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (13 Oct, Day 228): IRGC tanker attacks surged to wartime high week ending Oct 4 (11 attacks per IMO) …',
+    tankerRates: 'LATEST (14 Oct, Day 229): UKMTO issued 2 new maritime notices Oct 14 — tanker + container ship struck by unknown projectiles in Hormuz (crew safe); IRGC tanker attacks surged to wartime high week ending Oct 4 (11 attacks per IMO); Iran-US talks stalled — SNSC chief Rezaei: US response "insufficient"; Brent ~$105–108/bbl; Hormuz transits ~4/day (two-month low); Iran-Oman temporary route deal (Aug 26) still not implemented (CBS News; UKMTO; IranIntl; Reuters; Oct 14 2026)',
     trumpUltimatum: 'LATEST (9 Oct): the Panama-flagged oil tanker "Gem No',
     iranThreat: '7 Oct: Mohammadreza Naqdi, an adviser to the commander of Iran\'s Islamic Revolutionary Guard Corps, said Iran would soon close routes through the Strait of Hormuz that it considered illegal',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 13 (Day 228, Bab al-Mandab blockade Day 86): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 86th day — Saudi crude shipments via Red Sea halted 79th consecutive day since July 26 …',
+      detail: 'Oct 14 (Day 229, Bab al-Mandab blockade Day 87): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 87th day — Saudi crude shipments via Red Sea halted 80th consecutive day since July 26; Houthis launched new attack on King Khalid International Airport (Riyadh) Oct 14 — 1 killed, 11 injured (Saudi authorities); airport closure extended through Oct 17; Trump mulling joining Saudi strikes on Houthis (CBS News; Saudi SPA; Reuters; Oct 14 2026)',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 13 (Day 228): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented despite ongoing diplomatic back-channel — IRGC maritime attacks accelerated Oct 8–12 undermining implementation; transit corridor in legal limbo …',
+      detail: 'Oct 14 (Day 229): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks Oct 8–14 (incl. 2 new vessel strikes Oct 14 per UKMTO) continue undermining implementation; Iran SNSC Rezaei says US response "insufficient" and talks stalled; transit corridor in legal limbo (UKMTO; CBS News; IranIntl; Reuters; Oct 14 2026)',
     },
     {
       country: 'Asia',
-      detail: 'Oct 13 (Day 228): OilPrice (Oct 12): Brent $106.80/bbl — elevated on IRGC tanker attack surge; CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from wartime high; Goldman Sachs raised Dec Brent forecast $90 from $85 with ~$20/bbl geopolitical premium …',
+      detail: 'Oct 14 (Day 229): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; UKMTO Oct 14: 2 new vessel strikes (tanker + container ship); CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from wartime high; Goldman Sachs raised Dec Brent forecast $90 from $85 with ~$20/bbl geopolitical premium; IRGC accused of ordering Houthis to escalate to raise oil prices ahead of US midterms (CBS News; Trump; UKMTO; Reuters; Oct 14 2026)',
     },
   ],
 };
