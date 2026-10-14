@@ -3761,6 +3761,20 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 228 of the 2026 Iran war. Iran FM Araghchi called Saudi FM Prince Faisal bin Farhan Oct 12 and offered to facilitate Saudi Arabia–Houthi talks following the Oct 10 Riyadh airport attack (12 killed, 309 wounded). Houthi spokesman Yahya Saree threatened a "swift and painful" response if the US joins Saudi strikes on the group (CBS News Oct 12). Trump denounced Houthi attacks as "misbehaving very badly" after call with Saudi crown prince (Fox News). King Khalid International Airport closure extended until Oct 17 21:00 GMT — FAA warned US airlines to use "extreme caution" over Saudi airspace; Etihad cancelled Saudi flights over "regional disruption." King Fahd International Airport (Dammam) also targeted Oct 12. Saudi coalition said it intercepted ballistic missiles aimed at Riyadh and Khamis Mushait on Oct 12. WSJ cited Saudi officials saying Riyadh running low on air defense interceptors. IRGC/CENTCOM diplomatic pause Day 72 holds — no new Iranian land-based launches. Lebanon ceasefire Day 116 holds. Houthi Bab al-Mandab blockade Day 86 (Al Jazeera; Fox News; CBS News; Reuters; Saudi SPA; Saudi civil aviation authority; WSJ; FAA; CNBC; Oct 12–13 2026).',
   },
+  {
+    date: '2026-10-14',
+    event: 'Day 229 — IRGC/CENTCOM diplomatic pause Day 73; Iran-US talks stalled; 2 vessels struck in Hormuz; 1 killed in Houthi Riyadh airport strike',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 229 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause continued for 73rd consecutive day on land-based strikes — no new Iranian ballistic missile or drone launches against host states for 39th consecutive day. Iran SNSC chief Mohsen Rezaei stated US response "insufficient" amid stalled Iran-US negotiations; also claimed the US has accepted some of Iran\'s conditions to restart talks (CBS News; IranIntl Oct 13–14). UKMTO issued two separate maritime notices: a tanker and container ship struck by unknown projectiles in the Strait of Hormuz Oct 14 — crew safe in both incidents. Houthis launched new attack on King Khalid International Airport (Riyadh) — Saudi authorities: 1 killed, 11 injured. Trump said midterms would not affect Iran policy: "the war to end very soon." Trump accused Iran of ordering Houthi escalation to raise oil prices ahead of Nov 3 US elections. UK MI5 chief warned of Iran "major shift" targeting UK military bases. Lebanon ceasefire Day 117 holds — toll unchanged at 4,383 killed / 12,406 wounded. Houthi Bab al-Mandab blockade Day 87 — Saudi crude halted 80th day. Brent ~$105–108/bbl. JMIC "Severe" maintained. No new US KIA per news reports (26 total; Pentagon DCAS official count raised to 21 Oct 10 — discrepancy per The Intercept). Wikipedia API 403 — figures trajectory-based (CBS News; UKMTO; IranIntl; Al Jazeera; Reuters; The Intercept; DoD; Oct 14 2026).',
+  },
+  {
+    date: '2026-10-14',
+    event: 'Day 229 — Houthi new Riyadh airport attack; 1 killed, 11 injured; Trump mulls joining Saudi strikes',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 229 of the 2026 Iran war. Houthis launched a new missile/drone attack on King Khalid International Airport (Riyadh) Oct 14 — Saudi authorities confirmed 1 killed and 11 injured. King Khalid airport remains closed through Oct 17. Trump said the US is "looking at" joining Saudi Arabia\'s strikes against the Houthis; separately accused Iran of directing Houthi escalation to boost oil prices ahead of the Nov 3 US midterm elections. Houthis warned of "swift and painful" response if US joins Saudi Arabia in striking the group. IRGC/CENTCOM diplomatic pause Day 73 holds on land-based strikes (CBS News; Saudi SPA; Saudi civil aviation authority; Reuters; Al Jazeera; Oct 14 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

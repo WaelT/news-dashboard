@@ -1655,6 +1655,28 @@ const conflictZones = [
     status: 'critical',
     keywords: ['day 228', '3rd supertanker oct 12', 'brent 106 107', 'hormuz attacks intensify', 'iran talks stalled', 'irgc dark mode warning', 'diplomatic pause day 72', 'houthi blockade day 86', 'lebanon ceasefire day 116'],
   },
+  {
+    id: 223,
+    name: 'Strait of Hormuz — Day 229; 2 Vessels Struck Oct 14 (UKMTO); Talks Stalled; Diplomatic Pause Day 73',
+    lat: 24.80,
+    lng: 57.70,
+    type: 'naval',
+    icon: 'explosion',
+    description: 'Day 229 (Oct 14): UKMTO issued two maritime notices — tanker and container ship struck by unknown projectiles in Strait of Hormuz Oct 14 (crew safe in both cases). Iran SNSC chief Rezaei called US response "insufficient" — Iran-US peace talks remain stalled; Rezaei also claimed US has accepted some Iranian conditions to restart negotiations (CBS News; IranIntl). IRGC/CENTCOM mutual diplomatic pause Day 73 holds — no new IRGC land-based ballistic missile or drone launches for 39th consecutive day. Brent ~$105–108/bbl. JMIC "Severe" maintained. Houthi new Riyadh airport attack — 1 killed, 11 injured (Saudi authorities); airport closure extended through Oct 17. Lebanon ceasefire Day 117 holds (4,383/12,406). Houthi Bab al-Mandab blockade Day 87 — Saudi crude halted 80th day. Wikipedia API 403 (CBS News; UKMTO; IranIntl; Al Jazeera; Reuters; DoD; Oct 14 2026)',
+    status: 'critical',
+    keywords: ['day 229', 'ukmto oct 14', 'tanker container ship struck', 'talks stalled rezaei insufficient', 'diplomatic pause day 73', 'houthi riyadh airport 1 killed', 'brent 105 108', 'houthi blockade day 87', 'lebanon ceasefire day 117'],
+  },
+  {
+    id: 224,
+    name: 'Riyadh Airport — Day 229; Houthi Strike Kills 1, Wounds 11 Oct 14; Airport Closure Extended',
+    lat: 24.96,
+    lng: 46.70,
+    type: 'houthi',
+    icon: 'explosion',
+    description: 'Day 229 (Oct 14): Houthis launched new attack on King Khalid International Airport (Riyadh) — Saudi authorities confirmed 1 killed and 11 injured. Airport closure extended through Oct 17 21:00 GMT. Trump said US is "looking at" joining Saudi Arabia in striking Houthis; accused Iran of directing Houthi escalation to raise oil prices ahead of Nov 3 US midterms. Houthis warned of "swift and painful" response if US joins Saudi strikes. Follows Oct 10 deadliest Houthi strike (12 killed, 309 wounded). IRGC/CENTCOM diplomatic pause Day 73 holds — no new IRGC land-based launches (CBS News; Saudi SPA; Saudi civil aviation authority; Reuters; Al Jazeera; Oct 14 2026)',
+    status: 'critical',
+    keywords: ['day 229', 'houthi riyadh airport oct 14', '1 killed 11 injured', 'airport closure oct 17', 'trump joins saudi strikes', 'houthi bab al-mandab blockade day 87', 'iran directs houthi escalation midterms'],
+  },
 ];
 
 export default conflictZones;
