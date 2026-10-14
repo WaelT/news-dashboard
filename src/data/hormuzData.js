@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (14 Oct, Day 229): UKMTO issued 2 new maritime notices Oct 14 — tanker + container ship struck by unknown projectiles in Hormuz (crew safe); IRGC tanker attacks surged to wartime high week ending Oct 4 (11 attacks per IMO); Iran-US talks stalled — SNSC chief Rezaei: US response "insufficient"; Brent ~$105–108/bbl; Hormuz transits ~4/day (two-month low); Iran-Oman temporary route deal (Aug 26) still not implemented (CBS News; UKMTO; IranIntl; Reuters; Oct 14 2026)',
+    tankerRates: 'LATEST (14 Oct, Day 229): UKMTO issued 2 new maritime notices Oct 14 — tanker + container ship struck by unknown project …',
     trumpUltimatum: 'LATEST (9 Oct): the Panama-flagged oil tanker "Gem No',
     iranThreat: '7 Oct: Mohammadreza Naqdi, an adviser to the commander of Iran\'s Islamic Revolutionary Guard Corps, said Iran would soon close routes through the Strait of Hormuz that it considered illegal',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 14 (Day 229, Bab al-Mandab blockade Day 87): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 87th day — Saudi crude shipments via Red Sea halted 80th consecutive day since July 26; Houthis launched new attack on King Khalid International Airport (Riyadh) Oct 14 — 1 killed, 11 injured (Saudi authorities); airport closure extended through Oct 17; Trump mulling joining Saudi strikes on Houthis (CBS News; Saudi SPA; Reuters; Oct 14 2026)',
+      detail: 'Oct 14 (Day 229, Bab al-Mandab blockade Day 87): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 87th day — Saudi crude shipments via Red Sea halted 80th consecutive day since July 26 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 14 (Day 229): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks Oct 8–14 (incl. 2 new vessel strikes Oct 14 per UKMTO) continue undermining implementation; Iran SNSC Rezaei says US response "insufficient" and talks stalled; transit corridor in legal limbo (UKMTO; CBS News; IranIntl; Reuters; Oct 14 2026)',
+      detail: 'Oct 14 (Day 229): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks Oct 8–14 (incl. 2 new vessel strikes Oct 14 per UKMTO) continue undermining implementation …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 14 (Day 229): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; UKMTO Oct 14: 2 new vessel strikes (tanker + container ship); CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from wartime high; Goldman Sachs raised Dec Brent forecast $90 from $85 with ~$20/bbl geopolitical premium; IRGC accused of ordering Houthis to escalate to raise oil prices ahead of US midterms (CBS News; Trump; UKMTO; Reuters; Oct 14 2026)',
+      detail: 'Oct 14 (Day 229): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; UKMTO Oct 14: 2 new vessel strikes (tanker + container ship); CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from wartime high …',
     },
   ],
 };
