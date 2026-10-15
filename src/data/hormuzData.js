@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (15 Oct, Day 230): IRGC claims container ship sank after naval mine in Hormuz (Fox News Oct 14–15); UKMTO 20+ attack notices issued since Oct 1; Riyadh airport closure extended through Oct 17; France24: Houthis vow to continue striking Saudi airports + oil facilities; Iran-US talks stalled; Brent ~$105–108/bbl …',
-    trumpUltimatum: 'LATEST (15 Oct): Trump weighing US military role in Saudi-Houthi front; accused Iran of directing Houthi escalation ahead of Nov 3 midterms; said "war to end very soon"; Fox News reports midterm pause on Iran war (CBS News; Fox News; Oct 15 2026)',
-    iranThreat: '15 Oct: IRGC maritime operations continuing — claims container ship sank from mine in Hormuz; UKMTO 20+ attack notices since Oct 1; SNSC chief Rezaei: US response "insufficient" while claiming US accepted some conditions (IranIntl Oct 14–15)',
+    tankerRates: 'LATEST (15 Oct, Day 230): IRGC claims container ship sank after naval mine in Hormuz (Fox News Oct 14–15) …',
+    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 15 (Day 230, Bab al-Mandab blockade Day 88): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 88th day — Saudi crude shipments via Red Sea halted 81st consecutive day since July 26; Riyadh airport closure extended through Oct 17; France24: Houthis vow to continue striking Saudi airports and oil facilities; Saudi-led coalition struck Houthi fuel facilities in Sanaa, Hodeidah and Dhamar …',
+      detail: 'Oct 15 (Day 230, Bab al-Mandab blockade Day 88): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 88th day — Saudi crude shipments via Red Sea halted 81st consecutive day since July 26; Riyadh airport closure extended through Oct 17 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 15 (Day 230): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks Oct 8–15 (incl. IRGC claim of container ship sunk from mine Oct 14–15 per Fox News; UKMTO 20+ attack notices since Oct 1) continue undermining implementation …',
+      detail: 'Oct 15 (Day 230): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks Oct 8–15 (incl. IRGC claim of container ship sunk from mine Oct 14–15 per Fox News …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 15 (Day 230): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; IRGC claims container ship sank after naval mine Oct 14–15 (Fox News); UKMTO 20+ attack notices since Oct 1; CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from wartime high …',
+      detail: 'Oct 15 (Day 230): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; IRGC claims container ship sank after naval mine Oct 14–15 (Fox News); UKMTO 20+ attack notices since Oct 1 …',
     },
   ],
 };
