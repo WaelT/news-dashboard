@@ -1677,6 +1677,28 @@ const conflictZones = [
     status: 'critical',
     keywords: ['day 229', 'houthi riyadh airport oct 14', '1 killed 11 injured', 'airport closure oct 17', 'trump joins saudi strikes', 'houthi bab al-mandab blockade day 87', 'iran directs houthi escalation midterms'],
   },
+  {
+    id: 225,
+    name: 'Strait of Hormuz — Day 230; IRGC Claims Container Ship Sank from Mine; Talks Stalled; Pause Day 74',
+    lat: 24.82,
+    lng: 57.65,
+    type: 'naval',
+    icon: 'explosion',
+    description: 'Day 230 (Oct 15): IRGC claims container ship sank after striking a naval mine in the Strait of Hormuz (Fox News Oct 14–15). UKMTO has issued 20+ maritime attack notices since Oct 1. Iran-US peace talks remain stalled — SNSC chief Rezaei called US response "insufficient" while also claiming US has accepted some Iranian conditions (IranIntl). IRGC/CENTCOM mutual diplomatic pause Day 74 holds — no new IRGC land-based ballistic missile or drone launches for 40th consecutive day. Brent ~$105–108/bbl. JMIC "Severe" maintained. Houthi Bab al-Mandab blockade Day 88 — Saudi crude halted 81st day. Lebanon ceasefire Day 118 holds (4,383/12,406). No new US KIA (26 total per DoD; 861 wounded per Pentagon DCAS). Wikipedia API 403 (Fox News; CBS News; UKMTO; IranIntl; Al Jazeera; Reuters; DoD; Oct 15 2026)',
+    status: 'critical',
+    keywords: ['day 230', 'irgc container ship mine oct 15', 'talks stalled rezaei insufficient', 'diplomatic pause day 74', 'ukmto 20 attacks oct', 'brent 105 108', 'houthi blockade day 88', 'lebanon ceasefire day 118'],
+  },
+  {
+    id: 226,
+    name: 'Riyadh — Day 230; Houthi Threat Continues; Airport Closure Extended to Oct 17; Trump Weighs US Role',
+    lat: 24.96,
+    lng: 46.70,
+    type: 'houthi',
+    icon: 'explosion',
+    description: 'Day 230 (Oct 15): Riyadh airport closure remains extended through Oct 17 21:00 GMT following Oct 14 Houthi strike (1 killed, 11 injured). France24 reports Houthis vow to continue striking Saudi airports and oil facilities. Trump continues to weigh US military role in Saudi-Houthi front; accused Iran of directing Houthi escalation ahead of Nov 3 US midterms. Saudi-led coalition conducted strikes on Houthi fuel facilities in Sanaa, Hodeidah and Dhamar. Houthi Bab al-Mandab blockade Day 88 — Saudi crude exports via Red Sea halted 81st consecutive day since July 26. IRGC/CENTCOM land-based pause Day 74 holds (France24; CBS News; Saudi SPA; Reuters; Al Jazeera; Oct 15 2026)',
+    status: 'critical',
+    keywords: ['day 230', 'riyadh airport closure oct 17', 'houthi vow continue strikes', 'trump us role houthi', 'houthi bab al-mandab blockade day 88', 'saudi coalition strikes sanaa hodeidah dhamar'],
+  },
 ];
 
 export default conflictZones;
