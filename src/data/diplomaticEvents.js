@@ -3775,6 +3775,20 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 229 of the 2026 Iran war. Houthis launched a new missile/drone attack on King Khalid International Airport (Riyadh) Oct 14 — Saudi authorities confirmed 1 killed and 11 injured. King Khalid airport remains closed through Oct 17. Trump said the US is "looking at" joining Saudi Arabia\'s strikes against the Houthis; separately accused Iran of directing Houthi escalation to boost oil prices ahead of the Nov 3 US midterm elections. Houthis warned of "swift and painful" response if US joins Saudi Arabia in striking the group. IRGC/CENTCOM diplomatic pause Day 73 holds on land-based strikes (CBS News; Saudi SPA; Saudi civil aviation authority; Reuters; Al Jazeera; Oct 14 2026).',
   },
+  {
+    date: '2026-10-15',
+    event: 'Day 230 — IRGC claims container ship sank from naval mine in Hormuz; UKMTO 20+ attack notices since Oct 1',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 230 of the 2026 Iran war. IRGC/CENTCOM diplomatic pause Day 74 — no new land-based ballistic missile or drone launches for 40th consecutive day. IRGC claimed the Singapore-flagged container ship GFS Pride sank after striking a naval mine in the Strait of Hormuz (Fox News Oct 14–15). UKMTO issued 20+ attack notices since Oct 1 — highest monthly pace since the peak of hostilities. Hormuz transits remain at ~4/day. Iran-US talks stalled — Iran SNSC chief Rezaei: US response "insufficient." Lebanon ceasefire Day 118 holds (toll unchanged 4,383 killed / 12,406 wounded). Houthi Bab al-Mandab blockade Day 88 — Saudi crude via Red Sea halted 81st consecutive day since July 26. Riyadh airport closure extended through Oct 17. No new US KIA (26 total per DoD; 861 wounded per Pentagon DCAS). Brent ~$105–108/bbl. JMIC "Severe" maintained (Fox News; CBS News; France24; UKMTO; Reuters; Al Jazeera; CENTCOM; DoD; Oct 15 2026).',
+  },
+  {
+    date: '2026-10-15',
+    event: 'Day 230 — Houthi Bab al-Mandab blockade Day 88; Saudi crude halted 81st day; Trump weighs joining Saudi anti-Houthi strikes',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 230 of the 2026 Iran war. Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 88th day — Saudi crude shipments via Red Sea halted 81st consecutive day since July 26. Riyadh King Khalid International Airport closure extended through Oct 17 following Oct 14 Houthi strike. France24: Houthis vowed to continue striking Saudi airports and oil facilities. Trump weighing US role in Saudi anti-Houthi operations — accused Iran of directing Houthi escalation to push up oil prices ahead of Nov 3 US midterm elections. Houthis warned of "swift and painful" response if US joins Saudi strikes. Iran-US negotiations remain stalled (France24; CBS News; Saudi SPA; Reuters; Al Jazeera; Oct 15 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
