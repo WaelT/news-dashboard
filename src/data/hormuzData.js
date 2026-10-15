@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-14',
+  updated: '2026-10-15',
 
   current: {
     transitsPerDay: 4,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (14 Oct, Day 229): UKMTO issued 2 new maritime notices Oct 14 — tanker + container ship struck by unknown project …',
-    trumpUltimatum: 'LATEST (9 Oct): the Panama-flagged oil tanker "Gem No',
-    iranThreat: '7 Oct: Mohammadreza Naqdi, an adviser to the commander of Iran\'s Islamic Revolutionary Guard Corps, said Iran would soon close routes through the Strait of Hormuz that it considered illegal',
+    tankerRates: 'LATEST (15 Oct, Day 230): IRGC claims container ship sank after naval mine in Hormuz (Fox News Oct 14–15); UKMTO 20+ attack notices issued since Oct 1; Riyadh airport closure extended through Oct 17; France24: Houthis vow to continue striking Saudi airports + oil facilities; Iran-US talks stalled; Brent ~$105–108/bbl …',
+    trumpUltimatum: 'LATEST (15 Oct): Trump weighing US military role in Saudi-Houthi front; accused Iran of directing Houthi escalation ahead of Nov 3 midterms; said "war to end very soon"; Fox News reports midterm pause on Iran war (CBS News; Fox News; Oct 15 2026)',
+    iranThreat: '15 Oct: IRGC maritime operations continuing — claims container ship sank from mine in Hormuz; UKMTO 20+ attack notices since Oct 1; SNSC chief Rezaei: US response "insufficient" while claiming US accepted some conditions (IranIntl Oct 14–15)',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 14 (Day 229, Bab al-Mandab blockade Day 87): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 87th day — Saudi crude shipments via Red Sea halted 80th consecutive day since July 26 …',
+      detail: 'Oct 15 (Day 230, Bab al-Mandab blockade Day 88): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 88th day — Saudi crude shipments via Red Sea halted 81st consecutive day since July 26; Riyadh airport closure extended through Oct 17; France24: Houthis vow to continue striking Saudi airports and oil facilities; Saudi-led coalition struck Houthi fuel facilities in Sanaa, Hodeidah and Dhamar …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 14 (Day 229): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks Oct 8–14 (incl. 2 new vessel strikes Oct 14 per UKMTO) continue undermining implementation …',
+      detail: 'Oct 15 (Day 230): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks Oct 8–15 (incl. IRGC claim of container ship sunk from mine Oct 14–15 per Fox News; UKMTO 20+ attack notices since Oct 1) continue undermining implementation …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 14 (Day 229): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; UKMTO Oct 14: 2 new vessel strikes (tanker + container ship); CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from wartime high …',
+      detail: 'Oct 15 (Day 230): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; IRGC claims container ship sank after naval mine Oct 14–15 (Fox News); UKMTO 20+ attack notices since Oct 1; CNN (Oct 11): crude ~10.1 mbd through Hormuz (~80% of pre-war 17.1 mbd), down 27% from wartime high …',
     },
   ],
 };
