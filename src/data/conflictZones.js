@@ -1699,6 +1699,28 @@ const conflictZones = [
     status: 'critical',
     keywords: ['day 230', 'riyadh airport closure oct 17', 'houthi vow continue strikes', 'trump us role houthi', 'houthi bab al-mandab blockade day 88', 'saudi coalition strikes sanaa hodeidah dhamar'],
   },
+  {
+    id: 227,
+    name: 'Strait of Hormuz — Day 231; Tanker Fire Oct 15; Talks Stalled; Diplomatic Pause Day 75',
+    lat: 24.83,
+    lng: 57.55,
+    type: 'naval',
+    icon: 'explosion',
+    description: 'Day 231 (Oct 16): Euronews (Oct 15) reported another tanker caught fire near Hormuz after two cargo ships were sunk in attacks. UKMTO has issued 20+ maritime attack notices since Oct 1. Iran-US peace talks remain stalled — SNSC chief Rezaei called US response "insufficient." Trump told Fox News (Oct 15): "peace in the Iran war has been made more difficult by taking out Iranian leaders." IRGC/CENTCOM mutual diplomatic pause Day 75 holds — no new IRGC land-based ballistic missile or drone launches for 41st consecutive day. Brent ~$105–108/bbl. JMIC "Severe" maintained. Houthi Bab al-Mandab blockade Day 89 — Saudi crude halted 82nd day. Lebanon ceasefire Day 119 holds (4,386/12,407). No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). Modern Diplomacy (Oct 15): oil prices could stay elevated through 2028 (Euronews; Fox News; UKMTO; CBS News; Reuters; Al Jazeera; CENTCOM; DoD; Oct 16 2026)',
+    status: 'critical',
+    keywords: ['day 231', 'tanker fire oct 15', 'talks stalled rezaei insufficient', 'diplomatic pause day 75', 'ukmto 20 attacks oct', 'brent 105 108', 'houthi blockade day 89', 'lebanon ceasefire day 119'],
+  },
+  {
+    id: 228,
+    name: 'Riyadh — Day 231; Houthi Blockade Day 89; Airport Closure Through Oct 17; Iran-US Talks Stalled',
+    lat: 24.97,
+    lng: 46.71,
+    type: 'houthi',
+    icon: 'explosion',
+    description: 'Day 231 (Oct 16): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 89th day — Saudi crude shipments via Red Sea halted for 82nd consecutive day since July 26. Riyadh King Khalid International Airport closure continues through Oct 17 21:00 GMT following Oct 14 Houthi strike (1 killed, 11 injured). France24: Houthis vowed to continue striking Saudi airports and oil facilities. Trump still weighing direct US military involvement in Saudi-Houthi front. Iran-US peace negotiations remain stalled with no new mediator framework announced. IRGC/CENTCOM land-based pause Day 75 holds (France24; CBS News; Saudi SPA; Reuters; Al Jazeera; Oct 16 2026)',
+    status: 'critical',
+    keywords: ['day 231', 'houthi blockade day 89', 'riyadh airport closure oct 17', 'houthi bab al-mandab blockade day 89', 'iran us talks stalled', 'diplomatic pause day 75'],
+  },
 ];
 
 export default conflictZones;
