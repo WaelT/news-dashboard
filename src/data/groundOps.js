@@ -3406,6 +3406,27 @@ const groundOps = {
       event: "Day 230 — Lebanon ceasefire Day 118 holds; toll unchanged at 4,383 killed / 12,406 wounded; IRGC/CENTCOM diplomatic pause Day 74 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 15 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-10-16',
+      lat: 26.5,
+      lng: 56.3,
+      event: "Day 231 — IRGC maritime: another tanker fire near Hormuz (Euronews Oct 15); UKMTO 20+ attack notices since Oct 1; Iran-US talks stalled; Brent ~$105–108/bbl (Euronews; UKMTO; Fox News; Oct 16 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-16',
+      lat: 14.12,
+      lng: 42.35,
+      event: "Day 231 — Houthi Bab al-Mandab blockade Day 89; Saudi crude via Red Sea halted 82nd consecutive day since July 26; Riyadh airport closure through Oct 17 (France24; Saudi SPA; Oct 16 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-16',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 231 — Lebanon ceasefire Day 119 holds; toll updated to 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 75 — 41st consecutive day without land-based launch (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 16 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

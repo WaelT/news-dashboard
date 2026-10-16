@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-15',
+  updated: '2026-10-16',
 
   current: {
     transitsPerDay: 4,
@@ -59,21 +59,21 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 76,    // +2 Oct 14 2026: UKMTO reported tanker + container ship struck by unknown projectiles in Hormuz Oct 14 (crew safe; CBS News/UKMTO); prior 74: +3 Oct 12–13 (IRGC struck 3rd non-compliant supertanker Oct 12 — Al Jazeera); +4 Oct 7–11 (NV Sunshine LPG carrier Oct 9; supertanker mine Oct 10; US warplane disabled vessel Oct 11); prior 67: +4 Oct 2–3 (Critical Threats; gCaptain; UKMTO; Oct 3 2026)
+    vesselsAttacked: 78,    // +2 Oct 15–16 2026: Euronews Oct 15: another tanker fire near Hormuz after two cargo ships sunk; GFS Pride container ship (Singapore-flagged) sank after striking naval mine (Fox News/IRGC Oct 14–15); prior 76: +2 Oct 14 (UKMTO: tanker + container ship struck by unknown projectiles, crew safe; CBS News/UKMTO); prior 74: +3 Oct 12–13 (IRGC struck 3rd non-compliant supertanker Oct 12 — Al Jazeera); +4 Oct 7–11 (NV Sunshine LPG carrier Oct 9; supertanker mine Oct 10; US warplane disabled vessel Oct 11); prior 67: +4 Oct 2–3 (Critical Threats; gCaptain; UKMTO; Oct 3 2026)
     seafarersKilled: 24,    // No new confirmed deaths Oct 13–14 (crew safe in Oct 14 UKMTO incidents); prior 24: +1 Aug 18 Minoan Dignity (chief engineer; CNBC/NBC News); +1 Jul 31 Hormuz (AOL); 17 prior confirmed including Jun 10 MT Settebello, Jul 12 GFS Galaxy (Indian), Jul 14 M/V Mombasa (Indian)
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (15 Oct, Day 230): IRGC claims container ship sank after naval mine in Hormuz (Fox News Oct 14–15) …',
-    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    tankerRates: 'LATEST (16 Oct, Day 231): Euronews Oct 15 — another tanker caught fire near Hormuz after two cargo ships sunk in attacks; GFS Pride (Singapore-flagged) sank after mine strike Oct 14–15; UKMTO 20+ attack notices since Oct 1; Hormuz transits ~4/day; oil flow ~0.07 mbd (~99% disruption); Brent ~$105–108/bbl sustained; Modern Diplomacy Oct 15: oil prices could stay high through 2028 (Euronews; Fox News; UKMTO; CENTCOM; Oct 16 2026) …',
+    trumpUltimatum: 'LATEST (16 Oct): Iran-US talks stalled — SNSC chief Rezaei says US response "insufficient"; Trump (Fox News Oct 15): "peace in the Iran war made more difficult by taking out Iranian leaders"; Iran maintains 7-point conditions for Hormuz reopening including regional ceasefire + end of naval blockade',
     iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 15 (Day 230, Bab al-Mandab blockade Day 88): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 88th day — Saudi crude shipments via Red Sea halted 81st consecutive day since July 26; Riyadh airport closure extended through Oct 17 …',
+      detail: 'Oct 16 (Day 231, Bab al-Mandab blockade Day 89): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 89th day — Saudi crude shipments via Red Sea halted 82nd consecutive day since July 26; Riyadh King Khalid International Airport closure continues through Oct 17 (France24; Saudi SPA; CBS News; Oct 16 2026) …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 15 (Day 230): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks Oct 8–15 (incl. IRGC claim of container ship sunk from mine Oct 14–15 per Fox News …',
+      detail: 'Oct 16 (Day 231): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks continuing Oct 8–16; another tanker fire near Hormuz Oct 15 (Euronews); IRGC claims GFS Pride sank from mine Oct 14–15; Iran-US talks stalled; no credible reopening timeline (Euronews; Fox News; CENTCOM; Oct 16 2026) …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 15 (Day 230): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; IRGC claims container ship sank after naval mine Oct 14–15 (Fox News); UKMTO 20+ attack notices since Oct 1 …',
+      detail: 'Oct 16 (Day 231): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; Euronews Oct 15: another tanker fire near Hormuz after two cargo ships sunk; UKMTO 20+ attack notices since Oct 1; Modern Diplomacy Oct 15: analysts warn oil prices could stay high through 2028 given sustained Hormuz disruption (Euronews; Modern Diplomacy; Fox News; UKMTO; CENTCOM; Oct 16 2026) …',
     },
   ],
 };
