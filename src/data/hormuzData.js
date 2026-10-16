@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (16 Oct, Day 231): Euronews Oct 15 — another tanker caught fire near Hormuz after two cargo ships sunk in attacks; GFS Pride (Singapore-flagged) sank after mine strike Oct 14–15; UKMTO 20+ attack notices since Oct 1; Hormuz transits ~4/day; oil flow ~0.07 mbd (~99% disruption); Brent ~$105–108/bbl sustained; Modern Diplomacy Oct 15: oil prices could stay high through 2028 (Euronews; Fox News; UKMTO; CENTCOM; Oct 16 2026) …',
-    trumpUltimatum: 'LATEST (16 Oct): Iran-US talks stalled — SNSC chief Rezaei says US response "insufficient"; Trump (Fox News Oct 15): "peace in the Iran war made more difficult by taking out Iranian leaders"; Iran maintains 7-point conditions for Hormuz reopening including regional ceasefire + end of naval blockade',
+    tankerRates: 'LATEST (16 Oct, Day 231): Euronews Oct 15 — another tanker caught fire near Hormuz after two cargo ships sunk in attacks …',
+    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
     iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 16 (Day 231, Bab al-Mandab blockade Day 89): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 89th day — Saudi crude shipments via Red Sea halted 82nd consecutive day since July 26; Riyadh King Khalid International Airport closure continues through Oct 17 (France24; Saudi SPA; CBS News; Oct 16 2026) …',
+      detail: 'Oct 16 (Day 231, Bab al-Mandab blockade Day 89): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 89th day — Saudi crude shipments via Red Sea halted 82nd consecutive day since July 26; Riyadh King Khalid International Airport closure continues through Oct 17 (France24; Saudi SPA …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 16 (Day 231): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks continuing Oct 8–16; another tanker fire near Hormuz Oct 15 (Euronews); IRGC claims GFS Pride sank from mine Oct 14–15; Iran-US talks stalled; no credible reopening timeline (Euronews; Fox News; CENTCOM; Oct 16 2026) …',
+      detail: 'Oct 16 (Day 231): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks continuing Oct 8–16; another tanker fire near Hormuz Oct 15 (Euronews); IRGC claims GFS Pride sank from mine Oct 14–15; Iran-US talks stalled …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 16 (Day 231): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; Euronews Oct 15: another tanker fire near Hormuz after two cargo ships sunk; UKMTO 20+ attack notices since Oct 1; Modern Diplomacy Oct 15: analysts warn oil prices could stay high through 2028 given sustained Hormuz disruption (Euronews; Modern Diplomacy; Fox News; UKMTO; CENTCOM; Oct 16 2026) …',
+      detail: 'Oct 16 (Day 231): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; Euronews Oct 15: another tanker fire near Hormuz after two cargo ships sunk; UKMTO 20+ attack notices since Oct 1 …',
     },
   ],
 };
