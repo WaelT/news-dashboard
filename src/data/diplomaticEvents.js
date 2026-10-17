@@ -3803,6 +3803,13 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 231 of the 2026 Iran war. Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 89th day — Saudi crude shipments via Red Sea halted for 82nd consecutive day since July 26. Riyadh King Khalid International Airport closure continues through Oct 17 following Oct 14 Houthi missile/drone strike that killed 1 and injured 11. France24: Houthis vowed to continue striking Saudi airports and oil facilities indefinitely. Trump still weighing direct US military involvement in the Saudi-Houthi front. Iran-US peace negotiations remain stalled with no new mediator framework announced (France24; CBS News; Saudi SPA; Reuters; Al Jazeera; Oct 16 2026).',
   },
+  {
+    date: '2026-10-17',
+    event: 'Day 232 — Brent touches $110 first time since May; IEA emergency releases; Trump rules out Iran strike before Nov 3 midterms',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 232 of the 2026 Iran war. Brent crude closed at $109.86/bbl on Oct 16 (+3.7%), touching $110 intraday for the first time since May — driven by dual Hormuz/Bab al-Mandab chokepoint disruption and stalled Iran-US negotiations. IEA announced emergency oil reserve releases (Oct 16, CNBC). Kpler: ~9.4 mbd flowing through Hormuz for week ending Oct 14 (~52% of pre-war 18.1 mbd). CENTCOM claimed 400+ merchant vessels transited in prior week. IRGC/CENTCOM mutual diplomatic pause Day 76 — no new land-based ballistic missile or drone launches for 42nd consecutive day. Trump told reporters he is ruling out a military strike on Iran before the Nov 3 midterm elections. Fox News Oct 16: Washington is weighing MOAB deployment against Iranian underground nuclear facilities. Iran-US negotiations remain stalled — SNSC chief Rezaei called US response "insufficient." Lebanon ceasefire Day 120 holds (toll unchanged 4,386/12,407). Houthi Bab al-Mandab blockade Day 90 — Saudi crude via Red Sea halted 83rd consecutive day. Riyadh airport closure expires at 21:00 GMT Oct 17. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS) (CNBC; Kpler; Fox News; CENTCOM; IEA; Reuters; Al Jazeera; Oct 17 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

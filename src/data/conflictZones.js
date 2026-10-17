@@ -1721,6 +1721,28 @@ const conflictZones = [
     status: 'critical',
     keywords: ['day 231', 'houthi blockade day 89', 'riyadh airport closure oct 17', 'houthi bab al-mandab blockade day 89', 'iran us talks stalled', 'diplomatic pause day 75'],
   },
+  {
+    id: 229,
+    name: 'Strait of Hormuz — Day 232; Brent $110 First Time Since May; IEA Emergency Releases; Pause Day 76',
+    lat: 24.84,
+    lng: 57.45,
+    type: 'naval',
+    icon: 'explosion',
+    description: 'Day 232 (Oct 17): Brent crude closed at $109.86/bbl on Oct 16 (+3.7%) — first time touching $110 since May, driven by dual Hormuz/Bab al-Mandab chokepoint disruption and stalled Iran-US negotiations. IEA announced emergency oil reserve releases (Oct 16, CNBC). Kpler: ~9.4 mbd through Hormuz for week ending Oct 14 (~52% of pre-war 18.1 mbd). CENTCOM claimed 400+ merchant vessels transited in prior week (RedState/CENTCOM Oct 16). UKMTO: 20+ attack notices since Oct 1. IRGC/CENTCOM mutual diplomatic pause Day 76 — no land-based launches for 42nd consecutive day. Iran-US talks remain stalled; SNSC Rezaei: US response "insufficient." Trump: ruling out Iran attack before Nov 3 midterms. Fox News Oct 16: Washington weighing MOAB deployment against Iranian underground nuclear facilities. JMIC "Severe" maintained (CNBC; Kpler; CENTCOM; Fox News; IEA; UKMTO; Oct 17 2026)',
+    status: 'critical',
+    keywords: ['day 232', 'brent 110 october', 'iea emergency oil releases', 'kpler 9.4 mbd', 'talks stalled diplomatic pause day 76', 'moab iran nuclear', 'houthi blockade day 90', 'lebanon ceasefire day 120'],
+  },
+  {
+    id: 230,
+    name: 'Riyadh — Day 232; Houthi Blockade Day 90; Airport Closure Expires; Iran-US Talks Stalled',
+    lat: 24.98,
+    lng: 46.72,
+    type: 'houthi',
+    icon: 'explosion',
+    description: 'Day 232 (Oct 17): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 90th day — Saudi crude shipments via Red Sea halted for 83rd consecutive day since July 26. Riyadh King Khalid International Airport closure deadline expires at 21:00 GMT Oct 17 following Oct 14 Houthi strike (1 killed, 11 injured). Saudi-led coalition continues strikes on Houthi fuel and logistics facilities. Trump still weighing direct US military involvement in Saudi-Houthi front. IRGC/CENTCOM land-based pause Day 76 holds — no new IRGC land-based launches for 42nd consecutive day. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS) (France24; CBS News; Saudi SPA; Reuters; Al Jazeera; Oct 17 2026)',
+    status: 'critical',
+    keywords: ['day 232', 'houthi blockade day 90', 'riyadh airport expires oct 17', 'houthi bab al-mandab blockade day 90', 'iran us talks stalled', 'diplomatic pause day 76'],
+  },
 ];
 
 export default conflictZones;
