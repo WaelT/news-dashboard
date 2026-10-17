@@ -40,12 +40,12 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-16',
+  updated: '2026-10-17',
 
   current: {
-    transitsPerDay: 4,
-    oilFlowMbd: 0.07,
-    disruptionPct: 99,
+    transitsPerDay: 5,
+    oilFlowMbd: 9.4,
+    disruptionPct: 48,
   },
 
   preWar: {
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (16 Oct, Day 231): Euronews Oct 15 — another tanker caught fire near Hormuz after two cargo ships sunk in attacks …',
-    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
-    iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
+    tankerRates: 'LATEST (17 Oct, Day 232): Brent closed $109.86/bbl Oct 16 (+3.7%) — first time touching $110 since May 2026; Kpler: ~9.4 mbd through Hormuz (week ending Oct 14, ~52% of pre-war); IEA announced emergency oil reserve releases Oct 16 (CNBC); UKMTO: 20+ attack notices since Oct 1; CENTCOM: 400+ merchant vessels/week transiting; JMIC "Severe" maintained …',
+    trumpUltimatum: 'LATEST (17 Oct): Trump ruling out Iran attack before Nov 3 midterms; Fox News Oct 16: Washington weighing MOAB deployment against Iranian underground nuclear facilities; CENTCOM Oct 16: Iran "cannot pay its own troops" — $25B in oil revenues blocked; Iran-US talks stalled',
+    iranThreat: '15 Oct: IRGC claimed Singapore-flagged GFS Pride sank after hitting naval mine — CENTCOM rejected mine claim (vessel struck by Iranian projectile); tanker fire near Hormuz Oct 15 (Euronews); UKMTO 20+ attack notices Oct; IRGC maritime interdiction ops continuing',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 16 (Day 231, Bab al-Mandab blockade Day 89): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 89th day — Saudi crude shipments via Red Sea halted 82nd consecutive day since July 26; Riyadh King Khalid International Airport closure continues through Oct 17 (France24; Saudi SPA …',
+      detail: 'Oct 17 (Day 232, Bab al-Mandab blockade Day 90): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 90th day — Saudi crude shipments via Red Sea halted 83rd consecutive day since July 26; Riyadh King Khalid International Airport closure expires at 21:00 GMT Oct 17 (likely reopened); Saudi coalition continues strikes on Houthi fuel + logistics facilities in Sanaa, Hodeidah, Dhamar (France24; Saudi SPA …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 16 (Day 231): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks continuing Oct 8–16; another tanker fire near Hormuz Oct 15 (Euronews); IRGC claims GFS Pride sank from mine Oct 14–15; Iran-US talks stalled …',
+      detail: 'Oct 17 (Day 232): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks continuing; Kpler: 9.4 mbd through Hormuz week ending Oct 14; CENTCOM claims 400+ merchant vessels/week transiting; Iran-US talks stalled; IEA emergency releases announced Oct 16 …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 16 (Day 231): Brent ~$105–108/bbl — sustained elevated on IRGC tanker attack surge and stalled Iran-US negotiations; Euronews Oct 15: another tanker fire near Hormuz after two cargo ships sunk; UKMTO 20+ attack notices since Oct 1 …',
+      detail: 'Oct 17 (Day 232): Brent $109.86/bbl — first time touching $110 since May; IEA announced emergency oil reserve releases Oct 16 (CNBC); Kpler: ~9.4 mbd through Hormuz (~52% pre-war); Modern Diplomacy Oct 15: oil prices could stay elevated through 2028; dual chokepoint Hormuz + Houthi Bab al-Mandab driving sustained oil premium …',
     },
   ],
 };
