@@ -3817,6 +3817,13 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 233 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 77 — no new land-based ballistic missile or drone launches for 43rd consecutive day. Hormuz maritime attacks reached record high — UKMTO reports 23 attacks since Oct 1 and 10 vessels hit in one week. Oct 17: IRGC claimed supertanker carrying 2M+ barrels of crude oil hit a naval mine and caught fire in southern Hormuz — CENTCOM disputed this and other IRGC claims on ship sinkings and US deaths. Iran\'s new Supreme Leader vowed to keep blocking the Strait of Hormuz as oil prices spiked again (NBC News). Iran said the global economy would improve if the US removed forces from the Middle East (Fox News). Brent crude volatile around $109–112/bbl; IEA emergency reserve releases continuing following Oct 16 announcement. Lebanon ceasefire Day 121 holds (toll unchanged 4,386/12,407). Houthi Bab al-Mandab blockade Day 91 — Saudi crude via Red Sea halted 84th consecutive day since July 26. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). Iran-US talks remain stalled — no new mediator framework announced (NBC News; CBS News; Fox News; CENTCOM; UKMTO; Oct 18 2026).',
   },
+  {
+    date: '2026-10-18',
+    event: 'Day 233 — Iran FM: Hormuz to reopen if US accepts 7-day ceasefire; IRGC claims two tankers hit mines (US denies)',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Iran Foreign Minister Abbas Araghchi stated the Strait of Hormuz would reopen within days if the US complies with the conditions in Iran\'s seven-day ceasefire proposal, presented in September 2026 (CBS News live blog headline: "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table"). Iran simultaneously escalated maritime claims: IRGC said two oil tankers (each ~2M bbls crude) hit naval mines and caught fire in Hormuz on Oct 17–18 — CENTCOM denied both claims, calling them "like most IRGC claims, false." Total vessels attacked now 80 (independent confirmation pending). IRGC/CENTCOM diplomatic pause Day 77 on land-based launches continues. Brent ~$109–112/bbl volatile. Lebanon ceasefire Day 121 holds (4,386/12,407). No new US KIA (26 total per DoD) (CBS News; Al Jazeera; WION; CENTCOM; Oct 18 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

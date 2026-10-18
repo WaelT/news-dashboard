@@ -1765,6 +1765,17 @@ const conflictZones = [
     status: 'critical',
     keywords: ['day 233', 'houthi blockade day 91', 'riyadh airport reopened', 'houthi bab al-mandab blockade day 91', 'iran us talks stalled', 'diplomatic pause day 77'],
   },
+  {
+    id: 233,
+    name: 'Strait of Hormuz — Day 233; Two Tankers Hit Mines; Iran FM Conditional Reopening Offer',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'naval',
+    icon: 'explosion',
+    description: 'Day 233 (Oct 18): IRGC claimed two oil tankers (each ~2M bbls crude) hit naval mines and caught fire in the Strait of Hormuz — CENTCOM denied: "Like most IRGC claims, this is false." Second tanker claim is new on Oct 18; first supertanker claim was Oct 17 (also disputed). Iran FM Araghchi separately said Hormuz would reopen within days if the US complies with the seven-day ceasefire conditions put forward in September (CBS News). Total vessels attacked now 80. Brent ~$109–112/bbl volatile; IEA emergency reserve releases ongoing. IRGC/CENTCOM diplomatic pause Day 77 continues — 43rd consecutive day without land-based launches. (Al Jazeera; WION; CBS News; CENTCOM; Oct 18 2026)',
+    status: 'critical',
+    keywords: ['day 233', 'two tankers mines oct 18', 'iran fm conditional reopening', 'vessels attacked 80', 'hormuz escalation', 'diplomatic pause day 77'],
+  },
 ];
 
 export default conflictZones;
