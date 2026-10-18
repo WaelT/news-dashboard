@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (18 Oct, Day 233): Iran FM Araghchi: Hormuz to reopen within days if US complies with 7-day ceasefire conditions (CBS News); IRGC claims 2nd tanker hit mine Oct 18 — CENTCOM denies; Brent ~$109–112/bbl volatile around $110; IEA emergency reserve releases ongoing (CBS News; Al Jazeera; CENTCOM; Oct 18 2026)',
-    trumpUltimatum: 'LATEST (14 Oct): Singapore-flagged container ship GFS Pride sank in the Strait after IRGC attack — CENTCOM confirmed; Euronews Oct 15: additional tanker fire + cargo ships sunk; UKMTO 23+ attack notices since Oct 1',
-    iranThreat: '18 Oct: IRGC claims two oil tankers (~2M bbls each) hit mines and caught fire in Hormuz — CENTCOM: "Like most IRGC claims, this is false" (Al Jazeera; WION; CENTCOM; Oct 18 2026); 17 Oct: first supertanker mine claim (CENTCOM also disputed); Iran FM: Hormuz reopens if US accepts 7-day ceasefire (CBS News)',
+    tankerRates: 'LATEST (18 Oct, Day 233): Iran FM Araghchi: Hormuz to reopen within days if US complies with 7-day ceasefire conditions …',
+    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
   },
 
   disruptions: [
