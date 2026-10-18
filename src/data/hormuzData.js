@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-17',
+  updated: '2026-10-18',
 
   current: {
     transitsPerDay: 5,
@@ -59,21 +59,21 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 78,    // +2 Oct 15–16 2026: Euronews Oct 15: another tanker fire near Hormuz after two cargo ships sunk; GFS Pride container ship (Singapore-flagged) sank after striking naval mine (Fox News/IRGC Oct 14–15); prior 76: +2 Oct 14 (UKMTO: tanker + container ship struck by unknown projectiles, crew safe; CBS News/UKMTO); prior 74: +3 Oct 12–13 (IRGC struck 3rd non-compliant supertanker Oct 12 — Al Jazeera); +4 Oct 7–11 (NV Sunshine LPG carrier Oct 9; supertanker mine Oct 10; US warplane disabled vessel Oct 11); prior 67: +4 Oct 2–3 (Critical Threats; gCaptain; UKMTO; Oct 3 2026)
+    vesselsAttacked: 79,    // +1 Oct 17 2026: IRGC claimed supertanker (2M+ bbls crude) hit naval mine and caught fire in southern Hormuz — CENTCOM disputed IRGC claims on sinkings (NBC News; CENTCOM; Oct 17 2026); prior 78: +2 Oct 15–16 (Euronews Oct 15: tanker fire + two cargo ships sunk; GFS Pride container ship sank); prior 76: +2 Oct 14 (UKMTO: tanker + container ship struck by unknown projectiles); prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
     seafarersKilled: 24,    // No new confirmed deaths Oct 13–14 (crew safe in Oct 14 UKMTO incidents); prior 24: +1 Aug 18 Minoan Dignity (chief engineer; CNBC/NBC News); +1 Jul 31 Hormuz (AOL); 17 prior confirmed including Jun 10 MT Settebello, Jul 12 GFS Galaxy (Indian), Jul 14 M/V Mombasa (Indian)
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (17 Oct, Day 232): Brent closed $109.86/bbl Oct 16 (+3.7%) — first time touching $110 since May 2026 …',
-    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
-    iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
+    tankerRates: 'LATEST (18 Oct, Day 233): Brent ~$109–112/bbl volatile; UKMTO reports 23 attacks since Oct 1, 10 vessels hit in one week — record high attack rate; IEA emergency reserve releases ongoing following Oct 16 announcement; CENTCOM disputes IRGC claims on ship sinkings …',
+    trumpUltimatum: 'LATEST (18 Oct): Iran\'s new Supreme Leader vowed to keep blocking Strait of Hormuz as oil prices spiked; Iran says "global economy will improve if US removes forces from the Middle East" (NBC News; Fox News; Oct 18 2026)',
+    iranThreat: '17 Oct: IRGC claimed supertanker carrying 2M+ barrels of crude hit naval mine and caught fire in southern Hormuz — claim disputed by CENTCOM; 10 vessels hit in one week per UKMTO (NBC News; CENTCOM; UKMTO; Oct 17–18 2026)',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 17 (Day 232, Bab al-Mandab blockade Day 90): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 90th day — Saudi crude shipments via Red Sea halted 83rd consecutive day since July 26; Riyadh King Khalid International Airport closure expires at 21:00 GMT Oct 17 (likely reopened) …',
+      detail: 'Oct 18 (Day 233, Bab al-Mandab blockade Day 91): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 91st day — Saudi crude shipments via Red Sea halted 84th consecutive day since July 26; Riyadh King Khalid International Airport reportedly reopened after Oct 17 21:00 GMT closure expiry; coalition strikes on Houthi fuel and logistics facilities continuing …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 17 (Day 232): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks continuing; Kpler: 9.4 mbd through Hormuz week ending Oct 14; CENTCOM claims 400+ merchant vessels/week transiting; Iran-US talks stalled …',
+      detail: 'Oct 18 (Day 233): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record high (23 attacks since Oct 1, 10 vessels in one week per UKMTO); Kpler: 9.4 mbd through Hormuz week ending Oct 14; Iran-US talks stalled; Iran Supreme Leader vows continued blockade …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 17 (Day 232): Brent $109.86/bbl — first time touching $110 since May; IEA announced emergency oil reserve releases Oct 16 (CNBC); Kpler: ~9.4 mbd through Hormuz (~52% pre-war); Modern Diplomacy Oct 15: oil prices could stay elevated through 2028 …',
+      detail: 'Oct 18 (Day 233): Brent ~$109–112/bbl volatile around $110; IEA emergency reserve releases ongoing; UKMTO: 23 attacks since Oct 1 — record high attack rate; Iran Supreme Leader vows continued Hormuz blockade; Iran says global economy would improve if US removes forces from Middle East; Kpler: ~9.4 mbd through Hormuz (~52% pre-war); Modern Diplomacy Oct 15: oil prices could stay elevated through 2028 …',
     },
   ],
 };
