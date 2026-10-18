@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (18 Oct, Day 233): Brent ~$109–112/bbl volatile; UKMTO reports 23 attacks since Oct 1, 10 vessels hit in one week — record high attack rate; IEA emergency reserve releases ongoing following Oct 16 announcement; CENTCOM disputes IRGC claims on ship sinkings …',
-    trumpUltimatum: 'LATEST (18 Oct): Iran\'s new Supreme Leader vowed to keep blocking Strait of Hormuz as oil prices spiked; Iran says "global economy will improve if US removes forces from the Middle East" (NBC News; Fox News; Oct 18 2026)',
-    iranThreat: '17 Oct: IRGC claimed supertanker carrying 2M+ barrels of crude hit naval mine and caught fire in southern Hormuz — claim disputed by CENTCOM; 10 vessels hit in one week per UKMTO (NBC News; CENTCOM; UKMTO; Oct 17–18 2026)',
+    tankerRates: 'LATEST (18 Oct, Day 233): Brent ~$109–112/bbl volatile …',
+    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 18 (Day 233, Bab al-Mandab blockade Day 91): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 91st day — Saudi crude shipments via Red Sea halted 84th consecutive day since July 26; Riyadh King Khalid International Airport reportedly reopened after Oct 17 21:00 GMT closure expiry; coalition strikes on Houthi fuel and logistics facilities continuing …',
+      detail: 'Oct 18 (Day 233, Bab al-Mandab blockade Day 91): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 91st day — Saudi crude shipments via Red Sea halted 84th consecutive day since July 26; Riyadh King Khalid International Airport reportedly reopened after Oct 17 21:00 GMT closure expiry …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 18 (Day 233): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record high (23 attacks since Oct 1, 10 vessels in one week per UKMTO); Kpler: 9.4 mbd through Hormuz week ending Oct 14; Iran-US talks stalled; Iran Supreme Leader vows continued blockade …',
+      detail: 'Oct 18 (Day 233): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record high (23 attacks since Oct 1, 10 vessels in one week per UKMTO); Kpler: 9.4 mbd through Hormuz week ending Oct 14; Iran-US talks stalled …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 18 (Day 233): Brent ~$109–112/bbl volatile around $110; IEA emergency reserve releases ongoing; UKMTO: 23 attacks since Oct 1 — record high attack rate; Iran Supreme Leader vows continued Hormuz blockade; Iran says global economy would improve if US removes forces from Middle East; Kpler: ~9.4 mbd through Hormuz (~52% pre-war); Modern Diplomacy Oct 15: oil prices could stay elevated through 2028 …',
+      detail: 'Oct 18 (Day 233): Brent ~$109–112/bbl volatile around $110; IEA emergency reserve releases ongoing; UKMTO: 23 attacks since Oct 1 — record high attack rate; Iran Supreme Leader vows continued Hormuz blockade; Iran says global economy would improve if US removes forces from Middle East …',
     },
   ],
 };
