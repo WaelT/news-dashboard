@@ -3810,6 +3810,13 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Day 232 of the 2026 Iran war. Brent crude closed at $109.86/bbl on Oct 16 (+3.7%), touching $110 intraday for the first time since May — driven by dual Hormuz/Bab al-Mandab chokepoint disruption and stalled Iran-US negotiations. IEA announced emergency oil reserve releases (Oct 16, CNBC). Kpler: ~9.4 mbd flowing through Hormuz for week ending Oct 14 (~52% of pre-war 18.1 mbd). CENTCOM claimed 400+ merchant vessels transited in prior week. IRGC/CENTCOM mutual diplomatic pause Day 76 — no new land-based ballistic missile or drone launches for 42nd consecutive day. Trump told reporters he is ruling out a military strike on Iran before the Nov 3 midterm elections. Fox News Oct 16: Washington is weighing MOAB deployment against Iranian underground nuclear facilities. Iran-US negotiations remain stalled — SNSC chief Rezaei called US response "insufficient." Lebanon ceasefire Day 120 holds (toll unchanged 4,386/12,407). Houthi Bab al-Mandab blockade Day 90 — Saudi crude via Red Sea halted 83rd consecutive day. Riyadh airport closure expires at 21:00 GMT Oct 17. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS) (CNBC; Kpler; Fox News; CENTCOM; IEA; Reuters; Al Jazeera; Oct 17 2026).',
   },
+  {
+    date: '2026-10-18',
+    event: 'Day 233 — Hormuz attacks hit record high; Iran Supreme Leader vows continued blockade; Brent volatile around $110',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 233 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 77 — no new land-based ballistic missile or drone launches for 43rd consecutive day. Hormuz maritime attacks reached record high — UKMTO reports 23 attacks since Oct 1 and 10 vessels hit in one week. Oct 17: IRGC claimed supertanker carrying 2M+ barrels of crude oil hit a naval mine and caught fire in southern Hormuz — CENTCOM disputed this and other IRGC claims on ship sinkings and US deaths. Iran\'s new Supreme Leader vowed to keep blocking the Strait of Hormuz as oil prices spiked again (NBC News). Iran said the global economy would improve if the US removed forces from the Middle East (Fox News). Brent crude volatile around $109–112/bbl; IEA emergency reserve releases continuing following Oct 16 announcement. Lebanon ceasefire Day 121 holds (toll unchanged 4,386/12,407). Houthi Bab al-Mandab blockade Day 91 — Saudi crude via Red Sea halted 84th consecutive day since July 26. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). Iran-US talks remain stalled — no new mediator framework announced (NBC News; CBS News; Fox News; CENTCOM; UKMTO; Oct 18 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

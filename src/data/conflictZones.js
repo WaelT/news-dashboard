@@ -1743,6 +1743,28 @@ const conflictZones = [
     status: 'critical',
     keywords: ['day 232', 'houthi blockade day 90', 'riyadh airport expires oct 17', 'houthi bab al-mandab blockade day 90', 'iran us talks stalled', 'diplomatic pause day 76'],
   },
+  {
+    id: 231,
+    name: 'Strait of Hormuz — Day 233; Attacks Hit Record High; Iran Supreme Leader Vows Blockade',
+    lat: 24.84,
+    lng: 57.45,
+    type: 'naval',
+    icon: 'explosion',
+    description: 'Day 233 (Oct 18): Hormuz maritime attacks reached record high — UKMTO reports 23 attacks since Oct 1 and 10 vessels hit in one week. Oct 17: IRGC claimed supertanker carrying 2M+ barrels of crude oil hit a naval mine and caught fire in southern Hormuz — CENTCOM disputed this and other IRGC claims on ship sinkings and US deaths. Iran\'s new Supreme Leader vowed to keep blocking Strait of Hormuz as oil prices spiked again. Iran said the global economy would improve if the US removed forces from the Middle East. Brent volatile ~$109–112/bbl; IEA emergency reserve releases continuing. IRGC/CENTCOM land-based pause Day 77 — 43rd consecutive day without land-based launches. Total vessels attacked: 79. (NBC News; CBS News; Fox News; CENTCOM; UKMTO; Oct 18 2026)',
+    status: 'critical',
+    keywords: ['day 233', 'hormuz attacks record high', 'supertanker mine oct 17', 'iran supreme leader hormuz blockade', 'ukmto 23 attacks october', 'vessels attacked 79', 'diplomatic pause day 77'],
+  },
+  {
+    id: 232,
+    name: 'Saudi Arabia — Day 233; Houthi Blockade Day 91; Riyadh Airport Reportedly Reopened',
+    lat: 24.98,
+    lng: 46.72,
+    type: 'houthi',
+    icon: 'explosion',
+    description: 'Day 233 (Oct 18): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 91st day — Saudi crude shipments via Red Sea halted for 84th consecutive day since July 26. Riyadh King Khalid International Airport reportedly resumed operations after Oct 17 21:00 GMT closure expiry. Saudi-led coalition continuing strikes on Houthi fuel and logistics facilities. Iran-US talks remain stalled — no new mediator framework announced. IRGC/CENTCOM land-based pause Day 77 holds — 43rd consecutive day without land-based launches. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS) (France24; CBS News; Saudi SPA; NBC News; Oct 18 2026)',
+    status: 'critical',
+    keywords: ['day 233', 'houthi blockade day 91', 'riyadh airport reopened', 'houthi bab al-mandab blockade day 91', 'iran us talks stalled', 'diplomatic pause day 77'],
+  },
 ];
 
 export default conflictZones;
