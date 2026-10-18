@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 18 (Day 233, Bab al-Mandab blockade Day 91): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 91st day — Saudi crude shipments via Red Sea halted 84th consecutive day since July 26; Riyadh King Khalid International Airport reportedly reopened after Oct 17 21:00 GMT closure expiry …',
+      detail: 'Oct 18 (Day 233, Bab al-Mandab blockade Day 91): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 91st day — Saudi crude shipments via Red Sea halted 84th consecutive day since July 26 …',
     },
     {
       country: 'Iraq',
