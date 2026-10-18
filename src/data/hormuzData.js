@@ -59,15 +59,15 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 79,    // +1 Oct 17 2026: IRGC claimed supertanker (2M+ bbls crude) hit naval mine and caught fire in southern Hormuz — CENTCOM disputed IRGC claims on sinkings (NBC News; CENTCOM; Oct 17 2026); prior 78: +2 Oct 15–16 (Euronews Oct 15: tanker fire + two cargo ships sunk; GFS Pride container ship sank); prior 76: +2 Oct 14 (UKMTO: tanker + container ship struck by unknown projectiles); prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
+    vesselsAttacked: 80,    // +1 Oct 18 2026: IRGC claimed second tanker (~2M bbls crude) hit mine, caught fire in Hormuz — CENTCOM denied ("Like most IRGC claims, this is false"); prior 79: +1 Oct 17 supertanker mine claim (CENTCOM disputed); prior 78: +2 Oct 15–16 (Euronews Oct 15: tanker fire + two cargo ships sunk; GFS Pride container ship sank); prior 76: +2 Oct 14 (UKMTO: tanker + container ship struck by unknown projectiles); prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
     seafarersKilled: 24,    // No new confirmed deaths Oct 13–14 (crew safe in Oct 14 UKMTO incidents); prior 24: +1 Aug 18 Minoan Dignity (chief engineer; CNBC/NBC News); +1 Jul 31 Hormuz (AOL); 17 prior confirmed including Jun 10 MT Settebello, Jul 12 GFS Galaxy (Indian), Jul 14 M/V Mombasa (Indian)
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (18 Oct, Day 233): Brent ~$109–112/bbl volatile …',
-    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
-    iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
+    tankerRates: 'LATEST (18 Oct, Day 233): Iran FM Araghchi: Hormuz to reopen within days if US complies with 7-day ceasefire conditions (CBS News); IRGC claims 2nd tanker hit mine Oct 18 — CENTCOM denies; Brent ~$109–112/bbl volatile around $110; IEA emergency reserve releases ongoing (CBS News; Al Jazeera; CENTCOM; Oct 18 2026)',
+    trumpUltimatum: 'LATEST (14 Oct): Singapore-flagged container ship GFS Pride sank in the Strait after IRGC attack — CENTCOM confirmed; Euronews Oct 15: additional tanker fire + cargo ships sunk; UKMTO 23+ attack notices since Oct 1',
+    iranThreat: '18 Oct: IRGC claims two oil tankers (~2M bbls each) hit mines and caught fire in Hormuz — CENTCOM: "Like most IRGC claims, this is false" (Al Jazeera; WION; CENTCOM; Oct 18 2026); 17 Oct: first supertanker mine claim (CENTCOM also disputed); Iran FM: Hormuz reopens if US accepts 7-day ceasefire (CBS News)',
   },
 
   disruptions: [
