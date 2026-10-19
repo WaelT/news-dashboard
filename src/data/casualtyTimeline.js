@@ -326,6 +326,8 @@ const casualtyTimeline = [
   { date: '2026-10-17', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 233: IRGC/CENTCOM diplomatic pause Day 77 — no confirmed new land-based launches for 43rd consecutive day; IRGC maritime attacks record high — UKMTO 23 attacks since Oct 1, 10 vessels hit in one week; Iran's new Supreme Leader vows to keep Hormuz blocked (NBC News); CENTCOM disputes IRGC claims on sinkings and US deaths; Lebanon ceasefire Day 121 holds (toll unchanged 4,386/12,407); Houthi Bab al-Mandab blockade Day 91 — Saudi crude halted 84th day; no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); all figures trajectory-based; Wikipedia API DNS failure (NBC News; CBS News; Fox News; CENTCOM; UKMTO; Oct 18 2026)
   { date: '2026-10-18', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 234: IRGC/CENTCOM diplomatic pause Day 78 — no confirmed new land-based ballistic missile or drone launches for 44th consecutive day; Hormuz maritime attacks at sustained record pace — UKMTO advisory active; Lebanon ceasefire Day 122 holds (toll unchanged 4,386/12,407); Houthi Bab al-Mandab blockade Day 92 — Saudi crude via Red Sea halted 85th consecutive day since July 26; Iran-US talks remain stalled; IEA emergency reserve releases continuing (announced Oct 16); no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); all figures trajectory-based; Wikipedia API DNS failure (CENTCOM; UKMTO; Al Jazeera; Reuters; Oct 19 2026)
+  { date: '2026-10-19', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;

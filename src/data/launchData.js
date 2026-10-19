@@ -328,6 +328,7 @@ export const dailyLaunches = [
   { date: '2026-10-17', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 233 — IRGC/CENTCOM diplomatic pause Day 77 — no confirmed new land-based ballistic missile or drone launches (43rd consecutive pause day); IRGC maritime attacks hit record high — UKMTO: 23 attacks since Oct 1, 10 vessels hit in one week; Oct 17: Iran's IRGC claimed supertanker carrying 2M+ barrels of crude hit naval mine and caught fire in southern Hormuz (unverified — CENTCOM disputed IRGC claims on ship sinkings and US deaths); Iran's new Supreme Leader vows to keep blocking Hormuz (NBC News); Iran says "global economy will improve if US removes forces from Middle East" (Fox News); Brent ~$109–112/bbl volatile; IEA emergency reserve releases ongoing; Houthi Bab al-Mandab blockade Day 91 — Saudi crude halted 84th day; Lebanon ceasefire Day 121 holds (toll unchanged 4,386/12,407); countryBreakdown unchanged (NBC News; CBS News; Fox News; CENTCOM; UKMTO; Oct 18 2026)
   { date: '2026-10-18', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  { date: '2026-10-19', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)

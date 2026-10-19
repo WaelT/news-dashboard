@@ -3824,6 +3824,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Iran Foreign Minister Abbas Araghchi stated the Strait of Hormuz would reopen within days if the US complies with the conditions in Iran\'s seven-day ceasefire proposal, presented in September 2026 (CBS News live blog headline: "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table"). Iran simultaneously escalated maritime claims: IRGC said two oil tankers (each ~2M bbls crude) hit naval mines and caught fire in Hormuz on Oct 17–18 — CENTCOM denied both claims, calling them "like most IRGC claims, false." Total vessels attacked now 80 (independent confirmation pending). IRGC/CENTCOM diplomatic pause Day 77 on land-based launches continues. Brent ~$109–112/bbl volatile. Lebanon ceasefire Day 121 holds (4,386/12,407). No new US KIA (26 total per DoD) (CBS News; Al Jazeera; WION; CENTCOM; Oct 18 2026).',
   },
+  {
+    date: '2026-10-19',
+    event: 'Day 234 — Diplomatic pause Day 78; Lebanon ceasefire Day 122; Houthi blockade Day 92; Iran-US talks stalled',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Day 234 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 78 — no confirmed land-based ballistic missile or drone launches for 44th consecutive day. Lebanon ceasefire Day 122 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 92 — Saudi crude shipments via Red Sea halted 85th consecutive day since July 26. Hormuz maritime attacks continuing at record pace; UKMTO advisory active; IEA emergency reserve releases ongoing (announced Oct 16). Iran-US negotiations remain stalled — no new mediator framework announced. Brent crude ~$109–112/bbl volatile. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). No new Iran Health Ministry casualty release (CENTCOM; UKMTO; Al Jazeera; Reuters; Oct 19 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
