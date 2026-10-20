@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (20 Oct, Day 235): IRGC maritime attacks at record pace — UKMTO 23+ attacks since Oct 1; Brent ~$109–112/bbl volatile; IEA emergency reserve releases ongoing; Iran-US talks stalled; no new mediator framework …',
-    trumpUltimatum: 'LATEST (19 Oct): Iran FM Araghchi conditions for Hormuz reopening — US must comply with 7-day ceasefire proposal; Iran Supreme Leader vows continued blockade; CENTCOM disputes all IRGC ship-sinking claims',
-    iranThreat: '18 Oct: IRGC claimed second supertanker (~2M bbls crude) hit mine and caught fire in Hormuz — CENTCOM denied ("Like most IRGC claims, this is false"); 17 Oct: first supertanker mine claim also disputed',
+    tankerRates: 'LATEST (20 Oct, Day 235): IRGC maritime attacks at record pace — UKMTO 23+ attacks since Oct 1 …',
+    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 20 (Day 235, Bab al-Mandab blockade Day 93): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 93rd day — Saudi crude shipments via Red Sea halted 86th consecutive day since July 26; Saudi-led coalition strikes on Houthi fuel and logistics facilities continuing; Iran-US talks stalled …',
+      detail: 'Oct 20 (Day 235, Bab al-Mandab blockade Day 93): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 93rd day — Saudi crude shipments via Red Sea halted 86th consecutive day since July 26; Saudi-led coalition strikes on Houthi fuel and logistics facilities continuing …',
     },
     {
       country: 'Iraq',
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Oct 20 (Day 235): Brent ~$109–112/bbl volatile; IEA emergency reserve releases ongoing (announced Oct 16); UKMTO: 23+ attacks since Oct 1 — record high attack rate; Iran Supreme Leader vows continued Hormuz blockade; Iran FM Araghchi: Hormuz could reopen if US complies with 7-day ceasefire conditions; Iran-US talks stalled …',
+      detail: 'Oct 20 (Day 235): Brent ~$109–112/bbl volatile; IEA emergency reserve releases ongoing (announced Oct 16); UKMTO: 23+ attacks since Oct 1 — record high attack rate; Iran Supreme Leader vows continued Hormuz blockade …',
     },
   ],
 };
