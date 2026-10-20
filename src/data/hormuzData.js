@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-19',
+  updated: '2026-10-20',
 
   current: {
     transitsPerDay: 5,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (18 Oct, Day 233): Iran FM Araghchi: Hormuz to reopen within days if US complies with 7-day ceasefire conditions …',
-    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
-    iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
+    tankerRates: 'LATEST (20 Oct, Day 235): IRGC maritime attacks at record pace — UKMTO 23+ attacks since Oct 1; Brent ~$109–112/bbl volatile; IEA emergency reserve releases ongoing; Iran-US talks stalled; no new mediator framework …',
+    trumpUltimatum: 'LATEST (19 Oct): Iran FM Araghchi conditions for Hormuz reopening — US must comply with 7-day ceasefire proposal; Iran Supreme Leader vows continued blockade; CENTCOM disputes all IRGC ship-sinking claims',
+    iranThreat: '18 Oct: IRGC claimed second supertanker (~2M bbls crude) hit mine and caught fire in Hormuz — CENTCOM denied ("Like most IRGC claims, this is false"); 17 Oct: first supertanker mine claim also disputed',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 18 (Day 233, Bab al-Mandab blockade Day 91): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 91st day — Saudi crude shipments via Red Sea halted 84th consecutive day since July 26 …',
+      detail: 'Oct 20 (Day 235, Bab al-Mandab blockade Day 93): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 93rd day — Saudi crude shipments via Red Sea halted 86th consecutive day since July 26; Saudi-led coalition strikes on Houthi fuel and logistics facilities continuing; Iran-US talks stalled …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 18 (Day 233): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record high (23 attacks since Oct 1, 10 vessels in one week per UKMTO); Kpler: 9.4 mbd through Hormuz week ending Oct 14; Iran-US talks stalled …',
+      detail: 'Oct 20 (Day 235): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record pace (23+ attacks since Oct 1 per UKMTO); Kpler: 9.4 mbd through Hormuz week ending Oct 14; Iran-US talks stalled; no new mediator framework …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 18 (Day 233): Brent ~$109–112/bbl volatile around $110; IEA emergency reserve releases ongoing; UKMTO: 23 attacks since Oct 1 — record high attack rate; Iran Supreme Leader vows continued Hormuz blockade; Iran says global economy would improve if US removes forces from Middle East …',
+      detail: 'Oct 20 (Day 235): Brent ~$109–112/bbl volatile; IEA emergency reserve releases ongoing (announced Oct 16); UKMTO: 23+ attacks since Oct 1 — record high attack rate; Iran Supreme Leader vows continued Hormuz blockade; Iran FM Araghchi: Hormuz could reopen if US complies with 7-day ceasefire conditions; Iran-US talks stalled …',
     },
   ],
 };
