@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (21 Oct, Day 236): IRGC maritime attacks at record pace — UKMTO 23+ attacks since Oct 1; diplomatic pause Day 80; no new land-based launches for 46th consecutive day …',
+    tankerRates: 'LATEST (21 Oct, Day 236): IRGC maritime attacks at record pace — UKMTO 23+ attacks since Oct 1; diplomatic pause Day 80 …',
     trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
     iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
   },
