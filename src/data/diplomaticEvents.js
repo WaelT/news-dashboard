@@ -3845,6 +3845,20 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 236 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 80 — no confirmed land-based ballistic missile or drone launches for 46th consecutive day. Lebanon ceasefire Day 124 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 94 — Saudi crude shipments via Red Sea halted 87th consecutive day since July 26. Hormuz maritime attacks at record pace; UKMTO advisory active; IEA emergency reserve releases ongoing. Iran-US negotiations remain stalled — no new mediator framework announced. Brent crude ~$109–112/bbl volatile. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). No new Iran Health Ministry casualty release; Wikipedia API DNS failure (CENTCOM; UKMTO; Al Jazeera; Reuters; Oct 21 2026).',
   },
+  {
+    date: '2026-10-21',
+    event: 'Iran sets red lines for US talks: lift all sanctions, end threats — "not a gram" of uranium leaves Iran',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Iran FM Abbas Araghchi restated Iran\'s preconditions for nuclear and ceasefire negotiations: the US must first lift all sanctions and end its threats before any substantive talks can proceed, and Iran will not allow "not a gram" of enriched uranium to leave the country. Iran\'s president echoed these conditions. Iran-US indirect talks continue via Pakistan and Qatar as mediators, but Washington has not accepted Tehran\'s seven-day Hormuz initiative. Separately, Iran FM confirmed Tehran has not received a response from Saudi Arabia or the Houthis to its offer to broker Saudi–Houthi talks; Iran also warned that Egypt\'s announced readiness to support Saudi Arabia militarily could further escalate the conflict (Fox News; JPost; PBS NewsHour; CBS News; Oct 20–21 2026).',
+  },
+  {
+    date: '2026-10-21',
+    event: 'Egypt backs Saudi Arabia; Houthis threaten Aramco HQ, King Khalid Airport if Saudi strikes Sanaa',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Egypt said it stands ready to provide Saudi Arabia with the support it needs to defend its security against Houthi drone and missile attacks. Iran warned that Egyptian involvement would escalate the conflict. In response to Saudi Arabia\'s announced intention to target Sanaa, Houthi spokesman Yahya Sarea threatened to strike Saudi Aramco\'s headquarters in Dammam, King Khalid International Airport in Riyadh, and the Aramco Riyadh refinery. A Houthi official warned the US of a "swift and painful" response if it joins Saudi strikes. Al Jazeera and JPost reported that IRGC provided targeting intelligence and tactical guidance to the Houthis for recent Saudi strikes. Iran denied direct involvement, though IRGC officials praised the operations (CBS News; Al Jazeera; JPost; Saudi SPA; Oct 20–21 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {

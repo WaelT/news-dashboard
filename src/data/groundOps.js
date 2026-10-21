@@ -3527,6 +3527,13 @@ const groundOps = {
     },
     {
       date: '2026-10-21',
+      lat: 14.80,
+      lng: 44.20,
+      event: "Oct 21 — Houthis threaten Aramco HQ Dammam, King Khalid Airport + Aramco Riyadh refinery if Saudi strikes Sanaa; warn 'swift and painful' response if US joins strikes; IRGC allegedly providing targeting intelligence to Houthis for Saudi attacks — Iran FM says no response to Saudi-Houthi mediation offer; Egypt backs Saudi Arabia; Iran warns Egypt involvement escalates conflict (CBS News; Al Jazeera; JPost; PBS; Oct 20–21 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-21',
       lat: 33.72,
       lng: 35.59,
       event: "Day 236 — Lebanon ceasefire Day 124 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 80 — 46th consecutive day without land-based launch; Iran-US talks stalled (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 21 2026)",
