@@ -3838,6 +3838,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 235 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 79 — no confirmed land-based ballistic missile or drone launches for 45th consecutive day. Lebanon ceasefire Day 123 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 93 — Saudi crude shipments via Red Sea halted 86th consecutive day since July 26. Hormuz maritime attacks at record pace; UKMTO advisory active; IEA emergency reserve releases ongoing. Iran-US negotiations remain stalled — no new mediator framework announced. Brent crude ~$109–112/bbl volatile. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). No new Iran Health Ministry casualty release; Wikipedia API DNS failure (CENTCOM; UKMTO; Al Jazeera; Reuters; Oct 20 2026).',
   },
+  {
+    date: '2026-10-21',
+    event: 'Day 236 — Diplomatic pause Day 80; Lebanon ceasefire Day 124; Houthi blockade Day 94; Iran-US talks stalled',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Day 236 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 80 — no confirmed land-based ballistic missile or drone launches for 46th consecutive day. Lebanon ceasefire Day 124 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 94 — Saudi crude shipments via Red Sea halted 87th consecutive day since July 26. Hormuz maritime attacks at record pace; UKMTO advisory active; IEA emergency reserve releases ongoing. Iran-US negotiations remain stalled — no new mediator framework announced. Brent crude ~$109–112/bbl volatile. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). No new Iran Health Ministry casualty release; Wikipedia API DNS failure (CENTCOM; UKMTO; Al Jazeera; Reuters; Oct 21 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
