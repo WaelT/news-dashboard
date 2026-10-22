@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T16:31:57.495Z",
+  "updatedAt": "2026-10-22T21:08:34.032Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters",
   "casualties": {
     "iran": {
@@ -23,8 +23,8 @@
       "wounded": 7841
     },
     "saudi": {
-      "killed": 28,
-      "wounded": 471
+      "killed": 29,
+      "wounded": 473
     },
     "usa": {
       "killed": 21,
