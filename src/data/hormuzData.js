@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-21',
+  updated: '2026-10-22',
 
   current: {
     transitsPerDay: 5,
@@ -59,21 +59,21 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 80,    // +1 Oct 18 2026: IRGC claimed second tanker (~2M bbls crude) hit mine, caught fire in Hormuz — CENTCOM denied ("Like most IRGC claims, this is false"); prior 79: +1 Oct 17 supertanker mine claim (CENTCOM disputed); prior 78: +2 Oct 15–16 (Euronews Oct 15: tanker fire + two cargo ships sunk; GFS Pride container ship sank); prior 76: +2 Oct 14 (UKMTO: tanker + container ship struck by unknown projectiles); prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
+    vesselsAttacked: 82,    // +1 Oct 21: UKMTO — projectile struck tanker 11 NM west of Oman's Bukha (fire extinguished, crew safe; Al Arabiya/UKMTO Oct 21); +1 Oct 20: UKMTO — projectile struck tanker 30 NM from Al Faw Iraq (no casualties); prior 80: +1 Oct 18 IRGC claimed second tanker (~2M bbls crude) hit mine, caught fire — CENTCOM disputed; prior 79: +1 Oct 17 supertanker mine claim (CENTCOM disputed); prior 78: +2 Oct 15–16 (GFS Pride container ship sank); prior 76: +2 Oct 14 (UKMTO: tanker + container ship struck); prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
     seafarersKilled: 24,    // No new confirmed deaths Oct 13–14 (crew safe in Oct 14 UKMTO incidents); prior 24: +1 Aug 18 Minoan Dignity (chief engineer; CNBC/NBC News); +1 Jul 31 Hormuz (AOL); 17 prior confirmed including Jun 10 MT Settebello, Jul 12 GFS Galaxy (Indian), Jul 14 M/V Mombasa (Indian)
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (21 Oct, Day 236): IRGC maritime attacks at record pace — UKMTO 23+ attacks since Oct 1 …',
-    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
-    iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
+    tankerRates: 'LATEST (22 Oct, Day 237): IRGC maritime attacks at record pace — UKMTO advisory active; 82 vessels attacked total; Oct 21: tanker hit by projectile 11 NM west of Bukha (fire extinguished, crew safe); Oct 20: tanker hit near Al Faw Iraq (no casualties); 10+ attacks since Oct 11 per UKMTO …',
+    trumpUltimatum: 'LATEST (22 Oct): NYT/Fox: US and Israel weighing renewed Iran strikes after US midterms — Defense Secretary Hegseth met Netanyahu; targets reportedly include nuclear facilities, missile/drone arsenal, energy infrastructure; no confirmed timeline. Prior (14 Oct): GFS Pride (Singapore-flagged) sank after attack in Strait',
+    iranThreat: 'LATEST (22 Oct): Iran FM Araghchi says 7-day Hormuz ceasefire proposal still on table — Hormuz could reopen "within days" if US meets conditions (lift naval blockade, lift oil sanctions, ceasefire on all fronts); US wants additional clauses; Iran will not make uranium concessions ("not a gram leaves Iran"). Prior (9 Oct): Panama-flagged oil tanker "Gem No',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 21 (Day 236, Bab al-Mandab blockade Day 94): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 94th day — Saudi crude shipments via Red Sea halted 87th consecutive day since July 26; Saudi-led coalition strikes on Houthi fuel and logistics facilities continuing …',
+      detail: 'Oct 22 (Day 237, Bab al-Mandab blockade Day 95): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 95th day — Saudi crude shipments via Red Sea halted 88th consecutive day since July 26; CBS: strike hit King Fahd Intl Airport Dammam (1 killed); Houthis threaten Aramco HQ Dammam + Riyadh airport if Saudi strikes Sanaa; Saudi-led coalition strikes on Houthi positions continuing …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 21 (Day 236): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record pace (UKMTO advisory active); Kpler: 9.4 mbd through Hormuz week ending Oct 14; Iran-US talks stalled; no new mediator framework …',
+      detail: 'Oct 22 (Day 237): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record pace (UKMTO advisory active); Iran FM: Hormuz could reopen "within days" if US meets 7-day ceasefire conditions; Iran-US talks stalled; no new mediator framework; Kpler: 9.4 mbd through Hormuz week ending Oct 14 …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 21 (Day 236): Brent ~$109–112/bbl volatile; IEA emergency reserve releases ongoing (announced Oct 16); UKMTO: record-pace attacks continuing in Hormuz — advisory active; Iran Supreme Leader vows continued Hormuz blockade; Iran-US talks stalled …',
+      detail: 'Oct 22 (Day 237): Brent ~$109–112/bbl volatile; IEA emergency reserve releases ongoing (announced Oct 16); UKMTO advisory active — record-pace attacks continuing in Hormuz; Oct 21: tanker hit 11 NM west of Bukha (crew safe); Oct 20: tanker hit near Al Faw Iraq; CBS: US reducing troop footprint at Middle East posts; non-essential embassy staff ordered to leave Saudi Arabia; Iran-US talks stalled; NYT: US + Israel weighing new strikes on Iran post-midterms …',
     },
   ],
 };
