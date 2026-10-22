@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (22 Oct, Day 237): IRGC maritime attacks at record pace — UKMTO advisory active; 82 vessels attacked total …',
-    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
-    iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
   },
 
   disruptions: [
