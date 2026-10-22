@@ -3840,10 +3840,10 @@ const diplomaticEvents = [
   },
   {
     date: '2026-10-21',
-    event: 'Day 236 — Diplomatic pause Day 80; Lebanon ceasefire Day 124; Houthi blockade Day 94; Iran-US talks stalled',
-    type: 'ceasefire',
-    status: 'stalled',
-    detail: 'Day 236 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 80 — no confirmed land-based ballistic missile or drone launches for 46th consecutive day. Lebanon ceasefire Day 124 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 94 — Saudi crude shipments via Red Sea halted 87th consecutive day since July 26. Hormuz maritime attacks at record pace; UKMTO advisory active; IEA emergency reserve releases ongoing. Iran-US negotiations remain stalled — no new mediator framework announced. Brent crude ~$109–112/bbl volatile. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). No new Iran Health Ministry casualty release; Wikipedia API DNS failure (CENTCOM; UKMTO; Al Jazeera; Reuters; Oct 21 2026).',
+    event: 'Day 236 — Diplomatic pause Day 80; Lebanon ceasefire Day 124; Houthi blockade Day 94; M/T Al Dasma struck',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 236 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 80 — no confirmed land-based ballistic missile or drone launches for 46th consecutive day. Kuwait-flagged M/T Al Dasma struck by unknown projectile off Oman coast — fire controlled; all 21 Indian crew safely evacuated; tanker stationary and unable to proceed to destination (MarineInsight; UKMTO). Lebanon ceasefire Day 124 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 94 — Saudi crude via Red Sea halted 87th consecutive day since July 26. Iran-US talks remain stalled. Brent ~$109–113/bbl. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS) (UKMTO; MarineInsight; Al Jazeera; Reuters; CENTCOM; Oct 21 2026).',
   },
   {
     date: '2026-10-21',
@@ -3864,14 +3864,14 @@ const diplomaticEvents = [
     event: 'Day 237: IRGC/CENTCOM diplomatic pause Day 81; US reducing Middle East troop footprint; Dammam airport strike',
     type: 'ceasefire',
     status: 'stalled',
-    detail: 'Day 237 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 81 — no confirmed land-based ballistic missile or drone launches for 47th consecutive day. Lebanon ceasefire Day 125 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 95 — Saudi crude shipments via Red Sea halted 88th consecutive day since July 26. CBS: US reducing troop footprint at Middle East posts citing Houthi and Iran threats; non-essential embassy staff ordered to leave Saudi Arabia. CBS: strike hit King Fahd International Airport in Dammam, Saudi Arabia (1 killed). Hormuz maritime attacks at record pace; UKMTO advisory active; Oct 21: tanker hit 11 NM west of Bukha (crew safe); Oct 20: tanker hit near Al Faw Iraq. Total vessels attacked: 82. IEA emergency reserve releases ongoing. Iran-US negotiations remain stalled — no new mediator framework announced. Brent crude ~$109–112/bbl volatile. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (CBS News; UKMTO; Al Arabiya; Al Jazeera; Reuters; Oct 22 2026).',
+    detail: 'Day 237 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 81 — no confirmed land-based ballistic missile or drone launches for 47th consecutive day. Lebanon ceasefire Day 125 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 95 — Saudi crude shipments via Red Sea halted 88th consecutive day since July 26. CBS: US reducing troop footprint at Middle East posts citing Houthi and Iran threats; non-essential embassy staff ordered to leave Saudi Arabia. Houthi drone struck King Fahd International Airport in Dammam, Saudi Arabia — 1 killed, 8 injured (CBS; CNBC). Hormuz maritime attacks at record pace (82 vessels attacked total); UKMTO advisory active. IEA emergency reserve releases ongoing. Iran-US negotiations remain stalled — no new mediator framework announced. IMF: Gulf economies forecast to contract 4.8% in 2026. Brent crude ~$113–117/bbl surging. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS) (CBS News; CNBC; UKMTO; Al Arabiya; Al Jazeera; Reuters; Oct 22 2026).',
   },
   {
     date: '2026-10-22',
-    event: 'NYT/Fox: US and Israel weighing renewed Iran strikes after midterms; Iran FM keeps Hormuz deal offer open',
+    event: 'NYT/Haaretz: US & Israel plan concentrated post-midterm strikes on Iran; Iran FM keeps Hormuz offer open',
     type: 'escalation',
     status: 'escalation',
-    detail: 'The New York Times and Fox News reported that Defense Secretary Pete Hegseth met Israeli Prime Minister Netanyahu to discuss possible renewed US-Israeli strikes on Iran after the US midterm elections. Reported targets include Iran\'s nuclear facilities, missile and drone arsenal, and energy infrastructure. No final decision confirmed. Iran Foreign Minister Araghchi reiterated that the 7-day Hormuz ceasefire proposal remains on the table — Hormuz could reopen "within days" if the US lifts the naval blockade, lifts oil sanctions, and agrees to a ceasefire on all fronts. Rubio said any deal must guarantee Iran never gets a nuclear weapon. Iran rejected adding further clauses to its September proposal (Fox News; NYT; CBS News; NBC News; Iran International; Oct 22 2026).',
+    detail: 'NYT and Haaretz reported that the US and Israel have drawn up plans for concentrated strikes on Iran after the US midterm elections (Nov 3) — the DoD plan reportedly covers roughly three days targeting missile/drone forces, energy facilities, and potentially nuclear sites; Trump has not yet approved. Trump told reporters "something will happen fairly soon." Oil prices surged on the reporting. Iran Foreign Minister Araghchi reiterated that the 7-day Hormuz ceasefire proposal remains on the table — Hormuz could reopen "within days" if the US lifts the naval blockade, lifts oil sanctions, and agrees to a ceasefire on all fronts. Rubio said any deal must guarantee Iran never gets a nuclear weapon. Iran rejected adding further clauses to its September proposal (NYT; Haaretz; Fox News; CBS News; NBC News; Iran International; Oct 22 2026).',
   },
 ];
 
