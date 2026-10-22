@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (22 Oct, Day 237): IRGC maritime attacks at record pace — UKMTO advisory active; 82 vessels attacked total; Oct 21: tanker hit by projectile 11 NM west of Bukha (fire extinguished, crew safe); Oct 20: tanker hit near Al Faw Iraq (no casualties); 10+ attacks since Oct 11 per UKMTO …',
-    trumpUltimatum: 'LATEST (22 Oct): NYT/Fox: US and Israel weighing renewed Iran strikes after US midterms — Defense Secretary Hegseth met Netanyahu; targets reportedly include nuclear facilities, missile/drone arsenal, energy infrastructure; no confirmed timeline. Prior (14 Oct): GFS Pride (Singapore-flagged) sank after attack in Strait',
-    iranThreat: 'LATEST (22 Oct): Iran FM Araghchi says 7-day Hormuz ceasefire proposal still on table — Hormuz could reopen "within days" if US meets conditions (lift naval blockade, lift oil sanctions, ceasefire on all fronts); US wants additional clauses; Iran will not make uranium concessions ("not a gram leaves Iran"). Prior (9 Oct): Panama-flagged oil tanker "Gem No',
+    tankerRates: 'LATEST (22 Oct, Day 237): IRGC maritime attacks at record pace — UKMTO advisory active; 82 vessels attacked total …',
+    trumpUltimatum: 'LATEST (14 Oct): the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    iranThreat: '9 Oct: the Panama-flagged oil tanker "Gem No',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 22 (Day 237, Bab al-Mandab blockade Day 95): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 95th day — Saudi crude shipments via Red Sea halted 88th consecutive day since July 26; CBS: strike hit King Fahd Intl Airport Dammam (1 killed); Houthis threaten Aramco HQ Dammam + Riyadh airport if Saudi strikes Sanaa; Saudi-led coalition strikes on Houthi positions continuing …',
+      detail: 'Oct 22 (Day 237, Bab al-Mandab blockade Day 95): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 95th day — Saudi crude shipments via Red Sea halted 88th consecutive day since July 26; CBS: strike hit King Fahd Intl Airport Dammam (1 killed) …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 22 (Day 237): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record pace (UKMTO advisory active); Iran FM: Hormuz could reopen "within days" if US meets 7-day ceasefire conditions; Iran-US talks stalled; no new mediator framework; Kpler: 9.4 mbd through Hormuz week ending Oct 14 …',
+      detail: 'Oct 22 (Day 237): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record pace (UKMTO advisory active); Iran FM: Hormuz could reopen "within days" if US meets 7-day ceasefire conditions; Iran-US talks stalled …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 22 (Day 237): Brent ~$109–112/bbl volatile; IEA emergency reserve releases ongoing (announced Oct 16); UKMTO advisory active — record-pace attacks continuing in Hormuz; Oct 21: tanker hit 11 NM west of Bukha (crew safe); Oct 20: tanker hit near Al Faw Iraq; CBS: US reducing troop footprint at Middle East posts; non-essential embassy staff ordered to leave Saudi Arabia; Iran-US talks stalled; NYT: US + Israel weighing new strikes on Iran post-midterms …',
+      detail: 'Oct 22 (Day 237): Brent ~$109–112/bbl volatile; IEA emergency reserve releases ongoing (announced Oct 16); UKMTO advisory active — record-pace attacks continuing in Hormuz; Oct 21: tanker hit 11 NM west of Bukha (crew safe); Oct 20: tanker hit near Al Faw Iraq …',
     },
   ],
 };
