@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (22 Oct, Day 237): 82 vessels attacked total — M/T Al Dasma (Kuwait) confirmed struck Oct 21 near Bukha; Iran state TV claims 7 more overnight Oct 22 (unverified; CENTCOM assessing); WSJ/Kpler (Oct 21): Middle East oil exports averaged >24M bpd week ending Oct 18, exceeding pre-war 23.3M bpd via alternative routes; Brent surged ~$113–117/bbl on NYT/Haaretz US-Israel post-midterm strike plans …',
-    trumpUltimatum: 'LATEST (22 Oct): NYT/Haaretz report US & Israel have drawn up plans for concentrated ~3-day strikes on Iran after Nov 3 midterms (DoD plan targets missile/drone forces, energy facilities, potential nuclear sites) — Trump has not yet approved; told reporters "something will happen fairly soon"; State Dept pulling US diplomats from Saudi Arabia',
-    iranThreat: 'Oct 22: Iran state TV claims 7 tankers struck overnight in Hormuz (unverified; CENTCOM assessing); Oct 18: Iran FM Araghchi says Hormuz will reopen "within days" if US accepts 7-day ceasefire conditions — Iran Supreme Leader simultaneously vows continued blockade; Oct 16: Tanzania-flagged supertanker Loyalty struck by RPG from small boat (Vanguard Maritime Security)',
+    tankerRates: 'LATEST (22 Oct, Day 237): 82 vessels attacked total — M/T Al Dasma (Kuwait) confirmed struck Oct 21 near Bukha …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 22 (Day 237, Bab al-Mandab blockade Day 95): Houthi drone struck King Fahd International Airport Dammam — 1 killed, 8 injured (CBS; CNBC); US State Dept pulling diplomats from Saudi Arabia citing increasing Iran-aligned attacks on civilian targets. Saudi crude shipments via Red Sea halted 88th consecutive day since July 26 (Bab al-Mandab blockade Day 95). Houthis vowed to continue striking Saudi airports and oil facilities indefinitely. Trump still weighing direct US military involvement in the Saudi-Houthi front …',
+      detail: 'Oct 22 (Day 237, Bab al-Mandab blockade Day 95): Houthi drone struck King Fahd International Airport Dammam — 1 killed, 8 injured (CBS; CNBC) …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 22 (Day 237): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record pace; Iran state TV claims 7 tankers struck overnight Oct 22 (unverified); M/T Al Dasma confirmed struck Oct 21 (UKMTO); Iran FM: Hormuz could reopen "within days" if US meets 7-day ceasefire conditions; WSJ/Kpler (Oct 21): Middle East oil exports >24M bpd week ending Oct 18 via alternative routes; Iran-US talks stalled …',
+      detail: 'Oct 22 (Day 237): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record pace; Iran state TV claims 7 tankers struck overnight Oct 22 (unverified); M/T Al Dasma confirmed struck Oct 21 (UKMTO) …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 22 (Day 237): Brent ~$113–117/bbl surging after NYT/Haaretz reported US & Israel have drawn up plans for post-midterm strikes on Iran; IMF Oct 22 forecast: Gulf economies to contract 4.8% in 2026; IEA emergency reserve releases ongoing (since Oct 16); UKMTO: 30+ attacks since Oct 1 — record high attack rate; Iran state TV claims 7 tankers struck overnight (unverified); Iran Supreme Leader vows continued Hormuz blockade …',
+      detail: 'Oct 22 (Day 237): Brent ~$113–117/bbl surging after NYT/Haaretz reported US & Israel have drawn up plans for post-midterm strikes on Iran; IMF Oct 22 forecast: Gulf economies to contract 4.8% in 2026; IEA emergency reserve releases ongoing (since Oct 16) …',
     },
   ],
 };
