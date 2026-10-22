@@ -3859,6 +3859,20 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'Egypt said it stands ready to provide Saudi Arabia with the support it needs to defend its security against Houthi drone and missile attacks. Iran warned that Egyptian involvement would escalate the conflict. In response to Saudi Arabia\'s announced intention to target Sanaa, Houthi spokesman Yahya Sarea threatened to strike Saudi Aramco\'s headquarters in Dammam, King Khalid International Airport in Riyadh, and the Aramco Riyadh refinery. A Houthi official warned the US of a "swift and painful" response if it joins Saudi strikes. Al Jazeera and JPost reported that IRGC provided targeting intelligence and tactical guidance to the Houthis for recent Saudi strikes. Iran denied direct involvement, though IRGC officials praised the operations (CBS News; Al Jazeera; JPost; Saudi SPA; Oct 20–21 2026).',
   },
+  {
+    date: '2026-10-22',
+    event: 'Day 237: IRGC/CENTCOM diplomatic pause Day 81; US reducing Middle East troop footprint; Dammam airport strike',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Day 237 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 81 — no confirmed land-based ballistic missile or drone launches for 47th consecutive day. Lebanon ceasefire Day 125 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 95 — Saudi crude shipments via Red Sea halted 88th consecutive day since July 26. CBS: US reducing troop footprint at Middle East posts citing Houthi and Iran threats; non-essential embassy staff ordered to leave Saudi Arabia. CBS: strike hit King Fahd International Airport in Dammam, Saudi Arabia (1 killed). Hormuz maritime attacks at record pace; UKMTO advisory active; Oct 21: tanker hit 11 NM west of Bukha (crew safe); Oct 20: tanker hit near Al Faw Iraq. Total vessels attacked: 82. IEA emergency reserve releases ongoing. Iran-US negotiations remain stalled — no new mediator framework announced. Brent crude ~$109–112/bbl volatile. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (CBS News; UKMTO; Al Arabiya; Al Jazeera; Reuters; Oct 22 2026).',
+  },
+  {
+    date: '2026-10-22',
+    event: 'NYT/Fox: US and Israel weighing renewed Iran strikes after midterms; Iran FM keeps Hormuz deal offer open',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'The New York Times and Fox News reported that Defense Secretary Pete Hegseth met Israeli Prime Minister Netanyahu to discuss possible renewed US-Israeli strikes on Iran after the US midterm elections. Reported targets include Iran\'s nuclear facilities, missile and drone arsenal, and energy infrastructure. No final decision confirmed. Iran Foreign Minister Araghchi reiterated that the 7-day Hormuz ceasefire proposal remains on the table — Hormuz could reopen "within days" if the US lifts the naval blockade, lifts oil sanctions, and agrees to a ceasefire on all fronts. Rubio said any deal must guarantee Iran never gets a nuclear weapon. Iran rejected adding further clauses to its September proposal (Fox News; NYT; CBS News; NBC News; Iran International; Oct 22 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
