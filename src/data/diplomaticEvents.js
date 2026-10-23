@@ -3873,6 +3873,13 @@ const diplomaticEvents = [
     status: 'escalation',
     detail: 'NYT and Haaretz reported that the US and Israel have drawn up plans for concentrated strikes on Iran after the US midterm elections (Nov 3) — the DoD plan reportedly covers roughly three days targeting missile/drone forces, energy facilities, and potentially nuclear sites; Trump has not yet approved. Trump told reporters "something will happen fairly soon." Oil prices surged on the reporting. Iran Foreign Minister Araghchi reiterated that the 7-day Hormuz ceasefire proposal remains on the table — Hormuz could reopen "within days" if the US lifts the naval blockade, lifts oil sanctions, and agrees to a ceasefire on all fronts. Rubio said any deal must guarantee Iran never gets a nuclear weapon. Iran rejected adding further clauses to its September proposal (NYT; Haaretz; Fox News; CBS News; NBC News; Iran International; Oct 22 2026).',
   },
+  {
+    date: '2026-10-23',
+    event: 'Day 238 — Diplomatic pause Day 82; Brent $113 sustained; Lebanon ceasefire Day 126; Houthi blockade Day 96',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Day 238 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 82 — no confirmed land-based ballistic missile or drone launches for 48th consecutive day. Hormuz maritime activity at elevated pace following Oct 22 IRGC Persian Gulf strikes. Iran-US negotiations remain stalled — no new mediator framework announced. Brent crude ~$113/bbl sustained at elevated level. Lebanon ceasefire Day 126 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 96 — Saudi crude shipments via Red Sea halted 89th consecutive day since July 26. IEA emergency reserve releases ongoing. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). No new Iran Health Ministry casualty release; Wikipedia API DNS failure (CENTCOM; UKMTO; Al Jazeera; Reuters; Oct 23 2026).',
+  },
 ];
 
 export const STATUS_COLORS = {
