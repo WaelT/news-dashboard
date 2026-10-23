@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-22',
+  updated: '2026-10-23',
 
   current: {
     transitsPerDay: 5,
@@ -59,21 +59,21 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 82,    // +1 Oct 21: UKMTO — projectile struck tanker 11 NM west of Oman's Bukha / M/T Al Dasma (Kuwait-flagged; fire controlled, 21 Indian crew evacuated — MarineInsight); +1 Oct 20: UKMTO — projectile struck tanker 30 NM from Al Faw Iraq (no casualties); Oct 22: Iran state TV claims 7 more tankers struck overnight — unverified, CENTCOM/UKMTO assessing; prior 80: +1 Oct 18 IRGC mine claim (CENTCOM denied); prior 79: +1 Oct 17 mine claim (disputed); prior 78: +2 Oct 15–16 (GFS Pride sank); prior 76: +2 Oct 14 (UKMTO); prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
+    vesselsAttacked: 85,    // +1 Oct 21 2026: UKMTO reported tanker struck off Oman coast — fire, all crew safe; +4 Oct 22: IRGC Navy claimed 4 vessels struck during ship-to-ship transfers in northern Persian Gulf (unverified — no vessel names/flags from IRGC); 3 additional mine claims Oct 22 disputed by CENTCOM ("Like most IRGC claims, this is false") — not counted; prior 80: +2 Oct 17–18 IRGC mine claims (CENTCOM disputed both); prior 78: +2 Oct 15–16 (Euronews Oct 15: tanker fire + two cargo ships sunk); prior 76: +2 Oct 14 (UKMTO: tanker + container ship struck); prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
     seafarersKilled: 24,    // No new confirmed deaths Oct 13–14 (crew safe in Oct 14 UKMTO incidents); prior 24: +1 Aug 18 Minoan Dignity (chief engineer; CNBC/NBC News); +1 Jul 31 Hormuz (AOL); 17 prior confirmed including Jun 10 MT Settebello, Jul 12 GFS Galaxy (Indian), Jul 14 M/V Mombasa (Indian)
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (22 Oct, Day 237): 82 vessels attacked total — M/T Al Dasma (Kuwait) confirmed struck Oct 21 near Bukha …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
-    iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
+    tankerRates: 'LATEST (22 Oct, Day 237): IRGC claimed 4 vessels struck in northern Persian Gulf + 3 mine claims west of Hormuz — CENTCOM disputed mines ("Like most IRGC claims, false"); Brent surged ~4% to ~$113/bbl; UKMTO 25+ attacks since Oct 1; Oct 21: UKMTO reported tanker struck off Oman coast (fire, crew safe) …',
+    trumpUltimatum: 'LATEST (22 Oct): Trump accused Iran of "making up fake strikes on ships to drive up oil prices before midterms"; IRGC warned US escort operations "will extend conflict" to US military bases; NYT: US/Israel drafting post-midterm strike plans',
+    iranThreat: 'Oct 22: IRGC Navy warns continued US escort operations in Hormuz "will extend" conflict to US bases in Middle East; Oct 17–18: IRGC claimed two supertankers hit mines (CENTCOM denied both); 9 Oct: Panama-flagged tanker "Gem No',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 22 (Day 237, Bab al-Mandab blockade Day 95): Houthi drone struck King Fahd International Airport Dammam — 1 killed, 8 injured (CBS; CNBC) …',
+      detail: 'Oct 23 (Day 238, Bab al-Mandab blockade Day 96): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 96th day — Saudi crude shipments via Red Sea halted 89th consecutive day since July 26; Saudi-led coalition strikes on Houthi fuel and logistics facilities continuing …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 22 (Day 237): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at record pace; Iran state TV claims 7 tankers struck overnight Oct 22 (unverified); M/T Al Dasma confirmed struck Oct 21 (UKMTO) …',
+      detail: 'Oct 23 (Day 238): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at elevated pace (25+ attacks since Oct 1 per UKMTO; Oct 22: IRGC claimed 4 vessels struck in Persian Gulf + 3 mine claims); Kpler: 9.4 mbd through Hormuz week ending Oct 14; Iran-US talks stalled; no new mediator framework …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 22 (Day 237): Brent ~$113–117/bbl surging after NYT/Haaretz reported US & Israel have drawn up plans for post-midterm strikes on Iran; IMF Oct 22 forecast: Gulf economies to contract 4.8% in 2026; IEA emergency reserve releases ongoing (since Oct 16) …',
+      detail: 'Oct 23 (Day 238): Brent ~$113/bbl sustained at elevated level following Oct 22 IRGC 4-vessel Persian Gulf attack claims; IEA emergency reserve releases ongoing (announced Oct 16); UKMTO: 25+ attacks since Oct 1 — record high attack rate; IRGC warned US escort operations will bring "wider response" on US bases; NYT: US/Israel drafting post-midterm Iran strike plans …',
     },
   ],
 };
