@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (22 Oct, Day 237): IRGC claimed 4 vessels struck in northern Persian Gulf + 3 mine claims west of Hormuz — CENTCO …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
-    iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
+    tankerRates: 'LATEST (23 Oct, Day 238): Iran sets 7 conditions for Hormuz reopening per Anadolu Agency; UK FM + Oman FM formally agree strait must reopen, will jointly approach Iran + US (Xinhua Oct 23); IMO: 27 attacks on commercial ships in October as of Oct 9 — wartime high (USNI News); Kuwait-flagged tanker struck by projectile Oct 22, 21 Indian crew safe (PBS News …',
+    trumpUltimatum: 'LATEST (22 Oct): Trump claims Iran making up fake tanker hits to drive up oil prices ahead of Nov 3 midterms; warns Iran will pay a steep price (Times of Israel/ABC News Oct 22 liveblog); (21 Oct): WSJ/Kpler — Mideast oil exports >24 mbd week ending Oct 18, above pre-war 23.3 mbd baseline',
+    iranThreat: 'LATEST (23 Oct): Iran sets 7 conditions for reopening Strait of Hormuz and resuming comprehensive talks with US per Anadolu Agency (conditions include sanctions relief, end to military threats, removal of naval blockade); UK-Oman joint diplomatic push launched (Xinhua; Anadolu Oct 23); (16 Oct): Tanzania-flagged supertanker Loyalty struck by RPG from small boat (Vanguard maritime security)',
   },
 
   disruptions: [
@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 23 (Day 238): Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at elevated pace (25+ attacks since Oct 1 per UKMTO; Oct 22: IRGC claimed 4 vessels struck in Persian Gulf + 3 mine claims) …',
+      detail: 'Oct 23 (Day 238): UK FM and Oman FM Albusaidi formally agree Strait of Hormuz must reopen and will jointly approach Iran and US (Xinhua Oct 23) — Oman remains key diplomatic broker; Iran-Oman Hormuz temporary route + revenue-sharing agreement (confirmed Aug 26) remains unimplemented — IRGC maritime attacks at elevated pace (27+ attacks since Oct 1 per IMO; Oct 22: IRGC claimed 4 vessels struck in Persian Gulf + 3 mine claims) …',
     },
     {
       country: 'Asia',

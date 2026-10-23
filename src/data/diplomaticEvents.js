@@ -3880,6 +3880,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 238 of the 2026 Iran war. IRGC/CENTCOM mutual diplomatic pause Day 82 — no confirmed land-based ballistic missile or drone launches for 48th consecutive day. Hormuz maritime activity at elevated pace following Oct 22 IRGC Persian Gulf strikes. Iran-US negotiations remain stalled — no new mediator framework announced. Brent crude ~$113/bbl sustained at elevated level. Lebanon ceasefire Day 126 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 96 — Saudi crude shipments via Red Sea halted 89th consecutive day since July 26. IEA emergency reserve releases ongoing. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). No new Iran Health Ministry casualty release; Wikipedia API DNS failure (CENTCOM; UKMTO; Al Jazeera; Reuters; Oct 23 2026).',
   },
+  {
+    date: '2026-10-23',
+    event: 'Iran sets 7 conditions for Hormuz reopening; UK-Oman launch joint diplomatic push',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Anadolu Agency reports Iran has set seven conditions for reopening the Strait of Hormuz and resuming comprehensive talks, including sanctions relief, end to US military threats, and removal of the naval blockade. Separately, UK Foreign Secretary and Oman FM Albusaidi formally agreed the strait must reopen and announced they will jointly approach both Iran and the US with a coordinated diplomatic initiative — Oman continuing its role as key broker (Xinhua; Anadolu; Oct 23 2026). Trump dismissed IRGC tanker strike claims as "fake hits to drive up oil prices before midterms" (Times of Israel; ABC News Oct 22 liveblog). IDF chief said he sees "no indications" of need for military action against Iran before Israel\'s election though army would act if necessary (Times of Israel Oct 22).',
+  },
 ];
 
 export const STATUS_COLORS = {
