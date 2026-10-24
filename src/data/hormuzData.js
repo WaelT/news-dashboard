@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (24 Oct, Day 239): Ship attacks in Strait of Hormuz hit record high in October — IMO: 28 confirmed attacks this month, 113 total since war began (boereport.com Oct 23); Iran added 122 vessels to Hormuz "noncompliance list" (PressTV Oct 23); Iran FM: 7-day ceasefire conditions still on table; Pakistan army chief en route to Tehran for talks …',
+    tankerRates: 'LATEST (24 Oct, Day 239): Ship attacks in Strait of Hormuz hit record high in October — IMO: 28 confirmed attacks this m …',
     trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
     iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Oct 24 (Day 239): Brent ~$113/bbl sustained at elevated level; ship attacks in Strait of Hormuz hit record high in October — 28 confirmed attacks this month per IMO (boereport.com Oct 23); IEA emergency reserve releases ongoing (announced Oct 16); UKMTO: 25+ attack notices since Oct 1 — record high monthly attack rate; Iranian gas prices up 46%+ since war began; US household extra fuel cost avg $896/year (ITEP Oct 21) …',
+      detail: 'Oct 24 (Day 239): Brent ~$113/bbl sustained at elevated level; ship attacks in Strait of Hormuz hit record high in October — 28 confirmed attacks this month per IMO (boereport.com Oct 23); IEA emergency reserve releases ongoing (announced Oct 16) …',
     },
   ],
 };
