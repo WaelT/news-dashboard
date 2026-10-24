@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-23',
+  updated: '2026-10-24',
 
   current: {
     transitsPerDay: 5,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (23 Oct, Day 238): Iran sets 7 conditions for Hormuz reopening per Anadolu Agency …',
+    tankerRates: 'LATEST (24 Oct, Day 239): Ship attacks in Strait of Hormuz hit record high in October — IMO: 28 confirmed attacks this month, 113 total since war began (boereport.com Oct 23); Iran added 122 vessels to Hormuz "noncompliance list" (PressTV Oct 23); Iran FM: 7-day ceasefire conditions still on table; Pakistan army chief en route to Tehran for talks …',
     trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
     iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 23 (Day 238, Bab al-Mandab blockade Day 96): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 96th day — Saudi crude shipments via Red Sea halted 89th consecutive day since July 26; Saudi-led coalition strikes on Houthi fuel and logistics facilities continuing …',
+      detail: 'Oct 24 (Day 239, Bab al-Mandab blockade Day 97): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 97th day — Saudi crude shipments via Red Sea halted 90th consecutive day since July 26; Saudi-led coalition strikes on Houthi fuel and logistics facilities continuing …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 23 (Day 238): UK FM and Oman FM Albusaidi formally agree Strait of Hormuz must reopen and will jointly approach Iran and US (Xinhua Oct 23) — Oman remains key diplomatic broker …',
+      detail: 'Oct 24 (Day 239): UK FM and Oman FM Albusaidi formally agreed Strait of Hormuz must reopen and jointly approached Iran and US (Xinhua Oct 23); Pakistan army chief en route to Tehran for talks on Hormuz and ceasefire conditions — Oman remains key diplomatic broker …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 23 (Day 238): Brent ~$113/bbl sustained at elevated level following Oct 22 IRGC 4-vessel Persian Gulf attack claims; IEA emergency reserve releases ongoing (announced Oct 16); UKMTO: 25+ attacks since Oct 1 — record high attack rate …',
+      detail: 'Oct 24 (Day 239): Brent ~$113/bbl sustained at elevated level; ship attacks in Strait of Hormuz hit record high in October — 28 confirmed attacks this month per IMO (boereport.com Oct 23); IEA emergency reserve releases ongoing (announced Oct 16); UKMTO: 25+ attack notices since Oct 1 — record high monthly attack rate; Iranian gas prices up 46%+ since war began; US household extra fuel cost avg $896/year (ITEP Oct 21) …',
     },
   ],
 };
