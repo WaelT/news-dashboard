@@ -3574,6 +3574,20 @@ const groundOps = {
       event: "Day 238 — Lebanon ceasefire Day 126 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 82 — 48th consecutive day without land-based launch (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 23 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-10-24',
+      lat: 26.5,
+      lng: 56.3,
+      event: "Day 239 — IMO confirms 28 Hormuz ship attacks in October — all-time record; 113 total incidents since war began; Iran added 122 vessels to Hormuz noncompliance list (PressTV); Pakistan army chief en route to Tehran for Hormuz/ceasefire mediation; WSJ/Kpler: Middle East oil exports >24 mbd in week of Oct 18, exceeding pre-war level; IRGC/CENTCOM diplomatic pause Day 83 — 49th consecutive day without land-based launches; Brent ~$113/bbl (boereport.com; PressTV; WSJ; CENTCOM; UKMTO; Oct 24 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-24',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 239 — Lebanon ceasefire Day 127 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 83 — 49th consecutive day without land-based launch (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 24 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

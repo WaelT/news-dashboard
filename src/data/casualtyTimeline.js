@@ -336,6 +336,8 @@ const casualtyTimeline = [
   { date: '2026-10-22', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 238: diplomatic pause Day 82 — no new confirmed casualties from official sources; Brent ~$113–117/bbl sustained elevated on post-midterm strike plan fears; Lebanon ceasefire Day 126 holds; Houthi blockade Day 96; all figures trajectory-based; Wikipedia API DNS failure (CENTCOM; UKMTO; Al Jazeera; Oct 23 2026)
   { date: '2026-10-23', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 239: IRGC/CENTCOM diplomatic pause Day 83 — no confirmed new land-based launches for 49th consecutive day; IMO: 28 confirmed Hormuz attacks in October alone (record high); no new confirmed casualties from official sources; Lebanon ceasefire Day 127 holds (toll unchanged 4,386/12,407); Houthi Bab al-Mandab blockade Day 97 — Saudi crude halted 90th consecutive day; no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); all figures trajectory-based; Wikipedia API DNS failure (boereport.com; CBS News; PressTV; Al Jazeera; CENTCOM; DoD; Oct 24 2026)
+  { date: '2026-10-24', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;

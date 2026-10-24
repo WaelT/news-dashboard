@@ -3887,6 +3887,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Anadolu Agency reports Iran has set seven conditions for reopening the Strait of Hormuz and resuming comprehensive talks, including sanctions relief, end to US military threats, and removal of the naval blockade. Separately, UK Foreign Secretary and Oman FM Albusaidi formally agreed the strait must reopen and announced they will jointly approach both Iran and the US with a coordinated diplomatic initiative — Oman continuing its role as key broker (Xinhua; Anadolu; Oct 23 2026). Trump dismissed IRGC tanker strike claims as "fake hits to drive up oil prices before midterms" (Times of Israel; ABC News Oct 22 liveblog). IDF chief said he sees "no indications" of need for military action against Iran before Israel\'s election though army would act if necessary (Times of Israel Oct 22).',
   },
+  {
+    date: '2026-10-24',
+    event: 'Pakistan army chief en route to Tehran; IMO records 28 Hormuz attacks in October — all-time high',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Pakistan army chief Gen. Asim Munir is en route to Tehran for talks on Hormuz reopening and ceasefire conditions, continuing Pakistan\'s role as a key mediator. Iran FM Araghchi reaffirmed the 7-day ceasefire and Hormuz reopening conditions remain on the table via mediators. The IMO confirmed 28 ship attacks in the Strait of Hormuz in October alone, a wartime record, with 113 total incidents since the conflict began (boereport.com Oct 23). Iran added 122 vessels to its Hormuz "noncompliance list" (PressTV Oct 23). The Wall Street Journal reported that Middle Eastern oil exports — including Hormuz and alternative routes — averaged more than 24 million bpd in the week ending Oct 18, exceeding the pre-war level of 23.3 million per Kpler, as alternative routing increasingly offsets Hormuz disruption. IRGC/CENTCOM diplomatic pause Day 83 — 49th consecutive day without land-based launches. Lebanon ceasefire Day 127 holds. Houthi Bab al-Mandab blockade Day 97 — Saudi crude halted 90th consecutive day. Brent ~$113/bbl sustained. (boereport.com; PressTV; WSJ; Kpler; Al Jazeera; Reuters; CENTCOM; Oct 24 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
