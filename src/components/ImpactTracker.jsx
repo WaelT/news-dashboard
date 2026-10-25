@@ -24,7 +24,7 @@ function flagUrl(cc) {
 }
 
 // Stamped by scripts/update-casualties.mjs on each scrape
-const DATA_AS_OF = 'OCTOBER 24, 2026';
+const DATA_AS_OF = 'OCTOBER 25, 2026';
 
 const DEFAULT_CASUALTIES = {
   iran: { killed: 3831, wounded: 33806 },
