@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-24',
+  updated: '2026-10-25',
 
   current: {
     transitsPerDay: 5,
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 24 (Day 239, Bab al-Mandab blockade Day 97): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 97th day — Saudi crude shipments via Red Sea halted 90th consecutive day since July 26; Saudi-led coalition strikes on Houthi fuel and logistics facilities continuing …',
+      detail: 'Oct 25 (Day 240, Bab al-Mandab blockade Day 98): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 98th day — Saudi crude shipments via Red Sea halted 91st consecutive day since July 26; Saudi-led coalition strikes on Houthi fuel and logistics facilities continuing …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 24 (Day 239): UK FM and Oman FM Albusaidi formally agreed Strait of Hormuz must reopen and jointly approached Iran and US (Xinhua Oct 23); Pakistan army chief en route to Tehran for talks on Hormuz and ceasefire conditions — Oman remains key diplomatic broker …',
+      detail: 'Oct 25 (Day 240): Pakistan army chief Gen. Asim Munir in Tehran for talks on Hormuz reopening and ceasefire conditions; UK FM and Oman FM Albusaidi formally agreed Strait must reopen (Xinhua Oct 23) — Oman remains key diplomatic broker; diplomatic pause Day 84, 50th consecutive day without land-based launches …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 24 (Day 239): Brent ~$113/bbl sustained at elevated level; ship attacks in Strait of Hormuz hit record high in October — 28 confirmed attacks this month per IMO (boereport.com Oct 23); IEA emergency reserve releases ongoing (announced Oct 16) …',
+      detail: 'Oct 25 (Day 240): Brent ~$113/bbl sustained at elevated level; IMO confirmed 28 ship attacks in Strait of Hormuz in October alone (boereport.com Oct 23) — wartime record; 113 total incidents since war began; Iran added 122 vessels to Hormuz noncompliance list (PressTV Oct 23); IEA emergency reserve releases ongoing (announced Oct 16) …',
     },
   ],
 };
