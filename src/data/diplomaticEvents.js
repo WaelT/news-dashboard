@@ -3894,6 +3894,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Pakistan army chief Gen. Asim Munir is en route to Tehran for talks on Hormuz reopening and ceasefire conditions, continuing Pakistan\'s role as a key mediator. Iran FM Araghchi reaffirmed the 7-day ceasefire and Hormuz reopening conditions remain on the table via mediators. The IMO confirmed 28 ship attacks in the Strait of Hormuz in October alone, a wartime record, with 113 total incidents since the conflict began (boereport.com Oct 23). Iran added 122 vessels to its Hormuz "noncompliance list" (PressTV Oct 23). The Wall Street Journal reported that Middle Eastern oil exports — including Hormuz and alternative routes — averaged more than 24 million bpd in the week ending Oct 18, exceeding the pre-war level of 23.3 million per Kpler, as alternative routing increasingly offsets Hormuz disruption. IRGC/CENTCOM diplomatic pause Day 83 — 49th consecutive day without land-based launches. Lebanon ceasefire Day 127 holds. Houthi Bab al-Mandab blockade Day 97 — Saudi crude halted 90th consecutive day. Brent ~$113/bbl sustained. (boereport.com; PressTV; WSJ; Kpler; Al Jazeera; Reuters; CENTCOM; Oct 24 2026)',
   },
+  {
+    date: '2026-10-25',
+    event: 'Pakistan army chief Gen. Munir holds talks in Tehran; diplomatic pause hits 50-day milestone',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Pakistan army chief Gen. Asim Munir arrived in Tehran and held meetings with Iranian SNSC and senior IRGC officials on Hormuz reopening conditions and a comprehensive ceasefire framework. Iran reiterated its 7-day Hormuz proposal tied to US commitments including sanctions relief and naval posture changes. IRGC/CENTCOM diplomatic pause Day 84 — 50th consecutive day without land-based ballistic missile or drone launches (milestone). Iran-US negotiations remain stalled as both sides hold positions ahead of US midterm elections (Nov 3). Lebanon ceasefire Day 128 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 98 — Saudi crude via Red Sea halted 91st consecutive day since July 26. Brent ~$113/bbl sustained elevated. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; Reuters; CENTCOM; DoD; Oct 25 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
