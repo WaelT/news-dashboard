@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (25 Oct, Day 240): IRGC claims 2 supertankers struck naval mines in Strait of Hormuz (unverified; Rudaw/WANA/Pars Today; CENTCOM expected to dispute — consistent with pattern of rejected IRGC mine claims Oct 22); prior: IMO 28 confirmed attacks in October — all-time record; 113 total incidents since war began (boereport.com Oct 23) …',
-    trumpUltimatum: 'LATEST (25 Oct): Trump said a deal with Iran "remains possible" but refused to rule out further US military operations against Iran; White House reviewing post-midterm strike plans (AND Magazine; Ynetnews; Oct 25 2026). Prior (21 Oct): WSJ/Kpler — Middle East oil exports averaged >24 mbd in week ending Oct 18, exceeding pre-war 23.3 mbd',
-    iranThreat: 'LATEST (25 Oct): Iranian media (Tasnim) rejected reports that Tehran made any proposal to the US via Pakistani mediator Gen. Munir — Iran FM said Pakistan and Qatar "technically still play mediator role" but Iran "did not know purpose" of Munir visit; Al Arabiya reported Iran offered 7-day Hormuz opening for lifting naval blockade — denied by IRGC-affiliated Tasnim (Tasnim; Tribune India; ANI; Al Arabiya; Oct 25 2026)',
+    tankerRates: 'LATEST (25 Oct, Day 240): IRGC claims 2 supertankers struck naval mines in Strait of Hormuz (unverified …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
   },
 
   disruptions: [
@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 25 (Day 240): Pakistani army chief Gen. Asim Munir visited Tehran; Iranian media (Tasnim) denied any Hormuz proposal was transmitted via Munir — Iran FM: "Pakistan and Qatar technically still play mediator role"; Iran "did not know purpose" of visit per Iranian official; UK FM and Oman FM Albusaidi earlier agreed Strait must reopen (Xinhua Oct 23) — Oman remains key diplomatic broker (Tasnim; Tribune India; Xinhua; Oct 25 2026) …',
+      detail: 'Oct 25 (Day 240): Pakistani army chief Gen. Asim Munir visited Tehran; Iranian media (Tasnim) denied any Hormuz proposal was transmitted via Munir — Iran FM: "Pakistan and Qatar technically still play mediator role"; Iran "did not know purpose" of visit per Iranian official …',
     },
     {
       country: 'Asia',
