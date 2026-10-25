@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 25 (Day 240): Pakistan army chief Gen. Asim Munir in Tehran for talks on Hormuz reopening and ceasefire conditions; UK FM and Oman FM Albusaidi formally agreed Strait must reopen (Xinhua Oct 23) — Oman remains key diplomatic broker; diplomatic pause Day 84, 50th consecutive day without land-based launches …',
+      detail: 'Oct 25 (Day 240): Pakistan army chief Gen. Asim Munir in Tehran for talks on Hormuz reopening and ceasefire conditions; UK FM and Oman FM Albusaidi formally agreed Strait must reopen (Xinhua Oct 23) — Oman remains key diplomatic broker …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 25 (Day 240): Brent ~$113/bbl sustained at elevated level; IMO confirmed 28 ship attacks in Strait of Hormuz in October alone (boereport.com Oct 23) — wartime record; 113 total incidents since war began; Iran added 122 vessels to Hormuz noncompliance list (PressTV Oct 23); IEA emergency reserve releases ongoing (announced Oct 16) …',
+      detail: 'Oct 25 (Day 240): Brent ~$113/bbl sustained at elevated level; IMO confirmed 28 ship attacks in Strait of Hormuz in October alone (boereport.com Oct 23) — wartime record; 113 total incidents since war began; Iran added 122 vessels to Hormuz noncompliance list (PressTV Oct 23) …',
     },
   ],
 };
