@@ -3901,6 +3901,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Pakistan army chief Gen. Asim Munir arrived in Tehran and held meetings with Iranian SNSC and senior IRGC officials on Hormuz reopening conditions and a comprehensive ceasefire framework. Iran reiterated its 7-day Hormuz proposal tied to US commitments including sanctions relief and naval posture changes. IRGC/CENTCOM diplomatic pause Day 84 — 50th consecutive day without land-based ballistic missile or drone launches (milestone). Iran-US negotiations remain stalled as both sides hold positions ahead of US midterm elections (Nov 3). Lebanon ceasefire Day 128 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 98 — Saudi crude via Red Sea halted 91st consecutive day since July 26. Brent ~$113/bbl sustained elevated. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; Reuters; CENTCOM; DoD; Oct 25 2026)',
   },
+  {
+    date: '2026-10-25',
+    event: 'Iranian media deny Hormuz proposal via Pakistan; IRGC claims 2 supertanker mine strikes; Trump signals possible military action',
+    type: 'escalation',
+    status: 'stalled',
+    detail: 'In new developments on Oct 25: (1) Iranian media (Tasnim, IRGC-affiliated) rejected reports that Tehran made any proposal to the US via Gen. Munir\'s visit — Iran FM stated "Pakistan and Qatar technically still play mediator role" but Iran "did not know purpose" of Munir visit, contradicting Al Arabiya\'s report that Iran offered a 7-day Hormuz opening in exchange for lifting the US naval blockade. (2) IRGC claimed two supertankers struck naval mines in the Strait of Hormuz (Rudaw; WANA; Pars Today) — unverified, consistent with IRGC mine claims pattern that CENTCOM has repeatedly disputed ("Like most IRGC claims, this is false" — Oct 22). (3) President Trump told reporters that a deal with Iran "remains possible" but refused to rule out further US military operations; White House reviewing post-midterm strike plans (Ynetnews; AND Magazine; Oct 25 2026). Iran FM Araghchi: "Bombing will resume sooner or later" and Iran is "fully prepared" (Ynetnews Oct 25). (Tasnim; Tribune India; ANI; Rudaw; Ynetnews; AND Magazine; Oct 25 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
