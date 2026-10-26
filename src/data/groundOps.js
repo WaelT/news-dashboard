@@ -3600,6 +3600,8 @@ const groundOps = {
       lat: 33.72,
       lng: 35.59,
       event: "Day 240 — Lebanon ceasefire Day 128 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 84 — 50th consecutive day without land-based launch (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 25 2026)",
+      type: 'ceasefire',
+    },
     {
       date: '2026-10-26',
       lat: 26.5,

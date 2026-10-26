@@ -1973,6 +1973,7 @@ const conflictZones = [
     description: 'Day 240 (Oct 25): Lebanon ceasefire Day 128 holds — toll unchanged at 4,386 killed / 12,407 wounded. IRGC/CENTCOM diplomatic pause Day 84 — 50th consecutive day without land-based ballistic missile or drone launches. Iran-US talks remain stalled ahead of US midterms (Nov 3). Pakistan army chief in Tehran for mediation talks. (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 25 2026)',
     status: 'active',
     keywords: ['day 240', 'lebanon ceasefire day 128', 'diplomatic pause day 84', 'toll 4386 killed', 'pakistan army chief tehran'],
+  },
   {
     id: 252,
     name: 'Hormuz — Day 241; 86 Vessels Attacked; Brent $116.72; Talks Stalled',
@@ -2005,7 +2006,6 @@ const conflictZones = [
     description: 'Day 241 (Oct 26): Lebanon ceasefire Day 129 holds — toll unchanged at 4,386 killed / 12,407 wounded. IRGC/CENTCOM diplomatic pause Day 85 — 51st consecutive day without land-based launches. Iran-US talks stalled; Trump weighing deal vs strikes. US Nov 3 midterms 8 days away — post-election military options under review per NYT/Haaretz. (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 26 2026)',
     status: 'active',
     keywords: ['day 241', 'lebanon ceasefire day 129', 'diplomatic pause day 85', 'toll 4386 killed', 'post-midterm strikes'],
-  },
   },
 ];
 
