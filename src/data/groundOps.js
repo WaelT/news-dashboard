@@ -3600,6 +3600,18 @@ const groundOps = {
       lat: 33.72,
       lng: 35.59,
       event: "Day 240 — Lebanon ceasefire Day 128 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 84 — 50th consecutive day without land-based launch (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 25 2026)",
+    {
+      date: '2026-10-26',
+      lat: 26.5,
+      lng: 56.3,
+      event: "Day 241 — Brent $116.72/bbl (CNBC Oct 23 close — 6-month high); IRGC/CENTCOM diplomatic pause Day 85 — 51st consecutive day without land-based launches; 86 vessels attacked total; Iran-US talks stalled; US Nov 3 midterms 8 days away (CNBC; CBS News; Al Jazeera; CENTCOM; Oct 26 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-26',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 241 — Lebanon ceasefire Day 129 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 85 — 51st consecutive day without land-based launch; post-midterm US strike options under review per NYT/Haaretz (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 26 2026)",
       type: 'ceasefire',
     },
   ],
