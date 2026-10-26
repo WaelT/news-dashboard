@@ -3908,6 +3908,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'In new developments on Oct 25: (1) Iranian media (Tasnim, IRGC-affiliated) rejected reports that Tehran made any proposal to the US via Gen. Munir\'s visit — Iran FM stated "Pakistan and Qatar technically still play mediator role" but Iran "did not know purpose" of Munir visit, contradicting Al Arabiya\'s report that Iran offered a 7-day Hormuz opening in exchange for lifting the US naval blockade. (2) IRGC claimed two supertankers struck naval mines in the Strait of Hormuz (Rudaw; WANA; Pars Today) — unverified, consistent with IRGC mine claims pattern that CENTCOM has repeatedly disputed ("Like most IRGC claims, this is false" — Oct 22). (3) President Trump told reporters that a deal with Iran "remains possible" but refused to rule out further US military operations; White House reviewing post-midterm strike plans (Ynetnews; AND Magazine; Oct 25 2026). Iran FM Araghchi: "Bombing will resume sooner or later" and Iran is "fully prepared" (Ynetnews Oct 25). (Tasnim; Tribune India; ANI; Rudaw; Ynetnews; AND Magazine; Oct 25 2026)',
   },
+  {
+    date: '2026-10-26',
+    event: 'CENTCOM Adm. Cooper flies over Strait of Hormuz; Iran passes messages via intermediaries; US troop rotation paused',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 241 — diplomatic pause Day 85 — 51st consecutive day without land-based ballistic missile or drone launches. CENTCOM commander Adm. Brad Cooper flew over the Strait of Hormuz on a Middle East visit and publicly affirmed that primary transit routes are "free and clear of Iranian sea mines"; CENTCOM stated 3,000+ commercial vessels have transited the strait with US escort support since Operation Epic Fury began in February. Iran confirmed messages are still flowing to Washington through intermediaries (Qatar, Pakistan) but said no new formal talks framework was proposed. Trump ruled out US strikes on Sunday Oct 26, continuing to weigh deal vs. resumed military action ahead of Nov 3 midterm elections; White House reviewing post-midterm concentrated strike options per DoD plans. Reporting emerged that nonessential US military personnel expected to rotate into the Middle East have been told the rotation is canceled or paused — a signal of potential reconfiguration. Lebanon ceasefire Day 129 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 99 — Saudi crude via Red Sea halted 92nd consecutive day. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). Brent ~$116.72/bbl sustained at six-month high. (JPost; GlobalSecurity; NewsNationNow; Al Jazeera; CENTCOM; DoD; Oct 26 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {

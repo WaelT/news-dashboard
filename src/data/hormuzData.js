@@ -65,8 +65,8 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (26 Oct, Day 241): Brent closed $116.72/bbl Oct 23 (CNBC — six-month high …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    tankerRates: 'LATEST (26 Oct, Day 241): Brent closed $116.72/bbl Oct 23 (CNBC — six-month high; highest settlement since Apr 29 2026) …',
+    trumpUltimatum: 'LATEST (26 Oct): CENTCOM commander Adm. Brad Cooper flew over the Strait of Hormuz and declared primary transit routes "free and clear of Iranian sea mines"; CENTCOM confirmed 3,000+ commercial vessels have transited with US escort since Operation Epic Fury began. Trump ruled out Sunday strikes; White House reviewing post-midterm (Nov 3) strike plans. US troop rotation to Middle East paused. [Prior: 21 Oct — WSJ/Kpler: Middle Eastern oil exports averaged 24 mbd in week ending Oct 18, exceeding pre-war 23.3 mbd]',
     iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
   },
 
