@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (26 Oct, Day 241): Brent closed $116.72/bbl Oct 23 (CNBC — six-month high; highest settlement since Apr 29 2026); IRGC/CENTCOM diplomatic pause Day 85; 86 vessels attacked (UKMTO); UKMTO threat "severe"; Iran-US talks stalled; US Nov 3 midterms 8 days away — Trump ruling out strikes pre-election; NBC: Hormuz ship attacks at record high as Iran escalates maritime strikes; CAP (Oct 22): Americans paid $141B+ extra in gas/diesel costs since war began …',
-    trumpUltimatum: 'LATEST (25 Oct): Trump told CBS News he is weighing a deal with Iran against military action to "finish them off"; Qatar FM confirmed Iran-US back-channel talks ongoing via Qatari mediators; Iran FM Araghchi: Hormuz ceasefire conditions still on table — strait reopens day 6, talks begin day 7; US state dept. withdrew non-essential diplomats from Saudi Arabia citing Houthi attacks (CBS News; Qatar FM; Oct 25 2026). Prior: WSJ reported Middle Eastern oil exports averaged 24 mbd week ending Oct 18 — exceeding pre-war 23.3 mbd (Kpler)',
-    iranThreat: 'Oct 22 (delayed report Oct 24): UKMTO advisory — tanker struck by unknown projectile 7 NM NE of Limah, Oman at 17:15 UTC; vessel continued voyage, no casualties. Iran state TV claimed 7 tankers struck overnight Oct 22–23 (unverified; CENTCOM: "Like most IRGC claims, this is false"). Prior Oct 16: Tanzania-flagged supertanker Loyalty struck by RPG from small boat per maritime security firm Vanguard.',
+    tankerRates: 'LATEST (26 Oct, Day 241): Brent closed $116.72/bbl Oct 23 (CNBC — six-month high; highest settlement since Apr 29 2026) …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 26 (Day 241, Bab al-Mandab blockade Day 99): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 99th day — Saudi crude shipments via Red Sea halted 92nd consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing; US State Dept. withdrew non-essential diplomatic staff from Saudi Arabia citing Houthi threat (CBS News Oct 24–25 2026) …',
+      detail: 'Oct 26 (Day 241, Bab al-Mandab blockade Day 99): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 99th day — Saudi crude shipments via Red Sea halted 92nd consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
     },
     {
       country: 'Iraq',
