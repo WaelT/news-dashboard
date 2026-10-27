@@ -3915,6 +3915,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 241 — diplomatic pause Day 85 — 51st consecutive day without land-based ballistic missile or drone launches. CENTCOM commander Adm. Brad Cooper flew over the Strait of Hormuz on a Middle East visit and publicly affirmed that primary transit routes are "free and clear of Iranian sea mines"; CENTCOM stated 3,000+ commercial vessels have transited the strait with US escort support since Operation Epic Fury began in February. Iran confirmed messages are still flowing to Washington through intermediaries (Qatar, Pakistan) but said no new formal talks framework was proposed. Trump ruled out US strikes on Sunday Oct 26, continuing to weigh deal vs. resumed military action ahead of Nov 3 midterm elections; White House reviewing post-midterm concentrated strike options per DoD plans. Reporting emerged that nonessential US military personnel expected to rotate into the Middle East have been told the rotation is canceled or paused — a signal of potential reconfiguration. Lebanon ceasefire Day 129 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 99 — Saudi crude via Red Sea halted 92nd consecutive day. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). Brent ~$116.72/bbl sustained at six-month high. (JPost; GlobalSecurity; NewsNationNow; Al Jazeera; CENTCOM; DoD; Oct 26 2026)',
   },
+  {
+    date: '2026-10-27',
+    event: 'UK-Oman joint Hormuz diplomatic initiative; Houthi blockade hits Day 100 milestone; US midterms 7 days away',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 242 — diplomatic pause Day 86 — 52nd consecutive day without land-based ballistic missile or drone launches. UK-Oman joint diplomatic initiative advancing to reopen Hormuz — UK FM and Oman FM Albusaidi confirmed they will jointly approach Iran and US sides to seek a Hormuz framework; Iran FM Araghchi stated 7-day ceasefire conditions remain on the table. Houthi Bab al-Mandab blockade enters Day 100 (milestone) — Saudi crude shipments via Red Sea halted 93rd consecutive day since July 26. Lebanon ceasefire Day 130 holds — toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). Brent ~$116–117/bbl sustained elevated. US November 3 midterms 7 days away; post-election military options under review. (Al Jazeera; Reuters; CBS News; CENTCOM; UKMTO; DoD; Oct 27 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
