@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 27 (Day 242): UK-Oman joint diplomatic initiative advancing — UK FM and Oman FM Albusaidi confirmed joint approach to Iran and US on Hormuz framework; Iran FM Araghchi: 7-day ceasefire conditions still on table; Oman continues key broker role; Iran-US talks stalled (Xinhua; CBS News; Al Jazeera; Oct 26–27 2026) …',
+      detail: 'Oct 27 (Day 242): UK-Oman joint diplomatic initiative advancing — UK FM and Oman FM Albusaidi confirmed joint approach to Iran and US on Hormuz framework; Iran FM Araghchi: 7-day ceasefire conditions still on table; Oman continues key broker role; Iran-US talks stalled (Xinhua; CBS News; Al Jazeera …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 27 (Day 242): Brent ~$116–117/bbl sustained elevated (six-month high since Oct 23 close); IEA emergency reserve releases ongoing (announced Oct 16); UKMTO: 28+ attacks since Oct 1 — record high attack rate; NBC: Hormuz ship attacks at record high; IMF: Gulf economy forecast -4.8% in 2026; US Nov 3 midterms 7 days away — post-election military options under review …',
+      detail: 'Oct 27 (Day 242): Brent ~$116–117/bbl sustained elevated (six-month high since Oct 23 close); IEA emergency reserve releases ongoing (announced Oct 16); UKMTO: 28+ attacks since Oct 1 — record high attack rate; NBC: Hormuz ship attacks at record high; IMF: Gulf economy forecast -4.8% in 2026 …',
     },
   ],
 };
