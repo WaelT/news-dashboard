@@ -29,7 +29,7 @@ const DATA_AS_OF = 'OCTOBER 27, 2026';
 const DEFAULT_CASUALTIES = {
   iran: { killed: 3831, wounded: 33806 },
   israel: { killed: 73, wounded: 9441 },
-  usa: { killed: 21, wounded: 865 },
+  usa: { killed: 26, wounded: 865 },
   lebanon: { killed: 4386, wounded: 12407 },
   yemen: { killed: 1282, wounded: 5890 },
   iraq: { killed: 180, wounded: 757 },
