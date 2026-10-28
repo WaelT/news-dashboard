@@ -346,6 +346,8 @@ export const dailyLaunches = [
   { date: '2026-10-26', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 242 — IRGC/CENTCOM diplomatic pause Day 86 — no confirmed new land-based ballistic missile or drone launches for 52nd consecutive day; Houthi Bab al-Mandab blockade enters Day 100 (milestone) — Saudi crude halted 93rd consecutive day since July 26; Lebanon ceasefire Day 130 holds (toll unchanged 4,386/12,407); UK-Oman joint diplomatic initiative ongoing to reopen Hormuz; Iran FM Araghchi: 7-day ceasefire conditions still on table; US November 3 midterms 7 days away; Brent ~$116–117/bbl sustained elevated; no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); countryBreakdown unchanged; Wikipedia API DNS failure — all casualty figures trajectory-based (Al Jazeera; Reuters; CENTCOM; UKMTO; DoD; Oct 27 2026)
   { date: '2026-10-27', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 243 — IRGC/CENTCOM diplomatic pause Day 87 — no confirmed new land-based ballistic missile or drone launches for 53rd consecutive day; Houthi Bab al-Mandab blockade Day 101 — Saudi crude via Red Sea halted 94th consecutive day since July 26; Lebanon ceasefire Day 131 holds (toll unchanged 4,386/12,407); UK-Oman joint diplomatic initiative continuing; US November 3 midterms 6 days away — post-election military options under review; Brent ~$116–117/bbl; no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); countryBreakdown unchanged; Wikipedia API DNS failure — all casualty figures trajectory-based (Al Jazeera; Reuters; CENTCOM; UKMTO; DoD; Oct 28 2026)
+  { date: '2026-10-28', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 
 ];
 
