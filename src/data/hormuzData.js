@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 28 (Day 243): UK-Oman joint diplomatic initiative ongoing — UK FM and Oman FM Albusaidi continuing joint approach to Iran and US on Hormuz framework; no breakthrough reported; Iran FM Araghchi: 7-day ceasefire conditions still on table; Oman continues key broker role; Iran-US talks stalled (Al Jazeera; Reuters; CBS News …',
+      detail: 'Oct 28 (Day 243): UK-Oman joint diplomatic initiative ongoing — UK FM and Oman FM Albusaidi continuing joint approach to Iran and US on Hormuz framework; no breakthrough reported; Iran FM Araghchi: 7-day ceasefire conditions still on table; Oman continues key broker role …',
     },
     {
       country: 'Asia',
