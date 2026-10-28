@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-27',
+  updated: '2026-10-28',
 
   current: {
     transitsPerDay: 5,
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 27 (Day 242, Bab al-Mandab blockade Day 100): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab enters 100th day (milestone) — Saudi crude shipments via Red Sea halted 93rd consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
+      detail: 'Oct 28 (Day 243, Bab al-Mandab blockade Day 101): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 94th consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
     },
     {
       country: 'Iraq',
@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 27 (Day 242): UK-Oman joint diplomatic initiative advancing — UK FM and Oman FM Albusaidi confirmed joint approach to Iran and US on Hormuz framework; Iran FM Araghchi: 7-day ceasefire conditions still on table; Oman continues key broker role; Iran-US talks stalled (Xinhua; CBS News …',
+      detail: 'Oct 28 (Day 243): UK-Oman joint diplomatic initiative ongoing — UK FM and Oman FM Albusaidi continuing joint approach to Iran and US on Hormuz framework; no breakthrough reported; Iran FM Araghchi: 7-day ceasefire conditions still on table; Oman continues key broker role; Iran-US talks stalled (Al Jazeera; Reuters; CBS News …',
     },
     {
       country: 'Asia',
