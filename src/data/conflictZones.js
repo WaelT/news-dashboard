@@ -2062,6 +2062,28 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 243', 'lebanon ceasefire day 131', 'diplomatic pause day 87', 'toll 4386 killed'],
   },
+  {
+    id: 260,
+    name: 'Hormuz — Day 244; Diplomatic Pause Day 88; Midterms 5 Days Away',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'conflict',
+    icon: 'conflict',
+    description: 'Day 244 (Oct 29): IRGC/CENTCOM diplomatic pause Day 88 — 54th consecutive day without land-based ballistic missile or drone launches. Houthi Bab al-Mandab blockade Day 102 — Saudi crude via Red Sea halted 95th consecutive day since July 26. UK-Oman joint Hormuz diplomatic initiative continuing — UK FM Lammy and Oman FM Albusaidi pursuing joint outreach to both sides. Brent ~$116–118/bbl. US Nov 3 midterms 5 days away — post-election military options under active US-Israel joint planning review. (Al Jazeera; Reuters; CENTCOM; UKMTO; Oct 29 2026)',
+    status: 'active',
+    keywords: ['day 244', 'diplomatic pause day 88', 'houthi blockade day 102', 'saudi crude halted 95th day', 'midterms 5 days'],
+  },
+  {
+    id: 261,
+    name: 'Lebanon — Day 244; Ceasefire Day 132 Holds; Toll Unchanged',
+    lat: 33.72,
+    lng: 35.59,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 244 (Oct 29): Lebanon ceasefire Day 132 holds — toll unchanged at 4,386 killed / 12,407 wounded. IRGC/CENTCOM diplomatic pause Day 88 — 54th consecutive day without land-based launches. UK-Oman joint Hormuz initiative continuing. US Nov 3 midterms 5 days away. (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 29 2026)',
+    status: 'active',
+    keywords: ['day 244', 'lebanon ceasefire day 132', 'diplomatic pause day 88', 'toll 4386 killed'],
+  },
 ];
 
 export default conflictZones;

@@ -3929,6 +3929,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 243 — diplomatic pause Day 87 — 53rd consecutive day without land-based ballistic missile or drone launches. UK-Oman joint diplomatic initiative continuing — UK FM and Oman FM Albusaidi in contact with both Iran and US sides pursuing a Hormuz framework; no breakthrough reported. Houthi Bab al-Mandab blockade Day 101 — Saudi crude shipments via Red Sea halted 94th consecutive day since July 26. Lebanon ceasefire Day 131 holds — toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). Brent ~$116–117/bbl sustained elevated. US November 3 midterms 6 days away; post-election military options under active review. (Al Jazeera; Reuters; CENTCOM; UKMTO; DoD; Oct 28 2026)',
   },
+  {
+    date: '2026-10-29',
+    event: 'Diplomatic pause Day 88; US midterms 5 days away; Hormuz talks via UK-Oman channel',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 244 — diplomatic pause Day 88 — 54th consecutive day without land-based ballistic missile or drone launches. UK-Oman joint diplomatic initiative continuing — UK FM David Lammy and Oman FM Badr Albusaidi pursuing joint outreach to Iran and US on Hormuz framework; no breakthrough reported. Iran FM Araghchi: 7-day ceasefire and Hormuz reopening conditions still on table via intermediaries. Houthi Bab al-Mandab blockade Day 102 — Saudi crude shipments via Red Sea halted 95th consecutive day since July 26. Lebanon ceasefire Day 132 holds — toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). Brent ~$116–118/bbl sustained elevated. US November 3 midterms 5 days away — post-election military options under active US-Israel joint planning review. (Al Jazeera; Reuters; CENTCOM; UKMTO; DoD; Oct 29 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
