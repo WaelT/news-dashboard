@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-28T13:29Z',
+  updated: '2026-10-29T01:03Z',
 
   current: {
     transitsPerDay: 5,
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 28 (Day 243, Bab al-Mandab blockade Day 101): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 94th consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
+      detail: 'Oct 29 (Day 244, Bab al-Mandab blockade Day 102): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 95th consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 28 (Day 243): UK-Oman joint diplomatic initiative ongoing — UK FM and Oman FM Albusaidi continuing joint approach to Iran and US on Hormuz framework; no breakthrough reported; Iran FM Araghchi: 7-day ceasefire conditions still on table; Oman continues key broker role …',
+      detail: 'Oct 29 (Day 244): UK-Oman joint diplomatic initiative ongoing — UK FM David Lammy and Oman FM Badr Albusaidi continuing joint outreach to Iran and US on Hormuz framework; no breakthrough reported; Iran FM Araghchi: 7-day ceasefire conditions still on table; Oman continues key broker role; US Nov 3 midterms 5 days away …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 27 (Day 242): Brent ~$116–117/bbl sustained elevated (six-month high since Oct 23 close); IEA emergency reserve releases ongoing (announced Oct 16); UKMTO: 28+ attacks since Oct 1 — record high attack rate; NBC: Hormuz ship attacks at record high; IMF: Gulf economy forecast -4.8% in 2026 …',
+      detail: 'Oct 29 (Day 244): Brent ~$116–118/bbl sustained elevated; IEA emergency reserve releases ongoing; UKMTO: Hormuz maritime attacks continuing at record October pace; US-Israel post-midterm strike planning under active joint review; IMF: Gulf economy forecast -4.8% in 2026 …',
     },
   ],
 };
