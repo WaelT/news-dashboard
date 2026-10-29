@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (29 Oct, Day 244): IRGC claims 3 tankers struck mines in southern Hormuz and caught fire — CENTCOM disputes ("Like most IRGC claims, this is false"); IRGC claims US-made drone downed near Sirik/Hormozgan coast; IMO warned Oct 27 that mines are present in Hormuz traffic route and cannot guarantee safe transit; Brent ~$117–119/bbl sustained at six-month high (Al Arabiya; Kurdistan24; IMO; Gulf News; Oct 29 2026) [prior LATEST (26 Oct, Day 241): Brent closed $116.72/bbl Oct 23 (CNBC — six-month high …]',
-    trumpUltimatum: 'LATEST (29 Oct, Day 244): Fox News/US officials: military options against Iran being readied for President Trump ahead of Nov 3 midterm elections — Trump has not made final decision; third US carrier reportedly moving toward region; Iran FM Araghchi says Tehran still passing messages through intermediaries; [prior LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler]',
-    iranThreat: '29 Oct (Day 244): Iran FM Araghchi: Hormuz can reopen in 4–5 days if US lifts naval blockade and conditions met; Iranian security officials reportedly plan attacks on Gulf undersea cables if US/Israel strike again (NewsNation; houseofsaud.com/Reuters; Gulf News; Oct 28–29 2026) [prior 16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard]',
+    tankerRates: 'LATEST (29 Oct, Day 244): IRGC claims 3 tankers struck mines in southern Hormuz and caught fire — CENTCOM disputes ("Lik …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
   },
 
   disruptions: [
