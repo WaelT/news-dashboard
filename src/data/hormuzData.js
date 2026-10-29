@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-29T01:03Z',
+  updated: '2026-10-29',
 
   current: {
     transitsPerDay: 5,
@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 29 (Day 244): UK-Oman joint diplomatic initiative ongoing — UK FM David Lammy and Oman FM Badr Albusaidi continuing joint outreach to Iran and US on Hormuz framework; no breakthrough reported; Iran FM Araghchi: 7-day ceasefire conditions still on table; Oman continues key broker role; US Nov 3 midterms 5 days away …',
+      detail: 'Oct 29 (Day 244): UK-Oman joint diplomatic initiative ongoing — UK FM David Lammy and Oman FM Badr Albusaidi continuing joint outreach to Iran and US on Hormuz framework; no breakthrough reported; Iran FM Araghchi: 7-day ceasefire conditions still on table; Oman continues key broker role …',
     },
     {
       country: 'Asia',
