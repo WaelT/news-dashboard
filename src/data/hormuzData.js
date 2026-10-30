@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (30 Oct, Day 245): Brent $114.88/bbl Oct 29 close (fell from $116.72 six-month high on Vance–Rezaei diplomacy); volatile ~$109–115/bbl; post-midterm (Nov 3) US strike risk premium elevated; CENTCOM declared Hormuz routes "mine-free" Oct 30 — Iran disputes, demands independent verification …',
-    trumpUltimatum: 'LATEST (28–30 Oct): VP Vance wrote to Mohsen Rezaei (Iran SNSC chief) Oct 28 urging nuclear talks to avoid new US strikes; CENTCOM chief Cooper briefed Trump on strike options; regional allies told to "brace"; Iran has not yet responded; CENTCOM Oct 30: Hormuz routes declared "mine-free"; WSJ (21 Oct): ME oil exports ~24 mbd vs pre-war 23.3 mbd per Kpler',
-    iranThreat: 'LATEST (29–30 Oct): UKMTO confirmed Oct 29 dhow sinking near Khasab + tanker struck by unknown projectile; Washington Institute: 30+ Iranian shipping attacks since Oct 1; IMO confirmed 121 maritime incidents since conflict began; 88 total UKMTO-confirmed vessels attacked; Iran disputes CENTCOM mine-free claim, demands independent verification',
+    tankerRates: 'LATEST (30 Oct, Day 245): Brent $114.88/bbl Oct 29 close (fell from $116.72 six-month high on Vance–Rezaei diplomacy) …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 30 (Day 245): UK-Oman joint diplomatic initiative ongoing — UK FM David Lammy and Oman FM Badr Albusaidi joint outreach to Iran and US; CENTCOM declared Hormuz routes "mine-free" Oct 30 — Iran disputes, demands independent verification; VP Vance wrote to Rezaei (Iran SNSC) Oct 28 — Iran has not yet responded; Oman continues key broker role …',
+      detail: 'Oct 30 (Day 245): UK-Oman joint diplomatic initiative ongoing — UK FM David Lammy and Oman FM Badr Albusaidi joint outreach to Iran and US; CENTCOM declared Hormuz routes "mine-free" Oct 30 — Iran disputes, demands independent verification …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 30 (Day 245): Brent $114.88/bbl Oct 29 close (fell on Vance diplomacy from $116.72 six-month high); volatile ~$109–115/bbl; IEA emergency reserve releases ongoing; IMO confirmed 121 maritime incidents since conflict began; Washington Institute: 30+ Iranian attacks on shipping since Oct 1; 88 vessels attacked total; IMF: Gulf economy forecast -4.8% in 2026 …',
+      detail: 'Oct 30 (Day 245): Brent $114.88/bbl Oct 29 close (fell on Vance diplomacy from $116.72 six-month high); volatile ~$109–115/bbl; IEA emergency reserve releases ongoing; IMO confirmed 121 maritime incidents since conflict began; Washington Institute: 30+ Iranian attacks on shipping since Oct 1 …',
     },
   ],
 };
