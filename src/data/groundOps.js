@@ -3672,6 +3672,13 @@ const groundOps = {
       event: "Day 245 — Lebanon ceasefire Day 133 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 89 — 55th consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 103 — Saudi crude halted 96th consecutive day; US midterms 4 days away (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 30 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-10-30',
+      lat: 26.3,
+      lng: 56.5,
+      event: "Day 245 (post-12:00Z) — IRGC claims 3 tankers hit mines in Hormuz hours after CENTCOM mine-free declaration — CENTCOM calls claims 'fabricated'; Iran claims capture of US MQM-170 Altius drone — CENTCOM denies; Qatari Oct 28 draft deal + Vance direct letter to Rezaei unresponded; SecDef Hegseth dismissed senior general (Al Arabiya; CBS News; NewsNation; Gulf News; Oct 30 2026)",
+      type: 'escalation',
+    },
   ],
 };
 

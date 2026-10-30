@@ -3943,6 +3943,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 245 — diplomatic pause Day 89 — 55th consecutive day without land-based ballistic missile or drone launches. CENTCOM publicly declared all internationally recognized primary transit routes through the Strait of Hormuz have been cleared of sea mines by US naval forces; Iran disputed the claim and demanded independent verification. The International Maritime Organization confirmed 121 maritime security incidents involving commercial vessels across the region since the conflict began in late February. UKMTO Oct 29 confirmed incidents: dhow fire and sinking ~9 NM north of Khasab + tanker struck by unknown projectile ~1600 GMT — total vessels attacked now 88. Brent crude ~$109–115/bbl volatile: fell from $116.72 six-month high on VP Vance–Rezaei channel optimism, kept elevated by post-midterm strike pressure; Brent Oct 29 close $114.88/bbl. Lebanon ceasefire Day 133 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 103 — Saudi crude halted 96th consecutive day. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). US November 3 midterms 4 days away — post-election military options under active review. (CENTCOM; IMO; UKMTO; Reuters; Al Jazeera; DoD; Oct 30 2026)',
   },
+  {
+    date: '2026-10-30',
+    event: 'IRGC claims 3 tankers hit mines; Iran claims US drone captured; Qatari draft deal Oct 28; Vance direct letter to Rezaei',
+    type: 'escalation',
+    status: 'stalled',
+    detail: 'Day 245 (post-12:00Z update) — Hours after CENTCOM\'s mine-free declaration, the IRGC claimed three oil tankers caught fire after striking mines in the Strait of Hormuz; CENTCOM called the claims "fabricated." Iran\'s Revolutionary Guards separately claimed to have captured a US MQM-170 Altius drone; CENTCOM denied. On Oct 28, Qatari mediators presented Iran with a new draft deal to end the war, setting a seven-day timeline with daily confidence-building steps; Iran was expected to respond within the week but had not done so as of Oct 30. VP Vance sent a direct letter to Mohsen Rezaei (Iran SNSC secretary) on Oct 28, opening a direct channel alongside the Qatari intermediary track; Iran has not yet responded to either. Iran\'s FM Araghchi said Tehran "continues to review ideas for a diplomatic solution." US Secretary of Defense Hegseth dismissed a senior general amid growing internal pressure over the war\'s direction. (Al Arabiya; CBS News; NewsNation; Gulf News; Iran International; Daily Maverick; roic.ai; Oct 30 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {

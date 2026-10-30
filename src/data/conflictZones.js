@@ -2106,6 +2106,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 245', 'lebanon ceasefire day 133', 'diplomatic pause day 89', 'toll 4386 killed', 'midterms 4 days'],
   },
+  {
+    id: 264,
+    name: 'Strait of Hormuz — IRGC Claims 3 Tankers Hit Mines; Iran Claims US Drone Captured; CENTCOM Denies Both',
+    lat: 26.3,
+    lng: 56.5,
+    type: 'naval',
+    icon: 'explosion',
+    description: 'Day 245 (Oct 30, post-12:00Z): Hours after CENTCOM declared Hormuz transit routes mine-free, Iran\'s IRGC claimed three oil tankers caught fire after striking mines in the strait. Iran separately claimed capture of a US MQM-170 Altius drone; CENTCOM denied both claims, calling the mine reports "fabricated." Qatari mediators had presented Iran with a new draft deal to end the war on Oct 28; Iran under review and has not yet responded to Vance direct letter. US midterms Nov 3 — 4 days away. (Al Arabiya; CBS News; NewsNation; Gulf News; Iran International; Oct 30 2026)',
+    status: 'critical',
+    keywords: ['irgc mine claims', 'tankers hit mines', 'centcom denies', 'us drone captured mqm-170', 'qatari draft deal', 'vance rezaei letter'],
+  },
 ];
 
 export default conflictZones;
