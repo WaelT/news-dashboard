@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-29',
+  updated: '2026-10-30',
 
   current: {
     transitsPerDay: 5,
@@ -59,21 +59,21 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 86,    // +1 Oct 22 UKMTO: tanker struck by unknown projectile 7 NM NE of Limah, Oman at 17:15 UTC — delayed UKMTO advisory issued Oct 24; vessel continued voyage, no casualties; prior 85: +1 Oct 21 2026: UKMTO M/T Al Dasma struck 11 NM west of Bukha — fire, 21 Indian crew safe; +4 Oct 22: IRGC Navy claimed 4 vessels struck during ship-to-ship transfers in northern Persian Gulf (unverified — no vessel names/flags from IRGC); 3 additional IRGC mine claims Oct 22 disputed by CENTCOM ("Like most IRGC claims, this is false") — not counted; prior 80: +2 Oct 17–18 IRGC mine claims (CENTCOM disputed both); prior 78: +2 Oct 15–16; prior 76: +2 Oct 14; prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
+    vesselsAttacked: 88,    // +2 Oct 29 UKMTO confirmed: (1) dhow fire/sinking ~9 NM north of Khasab — crew evacuated; (2) tanker struck unknown projectile ~1600 GMT outbound Hormuz — crew safe; IRGC separately claimed 3 oil tankers hit mines (CENTCOM disputed — not counted); prior 86: +1 Oct 22 UKMTO Limah tanker; prior 85: +1 Oct 21 UKMTO M/T Al Dasma; prior 80: +2 Oct 17–18; prior 78: +2 Oct 15–16; prior 76: +2 Oct 14; prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
     seafarersKilled: 24,    // No new confirmed deaths Oct 13–14 (crew safe in Oct 14 UKMTO incidents); prior 24: +1 Aug 18 Minoan Dignity (chief engineer; CNBC/NBC News); +1 Jul 31 Hormuz (AOL); 17 prior confirmed including Jun 10 MT Settebello, Jul 12 GFS Galaxy (Indian), Jul 14 M/V Mombasa (Indian)
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (29 Oct, Day 244): IRGC claims 3 tankers struck mines in southern Hormuz and caught fire — CENTCOM disputes ("Lik …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
-    iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
+    tankerRates: 'LATEST (30 Oct, Day 245): Brent $114.88/bbl Oct 29 close (fell from $116.72 six-month high on Vance–Rezaei diplomacy); volatile ~$109–115/bbl; post-midterm (Nov 3) US strike risk premium elevated; CENTCOM declared Hormuz routes "mine-free" Oct 30 — Iran disputes, demands independent verification …',
+    trumpUltimatum: 'LATEST (28–30 Oct): VP Vance wrote to Mohsen Rezaei (Iran SNSC chief) Oct 28 urging nuclear talks to avoid new US strikes; CENTCOM chief Cooper briefed Trump on strike options; regional allies told to "brace"; Iran has not yet responded; CENTCOM Oct 30: Hormuz routes declared "mine-free"; WSJ (21 Oct): ME oil exports ~24 mbd vs pre-war 23.3 mbd per Kpler',
+    iranThreat: 'LATEST (29–30 Oct): UKMTO confirmed Oct 29 dhow sinking near Khasab + tanker struck by unknown projectile; Washington Institute: 30+ Iranian shipping attacks since Oct 1; IMO confirmed 121 maritime incidents since conflict began; 88 total UKMTO-confirmed vessels attacked; Iran disputes CENTCOM mine-free claim, demands independent verification',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 29 (Day 244, Bab al-Mandab blockade Day 102): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 95th consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
+      detail: 'Oct 30 (Day 245, Bab al-Mandab blockade Day 103): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 96th consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 29 (Day 244): UK-Oman joint diplomatic initiative ongoing — UK FM David Lammy and Oman FM Badr Albusaidi continuing joint outreach to Iran and US on Hormuz framework; no breakthrough reported; Iran FM Araghchi: 7-day ceasefire conditions still on table; Oman continues key broker role …',
+      detail: 'Oct 30 (Day 245): UK-Oman joint diplomatic initiative ongoing — UK FM David Lammy and Oman FM Badr Albusaidi joint outreach to Iran and US; CENTCOM declared Hormuz routes "mine-free" Oct 30 — Iran disputes, demands independent verification; VP Vance wrote to Rezaei (Iran SNSC) Oct 28 — Iran has not yet responded; Oman continues key broker role …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 29 (Day 244): Brent ~$116–118/bbl sustained elevated; IEA emergency reserve releases ongoing; UKMTO: Hormuz maritime attacks continuing at record October pace; US-Israel post-midterm strike planning under active joint review; IMF: Gulf economy forecast -4.8% in 2026 …',
+      detail: 'Oct 30 (Day 245): Brent $114.88/bbl Oct 29 close (fell on Vance diplomacy from $116.72 six-month high); volatile ~$109–115/bbl; IEA emergency reserve releases ongoing; IMO confirmed 121 maritime incidents since conflict began; Washington Institute: 30+ Iranian attacks on shipping since Oct 1; 88 vessels attacked total; IMF: Gulf economy forecast -4.8% in 2026 …',
     },
   ],
 };

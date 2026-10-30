@@ -3936,6 +3936,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 244 — diplomatic pause Day 88 — 54th consecutive day without land-based ballistic missile or drone launches. UK-Oman joint diplomatic initiative continuing — UK FM David Lammy and Oman FM Badr Albusaidi pursuing joint outreach to Iran and US on Hormuz framework; no breakthrough reported. Iran FM Araghchi: 7-day ceasefire and Hormuz reopening conditions still on table via intermediaries. Houthi Bab al-Mandab blockade Day 102 — Saudi crude shipments via Red Sea halted 95th consecutive day since July 26. Lebanon ceasefire Day 132 holds — toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). Brent ~$116–118/bbl sustained elevated. US November 3 midterms 5 days away — post-election military options under active US-Israel joint planning review. (Al Jazeera; Reuters; CENTCOM; UKMTO; DoD; Oct 29 2026)',
   },
+  {
+    date: '2026-10-30',
+    event: 'CENTCOM declares Hormuz routes mine-free; Iran disputes; IMO: 121 maritime incidents; midterms 4 days away',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 245 — diplomatic pause Day 89 — 55th consecutive day without land-based ballistic missile or drone launches. CENTCOM publicly declared all internationally recognized primary transit routes through the Strait of Hormuz have been cleared of sea mines by US naval forces; Iran disputed the claim and demanded independent verification. The International Maritime Organization confirmed 121 maritime security incidents involving commercial vessels across the region since the conflict began in late February. UKMTO Oct 29 confirmed incidents: dhow fire and sinking ~9 NM north of Khasab + tanker struck by unknown projectile ~1600 GMT — total vessels attacked now 88. Brent crude ~$109–115/bbl volatile: fell from $116.72 six-month high on VP Vance–Rezaei channel optimism, kept elevated by post-midterm strike pressure; Brent Oct 29 close $114.88/bbl. Lebanon ceasefire Day 133 holds — toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 103 — Saudi crude halted 96th consecutive day. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). US November 3 midterms 4 days away — post-election military options under active review. (CENTCOM; IMO; UKMTO; Reuters; Al Jazeera; DoD; Oct 30 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {

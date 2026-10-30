@@ -2084,6 +2084,28 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 244', 'lebanon ceasefire day 132', 'diplomatic pause day 88', 'toll 4386 killed'],
   },
+  {
+    id: 262,
+    name: 'Strait of Hormuz — Day 245; CENTCOM Declares Routes Mine-Free; Iran Disputes; 88 Vessels Attacked',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'naval',
+    icon: 'explosion',
+    description: 'Day 245 (Oct 30): CENTCOM declared all internationally recognized Hormuz primary transit routes cleared of sea mines — Iran disputed the claim and demanded independent verification. IMO confirmed 121 maritime security incidents since conflict began. Total vessels attacked: 88 (UKMTO confirmed +2 Oct 29: dhow sinking near Khasab + tanker projectile strike). Brent ~$109–115/bbl volatile. Vance–Rezaei channel active; Iran has not yet responded. US midterms 4 days away. (CENTCOM; IMO; UKMTO; Reuters; Oct 30 2026)',
+    status: 'critical',
+    keywords: ['day 245', 'centcom hormuz mine-free', 'iran disputes', 'vessels attacked 88', 'imo 121 incidents'],
+  },
+  {
+    id: 263,
+    name: 'Lebanon — Day 245; Ceasefire Day 133 Holds; Toll Unchanged',
+    lat: 33.72,
+    lng: 35.59,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 245 (Oct 30): Lebanon ceasefire Day 133 holds — toll unchanged at 4,386 killed / 12,407 wounded. IRGC/CENTCOM diplomatic pause Day 89 — 55th consecutive day without land-based launches. Houthi Bab al-Mandab blockade Day 103. US Nov 3 midterms 4 days away — post-election military options under active review. (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 30 2026)',
+    status: 'active',
+    keywords: ['day 245', 'lebanon ceasefire day 133', 'diplomatic pause day 89', 'toll 4386 killed', 'midterms 4 days'],
+  },
 ];
 
 export default conflictZones;

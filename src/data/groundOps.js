@@ -1,7 +1,7 @@
 // Ground operations data — Israel invasion of southern Lebanon
 // Sources: Al Jazeera, CNN, IDF briefings
 const groundOps = {
-  updated: 'OCTOBER 27, 2026 (DAY 242 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 86; NO NEW LAND-BASED LAUNCHES (52ND CONSECUTIVE PAUSE DAY); UK-OMAN JOINT HORMUZ DIPLOMATIC INITIATIVE ADVANCING; HOUTHI BAB AL-MANDAB BLOCKADE DAY 100 (MILESTONE); SAUDI CRUDE HALTED 93RD DAY; LEBANON CEASEFIRE DAY 130; BRENT ~$116–117/BBL (SIX-MONTH HIGH); USA KIA 26 / WOUNDED 865 PER PENTAGON DCAS)',
+  updated: 'OCTOBER 30, 2026 (DAY 245 — IRGC/CENTCOM DIPLOMATIC PAUSE DAY 89; NO NEW LAND-BASED LAUNCHES (55TH CONSECUTIVE PAUSE DAY); CENTCOM DECLARED HORMUZ ROUTES MINE-FREE — IRAN DISPUTES; VANCE LETTER TO REZAEI (IRAN SNSC) OCT 28; 88 VESSELS ATTACKED TOTAL; BRENT ~$109–115/BBL VOLATILE; HOUTHI BAB AL-MANDAB BLOCKADE DAY 103; SAUDI CRUDE HALTED 96TH DAY; LEBANON CEASEFIRE DAY 133; USA KIA 26 / WOUNDED 865 PER PENTAGON DCAS)',
   status: 'CEASEFIRE',
   startDate: '2026-03-16',
 
@@ -3656,6 +3656,20 @@ const groundOps = {
       lat: 33.72,
       lng: 35.59,
       event: "Day 244 — Lebanon ceasefire Day 132 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 88 — 54th consecutive day without land-based launches (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 29 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-10-30',
+      lat: 26.5,
+      lng: 56.3,
+      event: "Day 245 — Diplomatic pause Day 89 — 55th consecutive land-launch-free day; CENTCOM declared Hormuz transit routes 'mine-free'; Iran disputes, demands independent verification; IMO: 121 maritime incidents since conflict began; 88 vessels attacked total; Brent ~$109–115/bbl volatile; US midterms Nov 3 — 4 days away (CENTCOM; IMO; Reuters; Al Jazeera; Oct 30 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-10-30',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 245 — Lebanon ceasefire Day 133 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 89 — 55th consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 103 — Saudi crude halted 96th consecutive day; US midterms 4 days away (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 30 2026)",
       type: 'ceasefire',
     },
   ],
