@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (30 Oct, Day 245): Brent $114.88/bbl Oct 29 close (fell from $116.72 six-month high on Vance–Rezaei diplomacy) …',
+    tankerRates: 'LATEST (30 Oct, Day 245): Brent $114.88/bbl Oct 29 close (fell from $116.72 six-month high on Vance–Rezaei diplomacy); IRGC mine claims vs. CENTCOM mine-free declaration deepening uncertainty; Qatari mediators Oct 28 new draft — Iran reviewing; Vance letter to Rezaei direct channel active (Gulf News; Iran International; roic.ai; Oct 30 2026).',
     trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
-    iranThreat: '16 Oct: the Tanzania-flagged supertanker Loyalty was struck by a rocket-propelled grenade launched from a small boat, according to maritime security company Vanguard',
+    iranThreat: '30 Oct (Day 245): IRGC claims 3 tankers caught fire after striking mines — directly contradicting CENTCOM mine-free declaration; CENTCOM called IRGC claims "fabricated"; Iran also claims captured US MQM-170 Altius drone (CENTCOM denies; Al Arabiya; CBS News; NewsNation; Oct 30 2026). 16 Oct: Tanzania-flagged supertanker Loyalty struck by RPG from small boat (maritime security firm Vanguard).',
   },
 
   disruptions: [
