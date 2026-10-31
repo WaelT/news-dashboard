@@ -3950,6 +3950,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 245 (post-12:00Z update) — Hours after CENTCOM\'s mine-free declaration, the IRGC claimed three oil tankers caught fire after striking mines in the Strait of Hormuz; CENTCOM called the claims "fabricated." Iran\'s Revolutionary Guards separately claimed to have captured a US MQM-170 Altius drone; CENTCOM denied. On Oct 28, Qatari mediators presented Iran with a new draft deal to end the war, setting a seven-day timeline with daily confidence-building steps; Iran was expected to respond within the week but had not done so as of Oct 30. VP Vance sent a direct letter to Mohsen Rezaei (Iran SNSC secretary) on Oct 28, opening a direct channel alongside the Qatari intermediary track; Iran has not yet responded to either. Iran\'s FM Araghchi said Tehran "continues to review ideas for a diplomatic solution." US Secretary of Defense Hegseth dismissed a senior general amid growing internal pressure over the war\'s direction. (Al Arabiya; CBS News; NewsNation; Gulf News; Iran International; Daily Maverick; roic.ai; Oct 30 2026)',
   },
+  {
+    date: '2026-10-31',
+    event: 'Diplomatic Pause Day 90 — Qatari Draft Deal Under Iranian Review; UK-Oman Initiative Ongoing; US Midterms 3 Days Away',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 246 (Oct 31) — IRGC/CENTCOM diplomatic pause Day 90 — 56th consecutive day without land-based kinetic exchanges (milestone). Qatari draft deal presented Oct 28 and Vance direct letter to Mohsen Rezaei (Iran SNSC secretary) both remain unresponded to; Iran FM Araghchi maintains Tehran is "reviewing" proposals. UK-Oman joint diplomatic initiative continuing — UK FM David Lammy and Oman FM Badr Albusaidi in joint outreach to both Iran and US sides on a Hormuz framework agreement. Lebanon ceasefire Day 134 holds; toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 104 — Saudi crude halted 97th consecutive day since July 26. US November 3 midterms 3 days away — post-election military options under active review by US-Israel joint planning cell. Brent ~$109–115/bbl volatile. (Al Jazeera; Reuters; CENTCOM; UK FCO; Oct 31 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {

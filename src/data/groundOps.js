@@ -3679,6 +3679,20 @@ const groundOps = {
       event: "Day 245 (post-12:00Z) — IRGC claims 3 tankers hit mines in Hormuz hours after CENTCOM mine-free declaration — CENTCOM calls claims 'fabricated'; Iran claims capture of US MQM-170 Altius drone — CENTCOM denies; Qatari Oct 28 draft deal + Vance direct letter to Rezaei unresponded; SecDef Hegseth dismissed senior general (Al Arabiya; CBS News; NewsNation; Gulf News; Oct 30 2026)",
       type: 'escalation',
     },
+    {
+      date: '2026-10-31',
+      lat: 26.5,
+      lng: 56.3,
+      event: "Day 246 — Diplomatic pause Day 90 — 56th consecutive land-launch-free day (milestone); Lebanon ceasefire Day 134 holds (4,386/12,407); Houthi Bab al-Mandab blockade Day 104 — Saudi crude halted 97th consecutive day; Qatari draft deal + Vance direct letter to Rezaei — Iran under review; UK-Oman joint initiative ongoing; US midterms Nov 3 — 3 days away (CENTCOM; Reuters; Al Jazeera; Oct 31 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-10-31',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 246 — Lebanon ceasefire Day 134 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 90 — 56th consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 104 — Saudi crude halted 97th consecutive day; US midterms 3 days away (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Oct 31 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 
