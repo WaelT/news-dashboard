@@ -3957,6 +3957,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 246 (Oct 31) — IRGC/CENTCOM diplomatic pause Day 90 — 56th consecutive day without land-based kinetic exchanges (milestone). Qatari draft deal presented Oct 28 and Vance direct letter to Mohsen Rezaei (Iran SNSC secretary) both remain unresponded to; Iran FM Araghchi maintains Tehran is "reviewing" proposals. UK-Oman joint diplomatic initiative continuing — UK FM David Lammy and Oman FM Badr Albusaidi in joint outreach to both Iran and US sides on a Hormuz framework agreement. Lebanon ceasefire Day 134 holds; toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 104 — Saudi crude halted 97th consecutive day since July 26. US November 3 midterms 3 days away — post-election military options under active review by US-Israel joint planning cell. Brent ~$109–115/bbl volatile. (Al Jazeera; Reuters; CENTCOM; UK FCO; Oct 31 2026)',
   },
+  {
+    date: '2026-11-01',
+    event: 'Diplomatic Pause Day 91 — Iran Reviewing Qatari Draft Deal; US Midterms 2 Days Away; Hormuz Talks Stalled',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 247 (Nov 1) — IRGC/CENTCOM diplomatic pause Day 91 — 57th consecutive day without land-based kinetic exchanges. Qatari draft deal presented Oct 28 and Vance direct letter to Mohsen Rezaei (Iran SNSC secretary) remain unresponded to; Iran FM Araghchi says Tehran continues to "review" all proposals. UK-Oman joint diplomatic initiative continuing — UK FM David Lammy and Oman FM Badr Albusaidi maintaining joint outreach to Iran and US sides on a Hormuz framework. Lebanon ceasefire Day 135 holds; toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 105 — Saudi crude halted 98th consecutive day since July 26. US November 3 midterms 2 days away — US-Israel post-election concentrated strike options remain under active joint planning review. Brent ~$109–115/bbl volatile. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; Reuters; CENTCOM; UK FCO; Nov 1 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {

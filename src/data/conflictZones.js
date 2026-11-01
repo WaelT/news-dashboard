@@ -2128,6 +2128,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 246', 'lebanon ceasefire day 134', 'diplomatic pause day 90', 'houthi blockade day 104', 'midterms 3 days', 'qatari draft deal'],
   },
+  {
+    id: 266,
+    name: 'Diplomatic Pause Day 91 — Lebanon Ceasefire Day 135; Houthi Blockade Day 105; Midterms 2 Days Away',
+    lat: 33.72,
+    lng: 35.59,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 247 (Nov 1): Lebanon ceasefire Day 135 holds — toll unchanged at 4,386 killed / 12,407 wounded. IRGC/CENTCOM diplomatic pause Day 91 — 57th consecutive day without land-based launches. Houthi Bab al-Mandab blockade Day 105 — Saudi crude halted 98th consecutive day. Qatari draft deal Oct 28 + Vance direct letter to Rezaei — Iran still reviewing. UK-Oman joint diplomatic initiative ongoing. US Nov 3 midterms 2 days away — post-election concentrated strike options under active review. (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 1 2026)',
+    status: 'active',
+    keywords: ['day 247', 'lebanon ceasefire day 135', 'diplomatic pause day 91', 'houthi blockade day 105', 'midterms 2 days', 'qatari draft deal'],
+  },
 ];
 
 export default conflictZones;
