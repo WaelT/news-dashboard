@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-10-31',
+  updated: '2026-11-01',
 
   current: {
     transitsPerDay: 5,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (30 Oct, Day 245): Brent $114.88/bbl Oct 29 close (fell from $116.72 six-month high on Vance–Rezaei diplomacy) …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
-    iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    tankerRates: 'LATEST (1 Nov, Day 247): Brent ~$109–115/bbl volatile; fell from $116.72 six-month high (Oct 23) on Vance–Rezaei diplomacy optimism; sustained elevated on post-midterm strike fears; US midterms Nov 3 — 2 days away; post-election concentrated strike options under active US-Israel joint planning review …',
+    trumpUltimatum: 'LATEST (1 Nov): Diplomatic pause Day 91 — Qatari draft deal (Oct 28) and Vance direct letter to Rezaei (Oct 28) both unresponded to by Iran; UK-Oman joint initiative continuing; CENTCOM: 3,000+ commercial vessels transited Hormuz with US escort since Operation Epic Fury; Middle East oil exports >24 mbd week ending Oct 18 (Kpler) — exceeding pre-war 23.3 mbd',
+    iranThreat: 'Oct 30 (CENTCOM): declared Hormuz transit routes "mine-free" — Iran disputed, demanded independent verification; IRGC claimed 3 tankers hit mines hours later — CENTCOM called claim "fabricated"; IMO confirmed 121 maritime incidents since conflict began; 14 Oct: Singapore-flagged GFS Pride sank after Strait attack',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Oct 30 (Day 245, Bab al-Mandab blockade Day 103): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 96th consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
+      detail: 'Nov 1 (Day 247, Bab al-Mandab blockade Day 105): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 98th consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing; US November 3 midterms 2 days away — post-election military options under active review …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Oct 30 (Day 245): UK-Oman joint diplomatic initiative ongoing — UK FM David Lammy and Oman FM Badr Albusaidi joint outreach to Iran and US; CENTCOM declared Hormuz routes "mine-free" Oct 30 — Iran disputes, demands independent verification …',
+      detail: 'Nov 1 (Day 247): UK-Oman joint diplomatic initiative ongoing — UK FM David Lammy and Oman FM Badr Albusaidi continuing joint outreach to Iran and US on Hormuz framework; CENTCOM declared Hormuz routes "mine-free" Oct 30 — Iran disputes, demands independent verification; 57th consecutive day without land-based launches; US midterms Nov 3 — 2 days away …',
     },
     {
       country: 'Asia',
-      detail: 'Oct 30 (Day 245): Brent $114.88/bbl Oct 29 close (fell on Vance diplomacy from $116.72 six-month high); volatile ~$109–115/bbl; IEA emergency reserve releases ongoing; IMO confirmed 121 maritime incidents since conflict began; Washington Institute: 30+ Iranian attacks on shipping since Oct 1 …',
+      detail: 'Nov 1 (Day 247): Brent ~$109–115/bbl volatile; fell from $116.72 six-month high (Oct 23) on Vance–Rezaei diplomacy optimism, sustained by post-midterm strike pressure; IEA emergency reserve releases ongoing; IMO confirmed 121 maritime incidents since conflict began; CENTCOM: 3,000+ commercial vessels transited Hormuz with escort support since Epic Fury launch; US midterms Nov 3 …',
     },
   ],
 };
