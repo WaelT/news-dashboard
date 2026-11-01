@@ -352,6 +352,8 @@ const casualtyTimeline = [
   { date: '2026-10-30', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 246: IRGC/CENTCOM diplomatic pause Day 90 — no confirmed new land-based launches for 56th consecutive day (milestone); Lebanon ceasefire Day 134 holds (toll unchanged 4,386/12,407); Houthi Bab al-Mandab blockade Day 104 — Saudi crude halted 97th consecutive day; Qatari draft deal Oct 28 + Vance direct letter to Rezaei — Iran still reviewing; UK-Oman joint Hormuz initiative ongoing; US midterms 3 days away (Nov 3); no new confirmed casualties from official sources; no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); all figures trajectory-based; Wikipedia API DNS failure (Al Jazeera; Reuters; CENTCOM; DoD; Oct 31 2026)
   { date: '2026-10-31', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 247: IRGC/CENTCOM diplomatic pause Day 91 — no confirmed new land-based launches for 57th consecutive day; Lebanon ceasefire Day 135 holds (toll unchanged 4,386/12,407); Houthi Bab al-Mandab blockade Day 105 — Saudi crude halted 98th consecutive day; Qatari draft deal Oct 28 + Vance direct letter to Rezaei — Iran still reviewing; UK-Oman joint Hormuz initiative ongoing; US midterms 2 days away (Nov 3) — post-election military options under active review; no new confirmed casualties from official sources; no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); all figures trajectory-based; Wikipedia scrape failed (network) (Al Jazeera; Reuters; CENTCOM; DoD; Nov 1 2026)
+  { date: '2026-11-01', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;
