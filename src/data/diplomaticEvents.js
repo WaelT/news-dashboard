@@ -3964,6 +3964,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 247 (Nov 1) — IRGC/CENTCOM diplomatic pause Day 91 — 57th consecutive day without land-based kinetic exchanges. Qatari draft deal presented Oct 28 and Vance direct letter to Mohsen Rezaei (Iran SNSC secretary) remain unresponded to; Iran FM Araghchi says Tehran continues to "review" all proposals. UK-Oman joint diplomatic initiative continuing — UK FM David Lammy and Oman FM Badr Albusaidi maintaining joint outreach to Iran and US sides on a Hormuz framework. Lebanon ceasefire Day 135 holds; toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 105 — Saudi crude halted 98th consecutive day since July 26. US November 3 midterms 2 days away — US-Israel post-election concentrated strike options remain under active joint planning review. Brent ~$109–115/bbl volatile. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; Reuters; CENTCOM; UK FCO; Nov 1 2026)',
   },
+  {
+    date: '2026-11-02',
+    event: 'Diplomatic Pause Day 92 — Iran "Wants to Talk" per Trump; US Midterms 1 Day Away; CENTCOM-IDF Strike Talks',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 248 (Nov 2) — IRGC/CENTCOM diplomatic pause Day 92 — 58th consecutive day without land-based kinetic exchanges. Trump says Iran "wants to talk" and war will be resolved "one way or the other." Iran FM Araghchi says consultations are "ongoing" but there is "no definitive conclusion yet — it depends on the other side\'s answers." US officials told Middle East partners to prepare for possible renewed military action after Nov 3 midterms; senior CENTCOM and IDF officials held weekend discussions on the possibility of renewed US combat against Iran within days (KANN/Sh1n.org). Qatari draft deal (Oct 28) and Vance direct letter to Rezaei remain without Iranian response. UK-Oman joint diplomatic initiative continuing. Lebanon ceasefire Day 136 holds; toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 106 — Saudi crude halted 99th consecutive day since July 26. UKMTO: 90 vessels attacked total (+1 Oct 30 Qatar LNG Al Mayeda, +1 Nov 1 unknown projectile strike). No new US KIA (26 total per DoD; 865 wounded). (CBS News; Al Jazeera; Reuters; CENTCOM; UKMTO; KANN/Sh1n; Nov 2 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
