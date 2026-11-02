@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (2 Nov, Day 248): Brent ~$109–115/bbl volatile; sustained by post-midterm US-Israel strike pressure …',
+    tankerRates: 'LATEST (2 Nov 14:00 UTC, Day 248): Brent ~$109–115/bbl volatile; IRGC spokesman Mohebbi on X claims CENTCOM vessels/drones "sank" in Hormuz — responding to Adm. Cooper\'s Oct 30 "no IRGC in Strait" overflight declaration; IRGC claims 11 tankers caught fire in Hormuz since Cooper\'s visit — CENTCOM disputes all (ABNA/IRGC; Roya News; Nov 2 2026); sustained by post-midterm US-Israel strike pressure …',
     trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
     iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
