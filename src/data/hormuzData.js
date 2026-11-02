@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (2 Nov, Day 248): Brent ~$109–115/bbl volatile; sustained by post-midterm US-Israel strike pressure; fell from $116.72 six-month high (Oct 23) on Vance–Rezaei diplomacy optimism; US Nov 3 midterms 1 day away — post-election military options under active CENTCOM-IDF review; IEA emergency reserve releases ongoing; Oman rescued 25 seafarers from burning merchant ship Nov 1; Iran offered 2-day Hormuz reopening framework via Qatar mediation but conditions contested …',
-    trumpUltimatum: 'LATEST (2 Nov): Trump says Iran "wants to talk" and war will be put away "one way or the other" before midterms. US officials told Middle East partners to prepare for possible renewed action after Nov 3 midterms. Prior (21 Oct): WSJ reported Middle Eastern oil exports averaged more than 24 million bpd in week ending Oct 18 (Kpler), exceeding pre-war 23.3 mbd',
-    iranThreat: 'LATEST (2 Nov): Iran FM Araghchi says consultations are ongoing but "no definitive conclusion yet — it depends on the other side\'s answers." IRGC claimed 2 oil tankers hit mines Nov 1 — CENTCOM disputed. IRGC offered 2-day Hormuz reopening plan via Qatari mediators — US reviewing. Prior: 14 Oct: Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    tankerRates: 'LATEST (2 Nov, Day 248): Brent ~$109–115/bbl volatile; sustained by post-midterm US-Israel strike pressure …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 2 (Day 248, Bab al-Mandab blockade Day 106): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 99th consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing; Houthi drone attacks on Saudi airports ongoing; Riyadh airport previously closed Oct 14–17 following drone strike …',
+      detail: 'Nov 2 (Day 248, Bab al-Mandab blockade Day 106): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 99th consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 2 (Day 248): UK-Oman joint diplomatic initiative ongoing — UK FM David Lammy and Oman FM Badr Albusaidi continuing joint outreach to Iran and US on Hormuz framework; Oman rescued 25 seafarers from burning merchant ship Nov 1 following attack; CENTCOM declared Hormuz routes "mine-free" Oct 30 — Iran disputes, demands independent verification; Iran offered 2-day Hormuz reopening plan via Qatar mediation; Iran FM Araghchi: "no definitive conclusion yet" …',
+      detail: 'Nov 2 (Day 248): UK-Oman joint diplomatic initiative ongoing — UK FM David Lammy and Oman FM Badr Albusaidi continuing joint outreach to Iran and US on Hormuz framework; Oman rescued 25 seafarers from burning merchant ship Nov 1 following attack …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 2 (Day 248): Brent ~$109–115/bbl volatile; sustained by post-midterm US-Israel strike pressure (midterms Nov 3 — 1 day away); fell from $116.72 six-month high (Oct 23); IEA emergency reserve releases ongoing; IMO confirmed 121+ maritime incidents since conflict began; IRGC claimed mines struck 2 tankers Nov 1 (CENTCOM disputed); Japan, South Korea, India diverting crude away from Gulf routes where possible; Asian LNG premiums elevated …',
+      detail: 'Nov 2 (Day 248): Brent ~$109–115/bbl volatile; sustained by post-midterm US-Israel strike pressure (midterms Nov 3 — 1 day away); fell from $116.72 six-month high (Oct 23); IEA emergency reserve releases ongoing; IMO confirmed 121+ maritime incidents since conflict began …',
     },
   ],
 };
