@@ -65,8 +65,8 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (3 Nov, Day 249): Brent ~$99–100/bbl after 2-day back-to-back 7%+ drops — Nov 2: Brent fell to ~$106–107 (CNBC: WTI fell 7.4% to $96.46 on peace-talk hopes ahead of US midterms); Nov 3: fell further ~7% as Iran offered to reopen Hormuz in 2 days; down sharply from $116.72 six-month high Oct 23 and $114.88 Oct 29 close',
-    trumpUltimatum: 'LATEST (3 Nov): VP Vance says Washington sees "progress" in indirect peace talks with Iran; Tehran says "ball is in US court" — insists US must lift naval blockade before any deal; Iran offered to reopen Hormuz within 2 days if demands met; Qatari mediators back in Tehran for talks (Times of Israel Nov 2)',
+    tankerRates: 'LATEST (3 Nov, Day 249): Brent ~$99–100/bbl after 2-day back-to-back 7%+ drops — Nov 2: Brent fell to ~$106–107 (CNBC: W …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
     iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 3 (Day 249): VP Vance says Washington sees "progress" in indirect peace talks with Iran; Tehran says "ball is in US court"; Iran offered to reopen Hormuz in 2 days; Qatari mediators back in Tehran Nov 2; UK-Oman joint diplomatic initiative ongoing; CENTCOM declared Hormuz routes "mine-free" Oct 30 — Iran disputes, demands independent verification …',
+      detail: 'Nov 3 (Day 249): VP Vance says Washington sees "progress" in indirect peace talks with Iran; Tehran says "ball is in US court"; Iran offered to reopen Hormuz in 2 days; Qatari mediators back in Tehran Nov 2; UK-Oman joint diplomatic initiative ongoing …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 3 (Day 249): Brent fell to ~$99–100/bbl after back-to-back 7%+ drops Nov 2–3 on Iran Hormuz-reopening offer and US midterms diplomacy hopes; down from $116.72 six-month high Oct 23 and $114.88 Oct 29; IEA emergency reserve releases ongoing; IMO confirmed 121+ maritime incidents since conflict began; IRGC claimed 2 tankers hit mines Nov 2 (CENTCOM did not confirm) …',
+      detail: 'Nov 3 (Day 249): Brent fell to ~$99–100/bbl after back-to-back 7%+ drops Nov 2–3 on Iran Hormuz-reopening offer and US midterms diplomacy hopes; down from $116.72 six-month high Oct 23 and $114.88 Oct 29; IEA emergency reserve releases ongoing …',
     },
   ],
 };
