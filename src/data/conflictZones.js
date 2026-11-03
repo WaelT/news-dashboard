@@ -2150,6 +2150,28 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 248', 'lebanon ceasefire day 136', 'diplomatic pause day 92', 'houthi blockade day 106', 'midterms 1 day', 'iran wants to talk', 'centcom idf strike talks'],
   },
+  {
+    id: 268,
+    name: 'US Midterm Election Day — Diplomatic Pause Day 93; Vance Sees "Progress"; Iran Offers 2-Day Hormuz Reopening; Brent ~$99',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 249 (Nov 3): US MIDTERM ELECTION DAY — all 435 House seats, 34 Senate seats, and 36 governorships at stake. IRGC/CENTCOM diplomatic pause Day 93 — 59th consecutive day without land-based launches. VP JD Vance said Washington sees "progress" in indirect peace talks with Iran. Tehran said the "ball is in the US court" and insisted Washington must lift its naval blockade before any agreement. Iran offered to reopen the Strait of Hormuz within two days if its demands are met. Brent fell a further ~7% (WTI −7.4% to $96.46; Brent ~$99–100/bbl — back-to-back 7%+ drops Nov 2–3). Qatari mediators were back in Tehran for talks on a deal with the US. Houthi Bab al-Mandab blockade Day 107 — Saudi crude via Red Sea halted 100th consecutive day (milestone). (Al Jazeera; Seoul Economic Daily; Times of Israel; CNBC; Reuters; Nov 3 2026)',
+    status: 'active',
+    keywords: ['day 249', 'us midterms election day', 'diplomatic pause day 93', 'vance progress iran talks', 'iran hormuz 2-day reopening offer', 'brent 99', 'houthi blockade day 107', 'saudi crude 100th day'],
+  },
+  {
+    id: 269,
+    name: 'Lebanon — Day 249; Ceasefire Day 137 Holds; Toll Unchanged',
+    lat: 33.72,
+    lng: 35.59,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 249 (Nov 3): Lebanon ceasefire Day 137 holds — toll unchanged at 4,386 killed / 12,407 wounded. IRGC/CENTCOM diplomatic pause Day 93 — 59th consecutive day without land-based launches. Houthi Bab al-Mandab blockade Day 107 — Saudi crude halted 100th consecutive day (milestone). No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). US midterms ongoing — post-election military options under review. (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 3 2026)',
+    status: 'active',
+    keywords: ['day 249', 'lebanon ceasefire day 137', 'diplomatic pause day 93', 'toll 4386 killed', 'midterms election day', 'houthi blockade 100th day milestone'],
+  },
 ];
 
 export default conflictZones;
