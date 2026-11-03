@@ -3966,10 +3966,17 @@ const diplomaticEvents = [
   },
   {
     date: '2026-11-02',
-    event: 'Diplomatic Pause Day 92 — Iran "Wants to Talk" per Trump; US Midterms 1 Day Away; CENTCOM-IDF Strike Talks',
+    event: 'Diplomatic Pause Day 92 — Iran "Wants to Talk" per Trump; Oil Plunges 7%+; CENTCOM-IDF Strike Talks; IRGC Mine Claims',
     type: 'diplomacy',
     status: 'stalled',
-    detail: 'Day 248 (Nov 2) — IRGC/CENTCOM diplomatic pause Day 92 — 58th consecutive day without land-based kinetic exchanges. Trump says Iran "wants to talk" and war will be resolved "one way or the other." Iran FM Araghchi says consultations are "ongoing" but there is "no definitive conclusion yet — it depends on the other side\'s answers." US officials told Middle East partners to prepare for possible renewed military action after Nov 3 midterms; senior CENTCOM and IDF officials held weekend discussions on the possibility of renewed US combat against Iran within days (KANN/Sh1n.org). Qatari draft deal (Oct 28) and Vance direct letter to Rezaei remain without Iranian response. UK-Oman joint diplomatic initiative continuing. Lebanon ceasefire Day 136 holds; toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 106 — Saudi crude halted 99th consecutive day since July 26. UKMTO: 90 vessels attacked total (+1 Oct 30 Qatar LNG Al Mayeda, +1 Nov 1 unknown projectile strike). No new US KIA (26 total per DoD; 865 wounded). (CBS News; Al Jazeera; Reuters; CENTCOM; UKMTO; KANN/Sh1n; Nov 2 2026)',
+    detail: 'Day 248 (Nov 2) — IRGC/CENTCOM diplomatic pause Day 92 — 58th consecutive day without land-based kinetic exchanges. Trump says Iran "wants to talk" and war will be resolved "one way or the other." Iran FM Araghchi says consultations are "ongoing" but there is "no definitive conclusion yet — it depends on the other side\'s answers." IRGC claimed two crude oil tankers caught fire after hitting mines in the Strait of Hormuz — CENTCOM did not confirm. Oil prices plunged more than 7% (CNBC: WTI fell 7.4% to $96.46/bbl; Brent ~$106–107) on peace-talk hopes ahead of US midterms. Senior CENTCOM and IDF officials held weekend discussions on the possibility of renewed US combat against Iran within days (KANN/Sh1n.org). Qatari draft deal (Oct 28) and Vance direct letter to Rezaei remain without Iranian response. Lebanon ceasefire Day 136 holds; toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 106 — Saudi crude halted 99th consecutive day since July 26. UKMTO: 90 vessels attacked total. No new US KIA (26 total per DoD; 865 wounded). (CBS News; Al Jazeera; Reuters; CNBC; CENTCOM; UKMTO; KANN/Sh1n; Nov 2 2026)',
+  },
+  {
+    date: '2026-11-03',
+    event: 'US Midterm Election Day — Vance Sees "Progress"; Iran Offers 2-Day Hormuz Reopening; Oil Plunges Further 7%',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 249 (Nov 3) — US MIDTERM ELECTION DAY — all 435 House seats, 34 Senate seats, and 36 governorships at stake. IRGC/CENTCOM diplomatic pause Day 93 — 59th consecutive day without land-based kinetic exchanges. VP JD Vance said Washington sees "progress" in indirect peace talks with Iran. Tehran said the "ball is in the US court" and insisted that Washington must lift its naval blockade before any agreement can be reached. Iran offered to reopen the Strait of Hormuz within two days if its demands are met (Seoul Economic Daily); oil prices fell a further ~7% on the offer, with Brent dropping toward ~$99–100/bbl. Qatari mediators were back in Tehran for talks on a deal with the US, per a Times of Israel diplomatic source. Houthi Bab al-Mandab blockade Day 107 — Saudi crude via Red Sea halted 100th consecutive day since July 26 (milestone). Lebanon ceasefire Day 137 holds (toll unchanged 4,386/12,407). No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera liveblog Nov 3; Seoul Economic Daily; Times of Israel; CNBC; Reuters; Nov 3 2026)',
   },
 ];
 
