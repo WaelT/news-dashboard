@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (4 Nov, Day 250): Brent ~$99–103/bbl consolidating after back-to-back 7%+ drops Nov 2–3 — Nov 3: Brent ~$99–100 on Iran 2-day Hormuz reopening offer; Nov 2: Brent fell to ~$106–107 (CNBC: W …',
-    trumpUltimatum: 'LATEST (4 Nov, Day 250): US midterm results tallying — no new Iran policy from White House; Iran 2-day Hormuz reopening offer (made Nov 3) still active; Qatari mediators in Tehran; VP Vance (Nov 3): "progress" in talks; Tehran: "ball is in US court — lift naval blockade first". [Prior (21 Oct): WSJ — Middle East oil exports >24 mbd in week ending Oct 18, exceeding pre-war 23.3 mbd, per Kpler]',
+    tankerRates: 'LATEST (4 Nov, Day 250): Brent ~$99–103/bbl consolidating after back-to-back 7%+ drops Nov 2–3 — Nov 3: Brent ~$99–100 o …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
     iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 4 (Day 250, Bab al-Mandab blockade Day 108): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 101st consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing; Iran 2-day Hormuz reopening offer (Nov 3) still active …',
+      detail: 'Nov 4 (Day 250, Bab al-Mandab blockade Day 108): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 101st consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
     },
     {
       country: 'Iraq',
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Nov 4 (Day 250): Brent consolidating ~$99–103/bbl after back-to-back 7%+ drops Nov 2–3; down from $116.72 six-month high Oct 23 and $114.88 Oct 29; Iran 2-day Hormuz reopening offer (Nov 3) still active — no deal yet; IEA emergency reserve releases ongoing; Asian buyers monitoring post-midterm US Iran policy direction …',
+      detail: 'Nov 4 (Day 250): Brent consolidating ~$99–103/bbl after back-to-back 7%+ drops Nov 2–3; down from $116.72 six-month high Oct 23 and $114.88 Oct 29; Iran 2-day Hormuz reopening offer (Nov 3) still active — no deal yet; IEA emergency reserve releases ongoing …',
     },
   ],
 };
