@@ -2194,6 +2194,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 250', 'lebanon ceasefire day 138', 'diplomatic pause day 94', 'toll 4386 killed', 'post-midterm results', 'houthi blockade day 108'],
   },
+  {
+    id: 272,
+    name: 'Qeshm Island — Trump Confirms US Strike on Iranian Anti-Aircraft Site',
+    lat: 26.85,
+    lng: 55.9,
+    type: 'strike',
+    icon: 'missile',
+    description: 'Day 250 (Nov 4): President Trump confirmed US forces struck an Iranian anti-aircraft facility on Qeshm Island near the Strait of Hormuz, calling it a "minor attack" that "wasn\'t war". US officials described the strike as "defensive", following Iranian fire at an American aircraft. Trump told the Financial Times the US has no immediate plan to renew strikes but the military is ready if needed. (Al Jazeera; CBS News; Military.com; Nov 4 2026)',
+    status: 'active',
+    keywords: ['day 250', 'qeshm island', 'anti-aircraft facility', 'trump minor attack', 'defensive strike', 'strait of hormuz'],
+  },
 ];
 
 export default conflictZones;
