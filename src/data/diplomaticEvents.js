@@ -3985,6 +3985,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 250 (Nov 4) — IRGC/CENTCOM diplomatic pause Day 94 — 60th consecutive day without land-based kinetic exchanges (milestone). US midterm election results tallying — no new Iran policy announcement from the White House. Iran\'s offer to reopen the Strait of Hormuz within two days (made Nov 3) remains on the table; Qatari mediators continuing in Tehran. Brent oil consolidating at ~$99–103/bbl after back-to-back 7%+ drops on Nov 2 and Nov 3. Houthi Bab al-Mandab blockade Day 108 — Saudi crude via Red Sea halted 101st consecutive day since July 26. Lebanon ceasefire Day 138 holds (toll unchanged 4,386/12,407). No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; Reuters; CENTCOM; DoD; Nov 4 2026)',
   },
+  {
+    date: '2026-11-04',
+    event: 'Iran Calls US Reply to Hormuz Plan "Unconvincing"; Qatar Says Talks Continue',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 250 (Nov 4) — Tehran said Washington\'s reply to its demands was unconvincing. The indirect talks centre on Iran\'s proposal to reopen the Strait of Hormuz over two days if the US meets seven demands, including lifting sanctions and ending the US naval blockade of Iranian ports. Qatar\'s foreign ministry said talks were continuing and both sides "remain committed to the negotiation process"; more talks are planned this week. Trump confirmed a "minor" US strike on an Iranian anti-aircraft site on Qeshm Island and told the Financial Times there is no immediate plan to renew strikes. (Al Jazeera; CBS News; Nov 4 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
