@@ -358,6 +358,8 @@ const casualtyTimeline = [
   { date: '2026-11-02', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 249: US MIDTERM ELECTION DAY — IRGC/CENTCOM diplomatic pause Day 93 — no confirmed new land-based launches for 59th consecutive day; Vance: "progress" in Iran talks; Tehran: "ball in US court"; Iran offers 2-day Hormuz reopening; oil fell further ~7% (Brent ~$99–100); Lebanon ceasefire Day 137 holds; Houthi Bab al-Mandab blockade Day 107 — Saudi crude halted 100th consecutive day (milestone); no new confirmed casualties from official sources; no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); all figures trajectory-based; Wikipedia API DNS failure (Al Jazeera; Seoul Economic Daily; Reuters; CNBC; DoD; Nov 3 2026)
   { date: '2026-11-03', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 250: IRGC/CENTCOM diplomatic pause Day 94 — no confirmed new land-based launches for 60th consecutive day (milestone); Lebanon ceasefire Day 138 holds (toll unchanged 4,386/12,407); Houthi Bab al-Mandab blockade Day 108 — Saudi crude halted 101st consecutive day since July 26; US midterm results tallying (day after Nov 3 elections) — no new US Iran policy announcement; Iran's 2-day Hormuz reopening offer (made Nov 3) still on the table; Qatari mediators remain in Tehran; Brent consolidating ~$99–103/bbl; no new confirmed casualties from official sources; no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); all figures trajectory-based; Wikipedia API DNS failure (Al Jazeera; Reuters; CENTCOM; DoD; Nov 4 2026)
+  { date: '2026-11-04', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;
