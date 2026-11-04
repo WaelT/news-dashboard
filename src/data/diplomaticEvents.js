@@ -3978,6 +3978,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 249 (Nov 3) — US MIDTERM ELECTION DAY — all 435 House seats, 34 Senate seats, and 36 governorships at stake. IRGC/CENTCOM diplomatic pause Day 93 — 59th consecutive day without land-based kinetic exchanges. VP JD Vance said Washington sees "progress" in indirect peace talks with Iran. Tehran said the "ball is in the US court" and insisted that Washington must lift its naval blockade before any agreement can be reached. Iran offered to reopen the Strait of Hormuz within two days if its demands are met (Seoul Economic Daily); oil prices fell a further ~7% on the offer, with Brent dropping toward ~$99–100/bbl. Qatari mediators were back in Tehran for talks on a deal with the US, per a Times of Israel diplomatic source. Houthi Bab al-Mandab blockade Day 107 — Saudi crude via Red Sea halted 100th consecutive day since July 26 (milestone). Lebanon ceasefire Day 137 holds (toll unchanged 4,386/12,407). No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera liveblog Nov 3; Seoul Economic Daily; Times of Israel; CNBC; Reuters; Nov 3 2026)',
   },
+  {
+    date: '2026-11-04',
+    event: 'Post-Midterm Diplomatic Pause Day 94 Milestone — 60th Day; Iran Hormuz Offer Still Active; Qatari Mediators in Tehran',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 250 (Nov 4) — IRGC/CENTCOM diplomatic pause Day 94 — 60th consecutive day without land-based kinetic exchanges (milestone). US midterm election results tallying — no new Iran policy announcement from the White House. Iran\'s offer to reopen the Strait of Hormuz within two days (made Nov 3) remains on the table; Qatari mediators continuing in Tehran. Brent oil consolidating at ~$99–103/bbl after back-to-back 7%+ drops on Nov 2 and Nov 3. Houthi Bab al-Mandab blockade Day 108 — Saudi crude via Red Sea halted 101st consecutive day since July 26. Lebanon ceasefire Day 138 holds (toll unchanged 4,386/12,407). No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; Reuters; CENTCOM; DoD; Nov 4 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {

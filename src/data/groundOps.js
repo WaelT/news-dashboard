@@ -3735,6 +3735,20 @@ const groundOps = {
       event: "Day 249 — Lebanon ceasefire Day 137 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 93 — 59th consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 107 — Saudi crude halted 100th consecutive day (milestone); Vance sees 'progress' in Iran talks; US midterms ongoing (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 3 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-04',
+      lat: 26.5,
+      lng: 56.3,
+      event: "Day 250 — Diplomatic pause Day 94 — 60th consecutive land-launch-free day (milestone); US midterm results tallying; Iran 2-day Hormuz reopening offer still active; Qatari mediators in Tehran; Brent ~$99–103/bbl consolidating; Houthi Bab al-Mandab blockade Day 108 — Saudi crude halted 101st consecutive day; Lebanon ceasefire Day 138 holds (4,386/12,407); no new US KIA (26 total; 865 wounded) (Al Jazeera; Reuters; CENTCOM; DoD; Nov 4 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-11-04',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 250 — Lebanon ceasefire Day 138 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 94 — 60th consecutive day without land-based launches (milestone); Houthi Bab al-Mandab blockade Day 108 — Saudi crude halted 101st consecutive day; US midterm results tallying; post-election diplomatic outlook under review (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 4 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

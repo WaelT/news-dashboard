@@ -2172,6 +2172,28 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 249', 'lebanon ceasefire day 137', 'diplomatic pause day 93', 'toll 4386 killed', 'midterms election day', 'houthi blockade 100th day milestone'],
   },
+  {
+    id: 270,
+    name: 'Diplomatic Pause Day 94 Milestone — 60th Day No Land-Based Launches; Iran Hormuz Offer Stands; Post-Midterm Results',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 250 (Nov 4): IRGC/CENTCOM diplomatic pause Day 94 — 60th consecutive day without land-based ballistic missile or drone launches (milestone). US midterm election results tallying — no new US Iran policy announcement yet. Iran\'s offer to reopen the Strait of Hormuz within two days (made Nov 3) remains on the table; Qatari mediators still in Tehran. Brent consolidating ~$99–103/bbl after back-to-back 7%+ drops Nov 2–3. Houthi Bab al-Mandab blockade Day 108 — Saudi crude via Red Sea halted 101st consecutive day since July 26. Lebanon ceasefire Day 138 holds — toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; Reuters; CENTCOM; DoD; Nov 4 2026)',
+    status: 'active',
+    keywords: ['day 250', 'diplomatic pause day 94', '60th consecutive day milestone', 'iran hormuz reopening offer', 'post-midterm results', 'brent 99-103', 'houthi blockade day 108', 'saudi crude 101st day'],
+  },
+  {
+    id: 271,
+    name: 'Lebanon — Day 250; Ceasefire Day 138 Holds; Toll Unchanged',
+    lat: 33.72,
+    lng: 35.59,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 250 (Nov 4): Lebanon ceasefire Day 138 holds — toll unchanged at 4,386 killed / 12,407 wounded. IRGC/CENTCOM diplomatic pause Day 94 — 60th consecutive day without land-based launches (milestone). Houthi Bab al-Mandab blockade Day 108 — Saudi crude halted 101st consecutive day since July 26. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). US midterm results tallying — post-election diplomatic and military options under review. (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 4 2026)',
+    status: 'active',
+    keywords: ['day 250', 'lebanon ceasefire day 138', 'diplomatic pause day 94', 'toll 4386 killed', 'post-midterm results', 'houthi blockade day 108'],
+  },
 ];
 
 export default conflictZones;
