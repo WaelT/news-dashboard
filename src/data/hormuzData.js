@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 5 (Day 251): Iran 2-day Hormuz reopening offer (made Nov 3) still active — no US acceptance yet; Qatar mediators in Tehran, drafting 3-day confidence-building framework; Iran FM: US reply "unconvincing"; Trump told FT "locked and loaded" but "no rush"; UK-Oman joint diplomatic initiative ongoing …',
+      detail: 'Nov 5 (Day 251): Iran 2-day Hormuz reopening offer (made Nov 3) still active — no US acceptance yet; Qatar mediators in Tehran, drafting 3-day confidence-building framework; Iran FM: US reply "unconvincing"; Trump told FT "locked and loaded" but "no rush" …',
     },
     {
       country: 'Asia',
