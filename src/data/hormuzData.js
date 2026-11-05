@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (5 Nov, Day 251): Brent ~$99–103/bbl consolidating after back-to-back ~7% drops on Nov 2 (election-eve peace-talk speculation) and Nov 3 (US midterm day, Iran Hormuz reopening offer); down from $116.72 six-month high Oct 23; Qatari mediators in Tehran; Iran 2-day Hormuz reopening offer still active; no deal yet; VLCC rates at war-elevated levels; insurance premiums remain significantly above pre-war norms despite CENTCOM mine-free declaration (independent shipping groups still require verification before resuming normal operations)',
-    trumpUltimatum: 'LATEST (5 Nov): Trump told the Financial Times he is "locked and loaded" but in "no rush" to decide on bombing Iran again; CBS News reported Trump expects the Iran war to end "very soon, one way or the other"; VP Vance said the Iran war was "the reason we lost" the US midterms and is backing a diplomatic resolution; Netanyahu reportedly pressing Trump to resume strikes after midterms; Qatar mediating 3-day confidence-building framework for US-Iran talks',
-    iranThreat: 'LATEST (5 Nov): Iran\'s Foreign Minister Araghchi said the US reply to Iran\'s Hormuz proposal was "unconvincing"; Iran\'s 2-day Hormuz reopening offer (made Nov 3, conditioned on US lifting naval blockade and meeting 7 demands) remains on the table; IRGC claimed 11 tankers caught fire in Hormuz over the 9 days preceding Nov 3 midterms (not independently verified; CENTCOM disputed most claims); Iran\'s IRGC Navy maritime operations in Hormuz continuing at record pace (90 UKMTO-confirmed vessel attacks since war began)',
+    tankerRates: 'LATEST (5 Nov, Day 251): Brent ~$99–103/bbl consolidating after back-to-back ~7% drops on Nov 2 (election-eve peace-talk …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 5 (Day 251): Iran 2-day Hormuz reopening offer (made Nov 3) still active — no US acceptance yet; Qatar mediators in Tehran, drafting 3-day confidence-building framework; Iran FM: US reply "unconvincing"; Trump told FT "locked and loaded" but "no rush"; UK-Oman joint diplomatic initiative ongoing; Oman hosting back-channel communications …',
+      detail: 'Nov 5 (Day 251): Iran 2-day Hormuz reopening offer (made Nov 3) still active — no US acceptance yet; Qatar mediators in Tehran, drafting 3-day confidence-building framework; Iran FM: US reply "unconvincing"; Trump told FT "locked and loaded" but "no rush"; UK-Oman joint diplomatic initiative ongoing …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 5 (Day 251): Brent ~$99–103/bbl consolidating; down sharply from $116.72 six-month high (Oct 23) and $114.88 (Oct 29); two back-to-back ~7% drops on Nov 2–3 (peace-talk speculation + midterm day Iran Hormuz offer); Iran 2-day Hormuz reopening offer still active — no US acceptance yet; IEA emergency reserve releases ongoing; Asian refiners maintaining reduced throughput; Goldman Sachs estimates prolonged disruption costs at $450B+ in lost oil revenue since war began …',
+      detail: 'Nov 5 (Day 251): Brent ~$99–103/bbl consolidating; down sharply from $116.72 six-month high (Oct 23) and $114.88 (Oct 29); two back-to-back ~7% drops on Nov 2–3 (peace-talk speculation + midterm day Iran Hormuz offer); Iran 2-day Hormuz reopening offer still active — no US acceptance yet …',
     },
   ],
 };
