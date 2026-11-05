@@ -3992,6 +3992,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 250 (Nov 4) — Tehran said Washington\'s reply to its demands was unconvincing. The indirect talks centre on Iran\'s proposal to reopen the Strait of Hormuz over two days if the US meets seven demands, including lifting sanctions and ending the US naval blockade of Iranian ports. Qatar\'s foreign ministry said talks were continuing and both sides "remain committed to the negotiation process"; more talks are planned this week. Trump confirmed a "minor" US strike on an Iranian anti-aircraft site on Qeshm Island and told the Financial Times there is no immediate plan to renew strikes. (Al Jazeera; CBS News; Nov 4 2026)',
   },
+  {
+    date: '2026-11-05',
+    event: 'Diplomatic Pause Day 95 — Qatar Drafts 3-Day Confidence-Building Framework; Trump "No Rush" on Strikes',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 251 (Nov 5) — IRGC/CENTCOM diplomatic pause Day 95 — 61st consecutive day without land-based kinetic exchanges. Qatari mediators continuing in Tehran and drafting a 3-day confidence-building framework intended to restart US-Iran direct negotiations. Iran\'s 2-day Hormuz reopening offer (made Nov 3) remains active with no US acceptance. Trump told the Financial Times he is "locked and loaded" but in "no rush" on Iran strikes; CBS News reported Trump expects the Iran war to end "very soon, one way or the other." VP Vance said the Iran war was "the reason we lost" the midterms and is backing a diplomatic resolution. Netanyahu reportedly pressing Trump to resume strikes after the midterms. Iran FM Araghchi maintained Tehran is reviewing proposals but US reply remains "unconvincing." Houthi Bab al-Mandab blockade Day 109 — Saudi crude via Red Sea halted 102nd consecutive day. Lebanon ceasefire Day 139 holds (toll unchanged 4,386/12,407). No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (IranIntl; FT; CBS News; Al Jazeera; Reuters; CENTCOM; Nov 5 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {

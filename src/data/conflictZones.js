@@ -2205,6 +2205,28 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 250', 'qeshm island', 'anti-aircraft facility', 'trump minor attack', 'defensive strike', 'strait of hormuz'],
   },
+  {
+    id: 273,
+    name: 'Diplomatic Pause Day 95 — 61st Day; Iran Hormuz Offer Active; Qatar 3-Day Framework',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 251 (Nov 5): IRGC/CENTCOM diplomatic pause Day 95 — 61st consecutive day without land-based ballistic missile or drone launches. Iran\'s offer to reopen the Strait of Hormuz within two days (made Nov 3) remains active; Qatari mediators continuing in Tehran and drafting a 3-day confidence-building framework for US-Iran talks. Trump told FT he is "locked and loaded" but in "no rush" to decide on bombing Iran again. VP Vance favors diplomatic resolution post-midterms. Iran FM: US reply to Hormuz plan "unconvincing". Brent ~$99–103/bbl. Houthi Bab al-Mandab blockade Day 109 — Saudi crude halted 102nd consecutive day. (IranIntl; FT; CBS News; Al Jazeera; Reuters; Nov 5 2026)',
+    status: 'active',
+    keywords: ['day 251', 'diplomatic pause day 95', '61st consecutive day', 'iran hormuz reopening offer', 'qatar 3-day framework', 'brent 99-103', 'houthi blockade day 109'],
+  },
+  {
+    id: 274,
+    name: 'Lebanon — Day 251; Ceasefire Day 139 Holds; Toll Unchanged',
+    lat: 33.72,
+    lng: 35.59,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 251 (Nov 5): Lebanon ceasefire Day 139 holds — toll unchanged at 4,386 killed / 12,407 wounded. IRGC/CENTCOM diplomatic pause Day 95 — 61st consecutive day without land-based launches. Houthi Bab al-Mandab blockade Day 109 — Saudi crude halted 102nd consecutive day since July 26. Post-midterm US policy under review; VP Vance pushing diplomatic track; Netanyahu reportedly pressing Trump to attack. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 5 2026)',
+    status: 'active',
+    keywords: ['day 251', 'lebanon ceasefire day 139', 'diplomatic pause day 95', 'toll 4386 killed', 'houthi blockade day 109', 'post-midterm'],
+  },
 ];
 
 export default conflictZones;
