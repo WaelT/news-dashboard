@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-05',
+  updated: '2026-11-06',
 
   current: {
     transitsPerDay: 5,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (5 Nov, Day 251): Brent ~$99–103/bbl consolidating after back-to-back ~7% drops on Nov 2 (election-eve peace-talk …',
+    tankerRates: 'LATEST (6 Nov, Day 252): Brent ~$96–102/bbl — fell below $100 for first time since Oct 7 on Nov 5 (Pomegra) on Democratic midterm win + Iran Hormuz-reopening offer; Iran claims 5 tankers + 1 tugboat caught fire in Hormuz Nov 5 (UKMTO unconfirmed) → Brent rebounded ~5%; CBS: "oil prices rebound slightly after post-midterm plunge"; Trump signals "heavy hit" if tanker attacks continue; prior: back-to-back ~7% drops on Nov 2–3 from $109–115 …',
     trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
     iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 5 (Day 251, Bab al-Mandab blockade Day 109): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 102nd consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
+      detail: 'Nov 6 (Day 252, Bab al-Mandab blockade Day 110): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 103rd consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 5 (Day 251): Iran 2-day Hormuz reopening offer (made Nov 3) still active — no US acceptance yet; Qatar mediators in Tehran, drafting 3-day confidence-building framework; Iran FM: US reply "unconvincing"; Trump told FT "locked and loaded" but "no rush" …',
+      detail: 'Nov 6 (Day 252): Iran 2-day Hormuz reopening offer (Nov 3) extended but no US acceptance; Iran warns against new US attack; Trump signals "heavy hit" if tanker attacks continue but no immediate strike plan; Democrats won US midterms — Senate Dem leader Schumer: war "must end"; Qatar 3-day confidence-building framework still being drafted; VP Vance: war "reason we lost" midterms — backing diplomatic resolution …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 5 (Day 251): Brent ~$99–103/bbl consolidating; down sharply from $116.72 six-month high (Oct 23) and $114.88 (Oct 29); two back-to-back ~7% drops on Nov 2–3 (peace-talk speculation + midterm day Iran Hormuz offer); Iran 2-day Hormuz reopening offer still active — no US acceptance yet …',
+      detail: 'Nov 6 (Day 252): Brent ~$96–102/bbl — fell below $100 for first time since Oct 7 on Nov 5 (Pomegra) on Democratic midterm win + Iran Hormuz-reopening offer; Iran claims 5 tankers + tugboat on fire in Hormuz Nov 5 (UKMTO unconfirmed); oil rebounded ~5% on tanker-fire fears; CBS: "oil prices rebound slightly after post-midterm plunge"; down sharply from $116.72 six-month high (Oct 23) …',
     },
   ],
 };
