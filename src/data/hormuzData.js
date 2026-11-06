@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (6 Nov, Day 252): Brent ~$96–102/bbl — fell below $100 for first time since Oct 7 on Nov 5 (Pomegra) on Democratic midterm win + Iran Hormuz-reopening offer; Iran claims 5 tankers + 1 tugboat caught fire in Hormuz Nov 5 (UKMTO unconfirmed) → Brent rebounded ~5%; CBS: "oil prices rebound slightly after post-midterm plunge"; Trump signals "heavy hit" if tanker attacks continue; prior: back-to-back ~7% drops on Nov 2–3 from $109–115 …',
+    tankerRates: 'LATEST (6 Nov, Day 252): Brent ~$96–102/bbl — fell below $100 for first time since Oct 7 on Nov 5 (Pomegra) on Democrati …',
     trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
     iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 6 (Day 252): Iran 2-day Hormuz reopening offer (Nov 3) extended but no US acceptance; Iran warns against new US attack; Trump signals "heavy hit" if tanker attacks continue but no immediate strike plan; Democrats won US midterms — Senate Dem leader Schumer: war "must end"; Qatar 3-day confidence-building framework still being drafted; VP Vance: war "reason we lost" midterms — backing diplomatic resolution …',
+      detail: 'Nov 6 (Day 252): Iran 2-day Hormuz reopening offer (Nov 3) extended but no US acceptance; Iran warns against new US attack; Trump signals "heavy hit" if tanker attacks continue but no immediate strike plan; Democrats won US midterms — Senate Dem leader Schumer: war "must end" …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 6 (Day 252): Brent ~$96–102/bbl — fell below $100 for first time since Oct 7 on Nov 5 (Pomegra) on Democratic midterm win + Iran Hormuz-reopening offer; Iran claims 5 tankers + tugboat on fire in Hormuz Nov 5 (UKMTO unconfirmed); oil rebounded ~5% on tanker-fire fears; CBS: "oil prices rebound slightly after post-midterm plunge"; down sharply from $116.72 six-month high (Oct 23) …',
+      detail: 'Nov 6 (Day 252): Brent ~$96–102/bbl — fell below $100 for first time since Oct 7 on Nov 5 (Pomegra) on Democratic midterm win + Iran Hormuz-reopening offer; Iran claims 5 tankers + tugboat on fire in Hormuz Nov 5 (UKMTO unconfirmed); oil rebounded ~5% on tanker-fire fears …',
     },
   ],
 };
