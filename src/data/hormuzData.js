@@ -67,7 +67,7 @@ export const hormuzData = {
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (6 Nov, Day 252): Brent ~$96–102/bbl — fell below $100 for first time since Oct 7 on Nov 5 (Pomegra) on Democrati …',
     trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
-    iranThreat: '6 Nov: UKMTO confirmed two separate vessel incidents — (1) tanker explosion ~16 NM east of Khasab, Oman coast (all crew safe, ship proceeding under own power); (2) tanker struck by two unknown projectiles ~50 NM north of Qatar coast — IRGC threat rating remains Severe (UKMTO; Middle East Eye; Nov 6 2026). Prior: 14 Oct: Singapore-flagged GFS Pride sank after being attacked in the Strait',
+    iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
   disruptions: [
