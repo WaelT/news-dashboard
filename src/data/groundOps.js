@@ -3777,6 +3777,20 @@ const groundOps = {
       event: "Day 252 — Lebanon ceasefire Day 140 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 96 — 62nd consecutive day without land-based launches; Democrats won US midterms — Senate Dem leader Schumer: war 'must end'; VP Vance: war 'reason we lost' midterms — backing diplomacy; Trump: war 'worth it' but no immediate new strikes (IDF; Lebanon MoH; CBS News; Al Jazeera; CENTCOM; Nov 6 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-07',
+      lat: 26.3,
+      lng: 56.5,
+      event: "Day 253 — IRGC/CENTCOM diplomatic pause Day 97 — 63rd consecutive day without land-based launches; ongoing Hormuz tanker attacks (92 vessels attacked total per UKMTO Nov 6); Qatar-Oman-UK trilateral mediation continuing — Iran still reviewing conditions; Iran FM: US reply 'unconvincing'; Trump: US may have to 'destroy rest of Iran'; Brent volatile ~$99–103/bbl; Houthi Bab al-Mandab blockade Day 111 — Saudi crude halted 104th consecutive day (Al Jazeera; CBS News; Reuters; UKMTO; CENTCOM; Nov 7 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-11-07',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 253 — Lebanon ceasefire Day 141 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 97 — 63rd consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 111 — Saudi crude halted 104th consecutive day; Democrats won US midterms Nov 3 — post-election diplomacy pressure growing (IDF; Lebanon MoH; CBS News; Al Jazeera; CENTCOM; Nov 7 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

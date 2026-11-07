@@ -4006,6 +4006,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 252 (Nov 6) — IRGC/CENTCOM diplomatic pause Day 96 — 62nd consecutive day without land-based kinetic exchanges. Democrats won the US midterms (Nov 3), flipping the Senate majority; Senate Democratic leader Schumer said the Iran war "must end" and signaled Congress would use government funding to press for de-escalation. VP Vance said the war was "the reason we lost" the midterms and is backing a diplomatic resolution. Trump said the war was "worth it" despite heavy midterm losses and denied immediate plans for new strikes, but told Gulf News he would deliver a "heavy hit" if Iran\'s tanker attacks continued. Iran\'s Revolutionary Guards and army claimed five oil tankers and a tugboat caught fire in the Strait of Hormuz on Nov 5; Reuters reported three tankers damaged — no UKMTO or CENTCOM confirmation as of this update. Brent fell below $100 for the first time since Oct 7 on Nov 5 (Pomegra: ~$94–97/bbl) on Democratic win + Hormuz-reopening hopes, then rebounded ~5% on tanker-fire fears (CBS: "oil prices rebound slightly after post-midterm plunge"). Qatar\'s 3-day confidence-building framework still being drafted; Iran\'s 2-day Hormuz reopening offer (Nov 3) extended but no US acceptance. Iran warned against any new US attack. Houthi Bab al-Mandab blockade Day 110 — Saudi crude halted 103rd consecutive day. Lebanon ceasefire Day 140 holds (toll unchanged 4,386/12,407). No new US KIA (26 total; 865 wounded). (Gulf News; CBS News; OilPrice; Pomegra; Al Jazeera; Reuters; CENTCOM; Nov 6 2026)',
   },
+  {
+    date: '2026-11-07',
+    event: 'Day 253 — Diplomatic Pause Day 97; Diplomacy Stalled; Ongoing Hormuz Tanker Attacks; Houthi Blockade Day 111',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 253 (Nov 7) — IRGC/CENTCOM diplomatic pause Day 97 — 63rd consecutive day without land-based kinetic exchanges. Qatar-Oman-UK trilateral mediation track continues; Iran still reviewing conditions for a Hormuz framework. Iran FM Araghchi reiterated the US reply remains "unconvincing." Trump warned the US may have to "destroy the rest of Iran" if Hormuz maritime attacks do not stop. UKMTO total vessels attacked stands at 92 through Nov 6 (2 confirmed incidents Nov 6). Brent volatile ~$99–103/bbl. Houthi Bab al-Mandab blockade Day 111 — Saudi crude via Red Sea halted 104th consecutive day since July 26. Lebanon ceasefire Day 141 holds; toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; CBS News; Reuters; UKMTO; CENTCOM; DoD; Nov 7 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
