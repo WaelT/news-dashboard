@@ -364,6 +364,8 @@ const casualtyTimeline = [
   { date: '2026-11-05', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 252: IRGC/CENTCOM diplomatic pause Day 96 — 62nd consecutive day without land-based launches; Lebanon ceasefire Day 140 holds (toll unchanged 4,386/12,407); Houthi Bab al-Mandab blockade Day 110 — Saudi crude via Red Sea halted 103rd consecutive day; Democrats won US midterms Nov 3 — Senate Dem leader Schumer says war "must end"; Brent fell below $100 for first time since Oct 7 on Nov 5 then rebounded on Iran claims of 5 tankers + tugboat on fire in Hormuz (UKMTO unconfirmed); Trump: war "worth it" but no immediate new strikes; VP Vance: war "reason we lost midterms" — backing diplomacy; no new confirmed casualties from official sources; no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); all figures trajectory-based; Wikipedia scrape failed (network) (Gulf News; CBS News; OilPrice; Al Jazeera; Reuters; CENTCOM; DoD; Nov 6 2026)
   { date: '2026-11-06', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 253: IRGC/CENTCOM diplomatic pause Day 97 — 63rd consecutive day without land-based launches; ongoing Hormuz maritime incidents; Lebanon ceasefire Day 141 holds (toll unchanged 4,386/12,407); Houthi Bab al-Mandab blockade Day 111 — Saudi crude halted 104th consecutive day; no new confirmed casualties from official sources; no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); all figures trajectory-based; Wikipedia API DNS failure (Al Jazeera; CBS News; Reuters; CENTCOM; DoD; Nov 7 2026)
+  { date: '2026-11-07', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;
