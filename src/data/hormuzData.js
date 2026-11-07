@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (6 Nov, Day 252): Brent ~$96–102/bbl — fell below $100 for first time since Oct 7 on Nov 5 (Pomegra) on Democrati …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
-    iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    tankerRates: 'LATEST (7 Nov, Day 253): Brent volatile ~$99–103/bbl — rebounded from sub-$100 (Pomegra ~$94–97 on Nov 5) after Iran claimed 5 tankers + tugboat on fire in Hormuz; Democratic midterm win kept pressure on Trump to avoid new strikes; Qeshm Island air defense strikes confirmed by Trump and CENTCOM Nov 6–7 (IRGC claims MQ-9 shot down); Qatar-Oman-UK trilateral mediation continuing but stalled; vessels attacked total 92 per UKMTO (Al Jazeera; CBS News; Reuters; CENTCOM; Nov 7 2026)',
+    trumpUltimatum: 'LATEST (7 Nov): Trump warned the US may have to "destroy the rest of Iran" if Hormuz maritime tanker attacks do not stop, while simultaneously confirming "minor" Qeshm Island air defense strikes; Democratic midterm winners pressing Congress to end the war via budget leverage (Gulf News; CBS News; Al Jazeera; Nov 7 2026)',
+    iranThreat: 'LATEST (7 Nov): Iran FM Araghchi reiterated US reply to Iran\'s 7-point Hormuz reopening demands remained "unconvincing"; IRGC claimed 5 tankers + tugboat on fire in Hormuz on Nov 5 (UKMTO unconfirmed); IRGC aerospace division claimed to shoot down US MQ-9 Reaper over Qeshm Island; Iran warned against any new US attack; 92 vessels attacked total through Nov 6 per UKMTO (IRGC; IRIB; UKMTO; Al Jazeera; Nov 7 2026)',
   },
 
   disruptions: [
