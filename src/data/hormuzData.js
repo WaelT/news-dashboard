@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (8 Nov, Day 254): Brent volatile ~$100–105/bbl — spiked on new US defensive strikes on Qeshm + Lavan Island + Bandar Abbas area + Houthi claims of 6 Saudi infrastructure ops; prior Nov 5–7 Brent rebounded from sub-$100 (~$94–97 on Nov 5) on Iran tanker-fire claims; fell below $90 briefly Nov 4 on Democrat midterm wins (market read: more pressure on Trump to deal); WTI ~$96/bbl Nov 3; JP Morgan: Gulf flows in surplus but war-risk premiums remain elevated at 400–600× pre-crisis base for Hormuz transit. (CNBC; Fortune; JP Morgan; Nov 8 2026)',
-    trumpUltimatum: 'LATEST (8 Nov, Day 254): Qatar proposed 48-hour Hormuz reopening plan — Iran would reopen Strait within 2 days if US lifts blockade + Iran admits IAEA inspectors to damaged nuclear sites; broader enriched-uranium disposition talks to follow. Neither US nor Iran has formally accepted. Iran sent own 7-demand nuclear proposal via Qatar. Trump confirmed "minor" US strikes on Qeshm Island Nov 7, said deal with Iran "could happen." (Qatar FM; National Security Journal; Outlook India; Nov 7–8 2026)',
-    iranThreat: 'LATEST (8 Nov, Day 254): IRGC claims 3 oil tankers caught fire after striking naval mines in unauthorized Hormuz routes — IRGC Navy: ships "switched off navigation/positioning systems"; vessels attacked total now 95. US carried out defensive strikes on Qeshm Island, Lavan Island, and Bandar Abbas area Nov 7–8 — explosions reported by IRNA. Iran FM Araghchi: US reply to Qatar proposals "unconvincing." (Gulf News; Al Arabiya; TASS; IRNA; Nov 8 2026)',
+    tankerRates: 'LATEST (8 Nov, Day 254): Brent volatile ~$100–105/bbl — spiked on new US defensive strikes on Qeshm + Lavan Island + Ban …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
   disruptions: [
