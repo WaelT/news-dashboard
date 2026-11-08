@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-07',
+  updated: '2026-11-08',
 
   current: {
     transitsPerDay: 5,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (7 Nov, Day 253): Brent volatile ~$99–103/bbl — rebounded from sub-$100 (Pomegra ~$94–97 on Nov 5) after Iran cla …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
-    iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    tankerRates: 'LATEST (8 Nov, Day 254): Brent volatile ~$100–105/bbl — spiked on new US defensive strikes on Qeshm + Lavan Island + Bandar Abbas area (explosions reported by IRNA) + Houthi claims of 6 operations vs Saudi Arabia (Aramco + Riyadh KKIA). Prior (5–7 Nov): Brent rebounded from sub-$100 (Pomegra ~$94–97 on Nov 5) after Iran tanker-fire claims and new Qeshm strikes; volatile range ~$99–103/bbl (Gulf News; ABC Australia; CNBC; Nov 8 2026)',
+    trumpUltimatum: 'LATEST (8 Nov, Day 254): Trump said a deal with Iran "could happen" as Tehran reviews Qatar\'s de-escalation proposals. Prior (21 Oct): WSJ/Kpler reported Middle East oil exports >24 mbd in week of Oct 18, exceeding pre-war level of 23.3 mbd. Trump: US would deliver "heavy hit" if tanker attacks continue (Gulf News; Nov 8 2026)',
+    iranThreat: 'LATEST (8 Nov, Day 254): US defensive strikes on Qeshm Island + Lavan Island + Bandar Abbas area — IRNA reported explosions "from the direction of the sea and in the sky"; IRGC/Iran threat posture unchanged; Iran reviewing Qatar proposals. Prior: 14 Oct — Singapore-flagged container ship GFS Pride sank after Strait attack (ABC News Australia; Gulf News; Newsquawk/IRNA; Nov 8 2026)',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 6 (Day 252, Bab al-Mandab blockade Day 110): Houthi maritime blockade of Saudi Arabia at Bab al-Mandab — Saudi crude shipments via Red Sea halted 103rd consecutive day since July 26; Saudi-led coalition strikes on Houthi logistics facilities continuing …',
+      detail: 'Nov 8 (Day 254, Bab al-Mandab blockade Day 112): Houthis claimed 6 operations vs Saudi Arabia (Nov 7–8) — ballistic missiles + cruise missiles + drones targeting Riyadh KKIA, Aramco oil storage + distillation towers in Riyadh, Aramco Khurais facility, Saudi troops in Najran; Saudi-led coalition confirmed intercepting cruise missile over Riyadh (Saudi media); Saudi airstrikes near Sanaa killed ≥27 (Houthi health official; WION); Saudi crude via Red Sea halted 105th consecutive day since July 26 (WION; TBSNews; House of Saud; New Arab; Nov 8 2026)',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 6 (Day 252): Iran 2-day Hormuz reopening offer (Nov 3) extended but no US acceptance; Iran warns against new US attack; Trump signals "heavy hit" if tanker attacks continue but no immediate strike plan; Democrats won US midterms — Senate Dem leader Schumer: war "must end" …',
+      detail: 'Nov 8 (Day 254): Iran reviewing Qatar\'s de-escalation proposals; Trump said deal "could happen"; US defensive strikes on Qeshm + Lavan Island + Bandar Abbas area (explosions reported by IRNA); Iran FM: US reply "unconvincing"; Oman-UK-Qatar trilateral mediation track continues; Iran 2-day Hormuz reopening offer (Nov 3) still on table with no US formal acceptance (ABC News Australia; Gulf News; Al Jazeera; Nov 8 2026)',
     },
     {
       country: 'Asia',
-      detail: 'Nov 6 (Day 252): Brent ~$96–102/bbl — fell below $100 for first time since Oct 7 on Nov 5 (Pomegra) on Democratic midterm win + Iran Hormuz-reopening offer; Iran claims 5 tankers + tugboat on fire in Hormuz Nov 5 (UKMTO unconfirmed); oil rebounded ~5% on tanker-fire fears …',
+      detail: 'Nov 8 (Day 254): Brent volatile ~$100–105/bbl — spiked on new US strikes (Qeshm + Lavan Island) + Houthi claims of 6 Saudi infrastructure ops; prior Nov 5–7 Brent rebounded from sub-$100 (Pomegra ~$94–97 on Nov 5) on Iran tanker-fire claims; Trump said deal "could happen" offering some demand moderation (Gulf News; ABC Australia; CNBC; Nov 8 2026)',
     },
   ],
 };
