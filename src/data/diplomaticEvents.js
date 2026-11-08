@@ -4013,6 +4013,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 253 (Nov 7) — IRGC/CENTCOM diplomatic pause Day 97 — 63rd consecutive day without land-based kinetic exchanges. Qatar-Oman-UK trilateral mediation track continues; Iran still reviewing conditions for a Hormuz framework. Iran FM Araghchi reiterated the US reply remains "unconvincing." Trump warned the US may have to "destroy the rest of Iran" if Hormuz maritime attacks do not stop. UKMTO total vessels attacked stands at 92 through Nov 6 (2 confirmed incidents Nov 6). Brent volatile ~$99–103/bbl. Houthi Bab al-Mandab blockade Day 111 — Saudi crude via Red Sea halted 104th consecutive day since July 26. Lebanon ceasefire Day 141 holds; toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; CBS News; Reuters; UKMTO; CENTCOM; DoD; Nov 7 2026)',
   },
+  {
+    date: '2026-11-08',
+    event: 'Day 254 — US Strikes Qeshm/Lavan Island; Houthis Claim 6 Saudi Ops; Iran Reviews Qatar Proposals; Trump: Deal "Could Happen"',
+    type: 'escalation',
+    status: 'stalled',
+    detail: 'Day 254 (Nov 8) — IRGC/CENTCOM diplomatic pause Day 98 — 64th consecutive day without land-based kinetic exchanges. US carried out new defensive strikes on Qeshm Island, Lavan Island, and Bandar Abbas area; explosions reported by IRNA ("explosions heard from the direction of the sea and in the sky"); ABC Australia: "Explosions heard in Strait of Hormuz as Iran reviews de-escalation proposals"; Gulf News: "US military carries out new targeted strikes on Iran as Tehran\'s leaders weigh mediator\'s proposals." Iran reviewing Qatar\'s de-escalation proposals; Trump said a deal with Iran "could happen"; Iran FM Araghchi: US reply still "unconvincing." Houthis claimed 6 operations vs Saudi Arabia (Nov 7–8): ballistic missiles, cruise missiles, and drones targeting Riyadh King Khalid International Airport, Aramco oil storage + distillation towers in Riyadh, Aramco Khurais facility, and Saudi troops in Najran; Saudi-led coalition confirmed intercepting a cruise missile over Riyadh (House of Saud/Saudi media); Saudi airstrikes near Sanaa killed ≥27 people (Houthi health official; WION). Brent volatile ~$100–105/bbl on new US strikes + Houthi infrastructure claims. Houthi Bab al-Mandab blockade Day 112 — Saudi crude via Red Sea halted 105th consecutive day since July 26. Lebanon ceasefire Day 142 holds; toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (ABC News Australia; Gulf News; WION; TBSNews; New Arab; House of Saud; Al Jazeera; CENTCOM; DoD; Nov 8 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {

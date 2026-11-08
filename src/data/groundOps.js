@@ -3791,6 +3791,27 @@ const groundOps = {
       event: "Day 253 — Lebanon ceasefire Day 141 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 97 — 63rd consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 111 — Saudi crude halted 104th consecutive day; Democrats won US midterms Nov 3 — post-election diplomacy pressure growing (IDF; Lebanon MoH; CBS News; Al Jazeera; CENTCOM; Nov 7 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-08',
+      lat: 26.95,
+      lng: 56.27,
+      event: "Day 254 — US defensive strikes on Qeshm Island + Lavan Island + Bandar Abbas area; IRNA: explosions heard 'from direction of the sea and in sky'; ABC Australia: 'Explosions heard in Strait of Hormuz as Iran reviews de-escalation proposals'; Gulf News: 'US military carries out new targeted strikes on Iran'; IRGC/CENTCOM diplomatic pause Day 98 — 64th consecutive land-launch-free day; Iran reviewing Qatar proposals; Trump: deal 'could happen'; Iran FM: US reply 'unconvincing'; Brent volatile ~$100–105/bbl (ABC News Australia; Gulf News; IRNA; CENTCOM; Nov 8 2026)",
+      type: 'military',
+    },
+    {
+      date: '2026-11-08',
+      lat: 15.35,
+      lng: 44.21,
+      event: "Day 254 — Houthis claimed 6 operations vs Saudi Arabia (Nov 7–8): ballistic missiles + cruise missiles + drones targeting Riyadh King Khalid International Airport, Aramco oil storage + distillation towers in Riyadh, Aramco Khurais facility, Saudi troops in Najran; Saudi-led coalition confirmed intercepting cruise missile over Riyadh; Saudi airstrikes near Sanaa killed ≥27 (Houthi health official); Houthi Bab al-Mandab blockade Day 112 — Saudi crude halted 105th consecutive day (WION; TBSNews; House of Saud; New Arab; Al Jazeera; Nov 8 2026)",
+      type: 'military',
+    },
+    {
+      date: '2026-11-08',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 254 — Lebanon ceasefire Day 142 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 98 — 64th consecutive day without land-based launches; US strikes on Qeshm/Lavan Island; Houthis claim 6 ops vs Saudi Arabia; Houthi Bab al-Mandab blockade Day 112 — Saudi crude halted 105th consecutive day (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 8 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 
