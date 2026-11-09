@@ -3812,6 +3812,20 @@ const groundOps = {
       event: "Day 254 — Lebanon ceasefire Day 142 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 98 — 64th consecutive day without land-based launches; US strikes on Qeshm/Lavan Island; Houthis claim 6 ops vs Saudi Arabia; Houthi Bab al-Mandab blockade Day 112 — Saudi crude halted 105th consecutive day (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 8 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-09',
+      lat: 26.5,
+      lng: 56.3,
+      event: "Day 255 — IRGC/CENTCOM diplomatic pause Day 99 — 65th consecutive day without land-based launches; Araghchi confirmed mediators have NOT traveled since US midterm election 'shock' — urged patience before 'favorable atmosphere' resumes; Rubio called Iran's demands 'outrageous and ridiculous'; Araghchi warned Iran will 'rain down hell' if US escalates; Trump said fresh strikes 'highly unlikely' if Iran signs deal; CENTCOM Task Force Iron Gate (land-route interdiction) downplayed by Iran FM; Hormuz: 3 tankers claimed struck by IRGC mines Nov 8 — CENTCOM disputes; Houthi Bab al-Mandab blockade Day 113 — Saudi crude halted 106th consecutive day (CBS News; Al Jazeera; Iran International; Rubio/JPost; CENTCOM; Nov 9 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-11-09',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 255 — Lebanon ceasefire Day 143 holds; toll unchanged at 4,386 killed / 12,407 wounded; no new IDF or Hezbollah incidents; IRGC/CENTCOM diplomatic pause Day 99 — 65th consecutive day without land-based launches; diplomatic stalemate: Araghchi says mediators stalled; Houthi Bab al-Mandab blockade Day 113 — Saudi crude halted 106th consecutive day (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 9 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

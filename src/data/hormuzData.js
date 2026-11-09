@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-08',
+  updated: '2026-11-09',
 
   current: {
     transitsPerDay: 5,
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 8 (Day 254, Bab al-Mandab blockade Day 112): Houthis claimed 6 operations vs Saudi Arabia (Nov 7–8) — ballistic missiles + cruise missiles + drones targeting Riyadh KKIA, Aramco oil storage + distillation towers in Riyadh, Aramco Khurais facility, Saudi troops in Najran …',
+      detail: 'Nov 9 (Day 255, Bab al-Mandab blockade Day 113): Saudi crude via Red Sea halted 106th consecutive day. Houthis claimed 6 operations Nov 7–8 — ballistic missiles + cruise missiles + drones targeting Riyadh KKIA, Aramco oil storage + distillation towers, Aramco Khurais facility, Saudi troops in Najran; Saudi-led coalition confirmed cruise missile intercept over Riyadh; Saudi airstrikes near Sanaa killed ≥27 (Houthi health official; WION) …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 8 (Day 254): Iran reviewing Qatar\'s de-escalation proposals; Trump said deal "could happen"; US defensive strikes on Qeshm + Lavan Island + Bandar Abbas area (explosions reported by IRNA); Iran FM: US reply "unconvincing"; Oman-UK-Qatar trilateral mediation track continues …',
+      detail: 'Nov 9 (Day 255): Araghchi confirmed mediators have NOT traveled since US midterm election "shock" on Nov 3 — urged patience before "favorable atmosphere" resumes for travel; Rubio called Iran demands "outrageous and ridiculous"; Araghchi warned Iran will "rain down hell" if US escalates; Trump: fresh strikes "highly unlikely" if deal signed; CENTCOM Task Force Iron Gate (land-route interdiction) announced; Iran FM dismissed it; Oman-UK-Qatar trilateral mediation track on hold …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 8 (Day 254): Brent volatile ~$100–105/bbl — spiked on new US strikes (Qeshm + Lavan Island) + Houthi claims of 6 Saudi infrastructure ops; prior Nov 5–7 Brent rebounded from sub-$100 (Pomegra ~$94–97 on Nov 5) on Iran tanker-fire claims …',
+      detail: 'Nov 9 (Day 255): Brent volatile ~$100–105/bbl — IRGC claimed 3 tankers struck by mines in Hormuz on Nov 8 (CENTCOM disputes mine attribution on primary routes); 95 vessels attacked total per UKMTO; diplomatic stalemate: Araghchi says mediators stalled; Rubio says demands outrageous; Asian LNG buyers monitoring CENTCOM Task Force Iron Gate announcement …',
     },
   ],
 };

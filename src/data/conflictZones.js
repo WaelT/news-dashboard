@@ -2315,6 +2315,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 254', 'diplomatic pause day 98', '64th consecutive day', 'iran reviews qatar proposals', 'trump deal could happen', 'iran fm unconvincing', 'qeshm lavan strikes', 'houthi 6 ops saudi', 'vessels attacked 92', 'brent 100-105', 'houthi blockade day 112'],
   },
+  {
+    id: 283,
+    name: 'Diplomatic Pause Day 99 — Araghchi: Mediators Stalled; Rubio: Demands "Outrageous"; Task Force Iron Gate',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 255 (Nov 9): IRGC/CENTCOM diplomatic pause Day 99 — 65th consecutive day without land-based kinetic exchanges. Iran FM Araghchi confirmed mediators have not traveled since the US midterm election "shock" on Nov 3; urged patience before "favorable atmosphere" resumes. Araghchi on X: Iran\'s 2-day Hormuz reopening proposal stands, conditional on US ending the war on all fronts — warned: "Or choose war, and see our Warriors rain down hell." Secretary Rubio called Iran\'s demands "outrageous and ridiculous" — no breakthrough imminent (JPost). Trump said fresh strikes "highly unlikely" if Iran signs deal, but warned he could still act (CNBC). CENTCOM announced Task Force Iron Gate to extend naval blockade to overland trade routes — Iran FM dismissed the threat. Hormuz: IRGC claimed 3 tankers on fire after Nov 8 mine strikes; CENTCOM disputes mine attribution on primary routes; vessels attacked total: 95. Houthi Bab al-Mandab blockade Day 113 — Saudi crude halted 106th consecutive day since July 26. Lebanon ceasefire Day 143 holds; toll unchanged 4,386 killed / 12,407 wounded. Brent volatile ~$100–105/bbl. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (CBS News; Al Jazeera; Iran International; CNBC; Fox News; JPost; Araghchi/X; CENTCOM; DoD; Nov 9 2026)',
+    status: 'active',
+    keywords: ['day 255', 'diplomatic pause day 99', '65th consecutive day', 'araghchi mediators stalled', 'midterm shock', 'rubio outrageous ridiculous', 'iran rain down hell threat', 'task force iron gate', 'vessels attacked 95', 'brent 100-105', 'houthi blockade day 113'],
+  },
 ];
 
 export default conflictZones;
