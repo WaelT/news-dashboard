@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (9–10 Nov, Day 255–256): Brent plunged ~5% to ~$91–94/bbl on Nov 9 as Qatar PM brought $8B Hormuz deal to White House and Iran reportedly signed off per 2 diplomatic sources — biggest one-day drop since June ceasefire; no deal confirmed Nov 10 (Rubio/Hegseth/Bessent opposed); prior (8 Nov, Day 254): Brent volatile ~$100–105/bbl on US defensive strikes Qeshm + Lavan Island + Bandar Abbas …',
-    trumpUltimatum: 'LATEST (9–10 Nov): Qatar PM Sheikh Mohammed bin Abdulrahman Al Thani brought $8B interim deal to White House — US releases frozen $8B + lifts naval blockade; Iran reopens Hormuz + stops attacks; Iran reportedly signed off per 2 diplomatic sources (OilPrice; Israel HaYom Nov 9); no deal confirmed Nov 10 — Rubio/Hegseth/Bessent/Lutnick opposed; Trump: deal "in process" / "the war has been won"; prior (21 Oct): WSJ reported Middle East oil exports averaged >24 mbd (week to Oct 18), exceeding pre-war 23.3 mbd (Kpler)',
-    iranThreat: 'LATEST (9–10 Nov): Rep. Massie (R-KY) filed 8 impeachment articles against Defense Secretary Hegseth — 3 War Powers Act violations + conduct of Iran war; House vote expected this week; Hegseth "not worried"; Trump backs Hegseth, calls Massie "loser"; Trump: "the war has been won"; prior (14 Oct): Singapore-flagged GFS Pride sank after being attacked in the Strait',
+    tankerRates: 'LATEST (9–10 Nov, Day 255–256): Brent plunged ~5% to ~$91–94/bbl on Nov 9 as Qatar PM brought $8B Hormuz deal to White H …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
   disruptions: [
