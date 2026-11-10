@@ -2337,6 +2337,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 256', 'diplomatic pause day 100', 'milestone', '66th consecutive day', 'massie impeachment hegseth', 'qatar pm white house', '$8 billion deal', 'iran signed off', 'brent 91-94', 'houthi blockade day 114'],
   },
+  {
+    id: 285,
+    name: 'Day 256 Afternoon — Europeans Upbeat; Saudi Bahri 4 Tankers Transit Hormuz With US Navy Escort',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 256 (Nov 10, afternoon): Qatar PM briefed European counterparts in Paris — EU foreign policy chief Kallas: "upbeat" with "momentum" toward deal; no deal confirmed. Rubio, Hegseth, Bessent, Lutnick all opposed. Saudi Bahri sent 4 tankers through Hormuz on Nov 10 with US Navy escort — first publicly acknowledged coordinated Saudi tanker transits. UKMTO weekly (Nov 10): 170 outbound + 155 inbound = 325 commercial vessel transits; assessment "below normal, but not stalled." Brent held ~$91–94/bbl. Houthi blockade Day 114. Lebanon ceasefire Day 144 holds; toll unchanged 4,386/12,407. No new US KIA (26 total; 865 wounded). (The National; Bloomberg; Gulf News; Nov 10 2026)',
+    status: 'active',
+    keywords: ['day 256 afternoon', 'europeans upbeat', 'kallas momentum', 'saudi bahri 4 tankers', 'us navy escort', 'hormuz coordinated transits', 'ukmto not stalled', '325 vessels weekly', 'brent 91-94', 'houthi blockade day 114'],
+  },
 ];
 
 export default conflictZones;
