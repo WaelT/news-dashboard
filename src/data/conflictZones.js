@@ -2326,6 +2326,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 255', 'diplomatic pause day 99', '65th consecutive day', 'araghchi mediators stalled', 'midterm shock', 'rubio outrageous ridiculous', 'iran rain down hell threat', 'task force iron gate', 'vessels attacked 95', 'brent 100-105', 'houthi blockade day 113'],
   },
+  {
+    id: 284,
+    name: 'Diplomatic Pause Day 100 (Milestone) — Massie Impeaches Hegseth; Qatar $8B Deal; Brent $91–94',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 256 (Nov 10): IRGC/CENTCOM diplomatic pause Day 100 (milestone) — 66th consecutive day without land-based kinetic exchanges. Rep. Thomas Massie (R-KY) filed eight articles of impeachment against Defense Secretary Hegseth on Nov 9 (3 War Powers Act violations + conduct of Iran war); House vote expected this week; Hegseth "not worried." Trump meets Qatar PM Sheikh Mohammed bin Abdulrahman Al Thani at White House on $8B Hormuz deal (US releases $8B frozen Iranian funds + lifts naval blockade; Iran reopens Hormuz + stops attacks). Iran reportedly signed off per two diplomatic sources. No deal confirmed as of Nov 10 — Rubio, Hegseth, Bessent, Lutnick all opposed. Trump: deal "in process" / "the war has been won." Brent fell ~5% to ~$91–94/bbl on deal hopes. Houthi Bab al-Mandab blockade Day 114 — Saudi crude halted 107th consecutive day. Lebanon ceasefire Day 144 holds; toll unchanged 4,386/12,407. No new US KIA (26 total; 865 wounded). (Times of Israel; Newsweek; NBC News; Axios; Wash Post; OilPrice; invezz; Korea Times; Eurasia Review; CBS News; Al Jazeera; Nov 10 2026)',
+    status: 'active',
+    keywords: ['day 256', 'diplomatic pause day 100', 'milestone', '66th consecutive day', 'massie impeachment hegseth', 'qatar pm white house', '$8 billion deal', 'iran signed off', 'brent 91-94', 'houthi blockade day 114'],
+  },
 ];
 
 export default conflictZones;
