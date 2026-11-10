@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (10 Nov, Day 256): Saudi Bahri (national tanker firm) sent 4 vessels through Hormuz on Nov 10 with US military coordination — Bahri president confirmed the company is operating "coordinated transits" with the US Navy; UKMTO weekly (Nov 10) counted 170 outbound + 155 inbound = 325 commercial vessel transits (≈46/day total; "below normal but not stalled"); Brent ~$91–94/bbl (held after Qatar $8B deal surge of Nov 9 — biggest one-day drop since June ceasefire) (Bloomberg; Gulf News; OilPrice.com; Nov 10 2026)',
-    trumpUltimatum: 'LATEST (10 Nov): Europeans upbeat after Qatar PM Sheikh Mohammed bin Abdulrahman Al Thani briefed European counterparts in Paris following White House meeting — EU foreign policy chief Kallas: "momentum is there"; Saudi Bahri sending 4 tankers through Hormuz on Nov 10 with US escort, signaling conditional confidence in deal progress; prior (21 Oct): WSJ reported Middle East oil exports (Hormuz + alternative routes) averaged >24 mbd in week ending Oct 18 (Kpler) — above pre-war 23.3 mbd (The National; Bloomberg; Nov 10 2026)',
+    tankerRates: 'LATEST (10 Nov, Day 256): Saudi Bahri (national tanker firm) sent 4 vessels through Hormuz on Nov 10 with US military co …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
     iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 10 (Day 256, Bab al-Mandab blockade Day 114): Saudi Bahri sent 4 tankers through Hormuz on Nov 10 with US military escort — first publicly confirmed coordinated Saudi tanker transits since the blockade began; Saudi crude via Red Sea halted 107th consecutive day since July 26. Houthis claimed 6 operations Nov 7–8 — ballistic missiles + cruise missiles + drones targeting Riyadh KKIA, Aramco oil storage + distillation towers, Aramco Khurais facility, Saudi troops in Najran (Bloomberg; Nov 10 2026)',
+      detail: 'Nov 10 (Day 256, Bab al-Mandab blockade Day 114): Saudi Bahri sent 4 tankers through Hormuz on Nov 10 with US military escort — first publicly confirmed coordinated Saudi tanker transits since the blockade began …',
     },
     {
       country: 'Iraq',
