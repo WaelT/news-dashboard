@@ -66,7 +66,7 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (11 Nov, Day 257): Qatar $8B Hormuz interim deal (US releases $8B frozen Iranian funds + lifts blockade …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    trumpUltimatum: 'LATEST (11 Nov): Rubio at G7 Paris said US sees "no need" for major combat operations — economic pressure working; Trump: "positive momentum" toward ending war; Iran security chief Rezaei: "no negotiations taking place between Tehran and Washington"; prior (21 Oct): WSJ — Middle Eastern oil exports averaged >24 mbd in week ending Oct 18, exceeding pre-war 23.3 mbd (Kpler)',
     iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
