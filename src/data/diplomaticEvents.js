@@ -4048,6 +4048,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 257 (Nov 11, US Veterans Day) — IRGC/CENTCOM diplomatic pause Day 101 — 67th consecutive day without land-based kinetic exchanges. Qatar\'s $8B Hormuz interim deal framework (US releases $8B frozen Iranian funds + lifts naval blockade; Iran reopens Hormuz + stops attacks) remains under review by the Trump administration; Rubio, Hegseth, Bessent, and Lutnick continued to express opposition as of Nov 10; Trump said deal "in process" but no announcement. House vote expected this week on Rep. Thomas Massie\'s eight impeachment articles against Defense Secretary Hegseth (filed Nov 9; 3 War Powers Act violations + conduct of Iran war). Saudi Bahri 4 tankers transited Hormuz on Nov 10 under US Navy escort; Bahri president confirmed "coordinated transits" (Bloomberg). No new US offensive strikes on Iran confirmed. Houthi Bab al-Mandab blockade Day 115 — Saudi crude via Red Sea halted 108th consecutive day since July 26. Lebanon ceasefire Day 145 holds; toll unchanged at 4,386 killed / 12,407 wounded. Brent volatile ~$91–96/bbl. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; CBS News; Reuters; Bloomberg; CENTCOM; DoD; Nov 11 2026)',
   },
+  {
+    date: '2026-11-11',
+    event: 'Day 257 Afternoon — Rubio at G7 Paris: "No Need for Major Combat Operations"; Iran Security Chief Denies Any Talks; Trump Sees "Positive Momentum"',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 257 (Nov 11, afternoon) — Secretary of State Marco Rubio, at the G7 foreign ministers meeting in Paris, stated the US sees "no need" to restart major combat operations against Iran: "US economic campaign removes need for major combat against Iran" (JPost/Korea Times/Al-Monitor). Rubio said economic sanctions and military pressure are working sufficiently and reiterated the US remains "open to diplomacy" but that Iranian demands remain "outrageous and ridiculous" and a breakthrough is not imminent (CNBC; CBS News). Trump told reporters he sees "positive momentum" toward ending the war and confirmed resumed hostilities are "highly unlikely" if Iran signs a "very strong agreement." Iran\'s top security official Mohsen Rezaei separately stated there are "currently no negotiations taking place between Tehran and Washington," directly contradicting optimistic Western characterizations of the diplomatic track (Al-Monitor). Iran FM Araghchi reiterated conflict cannot be resolved through military means or sanctions alone. No new US offensive strikes confirmed. Houthi Bab al-Mandab blockade Day 115 continues. Lebanon ceasefire Day 145 holds. (Korea Times; CBS News; Al-Monitor; JPost; CNBC; CBS News; Nov 11 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
