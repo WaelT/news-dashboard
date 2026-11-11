@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (11 Nov, Day 257): Qatar $8B Hormuz interim deal (US releases $8B frozen Iranian funds + lifts blockade; Iran reopens Strait + halts attacks) under White House review; Rubio/Hegseth/Bessent/Lutnick reported opposed; Saudi Bahri 4 tankers transited Nov 10 with US Navy escort — first publicly acknowledged coordinated Saudi tanker transits since blockade; UKMTO weekly (Nov 10): 325 total commercial vessel transits (~46/day) — "below normal, but not stalled" …',
-    trumpUltimatum: 'LATEST (11 Nov): Qatar $8B Hormuz deal still under Trump administration review — Nov 11 US Veterans Day; Hegseth House impeachment vote by Rep. Massie expected this week; deal "in process" per Trump Nov 10; Rubio/Hegseth/Bessent/Lutnick all reported opposed; Iran reportedly signed off on Qatari-brokered terms per 2 diplomatic sources (OilPrice/Israel HaYom Nov 9); The Wall Street Journal (21 Oct): Middle East oil exports averaged >24 mbd in week ending Oct 18 (Kpler), exceeding pre-war level of 23.3 mbd via all routes',
+    tankerRates: 'LATEST (11 Nov, Day 257): Qatar $8B Hormuz interim deal (US releases $8B frozen Iranian funds + lifts blockade …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
     iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 11 (Day 257, Bab al-Mandab blockade Day 115): Saudi Bahri 4-tanker Hormuz coordinated transit confirmed Nov 10 under US Navy escort (Bloomberg; Bahri president); Saudi crude via Red Sea halted 108th consecutive day since July 26; Qatar $8B Hormuz deal under White House review; no deal confirmed as of Nov 11 morning …',
+      detail: 'Nov 11 (Day 257, Bab al-Mandab blockade Day 115): Saudi Bahri 4-tanker Hormuz coordinated transit confirmed Nov 10 under US Navy escort (Bloomberg; Bahri president); Saudi crude via Red Sea halted 108th consecutive day since July 26; Qatar $8B Hormuz deal under White House review …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 11 (Day 257): Qatar $8B Hormuz deal under White House review; Araghchi urged patience as mediators remain stalled post-US midterms; Rubio: Iran demands "outrageous"; Trump: deal "in process"; Hegseth House impeachment vote this week; Nov 11 US Veterans Day — no major congressional activity expected until Thursday …',
+      detail: 'Nov 11 (Day 257): Qatar $8B Hormuz deal under White House review; Araghchi urged patience as mediators remain stalled post-US midterms; Rubio: Iran demands "outrageous"; Trump: deal "in process"; Hegseth House impeachment vote this week …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 11 (Day 257): Brent volatile ~$91–96/bbl — fell ~5% on Qatar $8B deal hopes Nov 10; Saudi Bahri 4 tankers transited Hormuz Nov 10 with US escort (Bloomberg); 95 vessels attacked total per UKMTO (no new confirmed incidents since Nov 8); diplomatic stalemate: Rubio/Hegseth opposed to deal; Trump says deal "in process"; US Veterans Day federal holiday …',
+      detail: 'Nov 11 (Day 257): Brent volatile ~$91–96/bbl — fell ~5% on Qatar $8B deal hopes Nov 10; Saudi Bahri 4 tankers transited Hormuz Nov 10 with US escort (Bloomberg); 95 vessels attacked total per UKMTO (no new confirmed incidents since Nov 8); diplomatic stalemate: Rubio/Hegseth opposed to deal …',
     },
   ],
 };
