@@ -4041,6 +4041,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 256 (Nov 10, afternoon) — Qatar PM Sheikh Mohammed bin Abdulrahman Al Thani briefed European counterparts in Paris following his White House meeting with Trump; EU foreign policy chief Kallas described European outlook as "upbeat" with "momentum" toward a deal. No deal formally confirmed: Rubio, Hegseth, Bessent, and Lutnick all remain opposed; Iran continues to insist on seven preconditions including lifting the naval blockade and releasing frozen assets. Separately, Saudi Bahri (national tanker firm) sent 4 oil tankers through the Strait of Hormuz on Nov 10 under US Navy military escort — Bahri president confirmed "coordinated transits" in Bloomberg report; first publicly acknowledged such operation. UKMTO weekly report as of Nov 10: "170 outbound + 155 inbound" commercial vessel transits (≈46/day); assessment: "below normal, but not stalled." Brent held at ~$91–94/bbl. Houthi Bab al-Mandab blockade Day 114 — Saudi crude via Red Sea halted 107th consecutive day since July 26. Lebanon ceasefire Day 144 holds; toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (The National; Bloomberg; Gulf News; CBS News; Al Jazeera; Nov 10 2026)',
   },
+  {
+    date: '2026-11-11',
+    event: 'Day 257 — Veterans Day; Diplomatic Pause Day 101; Qatar $8B Deal Under White House Review; Hegseth Impeachment Vote Expected This Week',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 257 (Nov 11, US Veterans Day) — IRGC/CENTCOM diplomatic pause Day 101 — 67th consecutive day without land-based kinetic exchanges. Qatar\'s $8B Hormuz interim deal framework (US releases $8B frozen Iranian funds + lifts naval blockade; Iran reopens Hormuz + stops attacks) remains under review by the Trump administration; Rubio, Hegseth, Bessent, and Lutnick continued to express opposition as of Nov 10; Trump said deal "in process" but no announcement. House vote expected this week on Rep. Thomas Massie\'s eight impeachment articles against Defense Secretary Hegseth (filed Nov 9; 3 War Powers Act violations + conduct of Iran war). Saudi Bahri 4 tankers transited Hormuz on Nov 10 under US Navy escort; Bahri president confirmed "coordinated transits" (Bloomberg). No new US offensive strikes on Iran confirmed. Houthi Bab al-Mandab blockade Day 115 — Saudi crude via Red Sea halted 108th consecutive day since July 26. Lebanon ceasefire Day 145 holds; toll unchanged at 4,386 killed / 12,407 wounded. Brent volatile ~$91–96/bbl. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; CBS News; Reuters; Bloomberg; CENTCOM; DoD; Nov 11 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {

@@ -2348,6 +2348,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 256 afternoon', 'europeans upbeat', 'kallas momentum', 'saudi bahri 4 tankers', 'us navy escort', 'hormuz coordinated transits', 'ukmto not stalled', '325 vessels weekly', 'brent 91-94', 'houthi blockade day 114'],
   },
+  {
+    id: 286,
+    name: 'Day 257 — Veterans Day; Diplomatic Pause Day 101; Qatar $8B Deal Under Review; Hegseth Impeachment Vote This Week',
+    lat: 32.1,
+    lng: 34.8,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 257 (Nov 11, US Veterans Day): IRGC/CENTCOM diplomatic pause Day 101 — 67th consecutive day without land-based kinetic exchanges. Qatar\'s $8B Hormuz interim deal (US releases $8B frozen Iranian funds + lifts blockade; Iran reopens Strait + stops attacks) under White House review; Rubio, Hegseth, Bessent, Lutnick reported opposed. House vote on Massie\'s 8 Hegseth impeachment articles expected this week. Saudi Bahri coordinated tanker transits (4 vessels Nov 10, US escort) signal cautious Hormuz normalization effort. Houthi Bab al-Mandab blockade Day 115 — Saudi crude via Red Sea halted 108th consecutive day. Lebanon ceasefire Day 145 holds; toll unchanged 4,386/12,407. Brent ~$91–96/bbl. No new US KIA (26 total; 865 wounded). (Al Jazeera; CBS News; Reuters; Bloomberg; CENTCOM; DoD; Nov 11 2026)',
+    status: 'active',
+    keywords: ['day 257', 'veterans day', 'diplomatic pause day 101', '67th consecutive day', 'qatar deal review', 'hegseth impeachment vote', 'saudi bahri hormuz', 'brent 91-96', 'houthi blockade day 115', 'lebanon ceasefire day 145'],
+  },
 ];
 
 export default conflictZones;
