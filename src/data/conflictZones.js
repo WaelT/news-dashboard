@@ -2359,6 +2359,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 257', 'veterans day', 'diplomatic pause day 101', '67th consecutive day', 'qatar deal review', 'hegseth impeachment vote', 'saudi bahri hormuz', 'brent 91-96', 'houthi blockade day 115', 'lebanon ceasefire day 145'],
   },
+  {
+    id: 287,
+    name: 'Day 258 — Hegseth Impeachment Blocked 211-204; Trump: War "Militarily Over"; Rezaei Denies Talks; Brent Below $90',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 258 (Nov 12): IRGC/CENTCOM diplomatic pause Day 102 — 68th consecutive day without land-based kinetic exchanges. The US House voted 211–204 to refer Thomas Massie\'s eight impeachment articles against Defense Secretary Hegseth to the Judiciary Committee, effectively killing the effort; 11 Democrats absent. Trump called it an "exoneration" of Hegseth. Trump separately declared the Iran war "militarily is effectively over." Secretary Rubio confirmed US has "no need" to restart major combat operations — economic pressure and the military campaign have achieved core objectives. Iran\'s security chief Mohsen Rezaei denied on state media that any negotiations are taking place between Tehran and Washington, directly contradicting Western diplomatic optimism. Brent crude broke below $90 for the first time since August on deal hopes — settled ~$88–92/bbl. No new US offensive strikes on Iran. Houthi Bab al-Mandab blockade Day 116 — Saudi crude via Red Sea halted 109th consecutive day since July 26. Lebanon ceasefire Day 146 holds; toll unchanged 4,386/12,407. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; Euronews; CBS News; Gulf News; Reuters; Fox News; CENTCOM; DoD; Nov 12 2026)',
+    status: 'active',
+    keywords: ['day 258', 'hegseth impeachment blocked', '211-204', 'trump iran war militarily over', 'rezaei denies negotiations', 'brent below 90', 'diplomatic pause day 102', '68th consecutive day', 'houthi blockade day 116', 'lebanon ceasefire day 146'],
+  },
 ];
 
 export default conflictZones;
