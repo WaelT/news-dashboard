@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-11',
+  updated: '2026-11-12',
 
   current: {
     transitsPerDay: 5,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (11 Nov, Day 257): Qatar $8B Hormuz interim deal (US releases $8B frozen Iranian funds + lifts blockade …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    tankerRates: 'LATEST (12 Nov, Day 258): Brent broke below $90 for first time since August on deal hopes — settled ~$88–92/bbl; House blocked Hegseth impeachment 211-204 (Judiciary Committee referral); Trump: Iran war "militarily is effectively over"; no new UKMTO confirmed incidents since Nov 8; Qatar $8B deal still unconfirmed',
+    trumpUltimatum: 'LATEST (12 Nov): Trump: Iran war "militarily is effectively over"; Rubio: US has "no need" to restart major combat operations against Iran — economic campaign achieves objectives; Iran security chief Rezaei: "no negotiations taking place between Tehran and Washington"; Hegseth impeachment blocked 211-204',
     iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 11 (Day 257, Bab al-Mandab blockade Day 115): Saudi Bahri 4-tanker Hormuz coordinated transit confirmed Nov 10 under US Navy escort (Bloomberg; Bahri president); Saudi crude via Red Sea halted 108th consecutive day since July 26; Qatar $8B Hormuz deal under White House review …',
+      detail: 'Nov 12 (Day 258, Bab al-Mandab blockade Day 116): Saudi crude via Red Sea halted 109th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal unconfirmed — Rezaei denies US-Iran talks; Brent settled ~$88–92/bbl …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 11 (Day 257): Qatar $8B Hormuz deal under White House review; Araghchi urged patience as mediators remain stalled post-US midterms; Rubio: Iran demands "outrageous"; Trump: deal "in process"; Hegseth House impeachment vote this week …',
+      detail: 'Nov 12 (Day 258): Qatar $8B Hormuz deal still unconfirmed — Iran security chief Rezaei denied any negotiations with Washington; Rubio: US has "no need" to restart major combat; Trump: Iran war "militarily is effectively over"; Hegseth impeachment blocked 211-204; Brent ~$88–92/bbl …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 11 (Day 257): Brent volatile ~$91–96/bbl — fell ~5% on Qatar $8B deal hopes Nov 10; Saudi Bahri 4 tankers transited Hormuz Nov 10 with US escort (Bloomberg); 95 vessels attacked total per UKMTO (no new confirmed incidents since Nov 8); diplomatic stalemate: Rubio/Hegseth opposed to deal …',
+      detail: 'Nov 12 (Day 258): Brent broke below $90 for first time since August on deal hopes — settled ~$88–92/bbl; 95 vessels attacked total per UKMTO (no new confirmed incidents since Nov 8); Hegseth impeachment blocked; Trump: war "militarily over"; Iran denies talks; diplomatic stalemate continues …',
     },
   ],
 };
