@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (12 Nov, Day 258): Brent broke below $90 for first time since August on deal hopes — settled ~$88–92/bbl; House blocked Hegseth impeachment 211-204 (Judiciary Committee referral); Trump: Iran war "militarily is effectively over"; no new UKMTO confirmed incidents since Nov 8; Qatar $8B deal still unconfirmed',
-    trumpUltimatum: 'LATEST (12 Nov): Trump: Iran war "militarily is effectively over"; Rubio: US has "no need" to restart major combat operations against Iran — economic campaign achieves objectives; Iran security chief Rezaei: "no negotiations taking place between Tehran and Washington"; Hegseth impeachment blocked 211-204',
+    tankerRates: 'LATEST (12 Nov, Day 258): Brent broke below $90 for first time since August on deal hopes — settled ~$88–92/bbl …',
+    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
     iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 12 (Day 258, Bab al-Mandab blockade Day 116): Saudi crude via Red Sea halted 109th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal unconfirmed — Rezaei denies US-Iran talks; Brent settled ~$88–92/bbl …',
+      detail: 'Nov 12 (Day 258, Bab al-Mandab blockade Day 116): Saudi crude via Red Sea halted 109th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal unconfirmed — Rezaei denies US-Iran talks …',
     },
     {
       country: 'Iraq',
