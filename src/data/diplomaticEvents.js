@@ -4064,6 +4064,13 @@ const diplomaticEvents = [
   },
   {
     date: '2026-11-13',
+    event: 'Trump Says "No Deal Necessary" With Iran; Vance Sidelined; UN Extends Houthi Sanctions',
+    type: 'diplomacy',
+    status: 'stalled',
+    detail: 'Day 259 (Nov 13) — In a significant policy reversal, President Trump publicly stated "no deal is necessary" with Iran, apparently abandoning the Qatar $8B Hormuz interim deal framework that VP Vance had championed. Trump simultaneously sidelined Vance from the Iran portfolio, reassigning direct diplomatic oversight to other officials (Al Jazeera). The statement undercut months of Qatari mediation toward an interim Hormuz reopening agreement, and Iran\'s security chief Rezaei continued to deny any US-Iran negotiations. Separately, the UN Security Council extended the Houthi sanctions regime — renewing the arms embargo and travel bans — the same day as renewed Houthi claims of missile and drone strikes on Saudi Arabia. CENTCOM shot down 2 Iranian drones targeting Bahrain, denying IRGC claims of hitting a US early-warning radar there. (Al Jazeera; CBS News; TRT World; CENTCOM; Xinhua; Nov 13 2026)',
+  },
+  {
+    date: '2026-11-13',
     event: 'Day 259 — Trump–Netanyahu "Shouting Match" Over Iran War; Rubio + CENTCOM: No Plans to Restart Strikes; Houthis Claim New Saudi Ops; Qatar $8B Deal Under Review',
     type: 'diplomacy',
     status: 'stalled',
