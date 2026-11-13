@@ -66,8 +66,8 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (13 Nov, Day 259): Brent volatile ~$89–93/bbl; Trump–Netanyahu clash over whether to restart war …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
-    iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    trumpUltimatum: 'LATEST (10 Nov): Iranian state media reported that the Islamic Revolutionary Guard Corps had attacked and destroyed what it described as "enemy navigation systems" on Oman\'s Didamar Island in the Strait of Hormuz',
+    iranThreat: '21 Oct: The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
   },
 
   disruptions: [
