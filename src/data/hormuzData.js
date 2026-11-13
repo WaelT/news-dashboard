@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-12',
+  updated: '2026-11-13',
 
   current: {
     transitsPerDay: 5,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (12 Nov, Day 258): Brent broke below $90 for first time since August on deal hopes — settled ~$88–92/bbl …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
-    iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    tankerRates: 'LATEST (13 Nov, Day 259): Brent volatile ~$89–93/bbl; Trump–Netanyahu clash over whether to restart war; CENTCOM denied Israeli media report on resumed strike plans — "pure speculation"; Qatar $8B Hormuz deal still under White House review; ships in Hormuz face continued "indiscriminate attacks" per maritime monitor (CBS News); CENTCOM disabled a commercial vessel in Gulf of Oman attempting to break the naval blockade …',
+    trumpUltimatum: 'LATEST (13 Nov): CENTCOM denied Israeli media report about preparations for resuming strikes against Iran — called it "pure speculation" (TRT World); Trump said he is "not looking" to escalate; Rubio reaffirmed US has "no need" to restart major combat operations; Qatar $8B deal (US releases frozen funds + lifts blockade; Iran reopens Strait + stops attacks) still under White House review as of Nov 13',
+    iranThreat: '13 Nov (Day 259): Ships in Hormuz still face "indiscriminate attacks" per maritime monitor (CBS News); Houthis hold Perim Island in Bab al-Mandab; ground fighting in Lahj province near the strait; prior: 14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 12 (Day 258, Bab al-Mandab blockade Day 116): Saudi crude via Red Sea halted 109th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal unconfirmed — Rezaei denies US-Iran talks …',
+      detail: 'Nov 13 (Day 259, Bab al-Mandab blockade Day 117): Saudi crude via Red Sea halted 110th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal still under White House review — Rezaei denies US-Iran talks; Trump–Netanyahu clash over whether to resume US strikes …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 12 (Day 258): Qatar $8B Hormuz deal still unconfirmed — Iran security chief Rezaei denied any negotiations with Washington; Rubio: US has "no need" to restart major combat; Trump: Iran war "militarily is effectively over"; Hegseth impeachment blocked 211-204; Brent ~$88–92/bbl …',
+      detail: 'Nov 13 (Day 259): Qatar $8B Hormuz deal still under White House review — Rezaei denied any US-Iran negotiations; Trump–Netanyahu "shouting match" call over Iran war (Fox News); CENTCOM denied Israeli media report on resumed strike plans — "pure speculation" (TRT World); Rubio: US has "no need" to restart major combat; ships still face "indiscriminate attacks" per maritime monitor; CENTCOM disabled vessel attempting to break naval blockade; Brent volatile ~$89–93/bbl …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 12 (Day 258): Brent broke below $90 for first time since August on deal hopes — settled ~$88–92/bbl; 95 vessels attacked total per UKMTO (no new confirmed incidents since Nov 8); Hegseth impeachment blocked; Trump: war "militarily over"; Iran denies talks; diplomatic stalemate continues …',
+      detail: 'Nov 13 (Day 259): Brent volatile ~$89–93/bbl; Trump–Netanyahu clash over whether to restart war; CENTCOM denied Israeli media strike-plan report — "pure speculation"; CENTCOM disabled commercial vessel in Gulf of Oman attempting to break naval blockade; 95 vessels attacked total per UKMTO (no new confirmed incidents since Nov 8); Qatar $8B Hormuz deal still under review; Iran denies talks; diplomatic stalemate continues …',
     },
   ],
 };

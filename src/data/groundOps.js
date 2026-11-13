@@ -3868,6 +3868,27 @@ const groundOps = {
       event: "Day 258 — Lebanon ceasefire Day 146 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 102 — 68th consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 116 — Saudi crude halted 109th consecutive day (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 12 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-13',
+      lat: 26.3,
+      lng: 56.5,
+      event: "Day 259 — IRGC/CENTCOM diplomatic pause Day 103 — 69th consecutive day without land-based launches; Trump–Netanyahu 'shouting match' call over Iran war (Fox News); CENTCOM denies Israeli media report on strike preparations — 'pure speculation'; CENTCOM disabled a commercial vessel in Gulf of Oman attempting to break the blockade; Qatar $8B Hormuz deal still under White House review; Brent volatile ~$89–93/bbl; Houthi Bab al-Mandab blockade Day 117 — Saudi crude halted 110th consecutive day (Fox News; CBS News; TRT World; CENTCOM; Nov 13 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-11-13',
+      lat: 15.35,
+      lng: 44.21,
+      event: "Day 259 — Houthis claimed new drone + ballistic missile strikes on Saudi oil infrastructure and military targets in Najran and southwest Saudi Arabia; ground fighting in Lahj province near Bab al-Mandab continues with Houthi forces holding Perim Island in the strait; Houthi Bab al-Mandab blockade Day 117 — Saudi crude halted 110th consecutive day since July 26 (Xinhua; Asharq Al-Awsat; Nov 13 2026)",
+      type: 'military',
+    },
+    {
+      date: '2026-11-13',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 259 — Lebanon ceasefire Day 147 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 103 — 69th consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 117 — Saudi crude halted 110th consecutive day (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 13 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 
