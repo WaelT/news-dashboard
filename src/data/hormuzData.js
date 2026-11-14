@@ -66,14 +66,14 @@ export const hormuzData = {
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
     tankerRates: 'LATEST (13 Nov, Day 259): Brent volatile ~$89–93/bbl; Trump–Netanyahu clash over whether to restart war …',
-    trumpUltimatum: 'LATEST (14 Nov): Iran\'s Assembly of Experts issued a statement declaring NPT withdrawal an "unavoidable necessity" — a major domestic escalation signal in Iran\'s nuclear weapons debate. IRGC claims it destroyed US early-warning radar in Bahrain on Nov 13 (CENTCOM denies; both drones intercepted, no damage). Trump said "no deal necessary" with Iran on Nov 13, sidelining VP Vance from Iran portfolio — stalling Qatar $8B Hormuz interim deal track.',
+    trumpUltimatum: 'LATEST (10 Nov): Iranian state media reported that the Islamic Revolutionary Guard Corps had attacked and destroyed what it described as "enemy navigation systems" on Oman\'s Didamar Island in the Strait of Hormuz',
     iranThreat: '21 Oct: The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 14 (Day 260, Bab al-Mandab blockade Day 118): Saudi crude via Red Sea halted 111th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal stalled — Trump "no deal necessary" (Nov 13); Iran Assembly of Experts NPT withdrawal statement signals domestic hardliner pressure …',
+      detail: 'Nov 14 (Day 260, Bab al-Mandab blockade Day 118): Saudi crude via Red Sea halted 111th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal stalled — Trump "no deal necessary" (Nov 13) …',
     },
     {
       country: 'Iraq',
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Nov 14 (Day 260): Brent volatile ~$89–93/bbl (second weekly decline on deal hopes); Iran Assembly of Experts NPT withdrawal "unavoidable necessity" statement — escalation risk; Trump "no deal necessary" with Iran; CENTCOM disabled commercial vessel in Gulf of Oman attempting to break naval blockade (Nov 13) …',
+      detail: 'Nov 14 (Day 260): Brent volatile ~$89–93/bbl (second weekly decline on deal hopes); Iran Assembly of Experts NPT withdrawal "unavoidable necessity" statement — escalation risk; Trump "no deal necessary" with Iran …',
     },
   ],
 };
