@@ -3889,6 +3889,27 @@ const groundOps = {
       event: "Day 259 — Lebanon ceasefire Day 147 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 103 — 69th consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 117 — Saudi crude halted 110th consecutive day (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 13 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-14',
+      lat: 35.69,
+      lng: 51.39,
+      event: "Day 260 — Iran Assembly of Experts issued statement that NPT withdrawal has become 'unavoidable necessity' — major domestic nuclear debate escalation signal; IRGC/CENTCOM diplomatic pause Day 104 — 70th consecutive day without land-based launches; Brent volatile ~$89–93/bbl (second weekly decline on deal hopes); Houthi Bab al-Mandab blockade Day 118 — Saudi crude halted 111th consecutive day (RFERL; Al Jazeera; CENTCOM; Nov 14 2026)",
+      type: 'military',
+    },
+    {
+      date: '2026-11-14',
+      lat: 15.35,
+      lng: 44.21,
+      event: "Day 260 — Houthis continue Bab al-Mandab blockade Day 118 — Saudi crude via Red Sea halted 111th consecutive day since July 26; ground fighting in Lahj province near Bab al-Mandab continues with Houthi forces holding Perim Island in the strait (Xinhua; Asharq Al-Awsat; Nov 14 2026)",
+      type: 'military',
+    },
+    {
+      date: '2026-11-14',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 260 — Lebanon ceasefire Day 148 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 104 — 70th consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 118 — Saudi crude halted 111th consecutive day (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 14 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

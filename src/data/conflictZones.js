@@ -2381,6 +2381,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 259', 'trump netanyahu shouting match', 'centcom denies strike plans', 'qatar deal review', 'perim island houthis', 'houthi new saudi ops', 'gulf of oman blockade vessel disabled', 'brent 89-93', 'diplomatic pause day 103', '69th consecutive day', 'houthi blockade day 117', 'lebanon ceasefire day 147'],
   },
+  {
+    id: 289,
+    name: 'Day 260 — Iran Assembly of Experts: NPT Withdrawal "Unavoidable Necessity"; Diplomatic Pause Day 104',
+    lat: 35.69,
+    lng: 51.39,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 260 (Nov 14): IRGC/CENTCOM diplomatic pause Day 104 — 70th consecutive day without land-based kinetic exchanges. Iran\'s Assembly of Experts issued a statement declaring NPT withdrawal an "unavoidable necessity" — a major escalation signal in the domestic nuclear weapons debate. IRGC continues to claim it destroyed a US early-warning radar in Bahrain on Nov 13 (CENTCOM denies; both drones intercepted, no damage). Iran\'s security chief Rezaei reiterated there are no US-Iran negotiations; Trump\'s "no deal necessary" position has stalled the Qatar $8B interim Hormuz deal. Brent volatile ~$89–93/bbl (second weekly decline on de-escalation hopes). Houthi Bab al-Mandab blockade Day 118 — Saudi crude via Red Sea halted 111th consecutive day since July 26. Lebanon ceasefire Day 148 holds; toll unchanged 4,386/12,407. No new US KIA (26 total; 865 wounded). (RFERL; Al Jazeera; CBS News; Iran International; CENTCOM; DoD; Nov 14 2026)',
+    status: 'active',
+    keywords: ['day 260', 'iran assembly of experts', 'npt withdrawal unavoidable necessity', 'nuclear weapons debate', 'diplomatic pause day 104', '70th consecutive day', 'centcom denies bahrain radar', 'qatar deal stalled', 'brent 89-93', 'houthi blockade day 118', 'lebanon ceasefire day 148'],
+  },
 ];
 
 export default conflictZones;
