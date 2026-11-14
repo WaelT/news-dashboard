@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (14 Nov, Day 260): Brent volatile ~$89–96/bbl (second weekly decline on deal hopes; spiked on 5 new mine strikes in 24h); IRGC claims 5 tankers hit mines Nov 13–14; Iran Assembly of Experts declared NPT withdrawal "unavoidable necessity" — escalation risk; vessel traffic ~65% below pre-war level per gCaptain; IMF PortWatch: 3 transits Nov 8 (vs 85/day baseline) …',
-    trumpUltimatum: 'LATEST (13 Nov): IRGC launched 2 attack drones at Bahrain — both shot down by CENTCOM; IRGC claimed strike on US early-warning radar in Bahrain (CENTCOM denies: "no injuries or damage"); US also struck Qeshm Island after Iran fired at US aircraft (CBS News). Prior (10 Nov): IRGC claimed "enemy navigation systems" destroyed on Oman\'s Didamar Island in Strait of Hormuz',
-    iranThreat: '21 Oct: The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
+    tankerRates: 'LATEST (14 Nov, Day 260): Brent volatile ~$89–96/bbl (second weekly decline on deal hopes …',
+    trumpUltimatum: 'LATEST (14 Nov): the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
+    iranThreat: '10 Nov: Iranian state media reported that the Islamic Revolutionary Guard Corps had attacked and destroyed what it described as "enemy navigation systems" on Oman\'s Didamar Island in the Strait of Hormuz',
   },
 
   disruptions: [
