@@ -2370,6 +2370,28 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 258', 'hegseth impeachment blocked', '211-204', 'trump iran war militarily over', 'rezaei denies negotiations', 'brent below 90', 'diplomatic pause day 102', '68th consecutive day', 'houthi blockade day 116', 'lebanon ceasefire day 146'],
   },
+  {
+    id: 288,
+    name: 'Day 259 — Trump–Netanyahu Clash; CENTCOM Denies Strike Plans; Houthis Claim New Saudi Ops; Perim Island Captured',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 259 (Nov 13): IRGC/CENTCOM diplomatic pause Day 103 — 69th consecutive day without land-based kinetic exchanges. Trump and Netanyahu reportedly had a "shouting match from hell" over a phone call: Trump pressing to end the Iran war, Netanyahu urging resumed US strikes on Iran (Fox News). CENTCOM denied an Israeli media report claiming the US was preparing to restart major strikes — dismissed as "pure speculation" (TRT World). Rubio reaffirmed US has "no need" to restart major combat operations; Trump confirmed he is "not looking" to escalate. CENTCOM disabled a commercial vessel in the Gulf of Oman after the crew attempted to run the naval blockade. Qatar\'s $8B Hormuz interim deal (US releases frozen funds + lifts blockade; Iran reopens Strait + stops attacks) remains under White House review — Rubio, Hegseth, Bessent, and Lutnick still opposed. Ships in Hormuz still face "indiscriminate attacks" per maritime monitor (CBS News). Houthis claimed new drone + ballistic missile strikes on Saudi oil infrastructure and military targets in Najran; ground fighting in Lahj province near Bab al-Mandab continues with Houthis holding Perim Island in the strait. Brent volatile ~$89–93/bbl. Houthi Bab al-Mandab blockade Day 117 — Saudi crude via Red Sea halted 110th consecutive day since July 26. Lebanon ceasefire Day 147 holds; toll unchanged 4,386/12,407. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Fox News; CBS News; TRT World; Xinhua; Asharq Al-Awsat; CENTCOM; DoD; Nov 13 2026)',
+    status: 'active',
+    keywords: ['day 259', 'trump netanyahu shouting match', 'centcom denies strike plans', 'qatar deal review', 'perim island houthis', 'houthi new saudi ops', 'gulf of oman blockade vessel disabled', 'brent 89-93', 'diplomatic pause day 103', '69th consecutive day', 'houthi blockade day 117', 'lebanon ceasefire day 147'],
+  },
+  {
+    id: 289,
+    name: 'Day 260 — Iran Assembly of Experts: NPT Withdrawal "Unavoidable Necessity"; Diplomatic Pause Day 104',
+    lat: 35.69,
+    lng: 51.39,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 260 (Nov 14): IRGC/CENTCOM diplomatic pause Day 104 — 70th consecutive day without land-based kinetic exchanges. Iran\'s Assembly of Experts issued a statement declaring NPT withdrawal an "unavoidable necessity" — a major escalation signal in the domestic nuclear weapons debate. IRGC continues to claim it destroyed a US early-warning radar in Bahrain on Nov 13 (CENTCOM denies; both drones intercepted, no damage). Iran\'s security chief Rezaei reiterated there are no US-Iran negotiations; Trump\'s "no deal necessary" position has stalled the Qatar $8B interim Hormuz deal. Brent volatile ~$89–93/bbl (second weekly decline on de-escalation hopes). Houthi Bab al-Mandab blockade Day 118 — Saudi crude via Red Sea halted 111th consecutive day since July 26. Lebanon ceasefire Day 148 holds; toll unchanged 4,386/12,407. No new US KIA (26 total; 865 wounded). (RFERL; Al Jazeera; CBS News; Iran International; CENTCOM; DoD; Nov 14 2026)',
+    status: 'active',
+    keywords: ['day 260', 'iran assembly of experts', 'npt withdrawal unavoidable necessity', 'nuclear weapons debate', 'diplomatic pause day 104', '70th consecutive day', 'centcom denies bahrain radar', 'qatar deal stalled', 'brent 89-93', 'houthi blockade day 118', 'lebanon ceasefire day 148'],
+  },
 ];
 
 export default conflictZones;

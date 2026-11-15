@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-15',
+  updated: '2026-11-14',
 
   current: {
     transitsPerDay: 5,
@@ -59,21 +59,21 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 95,    // +3 Nov 8: IRGC claims three oil tankers caught fire after striking naval mines in unauthorized Hormuz routes — IRGC Navy: "vessels switched off navigation/positioning systems"; at least two fires confirmed by multiple media (Gulf News; Al Arabiya; TASS; Mehr News; Nov 8 2026); prior 92: +1 Nov 6 UKMTO: tanker explosion ~16 NM east of Khasab (Oman coast) — master reported explosion at port-side waterline, ship continued under own power, all crew safe (UKMTO 2026-11-06 15:24 update); +1 Nov 6 UKMTO: tanker struck by two unknown projectiles ~50 NM off Qatar's north coast — no damage/casualty details provided (UKMTO); prior 90: +1 Oct 30 UKMTO: Qatar LNG carrier Al Mayeda struck near Hormuz (Qatar Gas Transport Co; crew safe); +1 Nov 1 UKMTO: vessel struck unknown projectile in Strait — Mayday relayed on VHF Ch 16 (UKMTO; crew status unclear); IRGC also claimed 2 tankers hit mines Nov 1 — CENTCOM disputed, not counted; prior 88: +2 Oct 29 UKMTO confirmed: (1) dhow fire/sinking ~9 NM north of Khasab; (2) tanker struck unknown projectile outbound Hormuz; prior 86: +1 Oct 22 UKMTO Limah tanker; prior 85: +1 Oct 21 UKMTO M/T Al Dasma; prior 80: +2 Oct 17–18; prior 78: +2 Oct 15–16; prior 76: +2 Oct 14; prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
+    vesselsAttacked: 100,    // +2 Nov 14: IRGC claims 2 more oil tankers struck sea mines and caught fire in Strait of Hormuz (houseofsaud.com; IRGC Navy; Nov 14 2026); +3 Nov 13: Iran reports 3 oil tankers hit mines in Hormuz — 5 total in 24-hour period (CBSNews liveblog; Al Jazeera; Nov 13 2026); prior 95: +3 Nov 8: IRGC claims three oil tankers caught fire after striking naval mines in unauthorized Hormuz routes — IRGC Navy: "vessels switched off navigation/positioning systems"; at least two fires confirmed by multiple media (Gulf News; Al Arabiya; TASS; Mehr News; Nov 8 2026); prior 92: +1 Nov 6 UKMTO: tanker explosion ~16 NM east of Khasab (Oman coast) — master reported explosion at port-side waterline, ship continued under own power, all crew safe (UKMTO 2026-11-06 15:24 update); +1 Nov 6 UKMTO: tanker struck by two unknown projectiles ~50 NM off Qatar's north coast — no damage/casualty details provided (UKMTO); prior 90: +1 Oct 30 UKMTO: Qatar LNG carrier Al Mayeda struck near Hormuz (Qatar Gas Transport Co; crew safe); +1 Nov 1 UKMTO: vessel struck unknown projectile in Strait — Mayday relayed on VHF Ch 16 (UKMTO; crew status unclear); IRGC also claimed 2 tankers hit mines Nov 1 — CENTCOM disputed, not counted; prior 88: +2 Oct 29 UKMTO confirmed: (1) dhow fire/sinking ~9 NM north of Khasab; (2) tanker struck unknown projectile outbound Hormuz; prior 86: +1 Oct 22 UKMTO Limah tanker; prior 85: +1 Oct 21 UKMTO M/T Al Dasma; prior 80: +2 Oct 17–18; prior 78: +2 Oct 15–16; prior 76: +2 Oct 14; prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
     seafarersKilled: 24,    // No new confirmed deaths Oct 13–14 (crew safe in Oct 14 UKMTO incidents); prior 24: +1 Aug 18 Minoan Dignity (chief engineer; CNBC/NBC News); +1 Jul 31 Hormuz (AOL); 17 prior confirmed including Jun 10 MT Settebello, Jul 12 GFS Galaxy (Indian), Jul 14 M/V Mombasa (Indian)
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (14 Nov, Day 260): IRGC claimed 5 oil tankers caught fire in Hormuz after mine strikes in 24-hr period (Arab News/Middle East Eye); CENTCOM disputed mine attribution on primary transit routes; Brent volatile ~$96–100/bbl on tanker fires then pulled back; IEA Nov 13 OMR: first global oil surplus since Iran war began; 13 Nov: IRGC broke 69-day pause — 2 OWADs shot down over Bahrain; Brent ~$95–96/bbl rebounded from sub-$90 low of Nov 10 …',
-    trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
-    iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
+    tankerRates: 'LATEST (14 Nov, Day 260): Brent volatile ~$89–96/bbl (second weekly decline on deal hopes …',
+    trumpUltimatum: 'LATEST (14 Nov): the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
+    iranThreat: '10 Nov: Iranian state media reported that the Islamic Revolutionary Guard Corps had attacked and destroyed what it described as "enemy navigation systems" on Oman\'s Didamar Island in the Strait of Hormuz',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 14 (Day 260, Bab al-Mandab blockade Day 118): Saudi crude via Red Sea halted 111th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed Hormuz transit; 5 tankers on fire in Hormuz Nov 14 (IRGC/Arab News) — CENTCOM disputed; Brent volatile ~$96–100/bbl …',
+      detail: 'Nov 14 (Day 260, Bab al-Mandab blockade Day 118): Saudi crude via Red Sea halted 111th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal stalled — Trump "no deal necessary" (Nov 13) …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 14 (Day 260): IRGC broke 69-day land-based pause on Nov 13 — 2 OWADs at Bahrain radar, shot down by CENTCOM; 5 tanker fires in Hormuz Nov 14 (IRGC/Arab News); Qatar $8B deal still unconfirmed; Brent rebounded to ~$95–96/bbl then volatile ~$96–100/bbl on new tanker fires …',
+      detail: 'Nov 14 (Day 260): Qatar $8B Hormuz deal stalled — Trump declared "no deal necessary" (Nov 13); Iran Assembly of Experts NPT withdrawal statement (Nov 14); CENTCOM denied resumed strike plans — "pure speculation" (TRT World); IRGC Bahrain drone attack Nov 13 — CENTCOM intercepted both, no damage …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 14 (Day 260): IEA Nov 13 OMR reported first global oil supply surplus since Iran war began; 95 vessels attacked total per UKMTO (+5 tanker mine/fire incidents Nov 14 — IRGC-claimed, CENTCOM disputed); Allianz Trade (Nov 11): war cost GCC >$200B physical damage, projected $790B losses by 2030 (5.9% GDP gap); Brent volatile ~$96–100/bbl …',
+      detail: 'Nov 14 (Day 260): Brent volatile ~$89–93/bbl (second weekly decline on deal hopes); Iran Assembly of Experts NPT withdrawal "unavoidable necessity" statement — escalation risk; Trump "no deal necessary" with Iran …',
     },
   ],
 };
