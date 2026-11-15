@@ -3868,6 +3868,27 @@ const groundOps = {
       event: "Day 258 — Lebanon ceasefire Day 146 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 102 — 68th consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 116 — Saudi crude halted 109th consecutive day (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 12 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-13',
+      lat: 26.21,
+      lng: 50.61,
+      event: "Day 259 — IRGC breaks 69-day pause: 2 OWADs at Bahrain US early-warning radar site, intercepted by CENTCOM; Iran claimed radar destroyed, CENTCOM denied; first IRGC attack on a Gulf state since early September; Brent ~$95–96/bbl; IEA: first oil surplus since war began (Al Jazeera; Middle East Eye; CENTCOM; Critical Threats; IEA OMR; Nov 13 2026)",
+      type: 'airstrike',
+    },
+    {
+      date: '2026-11-14',
+      lat: 26.3,
+      lng: 56.5,
+      event: "Day 260 — IRGC claimed 5 oil tankers caught fire in Hormuz after mine strikes in 24 hrs (Arab News/Middle East Eye); CENTCOM disputed mine attribution on primary routes; Brent volatile ~$96–100/bbl; Allianz Trade: GCC >$200B physical damage, $790B projected losses to 2030; Houthi Bab al-Mandab blockade Day 118 — Saudi crude halted 111th consecutive day (Arab News; Middle East Eye; CENTCOM; Allianz Trade; Nov 14 2026)",
+      type: 'airstrike',
+    },
+    {
+      date: '2026-11-14',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 260 — Lebanon ceasefire Day 148 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 118 — Saudi crude halted 111th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 14 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 
