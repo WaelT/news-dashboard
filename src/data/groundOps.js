@@ -3910,6 +3910,27 @@ const groundOps = {
       event: "Day 260 — Lebanon ceasefire Day 148 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 104 — 70th consecutive day without land-based launches; Houthi Bab al-Mandab blockade Day 118 — Saudi crude halted 111th consecutive day (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 14 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-15',
+      lat: 26.11,
+      lng: 50.55,
+      event: "Day 261 — IRGC launches 6 drones at Riffa helicopter base Bahrain targeting US air defense radar; Bahrain issues first nationwide safety alert since September; Bahrain + CENTCOM intercept drones — CENTCOM confirms no injuries/damage; IRGC describes attack as second-wave retaliation (The National; Al Jazeera; ABC News; CENTCOM; Nov 15 2026)",
+      type: 'military',
+    },
+    {
+      date: '2026-11-15',
+      lat: 24.69,
+      lng: 46.72,
+      event: "Day 261 — Saudi Arabia air defenses intercept and destroy 2 Houthi ballistic missiles targeting Riyadh; Houthi Bab al-Mandab blockade Day 119 — Saudi crude via Red Sea halted 112th consecutive day since July 26 (Gulf News; Saudi Civil Defense; Nov 15 2026)",
+      type: 'military',
+    },
+    {
+      date: '2026-11-15',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 261 — Lebanon ceasefire Day 149 holds; toll unchanged at 4,386 killed / 12,407 wounded; IRGC/CENTCOM diplomatic pause Day 105 — 71st consecutive day without confirmed land-based exchanges per CENTCOM (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 15 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

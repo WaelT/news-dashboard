@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (14 Nov, Day 260): Brent volatile ~$89–96/bbl (second weekly decline on deal hopes …',
-    trumpUltimatum: 'LATEST (14 Nov): the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
-    iranThreat: '10 Nov: Iranian state media reported that the Islamic Revolutionary Guard Corps had attacked and destroyed what it described as "enemy navigation systems" on Oman\'s Didamar Island in the Strait of Hormuz',
+    tankerRates: 'LATEST (15 Nov, Day 261): Brent volatile ~$89–96/bbl; IRGC launched 6 drones at Bahrain Riffa helicopter base (US radar targeted; intercepted, no damage); Saudi Arabia intercepted 2 Houthi BMs targeting Riyadh; Hormuz ~5 transits/day; JMIC "Severe" maintained; Qatar $8B deal stalled — Trump "no deal necessary"; Houthi Bab al-Mandab blockade Day 119 — Saudi crude halted 112th consecutive day (The National; Gulf News; CENTCOM; Nov 15 2026)',
+    trumpUltimatum: 'LATEST (15 Nov): IRGC launches second-wave drone attack on Bahrain Riffa helicopter base targeting US air defense radar; Bahrain first nationwide safety alert since September; CENTCOM intercepts 2 drones, no injuries or damage; Saudi Arabia intercepts 2 Houthi BMs over Riyadh; IRGC claims operation successful retaliation (The National; Al Jazeera; ABC News; CENTCOM; Nov 15 2026)',
+    iranThreat: '15 Nov: IRGC launched 6 drones at Riffa helicopter base in Bahrain targeting US air defense radar — described as second-wave retaliation; Bahrain air defenses and CENTCOM intercepted drones (no damage); prior 10 Nov: IRGC claimed to have attacked and destroyed "enemy navigation systems" on Oman\'s Didamar Island in the Strait of Hormuz',
   },
 
   disruptions: [

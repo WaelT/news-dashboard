@@ -2392,6 +2392,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 260', 'iran assembly of experts', 'npt withdrawal unavoidable necessity', 'nuclear weapons debate', 'diplomatic pause day 104', '70th consecutive day', 'centcom denies bahrain radar', 'qatar deal stalled', 'brent 89-93', 'houthi blockade day 118', 'lebanon ceasefire day 148'],
   },
+  {
+    id: 290,
+    name: 'Day 261 — IRGC Second-Wave Drones at Bahrain Riffa Base; Saudi Arabia Intercepts Houthi Missiles Over Riyadh',
+    lat: 26.11,
+    lng: 50.55,
+    type: 'military',
+    icon: 'attack',
+    description: 'Day 261 (Nov 15): IRGC launched six drones at Riffa helicopter base in Bahrain, claiming to target a US air defense radar system in a second-wave retaliation operation. Bahrain issued its first nationwide public safety alert since September — residents told to shelter as explosions were heard around 4:00 AM and 6:30 AM local time. Bahrain air defenses intercepted and destroyed Iranian drones. CENTCOM confirmed intercepting two Iranian drones, reporting no injuries or damage. Separately, Saudi Arabia\'s air defenses intercepted and destroyed two Houthi ballistic missiles targeting Riyadh. IRGC/CENTCOM diplomatic pause Day 105 — 71st consecutive day without confirmed land-based exchanges per CENTCOM. Qatar\'s $8B Hormuz deal remains stalled. Houthi Bab al-Mandab blockade Day 119 — Saudi crude via Red Sea halted 112th consecutive day since July 26. Lebanon ceasefire Day 149 holds; toll unchanged 4,386/12,407. No new US KIA (26 total; 865 wounded). (The National; Al Jazeera; ABC News; Gulf News; Middle East Eye; CENTCOM; DoD; Nov 15 2026)',
+    status: 'active',
+    keywords: ['day 261', 'irgc drones bahrain', 'riffa helicopter base', 'us radar targeted', 'bahrain nationwide alert', 'second wave retaliation', 'saudi riyadh houthi missiles', 'diplomatic pause day 105', '71st consecutive day', 'houthi blockade day 119', 'lebanon ceasefire day 149'],
+  },
 ];
 
 export default conflictZones;

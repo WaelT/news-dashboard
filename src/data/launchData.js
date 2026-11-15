@@ -381,10 +381,13 @@ export const dailyLaunches = [
   { date: '2026-11-13', missiles: 0, drones: 2, intercepted: 2, targets: ['Bahrain'] },
   // Day 260 — IRGC/CENTCOM diplomatic pause Day 104 — 70th consecutive day without land-based launches; no new confirmed IRGC missile or drone attacks vs Gulf states as of this run; Iran Assembly of Experts issued statement that NPT withdrawal has become "unavoidable necessity" — major escalation signal in domestic nuclear debate; IRGC continues to claim it destroyed US early-warning radar in Bahrain on Nov 13 — CENTCOM denies; Houthi Bab al-Mandab blockade Day 118 — Saudi crude via Red Sea halted 111th consecutive day; Lebanon ceasefire Day 148 holds (4,386/12,407); Brent volatile ~$89–93/bbl (second weekly decline on deal hopes); no new US KIA (26 total; 865 wounded) (RFERL; Al Jazeera; CBS News; CENTCOM; DoD; Nov 14 2026)
   { date: '2026-11-14', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 261 — IRGC launches 6 drones at Riffa helicopter base in Bahrain targeting US air defense radar system (second wave of Bahrain attacks after Nov 13 — first nationwide Bahraini safety alert since September; explosions heard ~4:00 AM and ~6:30 AM local); Bahrain air defenses intercepted and destroyed drones; CENTCOM confirmed intercepting 2 Iranian drones, no injuries or damage; IRGC claims second-wave retaliation operation; Saudi Arabia air defenses intercepted 2 Houthi ballistic missiles targeting Riyadh; IRGC/CENTCOM diplomatic pause Day 105 — 71st consecutive day without land-based exchanges per CENTCOM; Houthi Bab al-Mandab blockade Day 119 — Saudi crude halted 112th consecutive day; Lebanon ceasefire Day 149 holds; no new US KIA (26 total; 865 wounded) (The National; Al Jazeera; ABC News; Gulf News; Middle East Eye; CENTCOM; Nov 15 2026)
+  { date: '2026-11-15', missiles: 0, drones: 6, intercepted: 4, targets: ['Bahrain'] },
 
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
+// Updated through 2026-11-15T12:00Z: Day 261 — IRGC launched 6 drones at Riffa helicopter base Bahrain (US radar targeted; Bahrain + CENTCOM intercepted; no damage); Saudi Arabia intercepted 2 Houthi BMs targeting Riyadh; Bahrain count +6 → 573; Houthi Bab al-Mandab blockade Day 119 — Saudi crude halted 112th day; Lebanon ceasefire Day 149; no new US KIA (26 total; 865 wounded) (The National; Al Jazeera; ABC News; Gulf News; CENTCOM; Nov 15 2026)
 // Updated through 2026-11-14T00:00Z: Day 260 — IRGC/CENTCOM diplomatic pause Day 104 — 70th consecutive day without land-based launches; Iran Assembly of Experts NPT withdrawal statement; Bahrain drone count +2 from Nov 13 IRGC attack; Brent ~$89–93/bbl; Houthi Bab al-Mandab blockade Day 118 — Saudi crude halted 111th day; Lebanon ceasefire Day 148 (4,386/12,407); no new US KIA (26 total; 865 wounded) (RFERL; Al Jazeera; CENTCOM; DoD; Nov 14 2026)
 // Updated through 2026-11-12T00:00Z: Day 258 — IRGC/CENTCOM diplomatic pause Day 102 — 68th consecutive day without land-based launches; House blocked Hegseth impeachment 211-204; Trump: war "militarily is effectively over"; Rubio: no need to restart combat; Rezaei denies negotiations; Brent briefly below $90 — settled ~$88–92/bbl; Houthi Bab al-Mandab blockade Day 116 — Saudi crude halted 109th day; Lebanon ceasefire Day 146 (4,386/12,407); no new US KIA (26 total; 865 wounded); countryBreakdown unchanged (Al Jazeera; Euronews; CBS News; Gulf News; Reuters; CENTCOM; DoD; Nov 12 2026)
 // Updated through 2026-11-11T00:00Z: Day 257 — IRGC/CENTCOM diplomatic pause Day 101 — 67th consecutive day without land-based launches; US Veterans Day; Qatar $8B deal still under review by Trump administration (Rubio/Hegseth/Bessent/Lutnick reported opposed); Hegseth House impeachment vote expected this week; Brent volatile ~$91–96/bbl; Houthi Bab al-Mandab blockade Day 115 — Saudi crude halted 108th day; Lebanon ceasefire Day 145 (4,386/12,407); no new US KIA (26 total; 865 wounded); countryBreakdown unchanged; Wikipedia DNS failure (Al Jazeera; CBS News; Reuters; CENTCOM; DoD; Nov 11 2026)
@@ -530,7 +533,7 @@ export const countryBreakdown = {
   drones: [
     { country: 'UAE', count: 2288 },
     { country: 'Israel', count: 765 },
-    { country: 'Bahrain', count: 567 },
+    { country: 'Bahrain', count: 573 },
     { country: 'Kuwait', count: 564 },
     { country: 'Saudi Arabia', count: 176 },
     { country: 'Qatar', count: 95 },
