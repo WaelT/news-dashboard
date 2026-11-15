@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-12',
+  updated: '2026-11-15',
 
   current: {
     transitsPerDay: 5,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (12 Nov, Day 258): Brent broke below $90 for first time since August on deal hopes — settled ~$88–92/bbl …',
+    tankerRates: 'LATEST (14 Nov, Day 260): IRGC claimed 5 oil tankers caught fire in Hormuz after mine strikes in 24-hr period (Arab News/Middle East Eye); CENTCOM disputed mine attribution on primary transit routes; Brent volatile ~$96–100/bbl on tanker fires then pulled back; IEA Nov 13 OMR: first global oil surplus since Iran war began; 13 Nov: IRGC broke 69-day pause — 2 OWADs shot down over Bahrain; Brent ~$95–96/bbl rebounded from sub-$90 low of Nov 10 …',
     trumpUltimatum: 'LATEST (21 Oct): The Wall Street Journal reported that Middle Eastern oil exports, including shipments through the Strait of Hormuz and alternative routes, had averaged more than 24 million barrels per day in the week ending 18 October, exceeding the pre-war level of 23.3 million, according to Kpler',
     iranThreat: '14 Oct: the Singapore-flagged container ship GFS Pride sank after being attacked in the Strait',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 12 (Day 258, Bab al-Mandab blockade Day 116): Saudi crude via Red Sea halted 109th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal unconfirmed — Rezaei denies US-Iran talks …',
+      detail: 'Nov 14 (Day 260, Bab al-Mandab blockade Day 118): Saudi crude via Red Sea halted 111th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed Hormuz transit; 5 tankers on fire in Hormuz Nov 14 (IRGC/Arab News) — CENTCOM disputed; Brent volatile ~$96–100/bbl …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 12 (Day 258): Qatar $8B Hormuz deal still unconfirmed — Iran security chief Rezaei denied any negotiations with Washington; Rubio: US has "no need" to restart major combat; Trump: Iran war "militarily is effectively over"; Hegseth impeachment blocked 211-204; Brent ~$88–92/bbl …',
+      detail: 'Nov 14 (Day 260): IRGC broke 69-day land-based pause on Nov 13 — 2 OWADs at Bahrain radar, shot down by CENTCOM; 5 tanker fires in Hormuz Nov 14 (IRGC/Arab News); Qatar $8B deal still unconfirmed; Brent rebounded to ~$95–96/bbl then volatile ~$96–100/bbl on new tanker fires …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 12 (Day 258): Brent broke below $90 for first time since August on deal hopes — settled ~$88–92/bbl; 95 vessels attacked total per UKMTO (no new confirmed incidents since Nov 8); Hegseth impeachment blocked; Trump: war "militarily over"; Iran denies talks; diplomatic stalemate continues …',
+      detail: 'Nov 14 (Day 260): IEA Nov 13 OMR reported first global oil supply surplus since Iran war began; 95 vessels attacked total per UKMTO (+5 tanker mine/fire incidents Nov 14 — IRGC-claimed, CENTCOM disputed); Allianz Trade (Nov 11): war cost GCC >$200B physical damage, projected $790B losses by 2030 (5.9% GDP gap); Brent volatile ~$96–100/bbl …',
     },
   ],
 };
