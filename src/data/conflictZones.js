@@ -2403,6 +2403,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 261', 'irgc drones bahrain', 'riffa helicopter base', 'us radar targeted', 'bahrain nationwide alert', 'second wave retaliation', 'saudi riyadh houthi missiles', 'diplomatic pause day 105', '71st consecutive day', 'houthi blockade day 119', 'lebanon ceasefire day 149'],
   },
+  {
+    id: 291,
+    name: 'Day 262 — Diplomatic Stalemate; Hormuz Threat Severe; Houthi Blockade Day 120 + Lebanon Ceasefire Day 150 Milestones',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 262 (Nov 16): No new confirmed IRGC ballistic missile or drone launches. Diplomatic pause on CENTCOM airstrikes (Day 106) — 72nd consecutive day without confirmed land-based exchanges per CENTCOM. UKMTO regional maritime threat level remains "Severe" following Nov 15 Hormuz escalation. Maersk and other carriers maintaining Hormuz crossing suspension; approximately 60 tankers holding outside the Gulf awaiting clearance. Diplomatic stalemate continues: Iran denies negotiations; Secretary Rubio maintains US has no need to restart major combat; Trump maintains war "militarily over." Houthi Bab al-Mandab blockade Day 120 (milestone) — Saudi crude via Red Sea halted 113th consecutive day since July 26. Lebanon ceasefire Day 150 (5-month milestone) holds; toll unchanged 4,386 killed / 12,407 wounded. Brent elevated on Hormuz mine/attack escalation. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; CBS News; Reuters; CENTCOM; DoD; Nov 16 2026)',
+    status: 'active',
+    keywords: ['day 262', 'ukmto severe', 'maersk suspended hormuz', 'diplomatic pause day 106', '72nd consecutive day', 'diplomatic stalemate', 'houthi blockade day 120 milestone', 'lebanon ceasefire day 150 milestone', 'brent elevated'],
+  },
 ];
 
 export default conflictZones;
