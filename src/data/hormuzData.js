@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (16 Nov, Day 262): Brent ~$95.37/bbl early Monday — oil edges up on fresh Hormuz tanker incident; UKMTO Nov 16 projectile strike on tanker (engine room fire, crew evacuating); 19 ships transited Hormuz in 24h to Nov 15 20:31Z per live tracker (~0.08 mbd outbound crude); Maersk and major carriers maintaining Hormuz suspension; ~60 tankers holding outside Gulf; USS Theodore Roosevelt (left Singapore Nov 9) en route — expected late-November arrival; 3 carrier strike groups by Dec …',
-    trumpUltimatum: 'LATEST (16 Nov): UKMTO issued advisory reporting a tanker struck by an unknown projectile in the Strait of Hormuz — engine room fire, crew evacuating; Iran IRGC claimed oil supertanker (~2M bbls) sank after mine strike — unverified; oil rose ~0.5% on incident (The National; UKMTO; Nov 16 2026)',
-    iranThreat: '10 Nov: Iranian state media reported that the Islamic Revolutionary Guard Corps had attacked and destroyed what it described as "enemy navigation systems" on Oman\'s Didamar Island in the Strait of Hormuz',
+    tankerRates: 'LATEST (16 Nov, Day 262): Brent ~$95.37/bbl early Monday — oil edges up on fresh Hormuz tanker incident …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 16 (Day 262, Bab al-Mandab blockade Day 120 milestone): Saudi crude via Red Sea halted 113th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal stalled — Trump "no deal necessary" (Nov 13); Saudi air defenses intercepted 2 Houthi ballistic missiles targeting Riyadh Nov 15; USS Theodore Roosevelt en route for late-November reinforcement …',
+      detail: 'Nov 16 (Day 262, Bab al-Mandab blockade Day 120 milestone): Saudi crude via Red Sea halted 113th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal stalled — Trump "no deal necessary" (Nov 13) …',
     },
     {
       country: 'Iraq',
@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 16 (Day 262): UKMTO tanker struck by unknown projectile in Strait of Hormuz (engine room fire, Nov 16) — latest in series of incidents; IRGC 6-drone attack on Bahrain Riffa base Nov 15 — intercepted with no damage; Iran Assembly of Experts NPT withdrawal "unavoidable necessity" (Nov 14) — escalation signal; Qatar $8B Hormuz deal stalled — Trump "no deal necessary" (Nov 13) …',
+      detail: 'Nov 16 (Day 262): UKMTO tanker struck by unknown projectile in Strait of Hormuz (engine room fire, Nov 16) — latest in series of incidents; IRGC 6-drone attack on Bahrain Riffa base Nov 15 — intercepted with no damage …',
     },
     {
       country: 'Asia',
