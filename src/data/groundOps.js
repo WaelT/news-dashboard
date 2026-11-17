@@ -3949,8 +3949,15 @@ const groundOps = {
       date: '2026-11-17',
       lat: 26.3,
       lng: 56.5,
-      event: "Day 263 — No new confirmed IRGC launches; diplomatic pause Day 107 — 73rd consecutive day without land-based exchanges; USS Theodore Roosevelt approaching Middle East; UKMTO vessels attacked total 101 (+1 Nov 16); Houthi Bab al-Mandab blockade Day 121 — Saudi crude halted 114th consecutive day; Lebanon ceasefire Day 151 holds (4,386/12,407); Brent ~$95–96/bbl (Al Jazeera; CBS News; CENTCOM; Nov 17 2026)",
-      type: 'ceasefire',
+      event: "Day 263 — IRGC 3rd drone attack on Bahrain (~6 drones at Sheikh Isa AB targeting US radar) intercepted by CENTCOM + Bahrain DF — no damage; Qatar-Iran mediation meeting held; Qatar warned IRGC Bahrain attacks threaten peace negotiations; USS Theodore Roosevelt arrived Middle East (3 US carriers in theater); UKMTO vessels attacked 101; Bab al-Mandab blockade Day 121; Brent ~$95–96/bbl (CENTCOM; Al Jazeera; The Peninsula Qatar; Nov 17 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-11-17',
+      lat: 26.21,
+      lng: 50.59,
+      event: "Day 263 — IRGC launched 3rd drone attack on Bahrain in ~1 week: multiple one-way attack drones aimed at Sheikh Isa Air Base (targeting US radar facility); CENTCOM confirmed all intercepted with no US equipment damage or personnel injuries; Bahrain Defence Force confirmed interception; IRGC claimed radar strike — CENTCOM denied (CENTCOM; Bahrain MoD; ABC News; Gulf News; Nov 17 2026)",
+      type: 'escalation',
     },
     {
       date: '2026-11-17',
