@@ -385,6 +385,8 @@ export const dailyLaunches = [
   { date: '2026-11-15', missiles: 0, drones: 6, intercepted: 4, targets: ['Bahrain'] },
   // Day 262 — No confirmed new IRGC ballistic missile or drone launches; diplomatic pause Day 106 on CENTCOM airstrikes — 72nd consecutive day without confirmed land-based exchanges per CENTCOM; Houthi Bab al-Mandab blockade Day 120 (milestone) — Saudi crude via Red Sea halted 113th consecutive day; Lebanon ceasefire Day 150 (5-month milestone) holds (4,386/12,407); Hormuz maritime threat remains Severe (UKMTO); Maersk Hormuz suspension ongoing; ~60 tankers holding outside Gulf; no new US KIA (26 total; 865 wounded) (Al Jazeera; CBS News; Reuters; CENTCOM; DoD; Nov 16 2026)
   { date: '2026-11-16', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 263 — No confirmed new IRGC ballistic missile or drone launches; diplomatic pause Day 107 — 73rd consecutive day without confirmed land-based exchanges per CENTCOM; Houthi Bab al-Mandab blockade Day 121 — Saudi crude via Red Sea halted 114th consecutive day; Lebanon ceasefire Day 151 holds (4,386/12,407); UKMTO vessels attacked total 101 (+1 Nov 16); USS Theodore Roosevelt en route Middle East (expected late November); Brent ~$95–96/bbl; no new US KIA (26 total; 865 wounded); countryBreakdown unchanged; Wikipedia scrape failed (network) (Al Jazeera; CBS News; Reuters; CENTCOM; DoD; Nov 17 2026)
+  { date: '2026-11-17', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 
 ];
 

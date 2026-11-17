@@ -384,6 +384,8 @@ const casualtyTimeline = [
   { date: '2026-11-15', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 262: IRGC/CENTCOM diplomatic pause Day 106 — 72nd consecutive day without land-based launches; UKMTO tanker struck by unknown projectile in Strait of Hormuz (engine room fire; crew evacuating — no confirmed casualties); Iran IRGC claimed supertanker (~2M bbls) sank — unverified; USS Theodore Roosevelt en route Middle East (left Singapore Nov 9); Houthi Bab al-Mandab blockade Day 120 (milestone) — Saudi crude halted 113th consecutive day; Lebanon ceasefire Day 150 (5-month milestone) holds (4,386/12,407); no new US KIA (26 total; 865 wounded); all figures trajectory-based; Wikipedia scrape failed (network) (UKMTO; The National; CBS News; CENTCOM; DoD; Nov 16 2026)
   { date: '2026-11-16', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 263: IRGC/CENTCOM diplomatic pause Day 107 — 73rd consecutive day without confirmed land-based exchanges per CENTCOM; Houthi Bab al-Mandab blockade Day 121 — Saudi crude halted 114th consecutive day since July 26; Lebanon ceasefire Day 151 holds (toll unchanged 4,386/12,407); no new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS); UKMTO vessels attacked total 101 (+1 Nov 16); no new confirmed battle deaths; all figures trajectory-based; Wikipedia scrape failed (network) (Al Jazeera; CBS News; CENTCOM; DoD; Nov 17 2026)
+  { date: '2026-11-17', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;
