@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (17 Nov, Day 263): Brent ~$95–96/bbl — oil holding near Monday close; diplomatic stalemate Day 107; USS Theodore Roosevelt approaching Middle East; UKMTO vessels attacked total 101; ~60 tankers holding outside Gulf awaiting clearance; Maersk Hormuz suspension ongoing (Reuters; CENTCOM; Nov 17 2026)',
-    trumpUltimatum: 'LATEST (17 Nov): IRGC/CENTCOM diplomatic pause Day 107 — 73rd consecutive day without confirmed land-based exchanges; USS Theodore Roosevelt carrier strike group en route Middle East (departed Singapore Nov 9; expected late November); no new US offensive strikes on Iran confirmed (CENTCOM; DoD; Nov 17 2026)',
-    iranThreat: '16 Nov: UKMTO reported a tanker struck by an unknown projectile in the Strait of Hormuz — engine room fire reported, crew evacuating; IRGC claimed an oil supertanker (2M bbls) sank after a mine strike — no independent confirmation (UKMTO; The National; Nov 16 2026)',
+    tankerRates: 'LATEST (17 Nov, Day 263): Brent ~$95–96/bbl — oil holding near Monday close; diplomatic stalemate Day 107 …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 17 (Day 263, Bab al-Mandab blockade Day 121): Saudi crude via Red Sea halted 114th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal stalled — Trump "no deal necessary" (Nov 13); no new Hormuz transits confirmed today …',
+      detail: 'Nov 17 (Day 263, Bab al-Mandab blockade Day 121): Saudi crude via Red Sea halted 114th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal stalled — Trump "no deal necessary" (Nov 13) …',
     },
     {
       country: 'Iraq',
