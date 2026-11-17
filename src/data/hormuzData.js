@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-16',
+  updated: '2026-11-17',
 
   current: {
     transitsPerDay: 5,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (16 Nov, Day 262): Brent ~$95.37/bbl early Monday — oil edges up on fresh Hormuz tanker incident …',
-    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
-    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
+    tankerRates: 'LATEST (17 Nov, Day 263): Brent ~$95–96/bbl — oil holding near Monday close; diplomatic stalemate Day 107; USS Theodore Roosevelt approaching Middle East; UKMTO vessels attacked total 101; ~60 tankers holding outside Gulf awaiting clearance; Maersk Hormuz suspension ongoing (Reuters; CENTCOM; Nov 17 2026)',
+    trumpUltimatum: 'LATEST (17 Nov): IRGC/CENTCOM diplomatic pause Day 107 — 73rd consecutive day without confirmed land-based exchanges; USS Theodore Roosevelt carrier strike group en route Middle East (departed Singapore Nov 9; expected late November); no new US offensive strikes on Iran confirmed (CENTCOM; DoD; Nov 17 2026)',
+    iranThreat: '16 Nov: UKMTO reported a tanker struck by an unknown projectile in the Strait of Hormuz — engine room fire reported, crew evacuating; IRGC claimed an oil supertanker (2M bbls) sank after a mine strike — no independent confirmation (UKMTO; The National; Nov 16 2026)',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 16 (Day 262, Bab al-Mandab blockade Day 120 milestone): Saudi crude via Red Sea halted 113th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal stalled — Trump "no deal necessary" (Nov 13) …',
+      detail: 'Nov 17 (Day 263, Bab al-Mandab blockade Day 121): Saudi crude via Red Sea halted 114th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal stalled — Trump "no deal necessary" (Nov 13); no new Hormuz transits confirmed today …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 16 (Day 262): UKMTO tanker struck by unknown projectile in Strait of Hormuz (engine room fire, Nov 16) — latest in series of incidents; IRGC 6-drone attack on Bahrain Riffa base Nov 15 — intercepted with no damage …',
+      detail: 'Nov 17 (Day 263): UKMTO total vessels attacked 101 (+1 Nov 16 tanker struck by unknown projectile, engine room fire, crew evacuating); IRGC 6-drone attack on Bahrain Riffa base Nov 15 intercepted; USS Theodore Roosevelt approaching Gulf — will bring US carriers to 3 in theater …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 14 (Day 260): Brent volatile ~$89–93/bbl (second weekly decline on deal hopes); Iran Assembly of Experts NPT withdrawal "unavoidable necessity" statement — escalation risk; Trump "no deal necessary" with Iran …',
+      detail: 'Nov 17 (Day 263): Brent ~$95–96/bbl — holding near Monday close; diplomatic stalemate Day 107; Japan and South Korea importers continue Cape of Good Hope rerouting; no authorized Hormuz tanker transits confirmed today; insurance markets remain at war-risk elevated premiums …',
     },
   ],
 };
