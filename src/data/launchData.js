@@ -385,12 +385,13 @@ export const dailyLaunches = [
   { date: '2026-11-15', missiles: 0, drones: 6, intercepted: 4, targets: ['Bahrain'] },
   // Day 262 — No confirmed new IRGC ballistic missile or drone launches; diplomatic pause Day 106 on CENTCOM airstrikes — 72nd consecutive day without confirmed land-based exchanges per CENTCOM; Houthi Bab al-Mandab blockade Day 120 (milestone) — Saudi crude via Red Sea halted 113th consecutive day; Lebanon ceasefire Day 150 (5-month milestone) holds (4,386/12,407); Hormuz maritime threat remains Severe (UKMTO); Maersk Hormuz suspension ongoing; ~60 tankers holding outside Gulf; no new US KIA (26 total; 865 wounded) (Al Jazeera; CBS News; Reuters; CENTCOM; DoD; Nov 16 2026)
   { date: '2026-11-16', missiles: 0, drones: 0, intercepted: 0, targets: [] },
-  // Day 263 — No confirmed new IRGC ballistic missile or drone launches; diplomatic pause Day 107 — 73rd consecutive day without confirmed land-based exchanges per CENTCOM; Houthi Bab al-Mandab blockade Day 121 — Saudi crude via Red Sea halted 114th consecutive day; Lebanon ceasefire Day 151 holds (4,386/12,407); UKMTO vessels attacked total 101 (+1 Nov 16); USS Theodore Roosevelt en route Middle East (expected late November); Brent ~$95–96/bbl; no new US KIA (26 total; 865 wounded); countryBreakdown unchanged; Wikipedia scrape failed (network) (Al Jazeera; CBS News; Reuters; CENTCOM; DoD; Nov 17 2026)
-  { date: '2026-11-17', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 263 — IRGC launched multiple drones (IRGC claimed 6) at Sheikh Isa Air Base / Isa Air Base in Bahrain targeting a US radar facility — 3rd Iranian attack on Bahrain in ~1 week; CENTCOM confirmed "Multiple Iranian one-way attack drones launched by the IRGC today towards Bahrain were intercepted without any damage to U.S. equipment or injury to American personnel"; Bahrain Defence Force also confirmed interception; IRGC claimed radar facility struck — CENTCOM called claim "FALSE"; Qatar FM announced Qatar-Iran meeting today as part of mediation; Qatar warned IRGC attacks on US bases in Bahrain pose "extremely serious" threat to peace negotiations; Iran's Ghalibaf conveyed 7 conditions through Qatari mediator awaiting US response; USS Theodore Roosevelt arrived in Middle East region (confirmed by Al Jazeera Nov 16) — 3 US carriers now in theater; diplomatic stalemate Day 107 continues; Houthi Bab al-Mandab blockade Day 121; Lebanon ceasefire Day 151 holds (4,386/12,407); no new US KIA (26 total; 865 wounded); Bahrain drone count +6 → 579; Wikipedia scrape failed (network) (CENTCOM; Al Jazeera; ABC News; Gulf News; The Peninsula Qatar; Middle East Eye; Nov 17 2026)
+  { date: '2026-11-17', missiles: 0, drones: 6, intercepted: 6, targets: ['Bahrain'] },
 
 ];
 
 // Cumulative missiles & drones by targeted country (from defense ministry reports)
+// Updated through 2026-11-17T12:00Z: Day 263 — IRGC launched 6 drones at Sheikh Isa Air Base Bahrain (3rd attack in ~1 week; targeting US radar); all intercepted by CENTCOM + Bahrain Defence Force; no damage/injuries per CENTCOM; IRGC claim disputed; Bahrain drone count +6 → 579; Qatar-Iran meeting today re: mediation; Qatar warns Bahrain attacks threaten peace talks; USS Theodore Roosevelt arrived Middle East region (3 US carriers now in theater); no new US KIA (26 total; 865 wounded) (CENTCOM; Al Jazeera; ABC News; Gulf News; The Peninsula Qatar; Nov 17 2026)
 // Updated through 2026-11-16T00:00Z: Day 262 — No new launches; Houthi Bab al-Mandab blockade Day 120 (milestone) — Saudi crude halted 113th day; Lebanon ceasefire Day 150 (milestone); Hormuz threat Severe; Maersk suspended; countryBreakdown unchanged (Al Jazeera; CBS News; CENTCOM; DoD; Nov 16 2026)
 // Updated through 2026-11-15T12:00Z: Day 261 — IRGC launched 6 drones at Riffa helicopter base Bahrain (US radar targeted; Bahrain + CENTCOM intercepted; no damage); Saudi Arabia intercepted 2 Houthi BMs targeting Riyadh; Bahrain count +6 → 573; Houthi Bab al-Mandab blockade Day 119 — Saudi crude halted 112th day; Lebanon ceasefire Day 149; no new US KIA (26 total; 865 wounded) (The National; Al Jazeera; ABC News; Gulf News; CENTCOM; Nov 15 2026)
 // Updated through 2026-11-14T00:00Z: Day 260 — IRGC/CENTCOM diplomatic pause Day 104 — 70th consecutive day without land-based launches; Iran Assembly of Experts NPT withdrawal statement; Bahrain drone count +2 from Nov 13 IRGC attack; Brent ~$89–93/bbl; Houthi Bab al-Mandab blockade Day 118 — Saudi crude halted 111th day; Lebanon ceasefire Day 148 (4,386/12,407); no new US KIA (26 total; 865 wounded) (RFERL; Al Jazeera; CENTCOM; DoD; Nov 14 2026)
@@ -538,7 +539,7 @@ export const countryBreakdown = {
   drones: [
     { country: 'UAE', count: 2288 },
     { country: 'Israel', count: 765 },
-    { country: 'Bahrain', count: 573 },
+    { country: 'Bahrain', count: 579 },
     { country: 'Kuwait', count: 564 },
     { country: 'Saudi Arabia', count: 176 },
     { country: 'Qatar', count: 95 },
