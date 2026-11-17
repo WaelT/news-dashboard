@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (17 Nov, Day 263): Brent ~$95–96/bbl — holding; IRGC launched 3rd drone attack on Bahrain (Sheikh Isa AB, US radar targeted) — all intercepted, no damage (CENTCOM); Qatar-Iran mediation meeting underway; Qatar warned IRGC Bahrain attacks "extremely serious" threat to peace deal; USS Theodore Roosevelt arrived Middle East (3 US carriers now in theater); diplomatic stalemate Day 107 …',
-    trumpUltimatum: 'LATEST (17 Nov): IRGC launched 3rd drone attack on Bahrain in ~1 week — multiple one-way attack drones aimed at Sheikh Isa Air Base/US radar facility; CENTCOM confirmed interception "without any damage to U.S. equipment or injury to American personnel"; Qatar warned attacks pose "extremely serious" threat to peace negotiations; Qatar-Iran mediation meeting held Nov 17 (The Peninsula Qatar; CENTCOM; Al Jazeera; Nov 17 2026)',
-    iranThreat: 'LATEST (17 Nov): IRGC claimed direct hits on US radar at Sheikh Isa Air Base Bahrain (3rd attack in ~1 week) — CENTCOM called claim "FALSE"; Iran\'s Ghalibaf conveyed 7 conditions to Qatar mediators awaiting US response; prior: 16 Nov UKMTO tanker struck by unknown projectile in Strait of Hormuz — engine room fire; 14 Nov IRGC claimed 2 oil tankers struck sea mines and caught fire in Hormuz',
+    tankerRates: 'LATEST (17 Nov, Day 263): Brent ~$95–96/bbl — holding …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 17 (Day 263, Bab al-Mandab blockade Day 121): Saudi crude via Red Sea halted 114th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal — Qatar-Iran mediation meeting Nov 17 as Iran conveyed 7 conditions; Qatar urged US + Iran to "avoid any escalation"; Trump "no deal necessary" (Nov 13) …',
+      detail: 'Nov 17 (Day 263, Bab al-Mandab blockade Day 121): Saudi crude via Red Sea halted 114th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; Qatar $8B deal — Qatar-Iran mediation meeting Nov 17 as Iran conveyed 7 conditions …',
     },
     {
       country: 'Iraq',
@@ -85,7 +85,7 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 17 (Day 263): UKMTO total vessels attacked 101; IRGC 3rd drone attack on Bahrain (Sheikh Isa AB) intercepted by CENTCOM + Bahrain DF — no damage; Qatar-Iran mediation meeting today; Qatar warned Bahrain attacks threaten peace deal; USS Theodore Roosevelt arrived Middle East (3 US carriers now in theater); UKMTO maritime threat remains Severe; Maersk Hormuz suspension ongoing …',
+      detail: 'Nov 17 (Day 263): UKMTO total vessels attacked 101; IRGC 3rd drone attack on Bahrain (Sheikh Isa AB) intercepted by CENTCOM + Bahrain DF — no damage; Qatar-Iran mediation meeting today; Qatar warned Bahrain attacks threaten peace deal …',
     },
     {
       country: 'Asia',
