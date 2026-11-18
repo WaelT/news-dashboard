@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (18 Nov, Day 264): Brent ~$95–97/bbl — elevated; CENTCOM self-defense airstrike on Qeshm Island IRGC missile site (response to Nov 17 Bahrain drone attacks); 2 more UKMTO tanker incidents confirmed in Hormuz; diplomatic stalemate continues; no authorized tanker transits confirmed today',
-    trumpUltimatum: 'LATEST (18 Nov): US fighter jets struck an IRGC missile launch site on Qeshm Island in a self-defense strike responding to Iranian drone attacks on US forces at Sheikh Isa Air Base Bahrain on Nov 17; Iranian media reported no casualties from the Qeshm strike (The Open Press; ABC News; CBS News; Nov 18 2026)',
-    iranThreat: '18 Nov: IRGC claimed additional tankers struck naval mines in Hormuz; a tanker was disabled with engine room fire 7 NM north of Khasab, Oman and a second vessel was hit by an unknown projectile while exiting the strait — both confirmed by UKMTO (UKMTO; Al Jazeera; Nov 18 2026)',
+    tankerRates: 'LATEST (18 Nov, Day 264): Brent ~$95–97/bbl — elevated …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 18 (Day 264, Bab al-Mandab blockade Day 122): Saudi crude via Red Sea halted 115th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; CENTCOM Qeshm airstrike Nov 18 — no new authorized Hormuz transit confirmed; Qatar $8B deal — Iran conveyed 7 conditions via Qatar Nov 17; US response pending …',
+      detail: 'Nov 18 (Day 264, Bab al-Mandab blockade Day 122): Saudi crude via Red Sea halted 115th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; CENTCOM Qeshm airstrike Nov 18 — no new authorized Hormuz transit confirmed …',
     },
     {
       country: 'Iraq',
