@@ -2414,6 +2414,28 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 262', 'ukmto severe', 'maersk suspended hormuz', 'diplomatic pause day 106', '72nd consecutive day', 'diplomatic stalemate', 'houthi blockade day 120 milestone', 'lebanon ceasefire day 150 milestone', 'brent elevated'],
   },
+  {
+    id: 292,
+    name: 'Day 263 — IRGC 3rd Drone Attack on Bahrain; Qatar-Iran Mediation; USS Theodore Roosevelt Arrives',
+    lat: 26.21,
+    lng: 50.59,
+    type: 'military',
+    icon: 'attack',
+    description: 'Day 263 (Nov 17): IRGC launched a 3rd drone attack on Bahrain in ~1 week — multiple one-way attack drones aimed at Sheikh Isa Air Base targeting a US radar facility. CENTCOM confirmed all drones intercepted; no damage to US equipment, no personnel injuries. Bahrain Defence Force confirmed interception. IRGC claimed radar strike — CENTCOM called the claim false. Qatar FM announced Qatar-Iran mediation meeting; Qatar warned IRGC attacks on US bases in Bahrain pose an "extremely serious" threat to peace negotiations. Iran\'s Ghalibaf conveyed 7 conditions through Qatari mediators awaiting US response. USS Theodore Roosevelt arrived in the Middle East region — 3 US carriers now in theater. Diplomatic pause Day 107 — 73rd consecutive day without confirmed land-based exchanges per CENTCOM. Houthi Bab al-Mandab blockade Day 121 — Saudi crude via Red Sea halted 114th consecutive day. Lebanon ceasefire Day 151 holds; toll unchanged 4,386/12,407. No new US KIA (26 total; 865 wounded). (CENTCOM; Al Jazeera; The Peninsula Qatar; Middle East Eye; ABC News; Gulf News; Nov 17 2026)',
+    status: 'active',
+    keywords: ['day 263', 'irgc drones bahrain', 'sheikh isa ab', 'us radar targeted', '3rd attack bahrain', 'qatar mediation', 'iran 7 conditions', 'uss theodore roosevelt', '3 us carriers', 'diplomatic pause day 107', '73rd consecutive day', 'houthi blockade day 121', 'lebanon ceasefire day 151'],
+  },
+  {
+    id: 293,
+    name: 'Day 264 — CENTCOM Self-Defense Strike Qeshm Island; 2 More UKMTO Tanker Incidents in Hormuz',
+    lat: 26.55,
+    lng: 56.27,
+    type: 'military',
+    icon: 'attack',
+    description: 'Day 264 (Nov 18): CENTCOM struck an IRGC missile launch site on Qeshm Island in the Strait of Hormuz in a self-defense strike — in direct response to the IRGC drone attacks on Sheikh Isa Air Base Bahrain on Nov 17. Iranian media reported no casualties from the Qeshm strike. Two additional UKMTO-confirmed tanker incidents in Hormuz: (1) tanker disabled with engine room fire approximately 7 NM north of Khasab, Oman — crew evacuated; (2) a second tanker hit by unknown projectile while exiting the strait — no casualties reported. IRGC claimed additional mine strikes in Hormuz. Total UKMTO vessels attacked now 103. Diplomatic pause Day 108 — 74th consecutive day without confirmed IRGC land-based exchanges per CENTCOM. Houthi Bab al-Mandab blockade Day 122 — Saudi crude via Red Sea halted 115th consecutive day since July 26. Lebanon ceasefire Day 152 holds; toll unchanged 4,386/12,407. No new US KIA (26 total; 865 wounded). Brent ~$95–97/bbl on Qeshm strike escalation. (The Open Press; ABC News; CBS News; Al Jazeera; UKMTO; CENTCOM; DoD; Nov 18 2026)',
+    status: 'active',
+    keywords: ['day 264', 'centcom qeshm strike', 'self-defense', 'irgc missile site', 'qeshm island', 'hormuz tanker attack', 'ukmto 103', 'tanker engine room fire khasab', 'diplomatic pause day 108', '74th consecutive day', 'houthi blockade day 122', 'lebanon ceasefire day 152', 'brent 95-97'],
+  },
 ];
 
 export default conflictZones;
