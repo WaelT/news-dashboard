@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (18 Nov PM, Day 264): Brent ~$95–97/bbl — elevated; ADNOC L&S vessel struck in Hormuz (1 missing, 11 injured); Kuwait + Bahrain targeted by Iranian drones; GCC condemned Kuwait attack; war-risk premiums elevated …',
-    trumpUltimatum: 'LATEST (18 Nov): Iranian Army drones targeted US Patriot AD systems and launch platforms at Ali Al Salem AB, Kuwait — Kuwait intercepted all; Kuwait FM condemned "repeated, criminal Iranian attacks." CENTCOM struck IRGC Qeshm missile launch site Nov 17 (self-defense). GCC condemned Kuwait attack; UAE called it a "hostile act." ADNOC L&S vessel struck in Hormuz — 1 missing, 11 injured.',
-    iranThreat: '18 Nov: Iranian Army claimed "combat and kamikaze drones" struck US Patriot AD systems at Kuwait Ali Al Salem AB; IRGC launched 4th drone attack on Bahrain in ~1 week (US radar targeted; intercepted); ADNOC L&S vessel struck in Hormuz — 1 crew member missing, 11 injured (The National; Kuwait Times; Iran Army IRNA; Nov 18 2026)',
+    tankerRates: 'LATEST (18 Nov PM, Day 264): Brent ~$95–97/bbl — elevated; ADNOC L&S vessel struck in Hormuz (1 missing, 11 injured) …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 18 (Day 264): UKMTO total vessels attacked 104; CENTCOM self-defense strike on Qeshm Island IRGC missile site (Nov 17); Iranian Army drones targeted Kuwait Ali Al Salem AB — all intercepted; IRGC 4th drone attack on Bahrain (intercepted); ADNOC L&S vessel struck Hormuz — 1 missing, 11 injured (UKMTO; CENTCOM; The National; Kuwait Times; Nov 18 2026) …',
+      detail: 'Nov 18 (Day 264): UKMTO total vessels attacked 104; CENTCOM self-defense strike on Qeshm Island IRGC missile site (Nov 17); Iranian Army drones targeted Kuwait Ali Al Salem AB — all intercepted; IRGC 4th drone attack on Bahrain (intercepted) …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 18 (Day 264): Brent ~$95–97/bbl — elevated on Kuwait/Bahrain escalation; diplomatic stalemate Day 108; Iran widened attacks to include Kuwait (first Kuwait strike since September); Japan and South Korea importers continue Cape of Good Hope rerouting; ADNOC L&S vessel struck — 1 missing, 11 injured; no authorized Hormuz tanker transits confirmed; insurance markets remain at war-risk elevated premiums (GulfNews; CNN; Reuters; CENTCOM; Nov 18 2026) …',
+      detail: 'Nov 18 (Day 264): Brent ~$95–97/bbl — elevated on Kuwait/Bahrain escalation; diplomatic stalemate Day 108; Iran widened attacks to include Kuwait (first Kuwait strike since September); Japan and South Korea importers continue Cape of Good Hope rerouting …',
     },
   ],
 };
