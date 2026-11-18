@@ -3980,6 +3980,13 @@ const groundOps = {
       event: "Day 264 — Lebanon ceasefire Day 152 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 122 — Saudi crude halted 115th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 18 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-18',
+      lat: 29.3117,
+      lng: 47.7892,
+      event: "Day 264 (PM) — Iranian Army fires drones at Ali Al Salem AB, Kuwait (Patriot AD + launch platforms; first Kuwait attack since September; all intercepted per Kuwait MoD; no damage); IRGC 4th drone attack on Bahrain in ~1 week (Sheikh Isa AB US radar; intercepted by CENTCOM + Bahrain DF; no damage); GCC condemns Kuwait attack; UAE calls strike 'hostile act'; Kuwait FM condemns 'repeated, criminal Iranian attacks'; ADNOC L&S vessel struck Hormuz — 1 missing, 11 injured; vessels attacked total 104 (Iran Army IRNA; Kuwait MoD; CENTCOM; defence-blog; GulfNews; The National; Kuwait Times; Nov 18 2026)",
+      type: 'escalation',
+    },
   ],
 };
 

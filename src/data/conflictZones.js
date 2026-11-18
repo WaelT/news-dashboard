@@ -2436,6 +2436,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 264', 'centcom qeshm strike', 'self-defense', 'irgc missile site', 'qeshm island', 'hormuz tanker attack', 'ukmto 103', 'tanker engine room fire khasab', 'diplomatic pause day 108', '74th consecutive day', 'houthi blockade day 122', 'lebanon ceasefire day 152', 'brent 95-97'],
   },
+  {
+    id: 294,
+    name: 'Day 264 (PM) — Iran Widens to Kuwait: Drones at Ali Al Salem AB; ADNOC Vessel Struck',
+    lat: 29.3117,
+    lng: 47.7892,
+    type: 'strike',
+    icon: 'drone',
+    description: 'Day 264 PM (Nov 18): Iranian Army fired "combat and kamikaze drones" at Ali Al Salem Air Base, Kuwait targeting US Patriot air defense systems and drone/missile launch platforms — first Iran-on-Kuwait attack since September. Kuwait armed forces intercepted all drones; no damage or casualties (Kuwait MoD). Kuwait FM condemned "repeated, criminal Iranian attacks." IRGC simultaneously launched 4th drone attack on Bahrain in ~1 week (US radar at Sheikh Isa AB targeted; intercepted by CENTCOM + Bahrain DF; no damage). GCC joint condemnation issued; UAE called Kuwait strike "hostile act." ADNOC Logistics & Services vessel struck transiting Hormuz — 1 crew member missing, 11 injured; all other crew evacuated; S&R ongoing (The National; Kuwait Times). UKMTO vessels attacked total: 104. CENTCOM denied Iranian claims of successful strikes on US infrastructure. Brent ~$95–97/bbl. (Iran Army IRNA; Kuwait MoD; CENTCOM; defence-blog; CNN; Gulf News; GMA Network; Egypt Today; The National; Kuwait Times; Nov 18 2026)',
+    status: 'active',
+    keywords: ['day 264 pm', 'iran kuwait attack', 'ali al salem', 'drone attack kuwait', 'adnoc vessel', 'hormuz vessel struck', '1 missing 11 injured', 'bahrain 4th attack', 'ukmto 104', 'gcc condemns kuwait', 'uae hostile act', 'kuwait fm condemns'],
+  },
 ];
 
 export default conflictZones;
