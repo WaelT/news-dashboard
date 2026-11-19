@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-18',
+  updated: '2026-11-19',
 
   current: {
     transitsPerDay: 5,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (18 Nov PM, Day 264): Brent ~$95–97/bbl — elevated; ADNOC L&S vessel struck in Hormuz (1 missing, 11 injured) …',
-    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
-    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
+    tankerRates: 'LATEST (19 Nov, Day 265): Brent ~$95–97/bbl — elevated on Kuwait/Bahrain escalation aftershock; ADNOC L&S S&R continues for 1 missing crew from Nov 18 Hormuz strike; UKMTO vessels attacked 104; diplomatic pause Day 109 — 75th consecutive day without confirmed IRGC land-based exchanges; no new confirmed IRGC vessel attacks Nov 19 as of update',
+    trumpUltimatum: 'LATEST (19 Nov): GCC states maintaining diplomatic pressure on Iran following Nov 18 Kuwait attack condemnation; Iran\'s Ghalibaf 7-condition proposal via Qatar awaiting US response; Trump administration has not publicly responded to Iran\'s conditions',
+    iranThreat: '18 Nov: Iranian Army fired drones at Ali Al Salem AB Kuwait (first since September; all intercepted); IRGC launched 4th drone attack on Bahrain in ~1 week; ADNOC L&S vessel struck in Hormuz — 1 missing, 11 injured; Nov 19: no new confirmed attacks as of update time',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 18 (Day 264, Bab al-Mandab blockade Day 122): Saudi crude via Red Sea halted 115th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; CENTCOM Qeshm airstrike Nov 18 — no new authorized Hormuz transit confirmed …',
+      detail: 'Nov 19 (Day 265, Bab al-Mandab blockade Day 123): Saudi crude via Red Sea halted 116th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; no new authorized Hormuz transit confirmed Nov 19; UKMTO threat level Severe; GCC diplomatic messaging continues following Nov 18 Kuwait attack condemnation …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 18 (Day 264): UKMTO total vessels attacked 104; CENTCOM self-defense strike on Qeshm Island IRGC missile site (Nov 17); Iranian Army drones targeted Kuwait Ali Al Salem AB — all intercepted; IRGC 4th drone attack on Bahrain (intercepted) …',
+      detail: 'Nov 19 (Day 265): UKMTO total vessels attacked 104 (unchanged); ADNOC L&S S&R ongoing for 1 missing crew from Nov 18 Hormuz strike; no new UKMTO-confirmed incidents Nov 19 as of update time; CENTCOM diplomatic pause Day 109; Hormuz UKMTO threat Severe …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 18 (Day 264): Brent ~$95–97/bbl — elevated on Kuwait/Bahrain escalation; diplomatic stalemate Day 108; Iran widened attacks to include Kuwait (first Kuwait strike since September); Japan and South Korea importers continue Cape of Good Hope rerouting …',
+      detail: 'Nov 19 (Day 265): Brent ~$95–97/bbl — elevated on Kuwait/Bahrain escalation aftershock; diplomatic stalemate Day 109; Iran\'s Ghalibaf 7-condition proposal via Qatar awaiting US response; Japan and South Korea importers continue Cape of Good Hope rerouting; no authorized commercial Hormuz transits confirmed Nov 19 …',
     },
   ],
 };
