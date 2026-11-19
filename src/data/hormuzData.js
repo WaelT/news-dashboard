@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (19 Nov, Day 265): Brent ~$95–97/bbl — elevated on Kuwait/Bahrain escalation aftershock; ADNOC L&S S&R continues for 1 missing crew from Nov 18 Hormuz strike; UKMTO vessels attacked 104; diplomatic pause Day 109 — 75th consecutive day without confirmed IRGC land-based exchanges; no new confirmed IRGC vessel attacks Nov 19 as of update',
-    trumpUltimatum: 'LATEST (19 Nov): GCC states maintaining diplomatic pressure on Iran following Nov 18 Kuwait attack condemnation; Iran\'s Ghalibaf 7-condition proposal via Qatar awaiting US response; Trump administration has not publicly responded to Iran\'s conditions',
-    iranThreat: '18 Nov: Iranian Army fired drones at Ali Al Salem AB Kuwait (first since September; all intercepted); IRGC launched 4th drone attack on Bahrain in ~1 week; ADNOC L&S vessel struck in Hormuz — 1 missing, 11 injured; Nov 19: no new confirmed attacks as of update time',
+    tankerRates: 'LATEST (19 Nov, Day 265): Brent ~$95–97/bbl — elevated on Kuwait/Bahrain escalation aftershock …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 19 (Day 265, Bab al-Mandab blockade Day 123): Saudi crude via Red Sea halted 116th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; no new authorized Hormuz transit confirmed Nov 19; UKMTO threat level Severe; GCC diplomatic messaging continues following Nov 18 Kuwait attack condemnation …',
+      detail: 'Nov 19 (Day 265, Bab al-Mandab blockade Day 123): Saudi crude via Red Sea halted 116th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; no new authorized Hormuz transit confirmed Nov 19; UKMTO threat level Severe …',
     },
     {
       country: 'Iraq',
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Nov 19 (Day 265): Brent ~$95–97/bbl — elevated on Kuwait/Bahrain escalation aftershock; diplomatic stalemate Day 109; Iran\'s Ghalibaf 7-condition proposal via Qatar awaiting US response; Japan and South Korea importers continue Cape of Good Hope rerouting; no authorized commercial Hormuz transits confirmed Nov 19 …',
+      detail: 'Nov 19 (Day 265): Brent ~$95–97/bbl — elevated on Kuwait/Bahrain escalation aftershock; diplomatic stalemate Day 109; Iran\'s Ghalibaf 7-condition proposal via Qatar awaiting US response; Japan and South Korea importers continue Cape of Good Hope rerouting …',
     },
   ],
 };
