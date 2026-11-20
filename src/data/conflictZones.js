@@ -2469,6 +2469,28 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 266', 'diplomatic pause day 110', '76th consecutive day', 'adnoc sar', '1 missing', 'ukmto 104', 'diplomatic stalemate day 110', '3 us carriers', 'houthi blockade day 124', 'lebanon ceasefire day 154', 'brent 95-97'],
   },
+  {
+    id: 297,
+    name: 'Day 265 — Houthis Strike Riyadh PIF Tower; Hodeidah Evacuation Warning; Saudi War 2027 Prep',
+    lat: 24.6877,
+    lng: 46.6878,
+    type: 'strike',
+    icon: 'attack',
+    description: 'Day 265 (Nov 19): Houthi forces struck Riyadh\'s 80-story Public Investment Fund (PIF) Tower in the financial district — windows blown out across 7–8 floors and facade sections bent. Saudi Civil Defence confirmed damage across several floors of the PIF Tower and nearby buildings; no injuries reported. Saudi-led coalition spokesman Turki al-Malki said initial assessment indicates "debris impact"; Reuters sources said a missile hit directly — cause disputed. The strike is the second attack on Riyadh\'s financial district in less than two weeks, following the Nov 8 strike on Aramco Tower. The Saudi-led coalition issued an evacuation order for residents of Houthi-controlled Hodeidah port in Yemen; the Houthis responded with threats against Saudi power stations, Red Sea ports, and Riyadh\'s financial center. Reuters (citing Western officials) reported Saudi Arabia is preparing for the Yemen war to run well into 2027. US Senate blocked a War Powers resolution to end the Iran war, 48–51. (France24; Reuters; Saudi Civil Defence; Gulf Business; Outlook India; Al Jazeera; Saudi Coalition; ABC News; Nov 19 2026)',
+    status: 'active',
+    keywords: ['day 265', 'riyadh pif tower', 'houthi missile riyadh', 'saudi financial district', 'pif tower damaged', 'hodeidah evacuation', 'houthi threats', 'saudi 2027 war prep', 'senate war powers 48-51', 'second riyadh financial district strike'],
+  },
+  {
+    id: 298,
+    name: 'Day 266 — Saudi Arabia Intercepts More Houthi Missiles and Drones; Houthi Threats Persist',
+    lat: 24.6877,
+    lng: 46.6878,
+    type: 'military',
+    icon: 'defense',
+    description: 'Day 266 (Nov 20): Saudi Arabia intercepted additional Houthi ballistic missiles and drones targeting the kingdom — the latest in a surge of Houthi attacks following the Saudi-led coalition\'s Hodeidah evacuation order. The Houthis continue to threaten Saudi power stations, Red Sea ports, and Riyadh\'s financial center. Saudi Arabia is in an extended military campaign in Yemen, with Reuters reporting the country is preparing for the conflict to run well into 2027. Houthi Bab al-Mandab blockade Day 124 — Saudi crude via Red Sea halted 117th consecutive day since July 26. (Saudi MoD; Al Jazeera; ABC News; Washington Post; CBS News; Nov 20 2026)',
+    status: 'active',
+    keywords: ['day 266', 'saudi intercepts houthi', 'houthi missiles drones', 'houthi threats', 'hodeidah', 'saudi 2027 war', 'houthi blockade day 124'],
+  },
 ];
 
 export default conflictZones;

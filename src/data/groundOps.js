@@ -4015,6 +4015,20 @@ const groundOps = {
       event: "Day 266 — Lebanon ceasefire Day 154 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 124 — Saudi crude via Red Sea halted 117th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 20 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-19',
+      lat: 24.6877,
+      lng: 46.6878,
+      event: "Day 265 — Houthis strike Riyadh's 80-story PIF Tower (Public Investment Fund HQ) in Riyadh financial district — windows blown out 7–8 floors, facade damaged; no injuries (Saudi Civil Defence); Saudi-led coalition: 'debris impact'; Reuters sources: direct hit; second Riyadh financial district strike in <2 weeks (after Nov 8 Aramco Tower); Saudi coalition issues Hodeidah port evacuation order; Houthis threaten Saudi power stations, Red Sea ports + Riyadh financial center; Saudi Arabia reportedly preparing for Yemen war to run into 2027 (Reuters; Saudi Civil Defence; France24; Gulf Business; Al Jazeera; Nov 19 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-11-20',
+      lat: 24.6877,
+      lng: 46.6878,
+      event: "Day 266 — Saudi Arabia intercepts additional Houthi ballistic missiles and drones — latest in surge following coalition's Hodeidah evacuation order; Houthis continue threatening Saudi power stations, Red Sea ports, Riyadh financial center; Houthi Bab al-Mandab blockade Day 124 — Saudi crude via Red Sea halted 117th consecutive day since July 26 (Saudi MoD; Al Jazeera; ABC News; Washington Post; Nov 20 2026)",
+      type: 'escalation',
+    },
   ],
 };
 
