@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-19',
+  updated: '2026-11-20',
 
   current: {
     transitsPerDay: 5,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (19 Nov, Day 265): Brent ~$95–97/bbl — elevated on Kuwait/Bahrain escalation aftershock …',
+    tankerRates: 'LATEST (20 Nov, Day 266): Brent ~$95–97/bbl — diplomatic stalemate Day 110 continues; no new confirmed vessel incidents; UKMTO threat Severe; 3 US carriers in theater …',
     trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
     iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 19 (Day 265, Bab al-Mandab blockade Day 123): Saudi crude via Red Sea halted 116th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; no new authorized Hormuz transit confirmed Nov 19; UKMTO threat level Severe …',
+      detail: 'Nov 20 (Day 266, Bab al-Mandab blockade Day 124): Saudi crude via Red Sea halted 117th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; no new authorized Hormuz transit confirmed Nov 20; UKMTO threat level Severe …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 19 (Day 265): UKMTO total vessels attacked 104 (unchanged); ADNOC L&S S&R ongoing for 1 missing crew from Nov 18 Hormuz strike; no new UKMTO-confirmed incidents Nov 19 as of update time; CENTCOM diplomatic pause Day 109; Hormuz UKMTO threat Severe …',
+      detail: 'Nov 20 (Day 266): UKMTO total vessels attacked 104 (unchanged); ADNOC L&S S&R ongoing for 1 missing crew from Nov 18 Hormuz strike; no new UKMTO-confirmed incidents Nov 20 as of update time; CENTCOM diplomatic pause Day 110; Hormuz UKMTO threat Severe …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 19 (Day 265): Brent ~$95–97/bbl — elevated on Kuwait/Bahrain escalation aftershock; diplomatic stalemate Day 109; Iran\'s Ghalibaf 7-condition proposal via Qatar awaiting US response; Japan and South Korea importers continue Cape of Good Hope rerouting …',
+      detail: 'Nov 20 (Day 266): Brent ~$95–97/bbl — diplomatic stalemate Day 110; Iran\'s Ghalibaf 7-condition proposal via Qatar awaiting US response; Japan and South Korea importers continue Cape of Good Hope rerouting …',
     },
   ],
 };
