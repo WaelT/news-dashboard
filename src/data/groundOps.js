@@ -4001,6 +4001,20 @@ const groundOps = {
       event: "Day 265 — Lebanon ceasefire Day 153 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 123 — Saudi crude via Red Sea halted 116th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 19 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-20',
+      lat: 26.5,
+      lng: 56.3,
+      event: "Day 266 — IRGC/CENTCOM diplomatic pause Day 110 — 76th consecutive day without confirmed land-based exchanges per CENTCOM; no new confirmed IRGC missile or drone attacks vs. Gulf states; ADNOC L&S S&R ongoing for 1 missing crew member (Nov 18 Hormuz strike); UKMTO vessels attacked 104 (unchanged); UKMTO threat level Severe; Brent ~$95–97/bbl; Iran's Ghalibaf 7-condition proposal via Qatar awaiting US response; diplomatic stalemate Day 110 (Al Jazeera; CBS News; CENTCOM; Nov 20 2026)",
+      type: 'ceasefire',
+    },
+    {
+      date: '2026-11-20',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 266 — Lebanon ceasefire Day 154 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 124 — Saudi crude via Red Sea halted 117th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 20 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

@@ -2458,6 +2458,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 265', 'diplomatic pause day 109', '75th consecutive day', 'adnoc sar', '1 missing', 'ukmto 104', 'diplomatic stalemate day 109', '3 us carriers', 'houthi blockade day 123', 'lebanon ceasefire day 153', 'brent 95-97'],
   },
+  {
+    id: 296,
+    name: 'Day 266 — Diplomatic Pause Day 110; ADNOC S&R Ongoing; Houthi Blockade Day 124',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 266 (Nov 20): No confirmed new IRGC ballistic missile or drone launches against Gulf states. IRGC/CENTCOM diplomatic pause Day 110 — 76th consecutive day without confirmed land-based kinetic exchanges per CENTCOM. ADNOC Logistics & Services search and rescue operation continues for 1 crew member missing from the Nov 18 Strait of Hormuz vessel strike. UKMTO vessels attacked total remains 104; UKMTO regional maritime threat level Severe. Iran\'s Ghalibaf 7-condition proposal continues to await US response via Qatari mediators; diplomatic stalemate Day 110. 3 US carrier strike groups in theater (George Washington, Harry S. Truman, Theodore Roosevelt). Brent ~$95–97/bbl. Houthi Bab al-Mandab blockade Day 124 — Saudi crude via Red Sea halted 117th consecutive day since July 26. Lebanon ceasefire Day 154 holds; toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; CBS News; Reuters; CENTCOM; UKMTO; DoD; Nov 20 2026)',
+    status: 'active',
+    keywords: ['day 266', 'diplomatic pause day 110', '76th consecutive day', 'adnoc sar', '1 missing', 'ukmto 104', 'diplomatic stalemate day 110', '3 us carriers', 'houthi blockade day 124', 'lebanon ceasefire day 154', 'brent 95-97'],
+  },
 ];
 
 export default conflictZones;

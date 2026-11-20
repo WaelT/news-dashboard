@@ -4118,6 +4118,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 265 (Nov 19) — IRGC/CENTCOM diplomatic pause Day 109 — 75th consecutive day without confirmed land-based kinetic exchanges per CENTCOM. No confirmed new IRGC missile or drone attacks against Gulf states as of this update. ADNOC Logistics and Services search and rescue operation continues for 1 crew member missing from the Nov 18 Strait of Hormuz vessel strike; 11 injured crew receiving medical care. UKMTO regional maritime threat level remains "Severe" following recent escalation; vessels attacked total 104 (unchanged). Iran\'s Ghalibaf 7-condition proposal continues to await an official US response via Qatari mediators; diplomatic stalemate Day 109 continues. 3 US carrier strike groups in theater (George Washington, Harry S. Truman, Theodore Roosevelt). GCC states continue diplomatic messaging following Nov 18 condemnation of Iran\'s Kuwait attack; Kuwait FM reiterated demand for Iranian accountability. Iran has not publicly acknowledged a change in posture. Houthi Bab al-Mandab blockade Day 123 — Saudi crude via Red Sea halted 116th consecutive day since July 26. Lebanon ceasefire Day 153 holds; toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). Brent ~$95–97/bbl. (Al Jazeera; CBS News; Reuters; CENTCOM; UKMTO; Kuwait MoD; GCC; DoD; Nov 19 2026)',
   },
+  {
+    date: '2026-11-20',
+    event: 'Day 266 — Diplomatic Pause Day 110; ADNOC S&R Ongoing; Diplomatic Stalemate Continues',
+    type: 'escalation',
+    status: 'stalled',
+    detail: 'Day 266 (Nov 20) — IRGC/CENTCOM diplomatic pause Day 110 — 76th consecutive day without confirmed land-based kinetic exchanges per CENTCOM. No confirmed new IRGC missile or drone attacks against Gulf states. ADNOC Logistics and Services search and rescue operation continues for 1 crew member missing from the Nov 18 Strait of Hormuz vessel strike. UKMTO regional maritime threat level remains "Severe"; vessels attacked total 104 (unchanged). Iran\'s Ghalibaf 7-condition proposal continues to await an official US response via Qatari mediators; diplomatic stalemate Day 110. 3 US carrier strike groups in theater (George Washington, Harry S. Truman, Theodore Roosevelt). Houthi Bab al-Mandab blockade Day 124 — Saudi crude via Red Sea halted 117th consecutive day since July 26. Lebanon ceasefire Day 154 holds; toll unchanged at 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). Brent ~$95–97/bbl. (Al Jazeera; CBS News; Reuters; CENTCOM; UKMTO; DoD; Nov 20 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
