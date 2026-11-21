@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (21 Nov, Day 267): Brent ~$91–93/bbl — 3rd consecutive weekly decline (~4% wk-on-wk) as CNBC reports Hormuz crude exports returning toward pre-war levels per Kpler data; shipping 65% disrupted vs pre-war baseline; 106 vessels attacked total; Iran escalating maritime operations as Trump weighs 4–7 day air campaign (NYT/Haaretz) …',
-    trumpUltimatum: 'LATEST (21 Nov, Day 267): UKMTO confirmed 2 tankers hit by unidentified projectiles near Khasab, Oman — first at 11 NM N of Khasab (stern strike, no casualties), second at 17 NM E of Khasab (engine room, no casualties); IRGC claimed mine strikes; both incidents follow a tanker fire on Nov 20 near same area',
-    iranThreat: 'LATEST (21 Nov, Day 267): Iran claimed mine strike on tanker transiting Hormuz (contradicting UKMTO projectile account); IRGC continues maritime mining ops targeting vessels it deems in "unauthorized" routes; 106 UKMTO-confirmed vessel attacks total; Iran escalating Strait operations as US-Israeli military action reportedly under active consideration',
+    tankerRates: 'LATEST (21 Nov, Day 267): Brent ~$91–93/bbl — 3rd consecutive weekly decline (~4% wk-on-wk) as CNBC reports Hormuz crude …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 21 (Day 267): UKMTO total vessels attacked 106; 2 more tankers hit by unidentified projectiles near Khasab (~11 NM N and ~17 NM E — no casualties confirmed); IRGC denied projectiles, claiming mine strikes; ADNOC L&S S&R Day 3 ongoing for 1 missing crew from Nov 18 Hormuz strike; Hormuz UKMTO threat Severe …',
+      detail: 'Nov 21 (Day 267): UKMTO total vessels attacked 106; 2 more tankers hit by unidentified projectiles near Khasab (~11 NM N and ~17 NM E — no casualties confirmed); IRGC denied projectiles, claiming mine strikes; ADNOC L&S S&R Day 3 ongoing for 1 missing crew from Nov 18 Hormuz strike …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 21 (Day 267): Brent ~$91–93/bbl — 3rd consecutive weekly decline; Japan and South Korea importers continue Cape of Good Hope rerouting (117+ days); shipping disruption 65% vs pre-war baseline; insurance war-risk premiums remain elevated; 106 vessels attacked; Iran escalating Hormuz maritime ops …',
+      detail: 'Nov 21 (Day 267): Brent ~$91–93/bbl — 3rd consecutive weekly decline; Japan and South Korea importers continue Cape of Good Hope rerouting (117+ days); shipping disruption 65% vs pre-war baseline; insurance war-risk premiums remain elevated; 106 vessels attacked …',
     },
   ],
 };
