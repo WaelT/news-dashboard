@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (21 Nov, Day 267): Brent ~$95–97/bbl — diplomatic stalemate Day 111 continues; Iran\'s Ghalibaf 7-condition proposal awaiting US response via Qatar; ADNOC L&S S&R Day 3 ongoing for 1 missing crew member from Nov 18 Hormuz strike; UKMTO threat level Severe …',
-    trumpUltimatum: 'LATEST (21 Nov): IRGC/CENTCOM diplomatic pause Day 111 — 77th consecutive day without confirmed land-based kinetic exchanges; no new UKMTO-confirmed vessel incidents Nov 21; vessels attacked total remains 104',
-    iranThreat: '18 Nov: ADNOC Logistics & Services vessel struck in Strait of Hormuz — 1 crew member missing, 11 injured; search and rescue ongoing; UKMTO total vessels attacked now 104',
+    tankerRates: 'LATEST (21 Nov, Day 267): Brent ~$95–97/bbl — diplomatic stalemate Day 111 continues …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
