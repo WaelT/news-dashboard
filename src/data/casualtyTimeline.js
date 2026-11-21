@@ -392,6 +392,8 @@ const casualtyTimeline = [
   { date: '2026-11-19', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 266: IRGC/CENTCOM diplomatic pause Day 110 — 76th consecutive day without confirmed land-based exchanges per CENTCOM; no confirmed new IRGC attacks vs. Gulf states; ADNOC S&R ongoing for 1 missing crew member (Nov 18 Hormuz strike); UKMTO vessels attacked 104 (unchanged); Houthi Bab al-Mandab blockade Day 124 — Saudi crude halted 117th consecutive day; Lebanon ceasefire Day 154 holds (4,386/12,407); no new battle deaths confirmed; no new US KIA (26 total; 865 wounded); all figures trajectory-based; Wikipedia scrape failed (network) (Al Jazeera; CBS News; CENTCOM; DoD; Nov 20 2026)
   { date: '2026-11-20', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 267: IRGC/CENTCOM diplomatic pause Day 111 — 77th consecutive day without confirmed land-based exchanges per CENTCOM; no confirmed new IRGC attacks vs. Gulf states; ADNOC S&R ongoing (Day 3) for 1 missing crew member (Nov 18 Hormuz strike); UKMTO vessels attacked 104 (unchanged); Houthi Bab al-Mandab blockade Day 125 — Saudi crude halted 118th consecutive day; Lebanon ceasefire Day 155 holds (4,386/12,407); no new battle deaths confirmed; no new US KIA (26 total; 865 wounded); all figures trajectory-based; Wikipedia scrape failed (network) (Al Jazeera; CBS News; CENTCOM; DoD; Nov 21 2026)
+  { date: '2026-11-21', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;

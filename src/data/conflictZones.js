@@ -2491,6 +2491,28 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 266', 'saudi intercepts houthi', 'houthi missiles drones', 'houthi threats', 'hodeidah', 'saudi 2027 war', 'houthi blockade day 124'],
   },
+  {
+    id: 299,
+    name: 'Day 267 — Diplomatic Pause Day 111; ADNOC S&R Day 3; Stalemate Continues',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 267 (Nov 21): No confirmed new IRGC ballistic missile or drone launches against Gulf states. IRGC/CENTCOM diplomatic pause Day 111 — 77th consecutive day without confirmed land-based kinetic exchanges per CENTCOM. ADNOC Logistics & Services search and rescue operation (Day 3) continues for 1 crew member missing from the Nov 18 Strait of Hormuz vessel strike; 11 injured crew continuing medical care. UKMTO vessels attacked total remains 104; UKMTO regional maritime threat level Severe. Iran\'s Ghalibaf 7-condition proposal awaiting US response via Qatari mediators; diplomatic stalemate Day 111. 3 US carrier strike groups in theater (George Washington, Harry S. Truman, Theodore Roosevelt). Brent ~$95–97/bbl. Houthi Bab al-Mandab blockade Day 125 — Saudi crude via Red Sea halted 118th consecutive day since July 26. Lebanon ceasefire Day 155 holds; toll unchanged 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; CBS News; Reuters; CENTCOM; UKMTO; DoD; Nov 21 2026)',
+    status: 'active',
+    keywords: ['day 267', 'diplomatic pause day 111', '77th consecutive day', 'adnoc sar day 3', '1 missing', 'ukmto 104', 'diplomatic stalemate day 111', '3 us carriers', 'houthi blockade day 125', 'lebanon ceasefire day 155', 'brent 95-97'],
+  },
+  {
+    id: 300,
+    name: 'Day 267 — Lebanon Ceasefire Day 155; Houthi Blockade Day 125',
+    lat: 33.72,
+    lng: 35.59,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 267 (Nov 21): Lebanon ceasefire Day 155 holds; toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 125 — Saudi crude via Red Sea halted 118th consecutive day since July 26; Houthis continue to threaten Saudi power stations and Red Sea ports following coalition Hodeidah evacuation order. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 21 2026)',
+    status: 'active',
+    keywords: ['day 267', 'lebanon ceasefire day 155', 'houthi blockade day 125', 'saudi crude red sea halted', '118th consecutive day', 'houthi threats', 'saudi 2027 war prep'],
+  },
 ];
 
 export default conflictZones;

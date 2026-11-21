@@ -393,6 +393,7 @@ export const dailyLaunches = [
   { date: '2026-11-19', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 266 — IRGC/CENTCOM diplomatic pause Day 110 — 76th consecutive day without confirmed IRGC land-based ballistic missile exchanges per CENTCOM; no confirmed new IRGC missile or drone attacks vs. Gulf states; ADNOC L&S S&R continues for 1 crew member missing from Nov 18 Hormuz strike; UKMTO vessels attacked 104 (unchanged); Houthi Bab al-Mandab blockade Day 124 — Saudi crude via Red Sea halted 117th consecutive day since July 26; Lebanon ceasefire Day 154 holds (4,386/12,407); Iran's Ghalibaf 7-condition proposal awaiting US response via Qatar; diplomatic stalemate Day 110; Brent ~$95–97/bbl; no new US KIA (26 total; 865 wounded); countryBreakdown unchanged; Wikipedia scrape failed (network) (Al Jazeera; CBS News; Reuters; CENTCOM; DoD; Nov 20 2026)
   { date: '2026-11-20', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  { date: '2026-11-21', missiles: 0, drones: 0, intercepted: 0, targets: [] },
 
 ];
 
