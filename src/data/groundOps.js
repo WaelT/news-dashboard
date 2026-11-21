@@ -4005,7 +4005,7 @@ const groundOps = {
       date: '2026-11-20',
       lat: 26.5,
       lng: 56.3,
-      event: "Day 266 — IRGC/CENTCOM diplomatic pause Day 110 — 76th consecutive day without confirmed land-based exchanges per CENTCOM; no new confirmed IRGC missile or drone attacks vs. Gulf states; ADNOC L&S S&R ongoing for 1 missing crew member (Nov 18 Hormuz strike); UKMTO vessels attacked 104 (unchanged); UKMTO threat level Severe; Brent ~$95–97/bbl; Iran's Ghalibaf 7-condition proposal via Qatar awaiting US response; diplomatic stalemate Day 110 (Al Jazeera; CBS News; CENTCOM; Nov 20 2026)",
+      event: "Day 266 — IRGC/CENTCOM diplomatic pause Day 110 — 76th consecutive day without confirmed land-based exchanges per CENTCOM; no new confirmed IRGC missile or drone attacks vs. Gulf states; ADNOC L&S S&R ongoing for 1 missing crew member; UKMTO vessels attacked 104 (unchanged); JINSA total at least 677; Brent ~$91–93/bbl — 3rd consecutive weekly decline; Hormuz crude exports approaching pre-war levels per Kpler/CNBC; US and Israel weighing coordinated air campaign (NYT/Haaretz) (Al Jazeera; CBS News; CENTCOM; CNBC; JINSA; Nov 20 2026)",
       type: 'ceasefire',
     },
     {
@@ -4031,10 +4031,10 @@ const groundOps = {
     },
     {
       date: '2026-11-21',
-      lat: 26.5,
-      lng: 56.3,
-      event: "Day 267 — IRGC/CENTCOM diplomatic pause Day 111 — 77th consecutive day without confirmed land-based exchanges per CENTCOM; no new confirmed IRGC missile or drone attacks vs. Gulf states; ADNOC L&S S&R Day 3 ongoing for 1 missing crew member (Nov 18 Hormuz strike); UKMTO vessels attacked 104 (unchanged); UKMTO threat level Severe; Brent ~$95–97/bbl; Iran's Ghalibaf 7-condition proposal via Qatar awaiting US response; diplomatic stalemate Day 111 (Al Jazeera; CBS News; CENTCOM; Nov 21 2026)",
-      type: 'ceasefire',
+      lat: 26.19,
+      lng: 56.24,
+      event: "Day 267 — UKMTO confirmed 2 tankers hit near Khasab, Oman by unidentified projectiles — first at 11 NM N of Khasab (stern, no casualties), second at 17 NM E of Khasab (engine room, no casualties); IRGC claimed mine strikes (contradicting UKMTO); total vessels attacked now 106; ADNOC L&S S&R Day 3 ongoing for 1 missing crew (Nov 18 Hormuz strike); no new IRGC land-based launches confirmed; UKMTO threat level Severe; Brent ~$91–93/bbl — 3rd consecutive weekly decline (UKMTO; JPost; Al Jazeera; CBS News; CENTCOM; Nov 21 2026)",
+      type: 'escalation',
     },
     {
       date: '2026-11-21',
