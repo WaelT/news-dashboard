@@ -43,9 +43,9 @@ export const hormuzData = {
   updated: '2026-11-21',
 
   current: {
-    transitsPerDay: 5,
-    oilFlowMbd: 9.4,
-    disruptionPct: 48,
+    transitsPerDay: 4,
+    oilFlowMbd: 9.2,
+    disruptionPct: 50,
   },
 
   preWar: {
@@ -59,15 +59,15 @@ export const hormuzData = {
     tankersQueued: 280,
     vesselsStranded: 2000,    // Aug 1 (Day 155): IRGC Navy hit 2 tankers + forced 4 back on Jul 31 — operators halting all unauthorized transits; Iran declared Hormuz "not feasible" (The National); Jul 31: drones at Kuwait Ahmad Al-Jaber AB + Ali Al Salem AB + Bahrain Sheikh Isa AB — conflict widening; 444+ vessels anchored globally (Jul 24 Muscat peak); Jul 18 (Day 141): First Joint Hormuz Committee meeting (Muscat) — Oman dual-route proposal; no deal; 444 vessels anchored; Jul 14 (Day 137): IRGC cruise missiles M/V Mombasa + M/V Al Bahiyah; 1 Indian killed + 8 wounded; Jul 12 (Day 135): IRGC declared Strait CLOSED; Jul 7-8: Islamabad MOU ended; down from peak 780 (March), 570 (Day 1)
     seafarersStranded: 20000,
-    vesselsAttacked: 104,    // +1 Nov 18: ADNOC L&S vessel struck in Strait of Hormuz — 1 crew member missing, 11 injured; all other crew evacuated; search and rescue ongoing (The National; Kuwait Times; EgyptToday; Nov 18 2026); prior 103: +2 Nov 17–18: (1) tanker disabled with engine room fire 7 NM N of Khasab, Oman — crew evacuated (UKMTO; ABC News; Nov 17–18 2026); (2) tanker hit by unknown projectile exiting strait — no casualties reported (UKMTO; Nov 18 2026); prior 101: +1 Nov 16 UKMTO: tanker struck by unknown projectile in Strait of Hormuz — engine room fire reported; crew evacuating, no immediate casualty confirmed (UKMTO; The National; Gulf News; Nov 16 2026); prior 100: +2 Nov 14: IRGC claims 2 more oil tankers struck sea mines and caught fire in Strait of Hormuz (houseofsaud.com; IRGC Navy; Nov 14 2026); +3 Nov 13: Iran reports 3 oil tankers hit mines in Hormuz — 5 total in 24-hour period (CBSNews liveblog; Al Jazeera; Nov 13 2026); prior 95: +3 Nov 8: IRGC claims three oil tankers caught fire after striking naval mines in unauthorized Hormuz routes — IRGC Navy: "vessels switched off navigation/positioning systems"; at least two fires confirmed by multiple media (Gulf News; Al Arabiya; TASS; Mehr News; Nov 8 2026); prior 92: +1 Nov 6 UKMTO: tanker explosion ~16 NM east of Khasab (Oman coast) — master reported explosion at port-side waterline, ship continued under own power, all crew safe (UKMTO 2026-11-06 15:24 update); +1 Nov 6 UKMTO: tanker struck by two unknown projectiles ~50 NM off Qatar's north coast — no damage/casualty details provided (UKMTO); prior 90: +1 Oct 30 UKMTO: Qatar LNG carrier Al Mayeda struck near Hormuz (Qatar Gas Transport Co; crew safe); +1 Nov 1 UKMTO: vessel struck unknown projectile in Strait — Mayday relayed on VHF Ch 16 (UKMTO; crew status unclear); IRGC also claimed 2 tankers hit mines Nov 1 — CENTCOM disputed, not counted; prior 88: +2 Oct 29 UKMTO confirmed: (1) dhow fire/sinking ~9 NM north of Khasab; (2) tanker struck unknown projectile outbound Hormuz; prior 86: +1 Oct 22 UKMTO Limah tanker; prior 85: +1 Oct 21 UKMTO M/T Al Dasma; prior 80: +2 Oct 17–18; prior 78: +2 Oct 15–16; prior 76: +2 Oct 14; prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
+    vesselsAttacked: 106,    // +2 Nov 21: (1) tanker hit by unidentified projectile ~11 NM N of Khasab (stern impact — no casualties; UKMTO); (2) tanker hit by unidentified projectile ~17 NM E of Khasab (engine room — no casualties; UKMTO); IRGC denied projectiles, claiming mine strikes; prior 104: +1 Nov 18: ADNOC L&S vessel struck in Strait of Hormuz — 1 crew member missing, 11 injured; all other crew evacuated; search and rescue ongoing (The National; Kuwait Times; EgyptToday; Nov 18 2026); prior 103: +2 Nov 17–18: (1) tanker disabled with engine room fire 7 NM N of Khasab, Oman — crew evacuated (UKMTO; ABC News; Nov 17–18 2026); (2) tanker hit by unknown projectile exiting strait — no casualties reported (UKMTO; Nov 18 2026); prior 101: +1 Nov 16 UKMTO: tanker struck by unknown projectile in Strait of Hormuz — engine room fire reported; crew evacuating, no immediate casualty confirmed (UKMTO; The National; Gulf News; Nov 16 2026); prior 100: +2 Nov 14: IRGC claims 2 more oil tankers struck sea mines and caught fire in Strait of Hormuz (houseofsaud.com; IRGC Navy; Nov 14 2026); +3 Nov 13: Iran reports 3 oil tankers hit mines in Hormuz — 5 total in 24-hour period (CBSNews liveblog; Al Jazeera; Nov 13 2026); prior 95: +3 Nov 8: IRGC claims three oil tankers caught fire after striking naval mines in unauthorized Hormuz routes — IRGC Navy: "vessels switched off navigation/positioning systems"; at least two fires confirmed by multiple media (Gulf News; Al Arabiya; TASS; Mehr News; Nov 8 2026); prior 92: +1 Nov 6 UKMTO: tanker explosion ~16 NM east of Khasab (Oman coast) — master reported explosion at port-side waterline, ship continued under own power, all crew safe (UKMTO 2026-11-06 15:24 update); +1 Nov 6 UKMTO: tanker struck by two unknown projectiles ~50 NM off Qatar's north coast — no damage/casualty details provided (UKMTO); prior 90: +1 Oct 30 UKMTO: Qatar LNG carrier Al Mayeda struck near Hormuz (Qatar Gas Transport Co; crew safe); +1 Nov 1 UKMTO: vessel struck unknown projectile in Strait — Mayday relayed on VHF Ch 16 (UKMTO; crew status unclear); IRGC also claimed 2 tankers hit mines Nov 1 — CENTCOM disputed, not counted; prior 88: +2 Oct 29 UKMTO confirmed: (1) dhow fire/sinking ~9 NM north of Khasab; (2) tanker struck unknown projectile outbound Hormuz; prior 86: +1 Oct 22 UKMTO Limah tanker; prior 85: +1 Oct 21 UKMTO M/T Al Dasma; prior 80: +2 Oct 17–18; prior 78: +2 Oct 15–16; prior 76: +2 Oct 14; prior 74: +3 Oct 12–13; +4 Oct 7–11; prior 67: +4 Oct 2–3
     seafarersKilled: 24,    // No new confirmed deaths Oct 13–14 (crew safe in Oct 14 UKMTO incidents); prior 24: +1 Aug 18 Minoan Dignity (chief engineer; CNBC/NBC News); +1 Jul 31 Hormuz (AOL); 17 prior confirmed including Jun 10 MT Settebello, Jul 12 GFS Galaxy (Indian), Jul 14 M/V Mombasa (Indian)
     minesDetected: 12,
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (21 Nov, Day 267): Brent ~$95–97/bbl — diplomatic stalemate Day 111 continues …',
-    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
-    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
+    tankerRates: 'LATEST (21 Nov, Day 267): Brent ~$91–93/bbl — 3rd consecutive weekly decline (~4% wk-on-wk) as CNBC reports Hormuz crude exports returning toward pre-war levels per Kpler data; shipping 65% disrupted vs pre-war baseline; 106 vessels attacked total; Iran escalating maritime operations as Trump weighs 4–7 day air campaign (NYT/Haaretz) …',
+    trumpUltimatum: 'LATEST (21 Nov, Day 267): UKMTO confirmed 2 tankers hit by unidentified projectiles near Khasab, Oman — first at 11 NM N of Khasab (stern strike, no casualties), second at 17 NM E of Khasab (engine room, no casualties); IRGC claimed mine strikes; both incidents follow a tanker fire on Nov 20 near same area',
+    iranThreat: 'LATEST (21 Nov, Day 267): Iran claimed mine strike on tanker transiting Hormuz (contradicting UKMTO projectile account); IRGC continues maritime mining ops targeting vessels it deems in "unauthorized" routes; 106 UKMTO-confirmed vessel attacks total; Iran escalating Strait operations as US-Israeli military action reportedly under active consideration',
   },
 
   disruptions: [
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 21 (Day 267): UKMTO total vessels attacked 104 (unchanged); ADNOC L&S S&R Day 3 ongoing for 1 missing crew from Nov 18 Hormuz strike; no new UKMTO-confirmed incidents Nov 21 as of update time; CENTCOM diplomatic pause Day 111; Hormuz UKMTO threat Severe …',
+      detail: 'Nov 21 (Day 267): UKMTO total vessels attacked 106; 2 more tankers hit by unidentified projectiles near Khasab (~11 NM N and ~17 NM E — no casualties confirmed); IRGC denied projectiles, claiming mine strikes; ADNOC L&S S&R Day 3 ongoing for 1 missing crew from Nov 18 Hormuz strike; Hormuz UKMTO threat Severe …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 21 (Day 267): Brent ~$95–97/bbl — diplomatic stalemate Day 111; Iran\'s Ghalibaf 7-condition proposal via Qatar awaiting US response; Japan and South Korea importers continue Cape of Good Hope rerouting …',
+      detail: 'Nov 21 (Day 267): Brent ~$91–93/bbl — 3rd consecutive weekly decline; Japan and South Korea importers continue Cape of Good Hope rerouting (117+ days); shipping disruption 65% vs pre-war baseline; insurance war-risk premiums remain elevated; 106 vessels attacked; Iran escalating Hormuz maritime ops …',
     },
   ],
 };
