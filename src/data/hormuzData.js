@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-21',
+  updated: '2026-11-22',
 
   current: {
     transitsPerDay: 4,
@@ -65,9 +65,9 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (21 Nov, Day 267): Brent ~$91–93/bbl — 3rd consecutive weekly decline (~4% wk-on-wk) as CNBC reports Hormuz crude …',
-    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
-    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
+    tankerRates: 'LATEST (22 Nov, Day 268): Brent ~$91–93/bbl — 3rd consecutive weekly decline (~4% wk-on-wk); IRGC overnight missile + drone strikes on Bahrain US bases intercepted; no supply disruption beyond ongoing baseline; shipping disruption 65% vs pre-war; 106 vessels attacked total; ADNOC S&R Day 4 for 1 missing crew from Nov 18 Hormuz strike; 2 tankers hit near Khasab Nov 21 (UKMTO confirmed); insurance war-risk premiums remain elevated',
+    trumpUltimatum: 'LATEST (22 Nov): CENTCOM denied IRGC claim of hitting a US F-16 fighter jet over the Persian Gulf — "Did not — at all"; IRGC claimed combined missile + drone strikes overnight Nov 21–22 on US Patriot radars at Bahrain al-Riffa, Awali, Sheikh Isa AB, Juffair Naval Base; Bahrain Interior Ministry confirmed fire at Sitra industrial facility (interceptor debris); CENTCOM: no impacts to US forces or military assets; Bahrain urged UN action; diplomatic stalemate Day 112',
+    iranThreat: '22 Nov (Day 268): IRGC claimed combined missile + drone strikes on Bahrain US military bases overnight Nov 21–22 — framed as retaliation for alleged US drone violations of Iranian airspace and attack on Hengam Island radar; Bahrain confirmed fire at Sitra industrial facility; CENTCOM denied all damage claims; UKMTO vessels attacked total: 106 (2 tankers hit near Khasab Nov 21)',
   },
 
   disruptions: [
