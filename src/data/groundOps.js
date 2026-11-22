@@ -4043,6 +4043,20 @@ const groundOps = {
       event: "Day 267 — Lebanon ceasefire Day 155 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 125 — Saudi crude via Red Sea halted 118th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 21 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-22',
+      lat: 26.11,
+      lng: 50.59,
+      event: "Day 268 — IRGC claimed combined missile + drone strikes overnight Nov 21–22 on US Patriot radars at Bahrain bases (al-Riffa, Awali, Sheikh Isa AB, Juffair Naval Base); Bahrain Interior Ministry confirmed attack + fire at industrial facility Sitra (interceptor malfunction/debris; no casualties); CENTCOM: 'no impacts to US forces or military assets'; CENTCOM denied IRGC claim of hitting US F-16 jet over Gulf ('Did not — at all'); Bahrain urged UN action; diplomatic stalemate Day 112; Brent ~$91–93/bbl (ANI; APA; Bahrain Interior Ministry; Iran Int'l; CENTCOM; WION; JPost; Nov 22 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-11-22',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 268 — Lebanon ceasefire Day 156 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 126 — Saudi crude via Red Sea halted 119th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; Nov 22 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 
