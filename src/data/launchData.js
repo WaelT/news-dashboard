@@ -395,6 +395,8 @@ export const dailyLaunches = [
   { date: '2026-11-20', missiles: 0, drones: 0, intercepted: 0, targets: [] },
   // Day 267 — No confirmed new IRGC land-based launches; UKMTO confirmed 2 more tanker attacks near Khasab Oman (both by unidentified projectiles — 1 hit stern 11 NM N of Khasab; 1 hit engine room 17 NM E of Khasab; no casualties in either); IRGC denied projectiles, claimed mine strikes; total UKMTO vessels attacked now 106; Houthi Bab al-Mandab blockade Day 125 — Saudi crude halted 118th consecutive day; Lebanon ceasefire Day 155 holds (4,386/12,407); no new US KIA (26 total; 865 wounded); Wikipedia scrape failed (network) (UKMTO; JPost; Deccan Herald; WHBL; DoD; Nov 21 2026)
   { date: '2026-11-21', missiles: 0, drones: 0, intercepted: 0, targets: [] },
+  // Day 268 — IRGC claims combined missile + drone strikes overnight Nov 21–22 on US Patriot radars at Bahrain al-Riffa + Awali bases, Sheikh Isa AB, and Juffair Naval Base — framed as retaliation for alleged US MQ-1/MQ-9 violations of Iranian airspace and attack on Hengam Island radar; Bahrain Interior Ministry confirmed attacks caused fire at industrial facility (Sitra — attributed to interceptor malfunction/debris); CENTCOM: "new attack attempts against Bahrain; no impacts to US forces or military assets"; CENTCOM denied IRGC claim of hitting US F-16 jet over Gulf ("Did not — at all" per WION/JPost); Bahrain rejected IRGC radar-strike claims and urged UN action; diplomatic stalemate Day 112 — no major land-based exchanges per CENTCOM; Houthi Bab al-Mandab blockade Day 126 — Saudi crude via Red Sea halted 119th consecutive day since July 26; Lebanon ceasefire Day 156 holds (4,386/12,407); no new US KIA (26 total; 865 wounded); ADNOC S&R Day 4 for missing crew from Nov 18 Hormuz strike; Brent ~$91–93/bbl; countryBreakdown: Bahrain missiles +2, Bahrain drones +6 (ANI; APA; Bahrain Interior Ministry; Iran Int'l; CENTCOM; WION; JPost; CBS News; Al Jazeera; Nov 22 2026)
+  { date: '2026-11-22', missiles: 2, drones: 6, intercepted: 8, targets: ['Bahrain'] },
 
 ];
 
@@ -539,7 +541,7 @@ export const countryBreakdown = {
     { country: 'UAE', count: 578 },
     { country: 'Saudi Arabia', count: 296 },
     { country: 'Kuwait', count: 286 },
-    { country: 'Bahrain', count: 240 },
+    { country: 'Bahrain', count: 242 },
     { country: 'Qatar', count: 206 },
     { country: 'Jordan', count: 127 },
     { country: 'Iraq', count: 22 },
@@ -550,7 +552,7 @@ export const countryBreakdown = {
   drones: [
     { country: 'UAE', count: 2288 },
     { country: 'Israel', count: 765 },
-    { country: 'Bahrain', count: 583 },
+    { country: 'Bahrain', count: 589 },
     { country: 'Kuwait', count: 570 },
     { country: 'Saudi Arabia', count: 176 },
     { country: 'Qatar', count: 95 },
