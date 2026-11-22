@@ -2546,6 +2546,28 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 267', 'lebanon ceasefire day 155', 'houthi blockade day 125', 'saudi crude red sea halted', '118th consecutive day', 'houthi threats', 'saudi 2027 war prep'],
   },
+  {
+    id: 301,
+    name: 'Day 268 — IRGC Claims Bahrain Missile+Drone Strike; CENTCOM Denies Impact',
+    lat: 26.11,
+    lng: 50.59,
+    type: 'escalation',
+    icon: 'missile',
+    description: 'Day 268 (Nov 22): IRGC claimed launching a combined missile and drone operation overnight Nov 21–22 against US Patriot air defence radars at al-Riffa and Awali bases in Bahrain (also targeting Sheikh Isa Air Base and Juffair Naval Base per Fars News). Bahrain Interior Ministry confirmed an Iranian attack caused a fire at an industrial facility on Sitra Island, attributing it to an interceptor missile malfunction/debris. CENTCOM: "new attack attempts against Bahrain; no impacts to US forces or military assets." CENTCOM denied IRGC claim of hitting a US F-16 fighter jet over the Persian Gulf ("Did not — at all"). Iran FM denied ongoing negotiations; Trump continued to call the war "militarily over." IRGC/CENTCOM diplomatic pause Day 112 — 78th consecutive day without confirmed major land-based exchanges per CENTCOM. No new US KIA (26 total; 865 wounded). ADNOC S&R Day 4 for missing crew from Nov 18 Hormuz strike. Brent ~$91–93/bbl — 3rd consecutive weekly decline. (ANI; APA; Bahrain Interior Ministry; Iran Int\'l; CBS News; CENTCOM; WION; JPost; Nov 22 2026)',
+    status: 'active',
+    keywords: ['day 268', 'irgc bahrain missile drone', 'centcom denies impact', 'f-16 denial', 'sitra fire', 'diplomatic pause day 112', '78th consecutive day', 'adnoc sar day 4', 'brent 91-93'],
+  },
+  {
+    id: 302,
+    name: 'Day 268 — Lebanon Ceasefire Day 156; Houthi Blockade Day 126',
+    lat: 33.72,
+    lng: 35.59,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 268 (Nov 22): Lebanon ceasefire Day 156 holds; toll unchanged at 4,386 killed / 12,407 wounded. Houthi Bab al-Mandab blockade Day 126 — Saudi crude via Red Sea halted 119th consecutive day since July 26. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 22 2026)',
+    status: 'active',
+    keywords: ['day 268', 'lebanon ceasefire day 156', 'houthi blockade day 126', 'saudi crude red sea halted', '119th consecutive day'],
+  },
 ];
 
 export default conflictZones;
