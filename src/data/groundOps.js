@@ -4057,6 +4057,20 @@ const groundOps = {
       event: "Day 268 — Lebanon ceasefire Day 156 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 126 — Saudi crude via Red Sea halted 119th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; Nov 22 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-23',
+      lat: 26.19,
+      lng: 56.24,
+      event: "Day 269 — IRGC Navy claimed 2 supertankers hit mines east of Hormuz (north of Al Ghanam Island; ships on 'unauthorized routes' per IRGC); UKMTO confirmed 1 separate incident Nov 22 (tanker with military forces near Chabahar, Gulf of Oman); UKMTO total vessels attacked now 107; IRGC claimed MQ-9 drone shot down east of Hormuz (58th claimed per Tehran Times); IRGC total claims: 6 tankers hit since Nov 22; Iran reportedly preparing 14 oil tankers to breach US naval blockade; diplomatic pause Day 113 — 79th consecutive day; Brent ~$91–93/bbl (Xinhua; Middle East Eye; Gulf News; Tehran Times; Archyde; CENTCOM; UKMTO; Nov 23 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-11-23',
+      lat: 33.72,
+      lng: 35.59,
+      event: "Day 269 — Lebanon ceasefire Day 157 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 127 — Saudi crude via Red Sea halted 120th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 23 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

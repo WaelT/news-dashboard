@@ -2568,6 +2568,28 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 268', 'lebanon ceasefire day 156', 'houthi blockade day 126', 'saudi crude red sea halted', '119th consecutive day'],
   },
+  {
+    id: 303,
+    name: 'Day 269 — IRGC Claims 2 Supertankers Hit Mines; UKMTO Total 107; Iran Preps 14 Tankers to Breach Blockade',
+    lat: 26.19,
+    lng: 56.24,
+    type: 'escalation',
+    icon: 'missile',
+    description: 'Day 269 (Nov 23): Iran\'s IRGC Navy claimed 2 supertankers exploded after hitting mines east of the Strait of Hormuz (north of Al Ghanam Island) — tankers had switched off navigation/detection systems on "unauthorized routes" per IRGC. UKMTO confirmed 1 separate incident on Nov 22: a tanker involved in an incident with military forces in the Gulf of Oman near Chabahar, Iran — UKMTO total vessels attacked now 107. IRGC also claimed to have shot down a US MQ-9 drone east of the Strait (58th claimed since Feb 28 per Tehran Times). IRGC Navy total claims: 6 tankers hit since Nov 22 (Sunday). Gulf News reported Iran is preparing 14 oil tankers to breach the US naval blockade. IRGC/CENTCOM diplomatic pause Day 113 — 79th consecutive day without confirmed land-based kinetic exchanges per CENTCOM. ADNOC S&R Day 5 for 1 missing crew from Nov 18 Hormuz strike. UKMTO regional maritime threat level remains Severe. (Xinhua; Middle East Eye; Archyde; Tehran Times; Gulf News; CENTCOM; UKMTO; Nov 23 2026)',
+    status: 'active',
+    keywords: ['day 269', 'irgc supertankers mines', '2 supertankers mines hormuz', 'ukmto 107', 'iran 14 tankers blockade breach', 'mq-9 shot down 58th', 'diplomatic pause day 113', '79th consecutive day', 'adnoc sar day 5'],
+  },
+  {
+    id: 304,
+    name: 'Day 269 — Diplomatic Pause Day 113; Lebanon Ceasefire Day 157; Houthi Blockade Day 127',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 269 (Nov 23): No confirmed new IRGC ballistic missile or drone launches against Gulf states. IRGC/CENTCOM diplomatic pause Day 113 — 79th consecutive day without confirmed land-based kinetic exchanges per CENTCOM. UKMTO regional maritime threat level Severe; total vessels attacked 107 (after Nov 22 Chabahar incident). Iran\'s Ghalibaf 7-condition proposal continues to await US response via Qatari mediators; diplomatic stalemate Day 113. 3 US carrier strike groups in theater (George Washington, Harry S. Truman, Theodore Roosevelt). Brent ~$91–93/bbl. Houthi Bab al-Mandab blockade Day 127 — Saudi crude via Red Sea halted 120th consecutive day since July 26. Lebanon ceasefire Day 157 holds; toll unchanged 4,386 killed / 12,407 wounded. No new US KIA (26 total per DoD; 865 wounded per Pentagon DCAS). (Al Jazeera; CBS News; Reuters; CENTCOM; UKMTO; DoD; Nov 23 2026)',
+    status: 'active',
+    keywords: ['day 269', 'diplomatic pause day 113', '79th consecutive day', 'ukmto 107', 'diplomatic stalemate day 113', '3 us carriers', 'houthi blockade day 127', 'lebanon ceasefire day 157', 'brent 91-93'],
+  },
 ];
 
 export default conflictZones;
