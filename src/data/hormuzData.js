@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (23 Nov, Day 269): Brent ~$91–93/bbl — 3rd consecutive weekly decline; Iran preparing 14 oil tankers to breach US naval blockade (Gulf News); IRGC Navy claims 6 tankers hit since Nov 22 …',
-    trumpUltimatum: 'LATEST (22 Nov): UKMTO confirmed tanker involved in incident with military forces in Gulf of Oman near Chabahar, Iran — UKMTO total vessels attacked now 107; IRGC claimed 2 supertankers hit mines east of Hormuz (north of Al Ghanam Island)',
-    iranThreat: '23 Nov: IRGC Navy claimed MQ-9 drone shot down east of Strait of Hormuz (58th claimed since Feb 28 per Tehran Times); Iran preparing 14 tankers to breach US naval blockade; total IRGC mine/projectile claims since Nov 22: 6 tankers',
+    tankerRates: 'LATEST (23 Nov, Day 269): Brent ~$91–93/bbl — 3rd consecutive weekly decline …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 23 (Day 269, Bab al-Mandab blockade Day 127): Saudi crude via Red Sea halted 120th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; no new authorized Hormuz transit confirmed Nov 23; Iran reportedly preparing 14 oil tankers to breach US naval blockade; UKMTO threat level Severe …',
+      detail: 'Nov 23 (Day 269, Bab al-Mandab blockade Day 127): Saudi crude via Red Sea halted 120th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed; no new authorized Hormuz transit confirmed Nov 23 …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 23 (Day 269): UKMTO total vessels attacked 107; +1 Nov 22 (tanker incident with military forces near Chabahar, Gulf of Oman); IRGC claimed 2 supertankers hit mines east of Hormuz + MQ-9 drone shot down east of Hormuz; ADNOC L&S S&R Day 5 for 1 missing crew from Nov 18 Hormuz strike; UKMTO threat level Severe …',
+      detail: 'Nov 23 (Day 269): UKMTO total vessels attacked 107; +1 Nov 22 (tanker incident with military forces near Chabahar, Gulf of Oman); IRGC claimed 2 supertankers hit mines east of Hormuz + MQ-9 drone shot down east of Hormuz; ADNOC L&S S&R Day 5 for 1 missing crew from Nov 18 Hormuz strike …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 23 (Day 269): Brent ~$91–93/bbl — 3rd consecutive weekly decline; Japan and South Korea importers continue Cape of Good Hope rerouting (119+ days); shipping disruption 65% vs pre-war baseline; insurance war-risk premiums remain elevated; 107 vessels attacked (UKMTO); Iran preparing 14 tankers to breach US naval blockade …',
+      detail: 'Nov 23 (Day 269): Brent ~$91–93/bbl — 3rd consecutive weekly decline; Japan and South Korea importers continue Cape of Good Hope rerouting (119+ days); shipping disruption 65% vs pre-war baseline; insurance war-risk premiums remain elevated; 107 vessels attacked (UKMTO) …',
     },
   ],
 };
