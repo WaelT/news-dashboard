@@ -4054,7 +4054,7 @@ const groundOps = {
       date: '2026-11-22',
       lat: 33.72,
       lng: 35.59,
-      event: "Day 268 — Lebanon ceasefire Day 156 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 126 — Saudi crude via Red Sea halted 119th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; Nov 22 2026)",
+      event: "Day 268 — Lebanon ceasefire Day 156 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 126 — Saudi crude via Red Sea halted 119th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 22 2026)",
       type: 'ceasefire',
     },
     {
@@ -4068,7 +4068,7 @@ const groundOps = {
       date: '2026-11-23',
       lat: 33.72,
       lng: 35.59,
-      event: "Day 269 — Lebanon ceasefire Day 157 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 127 — Saudi crude via Red Sea halted 120th consecutive day since July 26 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 23 2026)",
+      event: "Day 269 — Lebanon ceasefire Day 157 holds; toll unchanged at 4,386 killed / 12,407 wounded; Houthi Bab al-Mandab blockade Day 127 — Saudi crude via Red Sea halted 120th consecutive day (milestone) since July 26 (IDF; Lebanon MoH; Al Jazeera; CENTCOM; Nov 23 2026)",
       type: 'ceasefire',
     },
   ],
