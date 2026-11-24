@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (24 Nov, Day 270): IRGC Hormuz mine campaign continues — Day 6 since Nov 19; CNN confirmed 22 attacks in November (highest monthly total since war began per UKMTO data); UKMTO total vessels attacked 107+; UKMTO threat level "Severe"; Iran preparing 14 oil tankers to breach US naval blockade (Gulf News); ADNOC L&S S&R Day 6 ongoing (1 crew missing from Nov 18 strike); tanker war-risk insurance premiums remain at crisis levels; most independent operators avoiding Hormuz transit without US Navy escort …',
-    trumpUltimatum: 'LATEST (23 Nov, Day 269): Trump warned Iranian ships running the US naval blockade would be "sunk"; Trump signals resumption of strikes against Iran after the new year if no agreement is reached; CENTCOM: ~400 ships transited Hormuz in the past week asserting "Iran does not control the Strait" (JNS; Iran International; CENTCOM; Nov 23 2026)',
-    iranThreat: 'LATEST (24 Nov, Day 270): IRGC Hormuz mine campaign Day 6 — UKMTO total vessels attacked 107+; IRGC has claimed 6 tanker incidents since Nov 19; Iran\'s 14-tanker blockade-breach convoy preparations continue; IRGC total MQ-9 drone shoot-down claims: 58 since Feb 28 (Tehran Times; CENTCOM; Gulf News; Nov 24 2026)',
+    tankerRates: 'LATEST (24 Nov, Day 270): IRGC Hormuz mine campaign continues — Day 6 since Nov 19 …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 24 (Day 270, Bab al-Mandab blockade Day 128): Saudi crude via Red Sea halted 121st consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit; CENTCOM: ~400 ships transited Hormuz past week despite IRGC mine campaign; Houthis continue Bab al-Mandab enforcement …',
+      detail: 'Nov 24 (Day 270, Bab al-Mandab blockade Day 128): Saudi crude via Red Sea halted 121st consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 24 (Day 270): UKMTO total vessels attacked 107+ (mine campaign Day 6 since Nov 19); IRGC claimed 6 incidents Nov 19–22; ADNOC L&S S&R Day 6 ongoing for missing crew from Nov 18 Hormuz strike; Iran preparing 14 tankers to breach US naval blockade; Oman continues to serve as diplomatic channel — Ghalibaf 7-condition proposal awaiting US response via Qatari mediators …',
+      detail: 'Nov 24 (Day 270): UKMTO total vessels attacked 107+ (mine campaign Day 6 since Nov 19); IRGC claimed 6 incidents Nov 19–22; ADNOC L&S S&R Day 6 ongoing for missing crew from Nov 18 Hormuz strike; Iran preparing 14 tankers to breach US naval blockade …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 24 (Day 270): Brent ~$91–93/bbl; diplomatic stalemate Day 114 — 80th consecutive day without land-based exchanges; Japan and South Korea importers continue Cape of Good Hope rerouting; CNN: 22 attacks in November as of Nov 22 — highest monthly total since war began per UKMTO data; IRGC mine campaign ongoing (day 6) …',
+      detail: 'Nov 24 (Day 270): Brent ~$91–93/bbl; diplomatic stalemate Day 114 — 80th consecutive day without land-based exchanges; Japan and South Korea importers continue Cape of Good Hope rerouting; CNN: 22 attacks in November as of Nov 22 — highest monthly total since war began per UKMTO data …',
     },
   ],
 };
