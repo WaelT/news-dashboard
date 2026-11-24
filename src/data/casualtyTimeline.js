@@ -398,6 +398,8 @@ const casualtyTimeline = [
   { date: '2026-11-22', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 269: IRGC/CENTCOM diplomatic pause Day 113 — 79th consecutive day without confirmed land-based exchanges; IRGC Navy claimed 2 supertankers hit mines east of Hormuz (north of Al Ghanam Island) — UKMTO confirmed 1 separate incident (tanker with military forces near Chabahar, Gulf of Oman) — total UKMTO vessels attacked now 107; IRGC claimed MQ-9 drone shot down east of Hormuz (58th claimed per Tehran Times); Iran reportedly preparing 14 oil tankers to breach US naval blockade; Houthi Bab al-Mandab blockade Day 127 — Saudi crude halted 120th consecutive day; Lebanon ceasefire Day 157 holds (4,386/12,407); ADNOC S&R Day 5; no new US KIA (26 total; 865 wounded); all figures trajectory-based; Wikipedia scrape failed (network) (Xinhua; Tehran Times; Gulf News; CENTCOM; UKMTO; Middle East Eye; Archyde; DoD; Nov 23 2026)
   { date: '2026-11-23', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 270: IRGC/CENTCOM diplomatic pause Day 114 — 80th consecutive day without confirmed land-based exchanges per CENTCOM; Houthi Bab al-Mandab blockade Day 128 — Saudi crude halted 121st consecutive day since July 26; Lebanon ceasefire Day 158 holds (4,386/12,407); ADNOC S&R Day 6 for missing crew from Nov 18 Hormuz strike; no new US KIA (26 total; 865 wounded); all figures unchanged trajectory-based; Wikipedia scrape failed (network) (CENTCOM; DoD; Al Jazeera; Nov 24 2026)
+  { date: '2026-11-24', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;
