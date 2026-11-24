@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-23',
+  updated: '2026-11-24',
 
   current: {
     transitsPerDay: 4,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (22–23 Nov, Day 268-269): CNN: Hormuz attacks at highest level since war began — 22 attacks in November as of Nov 22; Brent ~$95–97/bbl elevated; IRGC claimed 6 Hormuz incidents in 4-day window Nov 19–22; 3 tankers confirmed struck by Marisk; Trump signals post-New Year strikes if no deal (JNS; CNN; CBS News; Nov 22–23 2026)',
-    trumpUltimatum: 'LATEST (23 Nov): Trump warned IRGC ships running the US naval blockade would be "sunk"; CENTCOM: approximately 400 merchant ships transited Hormuz in the past week — "Iran does not control the Strait of Hormuz"; Trump inclined to resume strikes after New Year if no deal reached (JNS; Iran International; CENTCOM; Nov 23 2026)',
-    iranThreat: '22 Nov: IRGC claimed 2 supertankers struck naval mines in Hormuz — IRGC total claimed 6 incidents in 4 days (Nov 19–22); CNN: 22 attacks in November — highest monthly total since war began per UKMTO data; IRGC Navy warned shipowners vessels attempting unauthorized transits face "horrific fire" (CNN; IRGC Navy; Shafaq; Nov 22 2026)',
+    tankerRates: 'LATEST (22–23 Nov, Day 268-269): CNN: Hormuz attacks at highest level since war began — 22 attacks in November as of Nov …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 23 (Day 269, Bab al-Mandab blockade Day 127): Saudi crude via Red Sea halted 120th consecutive day (milestone) since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit; CENTCOM: ~400 ships transited Hormuz past week; IRGC claimed 6 Hormuz incidents Nov 19–22; Trump warned blockade-running ships would be "sunk"; no new authorized Saudi Hormuz transit confirmed …',
+      detail: 'Nov 23 (Day 269, Bab al-Mandab blockade Day 127): Saudi crude via Red Sea halted 120th consecutive day (milestone) since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit; CENTCOM: ~400 ships transited Hormuz past week …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 23 (Day 269): UKMTO total vessels attacked 107 (22 attacks in November per CNN — highest monthly total since war began); IRGC claimed 6 total incidents Nov 19–22; Iran held Qatar mediation talks Nov 22 — offered to shorten ceasefire implementation to 2 days (kept 7 core demands); Trump signaled post-New Year strikes if no deal; ADNOC L&S S&R Day 5 for 1 missing crew from Nov 18 Hormuz strike …',
+      detail: 'Nov 23 (Day 269): UKMTO total vessels attacked 107 (22 attacks in November per CNN — highest monthly total since war began); IRGC claimed 6 total incidents Nov 19–22; Iran held Qatar mediation talks Nov 22 — offered to shorten ceasefire implementation to 2 days (kept 7 core demands) …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 23 (Day 269): Brent ~$95–97/bbl; diplomatic stalemate Day 113; Japan and South Korea importers continue Cape of Good Hope rerouting; CENTCOM reported ~400 ships transited Hormuz past week despite IRGC 4-day mine campaign; CNN: 22 attacks in November — highest monthly total since war began; insurance markets remain at war-risk elevated premiums …',
+      detail: 'Nov 23 (Day 269): Brent ~$95–97/bbl; diplomatic stalemate Day 113; Japan and South Korea importers continue Cape of Good Hope rerouting; CENTCOM reported ~400 ships transited Hormuz past week despite IRGC 4-day mine campaign; CNN: 22 attacks in November — highest monthly total since war began …',
     },
   ],
 };
