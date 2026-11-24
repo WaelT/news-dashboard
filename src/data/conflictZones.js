@@ -2645,6 +2645,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 269', 'us delays iran strikes', 'israeli pressure joint strike', 'centcom 400 ships hormuz', 'trump post new year strikes', 'trump sink blockade ships', 'diplomatic stalemate day 113', '79th consecutive day', 'houthi blockade day 127 milestone', 'lebanon ceasefire day 157'],
   },
+  {
+    id: 299,
+    name: 'Day 270 — Diplomatic Pause Day 114; 80th Consecutive Day Without IRGC Land-Based Launches; Blockade Day 128',
+    lat: 26.5,
+    lng: 56.3,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 270 (Nov 24): IRGC/CENTCOM diplomatic pause continues into its 114th day — 80th consecutive day without confirmed IRGC land-based ballistic missile or drone exchanges per CENTCOM. UKMTO total vessels attacked remains at 107 (22 attacks in November per CNN — highest monthly total since war began). Iran\'s 14-tanker blockade-breach preparations remain reportedly ongoing (Gulf News). ADNOC search and rescue enters Day 6 with 1 crew member still missing from the Nov 18 Strait of Hormuz attack. Iran\'s Ghalibaf 7-condition proposal awaits US response via Qatari mediators; no new diplomatic developments confirmed. No new US KIA (26 total; 865 wounded). Houthi Bab al-Mandab blockade Day 128 — Saudi crude via Red Sea halted 121st consecutive day since July 26. Lebanon ceasefire Day 158 holds; toll unchanged 4,386/12,407. Brent ~$93–97/bbl. (CENTCOM; UKMTO; DoD; Gulf News; Al Jazeera; Nov 24 2026)',
+    status: 'active',
+    keywords: ['day 270', 'diplomatic pause day 114', '80th consecutive day', 'ukmto 107 vessels', '22 november attacks', 'iran 14 tankers blockade breach', 'adnoc sar day 6', 'houthi blockade day 128', 'lebanon ceasefire day 158'],
+  },
 ];
 
 export default conflictZones;

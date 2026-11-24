@@ -4153,6 +4153,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 269 (Nov 23) — Gulf News reported that Iran is preparing 14 oil tankers to breach the US naval blockade of Iranian ports, as part of an escalating effort to restore crude exports. Iran\'s IRGC Navy claimed 2 supertankers exploded after hitting naval mines east of the Strait of Hormuz (north of Al Ghanam Island) — ships had switched off navigation/detection systems on "unauthorized routes" per IRGC; UKMTO confirmed 1 separate incident on Nov 22 (tanker involved with military forces in Gulf of Oman near Chabahar) — UKMTO total vessels attacked now 107; IRGC total claims: 6 tankers hit since Nov 22. IRGC also claimed to have shot down a US MQ-9 reconnaissance drone east of the Strait of Hormuz (58th claimed since Feb 28 per Tehran Times). IRGC/CENTCOM diplomatic pause Day 113 — 79th consecutive day without confirmed land-based kinetic exchanges per CENTCOM. Iran\'s Ghalibaf 7-condition proposal continues to await US response via Qatari mediators. Trump maintains Iran war is "militarily over" while Iran FM denies ongoing negotiations. ADNOC S&R Day 5 for missing crew from Nov 18 Hormuz strike. No new US KIA (26 total; 865 wounded). Houthi Bab al-Mandab blockade Day 127 — Saudi crude via Red Sea halted 120th consecutive day (milestone). Lebanon ceasefire Day 157 holds (4,386/12,407). Brent ~$91–93/bbl. (Gulf News; Xinhua; Middle East Eye; Archyde; Tehran Times; CENTCOM; UKMTO; DoD; Nov 23 2026)',
   },
+  {
+    date: '2026-11-24',
+    event: 'Day 270 — Diplomatic Pause Day 114; 80th Consecutive Day Without IRGC Land-Based Launches; Houthi Blockade Day 128',
+    type: 'ceasefire',
+    status: 'stalled',
+    detail: 'Day 270 (Nov 24) — IRGC/CENTCOM diplomatic pause continues into its 114th day — 80th consecutive day without confirmed IRGC land-based ballistic missile or drone exchanges per CENTCOM. Iran\'s 14-tanker blockade-breach preparations remain reportedly ongoing (Gulf News). ADNOC S&R enters Day 6 with 1 crew member still missing from the Nov 18 Strait of Hormuz attack. UKMTO total vessels attacked remains at 107. Iran\'s Ghalibaf 7-condition proposal continues to await a US response via Qatari mediators; no new diplomatic developments confirmed. No new US KIA (26 total; 865 wounded). Houthi Bab al-Mandab blockade Day 128 — Saudi crude via Red Sea halted 121st consecutive day since July 26. Lebanon ceasefire Day 158 holds (4,386/12,407). Brent ~$93–97/bbl. (CENTCOM; UKMTO; DoD; Gulf News; Al Jazeera; Nov 24 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
