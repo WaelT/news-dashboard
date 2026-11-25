@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-24',
+  updated: '2026-11-25',
 
   current: {
     transitsPerDay: 4,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (24 Nov, Day 270): IRGC Hormuz mine campaign continues — Day 6 since Nov 19 …',
-    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
-    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
+    tankerRates: 'LATEST (25 Nov, Day 271): 3 Sinokor (South Korean) tankers confirmed struck in Strait of Hormuz on Sunday Nov 22 night — UKMTO advisories and private maritime security consultancies confirmed all 3 crewmembers safe and all vessels continued transit (Maritime Executive; balitangmarino; Nov 24–25); diplomatic stalemate Day 115; IRGC mine campaign ongoing — Day 7 since Nov 19; Maersk + major carriers suspended Hormuz transits; insurance war-risk premiums remain at extreme levels …',
+    trumpUltimatum: 'LATEST (25 Nov): 3 Sinokor tankers struck in Strait of Hormuz Nov 22 night; UKMTO confirmed incident Nov 24; IRGC claimed mine strikes; all 3 vessels crew safe and continued transit. Prior (15 Nov): UKMTO reported Indian shipping authorities confirmed attack on eastbound oil tanker transiting Persian Gulf before entering Strait of Hormuz',
+    iranThreat: '25 Nov: 3 Sinokor tankers struck Hormuz Nov 22 night per UKMTO/private security advisories — IRGC claims mine strikes (CENTCOM disputes); prior 14 Nov: Iranian Navy reported oil tanker struck naval mine in eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 24 (Day 270, Bab al-Mandab blockade Day 128): Saudi crude via Red Sea halted 121st consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit …',
+      detail: 'Nov 25 (Day 271, Bab al-Mandab blockade Day 129): Saudi crude via Red Sea halted 122nd consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 24 (Day 270): UKMTO total vessels attacked 107+ (mine campaign Day 6 since Nov 19); IRGC claimed 6 incidents Nov 19–22; ADNOC L&S S&R Day 6 ongoing for missing crew from Nov 18 Hormuz strike; Iran preparing 14 tankers to breach US naval blockade …',
+      detail: 'Nov 25 (Day 271): UKMTO total vessels attacked 107 (UKMTO-confirmed); 3 additional Sinokor tankers struck Nov 22 night confirmed by private security advisories — crew safe, all vessels continued transit (Maritime Executive; Nov 24–25); ADNOC L&S S&R Day 7 ongoing for missing crew from Nov 18 Hormuz strike; IRGC mine campaign ongoing since Nov 19 …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 24 (Day 270): Brent ~$91–93/bbl; diplomatic stalemate Day 114 — 80th consecutive day without land-based exchanges; Japan and South Korea importers continue Cape of Good Hope rerouting; CNN: 22 attacks in November as of Nov 22 — highest monthly total since war began per UKMTO data …',
+      detail: 'Nov 25 (Day 271): Brent ~$91–93/bbl; diplomatic stalemate Day 115 — 81st consecutive day without land-based exchanges; 3 Sinokor (South Korean) tankers struck Hormuz Nov 22 night — highest tanker-attack week since war began; Japan and South Korea importers continue Cape of Good Hope rerouting; CNN: 22+ attacks in November — highest monthly total since war began per UKMTO data …',
     },
   ],
 };
