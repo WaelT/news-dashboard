@@ -2656,6 +2656,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 270', 'diplomatic pause day 114', '80th consecutive day', 'ukmto 107 vessels', '22 november attacks', 'iran 14 tankers blockade breach', 'adnoc sar day 6', 'houthi blockade day 128', 'lebanon ceasefire day 158'],
   },
+  {
+    id: 300,
+    name: 'Day 271 — Trump Signals Deal or 2027 Resumption; Diplomatic Pause Day 115; 81st Consecutive Day Without IRGC Land-Based Launches',
+    lat: 35.69,
+    lng: 51.39,
+    type: 'ceasefire',
+    icon: 'ceasefire',
+    description: 'Day 271 (Nov 25): IRGC/CENTCOM diplomatic pause continues into its 115th day — 81st consecutive day without confirmed IRGC land-based ballistic missile or drone exchanges per CENTCOM. Trump said he wants a "permanent" deal with Iran and signaled his next military move may not come until 2027 if diplomacy fails (CBS News). CENTCOM denied Iranian claims of a fresh strike on Qeshm Island; no new US offensive action confirmed. 3 Sinokor (South Korean) tankers confirmed struck in Strait of Hormuz on Sunday Nov 22 night per UKMTO advisories and private security consultancies — crew safe, all vessels continued transit (Maritime Executive; Nov 24–25 2026). UKMTO total vessels attacked 107. ADNOC S&R Day 7 continues for 1 crew member missing from the Nov 18 Hormuz strike; 11 crew remain under medical care. Iran\'s Ghalibaf 7-condition proposal awaits US response via Qatari mediators. No new US KIA (26 total; 865 wounded). Houthi Bab al-Mandab blockade Day 129 — Saudi crude via Red Sea halted 122nd consecutive day since July 26. Lebanon ceasefire Day 159 holds; toll unchanged 4,386 killed / 12,407 wounded. Brent ~$91–93/bbl. (CBS News; CENTCOM; UKMTO; Maritime Executive; DoD; Al Jazeera; Nov 25 2026)',
+    status: 'active',
+    keywords: ['day 271', 'trump permanent deal iran', 'trump 2027 strikes', 'diplomatic pause day 115', '81st consecutive day', 'ukmto 107 vessels', 'adnoc sar day 7', 'houthi blockade day 129', 'lebanon ceasefire day 159', 'brent 91-93'],
+  },
 ];
 
 export default conflictZones;
