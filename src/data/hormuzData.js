@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (25 Nov, Day 271): IRGC Navy claimed 2 oil tankers + 1 LNG carrier struck naval mines in Hormuz — vessels described as on "unauthorized routes"; CENTCOM rejected claims; Arab News + Shafaq confirmed IRGC announcement; independent verification unavailable as of Nov 25; IRGC mine-related Hormuz claims since Nov 19 now total ~10 incidents; prior (22–23 Nov, Day 268-269): CNN: Hormuz attacks at highest level since war began — 22 attacks in November as of Nov 22; UKMTO total confirmed vessels attacked 107 …',
-    trumpUltimatum: 'LATEST (23 Nov, Day 269): Trump warned Iranian ships attempting to breach US naval blockade would be "sunk" — Iran responded vowing "every means" to counter US blockade of Hormuz (Euronews Nov 23); CENTCOM: ~400 merchant ships transited Hormuz past week; Trump signals post-New Year strikes if no deal reached (Iran International; JNS; Nov 23 2026)',
-    iranThreat: 'LATEST (25 Nov, Day 271): IRGC Navy claimed 2 oil tankers + 1 LNG carrier struck naval mines — vessels on "unauthorized routes," positioning systems switched off per IRGC; CENTCOM denied claims; prior (24 Nov): Iran vowed "every means" to counter US blockade; prior (23 Nov): IRGC claimed 6 total Hormuz incidents since Nov 22; IRGC continues to assert all non-approved transits are illegal and subject to mining/seizure',
+    tankerRates: 'LATEST (25 Nov, Day 271): IRGC Navy claimed 2 oil tankers + 1 LNG carrier struck naval mines in Hormuz — vessels describ …',
+    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 26 (Day 272, Bab al-Mandab blockade Day 130): Saudi crude via Red Sea halted 123rd consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit; CENTCOM: ~400 ships transited Hormuz past week per Nov 23 statement; diplomatic stalemate Day 116 — no Hormuz deal reached …',
+      detail: 'Nov 26 (Day 272, Bab al-Mandab blockade Day 130): Saudi crude via Red Sea halted 123rd consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 26 (Day 272): UKMTO total vessels attacked 107 (confirmed); IRGC additionally claimed 2 oil tankers + 1 LNG carrier hit mines Nov 25 (unconfirmed by UKMTO); IRGC total mine claims since Nov 19 ~10 incidents; Iran held Qatar mediation talks Nov 22 — offered to shorten ceasefire implementation to 2 days (kept 7 core demands); diplomatic stalemate Day 116 — no breakthrough; Qatari and Omani mediators still engaged …',
+      detail: 'Nov 26 (Day 272): UKMTO total vessels attacked 107 (confirmed); IRGC additionally claimed 2 oil tankers + 1 LNG carrier hit mines Nov 25 (unconfirmed by UKMTO); IRGC total mine claims since Nov 19 ~10 incidents …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 26 (Day 272): Brent ~$95/bbl; diplomatic stalemate Day 116; Japan and South Korea importers continue Cape of Good Hope rerouting; Iran vowed "every means" to counter US blockade Nov 24; IRGC claimed LNG carrier + 2 tankers hit mines Nov 25 (CENTCOM denied); CNN: 22 attacks in November as of Nov 22 — highest monthly total since war began; strait remains functionally closed for non-US-escorted transits …',
+      detail: 'Nov 26 (Day 272): Brent ~$95/bbl; diplomatic stalemate Day 116; Japan and South Korea importers continue Cape of Good Hope rerouting; Iran vowed "every means" to counter US blockade Nov 24; IRGC claimed LNG carrier + 2 tankers hit mines Nov 25 (CENTCOM denied) …',
     },
   ],
 };
