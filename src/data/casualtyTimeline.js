@@ -404,6 +404,8 @@ const casualtyTimeline = [
   { date: '2026-11-25', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 272: IRGC/CENTCOM diplomatic pause Day 116 — 82nd consecutive day; diplomatic stalemate continues — Iran's terms unaccepted; Qatari/Omani mediation ongoing; Brent ~$95/bbl; Houthi Bab al-Mandab blockade Day 130; Lebanon ceasefire Day 160 holds (4,386/12,407); no new US KIA (26 total; 865 wounded); all figures unchanged; Wikipedia scrape failed (network) (CENTCOM; Reuters; Al Jazeera; Nov 26 2026)
   { date: '2026-11-26', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 273: Iran accused of deadly drone attack on Kuwaiti vital site (air defense detection station) — 2 Italian Rheinmetall technicians killed, 4 injured (1 Kuwaiti, 2 Italian, 1 Pakistani); Iran denies; CENTCOM attribution unconfirmed; Italian nationals not counted against Kuwait total; no new confirmed battle deaths from other fronts; Lebanon ceasefire Day 161 holds (4,386/12,407); Houthi Bab al-Mandab blockade Day 131; no new US KIA (26 total; 865 wounded); all figures trajectory-based; Wikipedia scrape failed (network) (Kuwait MoD; Italy FM; The New Arab; CBS News; CENTCOM; Al Jazeera; Nov 27 2026)
+  { date: '2026-11-27', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;
