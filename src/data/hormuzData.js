@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (27 Nov, Day 273): 2 additional vessels reported struck in Hormuz per Straits.live/UKMTO (unverified as of update); IRGC claimed 2 tankers + 1 LNG carrier hit mines Nov 25 (CENTCOM denied); Brent ~$95–96/bbl rising on tanker attacks + Kuwait drone incident; ANZ: Hormuz traffic at 49% of normal; OPEC+ meeting Nov 29 …',
+    tankerRates: 'LATEST (27 Nov, Day 273): 2 additional vessels reported struck in Hormuz per Straits.live/UKMTO (unverified as of update …',
     trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
     iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
@@ -89,7 +89,7 @@ export const hormuzData = {
     },
     {
       country: 'Asia',
-      detail: 'Nov 27 (Day 273): Brent ~$95–96/bbl rising; diplomatic stalemate Day 117; Japan and South Korea continue Cape of Good Hope rerouting; ANZ: Hormuz traffic at 49% of normal; OPEC+ meeting Nov 29; 2 additional vessels reported struck in Hormuz Nov 27 (unverified); Iran denied Kuwait vital-site drone attack that killed 2 Italian technicians …',
+      detail: 'Nov 27 (Day 273): Brent ~$95–96/bbl rising; diplomatic stalemate Day 117; Japan and South Korea continue Cape of Good Hope rerouting; ANZ: Hormuz traffic at 49% of normal; OPEC+ meeting Nov 29; 2 additional vessels reported struck in Hormuz Nov 27 (unverified) …',
     },
   ],
 };
