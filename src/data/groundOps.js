@@ -4106,6 +4106,20 @@ const groundOps = {
       event: "Day 272 — Diplomatic stalemate Day 116; Iran's Hormuz reopening conditions remain unaccepted by Washington; Qatari and Omani mediators still engaged; Brent ~$95/bbl; Houthi Bab al-Mandab blockade Day 130; Lebanon ceasefire Day 160 holds (4,386/12,407); no new US KIA (26 total; 865 wounded) (Reuters; CENTCOM; Qatar News Agency; Al Jazeera; Nov 26 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-27',
+      lat: 29.37,
+      lng: 47.97,
+      event: "Day 273 — Drone attack on Kuwaiti vital site (air defense detection station) kills 2 Italian Rheinmetall technicians + injures 4 (1 Kuwaiti, 2 Italian, 1 Pakistani); Kuwait MoD: 'unlawful Iranian aggression'; Iran denies; CENTCOM attribution unconfirmed; EU Commission chief von der Leyen calls for more pressure on Tehran (Kuwait MoD; Italy FM; The New Arab; CBS News; Nov 27 2026)",
+      type: 'escalation',
+    },
+    {
+      date: '2026-11-27',
+      lat: 26.57,
+      lng: 56.46,
+      event: "Day 273 — Diplomatic stalemate Day 117 — 83rd consecutive day without confirmed IRGC land-based exchanges; 2 additional vessels reported struck in Hormuz (unverified); Brent ~$95–96/bbl rising; Houthi Bab al-Mandab blockade Day 131 — Saudi crude halted 124th day; Lebanon ceasefire Day 161 holds (4,386/12,407); no new US KIA (26 total; 865 wounded); OPEC+ meeting Nov 29 (CENTCOM; UKMTO; Al Jazeera; Nov 27 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

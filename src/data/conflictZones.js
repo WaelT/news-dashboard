@@ -2678,6 +2678,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 272', 'diplomatic stalemate day 116', '82nd consecutive day', 'brent 95', 'qatari omani mediation', 'houthi blockade day 130', 'lebanon ceasefire day 160', '3 us carriers'],
   },
+  {
+    id: 308,
+    name: 'Day 273 — Kuwait Vital-Site Drone Attack; 2 Italian Technicians Killed; Iran Denies',
+    lat: 29.37,
+    lng: 47.97,
+    type: 'escalation',
+    icon: 'attack',
+    description: 'Day 273 (Nov 27): A drone struck a Kuwaiti military vital site (air defense detection station), killing 2 Italian Rheinmetall technicians and injuring 4 (1 Kuwaiti, 2 Italian, 1 Pakistani). Kuwait MoD: "unlawful Iranian aggression." Italy FM confirmed technicians were maintaining NATO-compatible air-defence detection antennas. Iran denied involvement; FM Araghchi offered to cooperate in investigation. CENTCOM has not attributed attack. EU chief von der Leyen called for more pressure on Tehran. 2 more vessels reported struck in Strait of Hormuz (unverified). Brent ~$95–96/bbl rising. Diplomatic stalemate Day 117 — 83rd consecutive day without confirmed land-based exchanges. Houthi Bab al-Mandab blockade Day 131 — Saudi crude halted 124th day. Lebanon ceasefire Day 161 holds (4,386/12,407). No new US KIA (26 total; 865 wounded). OPEC+ meeting Nov 29. (Kuwait MoD; Italy FM Tajani; The New Arab; CBS News; EU Commission; CENTCOM; Al Jazeera; Nov 27 2026)',
+    status: 'active',
+    keywords: ['day 273', 'kuwait drone attack', 'italian technicians killed', 'rheinmetall', 'iran denies', 'eu pressure', 'diplomatic stalemate day 117', 'brent 95-96', 'houthi blockade day 131', 'lebanon ceasefire day 161', 'opec plus november 29'],
+  },
 ];
 
 export default conflictZones;

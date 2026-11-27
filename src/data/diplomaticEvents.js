@@ -4174,6 +4174,13 @@ const diplomaticEvents = [
     status: 'stalled',
     detail: 'Day 272 (Nov 26) — The diplomatic stalemate entered its 116th day, with Iran\'s reopening conditions for the Strait of Hormuz still unaccepted by Washington. Qatari and Omani mediators remain engaged but no breakthrough reported. Iran continues to describe the Strait as closed to unauthorized traffic. CENTCOM maintains ~3 US carrier strike groups in theater at maximum readiness. Brent ~$95/bbl. IRGC/CENTCOM diplomatic pause Day 116 — 82nd consecutive day without confirmed land-based kinetic exchanges. Houthi Bab al-Mandab blockade Day 130 — Saudi crude via Red Sea halted 123rd consecutive day. Lebanon ceasefire Day 160 holds (4,386/12,407). No new US KIA (26 total; 865 wounded). (Reuters; CENTCOM; Al Jazeera; Qatar News Agency; DoD; Nov 26 2026)',
   },
+  {
+    date: '2026-11-27',
+    event: 'Day 273 — Kuwait Vital-Site Drone Attack Kills 2 Italian Technicians; Iran Denies; EU Calls for Pressure',
+    type: 'escalation',
+    status: 'escalation',
+    detail: 'Day 273 (Nov 27) — A drone attack struck a Kuwaiti military vital site (air defense detection station at Camp Mubarak area), killing 2 Italian Rheinmetall defence technicians maintaining NATO-compatible detection antennas and injuring 4 others (1 Kuwaiti, 2 Italian, 1 Pakistani). Kuwait MoD described it as "this unlawful Iranian aggression." Italy FM Tajani confirmed the technicians were maintaining air-defence detection equipment under a bilateral defense cooperation framework. Iran\'s Embassy in Rome "categorically rejects" the allegation; FM Araghchi offered to cooperate with Kuwait and Italy to identify perpetrators. CENTCOM has not issued a statement attributing the attack to Iran. EU Commission President von der Leyen called for "more pressure on Tehran." An unverified Il Sole 24 Ore report suggested Ukraine may be responsible — not corroborated by other sources. Diplomatic stalemate Day 117; IRGC/CENTCOM diplomatic pause Day 117 — 83rd consecutive day without confirmed land-based exchanges. Houthi Bab al-Mandab blockade Day 131 — Saudi crude halted 124th day. Lebanon ceasefire Day 161 holds (4,386/12,407). Brent ~$95–96/bbl rising. OPEC+ meeting Nov 29. No new US KIA (26 total; 865 wounded). (Kuwait MoD; Italy FM Tajani; The New Arab; Yahoo News; ABC News Australia; CBS News; EU Commission; Iran Embassy Rome; CENTCOM; Al Jazeera; Nov 27 2026)',
+  },
 ];
 
 export const STATUS_COLORS = {
