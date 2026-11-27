@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-26',
+  updated: '2026-11-27',
 
   current: {
     transitsPerDay: 4,
@@ -65,7 +65,7 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (25 Nov, Day 271): IRGC Navy claimed 2 oil tankers + 1 LNG carrier struck naval mines in Hormuz — vessels describ …',
+    tankerRates: 'LATEST (27 Nov, Day 273): 2 additional vessels reported struck in Hormuz per Straits.live/UKMTO (unverified as of update); IRGC claimed 2 tankers + 1 LNG carrier hit mines Nov 25 (CENTCOM denied); Brent ~$95–96/bbl rising on tanker attacks + Kuwait drone incident; ANZ: Hormuz traffic at 49% of normal; OPEC+ meeting Nov 29 …',
     trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
     iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
@@ -73,7 +73,7 @@ export const hormuzData = {
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 26 (Day 272, Bab al-Mandab blockade Day 130): Saudi crude via Red Sea halted 123rd consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit …',
+      detail: 'Nov 27 (Day 273, Bab al-Mandab blockade Day 131): Saudi crude via Red Sea halted 124th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit; Houthi claim on Ras Tanura refinery Nov 27 — unverified …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 26 (Day 272): UKMTO total vessels attacked 107 (confirmed); IRGC additionally claimed 2 oil tankers + 1 LNG carrier hit mines Nov 25 (unconfirmed by UKMTO); IRGC total mine claims since Nov 19 ~10 incidents …',
+      detail: 'Nov 27 (Day 273): UKMTO total vessels attacked 107 confirmed; 2 additional vessels reported struck in Hormuz Nov 27 (Straits.live — unverified by UKMTO as of update); IRGC total mine-strike claims since Nov 19 ~12 incidents; Omani mediators still engaged in Hormuz reopening talks …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 26 (Day 272): Brent ~$95/bbl; diplomatic stalemate Day 116; Japan and South Korea importers continue Cape of Good Hope rerouting; Iran vowed "every means" to counter US blockade Nov 24; IRGC claimed LNG carrier + 2 tankers hit mines Nov 25 (CENTCOM denied) …',
+      detail: 'Nov 27 (Day 273): Brent ~$95–96/bbl rising; diplomatic stalemate Day 117; Japan and South Korea continue Cape of Good Hope rerouting; ANZ: Hormuz traffic at 49% of normal; OPEC+ meeting Nov 29; 2 additional vessels reported struck in Hormuz Nov 27 (unverified); Iran denied Kuwait vital-site drone attack that killed 2 Italian technicians …',
     },
   ],
 };
