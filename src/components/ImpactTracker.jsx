@@ -34,7 +34,7 @@ const DEFAULT_CASUALTIES = {
   yemen: { killed: 2361, wounded: 5890 },
   iraq: { killed: 180, wounded: 757 },
   uae: { killed: 16, wounded: 246 },
-  kuwait: { killed: 15, wounded: 314 },
+  kuwait: { killed: 15, wounded: 315 },
   bahrain: { killed: 4, wounded: 59 },
   qatar: { killed: 18, wounded: 91 },
   saudi: { killed: 31, wounded: 473 },
@@ -46,6 +46,7 @@ const DEFAULT_CASUALTIES = {
   france: { killed: 3, wounded: 9 },
   philippines: { killed: 2, wounded: 0 },
   azerbaijan: { killed: 0, wounded: 4 },
+  italy: { killed: 2, wounded: 2 },
 };
 
 function formatNum(n) {

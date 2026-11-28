@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T12:00:00.000Z",
+  "updatedAt": "2026-11-28T18:00:00.000Z",
   "source": "Wikipedia, Al Jazeera, HRANA, Reuters, CENTCOM, DoD DCAS",
   "casualties": {
     "iran": {
@@ -40,7 +40,7 @@
     },
     "kuwait": {
       "killed": 15,
-      "wounded": 314
+      "wounded": 315
     },
     "palestine": {
       "killed": 14,
@@ -77,6 +77,10 @@
     "azerbaijan": {
       "killed": 0,
       "wounded": 4
+    },
+    "italy": {
+      "killed": 2,
+      "wounded": 2
     }
   }
 }
