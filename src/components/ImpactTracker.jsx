@@ -46,7 +46,6 @@ const DEFAULT_CASUALTIES = {
   france: { killed: 3, wounded: 9 },
   philippines: { killed: 2, wounded: 0 },
   azerbaijan: { killed: 0, wounded: 4 },
-  italy: { killed: 2, wounded: 2 },
 };
 
 function formatNum(n) {
