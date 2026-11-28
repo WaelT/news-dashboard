@@ -406,6 +406,8 @@ const casualtyTimeline = [
   { date: '2026-11-26', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
   // Day 273: Iran accused of deadly drone attack on Kuwaiti vital site (air defense detection station) — 2 Italian Rheinmetall technicians killed, 4 injured (1 Kuwaiti, 2 Italian, 1 Pakistani); Iran denies; CENTCOM attribution unconfirmed; Italian nationals not counted against Kuwait total; no new confirmed battle deaths from other fronts; Lebanon ceasefire Day 161 holds (4,386/12,407); Houthi Bab al-Mandab blockade Day 131; no new US KIA (26 total; 865 wounded); all figures trajectory-based; Wikipedia scrape failed (network) (Kuwait MoD; Italy FM; The New Arab; CBS News; CENTCOM; Al Jazeera; Nov 27 2026)
   { date: '2026-11-27', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
+  // Day 274: US disabled M/V Pacific Archer (Palau-flagged bulk carrier) in Gulf of Oman — 6th ship disabled since blockade resumed; Kuwait summoned Iran's ambassador (formal protest); Italy filed UN complaint over killing of 2 Italian technicians; Iran vows to break US blockade; CENTCOM: 158 ships redirected; no new confirmed battle deaths; Lebanon ceasefire Day 162 holds (4,386/12,407); Houthi Bab al-Mandab blockade Day 132; no new US KIA (26 total; 865 wounded); all figures trajectory-based; Wikipedia scrape failed (network) (Al Jazeera; CBS News; Iran International; CENTCOM; Nov 28 2026)
+  { date: '2026-11-28', iran: 3831, lebanon: 4386, israel: 73, usa: 26, uae: 15, iraq: 128, kuwait: 15 },
 ];
 
 export default casualtyTimeline;

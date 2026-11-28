@@ -4120,6 +4120,13 @@ const groundOps = {
       event: "Day 273 — Diplomatic stalemate Day 117 — 83rd consecutive day without confirmed IRGC land-based exchanges; 2 additional vessels reported struck in Hormuz (unverified); Brent ~$95–96/bbl rising; Houthi Bab al-Mandab blockade Day 131 — Saudi crude halted 124th day; Lebanon ceasefire Day 161 holds (4,386/12,407); no new US KIA (26 total; 865 wounded); OPEC+ meeting Nov 29 (CENTCOM; UKMTO; Al Jazeera; Nov 27 2026)",
       type: 'ceasefire',
     },
+    {
+      date: '2026-11-28',
+      lat: 23.6,
+      lng: 59.5,
+      event: "Day 274 — US CENTCOM disabled M/V Pacific Archer (Palau-flagged bulk carrier) in Gulf of Oman — 6th ship disabled since blockade resumed; Kuwait summoned Iran's ambassador (formal protest); Italy filed UN complaint over 2 Italian technicians killed Nov 27; Iran vows to break US blockade; 158 ships redirected (CENTCOM/Al Jazeera); IRGC/CENTCOM pause Day 118 — 84th consecutive day; Houthi Bab al-Mandab blockade Day 132; Lebanon ceasefire Day 162 holds (4,386/12,407); Brent ~$94–96/bbl; OPEC+ meeting Nov 29 (Al Jazeera; CBS News; Iran International; CENTCOM; Nov 28 2026)",
+      type: 'ceasefire',
+    },
   ],
 };
 

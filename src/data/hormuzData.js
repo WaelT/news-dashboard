@@ -40,7 +40,7 @@
 //          RFE/RL/CBS News/NPR (June 3 2026 — US House passes War Powers resolution 215-208; bipartisan rebuke of Trump Iran war authority)
 //          Al Jazeera/NPR/Arab News/Washington Post (June 3 2026 — IRGC drones strike Kuwait Intl Airport: 1 killed (Indian citizen), 63 injured; BDF intercepts 3 Iranian BMs; CENTCOM self-defense strikes Qeshm; Brent ~$97-101/bbl)
 export const hormuzData = {
-  updated: '2026-11-27',
+  updated: '2026-11-28',
 
   current: {
     transitsPerDay: 4,
@@ -65,15 +65,15 @@ export const hormuzData = {
     minesFound: 12,
     minelayersDestroyed: 18,
     insuranceSurge: '+700% (war-risk premiums peaked at 60× pre-crisis for new coverage; hull + P&I war risk 8× pre-war …',
-    tankerRates: 'LATEST (27 Nov, Day 273): 2 additional vessels reported struck in Hormuz per Straits.live/UKMTO (unverified as of update …',
-    trumpUltimatum: 'LATEST (15 Nov): the United Kingdom Maritime Trade Operations (UKMTO) said it had received a report from Indian shipping authorities of an attack on an eastbound oil tanker transiting the Persian Gulf before entering the Strait of Hormuz',
+    tankerRates: 'LATEST (28 Nov, Day 274): US CENTCOM disabled M/V Pacific Archer (Palau-flagged bulk carrier) in Gulf of Oman — 6th commercial vessel disabled since blockade resumed; CENTCOM: 158 ships redirected total; Iran vows to break blockade; Brent ~$94–96/bbl ahead of OPEC+ Nov 29 meeting …',
+    trumpUltimatum: 'LATEST (28 Nov): CENTCOM precision munitions struck the stern of M/V Pacific Archer (Palau-flagged bulk carrier) attempting to depart Bandar Abbas; no crew injuries; Kuwait summoned Iran\'s ambassador over Nov 27 vital-site drone attack killing 2 Italian technicians; Italy filed UN complaint; Trump: war victory "whenever I want it"',
     iranThreat: '14 Nov: the Iranian Navy reported that an oil tanker had struck a naval mine in the eastern Strait of Hormuz and caught fire',
   },
 
   disruptions: [
     {
       country: 'Saudi Arabia',
-      detail: 'Nov 27 (Day 273, Bab al-Mandab blockade Day 131): Saudi crude via Red Sea halted 124th consecutive day since July 26; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit; Houthi claim on Ras Tanura refinery Nov 27 — unverified …',
+      detail: 'Nov 28 (Day 274, Bab al-Mandab blockade Day 132): Saudi crude via Red Sea halted 125th consecutive day since July 26; Kuwait summoned Iran\'s ambassador over drone attack on vital site; Saudi Bahri 4-tanker Hormuz coordinated transit (Nov 10, US Navy escort) remains latest confirmed authorized transit; OPEC+ meeting Nov 29 — expected to hold output targets steady …',
     },
     {
       country: 'Iraq',
@@ -85,11 +85,11 @@ export const hormuzData = {
     },
     {
       country: 'Oman',
-      detail: 'Nov 27 (Day 273): UKMTO total vessels attacked 107 confirmed; 2 additional vessels reported struck in Hormuz Nov 27 (Straits.live — unverified by UKMTO as of update); IRGC total mine-strike claims since Nov 19 ~12 incidents; Omani mediators still engaged in Hormuz reopening talks …',
+      detail: 'Nov 28 (Day 274): UKMTO total vessels attacked 107 confirmed; M/V Pacific Archer disabled by CENTCOM in Gulf of Oman (not a UKMTO-reported attack — vessel disabled as blockade enforcement); IRGC total mine-strike claims since Nov 19 ~12 incidents; Omani mediators still engaged in Hormuz reopening talks; Italy filed UN complaint over Kuwait technician deaths …',
     },
     {
       country: 'Asia',
-      detail: 'Nov 27 (Day 273): Brent ~$95–96/bbl rising; diplomatic stalemate Day 117; Japan and South Korea continue Cape of Good Hope rerouting; ANZ: Hormuz traffic at 49% of normal; OPEC+ meeting Nov 29; 2 additional vessels reported struck in Hormuz Nov 27 (unverified) …',
+      detail: 'Nov 28 (Day 274): Brent ~$94–96/bbl ahead of OPEC+ Nov 29 meeting; OPEC+ expected to hold output targets steady amid Iran war uncertainty; Japan and South Korea continue Cape of Good Hope rerouting; ANZ: Hormuz traffic at 49% of normal; 158 ships redirected per CENTCOM; diplomatic stalemate Day 118 continues …',
     },
   ],
 };

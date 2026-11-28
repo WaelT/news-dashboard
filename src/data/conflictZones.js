@@ -2689,6 +2689,17 @@ const conflictZones = [
     status: 'active',
     keywords: ['day 273', 'kuwait drone attack', 'italian technicians killed', 'rheinmetall', 'iran denies', 'eu pressure', 'diplomatic stalemate day 117', 'brent 95-96', 'houthi blockade day 131', 'lebanon ceasefire day 161', 'opec plus november 29'],
   },
+  {
+    id: 309,
+    name: 'Day 274 — US Disables M/V Pacific Archer; Blockade Enforcement Continues',
+    lat: 23.6,
+    lng: 59.5,
+    type: 'naval',
+    icon: 'naval',
+    description: 'Day 274 (Nov 28): CENTCOM aircraft disabled M/V Pacific Archer (Palau-flagged bulk carrier) in the Gulf of Oman after the vessel attempted to leave Bandar Abbas in breach of the US naval blockade; precision munitions struck the stern disabling propulsion; no injuries to civilian crew — the 6th commercial vessel disabled since the blockade resumed. Kuwait formally summoned Iran\'s ambassador over the Nov 27 drone attack; Italy lodged a UN complaint over 2 Italian technicians killed. Iran vowed to break the US blockade; CENTCOM confirmed 158 ships redirected since blockade began. IRGC/CENTCOM pause Day 118 — 84th consecutive day without confirmed land-based exchanges. Houthi Bab al-Mandab blockade Day 132. Lebanon ceasefire Day 162 holds (4,386/12,407). Brent ~$94–96/bbl ahead of OPEC+ Nov 29 meeting. No new US KIA (26 total; 865 wounded). (Al Jazeera; CBS News; Iran International; CENTCOM; Nov 28 2026)',
+    status: 'active',
+    keywords: ['day 274', 'pacific archer disabled', 'gulf of oman', 'blockade enforcement', 'kuwait summons ambassador', 'italy un complaint', '158 ships redirected', 'diplomatic pause day 118', 'brent 94-96', 'houthi blockade day 132', 'lebanon ceasefire day 162', 'opec november 29'],
+  },
 ];
 
 export default conflictZones;
